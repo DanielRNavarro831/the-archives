@@ -1,0 +1,28 @@
+{
+ "_readme": "Hand corrections for the Compendium. moveRuling: ruling id -> glossary title it belongs under (e.g. \"rr-50\": \"Bonus Attack\"). Ruling ids are in each ruling's link (#/ruling/<id>). See data/compendium-report.json for where every ruling was placed and why.",
+ "moveRuling": {
+  "forum-103": "Obstacles",
+  "forum-22": "Obstacles",
+  "forum-56": "Obstacles",
+  "forum-28": "Obstacles",
+  "forum-69": "Damage Cards",
+  "forum-71": "Damage",
+  "forum-82": "Abilities",
+  "forum-94": "Ability Queue",
+  "forum-93": "Ability Queue",
+  "forum-85": "Ability Queue",
+  "forum-104": "Ability Queue",
+  "forum-30": "Ability Queue",
+  "forum-75": "Actions",
+  "forum-58": "Dice Modification",
+  "forum-96": "Koiogran Turn",
+  "rr-96": "Setup",
+  "rr-95": "Setup",
+  "rr-63": "Device",
+  "rr-66": "Attack",
+  "rr-71": "Attack",
+  "rr-72": "Attack",
+  "rr-88": "Damage Cards",
+  "rr-93": "Dice Modification"
+ }
+}

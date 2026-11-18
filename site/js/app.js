@@ -223,6 +223,7 @@
       <div class="a">${r.a.map(para).join("")}</div>
       ${answeredBy(r)}
       <div class="cite">
+        ${opts.noRef ? "" : refLink(refFor(r.id))}
         <span>${forum ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`}</span>
         ${copyButton("#/ruling/" + r.id)}
         ${reportLink(`Ruling ${r.id} (${sourceLabel(r)}): ${plainIcons(r.q).slice(0, 120)}`, "#/ruling/" + r.id)}
@@ -516,7 +517,7 @@
       <div class="crumbs"><a href="#/rules">Rules</a> › ${esc(r.section)}</div>
       <div class="page-head"><div>
         <h1>${esc(r.title)} ${r.icons.map((i) => iconHtml(i.slice(1, -1))).join(" ")}</h1>
-        <p class="muted">${sourceLink(r)} · ${copyButton("#/rule/" + r.id)} · ${reportLink(`Rule: ${r.title} (${sourceLabel(r)})`, "#/rule/" + r.id)}</p></div></div>
+        <p class="muted">${refFor(r.id + "#0") ? `${refLink(refFor(r.id + "#0").split(".")[0])} in the Compendium · ` : ""}${sourceLink(r)} · ${copyButton("#/rule/" + r.id)} · ${reportLink(`Rule: ${r.title} (${sourceLabel(r)})`, "#/rule/" + r.id)}</p></div></div>
       <article class="panel rule-body">${r.blocks.map((b) => blockHtml(b)).join("")}</article>
       ${related.length ? `<h2 class="section-title">Related rulings</h2>${related.map((x) => rulingHtml(x)).join("")}` : ""}
       <p class="muted" style="margin-top:22px">
@@ -656,6 +657,65 @@
       }).join("")}`;
   }
 
+  // ---------- Compendium: everything in one numbered document ----------
+  const COMP = DB.compendium || { sections: [], refs: {} };
+  const SECTION_BY_N = Object.fromEntries(COMP.sections.map((s) => [s.n, s]));
+  const refFor = (key) => COMP.refs[key];                          // "rr-50" or "boost#3" -> "22.7"
+  const refLink = (ref) => ref ? `<a class="sec-ref" href="#/s/${ref}" title="Compendium reference">§${ref}</a>` : "";
+  const parseRef = (s) => { const m = String(s || "").trim().match(/^§?\s*(\d{1,3})(?:\.(\d{1,3}))?$/); return m ? { n: +m[1], p: m[2] ? +m[2] : null } : null; };
+
+  function compItemHtml(sec, it) {
+    if (it.kind === "heading") return blockHtml(RULES[it.ref].blocks[it.block]);
+    const num = `<a class="pnum" id="p${it.p}" href="#/s/${sec.n}.${it.p}" title="Link to §${sec.n}.${it.p}">${sec.n}.${it.p}</a>`;
+    if (it.kind === "rule") return `<div class="cpara">${num}<div class="ctext">${blockHtml(RULES[it.ref].blocks[it.block])}</div></div>`;
+    if (it.kind === "ruling") return `<div class="cpara">${num}<div class="ctext">${rulingHtml(RULINGS[it.ref], { noRef: true })}</div></div>`;
+    if (it.kind === "erratum") return `<div class="cpara">${num}<div class="ctext">${errataHtml(ERRATA[it.ref])}</div></div>`;
+    return "";
+  }
+
+  function viewCompendium(params) {
+    setTitle("Compendium");
+    const groups = [];
+    COMP.sections.forEach((s) => {
+      let g = groups.find((x) => x.name === s.group);
+      if (!g) groups.push((g = { name: s.group, items: [] }));
+      g.items.push(s);
+    });
+    const counts = (s) => s.items.filter((i) => i.kind === "ruling").length;
+    return `
+      <div class="page-head"><div><h1>Compendium</h1>
+        <p class="muted">The Rules Reference, FAQ, XWA rules-team answers and errata in one document, grouped by topic.
+        Every paragraph has a reference number, so it can be cited exactly: <b>§22.4</b> is section 22, paragraph 4.
+        Text is reproduced word for word from the sources.</p></div></div>
+      <div class="filters">
+        <form id="goto-form" class="goto"><label for="goto">Go to §</label>
+          <input id="goto" class="filter-input" inputmode="decimal" placeholder="e.g. 22.4" autocomplete="off"></form>
+        <a class="chip" href="compendium.txt" download>Download as plain text</a>
+        <span class="muted small">Numbers can change when the source documents are updated, so cite them with the edition.</span>
+      </div>
+      ${groups.map((g) => `<h2 class="section-title">${esc(g.name)}</h2>
+        <div class="az comp-toc">${g.items.map((s) => `<a href="#/s/${s.n}"><span class="secn">§${s.n}</span> ${esc(s.title)}${counts(s) ? ` <span class="muted">· ${counts(s)} ruling${counts(s) > 1 ? "s" : ""}</span>` : ""}</a>`).join("")}</div>`).join("")}`;
+  }
+
+  function viewCompSection(refStr) {
+    const ref = parseRef(refStr);
+    const sec = ref && SECTION_BY_N[ref.n];
+    if (!sec) return viewNotFound("§" + refStr);
+    setTitle(`§${sec.n} ${sec.title}`);
+    const rule = sec.rule && RULES[sec.rule];
+    const prev = SECTION_BY_N[sec.n - 1], next = SECTION_BY_N[sec.n + 1];
+    const nav = `<p class="muted comp-nav">${prev ? `← <a href="#/s/${prev.n}">§${prev.n} ${esc(prev.title)}</a>` : ""}
+        ${next ? `<span style="float:right"><a href="#/s/${next.n}">§${next.n} ${esc(next.title)}</a> →</span>` : ""}</p>`;
+    return `
+      <div class="crumbs"><a href="#/compendium">Compendium</a> › ${esc(sec.group)}</div>
+      <div class="page-head"><div>
+        <h1><span class="secn">§${sec.n}</span> ${esc(sec.title)} ${rule ? rule.icons.map((i) => iconHtml(i.slice(1, -1))).join(" ") : ""}</h1>
+        <p class="muted">${rule ? `${sourceLink(rule)} · <a href="#/rule/${rule.id}">Rule page</a> · ` : ""}${copyButton("#/s/" + sec.n)}</p></div></div>
+      ${nav}
+      <article class="panel rule-body comp">${sec.items.map((it) => compItemHtml(sec, it)).join("")}</article>
+      ${nav}`;
+  }
+
   function viewErrataEntry(id) {
     const e = ERRATA[id];
     if (!e) return viewNotFound(id);
@@ -696,10 +756,24 @@
       case "errata-entry": html = viewErrataEntry(parts[1]); break;
       case "search": html = viewSearch(params); break;
       case "about": html = viewAbout(); break;
+      case "compendium": html = viewCompendium(params); break;
+      case "s": html = viewCompSection(parts[1]); break;
       default: html = viewNotFound(parts.join(" "));
     }
     main.innerHTML = html;
     if (after) after();
+    // #/s/22.4 -> scroll to and highlight paragraph 4
+    if (parts[0] === "s") {
+      const ref = parseRef(parts[1]);
+      const el = ref && ref.p && document.getElementById("p" + ref.p);
+      if (el) {
+        const row = el.closest(".cpara");
+        row.classList.add("target");
+        setTimeout(() => row.scrollIntoView({ block: "center" }), 0);
+        document.querySelectorAll(".nav a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/compendium"));
+        return;
+      }
+    }
     document.querySelectorAll(".nav a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + (parts[0] || "")));
     const top = document.getElementById("topsearch-input");
     if (parts[0] === "search") top.value = params.get("q") || ""; else if (document.activeElement !== top) top.value = "";
@@ -709,15 +783,26 @@
 
   function goSearch(q) {
     q = q.trim();
+    // typing "§22.4" (or "22.4") jumps straight to that Compendium paragraph
+    const ref = parseRef(q);
+    if (ref && /§|\./.test(q) && SECTION_BY_N[ref.n]) { location.hash = `#/s/${ref.n}${ref.p ? "." + ref.p : ""}`; return; }
     if (q) location.hash = "#/search?q=" + encodeURIComponent(q);
   }
 
   document.addEventListener("submit", (ev) => {
+    if (ev.target.id === "goto-form") {
+      ev.preventDefault();
+      const ref = parseRef(ev.target.querySelector("input").value);
+      if (ref && SECTION_BY_N[ref.n]) location.hash = `#/s/${ref.n}${ref.p ? "." + ref.p : ""}`;
+      else ev.target.querySelector("input").setCustomValidity("No section with that number"), ev.target.reportValidity();
+      return;
+    }
     const input = ev.target.querySelector("input[type=search]");
     if (!input) return;
     ev.preventDefault();
     goSearch(input.value);
   });
+  document.addEventListener("input", (ev) => { if (ev.target.id === "goto") ev.target.setCustomValidity(""); });
 
   document.addEventListener("click", (ev) => {
     const jump = ev.target.closest("[data-jump]");

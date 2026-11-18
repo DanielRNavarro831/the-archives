@@ -128,3 +128,20 @@ python tools/build_data.py
 `data/forum/match-report.json` lists which cards each answer was attached to. Fix any
 mistakes in `data/forum-curated.json` (`addCards` / `removeCards` per thread number, or
 `skipThreads` to leave a thread out), then run `python tools/build_data.py` again.
+
+## The Compendium (numbered reference)
+
+`python tools/build_data.py` also builds the Compendium: the Rules Reference glossary and
+appendices, FAQ, forum answers and errata in one document, one numbered section per topic.
+Every paragraph gets a reference like **§22.4** (section 22, paragraph 4). The site shows it
+under **Compendium**, and `site/compendium.txt` is the same thing as plain text.
+
+- Rulings are placed under a topic automatically: FAQ headings first (e.g. "Locking" → Lock),
+  otherwise the most specific glossary term the question uses.
+  `data/compendium-report.json` shows where each ruling went and why.
+- To move a ruling, add it to `data/compendium-curated.json`, e.g. `"rr-66": "Attack"`.
+- Numbers can shift when a new Rules Reference adds entries, so cite them with the edition.
+
+**Using it with an AI assistant without made-up rulings:** give it `compendium.txt` and ask
+it to answer *only* with § numbers, then look those numbers up on the site ("Go to §" box,
+or type §22.4 in the search box) and read the actual text yourself.

@@ -351,3 +351,23 @@ h1, h2, .brand-text { letter-spacing: .04em; }
 .who span { font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding: 1px 7px; border-radius: 999px; background: var(--bg-2); color: var(--muted); }
 .who.lead { border-color: var(--accent); }
 .who.lead span { background: var(--accent); color: var(--accent-ink); }
+
+/* ---------------- Compendium ---------------- */
+.secn { font-family: var(--font-head); color: var(--accent); }
+.comp-toc a { display: flex; gap: .5em; align-items: baseline; }
+.comp-toc .secn { min-width: 3.2em; font-size: .9em; }
+.goto { display: flex; align-items: center; gap: 8px; }
+.goto label { font-family: var(--font-head); color: var(--muted); white-space: nowrap; }
+.goto .filter-input { width: 120px; }
+.rule-body.comp { max-width: none; }
+.cpara { display: grid; grid-template-columns: 3.6em minmax(0, 1fr); gap: 10px; align-items: start; border-radius: 8px; padding: 2px 6px; margin: 0 -6px; }
+.cpara .pnum { font-family: var(--font-head); font-size: .82rem; color: var(--muted); padding-top: .2em; text-align: right; text-decoration: none; }
+.cpara .pnum:hover { color: var(--accent); }
+.cpara .ctext > p { margin: 0 0 10px; }
+.cpara .ctext .ruling, .cpara .ctext .erratum { margin: 4px 0 12px; box-shadow: none; }
+.cpara.target { background: color-mix(in srgb, var(--accent) 14%, transparent); outline: 1px solid color-mix(in srgb, var(--accent) 50%, transparent); }
+.rule-body.comp > h3 { margin-left: calc(3.6em + 10px); }
+.comp-nav { overflow: hidden; margin: 14px 0; }
+a.sec-ref { font-family: var(--font-head); font-size: .8rem; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-radius: 6px; padding: 0 6px; text-decoration: none; }
+a.sec-ref:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); }
+@media (max-width: 600px) { .cpara { grid-template-columns: 2.9em minmax(0, 1fr); gap: 6px; } .rule-body.comp > h3 { margin-left: 0; } }

@@ -1,0 +1,634 @@
+{
+ "rr-1": {
+  "section": "Arc",
+  "why": "faq heading"
+ },
+ "rr-2": {
+  "section": "Arc",
+  "why": "faq heading"
+ },
+ "rr-3": {
+  "section": "Arc",
+  "why": "faq heading"
+ },
+ "rr-4": {
+  "section": "Arc",
+  "why": "faq heading"
+ },
+ "rr-5": {
+  "section": "Deploy",
+  "why": "faq heading"
+ },
+ "rr-6": {
+  "section": "Upgrade Cards",
+  "why": "faq heading"
+ },
+ "rr-7": {
+  "section": "Lock",
+  "why": "faq heading"
+ },
+ "rr-8": {
+  "section": "Lock",
+  "why": "faq heading"
+ },
+ "rr-9": {
+  "section": "Lock",
+  "why": "faq heading"
+ },
+ "rr-10": {
+  "section": "Lock",
+  "why": "faq heading"
+ },
+ "rr-11": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-12": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-13": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-14": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-15": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-16": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-17": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-18": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-19": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-20": {
+  "section": "Objects",
+  "why": "faq heading"
+ },
+ "rr-21": {
+  "section": "Dice Modification",
+  "why": "faq heading"
+ },
+ "rr-22": {
+  "section": "Dice Modification",
+  "why": "faq heading"
+ },
+ "rr-23": {
+  "section": "Dice Modification",
+  "why": "faq heading"
+ },
+ "rr-24": {
+  "section": "Damage Cards",
+  "why": "faq heading"
+ },
+ "rr-25": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-26": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-27": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-28": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-29": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-30": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-31": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-32": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-33": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-34": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-35": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-36": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-37": {
+  "section": "Actions",
+  "why": "faq heading"
+ },
+ "rr-38": {
+  "section": "Attack",
+  "why": "faq heading"
+ },
+ "rr-39": {
+  "section": "Attack",
+  "why": "faq heading"
+ },
+ "rr-40": {
+  "section": "Attack",
+  "why": "faq heading"
+ },
+ "rr-41": {
+  "section": "Attack",
+  "why": "faq heading"
+ },
+ "rr-42": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-43": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-44": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-45": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-46": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-47": {
+  "section": "Ability Queue",
+  "why": "faq heading"
+ },
+ "rr-48": {
+  "section": "Device",
+  "why": "terms"
+ },
+ "rr-49": {
+  "section": "Range Bonus",
+  "why": "terms"
+ },
+ "rr-50": {
+  "section": "Bonus Attack",
+  "why": "terms"
+ },
+ "rr-51": {
+  "section": "Bonus Attack",
+  "why": "terms"
+ },
+ "rr-52": {
+  "section": "Ion",
+  "why": "terms"
+ },
+ "rr-53": {
+  "section": "Charges",
+  "why": "terms"
+ },
+ "rr-54": {
+  "section": "Charges",
+  "why": "terms"
+ },
+ "rr-55": {
+  "section": "Cloak",
+  "why": "terms"
+ },
+ "rr-56": {
+  "section": "Charges",
+  "why": "terms"
+ },
+ "rr-57": {
+  "section": "Turret Arc",
+  "why": "terms"
+ },
+ "rr-58": {
+  "section": "Linked Action",
+  "why": "terms"
+ },
+ "rr-59": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "rr-60": {
+  "section": "Barrel Roll",
+  "why": "terms"
+ },
+ "rr-61": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "rr-62": {
+  "section": "Launch",
+  "why": "terms"
+ },
+ "rr-63": {
+  "section": "Device",
+  "why": "curated"
+ },
+ "rr-64": {
+  "section": "Device",
+  "why": "terms"
+ },
+ "rr-65": {
+  "section": "Stress",
+  "why": "terms"
+ },
+ "rr-66": {
+  "section": "Attack",
+  "why": "curated"
+ },
+ "rr-67": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "rr-68": {
+  "section": "Difficulty",
+  "why": "terms"
+ },
+ "rr-69": {
+  "section": "Other Rulings",
+  "why": "none"
+ },
+ "rr-70": {
+  "section": "Focus",
+  "why": "terms"
+ },
+ "rr-71": {
+  "section": "Attack",
+  "why": "curated"
+ },
+ "rr-72": {
+  "section": "Attack",
+  "why": "curated"
+ },
+ "rr-73": {
+  "section": "Strain",
+  "why": "terms"
+ },
+ "rr-74": {
+  "section": "Stress",
+  "why": "terms"
+ },
+ "rr-75": {
+  "section": "Bullseye Arc",
+  "why": "terms"
+ },
+ "rr-76": {
+  "section": "Device",
+  "why": "terms"
+ },
+ "rr-77": {
+  "section": "Shields",
+  "why": "terms"
+ },
+ "rr-78": {
+  "section": "Dice Modification",
+  "why": "terms"
+ },
+ "rr-79": {
+  "section": "Evade",
+  "why": "terms"
+ },
+ "rr-80": {
+  "section": "Dice Modification",
+  "why": "terms"
+ },
+ "rr-81": {
+  "section": "Bonus Attack",
+  "why": "terms"
+ },
+ "rr-82": {
+  "section": "Bullseye Arc",
+  "why": "terms"
+ },
+ "rr-83": {
+  "section": "Fully Execute",
+  "why": "terms"
+ },
+ "rr-84": {
+  "section": "Difficulty",
+  "why": "terms"
+ },
+ "rr-85": {
+  "section": "Tractor",
+  "why": "terms"
+ },
+ "rr-86": {
+  "section": "Engagement Phase",
+  "why": "terms"
+ },
+ "rr-87": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "rr-88": {
+  "section": "Damage Cards",
+  "why": "curated"
+ },
+ "rr-89": {
+  "section": "Damage",
+  "why": "terms"
+ },
+ "rr-90": {
+  "section": "Engagement Phase",
+  "why": "terms"
+ },
+ "rr-91": {
+  "section": "Barrel Roll",
+  "why": "terms"
+ },
+ "rr-92": {
+  "section": "Coordinate",
+  "why": "terms"
+ },
+ "rr-93": {
+  "section": "Dice Modification",
+  "why": "curated"
+ },
+ "rr-94": {
+  "section": "First Player",
+  "why": "terms"
+ },
+ "rr-95": {
+  "section": "Setup",
+  "why": "curated"
+ },
+ "rr-96": {
+  "section": "Setup",
+  "why": "curated"
+ },
+ "rr-97": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "rr-98": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "rr-99": {
+  "section": "Attack Range",
+  "why": "terms"
+ },
+ "rr-100": {
+  "section": "Bullseye Arc",
+  "why": "terms"
+ },
+ "rr-101": {
+  "section": "Attack",
+  "why": "terms"
+ },
+ "rr-102": {
+  "section": "Other Rulings",
+  "why": "none"
+ },
+ "rr-103": {
+  "section": "Attack Range",
+  "why": "terms"
+ },
+ "rr-104": {
+  "section": "Drop",
+  "why": "terms"
+ },
+ "rr-105": {
+  "section": "Other Rulings",
+  "why": "none"
+ },
+ "rr-106": {
+  "section": "Structure",
+  "why": "terms"
+ },
+ "rr-107": {
+  "section": "Attacks",
+  "why": "faq heading"
+ },
+ "rr-108": {
+  "section": "Attacks",
+  "why": "faq heading"
+ },
+ "rr-109": {
+  "section": "Attacks",
+  "why": "faq heading"
+ },
+ "rr-110": {
+  "section": "Attacks",
+  "why": "faq heading"
+ },
+ "rr-111": {
+  "section": "Movement",
+  "why": "faq heading"
+ },
+ "rr-112": {
+  "section": "Turret Arc Indicators",
+  "why": "faq heading"
+ },
+ "forum-106": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "forum-104": {
+  "section": "Ability Queue",
+  "why": "curated"
+ },
+ "forum-103": {
+  "section": "Obstacles",
+  "why": "curated"
+ },
+ "forum-101": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "forum-100": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "forum-96": {
+  "section": "Koiogran Turn",
+  "why": "curated"
+ },
+ "forum-99": {
+  "section": "Limited",
+  "why": "terms"
+ },
+ "forum-95": {
+  "section": "Strain",
+  "why": "terms"
+ },
+ "forum-94": {
+  "section": "Ability Queue",
+  "why": "curated"
+ },
+ "forum-93": {
+  "section": "Ability Queue",
+  "why": "curated"
+ },
+ "forum-92": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "forum-85": {
+  "section": "Ability Queue",
+  "why": "curated"
+ },
+ "forum-82": {
+  "section": "Abilities",
+  "why": "curated"
+ },
+ "forum-77": {
+  "section": "Damage Cards",
+  "why": "terms"
+ },
+ "forum-80": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "forum-75": {
+  "section": "Actions",
+  "why": "curated"
+ },
+ "forum-68": {
+  "section": "End Phase",
+  "why": "terms"
+ },
+ "forum-70": {
+  "section": "Firing Arc",
+  "why": "terms"
+ },
+ "forum-69": {
+  "section": "Damage Cards",
+  "why": "curated"
+ },
+ "forum-71": {
+  "section": "Damage",
+  "why": "curated"
+ },
+ "forum-73": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "forum-66": {
+  "section": "Deploy",
+  "why": "terms"
+ },
+ "forum-65": {
+  "section": "Attack",
+  "why": "terms"
+ },
+ "forum-61": {
+  "section": "Player Order",
+  "why": "terms"
+ },
+ "forum-60": {
+  "section": "Range",
+  "why": "terms"
+ },
+ "forum-59": {
+  "section": "Damage",
+  "why": "terms"
+ },
+ "forum-58": {
+  "section": "Dice Modification",
+  "why": "curated"
+ },
+ "forum-56": {
+  "section": "Obstacles",
+  "why": "curated"
+ },
+ "forum-57": {
+  "section": "Stress",
+  "why": "terms"
+ },
+ "forum-55": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "forum-52": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "forum-48": {
+  "section": "Player Order",
+  "why": "terms"
+ },
+ "forum-44": {
+  "section": "Lock",
+  "why": "terms"
+ },
+ "forum-41": {
+  "section": "Overlap",
+  "why": "terms"
+ },
+ "forum-39": {
+  "section": "Strain",
+  "why": "terms"
+ },
+ "forum-38": {
+  "section": "Attack Range",
+  "why": "terms"
+ },
+ "forum-37": {
+  "section": "Tractor",
+  "why": "terms"
+ },
+ "forum-36": {
+  "section": "Ion",
+  "why": "terms"
+ },
+ "forum-32": {
+  "section": "Pilot Ability",
+  "why": "terms"
+ },
+ "forum-31": {
+  "section": "Dice Modification",
+  "why": "terms"
+ },
+ "forum-30": {
+  "section": "Ability Queue",
+  "why": "curated"
+ },
+ "forum-28": {
+  "section": "Obstacles",
+  "why": "curated"
+ },
+ "forum-24": {
+  "section": "Focus",
+  "why": "terms"
+ },
+ "forum-22": {
+  "section": "Obstacles",
+  "why": "curated"
+ },
+ "forum-17": {
+  "section": "Bomb",
+  "why": "terms"
+ },
+ "forum-7": {
+  "section": "Coordinate",
+  "why": "terms"
+ }
+}
