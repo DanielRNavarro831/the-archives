@@ -1,0 +1,314 @@
+{
+ "forum-106": {
+  "topic": "Torkil Mux sending Corran Horn to Initiative 0.",
+  "cards": [
+   "Torkil Mux — torkil-mux-hwk-290-light-freighter",
+   "Corran Horn — corran-horn-e-wing"
+  ]
+ },
+ "forum-104": {
+  "topic": "Sai + Vermeil with Thrawn interaction on coordinate",
+  "cards": [
+   "Thrawn — thrawn-crew",
+   "Major Vermeil — major-vermeil-tie-reaper",
+   "Lieutenant Sai — lieutenant-sai-lambda-class-t-4a-shuttle"
+  ]
+ },
+ "forum-103": {
+  "topic": "MG Tie and Overlapping Asteroids",
+  "cards": [
+   "Mining Guild Sentry — mining-guild-sentry-modified-tie-ln-fighter",
+   "Notched Stabilizers — notched-stabilizers"
+  ]
+ },
+ "forum-101": {
+  "topic": "Sensor Scramblers and Holo",
+  "cards": [
+   "Sensor Scramblers — sensor-scramblers-tech",
+   "\"Holo\" — holo-tie-ba-interceptor"
+  ]
+ },
+ "forum-100": {
+  "topic": "Holdo and Ferrosphere",
+  "cards": [
+   "Amilyn Holdo — amilyn-holdo-crew",
+   "Ferrosphere Paint — ferrosphere-paint-tech"
+  ]
+ },
+ "forum-96": {
+  "topic": "Interloper Turn and Precision Ion Engine interaction",
+  "cards": [
+   "Precision Ion Engines — precision-ion-engines-modification",
+   "Interloper Turn — interloper-turn-talent"
+  ]
+ },
+ "forum-99": {
+  "topic": "Razor Crest",
+  "cards": [
+   "Razor Crest — razor-crest-title",
+   "False Transponder Codes — false-transponder-codes-illicit"
+  ]
+ },
+ "forum-95": {
+  "topic": "Commandos - Deployment strain trigger",
+  "cards": [
+   "Clan Wren Commandos — clan-wren-commandos",
+   "Death Watch Commandos — death-watch-commandos",
+   "Imperial Super Commandos — imperial-super-commandos",
+   "Mandalorian Super Commandos — mandalorian-super-commandos",
+   "Nite Owl Commandos — nite-owl-commandos"
+  ]
+ },
+ "forum-94": {
+  "topic": "DFS-311 and DBS-32C",
+  "cards": [
+   "DFS-311 — dfs-311-vulture-class-droid-fighter",
+   "DFS-311 (SoC) — dfs-311-vulture-class-droid-fighter-soc",
+   "DBS-32C — dbs-32c-hyena-class-droid-bomber"
+  ]
+ },
+ "forum-93": {
+  "topic": "Weapons Systems Officer + Synchronized Console",
+  "cards": [
+   "Synchronized Console — synchronized-console-modification",
+   "Weapons Systems Officer — weapons-systems-officer-gunner"
+  ]
+ },
+ "forum-92": {
+  "topic": "Aurra Sing",
+  "cards": [
+   "Aurra Sing — aurra-sing-firespray-class-patrol-craft"
+  ]
+ },
+ "forum-85": {
+  "topic": "Chiss Engineering vs Computer-Assisted Handling",
+  "cards": [
+   "Chiss Engineering — chiss-engineering",
+   "Captain Yorr (BoE) — captain-yorr-tie-d-defender-boe",
+   "Computer-Assisted Handling — computer-assisted-handling-modification-boe"
+  ]
+ },
+ "forum-82": {
+  "topic": "Fennec Shand",
+  "cards": [
+   "Fennec Shand — fennec-shand-crew"
+  ]
+ },
+ "forum-77": {
+  "topic": "CIS durge abillity timing",
+  "cards": [
+   "Durge — durge-rogue-class-starfighter-separatist"
+  ]
+ },
+ "forum-80": {
+  "topic": "Attack Progression: Seevor v Qi'ra",
+  "cards": [
+   "Captain Seevor — captain-seevor-modified-tie-ln-fighter",
+   "Qi'ra — qira-crew"
+  ]
+ },
+ "forum-75": {
+  "topic": "Echo SL interaction with eg Afterburner/retrofitted",
+  "cards": [
+   "“Echo” (SL) — echo-tie-ph-phantom-ssl",
+   "Retrofitted Autothrusters — retrofitted-autothrusters-modification",
+   "Afterburners — afterburners-modification"
+  ]
+ },
+ "forum-68": {
+  "topic": "Overtuned Modulators + Savage Opress",
+  "cards": [
+   "Overtuned Modulators — overtuned-modulators-illicit",
+   "Savage Opress — savage-opress-crew"
+  ]
+ },
+ "forum-70": {
+  "topic": "SL Ronith Blario - \"...if you are in the attackers firing arc...\"",
+  "cards": [
+   "Ronith Blario (EoD) — ronith-blario-rz-2-a-wing-eod",
+   "Escort Fighter — escort-fighter-talent-eod"
+  ]
+ },
+ "forum-69": {
+  "topic": "Critchain multiple Hull Breach copies",
+  "cards": [
+   "Hull Breach — hull-breach"
+  ]
+ },
+ "forum-71": {
+  "topic": "Iden Versio ability",
+  "cards": [
+   "Iden Versio (BoY) — iden-versio-tie-in-interceptor-boy"
+  ]
+ },
+ "forum-73": {
+  "topic": "Strain for Scum Maul’s Pilot Ability",
+  "cards": [
+   "Maul — maul-gauntlet-fighter"
+  ]
+ },
+ "forum-66": {
+  "topic": "Coordinating a deployed ship",
+  "cards": []
+ },
+ "forum-65": {
+  "topic": "Determination and Fanatical",
+  "cards": [
+   "Determination — determination-talent-eod",
+   "Fanatical — fanatical-talent"
+  ]
+ },
+ "forum-61": {
+  "topic": "Aces High Player Order",
+  "cards": []
+ },
+ "forum-60": {
+  "topic": "Carnor Jax Ability Requirements",
+  "cards": [
+   "Carnor Jax — carnor-jax-tie-in-interceptor"
+  ]
+ },
+ "forum-59": {
+  "topic": "Damage from seismic while strutted",
+  "cards": [
+   "Seismic Charge — seismic-charge",
+   "Grappling Struts — grappling-struts-configuration",
+   "Landing Struts — landing-struts-configuration"
+  ]
+ },
+ "forum-58": {
+  "topic": "Rolling dice in batches",
+  "cards": []
+ },
+ "forum-56": {
+  "topic": "Struts and Seismic",
+  "cards": [
+   "Landing Struts — landing-struts-configuration",
+   "Grappling Struts — grappling-struts-configuration",
+   "Seismic Charge — seismic-charge"
+  ]
+ },
+ "forum-57": {
+  "topic": "Bump focus when already stressed",
+  "cards": [
+   "Contraband Cybernetics — contraband-cybernetics-illicit",
+   "Proud Tradition — proud-tradition-talent",
+   "Tycho Celchu — tycho-celchu-rz-1-a-wing"
+  ]
+ },
+ "forum-55": {
+  "topic": "Scum Cad and Remotes",
+  "cards": [
+   "Cad Bane — cad-bane-rogue-class-starfighter",
+   "Cad Bane (AaD) — cad-bane-rogue-class-starfighter-aad"
+  ]
+ },
+ "forum-52": {
+  "topic": "Republic Y-wing + Burst Laser Turret + Targeting Computer Ruling.",
+  "cards": [
+   "Intuitive Interface — intuitive-interface",
+   "Targeting Computer — targeting-computer-modification",
+   "Burst Laser Turret — burst-laser-turret-turret"
+  ]
+ },
+ "forum-48": {
+  "topic": "Klick and BLT",
+  "cards": [
+   "\"Klick\" — klick-nimbus-class-v-wing",
+   "“Klick” (SoC) — klick-nimbus-class-v-wing-soc",
+   "Burst Laser Turret — burst-laser-turret-turret"
+  ]
+ },
+ "forum-44": {
+  "topic": "Dash (Freighter for Hire) and Ahsoka crew interactions with gas clouds.",
+  "cards": [
+   "Ahsoka Tano — ahsoka-tano-crew-lar",
+   "Dash Rendar (YLF) — dash-rendar-yt-2400-light-freighter-ylf"
+  ]
+ },
+ "forum-41": {
+  "topic": "Vulture hitting a rock/debris after leaving a rock/debris",
+  "cards": [
+   "Landing Struts — landing-struts-configuration",
+   "Grappling Struts — grappling-struts-configuration"
+  ]
+ },
+ "forum-39": {
+  "topic": "Snapshot and targeting matrix",
+  "cards": [
+   "Snap Shot — snap-shot-talent",
+   "Targeting Matrix — targeting-matrix-modification"
+  ]
+ },
+ "forum-38": {
+  "topic": "intimidation",
+  "cards": [
+   "Arvel Crynyd — arvel-crynyd-rz-1-a-wing",
+   "Intimidation — intimidation-talent"
+  ]
+ },
+ "forum-37": {
+  "topic": "Grappling Struts Open and Tractor",
+  "cards": [
+   "Grappling Struts — grappling-struts-configuration"
+  ]
+ },
+ "forum-36": {
+  "topic": "Forgetting a dial while ioned",
+  "cards": []
+ },
+ "forum-32": {
+  "topic": "Rebel Lando and Loose Stabilizer",
+  "cards": [
+   "Loose Stabilizer — loose-stabilizer",
+   "Lando Calrissian — lando-calrissian-modified-yt-1300-light-freighter"
+  ]
+ },
+ "forum-31": {
+  "topic": "Targeting Matrix in Range 0",
+  "cards": [
+   "Hotshot Tail Blaster — hotshot-tail-blaster-illicit",
+   "Targeting Matrix — targeting-matrix-modification"
+  ]
+ },
+ "forum-30": {
+  "topic": "Coaxium Hyperfuel - timing of paying a cost",
+  "cards": [
+   "Coaxium Hyperfuel — coaxium-hyperfuel-illicit",
+   "Pinpoint Tractor Array — pinpoint-tractor-array",
+   "Damaged Engine — damaged-engine",
+   "Damaged Sensor Array — damaged-sensor-array"
+  ]
+ },
+ "forum-28": {
+  "topic": "Strut-Lock Override on Siege of Coruscant CIS pilots",
+  "cards": [
+   "Strut-Lock Override — strut-lock-override-configuration-soc"
+  ]
+ },
+ "forum-24": {
+  "topic": "Tracers and Targeting Matrix interaction",
+  "cards": [
+   "XX-23 S-Thread Tracers — xx-23-s-thread-tracers-missile",
+   "Targeting Matrix — targeting-matrix-modification"
+  ]
+ },
+ "forum-22": {
+  "topic": "Pattern analyzer reposition off obstacle",
+  "cards": [
+   "Pattern Analyzer — pattern-analyzer-tech"
+  ]
+ },
+ "forum-17": {
+  "topic": "Parting Gift in the End of Activation",
+  "cards": [
+   "Parting Gift — parting-gift-talent"
+  ]
+ },
+ "forum-7": {
+  "topic": "Hera LaR Coordinate ability",
+  "cards": [
+   "Hera Syndulla (LaR) — hera-syndulla-vcx-100-light-freighter-lar"
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "_readme": "documentsPage: paste the XWA's official documents download page here (leave empty for plain-text citations). 'file' is the local PDF used by the build tools; it is not published. reportForm: the Google Form behind 'Report a Problem or Ruling'; 'field' is the form question that gets pre-filled with the page the reader was on.",
+ "documentsPage": "",
+ "reportForm": {
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfh-XKDsvKUjFUT9G-BPiVY9UJvaCqx9QoULG3mGtdY6zsjEQ/viewform",
+  "field": "entry.549449734"
+ },
+ "otherDocuments": [
+  {
+   "title": "Errata (printable cards)",
+   "version": "1.8.2",
+   "effective": "2023-08-28",
+   "file": "pdfs/errata-v1.8.2.pdf"
+  }
+ ],
+ "documents": [
+  {
+   "id": "rr",
+   "title": "Rules Reference",
+   "version": "1.4.6",
+   "effective": "2023-09-15",
+   "file": "pdfs/rules-reference-v1.4.6.pdf",
+   "raw": "rules-reference-v1.4.6",
+   "sections": [
+    {
+     "id": "glossary",
+     "title": "Glossary",
+     "kind": "rules",
+     "from": 2,
+     "to": 23,
+     "introTitle": "Introduction"
+    },
+    {
+     "id": "examples",
+     "title": "Appendix: Examples",
+     "kind": "rules",
+     "from": 24,
+     "to": 29
+    },
+    {
+     "id": "errata",
+     "title": "Errata",
+     "kind": "errata",
+     "from": 30,
+     "to": 33
+    },
+    {
+     "id": "faq",
+     "title": "FAQ",
+     "kind": "faq",
+     "from": 34,
+     "to": 41
+    },
+    {
+     "id": "update",
+     "title": "Rules Reference Update 1.4",
+     "kind": "rules",
+     "from": 42,
+     "to": 42
+    },
+    {
+     "id": "squad",
+     "title": "Squad Building Appendix",
+     "kind": "rules",
+     "from": 43,
+     "to": 43,
+     "introTitle": "Squad Building"
+    },
+    {
+     "id": "huge",
+     "title": "Appendix: Huge Ships",
+     "kind": "rules",
+     "from": 44,
+     "to": 47
+    },
+    {
+     "id": "huge-faq",
+     "title": "Huge Ship FAQ",
+     "kind": "faq",
+     "from": 48,
+     "to": 48
+    },
+    {
+     "id": "environment",
+     "title": "Appendix: Environment Cards",
+     "kind": "rules",
+     "from": 49,
+     "to": 49
+    }
+   ]
+  },
+  {
+   "id": "rb",
+   "title": "Rulebook",
+   "version": "1.1.1",
+   "effective": "",
+   "file": "pdfs/rulebook-v1.1.1.pdf",
+   "raw": "rulebook-v1.1.1",
+   "sections": [
+    {
+     "id": "rulebook",
+     "title": "Rulebook",
+     "kind": "rules",
+     "from": 1,
+     "to": 24
+    }
+   ]
+  }
+ ]
+}

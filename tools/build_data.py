@@ -1,0 +1,483 @@
+"""
+Step 2 of the data pipeline: turn the extracted paragraphs into the
+database the website reads (site/data/archives.js).
+
+    python tools/build_data.py
+
+Inputs
+  data/raw/*.json            output of extract_pdf.py
+  data/sources.json          which PDF is which version, and page sections
+  data/cards-curated.json    hand-maintained card list + aliases + extra rulings
+Output
+  site/data/archives.js      window.ARCHIVES = {...}
+"""
+import json
+import re
+import unicodedata
+from pathlib import Path
+
+import forum_rulings
+import yasb_cards
+
+ROOT = Path(__file__).resolve().parent.parent
+RAW = ROOT / "data" / "raw"
+OUT = ROOT / "site" / "data" / "archives.js"
+
+FACTIONS = {
+    "rebel": "Rebel Alliance", "rebels": "Rebel Alliance",
+    "imperial": "Galactic Empire", "empire": "Galactic Empire",
+    "scum": "Scum and Villainy", "resistance": "Resistance",
+    "first order": "First Order", "republic": "Galactic Republic",
+    "separatist": "Separatist Alliance", "separatists": "Separatist Alliance",
+}
+SLOT_NAMES = {
+    "talent": "Talent", "sensor": "Sensor", "cannon": "Cannon", "turret": "Turret",
+    "torpedo": "Torpedo", "missile": "Missile", "hardpoint": "Hardpoint",
+    "crew": "Crew", "team": "Team", "astromech": "Astromech", "cargo": "Cargo",
+    "payload": "Payload", "command": "Command", "illicit": "Illicit",
+    "modification": "Modification", "title": "Title", "tech": "Tech",
+    "configuration": "Configuration", "forcepower": "Force Power",
+    "gunner": "Gunner", "tacticalrelay": "Tactical Relay", "hyperdrive": "Hyperdrive",
+}
+SLOT_BY_WORD = {v.lower(): k for k, v in SLOT_NAMES.items()}
+
+
+def slug(s):
+    s = unicodedata.normalize("NFKD", s)
+    s = re.sub(r"\{[^}]+\}", lambda m: m.group(0)[1:-1], s)
+    s = s.lower().replace("’", "").replace("'", "")
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s or "x"
+
+
+def strip_icons(s):
+    return re.sub(r"\s*\(?\{[^}]+\}(\s*(AND|,)\s*\{[^}]+\})*\)?", "", s).strip()
+
+
+def title_case(s):
+    small = {"and", "of", "the", "a", "an", "to", "in", "on", "or", "by", "from", "with", "at"}
+    words = s.lower().split()
+    out = []
+    for i, w in enumerate(words):
+        if i and w in small:
+            out.append(w)
+        else:
+            out.append(w[:1].upper() + w[1:])
+    t = " ".join(out)
+    # keep a few things uppercase
+    t = re.sub(r"\b(Id|Faq|Tie|Yt|Swx)\b", lambda m: m.group(0).upper(), t)
+    return t
+
+
+def load(name):
+    return json.loads((RAW / f"{name}.json").read_text(encoding="utf-8"))
+
+
+NOISE = re.compile(r"^(VERSION \d[\d.]*|\d{1,2})$")
+
+
+def section_for(page, sections):
+    for s in sections:
+        if s["from"] <= page <= s["to"]:
+            return s
+    return None
+
+
+# ---------------------------------------------------------------- rules
+def build_rules(paras, source, sections, rules, used_ids):
+    cur = None
+    intro_title = {s["id"]: s.get("introTitle") for s in sections}
+    last_section = None
+    for p in paras:
+        sec = section_for(p["page"], sections)
+        if not sec or sec["kind"] != "rules" or NOISE.match(p["text"]):
+            continue
+        if sec["id"] != last_section:
+            last_section = sec["id"]
+            cur = None
+            if intro_title.get(sec["id"]):
+                cur = new_rule(intro_title[sec["id"]], [], sec, source, p["page"], rules, used_ids)
+        if p["kind"] in ("h1", "h2"):
+            raw = p["text"]
+            icons = re.findall(r"\{[a-z0-9-]+\}", raw)
+            name = strip_icons(raw).rstrip(".")
+            if name.isupper() or name == name.upper():
+                name = title_case(name)
+            cur = new_rule(name, icons, sec, source, p["page"], rules, used_ids)
+            continue
+        if cur is None:
+            cur = new_rule(sec["title"], [], sec, source, p["page"], rules, used_ids)
+        kind = "h3" if p["kind"] == "h3" else ("q" if p["kind"] == "q" else "p")
+        cur["blocks"].append({"k": kind, "t": p["text"]})
+    # drop empty entries (headings that were only artwork labels)
+    return [r for r in rules if r["blocks"]]
+
+
+def new_rule(name, icons, sec, source, page, rules, used_ids):
+    rid = slug(name)
+    if rid in used_ids:
+        rid = f"{sec['id']}-{rid}"
+    n = 2
+    base = rid
+    while rid in used_ids:
+        rid = f"{base}-{n}"
+        n += 1
+    used_ids.add(rid)
+    r = {"id": rid, "title": name, "icons": icons, "section": sec["title"],
+         "sectionId": sec["id"], "source": source["id"], "page": page, "blocks": []}
+    rules.append(r)
+    return r
+
+
+# ---------------------------------------------------------------- FAQ
+def build_rulings(paras, source, sections, rulings):
+    topic = None
+    cur = None
+    for p in paras:
+        sec = section_for(p["page"], sections)
+        if not sec or sec["kind"] != "faq" or NOISE.match(p["text"]):
+            continue
+        t = p["text"]
+        if p["kind"] in ("h1", "h2"):
+            topic = title_case(strip_icons(t)) if t.isupper() else t
+            cur = None
+            continue
+        if p["kind"] == "q" or t.startswith("Q:"):
+            cur = {"id": f"{source['id']}-{len(rulings) + 1}", "source": source["id"],
+                   "section": sec["title"], "topic": topic or sec["title"],
+                   "page": p["page"], "q": re.sub(r"^Q:\s*", "", t), "a": []}
+            rulings.append(cur)
+            continue
+        if cur is None:
+            continue
+        cur["a"].append(re.sub(r"^A:\s*", "", t))
+    for r in rulings:
+        r["a"] = [a for a in r["a"] if a]
+
+
+# ---------------------------------------------------------------- errata
+def build_errata(paras, source, sections, errata):
+    category = None
+    group = None
+    cur = None
+    for p in paras:
+        sec = section_for(p["page"], sections)
+        if not sec or sec["kind"] != "errata" or NOISE.match(p["text"]):
+            continue
+        t = p["text"].lstrip(".")
+        if t.startswith("These products were released"):
+            group = "Saw's Renegades and TIE Reaper corrections"
+            continue
+        if t.startswith("This section contains the official errata"):
+            group = "Errata"
+            continue
+        if p["kind"] in ("h1", "h2"):
+            category = title_case(t)
+            cur = None
+            continue
+        if category in ("Insert Sheets", "Dials"):
+            # not tied to a single card: keep as a rule-ish errata note
+            if cur and cur.get("category") == category and not cur["names"]:
+                cur["text"].append(t)
+            else:
+                cur = {"category": category, "group": group, "names": [], "qualifier": None,
+                       "text": [t], "note": None, "page": p["page"], "source": source["id"]}
+                errata.append(cur)
+            continue
+        if t.startswith("(") and cur is not None and cur["note"] is None:
+            cur["note"] = t.strip("()").strip()
+            continue
+        m = re.match(r"^(?P<head>•?(?P<n>.+?)) (?P<rest>(?P=n) should .*)$", t) or re.match(r"^(?P<head>[•\"“A-Z0-9].*?)\s+(?P<rest>(?:Ship ability should|Pilot ability should|"
+                     r"Second section|The first sentence|The ability text|Initiative should|"
+                     r"Agility reduced|Changed the|Should|[A-Z][\w ]+ should have).*)$", t)
+        if m and (cur is None or cur["note"] is not None or not cur["text"]):
+            head, rest = m.group("head"), m.group("rest")
+            qual = None
+            qm = re.search(r"\(([^)]+)\)(?:\s*-\s*(.+))?$", head)
+            if re.search(r"\((Closed|Open|Erratic)\)$", head):
+                qm = None
+            if qm:
+                qual = qm.group(1) + (f" — {qm.group(2)}" if qm.group(2) else "")
+                head = head[:qm.start()].strip()
+            names = [n.strip(" ,") for n in re.split(r",\s*(?:and\s+)?|\s+and\s+(?=•)", head) if n.strip(" ,")]
+            names = [re.sub(r"(\S)\(", r"\1 (", n) for n in names]
+            cur = {"category": category, "group": group, "names": names, "qualifier": qual,
+                   "text": [rest], "note": None, "page": p["page"], "source": source["id"]}
+            errata.append(cur)
+        elif cur is not None and cur["note"] is None:
+            cur["text"].append(t)
+        elif t.strip() and cur is not None:
+            # a name line on its own (e.g. "Proton Torpedoes") followed by its text
+            cur = {"category": category, "group": group, "names": [t.strip()], "qualifier": None,
+                   "text": [], "note": None, "page": p["page"], "source": source["id"]}
+            errata.append(cur)
+        else:
+            cur = {"category": category, "group": group, "names": [t.strip()], "qualifier": None,
+                   "text": [], "note": None, "page": p["page"], "source": source["id"]}
+            errata.append(cur)
+    for i, e in enumerate(errata, 1):
+        e["id"] = f"errata-{i}"
+
+
+# ---------------------------------------------------------------- cards
+MENTION = re.compile(
+    r"(?P<name>(?:(?:[A-Z0-9][\w’'\-\.]*|[“\"][^”\"]+[”\"]|of|the|de|ai)\s){0,4}"
+    r"(?:[A-Z0-9][\w’'\-\.]*|[“\"][^”\"]+[”\"]))(?:’s|'s)?\s*[\[(](?P<qual>[^\])]{1,60})[\])]")
+NOT_A_NAME = {"If", "When", "While", "After", "Before", "Does", "Can", "Is", "A", "The", "Q", "Note",
+              "Step", "Yes.", "No.", "Yes", "No", "For", "This", "That", "Each", "Then", "And", "But",
+              "As", "In", "At", "Do", "the", "Unlike", "of", "How", "What"}
+ERRATA_TYPES = {"Ship Cards": "Pilot", "Upgrade Cards": "Upgrade", "Condition Cards": "Condition",
+                "Standard Loadout Cards": "Standard Loadout", "Remote Cards": "Remote"}
+
+
+def norm_quotes(s):
+    return s.replace("“", "\"").replace("”", "\"").replace("’", "'")
+
+
+def clean_name(n):
+    words = n.split()
+    while words and words[0] in NOT_A_NAME:
+        words = words[1:]
+    n = norm_quotes(" ".join(words)).strip()
+    return re.sub(r"'s$", "", n)
+
+
+def find_mentions(text):
+    out = []
+    for m in MENTION.finditer(text):
+        name = clean_name(m.group("name"))
+        qual = m.group("qual").strip()
+        # skip quoted rules phrases ("loses a shield" [or ...]) and asides like (see Attack)
+        if name.startswith("\"") and name[1:2].islower():
+            continue
+        if re.match(r"(e\.g\.|i\.e\.|see |or |and |such as|which|negative|that )", qual):
+            continue
+        if name and len(name) >= 3:
+            out.append((name, qual))
+    return out
+
+
+def parse_qualifier(qual, cur):
+    """'Rebel, {gunner}' / 'Scum, BTL-A4 Y-wing' -> factions, slot, ship, type."""
+    out = {"factions": [], "slot": None, "ship": None, "type": None, "loadout": None}
+    if not qual:
+        return out
+    if " — " in qual:
+        qual, out["loadout"] = qual.split(" — ", 1)
+    slots = re.findall(r"\{([a-z]+)\}", qual)
+    rest = re.sub(r"\{[a-z]+\}", ",", qual)
+    for part in re.split(r",|\band\b", rest):
+        w = part.strip()
+        if not w:
+            continue
+        lw = w.lower()
+        if lw in FACTIONS:
+            out["factions"].append(FACTIONS[lw])
+        elif lw in SLOT_BY_WORD:
+            slots.append(SLOT_BY_WORD[lw])
+        elif lw == "pilot":
+            out["type"] = "Pilot"
+        elif lw == "damage card":
+            out["type"] = "Damage Card"
+        else:
+            out["ship"] = cur.get("shipAliases", {}).get(w, w)
+    if slots:
+        out["slot"] = [SLOT_NAMES[s] for s in dict.fromkeys(slots) if s in SLOT_NAMES]
+        out["type"] = "Upgrade"
+    elif out["ship"] and not out["type"]:
+        out["type"] = "Pilot"
+    return out
+
+
+def card_id(name, info):
+    base = slug(name.replace("•", ""))
+    if info.get("ship"):
+        return f"{base}-{slug(info['ship'])}"
+    if info.get("slot"):
+        return f"{base}-{slug(info['slot'][0])}"
+    return base
+
+
+def add_card(cards, cid, name, info, source):
+    name = name.replace("•", "").strip()
+    c = cards.get(cid)
+    if c is None:
+        c = cards[cid] = {"id": cid, "name": name, "type": info.get("type") or "Card",
+                          "ship": info.get("ship"), "slot": info.get("slot"),
+                          "factions": [], "loadout": info.get("loadout"),
+                          "text": None, "aliases": [], "rulings": [], "errata": [],
+                          "origin": source}
+    for f in info.get("factions") or []:
+        if f not in c["factions"]:
+            c["factions"].append(f)
+    for k in ("ship", "slot", "loadout"):
+        if not c.get(k) and info.get(k):
+            c[k] = info[k]
+    if c["type"] == "Card" and info.get("type"):
+        c["type"] = info["type"]
+    return c
+
+
+def as_list(v):
+    return v if isinstance(v, list) else [v]
+
+
+def main():
+    sources = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
+    cur = json.loads((ROOT / "data" / "cards-curated.json").read_text(encoding="utf-8"))
+
+    rules, rulings, errata = [], [], []
+    used = set()
+    for src in sources["documents"]:
+        paras = load(src["raw"])
+        # drop leftovers of artwork labels such as "A T c A T c:"
+        paras = [p for p in paras
+                 if not (len(p["text"]) < 30 and all(len(w) <= 2 for w in p["text"].rstrip(":").split()))]
+        rules = build_rules(paras, src, src["sections"], rules, used)
+        build_rulings(paras, src, src["sections"], rulings)
+        build_errata(paras, src, src["sections"], errata)
+
+    cards = {}
+    ignore = {norm_quotes(k).lower() for k in cur.get("ignore", [])}
+    overrides = {norm_quotes(k).lower(): v for k, v in cur.get("mentionIds", {}).items()}
+    unmatched = {}
+
+    # 1. curated cards (names, types, aliases, plain-text matching)
+    for c in cur.get("cards", []):
+        info = {k: c.get(k) for k in ("type", "ship", "slot", "loadout")}
+        info["factions"] = c.get("factions", [])
+        cc = add_card(cards, c["id"], c["name"], info, "curated")
+        cc["aliases"] = c.get("aliases", [])
+        cc["_plain"] = c.get("plain", True)
+        cc["text"] = c.get("text")
+
+    # 2. errata entries create / attach cards
+    for e in errata:
+        e["cards"] = []
+        for n in e["names"]:
+            clean = norm_quotes(n.replace("•", "")).strip()
+            key = (clean + (f" [{e['qualifier']}]" if e["qualifier"] else "")).lower()
+            if key in ignore:
+                continue
+            ids = overrides.get(key) or overrides.get(clean.lower())
+            if ids:
+                ids = as_list(ids)
+                for i in ids:
+                    if i not in cards:
+                        add_card(cards, i, clean, {"type": ERRATA_TYPES.get(e["category"])}, "errata")
+            else:
+                info = parse_qualifier(e["qualifier"], cur)
+                info["type"] = ERRATA_TYPES.get(e["category"], info["type"])
+                slot = cur.get("errataSlots", {}).get(clean)
+                if slot and not info.get("slot"):
+                    info["slot"] = [slot]
+                cid = card_id(clean, info)
+                add_card(cards, cid, clean, info, "errata")
+                ids = [cid]
+            e["cards"].extend(ids)
+            for i in ids:
+                if e["id"] not in cards[i]["errata"]:
+                    cards[i]["errata"].append(e["id"])
+
+    # 3. bracketed mentions inside rulings: Name [Faction, Ship] / Name ({crew})
+    ruling_ids = {}
+    for r in rulings:
+        text = r["q"] + " " + " ".join(r["a"])
+        ids = set()
+        for name, qual in find_mentions(text):
+            key = norm_quotes(f"{name} [{qual}]").lower()
+            if key in ignore or name.lower() in ignore:
+                continue
+            if key in overrides:
+                ids.update(as_list(overrides[key]))
+                continue
+            info = parse_qualifier(qual, cur)
+            if not info["type"]:
+                unmatched.setdefault(f"{name} [{qual}]", []).append(r["id"])
+                continue
+            cid = card_id(name, info)
+            add_card(cards, cid, name, info, "ruling")
+            ids.add(cid)
+        ruling_ids[r["id"]] = ids
+
+    # 4. plain-text mentions of distinctive card names
+    by_name = {}
+    for c in cards.values():
+        for a in [c["name"]] + c.get("aliases", []):
+            by_name.setdefault(a, set()).add(c["id"])
+    for r in rulings:
+        text = norm_quotes(r["q"] + " " + " ".join(r["a"]))
+        ids = ruling_ids[r["id"]]
+        linked_names = {cards[i]["name"] for i in ids}
+        for name, cid_set in by_name.items():
+            if len(cid_set) != 1 or name in linked_names:
+                continue
+            c = cards[next(iter(cid_set))]
+            plain = c.get("_plain", "auto")
+            if plain is False:
+                continue
+            distinctive = len(name.split()) > 1 or name.startswith("\"") or plain is True
+            if distinctive and re.search(r"(?<![\w])" + re.escape(name) + r"(?![\w])", text):
+                ids.add(c["id"])
+        for extra in cur.get("rulingCards", {}).get(r["id"], []):
+            ids.add(extra)
+        for drop in cur.get("rulingCardsRemove", {}).get(r["id"], []):
+            ids.discard(drop)
+        r["cards"] = sorted(i for i in ids if i in cards)
+        for i in r["cards"]:
+            cards[i]["rulings"].append(r["id"])
+
+    for c in cards.values():
+        c.pop("_plain", None)
+
+    # 5. full card catalogue + text from YASB (if data/yasb/yasb-cards.json exists)
+    pdf_card_count = len(cards)
+    cards, yasb_info = yasb_cards.merge(cards, rulings, errata, cur)
+    if yasb_info:
+        (ROOT / "data" / "yasb" / "match-report.json").write_text(json.dumps(
+            {"pdfCardsWithoutYasbMatch": yasb_info["unmatched"], "matches": yasb_info["remap"]},
+            ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"YASB: {len(cards)} cards total; {pdf_card_count - len(yasb_info['unmatched'])} of "
+              f"{pdf_card_count} PDF cards matched (unmatched: {', '.join(yasb_info['unmatched']) or 'none'})")
+    # 6. official answers from the XWA rules forum (data/forum/threads.json)
+    forum, forum_info = forum_rulings.to_rulings(cards)
+    for r in forum:
+        for i in r["cards"]:
+            cards[i]["rulings"].append(r["id"])
+    rulings = rulings + forum
+    if forum_info:
+        report = {r["id"]: {"topic": r["topic"], "cards": [cards[i]["name"] + " — " + i for i in r["cards"]]} for r in forum}
+        (ROOT / "data" / "forum" / "match-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1),
+                                                                    encoding="utf-8")
+        print(f"Forum: {len(forum)} rules-team answers; {sum(1 for r in forum if not r['cards'])} not tied to a card")
+
+    for c in cards.values():
+        for k in [k for k, v in c.items() if v is None or v == [] and k not in ("rulings", "errata", "factions")]:
+            del c[k]
+
+    data = {
+        "meta": {"sources": [{k: s[k] for k in ("id", "title", "version", "effective")}
+                             for s in sources["documents"]],
+                 "otherDocuments": [{k: s[k] for k in ("title", "version", "effective")}
+                                    for s in sources.get("otherDocuments", [])],
+                 "documentsPage": sources.get("documentsPage") or None,
+                 "reportForm": sources.get("reportForm") or None,
+                 "cardData": {k: yasb_info[k] for k in ("source", "commit", "importedAt")} if yasb_info else None,
+                 "forum": forum_info},
+        "rules": rules,
+        "rulings": rulings,
+        "errata": errata,
+        "cards": sorted(cards.values(), key=lambda c: c["name"].strip("\"").lower()),
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text("// Generated by tools/build_data.py - do not edit by hand.\n"
+                   "window.ARCHIVES = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n",
+                   encoding="utf-8")
+    (ROOT / "data" / "unmatched-mentions.json").write_text(
+        json.dumps(unmatched, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"rules={len(rules)} rulings={len(rulings)} errata={len(errata)} cards={len(cards)} "
+          f"unmatched={len(unmatched)}  (unmatched list: data/unmatched-mentions.json)")
+
+
+if __name__ == "__main__":
+    main()

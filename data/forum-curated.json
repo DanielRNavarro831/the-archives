@@ -1,0 +1,43 @@
+{
+ "_readme": "Fixes for rulings imported from the XWA rules forum. Thread ids are the number at the end of the thread's link. skipThreads: thread id -> reason. addCards / removeCards: thread id -> list of card ids (from the card's page link).",
+ "skipThreads": {
+  "19": "pinned forum instructions, not a ruling",
+  "26": "question about a future CORP update, not a rules question",
+  "97": "about squad points for quick builds; the Archives does not track points"
+ },
+ "addCards": {
+  "106": ["torkil-mux-hwk-290-light-freighter", "corran-horn-e-wing"],
+  "99": ["false-transponder-codes-illicit"],
+  "95": ["clan-wren-commandos", "death-watch-commandos", "imperial-super-commandos", "mandalorian-super-commandos", "nite-owl-commandos"],
+  "94": ["dfs-311-vulture-class-droid-fighter", "dfs-311-vulture-class-droid-fighter-soc", "dbs-32c-hyena-class-droid-bomber"],
+  "93": ["weapons-systems-officer-gunner"],
+  "80": ["captain-seevor-modified-tie-ln-fighter", "qira-crew"],
+  "77": ["durge-rogue-class-starfighter-separatist"],
+  "75": ["afterburners-modification"],
+  "71": ["iden-versio-tie-in-interceptor-boy"],
+  "65": ["determination-talent-eod", "fanatical-talent"],
+  "57": ["tycho-celchu-rz-1-a-wing"],
+  "56": ["grappling-struts-configuration", "seismic-charge"],
+  "59": ["grappling-struts-configuration", "landing-struts-configuration"],
+  "48": ["klick-nimbus-class-v-wing", "klick-nimbus-class-v-wing-soc", "burst-laser-turret-turret"],
+  "44": ["dash-rendar-yt-2400-light-freighter-ylf"],
+  "41": ["grappling-struts-configuration"],
+  "38": ["intimidation-talent"],
+  "32": ["lando-calrissian-modified-yt-1300-light-freighter"],
+  "7": ["hera-syndulla-vcx-100-light-freighter-lar"]
+ },
+ "removeCards": {
+  "94": ["dbs-32c-hyena-class-droid-bomber-soc"],
+  "85": ["fine-tuned-controls"],
+  "75": ["echo-tie-ph-phantom"],
+  "70": ["ronith-blario-rz-2-a-wing"],
+  "71": ["iden-versio-tie-ln-fighter"],
+  "73": ["maul-crew", "maul-crew-mandalore"],
+  "60": ["isb-jingoist-tie-ln-fighter", "darth-vader-tie-advanced-x1-boy", "darth-vader-tie-advanced-x1-ssp"],
+  "55": ["cad-bane-rogue-class-starfighter-separatist", "cad-bane-crew"],
+  "44": ["ahsoka-tano-delta-7-aethersprite", "ahsoka-tano-rz-1-a-wing-a-wing", "ahsoka-tano-delta-7b-aethersprite-delta-7b", "ahsoka-tano-gunner", "ahsoka-tano-crew-crew",
+         "dash-rendar-yt-2400-light-freighter", "dash-rendar-yt-2400-light-freighter-scum", "dash-rendar-yt-2400-light-freighter-ylf-sl"],
+  "38": ["arvel-crynyd-rz-1-a-wing-ssp", "arvel-crynyd-rz-1-a-wing-boe"],
+  "7": ["hera-syndulla-vcx-100-light-freighter-vcx-100", "hera-syndulla-attack-shuttle", "hera-syndulla-a-sf-01-b-wing-b-wing", "hera-syndulla-rz-1-a-wing-a-wing", "hera-syndulla-crew"]
+ }
+}

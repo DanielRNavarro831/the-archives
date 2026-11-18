@@ -1,0 +1,12 @@
+# Official XWA PDFs: used locally by the build tools, not redistributed
+/pdfs/
+# Original font folder (the site only uses the copies in site/fonts/)
+/fonts/
+# Node packages (reinstall with: cd tools && npm install)
+node_modules/
+# Python / OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.claude/

@@ -1,0 +1,485 @@
+{
+ "_readme": "Hand-maintained card information. The builder finds most cards automatically; this file fixes the cases it can't. See docs/MAINTAINING.md.",
+ "shipAliases": {
+  "TIE reaper": "TIE Reaper",
+  "TIE/ba Inteceptor": "TIE/ba Interceptor",
+  "TIE/ ca Punisher": "TIE/ca Punisher"
+ },
+ "ignore": [
+  "Attack [{lock}]",
+  "Mine [and overlaps]",
+  "Snap Shot [or Foresight]",
+  "Saturation Salvo [which rerolls 2 defense dice]"
+ ],
+ "mentionIds": {
+  "Wings [Fireball]": "explosion-with-wings-fireball",
+  "Paige Tico [{crew}]": "paige-tico-gunner",
+  "Leia Organa [Resistance, {crew} {crew}]": "leia-organa-crew-resistance",
+  "Leia Organa [Rebel and Resistance {crew}]": [
+   "leia-organa-crew-rebel",
+   "leia-organa-crew-resistance"
+  ],
+  "Chewbacca [Resistance, {crew}]": "chewbacca-crew-resistance",
+  "Leia Organa": "leia-organa-crew-resistance",
+  "Count Dooku": "count-dooku-crew",
+  "R3 Astromech": "r3-astromech-astromech",
+  "Outrider": "outrider-title",
+  "Luke Skywalker": "luke-skywalker-gunner",
+  "C1-10P": "c1-10p-astromech",
+  "C1-10P (Erratic)": "c1-10p-astromech",
+  "Grappling Struts (Closed)": "grappling-struts-configuration",
+  "Grappling Struts (Open)": "grappling-struts-configuration",
+  "Landing Struts (Closed)": "landing-struts-configuration",
+  "Landing Struts (Open)": "landing-struts-configuration",
+  "Swarm tactics": "swarm-tactics-talent",
+  "Buzz Droids Swarm": "buzz-droid-swarm"
+ },
+ "errataSlots": {
+  "Advanced Sensors": "Sensor",
+  "Agent Kallus": "Crew",
+  "Asajj Ventress": "Command",
+  "BB-8": "Astromech",
+  "Composure": "Talent",
+  "Concussion Bombs": "Payload",
+  "Contraband Cybernetics": "Illicit",
+  "Death Troopers": "Crew",
+  "Dedicated": "Talent",
+  "Director Krennic": "Crew",
+  "Ferrosphere Paint": "Tech",
+  "ISB Slicer": "Crew",
+  "Lando's Millennium Falcon": "Title",
+  "Magva Yarro": "Crew",
+  "Pivot Wing": "Configuration",
+  "Protectorate Gleb": "Crew",
+  "Proton Torpedoes": "Torpedo",
+  "Saw Gerrera": "Crew",
+  "Slave I": "Title",
+  "Stalwart Captain": "Command",
+  "Static Discharge Vanes": "Modification",
+  "Tracking Torpedoes": "Torpedo",
+  "Ursa Wren": "Crew",
+  "\"Zeb\" Orrelios": "Crew"
+ },
+ "rulingCards": {
+  "rr-52": [
+   "iden-versio-tie-ln-fighter"
+  ]
+ },
+ "rulingCardsRemove": {
+  "rr-52": [
+   "iden-versio-tie-in-interceptor"
+  ]
+ },
+ "cards": [
+  {
+   "id": "leia-organa-crew-rebel",
+   "name": "Leia Organa",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ],
+   "factions": [
+    "Rebel Alliance"
+   ]
+  },
+  {
+   "id": "leia-organa-crew-resistance",
+   "name": "Leia Organa",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ],
+   "factions": [
+    "Resistance"
+   ]
+  },
+  {
+   "id": "chewbacca-crew-resistance",
+   "name": "Chewbacca",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ],
+   "factions": [
+    "Resistance"
+   ]
+  },
+  {
+   "id": "luke-skywalker-gunner",
+   "name": "Luke Skywalker",
+   "type": "Upgrade",
+   "slot": [
+    "Gunner"
+   ],
+   "factions": [
+    "Rebel Alliance"
+   ]
+  },
+  {
+   "id": "c1-10p-astromech",
+   "name": "C1-10P",
+   "type": "Upgrade",
+   "slot": [
+    "Astromech"
+   ],
+   "aliases": [
+    "C1-10P (Erratic)"
+   ]
+  },
+  {
+   "id": "grappling-struts-configuration",
+   "name": "Grappling Struts",
+   "type": "Upgrade",
+   "slot": [
+    "Configuration"
+   ]
+  },
+  {
+   "id": "landing-struts-configuration",
+   "name": "Landing Struts",
+   "type": "Upgrade",
+   "slot": [
+    "Configuration"
+   ]
+  },
+  {
+   "id": "swarm-tactics-talent",
+   "name": "Swarm Tactics",
+   "type": "Upgrade",
+   "slot": [
+    "Talent"
+   ]
+  },
+  {
+   "id": "buzz-droid-swarm",
+   "name": "Buzz Droid Swarm",
+   "type": "Remote"
+  },
+  {
+   "id": "iden-versio-tie-ln-fighter",
+   "name": "Iden Versio",
+   "type": "Pilot",
+   "ship": "TIE/ln Fighter",
+   "factions": [
+    "Galactic Empire"
+   ]
+  },
+  {
+   "id": "fearless-talent",
+   "name": "Fearless",
+   "type": "Upgrade",
+   "slot": [
+    "Talent"
+   ],
+   "plain": true
+  },
+  {
+   "id": "outmaneuver-talent",
+   "name": "Outmaneuver",
+   "type": "Upgrade",
+   "slot": [
+    "Talent"
+   ],
+   "plain": true
+  },
+  {
+   "id": "snap-shot-talent",
+   "name": "Snap Shot",
+   "type": "Upgrade",
+   "slot": [
+    "Talent"
+   ]
+  },
+  {
+   "id": "foresight-force-power",
+   "name": "Foresight",
+   "type": "Upgrade",
+   "slot": [
+    "Force Power"
+   ],
+   "plain": true
+  },
+  {
+   "id": "punishing-one-title",
+   "name": "Punishing One",
+   "type": "Upgrade",
+   "slot": [
+    "Title"
+   ]
+  },
+  {
+   "id": "hounds-tooth-title",
+   "name": "Hound's Tooth",
+   "type": "Upgrade",
+   "slot": [
+    "Title"
+   ]
+  },
+  {
+   "id": "moldy-crow-title",
+   "name": "Moldy Crow",
+   "type": "Upgrade",
+   "slot": [
+    "Title"
+   ]
+  },
+  {
+   "id": "veteran-turret-gunner-gunner",
+   "name": "Veteran Turret Gunner",
+   "type": "Upgrade",
+   "slot": [
+    "Gunner"
+   ]
+  },
+  {
+   "id": "seasoned-navigator-crew",
+   "name": "Seasoned Navigator",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ]
+  },
+  {
+   "id": "admiral-sloane-crew",
+   "name": "Admiral Sloane",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ]
+  },
+  {
+   "id": "k-2so-crew",
+   "name": "K-2SO",
+   "type": "Upgrade",
+   "slot": [
+    "Crew"
+   ],
+   "plain": true
+  },
+  {
+   "id": "bb-astromech-astromech",
+   "name": "BB Astromech",
+   "type": "Upgrade",
+   "slot": [
+    "Astromech"
+   ]
+  },
+  {
+   "id": "ion-cannon-cannon",
+   "name": "Ion Cannon",
+   "type": "Upgrade",
+   "slot": [
+    "Cannon"
+   ]
+  },
+  {
+   "id": "tractor-beam-cannon",
+   "name": "Tractor Beam",
+   "type": "Upgrade",
+   "slot": [
+    "Cannon"
+   ]
+  },
+  {
+   "id": "proton-rockets-missile",
+   "name": "Proton Rockets",
+   "type": "Upgrade",
+   "slot": [
+    "Missile"
+   ]
+  },
+  {
+   "id": "proximity-mines-payload",
+   "name": "Proximity Mines",
+   "type": "Upgrade",
+   "slot": [
+    "Payload"
+   ],
+   "aliases": [
+    "Proximity Mine"
+   ]
+  },
+  {
+   "id": "fire-control-system-sensor",
+   "name": "Fire-Control System",
+   "type": "Upgrade",
+   "slot": [
+    "Sensor"
+   ],
+   "plain": true
+  },
+  {
+   "id": "stealth-device-modification",
+   "name": "Stealth Device",
+   "type": "Upgrade",
+   "slot": [
+    "Modification"
+   ]
+  },
+  {
+   "id": "nashtah-pup-z-95-headhunter",
+   "name": "Nashtah Pup",
+   "type": "Pilot",
+   "ship": "Z-95 Headhunter"
+  },
+  {
+   "id": "padme-amidala-naboo-royal-n-1",
+   "name": "Padmé Amidala",
+   "type": "Pilot",
+   "ship": "Naboo Royal N-1"
+  },
+  {
+   "id": "ric-olie-naboo-royal-n-1",
+   "name": "Ric Olié",
+   "type": "Pilot",
+   "ship": "Naboo Royal N-1"
+  },
+  {
+   "id": "cova-nell-resistance-transport",
+   "name": "Cova Nell",
+   "type": "Pilot",
+   "ship": "Resistance Transport"
+  },
+  {
+   "id": "captain-jonus-tie-sa-bomber",
+   "name": "Captain Jonus",
+   "type": "Pilot",
+   "ship": "TIE/sa Bomber"
+  },
+  {
+   "id": "major-rhymer-tie-sa-bomber",
+   "name": "Major Rhymer",
+   "type": "Pilot",
+   "ship": "TIE/sa Bomber"
+  },
+  {
+   "id": "edon-kappehl-mg-100-starfortress",
+   "name": "Edon Kappehl",
+   "type": "Pilot",
+   "ship": "MG-100 Starfortress"
+  },
+  {
+   "id": "roark-garnet-hwk-290",
+   "name": "Roark Garnet",
+   "type": "Pilot",
+   "ship": "HWK-290"
+  },
+  {
+   "id": "scourge-skutu",
+   "name": "\"Scourge\" Skutu",
+   "type": "Pilot"
+  },
+  {
+   "id": "rush",
+   "name": "\"Rush\"",
+   "type": "Pilot"
+  },
+  {
+   "id": "ig-88b",
+   "name": "IG-88B",
+   "type": "Pilot",
+   "plain": true
+  },
+  {
+   "id": "fine-tuned-controls-delta-7-aethersprite",
+   "name": "Fine-Tuned Controls",
+   "type": "Ship Ability",
+   "ship": "Delta-7 Aethersprite",
+   "aliases": [
+    "Fine-Tune Controls"
+   ]
+  },
+  {
+   "id": "full-throttle-tie-d-defender",
+   "name": "Full Throttle",
+   "type": "Ship Ability",
+   "ship": "TIE/D Defender"
+  },
+  {
+   "id": "advanced-targeting-computer-tie-advanced-x1",
+   "name": "Advanced Targeting Computer",
+   "type": "Ship Ability",
+   "ship": "TIE Advanced x1"
+  },
+  {
+   "id": "microthrusters-starviper-class-attack-platform",
+   "name": "Microthrusters",
+   "type": "Ship Ability",
+   "ship": "StarViper-class Attack Platform",
+   "plain": true
+  },
+  {
+   "id": "pinpoint-tractor-array-nantex-class-starfighter",
+   "name": "Pinpoint Tractor Array",
+   "type": "Ship Ability",
+   "ship": "Nantex-class Starfighter"
+  },
+  {
+   "id": "explosion-with-wings-fireball",
+   "name": "Explosion with Wings",
+   "type": "Ship Ability",
+   "ship": "Fireball"
+  },
+  {
+   "id": "notched-stabilizers",
+   "name": "Notched Stabilizers",
+   "type": "Ship Ability"
+  },
+  {
+   "id": "automated-target-priority",
+   "name": "Automated Target Priority",
+   "type": "Ship Ability"
+  },
+  {
+   "id": "spacetug-tractor-array-quadrijet-transfer-spacetug",
+   "name": "Spacetug Tractor Array",
+   "type": "Ship Ability",
+   "ship": "Quadrijet Transfer Spacetug"
+  },
+  {
+   "id": "weapon-hardpoint",
+   "name": "Weapon Hardpoint",
+   "type": "Ship Ability"
+  },
+  {
+   "id": "l3-37s-programming-customized-yt-1300",
+   "name": "L3-37's Programming",
+   "type": "Ship Ability",
+   "ship": "Customized YT-1300"
+  },
+  {
+   "id": "listening-device",
+   "name": "Listening Device",
+   "type": "Condition"
+  },
+  {
+   "id": "stunned-pilot",
+   "name": "Stunned Pilot",
+   "type": "Damage Card"
+  },
+  {
+   "id": "damaged-engine",
+   "name": "Damaged Engine",
+   "type": "Damage Card"
+  },
+  {
+   "id": "elusive-talent",
+   "name": "Elusive",
+   "type": "Upgrade",
+   "slot": [
+    "Talent"
+   ],
+   "plain": true
+  }
+ ],
+ "yasbMatch": {
+  "_comment": "PDF card id -> YASB card id(s). null keeps the PDF card unlinked (e.g. renamed or 1st-edition cards).",
+  "alexandr-kallus-vcx-100": "alexsandr-kallus-vcx-100-light-freighter",
+  "spare-parts-canister-modification": "spare-parts-canisters-modification",
+  "slave-i-title": "slave-i-title",
+  "l3-37s-programming-customized-yt-1300": null,
+  "heightened-reflexes-force-power": null,
+  "admiral-holdo-crew": null,
+  "dutch-vander-btl-a4-y-wing": "dutch-vander-btl-a4-y-wing-boy"
+ }
+}

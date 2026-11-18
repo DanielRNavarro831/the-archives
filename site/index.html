@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Archives — X-Wing Rulings Reference</title>
+  <meta name="description" content="Look up X-Wing pilots, upgrades and rules, with official rulings, FAQ answers and errata from the XWA rules documents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230d1424'/%3E%3Cpath d='M8 24V8h3v16zm6.5 0V8h3v16zM21 24V8h3v16z' fill='%23e0a85a'/%3E%3C/svg%3E">
+  <script>
+    // apply saved theme before paint
+    try { var t = localStorage.getItem('archives-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="The Archives home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-text">The Archives</span>
+      </a>
+      <form class="topsearch" id="topsearch" role="search">
+        <input type="search" id="topsearch-input" placeholder="Search cards, rules, rulings…" aria-label="Search the Archives" autocomplete="off">
+      </form>
+      <nav class="nav" aria-label="Main">
+        <a href="#/cards">Cards</a>
+        <a href="#/rules">Rules</a>
+        <a href="#/faq">FAQ</a>
+        <a href="#/errata">Errata</a>
+        <a href="#/about">About</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light or dark theme" title="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <p id="footer-sources"></p>
+    <p class="muted">The Archives is an unofficial, fan-made reference. Rules text is reproduced from the X-Wing Alliance (XWA) rules documents.
+      Star Wars: X-Wing is © &amp; ™ Lucasfilm Ltd. Not affiliated with Lucasfilm, Disney, or Atomic Mass Games.
+      When in doubt, the official documents and your event's judge have the final word.</p>
+  </footer>
+
+  <script src="js/icons.js"></script>
+  <script src="data/archives.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

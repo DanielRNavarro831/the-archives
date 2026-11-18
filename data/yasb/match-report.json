@@ -1,0 +1,564 @@
+{
+ "pdfCardsWithoutYasbMatch": [
+  "l3-37s-programming-customized-yt-1300",
+  "heightened-reflexes-force-power",
+  "admiral-holdo-crew"
+ ],
+ "matches": {
+  "leia-organa-crew-rebel": [
+   "leia-organa-crew"
+  ],
+  "leia-organa-crew-resistance": [
+   "leia-organa-crew-resistance"
+  ],
+  "chewbacca-crew-resistance": [
+   "chewbacca-crew-resistance"
+  ],
+  "luke-skywalker-gunner": [
+   "luke-skywalker-gunner"
+  ],
+  "c1-10p-astromech": [
+   "c1-10p-astromech"
+  ],
+  "grappling-struts-configuration": [
+   "grappling-struts-configuration"
+  ],
+  "landing-struts-configuration": [
+   "landing-struts-configuration"
+  ],
+  "swarm-tactics-talent": [
+   "swarm-tactics-talent"
+  ],
+  "buzz-droid-swarm": [
+   "buzz-droid-swarm"
+  ],
+  "iden-versio-tie-ln-fighter": [
+   "iden-versio-tie-ln-fighter"
+  ],
+  "fearless-talent": [
+   "fearless-talent"
+  ],
+  "outmaneuver-talent": [
+   "outmaneuver-talent"
+  ],
+  "snap-shot-talent": [
+   "snap-shot-talent"
+  ],
+  "foresight-force-power": [
+   "foresight-force-power"
+  ],
+  "punishing-one-title": [
+   "punishing-one-title"
+  ],
+  "hounds-tooth-title": [
+   "hounds-tooth-title"
+  ],
+  "moldy-crow-title": [
+   "moldy-crow-title"
+  ],
+  "veteran-turret-gunner-gunner": [
+   "veteran-turret-gunner-gunner"
+  ],
+  "seasoned-navigator-crew": [
+   "seasoned-navigator-crew"
+  ],
+  "admiral-sloane-crew": [
+   "admiral-sloane-crew"
+  ],
+  "k-2so-crew": [
+   "k-2so-crew"
+  ],
+  "bb-astromech-astromech": [
+   "bb-astromech-astromech"
+  ],
+  "ion-cannon-cannon": [
+   "ion-cannon-cannon"
+  ],
+  "tractor-beam-cannon": [
+   "tractor-beam-cannon"
+  ],
+  "proton-rockets-missile": [
+   "proton-rockets-missile"
+  ],
+  "proximity-mines-payload": [
+   "proximity-mines-payload"
+  ],
+  "fire-control-system-sensor": [
+   "fire-control-system-sensor"
+  ],
+  "stealth-device-modification": [
+   "stealth-device-modification"
+  ],
+  "nashtah-pup-z-95-headhunter": [
+   "nashtah-pup-z-95-af4-headhunter"
+  ],
+  "padme-amidala-naboo-royal-n-1": [
+   "padme-amidala-naboo-royal-n-1-starfighter"
+  ],
+  "ric-olie-naboo-royal-n-1": [
+   "ric-olie-naboo-royal-n-1-starfighter"
+  ],
+  "cova-nell-resistance-transport": [
+   "cova-nell-resistance-transport"
+  ],
+  "captain-jonus-tie-sa-bomber": [
+   "captain-jonus-tie-sa-bomber"
+  ],
+  "major-rhymer-tie-sa-bomber": [
+   "major-rhymer-tie-sa-bomber"
+  ],
+  "edon-kappehl-mg-100-starfortress": [
+   "edon-kappehl-mg-100-starfortress"
+  ],
+  "roark-garnet-hwk-290": [
+   "roark-garnet-hwk-290-light-freighter"
+  ],
+  "scourge-skutu": [
+   "scourge-skutu-tie-ln-fighter"
+  ],
+  "rush": [
+   "rush-tie-vn-silencer"
+  ],
+  "ig-88b": [
+   "ig-88b-aggressor-assault-fighter"
+  ],
+  "fine-tuned-controls-delta-7-aethersprite": [
+   "fine-tuned-controls"
+  ],
+  "full-throttle-tie-d-defender": [
+   "full-throttle"
+  ],
+  "advanced-targeting-computer-tie-advanced-x1": [
+   "advanced-targeting-computer"
+  ],
+  "microthrusters-starviper-class-attack-platform": [
+   "microthrusters"
+  ],
+  "pinpoint-tractor-array-nantex-class-starfighter": [
+   "pinpoint-tractor-array"
+  ],
+  "explosion-with-wings-fireball": [
+   "explosion-with-wings"
+  ],
+  "notched-stabilizers": [
+   "notched-stabilizers"
+  ],
+  "automated-target-priority": [
+   "automated-target-priority-tech"
+  ],
+  "spacetug-tractor-array-quadrijet-transfer-spacetug": [
+   "spacetug-tractor-array"
+  ],
+  "weapon-hardpoint": [
+   "weapon-hardpoint"
+  ],
+  "listening-device": [
+   "listening-device"
+  ],
+  "stunned-pilot": [
+   "stunned-pilot"
+  ],
+  "damaged-engine": [
+   "damaged-engine"
+  ],
+  "elusive-talent": [
+   "elusive-talent"
+  ],
+  "edrio-two-tubes-t-65-x-wing": [
+   "edrio-two-tubes-t-65-x-wing"
+  ],
+  "major-vermeil-tie-reaper": [
+   "major-vermeil-tie-reaper"
+  ],
+  "captain-feroph-tie-reaper": [
+   "captain-feroph-tie-reaper"
+  ],
+  "advanced-sensors-sensor": [
+   "advanced-sensors-sensor"
+  ],
+  "pivot-wing-configuration": [
+   "pivot-wing-configuration"
+  ],
+  "proton-torpedoes-torpedo": [
+   "proton-torpedoes-torpedo"
+  ],
+  "r3-astromech-astromech": [
+   "r3-astromech-astromech"
+  ],
+  "magva-yarro-crew": [
+   "magva-yarro-crew"
+  ],
+  "saw-gerrera-crew": [
+   "saw-gerrera-crew"
+  ],
+  "death-troopers-crew": [
+   "death-troopers-crew"
+  ],
+  "director-krennic-crew": [
+   "director-krennic-crew"
+  ],
+  "isb-slicer-crew": [
+   "isb-slicer-crew"
+  ],
+  "optimized-prototype": [
+   "optimized-prototype"
+  ],
+  "countdown-tie-sk-striker": [
+   "countdown-tie-sk-striker"
+  ],
+  "duchess-tie-sk-striker": [
+   "duchess-tie-sk-striker"
+  ],
+  "pure-sabacc-tie-sk-striker": [
+   "pure-sabacc-tie-sk-striker"
+  ],
+  "vagabond-tie-sk-striker": [
+   "vagabond-tie-sk-striker"
+  ],
+  "vizier-tie-reaper": [
+   "vizier-tie-reaper"
+  ],
+  "alexandr-kallus-vcx-100": [
+   "alexsandr-kallus-vcx-100-light-freighter"
+  ],
+  "arliz-hadrassian-btl-a4-y-wing": [
+   "arliz-hadrassian-btl-a4-y-wing"
+  ],
+  "arvel-crynyd-rz-1-a-wing": [
+   "arvel-crynyd-rz-1-a-wing"
+  ],
+  "black-squadron-scout-tie-sk-striker": [
+   "black-squadron-scout-tie-sk-striker"
+  ],
+  "berwer-kret-nantex-class-starfighter": [
+   "berwer-kret-nantex-class-starfighter"
+  ],
+  "captain-oicunn-vt-49-decimator": [
+   "captain-oicunn-vt-49-decimator"
+  ],
+  "chertek-nantex-class-starfighter": [
+   "chertek-nantex-class-starfighter"
+  ],
+  "commandant-goran-tie-in-interceptor": [
+   "commandant-goran-tie-in-interceptor"
+  ],
+  "commander-malarus-xi-class-light-shuttle": [
+   "commander-malarus-xi-class-light-shuttle-xi-shuttle"
+  ],
+  "dbs-404-hyena-class-droid-bomber": [
+   "dbs-404-hyena-class-droid-bomber"
+  ],
+  "fenn-rau-sheathipede-class-shuttle": [
+   "fenn-rau-sheathipede-class-shuttle-sheathipede"
+  ],
+  "goji-btl-b-y-wing": [
+   "goji-btl-b-y-wing"
+  ],
+  "gorgol-nantex-class-starfighter": [
+   "gorgol-nantex-class-starfighter"
+  ],
+  "hera-syndulla-a-sf-01-b-wing": [
+   "hera-syndulla-a-sf-01-b-wing-b-wing"
+  ],
+  "hera-syndulla-rz-1-a-wing": [
+   "hera-syndulla-rz-1-a-wing-a-wing"
+  ],
+  "kelrodo-ai-holdout-vulture-class-droid-fighter": [
+   "kelrodo-ai-holdout-vulture-class-droid-fighter"
+  ],
+  "lapin-modified-tie-ln-fighter": [
+   "lapin-modified-tie-ln-fighter"
+  ],
+  "lieutenant-dormitz-upsilon-class-shuttle": [
+   "lieutenant-dormitz-upsilon-class-command-shuttle"
+  ],
+  "norra-wexley-arc-170": [
+   "norra-wexley-arc-170-starfighter"
+  ],
+  "odd-ball-btl-b-y-wing": [
+   "odd-ball-btl-b-y-wing-y-wing"
+  ],
+  "petranaki-arena-ace-nantex-class-starfighter": [
+   "petranaki-arena-ace-nantex-class-starfighter"
+  ],
+  "planetary-sentinel-tie-sk-striker": [
+   "planetary-sentinel-tie-sk-striker"
+  ],
+  "scarif-base-pilot-tie-reaper": [
+   "scarif-base-pilot-tie-reaper"
+  ],
+  "sun-fac-nantex-class-starfighter": [
+   "sun-fac-nantex-class-starfighter"
+  ],
+  "stalgasin-hive-guard-nantex-class-starfighter": [
+   "stalgasin-hive-guard-nantex-class-starfighter"
+  ],
+  "dutch-vander-btl-a4-y-wing": [
+   "dutch-vander-btl-a4-y-wing-boy"
+  ],
+  "iden-versio-tie-in-interceptor": [
+   "iden-versio-tie-in-interceptor-boy"
+  ],
+  "zeb-orrelios-crew": [
+   "zeb-orrelios-crew"
+  ],
+  "bb-8-astromech": [
+   "bb-8-astromech"
+  ],
+  "agent-kallus-crew": [
+   "agent-kallus-crew"
+  ],
+  "asajj-ventress-command": [
+   "asajj-ventress-command-command"
+  ],
+  "composure-talent": [
+   "composure-talent"
+  ],
+  "contraband-cybernetics-illicit": [
+   "contraband-cybernetics-illicit"
+  ],
+  "count-dooku-crew": [
+   "count-dooku-crew"
+  ],
+  "concussion-bombs-payload": [
+   "concussion-bombs-payload"
+  ],
+  "dedicated-talent": [
+   "dedicated-talent"
+  ],
+  "ferrosphere-paint-tech": [
+   "ferrosphere-paint-tech"
+  ],
+  "landos-millennium-falcon-title": [
+   "landos-millennium-falcon-title"
+  ],
+  "outrider-title": [
+   "outrider-title"
+  ],
+  "protectorate-gleb-crew": [
+   "protectorate-gleb-crew"
+  ],
+  "slave-i-title": [
+   "slave-i-title"
+  ],
+  "stalwart-captain-command": [
+   "stalwart-captain-command"
+  ],
+  "static-discharge-vanes-modification": [
+   "static-discharge-vanes-modification"
+  ],
+  "ursa-wren-crew": [
+   "ursa-wren-crew"
+  ],
+  "tracking-torpedoes-torpedo": [
+   "tracking-torpedoes-torpedo"
+  ],
+  "drea-renthal-btl-a4-y-wing": [
+   "drea-renthal-btl-a4-y-wing"
+  ],
+  "dorsal-turret-turret": [
+   "dorsal-turret-turret"
+  ],
+  "boba-fett-crew": [
+   "boba-fett-crew"
+  ],
+  "barrage-rockets-missile": [
+   "barrage-rockets-missile"
+  ],
+  "captain-kagi-lambda-class-shuttle": [
+   "captain-kagi-lambda-class-t-4a-shuttle"
+  ],
+  "petty-officer-thanisson-crew": [
+   "petty-officer-thanisson-crew"
+  ],
+  "han-solo-customized-yt-1300": [
+   "han-solo-customized-yt-1300-light-freighter-scum"
+  ],
+  "qira-crew": [
+   "qira-crew"
+  ],
+  "dash-rendar-yt-2400": [
+   "dash-rendar-yt-2400-light-freighter"
+  ],
+  "debris-gambit-talent": [
+   "debris-gambit-talent"
+  ],
+  "trick-shot-talent": [
+   "trick-shot-talent"
+  ],
+  "sabine-wren-crew": [
+   "sabine-wren-crew"
+  ],
+  "rigged-cargo-chute-illicit": [
+   "rigged-cargo-chute-illicit"
+  ],
+  "spare-parts-canister-modification": [
+   "spare-parts-canisters-modification"
+  ],
+  "saturation-salvo-talent": [
+   "saturation-salvo-talent"
+  ],
+  "han-solo-modified-yt-1300": [
+   "han-solo-modified-yt-1300-light-freighter"
+  ],
+  "wounded-pilot": [
+   "wounded-pilot"
+  ],
+  "lando-calrissian-crew": [
+   "lando-calrissian-crew"
+  ],
+  "anakin-skywalker-naboo-royal-n-1": [
+   "anakin-skywalker-naboo-royal-n-1-starfighter-n-1-starfighter"
+  ],
+  "sense-force-power": [
+   "sense-force-power"
+  ],
+  "ved-foslo-tie-advanced-x1": [
+   "ved-foslo-tie-advanced-x1"
+  ],
+  "informant-crew": [
+   "informant-crew"
+  ],
+  "r1-j5-astromech": [
+   "r1-j5-astromech"
+  ],
+  "darth-vader-crew": [
+   "darth-vader-crew"
+  ],
+  "cikatro-vizago-crew": [
+   "cikatro-vizago-crew"
+  ],
+  "grand-inquisitor-tie-advanced-v1": [
+   "grand-inquisitor-tie-advanced-v1"
+  ],
+  "han-solo-gunner": [
+   "han-solo-gunner"
+  ],
+  "autopilot-drone-escape-craft": [
+   "autopilot-drone-escape-craft"
+  ],
+  "cloaking-device-illicit": [
+   "cloaking-device-illicit"
+  ],
+  "chopper-crew": [
+   "chopper-crew-crew"
+  ],
+  "kavil-btl-a4-y-wing": [
+   "kavil-btl-a4-y-wing"
+  ],
+  "lieutenant-sai-lambda-class-shuttle": [
+   "lieutenant-sai-lambda-class-t-4a-shuttle"
+  ],
+  "airen-cracken-z-95-headhunter": [
+   "airen-cracken-z-95-af4-headhunter"
+  ],
+  "deathfire-tie-bomber": [
+   "deathfire-tie-sa-bomber"
+  ],
+  "paige-tico-gunner": [
+   "paige-tico-gunner"
+  ],
+  "genius-astromech": [
+   "genius-astromech"
+  ],
+  "foreman-proach-modified-tie-ln-fighter": [
+   "foreman-proach-modified-tie-ln-fighter"
+  ],
+  "quinn-jast-m3-a-interceptor": [
+   "quinn-jast-m3-a-interceptor"
+  ],
+  "overseer-yushyn-modified-tie-ln-fighter": [
+   "overseer-yushyn-modified-tie-ln-fighter"
+  ],
+  "plasma-torpedoes-torpedo": [
+   "plasma-torpedoes-torpedo"
+  ],
+  "r4-astromech-astromech": [
+   "r4-astromech-astromech"
+  ],
+  "emperor-palpatine-crew": [
+   "emperor-palpatine-crew"
+  ],
+  "seventh-fleet-gunner-gunner": [
+   "seventh-fleet-gunner-gunner"
+  ],
+  "predictive-shot-force-power": [
+   "predictive-shot-force-power"
+  ],
+  "kanan-jarrus-crew": [
+   "kanan-jarrus-crew"
+  ],
+  "inertial-dampeners-illicit": [
+   "inertial-dampeners-illicit"
+  ],
+  "dalan-oberos-m12-l-kimogila": [
+   "dalan-oberos-m12-l-kimogila-fighter"
+  ],
+  "c-3po-crew": [
+   "c-3po-crew"
+  ],
+  "midnight-tie-fo-fighter": [
+   "midnight-tie-fo-fighter"
+  ],
+  "hera-syndulla-attack-shuttle": [
+   "hera-syndulla-attack-shuttle"
+  ],
+  "nien-nunb-crew": [
+   "nien-nunb-crew"
+  ],
+  "electro-proton-bomb-payload": [
+   "electro-proton-bomb-payload"
+  ],
+  "kazs-fireball-title": [
+   "kazs-fireball-title"
+  ],
+  "hondo-ohnaka-crew": [
+   "hondo-ohnaka-crew"
+  ],
+  "holo-tie-ba-interceptor": [
+   "holo-tie-ba-interceptor"
+  ],
+  "kalani-tactical-relay": [
+   "kalani-tactical-relay"
+  ],
+  "thermal-detonators-payload": [
+   "thermal-detonators-payload"
+  ],
+  "cluster-mines-payload": [
+   "cluster-mines-payload"
+  ],
+  "paige-tico-mg-100-starfortress": [
+   "paige-tico-mg-100-starfortress"
+  ],
+  "deathrain-tie-ca-punisher": [
+   "deathrain-tie-ca-punisher"
+  ],
+  "delayed-fuses-modification": [
+   "delayed-fuses-modification"
+  ],
+  "trajectory-simulator-sensor": [
+   "trajectory-simulator-sensor"
+  ],
+  "marg-sabl-closure-talent": [
+   "marg-sabl-closure-talent"
+  ],
+  "ig-88d-crew": [
+   "ig-88d-crew"
+  ],
+  "corsair-refit-configuration": [
+   "corsair-refit-configuration"
+  ],
+  "heavy-laser-cannon-cannon": [
+   "heavy-laser-cannon-cannon"
+  ],
+  "cluster-missiles-missile": [
+   "cluster-missiles-missile"
+  ],
+  "targeting-battery-hardpoint": [
+   "targeting-battery-hardpoint"
+  ],
+  "boosted-scanners-cargo": [
+   "boosted-scanners-cargo"
+  ]
+ }
+}

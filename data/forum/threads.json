@@ -1,0 +1,1691 @@
+{
+ "source": "https://www.xwing.life/forum/rules-questions",
+ "fetched": "2026-11-18",
+ "threads": [
+  {
+   "id": 19,
+   "url": "https://www.xwing.life/forum/rules-questions/19",
+   "title": "RULES QUESTIONS- PLEASE READ",
+   "posts": [
+    {
+     "id": "post-38",
+     "author": null,
+     "badges": [
+      "ADMIN",
+      "OP"
+     ],
+     "date": "May 21, 2026, 4:25 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "This section of the forums are to solicit the XWA rules team for official rulings input. Please keep your questions clear and concise. If your post was not answered or removed, it is likely because it has already been answered before, or violated general conduct for posting in the forums. Please do not converse or respond to open rules forum questions. Once a member of the XWA rules team responds inside the thread, it will be locked."
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "url": "https://www.xwing.life/forum/rules-questions/109",
+   "title": "Deploying Remotes on Obstacles",
+   "posts": [
+    {
+     "id": "post-270",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 16, 2026, 5:25 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Can you deploy remotes, like buzz droids, sensor buoys, or mando commandos, onto obstacles?"
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "url": "https://www.xwing.life/forum/rules-questions/108",
+   "title": "Defender Vader and Palpatine crew",
+   "posts": [
+    {
+     "id": "post-266",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 13, 2026, 3:05 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Darth Vader — Dark Lord of the Sith",
+       "src": "https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png"
+      },
+      {
+       "alt": "Emperor Palpatine",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/emperorpalpatine.png"
+      }
+     ],
+     "text": "Can defender Vader use Palpatine crew’s force on defense dice?\nEdited: Asking on behalf of Louie"
+    },
+    {
+     "id": "post-269",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Nov 16, 2026, 12:00 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "EDITED: we'll answer soon."
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "url": "https://www.xwing.life/forum/rules-questions/107",
+   "title": "Organized Play Ruling for when time of the round ends",
+   "posts": [
+    {
+     "id": "post-264",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 9, 2026, 5:54 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "When players are playing and the end of the round timer goes off, they then finish the round that they are on.\nThere needs to be an official ruling on when that new round starts. In 1.0, a dial had to be set and that was the indicator. Its too ambiguous now. Is it after the scores are calculated for that round? Is it after charges are all re-set?"
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "url": "https://www.xwing.life/forum/rules-questions/106",
+   "title": "Torkil Mux sending Corran Horn to Initiative 0.",
+   "posts": [
+    {
+     "id": "post-261",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 6, 2026, 5:45 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "If Torkil sends Corran to I0, Curran’s pilot ability says\n“At initiative 0, you may perform a bonus primary attack…”\nWould I0 Corran be allowed to engage normally at I0, and then bonus shot? Or must the bonus shot happen first if he has someone in bullseye."
+    },
+    {
+     "id": "post-262",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Nov 7, 2026, 10:53 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Corran can perform both his normal attack and bonus attack at initiative 0, controlling player can choose in which order Corran performs those attacks."
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "url": "https://www.xwing.life/forum/rules-questions/105",
+   "title": "Torkil Mux sending Corran Horn to Initiative 0.",
+   "posts": [
+    {
+     "id": "post-260",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 6, 2026, 5:45 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "If Torkil sends Corran to I0, Curran’s pilot ability says\n“At initiative 0, you may perform a bonus primary attack…”\nWould I0 Corran be allowed to engage normally at I0, and then bonus shot? Or must the bonus shot happen first if he has someone in bullseye."
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "url": "https://www.xwing.life/forum/rules-questions/104",
+   "title": "Sai + Vermeil with Thrawn interaction on coordinate",
+   "posts": [
+    {
+     "id": "post-256",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 3, 2026, 7:06 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Thrawn",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/thrawn-legendsandrelics.png"
+      },
+      {
+       "alt": "Major Vermeil — Veteran of Scarif",
+       "src": "https://infinitearenas.com/xw2/images/pilots/majorvermeil.png"
+      },
+      {
+       "alt": "Lieutenant Sai — Death Squadron Veteran",
+       "src": "https://infinitearenas.com/xw2/images/pilots/lieutenantsai.png"
+      }
+     ],
+     "text": "When I run Thrawn on Vermeil and do the following:\nStep 1: Sai coordinates Vermeil\nStep 2: Vermeil uses the jam action\nStep 3: Vermeil activates Thrawn for a coordinate\nStep 4: Vermeil coordinates Sai\nStep 5: Sai takes a focus through coordinate\nStep 6: Sai jams through ability\nIs this the correct order in the ability q for this interaction, because the coordinate from Sai hasn't finished yet before Thrawn activates?\nWhat is the correct timing of all the triggers here? (\"after action X you can do action Y\" two of this triggers are present here, do they come at the same time and I can choose the timing or is there a certain order of it?)"
+    },
+    {
+     "id": "post-258",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Nov 4, 2026, 1:02 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Sai and Thrawn abilities trigger at the same time, the controlling player chooses the order to resolve the ability queue. This is the correct sequence:\n• Sai coordinates Vermeil\n• Vermeil performs a jam action\n• Sai's ability triggers after the coordinated ship performed the action, Thrawn's one triggers at the same time\n• controlling player chooses to resolve Thrawn first, so Vermeil coordinates Sai\n• Sai performs a focus action granted by the coordinate from Vermeil\n• controlling player now resolves Sai's ability to perfom a jam"
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "url": "https://www.xwing.life/forum/rules-questions/103",
+   "title": "MG Tie and Overlapping Asteroids",
+   "posts": [
+    {
+     "id": "post-254",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Nov 1, 2026, 1:21 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Does the Mining Guild Tie skip its action step if it landed on an asteroid?"
+    },
+    {
+     "id": "post-255",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Nov 3, 2026, 9:36 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Mining Guild Sentry",
+       "src": "https://infinitearenas.com/xw2/images/pilots/miningguildsentry.png"
+      }
+     ],
+     "text": "No, the Mining Guild TIE does not skip its Perform Action step if it overlaps an asteroid.\nOverlaps occur while a ship is moving. A maneuver is considered a type of move. When the Mining Guild TIE overlaps an obstacle, it is ignoring the obstacle with its Notched Stabilizers ability, so it does not suffer the effect of skipping its Perform Action step."
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "url": "https://www.xwing.life/forum/rules-questions/101",
+   "title": "Sensor Scramblers and Holo",
+   "posts": [
+    {
+     "id": "post-248",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 28, 2026, 4:36 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Sensor Scramblers",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/sensorscramblers.png"
+      },
+      {
+       "alt": "“Holo” — Trick of the Light",
+       "src": "https://infinitearenas.com/xw2/images/pilots/holo.png"
+      }
+     ],
+     "text": "If Holo passes an enemy lock to a ship that is cloaked with sensor scramblers, is that ship a valid target? Does the lock transfer then break, or can the SS ship never take the transfer in the first place?"
+    },
+    {
+     "id": "post-251",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 29, 2026, 2:18 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "The solution to this interaction is similar to the one related to Amylin Holdo and self-locking defined in the FAQs of the RRG.\nHolo can transfer the lock token to a friendly cloaked ship equipped with Sensor Scramblers, the token is removed from Holo and a new lock acquisition on the friendly ship is triggered but SS makes that ship a not valid target then the lock breaks."
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "url": "https://www.xwing.life/forum/rules-questions/100",
+   "title": "Holdo and Ferrosphere",
+   "posts": [
+    {
+     "id": "post-247",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 28, 2026, 4:19 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Amilyn Holdo",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/amilynholdo.png"
+      },
+      {
+       "alt": "Ferrosphere Paint",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/ferrospherepaint.png"
+      }
+     ],
+     "text": "If a Resistance ship carrying Amylin Holdo crew is locked by an enemy ship, and then uses Amylin Holdo to pass the lock token to a different friendly ship equipped with Ferrosphere Paint, assuming the Ferrosphere Paint ship is not in the bullseye arc of the ship that owns the lock token, does this trigger Ferrosphere Paint?"
+    },
+    {
+     "id": "post-250",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 29, 2026, 2:09 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, during the transfer the Lock token is removed from the ship carrying Holdo and it's assigned to the ship equipped with Ferrosphere Paint, so it gets locked by the enemy ship and Ferrosphere triggers.\nFerrosphere Paint got an errata to allow counterplay to this kind of interactions."
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "url": "https://www.xwing.life/forum/rules-questions/96",
+   "title": "Interloper Turn and Precision Ion Engine interaction",
+   "posts": [
+    {
+     "id": "post-224",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 15, 2026, 5:23 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "So... It's 4 in the morning here and sleeping is a problem, and it is rather beardy, but...\nInterloper Turn\nBefore you execute a speed 1-2 turn or speed 1-2 Koiogran Turn, if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token\nPrecision Ion Engines\nBefore you execute a speed 1-3 Koiogran Turn maneuver, you may spend 1 Charge to execute that maneuver as a Segnor's Loop maneuver instead.\nCan a TIE Defender reveal a 2 KTurn, perform an Interloper Tractor, then change the KTurn into a Sloop, OR are you forced to complete the KTurn if you Interloper Tractor first?\n(I don't think that an argument can be made for doing Precision Ion Engines before Interloper... But let me know if that is incorrect too)\nBoth abilities state \"Before you execute [a manoeuvre]\", implying they both load into the queue at the player's timing of choice.\nBoth have the same trigger requirement of a KTurn, so as long as you have the KTurn set they both have a trigger at the times of declaring the ability to enter the queue and performing the ability...\nSo I am leaning towards Yes, you can Interloper Tractor before Precision Sloop, but I think that there is a discussion to be had.\nAnd, I suppose thinking about that now, by extension, Ryad (with a 2 straight and with Ionisation 1 straights potentially turning into KTurns)? Would her ability alter this in any way?"
+    },
+    {
+     "id": "post-239",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 24, 2026, 12:02 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, this works. A TIE Defender with Interloper Turn and Precision Ion Engines can reveal a 2-Koiogran Turn and then choose to resolve Interloper Turn (gaining a tractor token) and then Precision Ion Engines (spending a charge to perform a Segnor's Loop instead of the K-turn)."
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "url": "https://www.xwing.life/forum/rules-questions/97",
+   "title": "Standard Loadouts",
+   "posts": [
+    {
+     "id": "post-225",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 17, 2026, 12:30 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Been a while since I played. I am looking for the points on the standard loadouts. I see the points document that gets updated but the points on the standard loadouts don't seem to address the load value points. What am I missing on trying to find the correct points value of \"let's say\" the new Mandalorian armed and dangerous?"
+    },
+    {
+     "id": "post-226",
+     "author": null,
+     "badges": [],
+     "date": "Oct 17, 2026, 2:04 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "If I'm reading your question correctly, the standard loadout card and upgrades are all included in the pilot's point value. If you add a non-standard loadout card, the pilot points are still there, but then they have their upgrades that you can fill to whatever the max is for that pilot. The potential point value is calculated into the pilot's points. There are Luke Skywalker standard loadout cards, but then there's also a Luke Skywalker that's just the pilot card and then enough points to fill however you want"
+    },
+    {
+     "id": "post-227",
+     "author": null,
+     "badges": [],
+     "date": "Oct 17, 2026, 2:25 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Thank you! Yeah now I remember. (It has been a long while)"
+    },
+    {
+     "id": "post-228",
+     "author": null,
+     "badges": [],
+     "date": "Oct 17, 2026, 2:26 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Are there standard loadouts for ships like the Kimoglia?"
+    },
+    {
+     "id": "post-229",
+     "author": null,
+     "badges": [],
+     "date": "Oct 17, 2026, 2:32 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "I think I know where my confusion lies.... the infinite arenas quick builds have \"pts\" that are totally different to the standard loadout points. Is there a bridge rule somewhere that I can't find that turns the infinite arenas quick builds \"pts\" to an equivalent standard loadout pts?"
+    },
+    {
+     "id": "post-238",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 23, 2026, 11:51 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Quick Build cards use Threat Value instead of standard squad building rules. They are not compatible with standard list building and they are not legal for tournament play.\nFor casual play, you can reference XWA points lists to estimate the costs of the cards involved."
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "url": "https://www.xwing.life/forum/rules-questions/99",
+   "title": "Razor Crest",
+   "posts": [
+    {
+     "id": "post-236",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 23, 2026, 12:21 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Am I right in thinking I cannot reveal a False Transponder Code card with the Razor Crest title as it now has 3 pips, making it now limited?"
+    },
+    {
+     "id": "post-237",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 23, 2026, 4:15 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Restricted and Limited are different things, we know that many builders show the Limited pips also for Restricted cards, we'll fix that soon.\nRestricted cards like False Trasponder Code can be used with Razor Crest title."
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "url": "https://www.xwing.life/forum/rules-questions/95",
+   "title": "Commandos - Deployment strain trigger",
+   "posts": [
+    {
+     "id": "post-220",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 9, 2026, 2:06 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "The timing of the strain when a commando is deployed was brought into question during a match.\nThe card reads \" After an enemy ship overlaps you, it gains 1 strain token.\"\nThe question that was asked said \" An enemy ship has to move to overlap you, so deployment should not be causing an overlap\"\nI would like clarification on this as it has implications among other devices such as connor net and proxy mines. When a commando deploys, if it is placed under an enemy ship, does that ship gain a strain? Then after the commando moves, does the same ship gain another strain?\nMines also refer to the After a ship moves through or overlaps a ship, the mine triggers. This does trigger upon drop. I have always played and ruled this same trigger works with commando's."
+    },
+    {
+     "id": "post-222",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 9, 2026, 10:11 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "The Overlap rules clearly explain how it works:\n\"After an object is placed, if it is placed underneath one or more ships, those ships resolve any effects of overlapping the object\"\nCommandos are objects so they follow this rule."
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "url": "https://www.xwing.life/forum/rules-questions/94",
+   "title": "DFS-311 and DBS-32C",
+   "posts": [
+    {
+     "id": "post-215",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 6, 2026, 4:07 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Can 311 pass 32C a Calc at the start of the engagement so that 32C can coordinate?"
+    },
+    {
+     "id": "post-221",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 9, 2026, 8:13 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "DBS-32C cannot add its ability into the queue if it does not have any Calculate token at the start of the engagement phase. Abilities with a cost can be added into the queue only if the cost can be paid at the time of the trigger."
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "url": "https://www.xwing.life/forum/rules-questions/93",
+   "title": "Weapons Systems Officer + Synchronized Console",
+   "posts": [
+    {
+     "id": "post-208",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 2, 2026, 2:22 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "If a ship (example: Anakin in the republic Y-Wing) attacks another ship with munitions, spends the lock during the attack, then gets his lock back after attacking, can he then spend his lock to pass it to a squadmate within range? Getting differing opinions in the X-Wing rules-questions discord channel. I could see it either way, but am not certain how it would be ruled."
+    },
+    {
+     "id": "post-209",
+     "author": null,
+     "badges": [],
+     "date": "Oct 2, 2026, 2:25 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "AMG answered this question in a previous post on their forum, and ruled that you could pass the lock, but it apparently doesn't follow correct rules logic from what people are saying in rules-questions\nhttps://forums.atomicmassgames.com/topic/4665-weapon-system-officer-into-sync-console/"
+    },
+    {
+     "id": "post-212",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 5, 2026, 3:10 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "EDITED: I edited my first answer because after some further checks, I found out that AMG answer is not longer valid with current ruling of the game.\nThe interaction doesn't work because the two abilities must form a queue in the Aftermath step of the attack but Synchronized Console cannot pay the cost at that moment, therefore it cannot be added into the queue."
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "url": "https://www.xwing.life/forum/rules-questions/92",
+   "title": "Aurra Sing",
+   "posts": [
+    {
+     "id": "post-207",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Oct 1, 2026, 2:02 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Aurra Sing — Bane of the Jedi",
+       "src": "https://infinitearenas.com/xw2/images/pilots/aurrasing.png"
+      }
+     ],
+     "text": "Two questions about Aurra’s pilot ability.\nCan you transfer a token to one ship, then back to the original ship?\nIf you transfer a tractor token, reposition the ship, and the ship chooses to rotate, can you pass that new stress to the other ship?"
+    },
+    {
+     "id": "post-211",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Oct 5, 2026, 2:43 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, the transfer happens simultaneously. Once you choose the two ships, you also choose the tokens to be transferred and you exchange them between the ships at the same time."
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "url": "https://www.xwing.life/forum/rules-questions/85",
+   "title": "Chiss Engineering vs Computer-Assisted Handling",
+   "posts": [
+    {
+     "id": "post-192",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Sep 23, 2026, 12:32 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "A question came up tonight about how these two abilities interact together.\nChiss Engineering: After you fully execute a speed 3-5 maneuver, you may perform a Lock action. (...other part Irrelevant for this interaction)\nComputer-Assisted Handling: After you fully execute a maneuver, you may spend 1 Charge to perform a Boost or Roll action.\nOne player using Captain Yorr executed a 3 Bank and loaded both abilities into the queue.\nAfter performing Computer-Aided Handling Boost, that player then started to measure for Lock provided by Chiss Engineering for a target that was now in range but was highly unlikely to be before the Boost.\nThe disagreement was that the check for Lock should have been made when the ability went in the queue as that would be the point of \"After you execute a manoeuvre\".\nThe counterargument was that if you have abilities in the queue, you choose what order to execute them (such as in the Rules Reference pages 36-37 for Afterburners vs Fine-Tuned Controls).\nThe counter counterargument was that at the time of entering the queue the Lock would have been out of range and so would have been an invalid target, as per the \"requirement for an ability\" on page 36, and so another target must be chosen for the lock.\nThe counter counter counterargument was made that the Lock is an action so, just like the Afterburners/Fine-Tuned interaction, you choose when those actions take place and therefore when the checks take place.\nWe chose to allow the Boost before checking for Lock.\nTo summarise, the question is which of these (or other, if there is another option that we missed) is the correct resolution:\nA\nBoth Chiss and Computer-Assist enter the queue, choose what happens first and execute that before testing the second.\nOR\nB\nBoth Chiss and Computer-Assist enter the queue, but you must check for Lock capabilities before executing either the Lock or Boost."
+    },
+    {
+     "id": "post-203",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 28, 2026, 3:36 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "The correct answer is the A, both upgrades are added to the queue and the player can choose the order to solve the abilities. Chiss Engineering doesn't have any requirement, so there is nothing to be satisfied to be added to the queue, except for the manoeuver speed."
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "url": "https://www.xwing.life/forum/rules-questions/82",
+   "title": "Fennec Shand",
+   "posts": [
+    {
+     "id": "post-185",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Sep 17, 2026, 9:58 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Fennec Shand",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/fennecshand-legendsandrelics.png"
+      }
+     ],
+     "text": "If after i move, boost or perform BR, there is no enemy ship in my BE, do i still have to spend a charge?"
+    },
+    {
+     "id": "post-199",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 24, 2026, 8:10 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, a ship can pay a cost for an effect only if the effect can be resolved, so you don't have to spend a charge if you cannot choose a ship in your bullseye."
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "url": "https://www.xwing.life/forum/rules-questions/77",
+   "title": "CIS durge abillity timing",
+   "posts": [
+    {
+     "id": "post-179",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Sep 13, 2026, 8:19 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "cis durge is on 1 hp\ngets 3hits\ndoes he have to resolve his ability after the 1st dmg card?"
+    },
+    {
+     "id": "post-198",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 24, 2026, 8:02 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "It depends on the situation:\nduring an attack, Durge's ability resolves at the Aftermath step, after all damage cards have been dealt.\nwhen damage is dealt by anything different from an attack, the ability is resolve after the first damage card. The remaining damage cards are dealt after the resolution of Durge's ability."
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "url": "https://www.xwing.life/forum/rules-questions/80",
+   "title": "Attack Progression: Seevor v Qi'ra",
+   "posts": [
+    {
+     "id": "post-182",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Sep 14, 2026, 4:35 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Seevor vs Qira: If a ship with Qira is overlapping an obstacle they have locked and they declare Seevor as the target, would Seevor ability, jamming off the lock, prevent the attack from happening?"
+    },
+    {
+     "id": "post-187",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 17, 2026, 9:08 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, Seevor's ability cannot prevent the attack because the ability triggers when the attack as already started. Seevor's triggers before rolling dice: once the lock is gone, the obstacle can obstruct the attack.\nSeevor's ability can prevent the ship equipping Qira from performing a bonus attack after the first one."
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "url": "https://www.xwing.life/forum/rules-questions/75",
+   "title": "Echo SL interaction with eg Afterburner/retrofitted",
+   "posts": [
+    {
+     "id": "post-171",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Sep 3, 2026, 5:53 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Does the ability from SL Echo work when somebody uses afterburners/retrofitted autothrusters and has the corresponding ability on their action bar?"
+    },
+    {
+     "id": "post-177",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 9, 2026, 8:00 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "“Echo” — Copycat",
+       "src": "https://infinitearenas.com/xw2/images/quickbuilds/echo-tiephphantom.png"
+      }
+     ],
+     "text": "Yes. As long as the action is on the ship's action bar, Echo's ability can resolve, even if the action was granted by another effect."
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "url": "https://www.xwing.life/forum/rules-questions/68",
+   "title": "Overtuned Modulators + Savage Opress",
+   "posts": [
+    {
+     "id": "post-158",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 23, 2026, 3:44 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Savage Opress gives a focus when you gain stress or Strain.\nOvertuned Modulators gives you a strain for left over Greens in the end phase.\nSo if you have a focus from that turn and you lose it at the end of the turn, and gain a strain from the Overtuned Modulators as it has no charge, Savage Opress can give that ship a focus. But can that ship keep the new focus from Savage Opress, as green tokens have already been removed?\nSavage Opress \"After a friendly ship in your Front Arc at range 1-2 gains a stress or strain token, you may spend 1 Force. If you do, that ship gains 1 focus token.\"\nOvertuned Modulators \"During the System Phase, if you are not stressed, you may spend 1 Charge to gain 3 calculate tokens.\nDuring the End Phase, if your Charge is inactive, for each green token you remove, gain 1 strain token.\"\nEND PHASE\nThe End Phase is the fifth phase of the round. During the End Phase, the\nfollowing occur in this order:\n• Abilities that occur \"at the start of the End Phase\" form an ability queue\nand resolve.\n• Abilities that occur \"during the End Phase\" form an ability queue and resolve.\n• All circular tokens are removed from all ships (green, then orange).\n• Each card with a recurring charge icon recovers that many charges. Each\ncard with a negative recurring charge icon loses that many charges.\nAfter this phase, the criteria for winning the game are checked. If the game\ndid not end, the Planning Phase of the next round begins."
+    },
+    {
+     "id": "post-175",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 8, 2026, 11:47 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, you can't keep the focus gained using Savage Oppress because his ability triggers during step 2 of the End Phase. This is how the chain is resolved:\n• Overtune Modulators effect triggers at step 2 of the End Phase, the player establishes how many green token will be removed and the ship with Overtuned Modulators gets a matching amount of strain tokens.\n• Savage Oppress triggers when strain tokens are assigned, replacing one strain with a focus.\n• all green tokens, including the focus gained from Savage, are removed during step 3 of the End Phase.\n• Save Oppress force charge is recovered during step 4 of the End Phase."
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "url": "https://www.xwing.life/forum/rules-questions/70",
+   "title": "SL Ronith Blario - \"...if you are in the attackers firing arc...\"",
+   "posts": [
+    {
+     "id": "post-160",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 24, 2026, 1:32 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "As Firing Arcs are defined in the RR as any arcs on the pilot card and any turret arcs.\nIf an enemy is attacking Rey with a HLC, and Ronith isnt in the bullseye for the HLC, but is in one of the enemy ships printed attack arcs, does Escort Fighter trigger?"
+    },
+    {
+     "id": "post-174",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 8, 2026, 11:42 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, Escort Fighter can be triggered if Ronith Blario is inside any of the attacker's firing arcs, even if it's outside the arc used by the attack."
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "url": "https://www.xwing.life/forum/rules-questions/69",
+   "title": "Critchain multiple Hull Breach copies",
+   "posts": [
+    {
+     "id": "post-159",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 24, 2026, 7:29 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "If a ship has two or more copies of the “Hull Breach” critical damage card and suffers further damage, does that damage trigger all Hull Breach cards simultaneously, or are the cards resolved one after another?\nIf they are triggered simultaneously, a single hit would result in as many critical effects as there are active Hull Breach cards. If the cards are resolved sequentially, however, it would only result in one critical effect, since the trigger condition for the additional Hull Breach cards would no longer apply."
+    },
+    {
+     "id": "post-173",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Sep 8, 2026, 7:09 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "The two copies of Hull Breach are added together in the queue but they resolve separately. Hull Breach effect is a replacement effect and after the first copy is resolved, there are no more normal hits to be changed into critical hits so the second copy does not apply."
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "url": "https://www.xwing.life/forum/rules-questions/71",
+   "title": "Iden Versio ability",
+   "posts": [
+    {
+     "id": "post-161",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 26, 2026, 1:33 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Iden Versio — Battle of Yavin",
+       "src": "https://infinitearenas.com/xw2/images/quickbuilds/idenversio-battleofyavin.png"
+      }
+     ],
+     "text": "Iden’s ability (interceptor) says cancel a hit or crit. If there is a hit and a crit coming in, can Iden choose to cancel the crit? Or is does it just cancel the next damage (the hit)?"
+    },
+    {
+     "id": "post-168",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 30, 2026, 1:57 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Step 5 of an Attack specifies:\n\"If the attack hits, the defender suffers damage for each uncanceled HIT and CRITICAL HIT result in the following order:\na. The defender suffers 1 HIT damage for each uncanceled HIT result. Then cancel all HIT results.\nb. The defender suffers 1 CRITICAL HIT damage for each uncanceled CRITICAL HIT result. Then cancel all CRITICAL HIT results.\"\nYou can choose when to activate Iden's ability due the fact that every damage is a sub-step of step 5."
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "url": "https://www.xwing.life/forum/rules-questions/73",
+   "title": "Strain for Scum Maul’s Pilot Ability",
+   "posts": [
+    {
+     "id": "post-165",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 27, 2026, 2:52 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Maul — Lord of the Shadow Collective",
+       "src": "https://infinitearenas.com/xw2/images/pilots/maul.png"
+      }
+     ],
+     "text": "With scum maul’s pilot ability, do both coordinated ships get a strain or only the 2nd ship ?"
+    },
+    {
+     "id": "post-167",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 30, 2026, 1:49 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Maul's ability specifies: \"EACH friendly ship you coordinate this way gains 1 strain token.\" so both of them get a strain token."
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "url": "https://www.xwing.life/forum/rules-questions/66",
+   "title": "Coordinating a deployed ship",
+   "posts": [
+    {
+     "id": "post-153",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 19, 2026, 4:38 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "During the System Phase, a ship deployed from a huge ship by executing a 5 speed straight maneuver. Later, during the Activation Phase, the huge ship performs a coordinate action. Th range of the coordinate is not modified by any other abilities, so it remains limited to range 1-2. Is the deployed ship a valid option, considering that it’s generally accepted that range 2 is equal to 5 base lengths, or a 5 speed straight maneuver (template)? Regardless of whether the ship deployed from the front or side of the huge ship, the smaller ship’s rear template guide nubs are certainly at range 2, but does the base itself need to be at (eclipsing) the edge of range 2 to be selectable?"
+    },
+    {
+     "id": "post-166",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 30, 2026, 1:47 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Ship guide nubs are not valid to measure ranges, ranges must be checked to the target ship base.\nConsidering range 2 equal to a 5 straight template is not officially accepted, the only accepted method to measure ranges is using the range ruler contained the in X Wing core pack. This method must be used due the possibility of small manufacturing differences between official templates and rules, so you need to check with an official range rules to verify that the deployed ship is a valid option.\nThird party components may be used but only if they match official components measures."
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "url": "https://www.xwing.life/forum/rules-questions/65",
+   "title": "Determination and Fanatical",
+   "posts": [
+    {
+     "id": "post-150",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 18, 2026, 3:43 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "If the ship has one shield up going into its attack and uses determination, thus becoming not shielded in the middle of missing its attack, can it use fanatical for that attack?"
+    },
+    {
+     "id": "post-151",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 19, 2026, 9:06 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "RRG FAQs (Engagement Phase and Attacking section) state: \"effects resolved during Step 2b: Modify Attack Dice and 3b: Modify Defense Dice do not use the ability queue, as they are resolved in the order described in that section of the rules reference.\"\nSo you can use Determination and sacrifice your last shield to add a focus result, then you can use Fanatical to modify that focus into hit result because the requirement is met when you activate the Talent."
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "url": "https://www.xwing.life/forum/rules-questions/61",
+   "title": "Aces High Player Order",
+   "posts": [
+    {
+     "id": "post-134",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 5, 2026, 4:23 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "How does random player order starting in round 2 work… is that still to break ties on IN for activation and shooting as normal? Or is that meant to have any IN ship if they ‘win’ to go first in player order that they will be first to move, last to shoot?"
+    },
+    {
+     "id": "post-138",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 11, 2026, 2:13 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Player order is randomized and play proceeds normally, with ships activating and engaging according to their initiative, with player order breaking any ties."
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "url": "https://www.xwing.life/forum/rules-questions/60",
+   "title": "Carnor Jax Ability Requirements",
+   "posts": [
+    {
+     "id": "post-133",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 5, 2026, 3:53 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Does Carnor Jax's ability require a ship to be at Range 0-1 AND in front arc, or Range 0-1 IN the front arc?\nSyntax for Carnor Jax is \"at range x, in arc y\" whereas other abilities like Darth Vader crew and ISB Jingoist are \"in y arc, at range x\". There are other \"at range x, and also in in arc y\"-style abilities but they are written more clearly as separate statements."
+    },
+    {
+     "id": "post-137",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 9, 2026, 2:10 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Carnor Jax's ability requires the enemy ship to be at Range 0-1 from Carnor and inside firing arc. The ability can trigger even if the enemy ship is at range 2 inside Carnor's firing arc but at range 0-1 from him."
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "url": "https://www.xwing.life/forum/rules-questions/59",
+   "title": "Damage from seismic while strutted",
+   "posts": [
+    {
+     "id": "post-132",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 4, 2026, 1:19 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Would a vulture/hyena take damage from an obstacle chosen by a seismic if they are range 0 of it with struts open?"
+    },
+    {
+     "id": "post-136",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 9, 2026, 8:25 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, the Vulture/Hyena would take damage because it's the effect of the Seismic Charge detonating, it's not coming from the obstacle."
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "url": "https://www.xwing.life/forum/rules-questions/58",
+   "title": "Rolling dice in batches",
+   "posts": [
+    {
+     "id": "post-128",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 4, 2026, 2:49 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "In the context on the original roll of dice, can you roll half the dice then the other half? Like if you’re rolling 5 dice, can you roll 3, then roll the other 2, before modding."
+    },
+    {
+     "id": "post-131",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 4, 2026, 12:03 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "The player should roll the correct number of dice all at once, if possible. If there are not have enough dice available, the player should roll all the available dice, keep track of the results, and then roll again with as many as are needed to complete the roll."
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "url": "https://www.xwing.life/forum/rules-questions/56",
+   "title": "Struts and Seismic",
+   "posts": [
+    {
+     "id": "post-126",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 4, 2026, 2:32 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "What happens to a vulture/hyena on a rock with struts open and that rock is blown up by a seismic? What happens to the config and the next turns maneuver?"
+    },
+    {
+     "id": "post-130",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 4, 2026, 11:52 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Grappling/landing struts (open) state:\nYou ignore obstacles at range 0. You cannot perform [barrel roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2 straight] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.\nWhen it is that ship's turn to activate, it reveals its dial and, because it is not at range 0 of an asteroid or debris cloud, it continues its activation normally, then flips the configuration to its Closed side at the end of its activation."
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "url": "https://www.xwing.life/forum/rules-questions/57",
+   "title": "Bump focus when already stressed",
+   "posts": [
+    {
+     "id": "post-127",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Aug 4, 2026, 2:40 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Can a ship preform the enemy overlap (bump) focus using an ability such as contraband cybernetics, Tycho, proud tradition, etc if it already has a stress token? To clarify, it didn’t do a blue move so keep a stress from the last turn."
+    },
+    {
+     "id": "post-129",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 4, 2026, 11:46 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, a ship cannot perform the overlap focus action if it is stressed, even if it has an ability that allows it to perform actions while stressed. The rules require a ship to not be stressed in order to gain the opportunity to perform the action. The \"perform actions while stressed\" abilities do not overcome this rule."
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "url": "https://www.xwing.life/forum/rules-questions/55",
+   "title": "Scum Cad and Remotes",
+   "posts": [
+    {
+     "id": "post-122",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jul 31, 2026, 12:16 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Can scum Cad Bane pilot use his pilot ability to pass tokens to a remote? Assuming the attack hits, etc."
+    },
+    {
+     "id": "post-124",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Aug 2, 2026, 10:16 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Cad Bane — Infamous Bounty Hunter",
+       "src": "https://infinitearenas.com/xw2/images/pilots/cadbane.png"
+      }
+     ],
+     "text": "No, Cad Bane cannot use his ability to transfer a token to a defending remote. By rule, remotes cannot gain any tokens except for locks, and Cad Bane's ability cannot transfer a lock token."
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "url": "https://www.xwing.life/forum/rules-questions/52",
+   "title": "Republic Y-wing + Burst Laser Turret + Targeting Computer Ruling.",
+   "posts": [
+    {
+     "id": "post-116",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jul 20, 2026, 7:29 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "I have noticed an unfortunate rise in what looks like a familiar old 1.0 TLT list with the 7 Republic Y-wings equipped with a Burst Laser Turret and Targeting Computer. I will not get into the ugly feel of broken this list has with negative game play, but question on ruling-\nThe Republic Y-wing has the following built in ability – “Intuitive Interface: After you perform an action added to your action bar by a upgrade, you may perform a calculate action.” It appears players are adding a targeting computer upgrade in order to be able to target lock, then gain a calculate.\nI would argue that since this ship already has a red target lock action, the Intuitive Interface would NOT trigger because you have not added the action, it is already on your action bar? Interested on a ruling here?\nAnd side note, this list looks like good cause for looking into limiting non-unique pilots and also upgrade cards to avoid broken lists that no one enjoys flying against…"
+    },
+    {
+     "id": "post-118",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jul 22, 2026, 12:45 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Second point under Actions in RRG specifically says:\n\"Some upgrade cards have an action bar that lists one or more actions. These actions are added to the ship’s action bar and therefore are standard actions that the ship can perform.\"\nTherefore, Targeting Computer adds a white target lock action to the Resistance Y Wing action bar and it can be used in combination with Intuitive Interface.\nFor the rest of the question we suggest to report it under Feedback & Bugs section of the forum: https://www.xwing.life/forum/feedback"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "url": "https://www.xwing.life/forum/rules-questions/48",
+   "title": "Klick and BLT",
+   "posts": [
+    {
+     "id": "post-110",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jul 4, 2026, 4:43 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "If klick uses his ability to cancel my r1 BLT, can I spend the second charge to add another dice?"
+    },
+    {
+     "id": "post-111",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jul 6, 2026, 5:28 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, you can do it but there is a difference depending on player order. Klick and BLT abilities trigger at step 2.a of the attack and:\nif the defending player goes first, Klick resolves its ability and then the attacking player resolves BLT ability.\nif the attacking player goes first, BLT ability has to be resolved before Klick and other abilities of the defending player."
+    },
+    {
+     "id": "post-112",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jul 6, 2026, 5:28 PM",
+     "deleted": false,
+     "cards": [],
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "url": "https://www.xwing.life/forum/rules-questions/44",
+   "title": "Dash (Freighter for Hire) and Ahsoka crew interactions with gas clouds.",
+   "posts": [
+    {
+     "id": "post-103",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 18, 2026, 3:47 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Ahsoka Tano",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/ahsokatano-legendsandrelics.png"
+      },
+      {
+       "alt": "Dash Rendar — Freighter for Hire",
+       "src": "https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png"
+      }
+     ],
+     "text": "If you activate the ability on Ahsoka's card but remain at range 0 of a gas cloud, is it still\npossible to take a target lock action as part of your normal perform action step? If so, would Dash maintain the target lock going into the engagement phase?\nIn addition, what would happen if an enemy tried to lock Dash on a gas cloud?\nThanks in advance."
+    },
+    {
+     "id": "post-104",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 19, 2026, 9:17 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Ahsoka Tano's ability causes the ship to ignore obstacles until the end of the Activation Phase. While Dash Rendar is ignoring obstacles, he can acquire locks and be locked even while at range 0 of a gas cloud.\nOnce the Activation phase ends and Ahsoka's ability is no longer in effect, Dash is at range 0 of the gas cloud and he can no longer acquire locks or be locked by other ships. This effect does not break any locks maintained by Dash, or any locks on Dash that are maintained by another ship."
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "url": "https://www.xwing.life/forum/rules-questions/41",
+   "title": "Vulture hitting a rock/debris after leaving a rock/debris",
+   "posts": [
+    {
+     "id": "post-98",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 14, 2026, 4:52 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "If a Vulture/Hyena leaves a rock/debris with a 2 straight and lands on another rock/debris, does it ignore the effects of overlapping since its struts are open at the time of overlap?\nSimilarly, what happens if the 2 straight is blocked and it lands on the same obstacle it tried to leave?"
+    },
+    {
+     "id": "post-99",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 15, 2026, 11:06 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "A ship will ignore the effects of overlapping an obstacle while its Grappling/Landing Struts are in the Open position.\nGrappling/Landing Struts (Open) read: \"You ignore obstacles at range 0.\"\nIf the ship is physically on top of an obstacle, by rule it is also at range 0 of that obstacle, so any effects triggered by overlapping that obstacle during the maneuver are ignored.\nOnce all steps of executing the maneuver are complete, the Grappling/Landing Struts will flip to the Closed side, the ship is no longer ignoring the obstacle, and the ship is now subject to the effects of being at Range 0 of the obstacle (but not the effects of overlapping the obstacle)."
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "url": "https://www.xwing.life/forum/rules-questions/39",
+   "title": "Snapshot and targeting matrix",
+   "posts": [
+    {
+     "id": "post-88",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 11, 2026, 5:00 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Snap shot and targeting matrix\nOpponent does a blue maneuver. Snap shot triggers.\nI spend a focus result, giving a strain at the end of the neutralize results step.\nDo they keep the strain? Or does it come off with the blue maneuver?"
+    },
+    {
+     "id": "post-92",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 11, 2026, 7:58 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Snap Shot",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/snapshot.png"
+      }
+     ],
+     "text": "Spending a result is considered a dice modification effect, so you cannot spend a result with Targeting Matrix while performing an attack with Snap Shot.\nIn the scenario where a bonus attack that does permit dice modification occurs \"after a ship executes a maneuver,\" that attack would take place after the Check Difficulty step, so the defender could not immediately remove the strain from Targeting Matrix."
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "url": "https://www.xwing.life/forum/rules-questions/38",
+   "title": "intimidation",
+   "posts": [
+    {
+     "id": "post-87",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 11, 2026, 11:00 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Intimidation says:\nWhile an enemy ship at range 0 defends, it rolls 1 fewer defense die\nDoes this also include the r0 attack of the ship that has equipped the intimidation upgrade?"
+    },
+    {
+     "id": "post-91",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 11, 2026, 7:51 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "No. A ship that is defending at attack range 0 cannot have its defense dice reduced by enemy ships.\nNote that certain abilities (like Arvel Crynyd, RZ-1 A-wing) allow a ship to treat its attack range 0 primary attacks as though they are attack range 1, which would then permit the use of abilities like Outmaneuver."
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "url": "https://www.xwing.life/forum/rules-questions/37",
+   "title": "Grappling Struts Open and Tractor",
+   "posts": [
+    {
+     "id": "post-86",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 10, 2026, 5:53 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Hello,\ncan a Vulture with open Grappling Struts be tractored away from an asteroid or debris cloud even if the maneuver template would overlap the obstacle while boosting or barrel-rolling?"
+    },
+    {
+     "id": "post-90",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 11, 2026, 7:47 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Grappling Struts (Open) instructs the ship to ignore obstacles at range 0. Since the ship is ignoring the obstacle, it can move through or overlap that obstacle while it boosts or barrel rolls, even if the template overlaps the obstacle.\nThis is the case even if the opposing player is the one moving the ship, similar to how the ship ability of the Starviper-class Attack Platform will cause that ship to use a 1 bank template when an opponent causes it to barrel roll after becoming tractored."
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "url": "https://www.xwing.life/forum/rules-questions/36",
+   "title": "Forgetting a dial while ioned",
+   "posts": [
+    {
+     "id": "post-85",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 9, 2026, 9:51 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "If an ioned ship forgets to assign a dial. Does it gain a stress and do the Stress Maneuver and retain its ion tokens? Or does it perform an ion maneuver; and if so, how is it resolved?"
+    },
+    {
+     "id": "post-89",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 11, 2026, 7:39 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "If an ionized ship forgets to assign a dial, that ship will gain a stress token and then execute a white 2 straight stress maneuver. Since it did not execute an ion maneuver, the ion tokens are not removed and the ship remains ionized."
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "url": "https://www.xwing.life/forum/rules-questions/32",
+   "title": "Rebel Lando and Loose Stabilizer",
+   "posts": [
+    {
+     "id": "post-70",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 4, 2026, 11:37 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Lando has Loose Stabilizer and does a blue bank, then adds his pilot ability to the queue first, and then Loose Stabilizer. He uses his ability to repair Loose Stabilizer. Does Loose Stabilizer still resolve now that it is no longer present?"
+    },
+    {
+     "id": "post-78",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 6, 2026, 12:05 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Yes, you can do that because Damage Cards with \"Action:\" are considered player's abilities and you can choose the order of resolution. In this case Loose Stabilizer does not resolve because it's not in play anymore."
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "url": "https://www.xwing.life/forum/rules-questions/31",
+   "title": "Targeting Matrix in Range 0",
+   "posts": [
+    {
+     "id": "post-68",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "Jun 2, 2026, 10:43 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "With 'Targeting Matrix' equiped, while attack in Range 0:\na) can I spend 'focus' result - as it is not in '2.b Modify Attack Dice', but '4. Neutralize Results.'\nor\nb)it counts as Modify dice and is forbidden in R0?"
+    },
+    {
+     "id": "post-69",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 4, 2026, 8:11 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "You cannot spend a result with Targeting Matrix while performing a primary attack at range 0.\nAlthough the ability does not resolve during the Dice Modification step, it is still a dice modification effect that takes place during an attack, and the attacker is not permitted to modify the attack dice while performing a primary attack at range 0.\nNote that this only applies to primary attacks; if you are performing a special attack at range 0 (for example, using the Hotshot Tail Blaster upgrade), you may modify the attack dice, including spending a result with Targeting Matrix."
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "url": "https://www.xwing.life/forum/rules-questions/30",
+   "title": "Coaxium Hyperfuel - timing of paying a cost",
+   "posts": [
+    {
+     "id": "post-61",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 31, 2026, 1:21 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Coaxium Hyperfuel",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/coaxiumhyperfuel.png"
+      }
+     ],
+     "text": "When the second ability of Coaxium Hyperfuel is used, partially executing a maneuver and suffering a critical damage to perform a SLAM action, is the critical damage suffered before or after the SLAM action is performed (or rather at what point does the ability of a resulting damage card take effect)? The timing matters in cases of suffering critical damage that deals damage cards like Damaged Sensor Array, where the ability to SLAM might be fully interrupted, or Damaged Engine, where the difficulty of a potential turn option could be increased. The rules reference reads that costs can only be paid if the effect can be resolved, so the case of Damaged Sensor Array creates a bit of a conundrum. And the FAQ section further includes “The cost for an ability is paid when the ability is resolved,” and a ruling about the sequence of events when Pinpoint Tractor Array is used."
+    },
+    {
+     "id": "post-67",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 2, 2026, 12:24 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Even if card wording may seem confusing, the FAQ regarding Pinpoint Tractor Array fully explain how to resolve the second ability of Coaxium Hyperfuel. When you resolve the ability to perform a slam, you suffer a critical hit or expose a damage card, but the effect from the damage card is added to the queue and applied once you completely resolve the slam action."
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "url": "https://www.xwing.life/forum/rules-questions/28",
+   "title": "Strut-Lock Override on Siege of Coruscant CIS pilots",
+   "posts": [
+    {
+     "id": "post-57",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 29, 2026, 2:30 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Dear rules people,\nStrut-Lock Override:\nAt the start of your activation, you may spend 1 (Charge). If you do, ignore obstacles while you move through them this round.\nIf you spend one of the charges from the Strut-Lock Override and then Maneuvre over an obstacle, so the maneuvre template overlaps at the rear of the ship but the base ends on top of the Obstacle.\nDuring that ships action step, can you then barrel roll/boost off the obstacle as you ignore them while moving through them this turn?\nOr does overlapping the obstacle trigger the effect of the obstacle? (I realise Overlapping and moving through are different things.)\nThanks"
+    },
+    {
+     "id": "post-59",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 29, 2026, 9:43 PM",
+     "deleted": false,
+     "cards": [],
+     "text": ""
+    },
+    {
+     "id": "post-66",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "Jun 2, 2026, 11:49 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "Strut-Lock Override specifically says \"move through\", so the effect is limited to movements where the ship doesn't overlap the obstacle with its base. The effect applies also to barrel roll or boost actions."
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "url": "https://www.xwing.life/forum/rules-questions/26",
+   "title": "Will there be a CORP update?",
+   "posts": [
+    {
+     "id": "post-54",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 27, 2026, 3:40 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "With the recent addition of the new \"Regional\" teir of event. Will there be an update to the CORP so we know who can play in what events?"
+    },
+    {
+     "id": "post-60",
+     "author": null,
+     "badges": [
+      "MOD"
+     ],
+     "date": "May 30, 2026, 1:22 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "The update will be released soon. A TO can play in their own regional but cannot do judge calls in their own game. As well I would highly recommend if they win to pass down the bye to the next top ranked player so that no one questions the integrity of the event."
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "url": "https://www.xwing.life/forum/rules-questions/24",
+   "title": "Tracers and Targeting Matrix interaction",
+   "posts": [
+    {
+     "id": "post-51",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 25, 2026, 10:58 AM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "XX-23 S-Thread Tracers",
+       "src": "https://infinitearenas.com/xw2/images/upgrades/xx23sthreadtracers.png"
+      }
+     ],
+     "text": "Targeting Matrix: “While attacking, at the end of the Neutralize Results step, you may spend 1 focus result. If you do, after the attack is resolved, the defender gains 1 strain token.”\nCan I spend a focus result before all results are cancelled by the tracers as the two effects seem to take place at the same time?"
+    },
+    {
+     "id": "post-52",
+     "author": "Hansi",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 25, 2026, 8:45 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "You cannot use Targeting Matrix because dice results are cancelled before the End of Neutralize Results step. Once you find out that the attack hits, you activate Tracers effect to gain locks on the target and you must cancel all remaining dice results. You can activate Targeting Matrix only after that because it occurs at the End of that step, but there are no dice results left."
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "url": "https://www.xwing.life/forum/rules-questions/22",
+   "title": "Pattern analyzer reposition off obstacle",
+   "posts": [
+    {
+     "id": "post-45",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 24, 2026, 5:04 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "Does a ship that uses Pattern Analyzer to reposition off of an obstacle still skip its Perform Action Step?"
+    },
+    {
+     "id": "post-47",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 24, 2026, 10:38 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "No, it will not skip its perform action step.\nThe effect of skipping your perform action step is triggered by ending your maneuver on an obstacle. Pattern Analyzer triggers while a ship is executing a red maneuver, meaning that the ship has not yet ended its maneuver, so using the action granted by Pattern Analyzer to reposition away from the obstacle will prevent you from suffering that effect. However, you will still suffer all the other effects of moving through or overlapping that obstacle."
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "url": "https://www.xwing.life/forum/rules-questions/17",
+   "title": "Parting Gift in the End of Activation",
+   "posts": [
+    {
+     "id": "post-34",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 21, 2026, 3:22 AM",
+     "deleted": false,
+     "cards": [],
+     "text": "A ship with parting gift is destroyed by bombs at the end of activation. That ship drops a bomb using parting gift.\nDoes this new bomb detonate in that moment or at the next turns end of activation?"
+    },
+    {
+     "id": "post-40",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 21, 2026, 10:24 PM",
+     "deleted": false,
+     "cards": [],
+     "text": ""
+    },
+    {
+     "id": "post-41",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 21, 2026, 10:24 PM",
+     "deleted": false,
+     "cards": [],
+     "text": "The bomb will not detonate until the next round.\nWhen you reach the end of activation, all 'at end of the activation phase' abilities are triggered and form a queue; this includes bomb detonation effects. This is the only opportunity for these abilities to enter the queue for the round. If a ship is destroyed by a bomb effect and then uses Parting Gift to drop an additional bomb, the 'at the end of the activation phase' opportunity has already passed, so the additional bomb's detonation ability will not be triggered until the end of the next round's activation phase."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "url": "https://www.xwing.life/forum/rules-questions/7",
+   "title": "Hera LaR Coordinate ability",
+   "posts": [
+    {
+     "id": "post-10",
+     "author": null,
+     "badges": [
+      "OP"
+     ],
+     "date": "May 18, 2026, 6:43 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Hera Syndulla — Legends and Relics",
+       "src": "https://infinitearenas.com/xw2xwa/images/pilots/herasyndulla-legendsandrelics.png"
+      },
+      {
+       "alt": "Rayya: I Am First",
+       "src": "https://static.klipy.com/ii/2711dd8a75a85be822d136ec94899b3f/25/68/STSbYXNd.gif"
+      }
+     ],
+     "text": "\"After you fully execute a red maneuver, you may coordinate a friendly ship at range 1-3.\"\nIs this considered an action?"
+    },
+    {
+     "id": "post-17",
+     "author": "Maui",
+     "badges": [
+      "RULES"
+     ],
+     "date": "May 18, 2026, 9:08 PM",
+     "deleted": false,
+     "cards": [
+      {
+       "alt": "Hera Syndulla — Legends and Relics",
+       "src": "https://infinitearenas.com/xw2xwa/images/pilots/herasyndulla-legendsandrelics.png"
+      }
+     ],
+     "text": "No; Hera's ability specifies that she may coordinate a friendly ship. This is different from performing a coordinate action, so she can do it while stressed and it does not count against her limit of 1 coordinate action per round."
+    }
+   ]
+  }
+ ]
+}
