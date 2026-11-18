@@ -37,12 +37,20 @@ The site is plain HTML, CSS and JavaScript. Nothing needs to be installed to vie
 
 See [docs/MAINTAINING.md](docs/MAINTAINING.md) for the step-by-step.
 
-## Putting it online (free)
+## The live site
 
-Any static host works because the site is just files. The simplest is
-Netlify Drop (https://app.netlify.com/drop): drag the `site` folder onto the page and
-you get a public link. GitHub Pages and Cloudflare Pages also work and can update
-automatically whenever you change the files.
+**https://danielrnavarro831.github.io/the-archives/**
+
+GitHub Pages publishes the `site/` folder automatically every time `main` is pushed
+(see `.github/workflows/pages.yml`). Changes are live a minute or two after a push.
+
+- **Soft launch mode:** search engines are asked not to list the site (`site/robots.txt`
+  and the `robots` line in `site/index.html`). Delete both at the public launch.
+- **To take it offline:** on GitHub open the repo's **Settings → Pages** and choose
+  **Unpublish site** (or make the repository private again in **Settings → General**).
+  You can publish it again later without losing anything.
+- **Custom domain (later):** buy the domain, then enter it in **Settings → Pages → Custom domain**
+  and follow GitHub's DNS instructions. HTTPS is set up automatically.
 
 ## Disclaimer
 
