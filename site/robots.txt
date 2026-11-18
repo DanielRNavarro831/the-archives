@@ -1,0 +1,3 @@
+# Soft launch: please don't index yet. Remove these two lines at the public launch.
+User-agent: *
+Disallow: /
