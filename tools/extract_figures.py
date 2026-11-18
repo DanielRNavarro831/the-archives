@@ -47,8 +47,20 @@ def area(r):
     return max(0, r[2] - r[0]) * max(0, r[3] - r[1])
 
 
+def underlines_text(r, lines):
+    """True when a thin horizontal line lies just under (or through) a line of body text."""
+    if r[3] - r[1] > 2:
+        return False
+    y = (r[1] + r[3]) / 2
+    for t in lines:
+        if t[1] <= y <= t[3] + 2.5 and min(r[2], t[2]) - max(r[0], t[0]) > 0.6 * (r[2] - r[0]):
+            return True
+    return False
+
+
 def page_pieces(page):
     W, H = page.rect.width, page.rect.height
+    text_lines = body_text_lines(page)
     pieces = []          # (rect, kind)
     for info in page.get_image_info():
         r = tuple(info["bbox"])
@@ -64,7 +76,10 @@ def page_pieces(page):
             continue
         if (w > 0.6 * W and h < 4) or (h > 0.6 * H and w < 4):   # long rules/lines
             continue
-        if r[1] > FOOTER_Y or area(r) < 40 or in_margin(r, W, H):
+        # thin pointer lines (label -> diagram) are tiny in area but long: keep those,
+        # but not link underlines, which sit right under a line of body text
+        pointer = max(w, h) >= 10 and min(w, h) < 2 and not underlines_text(r, text_lines)
+        if r[1] > FOOTER_Y or (area(r) < 40 and not pointer) or in_margin(r, W, H):
             continue
         if not dr.get("fill") and w > 150 and h > 150:     # outline boxes around text
             continue
