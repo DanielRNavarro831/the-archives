@@ -48,7 +48,17 @@ matching after a rename, add a line to `yasbMatch` in `data/cards-curated.json`,
 3. Edit `data/sources.json`: update `version`, `effective`, `file` and `raw`.
    **Check the page ranges** in `sections` against the new PDF (e.g. if the FAQ now
    starts on page 35, change `"from": 34`). This is the step most likely to need attention.
-4. Rebuild the database:
+4. Extract the example pictures (diagrams, card examples) from the new PDF:
+
+   ```powershell
+   python tools/extract_figures.py pdfs/rules-reference-v1.5.0.pdf rr
+   ```
+
+   This saves them to `site/figures/` and records where each one sits on its page. The build
+   step puts each picture after the paragraph it follows in the PDF. If one lands in the wrong
+   rule, add it to `data/figures-curated.json` (`"rr-p29-3.webp": "device-and-deploying-examples"`).
+
+5. Rebuild the database:
 
    ```powershell
    python tools/build_data.py
@@ -57,7 +67,7 @@ matching after a rename, add a line to `yasbMatch` in `data/cards-curated.json`,
    It prints counts like `rules=276 rulings=112 errata=73 cards=188 unmatched=0`.
    If `unmatched` is above 0, open `data/unmatched-mentions.json` to see which card
    mentions it couldn't understand.
-5. Open the site and spot-check a few new rulings against the PDF.
+6. Open the site and spot-check a few new rulings and pictures against the PDF.
 
 ## Fixing card detection (`data/cards-curated.json`)
 

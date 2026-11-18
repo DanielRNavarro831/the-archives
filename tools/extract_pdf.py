@@ -112,7 +112,7 @@ def extract(path):
                     starts_new = True
                 prev = (col, ly1)
                 if starts_new:
-                    cur = {"kind": kind, "text": text, "page": pno}
+                    cur = {"kind": kind, "text": text, "page": pno, "col": col, "y": round(ly0, 1)}
                     paras.append(cur)
                 else:
                     if cur["text"].endswith("-") and not cur["text"].endswith(" -"):

@@ -487,6 +487,11 @@
   }
 
   function blockHtml(b, cards) {
+    if (b.k === "fig") {
+      return `<figure class="rfig"><a href="${esc(b.src)}" target="_blank" rel="noopener" title="Open full size">
+        <img src="${esc(b.src)}" width="${b.w}" height="${b.h}" loading="lazy" alt="${esc(b.cap ? plainIcons(b.cap) : "Example diagram from the Rules Reference")}"></a>
+        ${b.cap ? `<figcaption>${fmt(b.cap)}</figcaption>` : ""}</figure>`;
+    }
     const t = b.t;
     if (b.k === "h3") return `<h3>${fmt(t)}</h3>`;
     if (b.k === "q") return `<p><b>${fmt(t)}</b></p>`;
@@ -598,7 +603,7 @@
     DB.cards.forEach((c) => items.push({ kind: "card", id: c.id, title: c.name, sub: cardTypeLine(c),
       head: norm(c.name), alt: (c.aliases || []).map(norm), body: norm(cardTypeLine(c) + " " + c.factions.join(" ")) }));
     DB.rules.forEach((r) => items.push({ kind: "rule", id: r.id, title: r.title, sub: `${r.section} · ${sourceLabel(r)}`,
-      head: norm(r.title), body: norm(plainIcons(r.blocks.map((b) => b.t).join(" "))) }));
+      head: norm(r.title), body: norm(plainIcons(r.blocks.map((b) => b.t || b.cap || "").join(" "))) }));
     DB.rulings.forEach((r) => items.push({ kind: "ruling", id: r.id, title: plainIcons(r.q), sub: `${r.topic} · ${sourceLabel(r)}`,
       head: norm(plainIcons(r.q)), body: norm(plainIcons(r.a.join(" ")) + " " + r.cards.map((i) => CARDS[i] ? CARDS[i].name : "").join(" ")) }));
     DB.errata.forEach((e) => items.push({ kind: "errata", id: e.id, title: (e.names.join(", ") || e.category).replace(/•/g, ""),

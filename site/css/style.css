@@ -371,3 +371,9 @@ h1, h2, .brand-text { letter-spacing: .04em; }
 a.sec-ref { font-family: var(--font-head); font-size: .8rem; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); border-radius: 6px; padding: 0 6px; text-decoration: none; }
 a.sec-ref:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); }
 @media (max-width: 600px) { .cpara { grid-template-columns: 2.9em minmax(0, 1fr); gap: 6px; } .rule-body.comp > h3 { margin-left: 0; } }
+
+/* example pictures from the Rules Reference */
+figure.rfig { margin: 6px 0 14px; max-width: 100%; }
+figure.rfig img { display: block; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: italic; margin-top: 6px; }
+.cpara .ctext figure.rfig { margin-top: 2px; }

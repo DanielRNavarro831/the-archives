@@ -190,7 +190,12 @@ def write_text(sections, rules, rulings, errata, src_by_id, cards, edition):
             if it["kind"] == "heading":
                 out += ["", "  " + plain(R[it["ref"]]["blocks"][it["block"]]["t"]).upper()]
             elif it["kind"] == "rule":
-                out.append(f'{s["n"]}.{it["p"]}  ' + plain(R[it["ref"]]["blocks"][it["block"]]["t"]))
+                b = R[it["ref"]]["blocks"][it["block"]]
+                if b["k"] == "fig":
+                    out.append(f'{s["n"]}.{it["p"]}  [FIGURE — see the site or the PDF, p. {b["page"]}]'
+                               + (f' Caption: {plain(b["cap"])}' if b.get("cap") else ""))
+                else:
+                    out.append(f'{s["n"]}.{it["p"]}  ' + plain(b["t"]))
             elif it["kind"] == "ruling":
                 r = RU[it["ref"]]
                 names = [cards[i]["name"] for i in r.get("cards", []) if i in cards]

@@ -89,6 +89,7 @@ def build_rules(paras, source, sections, rules, used_ids):
     cur = None
     intro_title = {s["id"]: s.get("introTitle") for s in sections}
     last_section = None
+    anchors = []          # (page, col, y) of every heading/paragraph, for placing figures
     for p in paras:
         sec = section_for(p["page"], sections)
         if not sec or sec["kind"] != "rules" or NOISE.match(p["text"]):
@@ -105,13 +106,78 @@ def build_rules(paras, source, sections, rules, used_ids):
             if name.isupper() or name == name.upper():
                 name = title_case(name)
             cur = new_rule(name, icons, sec, source, p["page"], rules, used_ids)
+            anchors.append(((p["page"], p.get("col", 0), p.get("y", 0)), cur, -1))
             continue
         if cur is None:
             cur = new_rule(sec["title"], [], sec, source, p["page"], rules, used_ids)
         kind = "h3" if p["kind"] == "h3" else ("q" if p["kind"] == "q" else "p")
         cur["blocks"].append({"k": kind, "t": p["text"]})
+        anchors.append(((p["page"], p.get("col", 0), p.get("y", 0)), cur, len(cur["blocks"]) - 1))
+    place_figures(source, sections, anchors)
+    for r in rules:
+        r["blocks"] = [b for b in r["blocks"] if not b.get("_drop")]
     # drop empty entries (headings that were only artwork labels)
     return [r for r in rules if r["blocks"]]
+
+
+def place_figures(source, sections, anchors):
+    """Put each example picture (from tools/extract_figures.py) right after the paragraph
+    that comes before it on the page, in reading order (page, column, top to bottom)."""
+    path = RAW / f"{source['id']}-figures.json"
+    if not path.exists() or not anchors:
+        return
+    figures = json.loads(path.read_text(encoding="utf-8"))
+    cur_path = ROOT / "data" / "figures-curated.json"
+    override = json.loads(cur_path.read_text(encoding="utf-8")).get("placeFigure", {}) if cur_path.exists() else {}
+    anchors = sorted(anchors, key=lambda a: a[0])
+    by_rule_id = {}
+    for a in anchors:
+        by_rule_id.setdefault(a[1]["id"], a[1])
+    inserts = {}
+    for f in figures:
+        sec = section_for(f["page"], sections)
+        if not sec or sec["kind"] != "rules":
+            continue
+        x0, y0, x1, y1 = f["bbox"]
+        if f["file"] in override:
+            rule = by_rule_id.get(override[f["file"]])
+            if rule:
+                inserts.setdefault(id(rule), (rule, []))[1].append((len(rule["blocks"]) - 1, {
+                    "k": "fig", "src": "figures/" + f["file"], "cap": f["caption"], "w": f["w"], "h": f["h"],
+                    "page": f["page"]}))
+            continue
+        col = 0 if f["fullWidth"] else f["col"]
+        key = (f["page"], col, (y0 + y1) / 2)
+        # a heading printed inside the picture is the picture's own title
+        inside = [a for a in anchors if a[0][0] == f["page"] and a[2] == -1
+                  and (f["fullWidth"] or a[0][1] == col) and y0 - 2 <= a[0][2] <= y1]
+        before = inside[:1] or [a for a in anchors if a[0] <= key]
+        if not before:
+            continue
+        _, rule, idx = before[-1]
+        inserts.setdefault(id(rule), (rule, []))[1].append((idx, {
+            "k": "fig", "src": "figures/" + f["file"], "cap": f["caption"], "w": f["w"], "h": f["h"],
+            "page": f["page"]}))
+    # short paragraphs printed inside a picture (its labels) are shown by the picture itself
+    for (page, col, y), rule, idx in anchors:
+        if idx < 0:
+            continue
+        b = rule["blocks"][idx]
+        # only picture titles ("Deploy Example Dropping Bomb") or lines that are nothing but icons
+        title_like = "Example" in b["t"] and not b["t"].rstrip().endswith(".") and len(b["t"]) <= 60
+        icons_only = not re.sub(r"\{[a-z-]+\}|\s", "", b["t"])
+        if b["k"] != "p" or not (title_like or icons_only):
+            continue
+        for f in figures:
+            fx0, fy0, fx1, fy1 = f["bbox"]
+            if f["page"] == page and (f["fullWidth"] or f["col"] == col) and fy0 <= y <= fy1:
+                b["_drop"] = True
+                break
+    for rule, items in inserts.values():
+        # insert from the end so earlier positions stay valid; keep figure order stable
+        numbered = [(idx, n, block) for n, (idx, block) in enumerate(items)]
+        for idx, _, block in sorted(numbered, key=lambda t: (t[0], t[1]), reverse=True):
+            rule["blocks"].insert(idx + 1, block)
 
 
 def new_rule(name, icons, sec, source, page, rules, used_ids):

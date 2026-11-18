@@ -1,0 +1,8 @@
+{
+ "_readme": "Where to put example pictures that the automatic placement gets wrong. placeFigure: figure file -> rule id (from the rule page link #/rule/<id>). The picture is added at the end of that rule. Figure files are in site/figures/ (named <doc>-p<page>-<n>.webp).",
+ "placeFigure": {
+  "rr-p29-2.webp": "card-anatomies",
+  "rr-p29-3.webp": "device-and-deploying-examples",
+  "rr-p42-1.webp": "electro-chaff-cloud"
+ }
+}
