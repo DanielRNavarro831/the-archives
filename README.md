@@ -39,7 +39,9 @@ See [docs/MAINTAINING.md](docs/MAINTAINING.md) for the step-by-step.
 
 ## The live site
 
-**https://danielrnavarro831.github.io/the-archives/**
+**https://xwingarchives.com**
+
+(The old address, danielrnavarro831.github.io/the-archives, redirects here.)
 
 GitHub Pages publishes the `site/` folder automatically every time `main` is pushed
 (see `.github/workflows/pages.yml`). Changes are live a minute or two after a push.
@@ -49,8 +51,13 @@ GitHub Pages publishes the `site/` folder automatically every time `main` is pus
 - **To take it offline:** on GitHub open the repo's **Settings → Pages** and choose
   **Unpublish site** (or make the repository private again in **Settings → General**).
   You can publish it again later without losing anything.
-- **Custom domain (later):** buy the domain, then enter it in **Settings → Pages → Custom domain**
-  and follow GitHub's DNS instructions. HTTPS is set up automatically.
+- **Domain:** `xwingarchives.com` is registered at **Porkbun** (renews yearly — keep auto-renew on).
+  Its DNS records point at GitHub Pages: four **A** records (185.199.108–111.153), four **AAAA**
+  records (2606:50c0:8000–8003::153), a **CNAME** `www` → `danielrnavarro831.github.io`, and a
+  `_github-pages-challenge` **TXT** record that proves to GitHub the domain is ours. Don't delete
+  those. The MX/SPF records are Porkbun email forwarding and can stay.
+- **If you unpublish the site,** also remove the A/AAAA/CNAME records at Porkbun (or point them
+  elsewhere) so the domain doesn't point at an empty GitHub page.
 
 ## Disclaimer
 
