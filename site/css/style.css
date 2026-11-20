@@ -377,3 +377,8 @@ figure.rfig { margin: 6px 0 14px; max-width: 100%; }
 figure.rfig img { display: block; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
 figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: italic; margin-top: 6px; }
 .cpara .ctext figure.rfig { margin-top: 2px; }
+
+/* staging copy only (staging.xwingarchives.com) */
+.staging-banner { background: repeating-linear-gradient(135deg, #b45309 0 14px, #92400e 14px 28px); color: #fff;
+  text-align: center; font-weight: 600; font-size: .9rem; padding: 7px 16px; position: sticky; top: 0; z-index: 6; }
+.staging-banner a { color: #fff; text-decoration: underline; margin-left: 8px; }

@@ -9,6 +9,9 @@
 
   const DB = window.ARCHIVES;
   const main = document.getElementById("main");
+  // The staging copy lives at staging.xwingarchives.com: it shows a banner, sends no stats,
+  // and labels "Report a Problem" submissions so they aren't mistaken for live-site reports.
+  const STAGING = /^staging\./.test(location.hostname);
 
   // ---------- indexes ----------
   const byId = (list) => Object.fromEntries(list.map((x) => [x.id, x]));
@@ -159,7 +162,7 @@
     const f = DB.meta.reportForm;
     if (!f) return "";
     const page = location.origin + location.pathname + (path || location.hash);
-    const prefill = `About: ${subject}\nPage: ${page}\n\n`;
+    const prefill = `${STAGING ? "[STAGING SITE] " : ""}About: ${subject}\nPage: ${page}\n\n`;
     const url = `${f.url}?usp=pp_url&${encodeURIComponent(f.field)}=${encodeURIComponent(prefill)}`;
     return `<a class="report-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`;
   }
@@ -760,6 +763,7 @@
   // No cookies, no personal data. GoatCounter skips localhost, so local testing isn't counted.
   const statsQueue = [];
   function track(path, title, event) {
+    if (STAGING) return;                                   // test visits stay out of the stats
     statsQueue.push({ path, title, event: !!event });
     flushStats();
   }
@@ -895,6 +899,12 @@
   };
   window.addEventListener("hashchange", renderFooter);
   renderFooter();
+
+  if (STAGING) {
+    document.body.insertAdjacentHTML("afterbegin",
+      `<div class="staging-banner" role="note">STAGING — test version of The Archives. Changes here may not be final.
+       <a href="https://xwingarchives.com/${location.hash}">Go to the live site</a></div>`);
+  }
 
   window.addEventListener("hashchange", route);
   route();
