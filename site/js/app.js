@@ -132,14 +132,18 @@
     return `${s.title} v${s.version}, p. ${item.page}`;
   }
   /** Document names link to the XWA's official documents page, once one is set in data/sources.json. */
-  function docLink(text) {
-    const url = DB.meta.documentsPage;
-    return url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="Get the official documents from the XWA">${esc(text)}</a>` : esc(text);
+  function docLink(text, url) {
+    url = url || DB.meta.documentsPage;
+    const title = url && /\.pdf/i.test(url) ? "Open the official PDF on the XWA site" : "Get the official documents from the XWA";
+    return url ? `<a href="${esc(url)}" target="_blank" rel="noopener" title="${title}">${esc(text)}</a>` : esc(text);
   }
+  /** Rule citations open the XWA's official PDF at the cited page (#page=N). */
   function sourceLink(item) {
     if (item.source === "forum")
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
-    return SOURCES[item.source] ? docLink(sourceLabel(item)) : "";
+    const s = SOURCES[item.source];
+    if (!s) return "";
+    return docLink(sourceLabel(item), s.url ? `${s.url}#page=${item.page}` : null);
   }
 
   /** "Answered by Maui · XWA Rules Lead" badges on forum rulings */
@@ -584,11 +588,14 @@
         <p>The name is a nod to Obi-Wan searching the Jedi Archives for a planet that isn't there. If you can't find something here,
         it may simply not be in the official documents yet.</p>
         <h3>Sources</h3>
-        ${[...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => `<p class="bullet">${docLink(`${s.title} v${s.version}`)}${s.effective ? `, effective ${esc(s.effective)}` : ""}</p>`).join("")}
+        ${[...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => `<p class="bullet">${docLink(`${s.title} v${s.version}`, s.url)}${s.effective ? `, effective ${esc(s.effective)}` : ""}</p>`).join("")}
         <p class="bullet">${DB.meta.forum ? `Rules team answers from the <a href="https://www.xwing.life/forum/rules-questions" target="_blank" rel="noopener">XWA rules forum</a> (${esc(DB.meta.forum.count)} answers, collected ${esc(DB.meta.forum.fetched)}). Only replies from the XWA rules team are included; answers from Maui, the XWA rules lead, are marked as such.` : ""}</p>
         <p class="bullet">Card text, stats and dials: ${DB.meta.cardData ? `<a href="https://yasb.app" target="_blank" rel="noopener">YASB</a> (Yet Another Squad Builder, <a href="https://github.com/raithos/xwing" target="_blank" rel="noopener">MIT License</a>), imported ${esc(DB.meta.cardData.importedAt)}` : "not imported"}</p>
-        <p>All rulings are reproduced from these documents maintained by the X-Wing Alliance (XWA). Every ruling cites the document and page it came from.
+        <p>All rulings are reproduced from these documents maintained by the X-Wing Alliance (XWA). Every ruling cites the document and page it came from,
+        and the citation opens the official PDF on the XWA site at that page (on phones, some browsers open the PDF at page 1).
         If something here disagrees with the official document, the document is correct.</p>
+        ${DB.meta.hideEpic ? `<h3>Epic and huge ships</h3>
+        <p>Rulings for huge ships and the Epic format are not shown while the Epic rules are being updated by the XWA. They will return when the new Epic document is published.</p>` : ""}
         <h3>Found a mistake?</h3>
         <p>Every card, ruling, erratum and rule has a <b>Report a Problem or Ruling</b> link. You can also ${reportLink("General feedback", "#/about", "send general feedback")}.</p>
         <h3>Reading the icons</h3>
@@ -843,7 +850,7 @@
 
   const renderFooter = () => {
     document.getElementById("footer-sources").innerHTML = "Sources: "
-      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => docLink(`${s.title} v${s.version}`)).join(" · ")
+      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => docLink(`${s.title} v${s.version}`, s.url)).join(" · ")
       + (DB.meta.cardData ? ` · Card data from <a href="https://yasb.app" target="_blank" rel="noopener">YASB</a>` : "")
       + (DB.meta.reportForm ? `<br>${reportLink("General feedback (from the page footer)")}` : "");
   };

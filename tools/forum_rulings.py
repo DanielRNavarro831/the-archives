@@ -22,12 +22,12 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower().replace("é", "e"))
 
 
-def to_rulings(cards_by_id):
+def to_rulings(cards_by_id, skip_extra=()):
     if not THREADS.exists():
         return [], None
     data = json.loads(THREADS.read_text(encoding="utf-8"))
     cur = json.loads(CURATED.read_text(encoding="utf-8")) if CURATED.exists() else {}
-    skip = set(cur.get("skipThreads", {}))
+    skip = set(cur.get("skipThreads", {})) | {str(t) for t in skip_extra}
     add = cur.get("addCards", {})
     remove = cur.get("removeCards", {})
 

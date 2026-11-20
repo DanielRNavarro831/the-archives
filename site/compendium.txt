@@ -201,37 +201,16 @@ CONTENTS
   §193  Upgrades  (Squad Building Appendix)
   §194  Loadout Points  (Squad Building Appendix)
   §195  Obstacles  (Squad Building Appendix)
-  §196  Appendix: Huge Ships  (Appendix: Huge Ships)
-  §197  Attacks  (Appendix: Huge Ships)
-  §198  Damage Cards  (Appendix: Huge Ships)
-  §199  Docking with Huge Ships  (Appendix: Huge Ships)
-  §200  Energy  (Appendix: Huge Ships)
-  §201  Engagement Value  (Appendix: Huge Ships)
-  §202  Ion  (Appendix: Huge Ships)
-  §203  Movement  (Appendix: Huge Ships)
-  §204  “move” and “rotate” Effects  (Appendix: Huge Ships)
-  §205  Overlapping Objects  (Appendix: Huge Ships)
-  §206  Obstruction by Huge Ships  (Appendix: Huge Ships)
-  §207  Precision Shot  (Appendix: Huge Ships)
-  §208  Red Maneuvers  (Appendix: Huge Ships)
-  §209  Resource Trackers  (Appendix: Huge Ships)
-  §210  Setup  (Appendix: Huge Ships)
-  §211  Stress  (Appendix: Huge Ships)
-  §212  Tractor  (Appendix: Huge Ships)
-  §213  Turret Arc Indicators  (Appendix: Huge Ships)
-  §214  Example of a [2] Maneuver  (Appendix: Huge Ships)
-  §215  Example of Overlapping a Huge Ship  (Appendix: Huge Ships)
-  §216  Example of Overlapping a Standard Ship  (Appendix: Huge Ships)
-  §217  Appendix: Environment Cards  (Appendix: Environment Cards)
-  §218  Anatomy of an Environment Card  (Appendix: Environment Cards)
-  §219  Choosing to Use Environment Cards  (Appendix: Environment Cards)
-  §220  Using Environment Cards  (Appendix: Environment Cards)
-  §221  Victory Counters  (Appendix: Environment Cards)
-  §222  Where to Find Environment Cards  (Appendix: Environment Cards)
-  §223  Never Tell Me the Odds Obstacles Pack  (Appendix: Environment Cards)
-  §224  Fully Loaded Obstacles Pack  (Appendix: Environment Cards)
-  §225  Other Rulings  (Rulings)
-  §226  Errata  (Errata)
+  §196  Appendix: Environment Cards  (Appendix: Environment Cards)
+  §197  Anatomy of an Environment Card  (Appendix: Environment Cards)
+  §198  Choosing to Use Environment Cards  (Appendix: Environment Cards)
+  §199  Using Environment Cards  (Appendix: Environment Cards)
+  §200  Victory Counters  (Appendix: Environment Cards)
+  §201  Where to Find Environment Cards  (Appendix: Environment Cards)
+  §202  Never Tell Me the Odds Obstacles Pack  (Appendix: Environment Cards)
+  §203  Fully Loaded Obstacles Pack  (Appendix: Environment Cards)
+  §204  Other Rulings  (Rulings)
+  §205  Errata  (Errata)
 
 
 ========================================================================
@@ -1166,12 +1145,6 @@ CONTENTS
 40.2  RULING [Rules Reference v1.4.6, p. 34, FAQ › Deployment]  Cards: Boba Fett
       Q: If a ship equipped with Boba Fett [[Crew]] cannot be placed at range 0 of an obstacle and beyond range 3 of any enemy ship, what happens?
       A: That ship instead defaults to being placed within range 1 of its player’s board edge.
-
-40.3  RULING [XWA Rules Forum, answered by Hansi (XWA Rules Team), Aug 30, 2026, 1:47 PM — https://www.xwing.life/forum/rules-questions/66]
-      Q: During the System Phase, a ship deployed from a huge ship by executing a 5 speed straight maneuver. Later, during the Activation Phase, the huge ship performs a coordinate action. Th range of the coordinate is not modified by any other abilities, so it remains limited to range 1-2. Is the deployed ship a valid option, considering that it’s generally accepted that range 2 is equal to 5 base lengths, or a 5 speed straight maneuver (template)? Regardless of whether the ship deployed from the front or side of the huge ship, the smaller ship’s rear template guide nubs are certainly at range 2, but does the base itself need to be at (eclipsing) the edge of range 2 to be selectable?
-      A: Ship guide nubs are not valid to measure ranges, ranges must be checked to the target ship base.
-         Considering range 2 equal to a 5 straight template is not officially accepted, the only accepted method to measure ranges is using the range ruler contained the in X Wing core pack. This method must be used due the possibility of small manufacturing differences between official templates and rules, so you need to check with an official range rules to verify that the deployed ship is a valid option.
-         Third party components may be used but only if they match official components measures.
 
 ========================================================================
 §41  DESTROYING SHIPS
@@ -3082,643 +3055,379 @@ CONTENTS
 195.1  Each player must include exactly three unique obstacles of their choice in their squad. Players must select these obstacles from the asteroids, debris clouds and gas clouds available from official X-Wing products, including first edition products (except those found in Epic expansions). A player may not select two of the same obstacle.
 
 ========================================================================
-§196  APPENDIX: HUGE SHIPS
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-196.1  The rules for Huge Ships have not been updated alongside the core rules. They will be updated in the future.
-196.2  Huge ships function similarly to standard ships, and obey the rules in the glossary except as noted in this appendix. There are also several example diagrams for huge ship movement and turret arc placement at the end of this section.
-
-========================================================================
-§197  ATTACKS
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-197.1  During the Engagement Phase, each huge ship may perform multiple attacks.
-
-  STANDARD ATTACK
-197.2  During its engagement, a huge ship may perform one standard attack which is either a primary attack or special attack with an “Attack:” header. This is resolved in the same manner as a standard ship (see Attack).
-
-  BONUS ATTACKS
-197.3  When an attack granted by a special weapon has the “Bonus Attack:” header, a huge ship equipped with that upgrade may perform the listed bonus attack while it engages, before or after its standard attack. Additionally:
-197.4  • A huge ship may perform any number of bonus attacks each round.
-197.5  • A huge ship can use each “Bonus Attack:” header only once per round.
-197.6  • If an effect grants a huge ship a bonus attack that is a primary attack or a special attack with an “Attack:” header, it can perform only one bonus attack using that primary attack or “Attack:” header per round.
-
-  FIRING ARCS
-197.7  Huge ships have standard firing arcs as denoted on their ship cards. By default, their primary attacks can be made at range 1–3.
-
-  ATTACK RANGE 4–5
-197.8  Unlike standard ships, huge ships can sometimes perform attacks at range 4–5. Some special weapons and abilities can extend a huge ship’s firing arcs to range 4 or 5 while a weapon with that range requirement occupies that arc or that ability is active.
-197.9  If a ship’s front arc [[Front Arc]] or full front arc [[Full Front Arc]] extends to range 4 or 5, its bullseye arc [[Bullseye Arc]] also extends to range 4 or 5.
-
-  DEFENDING AT RANGE 4–5
-197.10  While a ship defends, if the attack is range 4–5, and the attack does not have the ordnance icon, the defender rolls two additional defense dice. Reinforce tokens can be used by defenders at attack range 4–5, even if a ship's [Full Front Arc] or [Full Rear Arc] normally does not extend to range 4–5.
-
-197.11  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Attacks]  Cards: Cluster Missiles, Corsair Refit, Heavy Laser Cannon, IG-88B, IG-88D
-      Q: If a C-ROC Cruiser is equipped with IG-88D ([Crew]), Corsair Refit ([Configuration]), and Heavy Laser Cannon ([Cannon]) and a friendly IG-88B is in play, how many times can the C-ROC fire its Heavy Laser Cannon ([Cannon]) per round?
-      A: Per Attacks on page 35, a huge ship can choose a special attack (such as the one on Heavy Laser Cannon) for the attack it performs when it engages. Per the same page, it can perform up to 1 bonus attack granted to it for a given special attack with an “Attack:” header per round.
-         Therefore, the answer is “two times,” but there are several ways this can occur. The C-ROC chooses to perform its standard attack using Heavy Laser Cannon, and also does one of the following:
-         • The C-ROC performs an attack that misses and uses IG-88D and IG-88B's abilities to perform a bonus attack with its Heavy Laser Cannon.
-         • The C-ROC spends 1 [Energy] and uses Corsair Refit to perform a bonus attack using Heavy Laser Cannon.
-         Note that the same applies to special attacks that generate their own bonus attacks, like Cluster Missiles ([Missile])—in that case, the C-ROC could choose Cluster Missiles for its standard attack and then fire one subsequent bonus attack using Cluster Missiles if there was an eligible target, or it could chose it for its attack when it engages and also use Corsair Refit and spend 1 [Missile] to fire Cluster Missiles for a bonus attack against any ship in range and arc, but it cannot do both during the same round.
-
-197.12  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Attacks]  Cards: Corsair Refit
-      Q: How many times per round can a ship use Corsair Refit ([Configuration])
-      A: to make a bonus attack if it has a [Missile], [Cannon], and [Turret] upgrade equipped?
-         Once. While it can fire one of these weapons with its standard attack and another with a bonus attack (or fire one weapon twice this way, as described in the example above), it can only use the "Bonus Attack:" header on Corsair Refit once per round.
-
-197.13  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Attacks]  Cards: Han Solo
-      Q: Can a CR-90 Corvette with Han Solo [[Gunner], Rebel] perform an attack at Initiative 7?
-      A: Yes. While huge ships are unable to engage at initiative steps other than the one defined by their engagement value, they are capable of making attacks at other initiative steps if instructed by a card like Han Solo.
-
-197.14  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Attacks]  Cards: Boosted Scanners, Targeting Battery
-      Q: After performing an attack with Targeting Battery [[Hardpoint]] against a defender at range 4–5, can the attacker acquire a lock on that defender?
-      A: If Targeting Battery is the only card at play, no. Targeting Battery does not read "ignoring range restrictions," therefore the ship must obey the normal range restrictions for acquiring locks.
-         However, there are a number of ways huge ships can circumvent this limitation. The CR-90's Broadside Battery ship ability allows it to acquire locks at range 4, and the Boosted Scanners [[Cargo]] upgrade allows a ship to spend energy increase the range at which it can lock, letting it acquire the lock from Targeting Battery at range 4 or 5.
-
-========================================================================
-§198  DAMAGE CARDS
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-198.1  Huge ships use the huge ship damage deck instead of the standard damage deck. Each side should use its own huge ship damage deck. The rules for the huge ship damage deck are described below.
-
-  FACEDOWN DAMAGE CARDS
-198.2  If a huge ship has suffered more than four facedown damage cards, it is suggested that players arrange the ship’s damage cards in groups of five. This makes it easier to count and track damage during a game.
-
-  FACEUP DAMAGE CARDS
-198.3  Each card in the huge ship damage deck has two effects: a primary effect (on the bottom), which functions like the effect of any other faceup damage card, and a precision shot effect (on the top), which is an additional effect that attackers can apply when firing from certain angles.
-198.4  While a huge ship defends, if it is dealt a faceup damage card, resolve the precision shot effect only if the attacker is in the specified arc of the defending huge ship: side arc, full front arc, full rear arc, or bullseye arc. Note that precision shot effects trigger only if a huge ship is defending.
-198.5  After resolving the precision shot effect (if applicable), apply the primary effect of the faceup damage card. Slide the card underneath the ship card or its other faceup damage cards such that only the primary effect is visible.
-
-========================================================================
-§199  DOCKING WITH HUGE SHIPS
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-199.1  Some upgrades allow standard ships to dock with huge ships. While a docked ship deploys, it may execute its maneuver from the front or rear guides, or by aligning the center of its maneuver template to the huge ship’s center line.
-199.2  During the System Phase, any number of ships docked to a huge ship may deploy from it. If a ship cannot be placed while being deployed, it is destroyed.
-199.3  During the System Phase, one or more standard ships may dock with a huge ship carrier at range 0–1.
-
-========================================================================
-§200  ENERGY
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-200.1  Energy ([Energy]) is a type of charge that follows all the standard rules for charges (see Charge). Additionally:
-200.2  • If an upgrade card has an energy capacity, this increases the energy capacity of the ship. The [Energy] are placed above the ship card it is attached to (not the upgrade card).
-200.3  ◊ During the End Phase, each ship with an energy capacity recovers only a number of [Energy] equal to the recurring charge symbols on its ship card, regardless of the number of recurring charge symbols that appear on its upgrade cards.
-200.4  ◊ If an upgrade card instructs the ship to spend [Energy], those [Energy] are spent from the ship card.
-
-========================================================================
-§201  ENGAGEMENT VALUE
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-201.1  Each huge ship has an engagement value, a second orange number printed beneath its initiative value. During the Activation Phase, a huge ship activates according to its initiative value, like normal. However, a huge ship engages during the Engagement Phase at the initiative of its engagement value instead.
-201.2  [FIGURE — see the site or the PDF, p. 44]
-201.3  A huge ship’s initiative cannot be altered, and it cannot be caused to engage at an initiative step other than its engagement value.
-
-========================================================================
-§202  ION
-========================================================================
-[Rules Reference v1.4.6, p. 44 — Appendix: Huge Ships]
-202.1  A huge ship is ionized while it has six or more ion tokens. Otherwise, an ionized huge ship behaves in the same manner as an ionized standard ship (see Ion).
-
-========================================================================
-§203  MOVEMENT
-========================================================================
-[Rules Reference v1.4.6, p. 45 — Appendix: Huge Ships]
-203.1  Huge ships are limited to straight [[Straight]], bank [[Bank Left] or [Bank Right]], and stop [[Stop]] maneuvers. To execute these maneuvers, huge ships use the huge ship maneuver tool.
-
-  STRAIGHT [[STRAIGHT]] MANEUVERS
-203.2  The straight edge of the huge ship maneuver tool is used for executing straight maneuvers. This edge has six lines that players use to execute straight maneuvers at various speeds.
-203.3  To execute a straight maneuver, a player follows these steps:
-203.4  1. Align Tool: The player places the straight edge of the maneuver tool against one of the long edges of the huge ship’s base. Then the player aligns the speed 0 line of the tool to the huge ship’s center line.
-203.5  2. Move Ship: The player moves the huge ship along the tool until the ship’s center line is aligned with the speed that corresponds to the maneuver’s speed. Then the player returns the tool to the supply and the maneuver is complete.
-203.6  When executing a straight maneuver, the base of the huge ship might overlap another ship or obstacle (see Overlapping Objects).
-
-  BANK MANEUVERS [[BANK LEFT] AND [BANK RIGHT]]
-203.7  The hook and jagged edge of the maneuver tool are used for executing bank maneuvers. This edge has four lines, which players use to execute bank maneuvers at various speeds. See Example of a [2 [Bank Right]] Maneuver for a full visual.
-203.8  To execute a bank [[Bank Left] or [Bank Right]] maneuver, a player follows these steps:
-203.9  1. Position Tool: The player positions the maneuver tool by sliding the tool’s hook underneath the opening of the huge ship’s base so it fits into the base’s left groove (for a [Bank Left]) or right groove (for a [Bank Right]). Both the hook and the hook’s edge should be flush against the huge ship’s base.
-203.10  2. Place Huge Ship: The player places the huge ship so the front right corner of its base (for a [Bank Right]) or front left corner of its base (for a [Bank Left]) is pressed into the corner of the maneuver tool that corresponds to the speed of the bank maneuver (shown below).
-203.11  When executing a speed 0 bank, the player aligns the front edge of the ship’s base with the speed 0 line on the tool (shown below).
-203.12  [FIGURE — see the site or the PDF, p. 45]
-203.13  When executing a bank maneuver, the base of the huge ship might overlap another ship or obstacle (see Overlapping Objects).
-
-  STATIONARY MANEUVER [[STOP]]
-203.14  A huge ship executes a stationary maneuver [0 [Stop]] following the stationary maneuver rules for standard ships.
-
-203.15  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Movement]
-      Q: While a huge ship moves, if the huge ship movement tool overlaps an object (such as a ship or obstacle) but the huge ship’s base does not, did the huge ship "move through" that object?
-      A: No. The huge ship movement tool is distinct from a maneuver template, and uses its own rules described in this section.
-         In fact, huge ships never interact with the rules for "moving through" objects, as they move with their maneuver tool and not a maneuver template. Note that this does mean that huge ships can, in rare circumstances, "jump over" a small object.
-
-========================================================================
-§204  “MOVE” AND “ROTATE” EFFECTS
-========================================================================
-[Rules Reference v1.4.6, p. 45 — Appendix: Huge Ships]
-204.1  If another card’s effect instructs a huge ship to move or rotate its base a number of degrees, it does not move or rotate its base. Such effects include:
-204.2  • Barrel Roll
-204.3  • Boost
-204.4  • Cloak/Decloak
-204.5  • SLAM
-204.6  • Any effect that calls for a base rotation (e.g. “rotate your base 90˚” or “rotate your base 180˚”) to occur.
-
-========================================================================
-§205  OVERLAPPING OBJECTS
-========================================================================
-[Rules Reference v1.4.6, p. 45 — Appendix: Huge Ships]
-205.1  Huge ships have additional rules for overlapping objects that they use in place of the rules used by standard ships.
-
-  OVERLAPPING OBSTACLES
-205.2  After a huge ship overlaps an obstacle, the obstacle is removed from the play area. Then the huge ship suffers an effect according to the type of obstacle it overlapped, as follows:
-205.3  • Asteroid or Debris Field: The huge ship suffers one [Crit] damage and gains one stress token.
-205.4  • Gas Cloud: The huge ship gains one jam token.
-205.5  Then the huge ship continues to resolve its activation. It does not skip its Perform Action step
-
-  OVERLAPPING HUGE SHIPS
-205.6  During the Activation Phase, if a huge ship overlaps another huge ship, it executes a maneuver that is one speed lower than what was revealed on its dial. The huge ship repeats this process until it does not overlap another huge ship (executing a stationary maneuver [[Stop]] if it was executing a speed 0 bank). See Example of Overlapping a Huge Ship.
-205.7  Then the ship that executed the maneuver and each huge ship that it overlapped suffers [Crit] damage equal to the speed of the maneuver on the overlapping ship’s dial.
-205.8  If a standard ship (a small, medium, or large ship) overlaps a huge ship, it resolves the overlap using the same rules used for overlapping a standard ship.
-
-  OVERLAPPING STANDARD SHIPS
-205.9  After a huge ship overlaps a standard ship, the standard ship suffers [Crit] damage equal to the speed of the huge ship’s revealed maneuver. Then, the standard ship is picked up and set aside until the huge ship completes its maneuver. See Example of Overlapping a Standard Ship.
-205.10  After the huge ship completes its maneuver, each standard ship that was picked up is placed in the huge ship’s full rear arc [[Full Rear Arc]] at range 0–1. Starting with the first player, players take turns placing any of their standard ships that were picked up. Any standard ship that cannot be placed is destroyed. After a player places their ship, they must choose an opponent, who may rotate the ship 90° to the left or right using the position marker from the core set.
-205.11  After all ships are placed, the huge ship rolls one attack die for each small ship it overlapped, two for each medium ship, and three for each large ship; for each [Hit] result, the huge ship gains one stress token, and for each [Crit] result the huge ship suffers one [Crit] damage.
-
-========================================================================
-§206  OBSTRUCTION BY HUGE SHIPS
-========================================================================
-[Rules Reference v1.4.6, p. 45 — Appendix: Huge Ships]
-206.1  While a huge ship obstructs an attack, the defender rolls one additional defense die.
-
-========================================================================
-§207  PRECISION SHOT
-========================================================================
-[Rules Reference v1.4.6, p. 45 — Appendix: Huge Ships]
-207.1  See Damage Cards.
-
-========================================================================
-§208  RED MANEUVERS
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-208.1  While a huge ship executes a red maneuver:
-208.2  • If it has one or more active energy ([Energy]), it loses one [Energy] instead of gaining one stress during the Check Difficulty step.
-208.3  • If it has zero [Energy] and is not stressed, it gains one stress token during the Check Difficulty step.
-208.4  • If it has zero [Energy] and is stressed, it executes a white [2 [Straight]] maneuver instead of the maneuver on its dial.
-
-========================================================================
-§209  RESOURCE TRACKERS
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-209.1  Huge ships use resource trackers to note their current active energy ([Shield]) and active shields ([Energy]). To use a resource tracker:
-209.2  • When a huge ship loses [Energy] or [Shield], reduce the relevant tracker by that amount.
-209.3  • When a huge ship recovers [Energy] or [Shield], increase the relevant tracker by that amount, to a maximum of its energy or shield value, respectively.
-
-========================================================================
-§210  SETUP
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-210.1  [FIGURE — see the site or the PDF, p. 46]
-210.2  Players set up a game with huge ships using the same steps used for a standard game of X-Wing, with the following additions:
-210.3  Gather Forces: Set each huge ship’s resource tracker so its shield and energy values match those shown at the bottom of its ship card. Place any turret arc indicators and their associated markers (see Turret Arc Indicators).
-210.4  Place Forces: Place huge ships before all other ships. If there are multiple huge ships, they are placed in descending order according to their initiative value.
-210.5  Like a large ship, a huge ship’s base may extend outside of its side’s setup area as long as it fills the length of that area. It cannot be placed with any portion of its base outside the play area.
-210.6  Prepare Other Components: Players shuffle the huge ship damage deck and place it facedown outside the play area. If the players have more than one huge ship damage deck, each player uses their own deck. Additionally, players place the huge ship maneuver tool outside the play area.
-
-========================================================================
-§211  STRESS
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-211.1  After a huge ship gains a stress token, it must spend one [Energy] to remove a stress token, if able. After a huge ship recovers [Energy], it must spend one [Energy] for each stress token it has. Then it removes one stress token for each [Energy] it spent this way.
-211.2  Otherwise, a huge ship interacts with stress tokens in the same manner as a standard ship (see Stress).
-
-========================================================================
-§212  TRACTOR
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-212.1  A huge ship is tractored while it has six or more tractor tokens. After a huge ship becomes tractored, it is not moved as a standard ship would be.
-212.2  Otherwise, a huge ship interacts with tractor tokens in the same manner as a standard ship (see Tractor).
-
-========================================================================
-§213  TURRET ARC INDICATORS
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-213.1  [FIGURE — see the site or the PDF, p. 46]
-213.2  A huge ship can have up to two turret arc indicators if it equips two upgrades that grant it a [Turret Arc] or [Double Turret Arc] arc indicator.
-213.3  If a huge ship has two upgrades that grant it a turret arc, place one turret arc indicator on one mount and a different colored turret arc indicator on the other mount. Then place the position marker that matches the color and type of indicator on the upgrade card that grants the [Turret Arc] or [Double Turret Arc]. See Example of Tracking [Turret Arc] on a Huge Ship.
-213.4  Each indicator is associated with the upgrade that has the matching position marker. Since the indicators correspond to different weapons, each indicator can be pointed at different arcs or at the same arc. Regardless of whether a turret arc indicator is on the front or rear mount, its firing arcs are always measured from the center of the ship, not from the mount. Additionally, regardless of which mount they are on, both indicators behave similarly and occupy the arc they are pointing toward: [Front Arc], [Left Arc], [Right Arc], or [Rear Arc]. See Example of a Huge Ship with Multiple [Turret Arc].
-213.5  When a huge ship is instructed to rotate its turret arc indicator—such as via the rotate [Rotate] action—it can rotate either or both of its turret arc indicators.
-213.6  This section contains diagrams for huge ships.
-
-213.7  RULING [Rules Reference v1.4.6, p. 48, Huge Ship FAQ › Turret Arc Indicator Placement]
-      Q: If a ship has three upgrades that grant it a [Turret Arc] or [Double Turret Arc] indicator, what happens?
-      A: Two of the turrets must share an indicator. Choose two of the upgrades that share a turret arc type (single [[Turret Arc]] or double [[Double Turret Arc]]) and the front or rear mount. Place the indicator those cards use on that mount and place the corresponding mount marker next to both of those upgrades. Both upgrades use the matching [Turret Arc] or [Double Turret Arc].
-
-========================================================================
-§214  EXAMPLE OF A [2] MANEUVER
-========================================================================
-[Rules Reference v1.4.6, p. 46 — Appendix: Huge Ships]
-214.1  This example shows how a huge ship executes a bank maneuver.
-214.2  [FIGURE — see the site or the PDF, p. 46] Caption: Fig. 1a: Position tool (before) Fig. 1b: Place ship (after)
-
-========================================================================
-§215  EXAMPLE OF OVERLAPPING A HUGE SHIP
-========================================================================
-[Rules Reference v1.4.6, p. 47 — Appendix: Huge Ships]
-215.1  This example shows how a huge ship overlap of another huge ship is resolved.
-215.2  [Hit] [Hit]
-
-========================================================================
-§216  EXAMPLE OF OVERLAPPING A STANDARD SHIP
-========================================================================
-[Rules Reference v1.4.6, p. 47 — Appendix: Huge Ships]
-216.1  [FIGURE — see the site or the PDF, p. 47] Caption: This CR90 has a Point-Defense Battery [ [Hardpoint]] equipped, so a [Double Turret Arc] turret arc indicator needs Fig. 2a: The Raider-class corvette is Fig. 2b: The Raider-class corvette would to be placed on a mount. A black indicator is selected and placed on the front mount. attempting to execute a [2 [Bank Right]] maneuver. overlap the CR90 corvette. Since the black [Double Turret Arc] was used on the front mount, the corresponding black [Double Turret Arc] mount marker is placed on the Point-Defense Battery upgrade card. Fig. 2c: To resolve this, the Raider instead executes a [1 [Bank Right]] maneuver, since it is a speed 1 lower maneuver that does not cause it to overlap the CR90. This CR90 also has a Turbolaser Battery [ [Hardpoint]] equipped. Since a black turret arc indicator was used on the front mount, the white [Turret Arc] is used for the rear mount. Additionally, the corresponding white [Turret Arc] mount marker is placed on the Turbolaser Battery upgrade card. Fig. 3a: The Raider-class corvette would overlap the YT-1300. To resolve this, the YT-1300’s player picks it up and sets it aside.
-216.2  This example shows how a huge ship overlap of a standard ship is resolved.
-
-========================================================================
-§217  APPENDIX: ENVIRONMENT CARDS
+§196  APPENDIX: ENVIRONMENT CARDS
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-217.1  enviRonment caRds are cards containing special rules that simulate environmental conditions of the battlefield, such as ion clouds, unexploded munitions, or meteor showers. Each card offer players a way to quickly add a new combination of obstacles and special rules to their games.
-217.2  Environment cards are meant for casual play, and are an excellent option to add a twist to home games, local events, and even Epic Battles scenarios.
+196.1  enviRonment caRds are cards containing special rules that simulate environmental conditions of the battlefield, such as ion clouds, unexploded munitions, or meteor showers. Each card offer players a way to quickly add a new combination of obstacles and special rules to their games.
+196.2  Environment cards are meant for casual play, and are an excellent option to add a twist to home games, local events, and even Epic Battles scenarios.
 
 ========================================================================
-§218  ANATOMY OF AN ENVIRONMENT CARD
+§197  ANATOMY OF AN ENVIRONMENT CARD
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-218.1  Each environment card lists a set of components to be gathered during Setup, as well as rules for their use.
-218.2  [FIGURE — see the site or the PDF, p. 49]
+197.1  Each environment card lists a set of components to be gathered during Setup, as well as rules for their use.
+197.2  [FIGURE — see the site or the PDF, p. 49]
 
 ========================================================================
-§219  CHOOSING TO USE ENVIRONMENT CARDS
+§198  CHOOSING TO USE ENVIRONMENT CARDS
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-219.1  To play a scenario using Environment cards, both players should first agree to use them.
+198.1  To play a scenario using Environment cards, both players should first agree to use them.
 
 ========================================================================
-§220  USING ENVIRONMENT CARDS
+§199  USING ENVIRONMENT CARDS
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-220.1  During the Gather Forces step of Setup, shuffle the Environment cards and randomly deal one.
-220.2  Each environment card has additional rules while placing obstacles, and many have additional special rules during play. For instance, some introduce devices into the play area, or add new rules to existing obstacles, or even cause objects to move during play.
+199.1  During the Gather Forces step of Setup, shuffle the Environment cards and randomly deal one.
+199.2  Each environment card has additional rules while placing obstacles, and many have additional special rules during play. For instance, some introduce devices into the play area, or add new rules to existing obstacles, or even cause objects to move during play.
 
 ========================================================================
-§221  VICTORY COUNTERS
+§200  VICTORY COUNTERS
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-221.1  [FIGURE — see the site or the PDF, p. 49]
-221.2  Some scenarios have victoRy coUnteRs that are used as markers in the play area, used to track progress, or scored for completing goals during play. These are represented in text with the [Objective][Objective] icon.
-221.3  Environment cards use victory counters only as markers, and not for scoring. Each environment card that uses victory counters explains their use in that scenario.
-221.4  © & Lucasfilm Ltd. No part of this product may be used without specific written permission. Atomic Mass Games and logo are TM of Atomic Mass Games. Atomic
+200.1  [FIGURE — see the site or the PDF, p. 49]
+200.2  Some scenarios have victoRy coUnteRs that are used as markers in the play area, used to track progress, or scored for completing goals during play. These are represented in text with the [Objective][Objective] icon.
+200.3  Environment cards use victory counters only as markers, and not for scoring. Each environment card that uses victory counters explains their use in that scenario.
+200.4  © & Lucasfilm Ltd. No part of this product may be used without specific written permission. Atomic Mass Games and logo are TM of Atomic Mass Games. Atomic
 
 ========================================================================
-§222  WHERE TO FIND ENVIRONMENT CARDS
+§201  WHERE TO FIND ENVIRONMENT CARDS
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-222.1  Environment cards can be found in several products. A full list of environment cards and locations follows:
+201.1  Environment cards can be found in several products. A full list of environment cards and locations follows:
 
 ========================================================================
-§223  NEVER TELL ME THE ODDS OBSTACLES PACK
+§202  NEVER TELL ME THE ODDS OBSTACLES PACK
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-223.1  • Asteroid Shower (9 Obstacles)
-223.2  • Clouzon-36 Deposits (6 Obstacles)
-223.3  • Comet Tail (8 Obstacles)
-223.4  • Ion Clouds (6 Obstacles)
-223.5  • Mynock Infestation (6 Obstacles)
-223.6  • Recent Wreckage (9 Obstacles)
+202.1  • Asteroid Shower (9 Obstacles)
+202.2  • Clouzon-36 Deposits (6 Obstacles)
+202.3  • Comet Tail (8 Obstacles)
+202.4  • Ion Clouds (6 Obstacles)
+202.5  • Mynock Infestation (6 Obstacles)
+202.6  • Recent Wreckage (9 Obstacles)
 
 ========================================================================
-§224  FULLY LOADED OBSTACLES PACK
+§203  FULLY LOADED OBSTACLES PACK
 ========================================================================
 [Rules Reference v1.4.6, p. 49 — Appendix: Environment Cards]
-224.1  • Continuous Bombardment (6 Obstacles, 8 Devices)
-224.2  • Countdown (5 Obstacles, 1 Device)
-224.3  • Minefield (4 Obstacles, 4 Devices)
-224.4  • Munitions Cache (6 Obstacles, 7 Scenario Upgrades)
-224.5  • Pinpoint Bombardment (6 Obstacles, 6 Scenario Upgrades)
-224.6  • Unexploded Ordnance (5 Obstacles, 4 Devices)
+203.1  • Continuous Bombardment (6 Obstacles, 8 Devices)
+203.2  • Countdown (5 Obstacles, 1 Device)
+203.3  • Minefield (4 Obstacles, 4 Devices)
+203.4  • Munitions Cache (6 Obstacles, 7 Scenario Upgrades)
+203.5  • Pinpoint Bombardment (6 Obstacles, 6 Scenario Upgrades)
+203.6  • Unexploded Ordnance (5 Obstacles, 4 Devices)
 
 ========================================================================
-§225  OTHER RULINGS
+§204  OTHER RULINGS
 ========================================================================
 
-225.1  RULING [Rules Reference v1.4.6, p. 38, FAQ › Specific Card Questions]  Cards: Seasoned Navigator
+204.1  RULING [Rules Reference v1.4.6, p. 38, FAQ › Specific Card Questions]  Cards: Seasoned Navigator
       Q: When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
       A: The ship's revealed maneuver is the one to which its dial is physically set.
          If an effect such as Seasoned Navigator physically sets the dial to a new maneuver, the new maneuver is the ship's revealed maneuver. If multiple effects set the dial, the revealed maneuver is the final maneuver on the dial after all effects that set it have been resolved.
 
-225.2  RULING [Rules Reference v1.4.6, p. 41, FAQ › Specific Card Questions]  Cards: Admiral Sloane
+204.2  RULING [Rules Reference v1.4.6, p. 41, FAQ › Specific Card Questions]  Cards: Admiral Sloane
       Q: When a ship is instructed to gain two or more tokens from a single effect (such as Admiral Sloane), does this resolve as a single instance of gaining two or more tokens or as two or more separate instances of gaining one token?
       A: It resolves as a single instance of gaining two or more tokens. Thus, if a ship is instructed to gain two or more tokens from a single effect like Admiral Sloane, this only triggers abilities that occur “after you gain a token” once.
 
-225.3  RULING [Rules Reference v1.4.6, p. 41, FAQ › Specific Card Questions]
+204.3  RULING [Rules Reference v1.4.6, p. 41, FAQ › Specific Card Questions]
       Q: Are left bank (or turn) and right bank (or turn) templates of the same speed considered different templates?
       A: Yes. Even though these templates are resolved with the same physical tool, they are considered different templates.
          For example, the [3 [Turn Left]] and [3 [Turn Right]], which use the same physical tool, flipped over), they are considered different templates. Thus, if an effect requires you to choose "two different templates," you may select the [3 [Turn Left]] template and the [3 [Turn Right]] template.
 
 ========================================================================
-§226  ERRATA
+§205  ERRATA
 ========================================================================
 
-226.1  ERRATUM — Edrio Two Tubes (T-65 X-wing) [Rules Reference v1.4.6, p. 30]
+205.1  ERRATUM — Edrio Two Tubes (T-65 X-wing) [Rules Reference v1.4.6, p. 30]
       Should read: “Before you activate, if you are focused...”
       (Changed “After” to “Before”)
 
-226.2  ERRATUM — Major Vermeil (TIE reaper) [Rules Reference v1.4.6, p. 30]
+205.2  ERRATUM — Major Vermeil (TIE reaper) [Rules Reference v1.4.6, p. 30]
       Should read: “...you may change 1 of your blank or [Focus] results to a [Hit] result.”
       (Changed “blank/[Focus] results” to “blank or [Focus] results”)
 
-226.3  ERRATUM — Captain Feroph (TIE reaper) [Rules Reference v1.4.6, p. 30]
+205.3  ERRATUM — Captain Feroph (TIE reaper) [Rules Reference v1.4.6, p. 30]
       Should read: “you may change 1 of your blank or [Focus] results to an [Evade] result.”
       (Changed “blank/[Focus] results” to “blank or [Focus] results”)
 
-226.4  ERRATUM — Advanced Sensors [Rules Reference v1.4.6, p. 30]
+205.4  ERRATUM — Advanced Sensors [Rules Reference v1.4.6, p. 30]
       Should read “...If you do, you cannot perform another action during your activation.”
       (Changed “skip your Perform Action step” to “you cannot perform another action during your activation.”)
 
-226.5  ERRATUM — Pivot Wing [Rules Reference v1.4.6, p. 30]
+205.5  ERRATUM — Pivot Wing [Rules Reference v1.4.6, p. 30]
       Should read “UT-60D U-wing only” in the restrictions box.
       (Changed “UT-D60” to “UT-60D”)
 
-226.6  ERRATUM — Proton Torpedoes [Rules Reference v1.4.6, p. 30]
+205.6  ERRATUM — Proton Torpedoes [Rules Reference v1.4.6, p. 30]
       Should have the ordnance icon next to the attack range.
       (Changed cone icon to ordnance icon)
 
-226.7  ERRATUM — R3 Astromech [Rules Reference v1.4.6, p. 30]
+205.7  ERRATUM — R3 Astromech [Rules Reference v1.4.6, p. 30]
       Should read “...2 locks. Each lock must be on a different object.”
       (Added “Each lock must be on a different object.”)
 
-226.8  ERRATUM — Swarm tactics [Rules Reference v1.4.6, p. 30]
+205.8  ERRATUM — Swarm tactics [Rules Reference v1.4.6, p. 30]
       Should not be restricted to Imperial only.
       (Removed “Galactic Empire” icon.)
 
-226.9  ERRATUM — Magva Yarro, Saw Gerrera [Rules Reference v1.4.6, p. 30]
+205.9  ERRATUM — Magva Yarro, Saw Gerrera [Rules Reference v1.4.6, p. 30]
       Should read “Rebel only” in the restrictions box.
       (Changed “Rebel Alliance” icon to “Rebel only” text)
 
-226.10  ERRATUM — Death Troopers, Director Krennic, ISB Slicer [Rules Reference v1.4.6, p. 30]
+205.10  ERRATUM — Death Troopers, Director Krennic, ISB Slicer [Rules Reference v1.4.6, p. 30]
       Should read “Imperial only” in the restrictions box.
       (Changed “Galactic Empire” icon to “Imperial only” text)
 
-226.11  ERRATUM — Optimized Prototype [Rules Reference v1.4.6, p. 30]
+205.11  ERRATUM — Optimized Prototype [Rules Reference v1.4.6, p. 30]
       Should read “...you may spend 1 [Hit], [Crit], or [Focus] result.”
       (Changed “1 [Hit]/[Crit]/[Focus] result” to “1 [Hit], [Crit], or [Focus] result”)
 
-226.12  ERRATUM — "Countdown" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
+205.12  ERRATUM — "Countdown" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed ship ability).)
 
-226.13  ERRATUM — "Duchess" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
+205.13  ERRATUM — "Duchess" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed ship ability).)
 
-226.14  ERRATUM — "Pure Sabacc" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
+205.14  ERRATUM — "Pure Sabacc" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed ship ability).)
 
-226.15  ERRATUM — "Vagabond" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
+205.15  ERRATUM — "Vagabond" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Pilot ability should read: "After you move using your Adaptive Ailerons, if you are not stressed, you may drop 1 device."
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed pilot and ship ability).)
 
-226.16  ERRATUM — "Vizier" (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 30]
+205.16  ERRATUM — "Vizier" (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 30]
       Pilot ability should read: "After you move using your Controlled Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
       (Changed pilot and ship ability).)
 
-226.17  ERRATUM — Alexandr Kallus (Rebel, VCX-100) [Rules Reference v1.4.6, p. 30]
+205.17  ERRATUM — Alexandr Kallus (Rebel, VCX-100) [Rules Reference v1.4.6, p. 30]
       Should include the Tail Gun ship ability possessed by all other VCX-100 pilots.
       (Added missing ship ability).)
 
-226.18  ERRATUM — Arliz Hadrassian (Scum, BTL-A4 Y-wing) [Rules Reference v1.4.6, p. 30]
+205.18  ERRATUM — Arliz Hadrassian (Scum, BTL-A4 Y-wing) [Rules Reference v1.4.6, p. 30]
       Should read: "While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your focus results to a blank result."
       (Added a specific timing window to prevent players from circumventing the downsides of the Pilot Ability.)
 
-226.19  ERRATUM — Arvel Crynyd (Rebel, RZ-1 A-wing) [Rules Reference v1.4.6, p. 30]
+205.19  ERRATUM — Arvel Crynyd (Rebel, RZ-1 A-wing) [Rules Reference v1.4.6, p. 30]
       Should read: "If you would fail a [Boost] action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead.
       While you perform an attack at attack range 0, treat it as an attack at attack range 1."
       (Changed the second portion of the ability.)
 
-226.20  ERRATUM — "Black Squadron Scout" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
+205.20  ERRATUM — "Black Squadron Scout" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed ship ability).)
 
-226.21  ERRATUM — Berwer Kret (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.21  ERRATUM — Berwer Kret (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.22  ERRATUM — Captain Feroph (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
+205.22  ERRATUM — Captain Feroph (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
       (Changed ship ability.)
 
-226.23  ERRATUM — Captain Oicunn (Imperial, VT-49 Decimator) [Rules Reference v1.4.6, p. 31]
+205.23  ERRATUM — Captain Oicunn (Imperial, VT-49 Decimator) [Rules Reference v1.4.6, p. 31]
       Should read: "While you perform an attack at attack range 0, treat it as an attack at attack range 1."
       (Ability changed to work in new core rules)
 
-226.24  ERRATUM — Chertek (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.24  ERRATUM — Chertek (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.25  ERRATUM — Commandant Goran (Imperial, TIE/in Interceptor) [Rules Reference v1.4.6, p. 31]
+205.25  ERRATUM — Commandant Goran (Imperial, TIE/in Interceptor) [Rules Reference v1.4.6, p. 31]
       Should read: "At the start of the Engagement Phase, choose a friendly ship at range 0–3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token."
       (Ability reworked.)
 
-226.26  ERRATUM — Commander Malarus (First Order, Xi-class Light Shuttle) [Rules Reference v1.4.6, p. 31]
+205.26  ERRATUM — Commander Malarus (First Order, Xi-class Light Shuttle) [Rules Reference v1.4.6, p. 31]
       Should read: "While a friendly ship at range 0-2 performs a primary attack, before the Modify Dice step, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able."
       (Added a specific timing window to prevent players from circumventing the downsides of the Pilot Ability.)
 
-226.27  ERRATUM — DBS-404 (Separatist, Hyena-class Droid Bomber) [Rules Reference v1.4.6, p. 31]
+205.27  ERRATUM — DBS-404 (Separatist, Hyena-class Droid Bomber) [Rules Reference v1.4.6, p. 31]
       Should read: "While you perform an attack at attack range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Crit] damage."
       (Changed the range restriction on this ability).)
 
-226.28  ERRATUM — Fenn Rau (Rebel, Sheathipede-class Shuttle) [Rules Reference v1.4.6, p. 31]
+205.28  ERRATUM — Fenn Rau (Rebel, Sheathipede-class Shuttle) [Rules Reference v1.4.6, p. 31]
       Should read: "Before an enemy ship in your firing arc engages..."
       (Replaced "After an enemy ship in your firing arc engages").)
 
-226.29  ERRATUM — Goji (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
+205.29  ERRATUM — Goji (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "While a friendly ship at range 0–3 defends, it may roll 1 additional defense die for each friendly bomb at range 0–1 of it."
       (Removed "or mine").)
 
-226.30  ERRATUM — Gorgol (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.30  ERRATUM — Gorgol (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.31  ERRATUM — Hera Syndulla (Rebel, A/SF-01 B-wing) [Rules Reference v1.4.6, p. 31]
+205.31  ERRATUM — Hera Syndulla (Rebel, A/SF-01 B-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "While another friendly ship at range 1-2 defends or performs an attack, during a Modifiy Dice step,..."
       (Added a specific timing window of an attack during which her ability can be used. As before, this ability can only be used once per attack.)
 
-226.32  ERRATUM — Hera Syndulla (Rebel, RZ-1 A-wing) [Rules Reference v1.4.6, p. 31]
+205.32  ERRATUM — Hera Syndulla (Rebel, RZ-1 A-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "While another friendly ship at range 1-2 defends or performs an attack, during a Modifiy Dice step..."
       (Added a specific timing window of an attack during which her ability can be used. As before, this ability can only be used once per attack.)
 
-226.33  ERRATUM — Kelrodo-ai Holdout (Separatist, Vulture-class Droid Fighter) [Rules Reference v1.4.6, p. 31]
+205.33  ERRATUM — Kelrodo-ai Holdout (Separatist, Vulture-class Droid Fighter) [Rules Reference v1.4.6, p. 31]
       Initiative should be "1".
       (Changed Initiative value on the card to match the correct value on the ship token.)
 
-226.34  ERRATUM — Lapin (Scum, Modified TIE/ln Fighter) [Rules Reference v1.4.6, p. 31]
+205.34  ERRATUM — Lapin (Scum, Modified TIE/ln Fighter) [Rules Reference v1.4.6, p. 31]
       Initiative should be "3".
       (Changed Initiative value on the card to match the correct value on the ship token.)
 
-226.35  ERRATUM — Lieutenant Dormitz (First Order, Upsilon-class Shuttle) [Rules Reference v1.4.6, p. 31]
+205.35  ERRATUM — Lieutenant Dormitz (First Order, Upsilon-class Shuttle) [Rules Reference v1.4.6, p. 31]
       Should read: "Setup: After you are placed, friendly small ships can be placed anywhere in the play area at range 0–2 of you."
       (Replaced "other friendly ship" with "friendly small ships").)
 
-226.36  ERRATUM — Major Vermeil (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
+205.36  ERRATUM — Major Vermeil (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
       (Changed ship ability.)
 
-226.37  ERRATUM — Norra Wexley (Rebel, ARC-170) [Rules Reference v1.4.6, p. 31]
+205.37  ERRATUM — Norra Wexley (Rebel, ARC-170) [Rules Reference v1.4.6, p. 31]
       Should read: “...range 0–1, add 1 [Evade] result to your dice results.”
       (Removed “you may”).)
 
-226.38  ERRATUM — "Odd Ball" (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
+205.38  ERRATUM — "Odd Ball" (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "After you fully execute..."
       (Added "fully").)
 
-226.39  ERRATUM — Petranaki Arena Ace (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.39  ERRATUM — Petranaki Arena Ace (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.40  ERRATUM — "Planetary Sentinel" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 31]
+205.40  ERRATUM — "Planetary Sentinel" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
       (Changed ship ability).)
 
-226.41  ERRATUM — Scarif Base Pilot (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
+205.41  ERRATUM — Scarif Base Pilot (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
       (Changed ship ability.)
 
-226.42  ERRATUM — Sun Fac (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.42  ERRATUM — Sun Fac (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.43  ERRATUM — Stalgasin Hive Guard (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
+205.43  ERRATUM — Stalgasin Hive Guard (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
       (Added "fully").)
 
-226.44  ERRATUM — "Dutch" Vander (BTL-A4 Y-wing — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
+205.44  ERRATUM — "Dutch" Vander (BTL-A4 Y-wing — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
       Pilot ability should read: "After you spend a lock during an attack, choose a friendly ship at range 1–3. The chosen ship may acquire a lock on the defender."
       Initiative value should be "4".
       (Corrected pilot ability and adjusted initiative value).)
 
-226.45  ERRATUM — Iden Versio (TIE/in Interceptor — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
+205.45  ERRATUM — Iden Versio (TIE/in Interceptor — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
       Pilot ability should read: "Before a friendly TIE at range 0–1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage."
       (Corrected pilot ability).)
 
-226.46  ERRATUM — Buzz Droids Swarm [Rules Reference v1.4.6, p. 32]
+205.46  ERRATUM — Buzz Droids Swarm [Rules Reference v1.4.6, p. 32]
       Agility reduced to 1.
       (Agility adjusted for balance).)
 
-226.47  ERRATUM — "Zeb" Orrelios [Rules Reference v1.4.6, p. 32]
+205.47  ERRATUM — "Zeb" Orrelios [Rules Reference v1.4.6, p. 32]
       Should read: "While you perform an attack at attack range 0, you may spend focus tokens for their default effect to modify results. While defending at attack range 0, the attacker may spend focus tokens for their default effect to modify results." (Ability reworked).
       BB Astromech Should read "During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll] action."
       (Changed the effect timing to the System Phase).)
 
-226.48  ERRATUM — BB-8 [Rules Reference v1.4.6, p. 32]
+205.48  ERRATUM — BB-8 [Rules Reference v1.4.6, p. 32]
       Should read "During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action."
       (Changed the effect timing to the System Phase).)
 
-226.49  ERRATUM — Agent Kallus [Rules Reference v1.4.6, p. 32]
+205.49  ERRATUM — Agent Kallus [Rules Reference v1.4.6, p. 32]
       Should read "Setup: After placing forces, assign..."
       (Added "After placing forces,")
 
-226.50  ERRATUM — Asajj Ventress [Rules Reference v1.4.6, p. 32]
+205.50  ERRATUM — Asajj Ventress [Rules Reference v1.4.6, p. 32]
       Asajj Ventress should have 1 recurring charge symbol next to her Force modifier.
       (Added recurring charge symbol on Force modifier.)
 
-226.51  ERRATUM — C1-10P [Rules Reference v1.4.6, p. 32]
+205.51  ERRATUM — C1-10P [Rules Reference v1.4.6, p. 32]
       Second section of the ability should read: "After you fully execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed." (Added "fully").
       •C1-10P (Erratic) Should read: "After you fully execute a maneuver, you must choose a ship at range 0–1. It gains 1 jam token."
       (Added "fully").)
 
-226.52  ERRATUM — Composure [Rules Reference v1.4.6, p. 32]
+205.52  ERRATUM — Composure [Rules Reference v1.4.6, p. 32]
       Should include the line: "If you do, you cannot perform additional actions this round."
       (Added "If you do, you cannot perform additional actions this round.")
 
-226.53  ERRATUM — Contraband Cybernetics [Rules Reference v1.4.6, p. 32]
+205.53  ERRATUM — Contraband Cybernetics [Rules Reference v1.4.6, p. 32]
       Should include the line: "This card's [Charge] cannot be recovered.."
       (Added restriction on recovering charges.)
 
-226.54  ERRATUM — Count Dooku [Rules Reference v1.4.6, p. 32]
+205.54  ERRATUM — Count Dooku [Rules Reference v1.4.6, p. 32]
       Should read: "During an attack, before a ship at range 0–2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."
       (Added "During an attack").)
 
-226.55  ERRATUM — Concussion Bombs [Rules Reference v1.4.6, p. 32]
+205.55  ERRATUM — Concussion Bombs [Rules Reference v1.4.6, p. 32]
       The first sentence should read: "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able, using the [1 [Straight]] template."
       (Added ""using the [1 [Straight]] template").)
 
-226.56  ERRATUM — Dedicated [Rules Reference v1.4.6, p. 32]
+205.56  ERRATUM — Dedicated [Rules Reference v1.4.6, p. 32]
       Changed the keyword restrictions to "Republic, Clone".
       (Removed Non-Limited restriction and added Clone restriction).)
 
-226.57  ERRATUM — Ferrosphere Paint [Rules Reference v1.4.6, p. 32]
+205.57  ERRATUM — Ferrosphere Paint [Rules Reference v1.4.6, p. 32]
       Should read: "After an enemy ship locks you, if you are not in that ship’s [Bullseye Arc], that ship gains 1 stress token unless it chooses to break its lock."
       (Abilty adjusted to allow counterplay).)
 
-226.58  ERRATUM — Grappling Struts (Closed) [Rules Reference v1.4.6, p. 32]
+205.58  ERRATUM — Grappling Struts (Closed) [Rules Reference v1.4.6, p. 32]
       Should read “.... After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud."
       (Updated text to work as intended.)
 
-226.59  ERRATUM — Grappling Struts (Open) [Rules Reference v1.4.6, p. 32]
+205.59  ERRATUM — Grappling Struts (Open) [Rules Reference v1.4.6, p. 32]
       Should read "You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2[Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card."
       (Updated text to work as intended.)
 
-226.60  ERRATUM — Landing Struts (Closed) [Rules Reference v1.4.6, p. 32]
+205.60  ERRATUM — Landing Struts (Closed) [Rules Reference v1.4.6, p. 32]
       Should read “.... After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud."
       (Updated text to work as intended.)
 
-226.61  ERRATUM — Landing Struts (Open) [Rules Reference v1.4.6, p. 32]
+205.61  ERRATUM — Landing Struts (Open) [Rules Reference v1.4.6, p. 32]
       Should read "You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2[Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card."
       (Updated text to work as intended.)
 
-226.62  ERRATUM — Lando's Millennium Falcon [Rules Reference v1.4.6, p. 32]
+205.62  ERRATUM — Lando's Millennium Falcon [Rules Reference v1.4.6, p. 32]
       Should read: “While you have an Escape Craft docked, you may treat its shields as if...”
       (Replaced “spend" with "treat")
 
-226.63  ERRATUM — Leia Organa [Rules Reference v1.4.6, p. 33]
+205.63  ERRATUM — Leia Organa [Rules Reference v1.4.6, p. 33]
       Should read: "After a friendly ship reveals a non-[0[Stop]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver."
       (Added restriction on maneuver type).)
 
-226.64  ERRATUM — Luke Skywalker [Rules Reference v1.4.6, p. 33]
+205.64  ERRATUM — Luke Skywalker [Rules Reference v1.4.6, p. 33]
       Should read: “At the start of the Engagement Phase, you may spend 1 [Force] and gain 1 deplete token to rotate your [Turret Arc] indicator.”
       (Added an additional cost)
 
-226.65  ERRATUM — Outrider [Rules Reference v1.4.6, p. 33]
+205.65  ERRATUM — Outrider [Rules Reference v1.4.6, p. 33]
       The ability text now reads:
       "While you perform a primary attack at range 3, roll 1 additional attack die. While you perform an attack that is obstructed by an obstacle, you may change one of the defender's [Evade] results to a [Focus] result."
       (Changed the effect of this upgrade.)
 
-226.66  ERRATUM — Protectorate Gleb [Rules Reference v1.4.6, p. 33]
+205.66  ERRATUM — Protectorate Gleb [Rules Reference v1.4.6, p. 33]
       Should read: "After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated."
       (Added restriction stipulating friendly ship.)
 
-226.67  ERRATUM — Slave I [Rules Reference v1.4.6, p. 33]
+205.67  ERRATUM — Slave I [Rules Reference v1.4.6, p. 33]
       Should read “...maneuver, you may set your dial to the maneuver of the same speed and bearing...”
       (Removed “you may gain 1 stress token. If you do,”)
 
-226.68  ERRATUM — Stalwart Captain [Rules Reference v1.4.6, p. 33]
-      Should read: “Huge ship” in the restrictions box.
-      (Changed from "Rebel, Huge ship.")
-
-226.69  ERRATUM — Static Discharge Vanes [Rules Reference v1.4.6, p. 33]
+205.68  ERRATUM — Static Discharge Vanes [Rules Reference v1.4.6, p. 33]
       Should read: “Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0–1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.”
       (Changed from “If you would gain an ion or jam token, you may choose a ship at range 0–1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.”)
 
-226.70  ERRATUM — Ursa Wren [Rules Reference v1.4.6, p. 33]
+205.69  ERRATUM — Ursa Wren [Rules Reference v1.4.6, p. 33]
       Should read “You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked by an enemy shp, you mayperform a [Lock] action."
       (Updated text to work as intended.)
 
-226.71  ERRATUM — Tracking Torpedoes [Rules Reference v1.4.6, p. 33]
+205.70  ERRATUM — Tracking Torpedoes [Rules Reference v1.4.6, p. 33]
       Should read: “...This card's [Charge] cannot be recovered.")
       (Added restriction on recovering charges.)
 
-226.72  ERRATUM — Insert Sheets [Rules Reference v1.4.6, p. 33]
+205.71  ERRATUM — Insert Sheets [Rules Reference v1.4.6, p. 33]
       “System” and “Bomb” upgrade cards should be labeled “Sensor” and “Payload” upgrade cards instead.
       Proximity Mines Should read “When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] plus 1 [Hit]/[Crit] damage for each matching result.”
       (Changed from “When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Crit] damage for each matching result.”)
-
-226.73  ERRATUM — Dials [Rules Reference v1.4.6, p. 33]
-      The dials included in the first printing of the Tantive IV expansion are incorrect. The incorrect dials can be identified by the "RDR" text printed in the center (instead of the correct "C90." The correct dial is as follows:
-      Additionally, the ship can still be played using the incorrect dial if necessary. by following these steps:
-      • Step 1: Using the incorrect dial, select a maneuver.
-      • Step 2: When revealing the dial, consult the corrected chart or dial included above. If the difficulty of the maneuver differs, use the difficulty on the corrected dial instead.
-      Because the speed and bearing of all maneuvers on the incorrect dial still match with the CR90’s correct maneuver dial, any maneuver on the dial is still a legal speed and bearing for the CR90. Additionally, the incorrect dial is not missing any speed/bearing combinations available to the CR90.
-      Note also that effects that refer to the ship’s revealed maneuver use the corrected difficulty.

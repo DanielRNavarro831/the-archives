@@ -423,30 +423,6 @@
   "section": "Structure",
   "why": "terms"
  },
- "rr-107": {
-  "section": "Attacks",
-  "why": "faq heading"
- },
- "rr-108": {
-  "section": "Attacks",
-  "why": "faq heading"
- },
- "rr-109": {
-  "section": "Attacks",
-  "why": "faq heading"
- },
- "rr-110": {
-  "section": "Attacks",
-  "why": "faq heading"
- },
- "rr-111": {
-  "section": "Movement",
-  "why": "faq heading"
- },
- "rr-112": {
-  "section": "Turret Arc Indicators",
-  "why": "faq heading"
- },
  "forum-106": {
   "section": "Pilot Ability",
   "why": "terms"
@@ -529,10 +505,6 @@
  },
  "forum-73": {
   "section": "Pilot Ability",
-  "why": "terms"
- },
- "forum-66": {
-  "section": "Deploy",
   "why": "terms"
  },
  "forum-65": {

@@ -155,3 +155,14 @@ under **Compendium**, and `site/compendium.txt` is the same thing as plain text.
 **Using it with an AI assistant without made-up rulings:** give it `compendium.txt` and ask
 it to answer *only* with § numbers, then look those numbers up on the site ("Go to §" box,
 or type §22.4 in the search box) and read the actual text yourself.
+
+## Official PDF links and the Epic switch (`data/sources.json`)
+
+- Every rules citation ("Rules Reference v1.4.6, p. 37") links to the **XWA's official PDF**
+  at that page, using each document's `url`. The PDFs are not hosted here. When the XWA
+  publishes a new version, update that document's `version` and `url` (the new file's address
+  on https://www.xwing.life/rules) along with the local copy used for extraction.
+- `"hideEpic": true` hides huge-ship / Epic content until the new Epic document is ready:
+  the Rules Reference's Appendix: Huge Ships and Huge Ship FAQ, forum thread 66, and the
+  Stalwart Captain and CR90 dial errata (listed under `"epic"`). Set it to `false` and run
+  `python tools/build_data.py` to show them again. The About page explains the gap while hidden.

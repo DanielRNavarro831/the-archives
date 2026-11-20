@@ -395,6 +395,11 @@ def main():
 
     rules, rulings, errata = [], [], []
     used = set()
+    # Epic / huge-ship content can be hidden until the Epic format is finalized
+    epic = sources.get("epic", {}) if sources.get("hideEpic") else {}
+    epic_sections = set(epic.get("sections", []))
+    for src in sources["documents"]:
+        src["sections"] = [s for s in src["sections"] if s["id"] not in epic_sections]
     for src in sources["documents"]:
         paras = load(src["raw"])
         # drop leftovers of artwork labels such as "A T c A T c:"
@@ -403,6 +408,13 @@ def main():
         rules = build_rules(paras, src, src["sections"], rules, used)
         build_rulings(paras, src, src["sections"], rulings)
         build_errata(paras, src, src["sections"], errata)
+    if epic:
+        before = len(errata)
+        errata = [e for e in errata
+                  if e["category"] not in epic.get("errataCategories", [])
+                  and not any(n.lstrip("•") in epic.get("errataNames", []) for n in e["names"])]
+        print(f"hideEpic: hiding huge-ship sections {sorted(epic_sections)}, "
+              f"{before - len(errata)} errata, forum threads {epic.get('forumThreads', [])}")
 
     cards = {}
     ignore = {norm_quotes(k).lower() for k in cur.get("ignore", [])}
@@ -507,7 +519,7 @@ def main():
         print(f"YASB: {len(cards)} cards total; {pdf_card_count - len(yasb_info['unmatched'])} of "
               f"{pdf_card_count} PDF cards matched (unmatched: {', '.join(yasb_info['unmatched']) or 'none'})")
     # 6. official answers from the XWA rules forum (data/forum/threads.json)
-    forum, forum_info = forum_rulings.to_rulings(cards)
+    forum, forum_info = forum_rulings.to_rulings(cards, skip_extra=epic.get("forumThreads", []))
     for r in forum:
         for i in r["cards"]:
             cards[i]["rulings"].append(r["id"])
@@ -529,10 +541,11 @@ def main():
     print(f"Compendium: {len(comp['sections'])} sections, {len(comp['refs'])} numbered paragraphs")
 
     data = {
-        "meta": {"sources": [{k: s[k] for k in ("id", "title", "version", "effective")}
+        "meta": {"sources": [{k: s.get(k) for k in ("id", "title", "version", "effective", "url")}
                              for s in sources["documents"]],
-                 "otherDocuments": [{k: s[k] for k in ("title", "version", "effective")}
+                 "otherDocuments": [{k: s.get(k) for k in ("title", "version", "effective", "url")}
                                     for s in sources.get("otherDocuments", [])],
+                 "hideEpic": bool(sources.get("hideEpic")),
                  "documentsPage": sources.get("documentsPage") or None,
                  "reportForm": sources.get("reportForm") or None,
                  "cardData": {k: yasb_info[k] for k in ("source", "commit", "importedAt")} if yasb_info else None,

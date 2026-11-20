@@ -1,6 +1,23 @@
 {
- "_readme": "documentsPage: paste the XWA's official documents download page here (leave empty for plain-text citations). 'file' is the local PDF used by the build tools; it is not published. reportForm: the Google Form behind 'Report a Problem or Ruling'; 'field' is the form question that gets pre-filled with the page the reader was on.",
- "documentsPage": "",
+ "_readme": "documentsPage: the XWA's official documents page. Each document's 'url' is its official PDF; citations link to it at the cited page. When the XWA publishes a new version, update 'version' and 'url' (and 'file'/'raw' for the local copy used by the build tools). hideEpic: true hides huge-ship/Epic rulings listed under 'epic' until the Epic format is finalized; set it to false to show them again. reportForm: the Google Form behind 'Report a Problem or Ruling'; 'field' is the form question that gets pre-filled.",
+ "documentsPage": "https://www.xwing.life/rules",
+ "hideEpic": true,
+ "epic": {
+  "_note": "What 'hideEpic' hides: whole Rules Reference sections, forum threads, and errata entries that only apply to huge ships / the Epic format.",
+  "sections": [
+   "huge",
+   "huge-faq"
+  ],
+  "forumThreads": [
+   "66"
+  ],
+  "errataNames": [
+   "Stalwart Captain"
+  ],
+  "errataCategories": [
+   "Dials"
+  ]
+ },
  "reportForm": {
   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfh-XKDsvKUjFUT9G-BPiVY9UJvaCqx9QoULG3mGtdY6zsjEQ/viewform",
   "field": "entry.549449734"
@@ -10,7 +27,8 @@
    "title": "Errata (printable cards)",
    "version": "1.8.2",
    "effective": "2023-08-28",
-   "file": "pdfs/errata-v1.8.2.pdf"
+   "file": "pdfs/errata-v1.8.2.pdf",
+   "url": "https://www.xwing.life/rules/errata-v1.8.2.pdf"
   }
  ],
  "documents": [
@@ -87,7 +105,8 @@
      "from": 49,
      "to": 49
     }
-   ]
+   ],
+   "url": "https://www.xwing.life/rules/rules-reference-v1.4.6.pdf"
   },
   {
    "id": "rb",
@@ -104,7 +123,8 @@
      "from": 1,
      "to": 24
     }
-   ]
+   ],
+   "url": "https://www.xwing.life/rules/rulebook-v1.1.1.pdf"
   }
  ]
 }
