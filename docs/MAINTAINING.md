@@ -166,3 +166,17 @@ or type §22.4 in the search box) and read the actual text yourself.
   the Rules Reference's Appendix: Huge Ships and Huge Ship FAQ, forum thread 66, and the
   Stalwart Captain and CR90 dial errata (listed under `"epic"`). Set it to `false` and run
   `python tools/build_data.py` to show them again. The About page explains the gap while hidden.
+
+## Usage statistics (GoatCounter)
+
+Anonymous stats are at **https://xwingarchives.goatcounter.com** (log in to view). The site sends:
+
+- a page view for each page opened: `/card/<id>`, `/rule/<id>`, `/s/<section>`, `/faq`, …
+  (an exact-name search that jumps straight to a card counts as a view of that card);
+- an event for each search: `search: <what was typed>`, or `search (no results): <text>` when
+  nothing matched, which is the most useful list for spotting what people can't find.
+
+No cookies or personal data; GoatCounter reports countries. Visits from `localhost` aren't counted.
+The script in `site/index.html` is pinned to a fixed version with an integrity hash; if GoatCounter
+ever stops loading, that pin is the first thing to check. The tracking code is the
+"anonymous usage stats" block in `site/js/app.js`. Remove both to turn stats off.

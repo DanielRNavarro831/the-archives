@@ -596,6 +596,10 @@
         If something here disagrees with the official document, the document is correct.</p>
         ${DB.meta.hideEpic ? `<h3>Epic and huge ships</h3>
         <p>Rulings for huge ships and the Epic format are not shown while the Epic rules are being updated by the XWA. They will return when the new Epic document is published.</p>` : ""}
+        <h3>Privacy</h3>
+        <p>The Archives keeps anonymous usage statistics with <a href="https://www.goatcounter.com" target="_blank" rel="noopener">GoatCounter</a>:
+        which pages are opened, what is typed into the search box, and the visitor's country. It uses no cookies and collects no
+        personal information. The numbers help the XWA see which cards and rules people find confusing.</p>
         <h3>Found a mistake?</h3>
         <p>Every card, ruling, erratum and rule has a <b>Report a Problem or Ruling</b> link. You can also ${reportLink("General feedback", "#/about", "send general feedback")}.</p>
         <h3>Reading the icons</h3>
@@ -643,11 +647,13 @@
     const q = params.get("q") || "";
     setTitle(`Search: ${q}`);
     const results = search(q);
+    trackSearch(q, results.length);
     if (!results.length) return viewNotFound(q);
     // one exact card hit -> behave like Gatherer and show it directly
     const exact = results.filter((r) => r.it.kind === "card" && r.it.head === norm(q).trim());
     if (exact.length === 1 && params.get("list") !== "1") {
       history.replaceState(null, "", "#/card/" + exact[0].it.id);
+      track("/card/" + exact[0].it.id, CARDS[exact[0].it.id].name, false);   // counts as a card view
       return viewCard(exact[0].it.id);
     }
     const terms = norm(q).split(/\s+/).filter((t) => t.length > 1);
@@ -749,6 +755,38 @@
     </section>`;
   }
 
+  // ---------- anonymous usage stats (GoatCounter) ----------
+  // Sends: which page was opened (e.g. /card/snap-shot-talent) and what was typed in search.
+  // No cookies, no personal data. GoatCounter skips localhost, so local testing isn't counted.
+  const statsQueue = [];
+  function track(path, title, event) {
+    statsQueue.push({ path, title, event: !!event });
+    flushStats();
+  }
+  function flushStats(tries = 0) {
+    const gc = window.goatcounter;
+    if (!gc || typeof gc.count !== "function") {
+      if (tries < 20) setTimeout(() => flushStats(tries + 1), 500);   // script still loading
+      return;
+    }
+    while (statsQueue.length) {
+      try { gc.count(statsQueue.shift()); } catch (e) { /* blocked or offline: ignore */ }
+    }
+  }
+  const pageTitle = () => document.title.replace(/\s*·\s*The Archives$/, "") || "Home";
+  function trackPage(parts) {
+    if (parts[0] === "search") return;                 // searches are recorded as events instead
+    let path = "/" + parts.join("/");
+    if (parts[0] === "s" && parts[1]) path = "/s/" + parts[1].split(".")[0];   // §22.7 counts as §22
+    track(path, pageTitle(), false);
+  }
+  function trackSearch(q, resultCount) {
+    const clean = String(q || "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 60);
+    if (!clean) return;
+    track(resultCount ? `search: ${clean}` : `search (no results): ${clean}`,
+          resultCount ? `Search: ${clean}` : `Search with no results: ${clean}`, true);
+  }
+
   // ---------- router ----------
   function route() {
     const hash = location.hash.replace(/^#/, "") || "/";
@@ -774,6 +812,7 @@
     }
     main.innerHTML = html;
     if (after) after();
+    trackPage(parts);
     // #/s/22.4 -> scroll to and highlight paragraph 4
     if (parts[0] === "s") {
       const ref = parseRef(parts[1]);
