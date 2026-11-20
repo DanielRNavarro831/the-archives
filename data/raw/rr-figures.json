@@ -27,7 +27,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 120,
-  "h": 146
+  "h": 143
  },
  {
   "file": "rr-p4-1.webp",
@@ -42,7 +42,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 310,
-  "h": 259
+  "h": 245
  },
  {
   "file": "rr-p4-2.webp",
@@ -57,7 +57,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 230,
-  "h": 238
+  "h": 225
  },
  {
   "file": "rr-p4-3.webp",
@@ -66,13 +66,13 @@
    342.8,
    58.3,
    506.5,
-   157.7
+   153.9
   ],
   "col": 1,
   "fullWidth": false,
   "caption": "",
   "w": 359,
-  "h": 224
+  "h": 202
  },
  {
   "file": "rr-p4-4.webp",
@@ -117,7 +117,7 @@
   "fullWidth": false,
   "caption": "A TIE fighter barrel rolls to the right and slightly forward, slightly backward, or straight across.",
   "w": 586,
-  "h": 179
+  "h": 165
  },
  {
   "file": "rr-p6-2.webp",
@@ -132,7 +132,7 @@
   "fullWidth": false,
   "caption": "A TIE Punisher barrel rolls to the right.",
   "w": 587,
-  "h": 172
+  "h": 165
  },
  {
   "file": "rr-p7-1.webp",
@@ -154,7 +154,7 @@
   "page": 7,
   "bbox": [
    302.0,
-   146.0,
+   151.1,
    584.7,
    269.3
   ],
@@ -162,7 +162,7 @@
   "fullWidth": false,
   "caption": "An X-wing boosts to the left, straight, or to the right.",
   "w": 607,
-  "h": 275
+  "h": 257
  },
  {
   "file": "rr-p7-3.webp",
@@ -177,7 +177,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 119,
-  "h": 124
+  "h": 122
  },
  {
   "file": "rr-p8-1.webp",
@@ -207,7 +207,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 116,
-  "h": 124
+  "h": 120
  },
  {
   "file": "rr-p10-1.webp",
@@ -222,7 +222,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 168,
-  "h": 190
+  "h": 184
  },
  {
   "file": "rr-p10-2.webp",
@@ -252,7 +252,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 279,
-  "h": 229
+  "h": 224
  },
  {
   "file": "rr-p11-2.webp",
@@ -267,7 +267,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 116,
-  "h": 124
+  "h": 120
  },
  {
   "file": "rr-p12-1.webp",
@@ -297,7 +297,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 117,
-  "h": 123
+  "h": 120
  },
  {
   "file": "rr-p13-1.webp",
@@ -357,7 +357,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 405,
-  "h": 181
+  "h": 177
  },
  {
   "file": "rr-p17-1.webp",
@@ -372,7 +372,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 282,
-  "h": 171
+  "h": 169
  },
  {
   "file": "rr-p17-2.webp",
@@ -387,7 +387,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 260,
-  "h": 158
+  "h": 157
  },
  {
   "file": "rr-p17-3.webp",
@@ -477,7 +477,7 @@
   "fullWidth": false,
   "caption": "In this example, since the VT-49 Decimator has a fore reinforce token, the effect would only apply while defending against the one X-wing in front of it.",
   "w": 572,
-  "h": 342
+  "h": 335
  },
  {
   "file": "rr-p19-1.webp",
@@ -507,7 +507,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 293,
-  "h": 187
+  "h": 180
  },
  {
   "file": "rr-p20-2.webp",
@@ -522,7 +522,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 535,
-  "h": 220
+  "h": 211
  },
  {
   "file": "rr-p21-1.webp",
@@ -537,7 +537,7 @@
   "fullWidth": true,
   "caption": "",
   "w": 589,
-  "h": 306
+  "h": 299
  },
  {
   "file": "rr-p21-2.webp",
@@ -552,7 +552,7 @@
   "fullWidth": true,
   "caption": "",
   "w": 157,
-  "h": 145
+  "h": 142
  },
  {
   "file": "rr-p21-3.webp",
@@ -567,7 +567,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 117,
-  "h": 122
+  "h": 116
  },
  {
   "file": "rr-p22-1.webp",
@@ -582,7 +582,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 117,
-  "h": 123
+  "h": 120
  },
  {
   "file": "rr-p22-2.webp",
@@ -612,44 +612,44 @@
   "fullWidth": false,
   "caption": "",
   "w": 189,
-  "h": 137
+  "h": 128
  },
  {
   "file": "rr-p25-1.webp",
   "page": 25,
   "bbox": [
    44.7,
-   80.9,
+   83.6,
    295.2,
-   194.6
+   191.5
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 254
+  "h": 227
  },
  {
   "file": "rr-p25-2.webp",
   "page": 25,
   "bbox": [
    39.4,
-   283.0,
+   284.1,
    301.4,
-   396.7
+   392.0
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "",
   "w": 564,
-  "h": 254
+  "h": 228
  },
  {
   "file": "rr-p25-3.webp",
   "page": 25,
   "bbox": [
    45.0,
-   490.5,
+   493.9,
    295.5,
    601.4
   ],
@@ -657,7 +657,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 249
+  "h": 229
  },
  {
   "file": "rr-p25-4.webp",
@@ -679,15 +679,15 @@
   "page": 25,
   "bbox": [
    321.1,
-   340.3,
+   343.1,
    571.6,
-   454.1
+   451.0
   ],
   "col": 1,
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 255
+  "h": 228
  },
  {
   "file": "rr-p25-6.webp",
@@ -702,67 +702,67 @@
   "fullWidth": false,
   "caption": "",
   "w": 591,
-  "h": 240
+  "h": 228
  },
  {
   "file": "rr-p26-1.webp",
   "page": 26,
   "bbox": [
    49.9,
-   71.6,
+   74.4,
    294.7,
-   185.4
+   182.2
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "",
   "w": 528,
-  "h": 255
+  "h": 228
  },
  {
   "file": "rr-p26-2.webp",
   "page": 26,
   "bbox": [
    44.7,
-   278.8,
+   281.6,
    295.2,
-   392.6
+   389.4
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 255
+  "h": 228
  },
  {
   "file": "rr-p26-3.webp",
   "page": 26,
   "bbox": [
    45.0,
-   488.2,
+   491.0,
    295.5,
-   602.0
+   598.9
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 255
+  "h": 228
  },
  {
   "file": "rr-p26-4.webp",
   "page": 26,
   "bbox": [
    321.0,
-   71.6,
+   74.4,
    571.5,
-   185.4
+   182.2
   ],
   "col": 1,
   "fullWidth": false,
   "caption": "",
   "w": 540,
-  "h": 255
+  "h": 228
  },
  {
   "file": "rr-p26-5.webp",
@@ -777,7 +777,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 400,
-  "h": 254
+  "h": 246
  },
  {
   "file": "rr-p26-6.webp",
@@ -792,7 +792,7 @@
   "fullWidth": false,
   "caption": "Placing Blaze (aligning its guides to Blazer Bomb tab).",
   "w": 355,
-  "h": 336
+  "h": 329
  },
  {
   "file": "rr-p27-1.webp",
@@ -807,14 +807,14 @@
   "fullWidth": true,
   "caption": "",
   "w": 1146,
-  "h": 333
+  "h": 319
  },
  {
   "file": "rr-p28-1.webp",
   "page": 28,
   "bbox": [
    44.4,
-   78.5,
+   80.2,
    288.0,
    179.3
   ],
@@ -822,7 +822,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 525,
-  "h": 227
+  "h": 210
  },
  {
   "file": "rr-p28-2.webp",
@@ -882,7 +882,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 485,
-  "h": 207
+  "h": 203
  },
  {
   "file": "rr-p28-6.webp",
@@ -912,7 +912,7 @@
   "fullWidth": true,
   "caption": "This HWK-290 drops a seismic charge using a [1 {straight}] template. The Phantom II deploys from the Ghost using a [2 {bankleft}] maneuver.",
   "w": 734,
-  "h": 496
+  "h": 481
  },
  {
   "file": "rr-p29-2.webp",
@@ -927,7 +927,7 @@
   "fullWidth": true,
   "caption": "",
   "w": 1167,
-  "h": 836
+  "h": 829
  },
  {
   "file": "rr-p29-3.webp",
@@ -972,7 +972,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 366,
-  "h": 366
+  "h": 359
  },
  {
   "file": "rr-p33-2.webp",
@@ -994,15 +994,15 @@
   "page": 42,
   "bbox": [
    337.8,
-   136.3,
+   140.6,
    548.0,
-   222.7
+   220.2
   ],
   "col": 1,
   "fullWidth": false,
   "caption": "",
   "w": 456,
-  "h": 198
+  "h": 169
  },
  {
   "file": "rr-p42-2.webp",
@@ -1017,7 +1017,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 329,
-  "h": 261
+  "h": 254
  },
  {
   "file": "rr-p44-1.webp",
@@ -1047,7 +1047,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 473,
-  "h": 450
+  "h": 435
  },
  {
   "file": "rr-p46-1.webp",
@@ -1062,7 +1062,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 337,
-  "h": 260
+  "h": 257
  },
  {
   "file": "rr-p46-2.webp",
@@ -1084,7 +1084,7 @@
   "page": 46,
   "bbox": [
    349.8,
-   354.7,
+   358.4,
    524.1,
    566.7
   ],
@@ -1092,7 +1092,7 @@
   "fullWidth": false,
   "caption": "Fig. 1a: Position tool (before) Fig. 1b: Place ship (after)",
   "w": 381,
-  "h": 459
+  "h": 444
  },
  {
   "file": "rr-p47-1.webp",
@@ -1107,22 +1107,22 @@
   "fullWidth": true,
   "caption": "This CR90 has a Point-Defense Battery [ {hardpoint}] equipped, so a {doubleturretarc} turret arc indicator needs Fig. 2a: The Raider-class corvette is Fig. 2b: The Raider-class corvette would to be placed on a mount. A black indicator is selected and placed on the front mount. attempting to execute a [2 {bankright}] maneuver. overlap the CR90 corvette. Since the black {doubleturretarc} was used on the front mount, the corresponding black {doubleturretarc} mount marker is placed on the Point-Defense Battery upgrade card. Fig. 2c: To resolve this, the Raider instead executes a [1 {bankright}] maneuver, since it is a speed 1 lower maneuver that does not cause it to overlap the CR90. This CR90 also has a Turbolaser Battery [ {hardpoint}] equipped. Since a black turret arc indicator was used on the front mount, the white {singleturretarc} is used for the rear mount. Additionally, the corresponding white {singleturretarc} mount marker is placed on the Turbolaser Battery upgrade card. Fig. 3a: The Raider-class corvette would overlap the YT-1300. To resolve this, the YT-1300’s player picks it up and sets it aside.",
   "w": 1157,
-  "h": 873
+  "h": 866
  },
  {
   "file": "rr-p48-1.webp",
   "page": 48,
   "bbox": [
    35.7,
-   59.8,
+   61.8,
    302.8,
-   389.1
+   387.9
   ],
   "col": 0,
   "fullWidth": false,
   "caption": "This CR90 has a Point-Defense Battery [ {hardpoint}] and a Turbolaser Battery [ {hardpoint}] equipped. The Point-Defense Battery’s black {doubleturretarc} turret arc indicator was place on the front mount and the Turbolaser Battery’s white {singleturretarc} turret arc indicator was place on the rear mount. The Point-Defense Battery can attack from the CR90’s {leftarc} and {rightarc}. The Turbolaser Battery can attack from the CR90’s {frontarc}. If the CR90 tried to attack this TIE fighter, the attack range for the Turbolaser Battery would be range 1, which is too close, but the range for both the Point-Defense Battery and its primary weapon is range 2.",
   "w": 575,
-  "h": 704
+  "h": 683
  },
  {
   "file": "rr-p49-1.webp",
@@ -1137,7 +1137,7 @@
   "fullWidth": false,
   "caption": "",
   "w": 575,
-  "h": 670
+  "h": 666
  },
  {
   "file": "rr-p49-2.webp",

@@ -172,6 +172,11 @@ def trim(r, lines):
             if ov <= 0.5 * (t[2] - t[0]):
                 continue
             cy = (t[1] + t[3]) / 2
+            # a line straddling the top or bottom edge: move the edge clear of it
+            if t[1] < r[1] < t[3] and cy < r[1]:
+                r[1] = t[3] + 1; moved = True; continue
+            if t[1] < r[3] < t[3] and cy > r[3]:
+                r[3] = t[1] - 1; moved = True; continue
             if not (r[1] <= cy <= r[3]):
                 continue
             h = r[3] - r[1]
@@ -218,13 +223,22 @@ def main():
         if pages and pno not in pages:
             continue
         pieces, captions = page_pieces(page)
-        boxes = sorted((trim(b, body_text_lines(page)) for b in cluster(pieces)),
+        page_lines = body_text_lines(page)
+        boxes = sorted((trim(b, page_lines) for b in cluster(pieces)),
                        key=lambda r: (0 if r[0] < 296 else 1, r[1]))
         boxes = [b for b in boxes if b[3] - b[1] > 35]
         for i, r in enumerate(boxes, start=1):
-            pad = 4
-            clip = pymupdf.Rect(max(0, r[0] - pad), max(0, r[1] - pad),
-                                min(page.rect.width, r[2] + pad), min(FOOTER_Y, r[3] + pad))
+            # a little breathing room around the picture, but never into a neighbouring text line
+            pad_top = pad_bottom = 4
+            for t in page_lines:
+                if min(r[2], t[2]) - max(r[0], t[0]) <= 0:
+                    continue
+                if t[3] <= r[1]:
+                    pad_top = min(pad_top, max(0, r[1] - t[3] - 0.5))
+                if t[1] >= r[3]:
+                    pad_bottom = min(pad_bottom, max(0, t[1] - r[3] - 0.5))
+            clip = pymupdf.Rect(max(0, r[0] - 4), max(0, r[1] - pad_top),
+                                min(page.rect.width, r[2] + 4), min(FOOTER_Y, r[3] + pad_bottom))
             name = f"{prefix}-p{pno}-{i}.webp"
             pix = page.get_pixmap(dpi=DPI, clip=clip, alpha=False)
             if pix.width < 20 or pix.height < 20:
