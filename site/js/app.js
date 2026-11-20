@@ -794,10 +794,38 @@
     quiz = { qs: pool.slice(0, QUIZ_LEN), i: 0, score: 0, answered: null, poolSize: pool.length };
   }
 
+  /** Cards named in the question itself (not ones that only appear in the answer, which could be a hint). */
+  function quizCards(r) {
+    const unquote = (s) => norm(s).replace(/[“”"']/g, "").replace(/\s+/g, " ").trim();
+    const q = unquote(plainIcons(r.q));
+    const named = r.cards.filter((id) => CARDS[id] && q.includes(unquote(bareName(CARDS[id].name))));
+    // forum questions often picture the card instead of naming it
+    const pictured = (r.questionCards || []).filter((id) => CARDS[id]);
+    return [...new Set([...named, ...pictured])].map((id) => CARDS[id]);
+  }
+
+  /** What a judge can read on the physical card: no rulings, no errata notes, no links. */
+  function quizCardHtml(c, open) {
+    const ct = currentText(c);
+    const text = ct ? ct.text : null;
+    const shipAb = c.shipAbility && c.shipAbility.text
+      ? `<p class="shipab"><b>${esc(c.shipAbility.name)}:</b> ${fmt(c.shipAbility.text.replace(/\n/g, " "))}</p>` : "";
+    return `<details class="quiz-cardpanel"${open ? " open" : ""}>
+      <summary><span class="qc-name">${c.limited ? `<span class="dots">${"•".repeat(c.limited)}</span>` : ""}${esc(c.name)}</span>
+        <span class="qc-type">${c.slot ? c.slot.map((s) => iconHtml(SLOT_KEY[s] || s.toLowerCase())).join("") + " " : ""}${esc(cardTypeLine(c))}${c.factions.length ? ` · ${c.factions.map(esc).join(" / ")}` : ""}</span></summary>
+      ${statsHtml(c)}
+      <div class="qc-body">
+        ${text || shipAb ? `<div class="cardtext">${text ? textBlock(text) : ""}${shipAb}</div>` : `<p class="muted small">This card has no ability text.</p>`}
+      </div>
+    </details>`;
+  }
+
   function quizQuestionHtml() {
     const { r } = quiz.qs[quiz.i];
     const forum = r.source === "forum";
-    const qText = forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards })}</p>`).join("") : `<p>${fmt(r.q, { cards: r.cards })}</p>`;
+    // no card links in the question: the card panels below show what's printed on the cards instead
+    const qText = forum ? r.q.split("\n").map((p) => `<p>${fmt(p)}</p>`).join("") : `<p>${fmt(r.q)}</p>`;
+    const qCards = quizCards(r);
     const done = quiz.answered;
     const right = done && done === quiz.qs[quiz.i].answer;
     return `
@@ -805,7 +833,10 @@
         ${quiz.qs.map((_, n) => `<span class="${n < quiz.i ? "done" : n === quiz.i ? "now" : ""}"></span>`).join("")}</div>
       <p class="muted small">Question ${quiz.i + 1} of ${quiz.qs.length} · Score ${quiz.score}</p>
       <article class="panel quiz-card">
+        <p class="quiz-call" aria-hidden="true">Juuuuuuuuudge!</p>
         <div class="quiz-q">${qText}</div>
+        ${qCards.length ? `<div class="quiz-cards"><p class="qc-label">Cards on the table</p>
+          ${qCards.map((c) => quizCardHtml(c, qCards.length <= 2)).join("")}</div>` : ""}
         <div class="quiz-answers" role="group" aria-label="Your answer">
           ${["Yes", "No"].map((opt) => {
             const cls = !done ? "" : opt === quiz.qs[quiz.i].answer ? " correct" : opt === done ? " wrong" : " faded";

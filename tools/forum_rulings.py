@@ -74,7 +74,8 @@ def to_rulings(cards_by_id, skip_extra=()):
 
         ids = []
         # 1. card images embedded in the question/answers
-        for p in posts:
+        question_ids = []          # cards pictured in the asker's post (shown by the Judge Quiz)
+        for pi, p in enumerate(posts):
             for img in p.get("cards", []):
                 name = img["alt"].split(" — ")[0].strip().strip("“”\"")
                 cands = by_name.get(norm(name)) or by_name.get(norm(img["alt"].replace("“", "\"").replace("”", "\""))) or []
@@ -84,6 +85,8 @@ def to_rulings(cards_by_id, skip_extra=()):
                 for c in pick(cands, hint):
                     if c["id"] not in ids:
                         ids.append(c["id"])
+                    if pi == 0 and c["id"] not in question_ids:
+                        question_ids.append(c["id"])
         # 2. distinctive card names written in the text (2+ words, or quoted like "Holo")
         flat = text.replace("“", "\"").replace("”", "\"").replace("’", "'")
         linked_names = {norm(cards_by_id[i]["name"]) for i in ids}
@@ -114,6 +117,7 @@ def to_rulings(cards_by_id, skip_extra=()):
                             "date": p.get("date")} for p in answers],
             "date": lead.get("date"),
             "cards": ids,
+            "questionCards": [i for i in question_ids if i in ids],
         })
     info = {"source": data["source"], "fetched": data["fetched"], "count": len(rulings)}
     return rulings, info

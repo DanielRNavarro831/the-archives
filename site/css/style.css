@@ -452,3 +452,20 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .quiz-review .ok { color: var(--evade); }
 .quiz-review .bad { color: var(--hit); }
 .quiz-review a { color: var(--text); }
+/* quiz: "Juuuuuuuuudge!" call-out and card panels */
+.quiz-call { display: inline-block; position: relative; margin: 0 0 14px; padding: 6px 14px; border-radius: 14px;
+  background: var(--accent); color: var(--accent-ink); font-family: var(--font-head); font-size: 1.15rem; letter-spacing: .04em;
+  transform: rotate(-2deg); box-shadow: var(--shadow); }
+.quiz-call::after { content: ""; position: absolute; left: 22px; bottom: -9px; border: 9px solid transparent;
+  border-top-color: var(--accent); border-bottom: 0; }
+.quiz-cards { margin: 14px 0 6px; display: grid; gap: 8px; }
+.qc-label { margin: 0; font-size: .74rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.quiz-cardpanel { border: 1px solid var(--line); border-radius: 10px; background: var(--bg-2); overflow: hidden; }
+.quiz-cardpanel summary { cursor: pointer; padding: 9px 14px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.quiz-cardpanel summary::marker { color: var(--accent); }
+.qc-name { font-weight: 700; }
+.qc-name .dots { color: var(--accent); margin-right: .25em; }
+.qc-type { font-size: .84rem; color: var(--muted); }
+.quiz-cardpanel .stats { border-top: 1px solid var(--line); }
+.qc-body { padding: 10px 14px 12px; }
+.qc-body .cardtext { background: var(--panel); }
