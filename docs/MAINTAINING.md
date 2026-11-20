@@ -180,3 +180,42 @@ No cookies or personal data; GoatCounter reports countries. Visits from `localho
 The script in `site/index.html` is pinned to a fixed version with an integrity hash; if GoatCounter
 ever stops loading, that pin is the first thing to check. The tracking code is the
 "anonymous usage stats" block in `site/js/app.js`. Remove both to turn stats off.
+
+## Staging: test changes before they go live
+
+| | Live | Staging |
+|---|---|---|
+| Address | https://xwingarchives.com | https://staging.xwingarchives.com |
+| GitHub repository | `the-archives` | `the-archives-staging` |
+| Git branch (in this folder) | `main` | `staging` |
+| Usage stats | on | **off** |
+| Search engines | soft launch: blocked | **always blocked** |
+| Banner | none | orange **STAGING** banner |
+
+Both sites are built from this same folder; there is only one copy of the code.
+
+**Day-to-day:**
+
+1. Work on the `staging` branch: `git switch staging`
+2. Publish to staging (only the staging site changes):
+
+   ```powershell
+   git push staging staging:main
+   ```
+
+3. Check it at https://staging.xwingarchives.com (share that link with testers if you like).
+4. When it's approved, put the same changes live:
+
+   ```powershell
+   git switch main
+   ```
+   ```powershell
+   git merge staging
+   ```
+   ```powershell
+   git push origin main
+   ```
+
+The staging copy decides it is staging purely from its address (`staging.…`), so the same files
+behave correctly on both sites. "Report a Problem" submissions from staging start with
+`[STAGING SITE]` in the Google Form.
