@@ -260,13 +260,13 @@ List bans in `data/banned-cards.json`, one list per card (a card can be banned i
 
 Then run `python tools/build_data.py`.
 
-## Judge Quiz (staging only, experimental)
+## Judge Quiz
 
 `#/quiz` asks 10 random **Yes / No** questions. Each one is an official ruling (Rules Reference FAQ or
 XWA rules-team forum answer) whose official answer starts with "Yes" or "No", used word for word;
 after each answer the official answer and citation are shown. Outdated rulings and questions that
 ask two things at once are left out. Nothing is stored and nothing is typed.
 
-It only appears on **staging**. To turn it on for the live site later, add `"quizLive": true` to the
-`meta` block written by `tools/build_data.py` (or ask Claude), then publish. To scrap it, remove the
+It is **live** (`"quizLive": true` in `data/sources.json`). To hide it on the live site, set
+`quizLive` to `false`, run `python tools/build_data.py`, then publish (it always shows on staging). To remove it entirely, delete the
 "Judge Quiz" block from `site/js/app.js` and the quiz styles from `site/css/style.css`.
