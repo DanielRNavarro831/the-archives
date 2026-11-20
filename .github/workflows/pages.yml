@@ -27,5 +27,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      # GitHub sometimes needs a moment to register the upload; deploying
+      # instantly can fail with 'No artifacts named "github-pages"'.
+      - run: sleep 20
       - id: deployment
         uses: actions/deploy-pages@v4
