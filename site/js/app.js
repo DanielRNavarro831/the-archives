@@ -774,6 +774,107 @@
       ${nav}`;
   }
 
+  // ---------- Judge Quiz (staging only unless meta.quizLive) ----------
+  // 10 random Yes/No questions taken word-for-word from official rulings whose official
+  // answer starts with "Yes" or "No". Nothing is stored; no names; no typed answers.
+  const QUIZ_ON = STAGING || !!DB.meta.quizLive;
+  const QUIZ_LEN = 10;
+  let quiz = null;          // { qs: [...], i, score, answered }
+
+  function quizPool() {
+    return DB.rulings.filter((r) => {
+      const a = (r.a[0] || "").trim();
+      return /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
+    }).map((r) => ({ r, answer: /^yes/i.test(r.a[0].trim()) ? "Yes" : "No" }));
+  }
+
+  function newQuiz() {
+    const pool = quizPool();
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    quiz = { qs: pool.slice(0, QUIZ_LEN), i: 0, score: 0, answered: null, poolSize: pool.length };
+  }
+
+  function quizQuestionHtml() {
+    const { r } = quiz.qs[quiz.i];
+    const forum = r.source === "forum";
+    const qText = forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards })}</p>`).join("") : `<p>${fmt(r.q, { cards: r.cards })}</p>`;
+    const done = quiz.answered;
+    const right = done && done === quiz.qs[quiz.i].answer;
+    return `
+      <div class="quiz-progress" aria-label="Question ${quiz.i + 1} of ${quiz.qs.length}">
+        ${quiz.qs.map((_, n) => `<span class="${n < quiz.i ? "done" : n === quiz.i ? "now" : ""}"></span>`).join("")}</div>
+      <p class="muted small">Question ${quiz.i + 1} of ${quiz.qs.length} · Score ${quiz.score}</p>
+      <article class="panel quiz-card">
+        <div class="quiz-q">${qText}</div>
+        <div class="quiz-answers" role="group" aria-label="Your answer">
+          ${["Yes", "No"].map((opt) => {
+            const cls = !done ? "" : opt === quiz.qs[quiz.i].answer ? " correct" : opt === done ? " wrong" : " faded";
+            return `<button type="button" class="quiz-btn${cls}" data-quiz-answer="${opt}" ${done ? "disabled" : ""}>${opt}</button>`;
+          }).join("")}
+        </div>
+        ${done ? `<div class="quiz-result ${right ? "ok" : "bad"}" role="status">
+            <b>${right ? "Correct!" : `Not quite — the official answer is ${quiz.qs[quiz.i].answer}.`}</b>
+            <div class="quiz-official">${r.a.map((p) => `<p>${fmt(p, { cards: r.cards })}</p>`).join("")}</div>
+            <p class="muted small">${sourceLink(r)} · <a href="#/ruling/${esc(r.id)}" target="_blank" rel="noopener">Open the full ruling</a></p>
+            <button type="button" class="quiz-next" data-quiz-next>${quiz.i + 1 < quiz.qs.length ? "Next question →" : "See my score"}</button>
+          </div>` : ""}
+      </article>`;
+  }
+
+  function quizEndHtml() {
+    const s = quiz.score, n = quiz.qs.length;
+    const verdict = s === n ? "Perfect round. Head judge material!" : s >= 8 ? "Excellent. You'd handle most rulings at the table."
+      : s >= 6 ? "Solid. A little review and you're there." : s >= 4 ? "Getting there. The FAQ is worth a read." : "Tough round. Every judge starts somewhere!";
+    return `
+      <article class="panel quiz-card quiz-end">
+        <p class="quiz-score"><span>${s}</span> / ${n}</p>
+        <p class="quiz-verdict">${esc(verdict)}</p>
+        <div class="quiz-review">${quiz.qs.map((q) => `<p class="${q.got === q.answer ? "ok" : "bad"}">${q.got === q.answer ? "✓" : "✗"}
+            <a href="#/ruling/${esc(q.r.id)}">${esc(plainIcons(q.r.q).slice(0, 110))}${q.r.q.length > 110 ? "…" : ""}</a>
+            <span class="muted">(official: ${q.answer})</span></p>`).join("")}</div>
+        <button type="button" class="quiz-next" data-quiz-restart>Try another 10</button>
+      </article>`;
+  }
+
+  function renderQuiz() {
+    const box = document.getElementById("quiz-box");
+    if (!box) return;
+    box.innerHTML = quiz.i >= quiz.qs.length ? quizEndHtml() : quizQuestionHtml();
+    // links inside a question open in a new tab, so checking a card doesn't lose quiz progress
+    if (quiz.i < quiz.qs.length) box.querySelectorAll("a[href]").forEach((a) => { a.target = "_blank"; a.rel = "noopener"; });
+  }
+
+  function viewQuiz() {
+    if (!QUIZ_ON) return viewNotFound("judge quiz");
+    setTitle("Judge Quiz");
+    newQuiz();
+    return `
+      <div class="page-head"><div><h1>Judge Quiz</h1>
+        <p class="muted">Ten random rules questions, answered Yes or No. Every question and answer is taken word for word
+        from an official ruling (the Rules Reference FAQ or the XWA rules team), and after each one you'll see the official answer
+        and where it comes from. Nothing is saved and nothing about you is collected.</p></div></div>
+      <div id="quiz-box"></div>`;
+  }
+
+  document.addEventListener("click", (ev) => {
+    if (!quiz) return;
+    const ans = ev.target.closest("[data-quiz-answer]");
+    if (ans && !quiz.answered) {
+      quiz.answered = ans.dataset.quizAnswer;
+      quiz.qs[quiz.i].got = quiz.answered;
+      if (quiz.answered === quiz.qs[quiz.i].answer) quiz.score++;
+      renderQuiz();
+      const res = document.querySelector(".quiz-result"); if (res) res.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      return;
+    }
+    if (ev.target.closest("[data-quiz-next]")) {
+      quiz.i++; quiz.answered = null; renderQuiz();
+      document.getElementById("quiz-box").scrollIntoView({ block: "start", behavior: "smooth" });
+      return;
+    }
+    if (ev.target.closest("[data-quiz-restart]")) { newQuiz(); renderQuiz(); window.scrollTo(0, 0); }
+  });
+
   function viewErrataEntry(id) {
     const e = ERRATA[id];
     if (!e) return viewNotFound(id);
@@ -849,6 +950,7 @@
       case "about": html = viewAbout(); break;
       case "compendium": html = viewCompendium(params); break;
       case "s": html = viewCompSection(parts[1]); break;
+      case "quiz": html = viewQuiz(); after = renderQuiz; break;
       default: html = viewNotFound(parts.join(" "));
     }
     main.innerHTML = html;
@@ -1050,6 +1152,10 @@
   window.addEventListener("hashchange", renderFooter);
   renderFooter();
 
+  if (QUIZ_ON) {
+    const about = document.querySelector('.nav a[href="#/about"]');
+    if (about) about.insertAdjacentHTML("beforebegin", `<a href="#/quiz">Judge Quiz</a>`);
+  }
   if (STAGING) {
     document.body.insertAdjacentHTML("afterbegin",
       `<div class="staging-banner" role="note">STAGING — test version of The Archives. Changes here may not be final.
