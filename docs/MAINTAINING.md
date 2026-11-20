@@ -219,3 +219,7 @@ Both sites are built from this same folder; there is only one copy of the code.
 The staging copy decides it is staging purely from its address (`staging.…`), so the same files
 behave correctly on both sites. "Report a Problem" submissions from staging start with
 `[STAGING SITE]` in the Google Form.
+
+**If a GitHub site's HTTPS certificate never arrives** (Settings → Pages shows no certificate
+after an hour), remove the custom domain in Settings → Pages, save, add it back, and re-run the
+"Publish site" workflow. That restarted the stuck certificate for the staging site.
