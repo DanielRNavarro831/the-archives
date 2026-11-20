@@ -206,6 +206,19 @@
       <div class="cardlist">${topCards.map(cardRow).join("")}</div>`;
   }
 
+  /** Bans that apply here (entries marked stagingTest only show on the staging site). */
+  const activeBans = (c) => (c && c.bans ? c.bans.filter((b) => !b.stagingTest || STAGING) : []);
+  const banWhere = (b) => (b.where === "all" ? "Banned in all scenarios" : `Banned in: ${b.where.join(", ")}`);
+
+  function banHtml(c) {
+    const bans = activeBans(c);
+    if (!bans.length) return "";
+    return `<div class="ban-note" role="note">${bans.map((b) => `
+      <div class="ban-line"><span class="ban-tag">Banned</span>
+        <span><b>${esc(b.format)}</b> — ${esc(banWhere(b))}${b.since ? ` <span class="muted">(since ${esc(b.since)})</span>` : ""}
+        ${b.note ? `<span class="ban-extra">${fmt(b.note)}</span>` : ""}</span></div>`).join("")}</div>`;
+  }
+
   function cardRow(c) {
     return `<a class="cardrow" href="#/card/${c.id}">
       ${c.type === "Pilot" && c.ship ? `<span class="row-ship">${shipGlyph(c.ship)}</span>` : ""}
@@ -213,6 +226,7 @@
       <small>${c.slot ? c.slot.map((s) => iconHtml(SLOT_KEY[s] || s.toLowerCase())).join("") + " " : ""}${esc(cardTypeLine(c))}</small>
       ${c.factions && c.factions.length ? `<small class="factions">${c.factions.map(factionHtml).join("")}</small>` : ""}
       <span class="counts">
+        ${activeBans(c).length ? `<span class="badge banned" title="${esc(activeBans(c).map((b) => `${b.format}: ${banWhere(b)}`).join("; "))}">Banned (${esc([...new Set(activeBans(c).map((b) => b.format))].join(", "))})</span>` : ""}
         ${c.rulings.length ? `<span class="badge rulings">${c.rulings.length} ruling${c.rulings.length > 1 ? "s" : ""}</span>` : ""}
         ${c.errata.length ? `<span class="badge errata">Errata</span>` : ""}
       </span></a>`;
@@ -390,6 +404,7 @@
             <div class="typeline">${c.slot ? c.slot.map((s) => iconHtml(SLOT_KEY[s] || s.toLowerCase())).join("") + " " : ""}${esc(cardTypeLine(c))}</div>
             ${c.factions.length ? `<div class="typeline factions">${c.factions.map(factionHtml).join("")}</div>` : ""}
           </header>
+          ${banHtml(c)}
           ${statsHtml(c)}
           <div class="body">
             ${ct ? `<div class="cardtext">${textBlock(ct.text)}${shipAb}</div>
@@ -444,7 +459,8 @@
         <select id="f-has" aria-label="Has"><option value="">All cards</option>
           <option value="any" ${params.get("has") === "any" ? "selected" : ""}>Has rulings or errata</option>
           <option value="rulings" ${params.get("has") === "rulings" ? "selected" : ""}>Has rulings</option>
-          <option value="errata" ${params.get("has") === "errata" ? "selected" : ""}>Has errata</option></select>
+          <option value="errata" ${params.get("has") === "errata" ? "selected" : ""}>Has errata</option>
+          ${DB.cards.some((c) => activeBans(c).length) ? `<option value="banned" ${params.get("has") === "banned" ? "selected" : ""}>Banned</option>` : ""}</select>
         <span class="muted" id="f-count"></span>
       </div>
       <div class="cardlist" id="card-results"></div>`;
@@ -459,7 +475,8 @@
         (!q || norm(c.name + " " + (c.ship || "") + " " + (c.slot || []).join(" ")).includes(q)) &&
         (!type || c.type === type) && (!slot || (c.slot || []).includes(slot)) &&
         (!faction || c.factions.includes(faction)) &&
-        (!has || (has === "any" ? c.rulings.length + c.errata.length : has === "rulings" ? c.rulings.length : c.errata.length)));
+        (!has || (has === "any" ? c.rulings.length + c.errata.length : has === "rulings" ? c.rulings.length
+          : has === "banned" ? activeBans(c).length : c.errata.length)));
       const box = document.getElementById("card-results");
       let shown = 0;
       const more = () => {
@@ -923,7 +940,7 @@
         <a class="sg-row" role="option" id="sg-${i}" data-i="${i}" href="${it.kind === "card" ? "#/card/" : "#/rule/"}${esc(it.id)}">
           <span class="sg-icon">${suggestionIcon(it)}</span>
           <span class="sg-text"><span class="sg-title">${highlight(esc(it.title), terms)}</span>
-            <span class="sg-sub">${esc(it.kind === "card" && CARDS[it.id] && CARDS[it.id].factions.length
+            <span class="sg-sub">${it.kind === "card" && activeBans(CARDS[it.id]).length ? `<span class="sg-banned">Banned</span> ` : ""}${esc(it.kind === "card" && CARDS[it.id] && CARDS[it.id].factions.length
               ? `${it.sub} · ${CARDS[it.id].factions.join(" / ")}` : it.sub)}</span></span></a>`).join("")
       + `<a class="sg-row sg-all" role="option" id="sg-${items.length}" data-i="${items.length}" href="#/search?q=${encodeURIComponent(q.trim())}">
            <span class="sg-icon">⌕</span><span class="sg-text"><span class="sg-title">See all results for “${esc(q.trim())}”</span></span></a>`;

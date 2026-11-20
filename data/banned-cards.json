@@ -1,0 +1,11 @@
+{
+ "_readme": "Cards that are banned. Key = card id (from its page link, #/card/<id>). Each card has a list of bans, one per format. format: 'Epic' or 'Standard'. where: \"all\" for every scenario, or a list of scenario names. note (optional): one short sentence. since (optional): e.g. 'Epic Rules v1.0' or a date. stagingTest: true shows the ban ONLY on staging.xwingarchives.com - for trying things out, never for a real ban.",
+ "cards": {
+  "ion-cannon-battery-hardpoint": [
+   { "format": "Epic", "where": "all", "note": "TEST BAN for the staging site only. This card is not actually banned.", "stagingTest": true }
+  ],
+  "stalwart-captain-command": [
+   { "format": "Epic", "where": ["Test Scenario A", "Test Scenario B"], "note": "TEST BAN for the staging site only. These scenario names are placeholders.", "stagingTest": true }
+  ]
+ }
+}

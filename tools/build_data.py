@@ -525,6 +525,25 @@ def main():
             cards[i]["rulings"].append(r["id"])
     rulings = rulings + forum
 
+    # banned cards (data/banned-cards.json): per card, a list of {format, where, note, since, stagingTest}
+    ban_path = ROOT / "data" / "banned-cards.json"
+    bans = json.loads(ban_path.read_text(encoding="utf-8")).get("cards", {}) if ban_path.exists() else {}
+    for cid, entries in bans.items():
+        if cid not in cards:
+            print(f"WARNING: banned-cards.json names unknown card {cid}")
+            continue
+        clean = []
+        for b in entries if isinstance(entries, list) else [entries]:
+            where = b.get("where", "all")
+            clean.append({k: v for k, v in {"format": b.get("format", "Standard"),
+                                             "where": "all" if where in ("all", None, []) else list(where),
+                                             "note": b.get("note"), "since": b.get("since"),
+                                             "stagingTest": bool(b.get("stagingTest"))}.items() if v})
+        cards[cid]["bans"] = clean
+    if bans:
+        print(f"Banned cards: {len(bans)} "
+              f"({sum(1 for v in bans.values() if all(b.get('stagingTest') for b in v))} staging-only tests)")
+
     # rulings kept for reference but no longer current (data/deprecated-rulings.json)
     dep_path = ROOT / "data" / "deprecated-rulings.json"
     deprecated = json.loads(dep_path.read_text(encoding="utf-8")).get("rulings", {}) if dep_path.exists() else {}

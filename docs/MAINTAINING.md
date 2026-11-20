@@ -241,3 +241,21 @@ reference instead of deleting it. Add it to `data/deprecated-rulings.json`:
   Never use it on a real deprecation.
 
 Then run `python tools/build_data.py`.
+
+## Banned cards
+
+List bans in `data/banned-cards.json`, one list per card (a card can be banned in more than one format):
+
+```json
+"ion-cannon-battery-hardpoint": [
+  { "format": "Epic", "where": "all" },
+  { "format": "Epic", "where": ["Scenario name", "Another scenario"], "since": "Epic Rules v1.0", "note": "Optional." }
+]
+```
+
+- `"where": "all"` shows **"Banned in all scenarios"**; a list shows **"Banned in: …"** with those scenarios.
+- The card page gets a red **BANNED** notice at the top; card lists and search suggestions show a
+  "Banned" tag, and the Cards page filter gains a **Banned** option (only when something is banned).
+- `"stagingTest": true` makes a ban show **only on staging**. The two current entries are tests.
+
+Then run `python tools/build_data.py`.
