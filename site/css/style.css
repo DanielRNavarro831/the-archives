@@ -293,7 +293,9 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 /* icons drawn with the icon font */
 .xg {
   font-family: "XWingIcons"; font-style: normal; font-weight: normal; line-height: 1;
-  font-size: 1.15em; vertical-align: -0.12em; margin: 0 .06em; speak: never;
+  /* The icon font draws its glyphs low: their visual centre is ~0.26em above the baseline,
+     while running text's centre is ~0.34em. This offset lines the icon's middle up with the text's. */
+  font-size: 1.15em; vertical-align: 0.03em; margin: 0 .06em; speak: never;
 }
 .xg.action { color: var(--action); }
 .xg.slot { color: var(--slot); }
@@ -312,7 +314,7 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .cardrow { position: relative; }
 .row-ship { position: absolute; right: 12px; top: 10px; font-size: 30px; color: var(--muted); opacity: .55; }
 .cardrow b, .cardrow small { padding-right: 38px; }
-.stat b .xg { font-size: .85em; margin-right: .12em; vertical-align: -0.06em; }
+.stat b .xg { font-size: .85em; margin-right: .12em; vertical-align: 0.15em; }
 .stat b .xg.rec { font-size: .7em; margin-left: .1em; }
 .act .xg { font-size: 1.35rem; }
 .act.white .xg { color: var(--text); }
