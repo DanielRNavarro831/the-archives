@@ -199,7 +199,10 @@ def write_text(sections, rules, rulings, errata, src_by_id, cards, edition):
             elif it["kind"] == "ruling":
                 r = RU[it["ref"]]
                 names = [cards[i]["name"] for i in r.get("cards", []) if i in cards]
-                out += ["", f'{s["n"]}.{it["p"]}  RULING [{cite(r)}]' + (f'  Cards: {", ".join(names)}' if names else ""),
+                dep = r.get("deprecated")
+                tag = (f'OUTDATED RULING (no longer current as of {dep["asOf"]})'
+                       if dep and not dep.get("stagingTest") else "RULING")
+                out += ["", f'{s["n"]}.{it["p"]}  {tag} [{cite(r)}]' + (f'  Cards: {", ".join(names)}' if names else ""),
                         "      Q: " + plain(r["q"]).replace("\n", "\n         "),
                         "      A: " + "\n         ".join(plain(a) for a in r["a"])]
             elif it["kind"] == "erratum":

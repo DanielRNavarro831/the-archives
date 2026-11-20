@@ -223,3 +223,21 @@ behave correctly on both sites. "Report a Problem" submissions from staging star
 **If a GitHub site's HTTPS certificate never arrives** (Settings → Pages shows no certificate
 after an hour), remove the custom domain in Settings → Pages, save, add it back, and re-run the
 "Publish site" workflow. That restarted the stuck certificate for the staging site.
+
+## Outdated (deprecated) rulings
+
+When a new document changes or removes a ruling, you can keep the old one visible for
+reference instead of deleting it. Add it to `data/deprecated-rulings.json`:
+
+```json
+"rr-50": { "asOf": "Rules Reference v1.4.7", "reason": "Optional short explanation.", "replacedBy": "rr-123" }
+```
+
+- The ruling gets a red outline and an **Outdated** label ("No longer current as of …").
+- Its citation becomes plain text ("Originally: …"), since that PDF version may no longer be online.
+- On card pages it's listed after the current rulings; search results and the plain-text
+  Compendium label it as outdated. `replacedBy` (optional) adds a link to the new ruling.
+- `"stagingTest": true` makes an entry show **only on staging**, for trying things out.
+  Never use it on a real deprecation.
+
+Then run `python tools/build_data.py`.

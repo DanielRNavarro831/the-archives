@@ -524,6 +524,19 @@ def main():
         for i in r["cards"]:
             cards[i]["rulings"].append(r["id"])
     rulings = rulings + forum
+
+    # rulings kept for reference but no longer current (data/deprecated-rulings.json)
+    dep_path = ROOT / "data" / "deprecated-rulings.json"
+    deprecated = json.loads(dep_path.read_text(encoding="utf-8")).get("rulings", {}) if dep_path.exists() else {}
+    by_id = {r["id"]: r for r in rulings}
+    for rid, info in deprecated.items():
+        if rid not in by_id:
+            print(f"WARNING: deprecated-rulings.json names unknown ruling {rid}")
+            continue
+        by_id[rid]["deprecated"] = {k: info.get(k) for k in ("asOf", "reason", "replacedBy", "stagingTest") if info.get(k)}
+    if deprecated:
+        print(f"Outdated rulings: {len(deprecated)} "
+              f"({sum(1 for v in deprecated.values() if v.get('stagingTest'))} staging-only tests)")
     if forum_info:
         report = {r["id"]: {"topic": r["topic"], "cards": [cards[i]["name"] + " — " + i for i in r["cards"]]} for r in forum}
         (ROOT / "data" / "forum" / "match-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1),

@@ -218,12 +218,29 @@
       </span></a>`;
   }
 
+  /** Outdated ("deprecated") rulings stay visible for reference, clearly marked.
+      Entries flagged stagingTest only show on the staging site. */
+  const outdated = (r) => (r.deprecated && (!r.deprecated.stagingTest || STAGING) ? r.deprecated : null);
+
+  function outdatedBanner(r, dep) {
+    const repl = dep.replacedBy && RULINGS[dep.replacedBy];
+    return `<div class="outdated-note" role="note">
+      <span class="outdated-tag">Outdated</span>
+      <span>No longer current as of <b>${esc(dep.asOf)}</b>.${dep.reason ? " " + fmt(dep.reason) : ""}
+      ${repl ? ` <a href="#/ruling/${esc(repl.id)}">See the current ruling</a>.` : ""}</span></div>`;
+  }
+
   function rulingHtml(r, opts = {}) {
     const cards = r.cards.filter((id) => id !== opts.self && CARDS[id]);
     const forum = r.source === "forum";
+    const dep = outdated(r);
     const para = (p) => /^•\s/.test(p) ? `<p class="bullet">${fmt(p.replace(/^•\s*/, ""), { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`
       : `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`;
-    return `<article class="ruling${forum ? " forum" : ""}" id="${esc(r.id)}">
+    // an outdated ruling's PDF version may no longer be hosted, so cite it as plain text
+    const cite = dep ? `Originally: ${esc(sourceLabel(r))}${forum ? "" : ` · ${esc(r.section)} › ${esc(r.topic)}`}`
+      : forum ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`;
+    return `<article class="ruling${forum ? " forum" : ""}${dep ? " deprecated" : ""}" id="${esc(r.id)}">
+      ${dep ? outdatedBanner(r, dep) : ""}
       ${forum ? `<p class="kicker">Rules team answer · ${esc(r.topic)}</p>` : ""}
       <div class="q">${forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`).join("")
                              : fmt(r.q, { cards: r.cards, self: opts.self, hl: opts.hl })}</div>
@@ -231,7 +248,7 @@
       ${answeredBy(r)}
       <div class="cite">
         ${opts.noRef ? "" : refLink(refFor(r.id))}
-        <span>${forum ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`}</span>
+        <span>${cite}</span>
         ${copyButton("#/ruling/" + r.id)}
         ${reportLink(`Ruling ${r.id} (${sourceLabel(r)}): ${plainIcons(r.q).slice(0, 120)}`, "#/ruling/" + r.id)}
         ${cards.length ? `<span class="chips">${cards.map((id) => `<a class="chip" href="#/card/${id}">${esc(CARDS[id].name)}</a>`).join("")}</span>` : ""}
@@ -354,7 +371,9 @@
     if (!c) return viewNotFound(id.replace(/-/g, " "));
     setTitle(c.name);
     const ct = currentText(c);
-    const rulings = c.rulings.map((r) => RULINGS[r]).filter(Boolean);
+    // current rulings first, outdated ones (kept for reference) after them
+    const rulings = c.rulings.map((r) => RULINGS[r]).filter(Boolean)
+      .sort((a, b) => (outdated(a) ? 1 : 0) - (outdated(b) ? 1 : 0));
     const errata = c.errata.map((e) => ERRATA[e]).filter(Boolean);
     const others = DB.cards.filter((o) => bareName(o.name) === bareName(c.name) && o.id !== c.id);
     const abilityCard = c.shipAbility && c.shipAbility.id && CARDS[c.shipAbility.id];
@@ -390,7 +409,7 @@
             ${dialHtml(c.dial)}
           </div>
           <div class="badges">
-            <span class="badge rulings">${rulings.length} ruling${rulings.length === 1 ? "" : "s"}</span>
+            <span class="badge rulings">${rulings.length} ruling${rulings.length === 1 ? "" : "s"}${rulings.filter(outdated).length ? ` (${rulings.filter(outdated).length} outdated)` : ""}</span>
             ${errata.length ? `<span class="badge errata">Has errata</span>` : ""}
             ${copyButton("#/card/" + c.id)}
             ${reportLink(`Card: ${c.name} (${cardTypeLine(c)})`, "#/card/" + c.id)}
@@ -618,7 +637,8 @@
       head: norm(c.name), alt: (c.aliases || []).map(norm), body: norm(cardTypeLine(c) + " " + c.factions.join(" ")) }));
     DB.rules.forEach((r) => items.push({ kind: "rule", id: r.id, title: r.title, sub: `${r.section} · ${sourceLabel(r)}`,
       head: norm(r.title), body: norm(plainIcons(r.blocks.map((b) => b.t || b.cap || "").join(" "))) }));
-    DB.rulings.forEach((r) => items.push({ kind: "ruling", id: r.id, title: plainIcons(r.q), sub: `${r.topic} · ${sourceLabel(r)}`,
+    DB.rulings.forEach((r) => items.push({ kind: "ruling", id: r.id, title: plainIcons(r.q),
+      sub: `${outdated(r) ? `OUTDATED as of ${outdated(r).asOf} · ` : ""}${r.topic} · ${sourceLabel(r)}`,
       head: norm(plainIcons(r.q)), body: norm(plainIcons(r.a.join(" ")) + " " + r.cards.map((i) => CARDS[i] ? CARDS[i].name : "").join(" ")) }));
     DB.errata.forEach((e) => items.push({ kind: "errata", id: e.id, title: (e.names.join(", ") || e.category).replace(/•/g, ""),
       sub: `${e.category} · ${sourceLabel(e)}`, head: norm(e.names.join(" ")), body: norm(plainIcons(e.text.join(" ") + " " + (e.note || ""))) }));

@@ -1,0 +1,11 @@
+{
+ "_readme": "Rulings that are no longer current but are kept for reference. Key = ruling id (from its link, #/ruling/<id>). asOf: the document version from which it no longer applies (shown as 'No longer current as of …'). reason (optional): one short sentence. replacedBy (optional): id of the ruling that replaces it. stagingTest: true shows the entry ONLY on staging.xwingarchives.com — use it for trying things out; never on a real deprecation.",
+ "rulings": {
+  "rr-50": {
+   "asOf": "Rules Reference v1.4.7",
+   "reason": "TEST ENTRY for the staging site only. This ruling has not actually changed.",
+   "replacedBy": null,
+   "stagingTest": true
+  }
+ }
+}

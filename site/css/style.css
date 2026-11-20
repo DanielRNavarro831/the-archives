@@ -404,3 +404,10 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .sg-all .sg-title { font-weight: 500; color: var(--link); }
 .bigsearch .suggest { top: calc(100% + 8px); }
 .bigsearch .sg-row { padding: 11px 18px; }
+
+/* ---------------- outdated (deprecated) rulings ---------------- */
+.ruling.deprecated { border: 2px solid var(--hit); border-left-width: 2px; background: color-mix(in srgb, var(--hit) 6%, var(--panel)); }
+.ruling.deprecated .q, .ruling.deprecated .a { opacity: .78; }
+.outdated-note { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin: -2px 0 10px; font-size: .88rem; color: var(--text); }
+.outdated-tag { background: var(--hit); color: #fff; font-family: var(--font-head); font-size: .72rem; letter-spacing: .08em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 6px; }
