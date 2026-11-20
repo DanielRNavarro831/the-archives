@@ -384,3 +384,23 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .staging-banner { background: repeating-linear-gradient(135deg, #b45309 0 14px, #92400e 14px 28px); color: #fff;
   text-align: center; font-weight: 600; font-size: .9rem; padding: 7px 16px; position: sticky; top: 0; z-index: 6; }
 .staging-banner a { color: #fff; text-decoration: underline; margin-left: 8px; }
+
+/* ---------------- search suggestions ---------------- */
+.topsearch { position: relative; }
+.suggest {
+  position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 20;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: var(--shadow); overflow: hidden; max-height: 70vh; overflow-y: auto; text-align: left;
+}
+.sg-row { display: flex; align-items: center; gap: 12px; padding: 9px 14px; color: var(--text); border-top: 1px solid var(--line); }
+.sg-row:first-child { border-top: 0; }
+.sg-row:hover, .sg-row.active { background: color-mix(in srgb, var(--accent) 14%, transparent); text-decoration: none; }
+.sg-icon { flex: 0 0 34px; text-align: center; color: var(--muted); font-size: 1.05rem; }
+.sg-icon .xg { margin: 0; vertical-align: 0; font-size: 1.25rem; }
+.sg-kind { font-size: .66rem; text-transform: uppercase; letter-spacing: .06em; border: 1px solid var(--line); border-radius: 6px; padding: 1px 5px; color: var(--muted); }
+.sg-text { display: flex; flex-direction: column; min-width: 0; }
+.sg-title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sg-sub { font-size: .8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sg-all .sg-title { font-weight: 500; color: var(--link); }
+.bigsearch .suggest { top: calc(100% + 8px); }
+.bigsearch .sg-row { padding: 11px 18px; }

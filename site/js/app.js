@@ -844,7 +844,120 @@
     if (q) location.hash = "#/search?q=" + encodeURIComponent(q);
   }
 
+  // ---------- search suggestions (dropdown under the search boxes) ----------
+  // After 3+ characters, shows cards and rules whose NAME matches, like a search engine's suggestions.
+  const SUGGEST_MIN = 3, MAX_CARDS = 6, MAX_RULES = 3;
+  let sug = null;          // { input, box, items, active }
+
+  function suggestionsFor(q) {
+    const terms = norm(q).trim().split(/\s+/).filter(Boolean);
+    if (!terms.length) return [];
+    // only items whose NAME has a word starting with each typed word ("han" -> Han Solo, not "Chance");
+    // body-only matches are left to the full search page
+    const startsWord = (s, t) => (" " + s.replace(/[^a-z0-9]+/g, " ")).includes(" " + t.replace(/[^a-z0-9]+/g, " ").trim());
+    const named = search(q).filter(({ it }) => (it.kind === "card" || it.kind === "rule")
+      && terms.every((t) => startsWord(it.head, t) || (it.alt || []).some((a) => startsWord(a, t))));
+    const cards = named.filter((r) => r.it.kind === "card").slice(0, MAX_CARDS);
+    const rules = named.filter((r) => r.it.kind === "rule").slice(0, MAX_RULES);
+    return [...cards, ...rules].map((r) => r.it);
+  }
+
+  function suggestionIcon(it) {
+    if (it.kind === "rule") return `<span class="sg-kind">Rule</span>`;
+    const c = CARDS[it.id];
+    if (c && c.slot && c.slot.length) return iconHtml(SLOT_KEY[c.slot[0]] || c.slot[0].toLowerCase(), "sg-ic");
+    const g = c && c.factions[0] && FACTION_GLYPHS[c.factions[0]];
+    return g ? `<i class="xg fac sg-ic" aria-hidden="true">${esc(g)}</i>` : `<span class="sg-kind">Card</span>`;
+  }
+
+  function closeSuggest() {
+    if (!sug) return;
+    sug.box.remove();
+    sug.input.setAttribute("aria-expanded", "false");
+    sug.input.removeAttribute("aria-activedescendant");
+    sug = null;
+  }
+
+  function renderSuggest(input) {
+    const q = input.value;
+    if (q.trim().length < SUGGEST_MIN || parseRef(q)) { closeSuggest(); return; }
+    const items = suggestionsFor(q);
+    if (!sug || sug.input !== input) {
+      closeSuggest();
+      const box = document.createElement("div");
+      box.className = "suggest";
+      box.id = "suggest-list";
+      box.setAttribute("role", "listbox");
+      input.closest("form").appendChild(box);
+      input.setAttribute("role", "combobox");
+      input.setAttribute("aria-controls", "suggest-list");
+      input.setAttribute("aria-autocomplete", "list");
+      sug = { input, box, items: [], active: -1 };
+    }
+    sug.items = items;
+    sug.active = -1;
+    input.setAttribute("aria-expanded", "true");
+    input.removeAttribute("aria-activedescendant");
+    const terms = norm(q).split(/\s+/).filter((t) => t.length > 1);
+    sug.box.innerHTML = items.map((it, i) => `
+        <a class="sg-row" role="option" id="sg-${i}" data-i="${i}" href="${it.kind === "card" ? "#/card/" : "#/rule/"}${esc(it.id)}">
+          <span class="sg-icon">${suggestionIcon(it)}</span>
+          <span class="sg-text"><span class="sg-title">${highlight(esc(it.title), terms)}</span>
+            <span class="sg-sub">${esc(it.kind === "card" && CARDS[it.id] && CARDS[it.id].factions.length
+              ? `${it.sub} · ${CARDS[it.id].factions.join(" / ")}` : it.sub)}</span></span></a>`).join("")
+      + `<a class="sg-row sg-all" role="option" id="sg-${items.length}" data-i="${items.length}" href="#/search?q=${encodeURIComponent(q.trim())}">
+           <span class="sg-icon">⌕</span><span class="sg-text"><span class="sg-title">See all results for “${esc(q.trim())}”</span></span></a>`;
+  }
+
+  function setActive(i) {
+    if (!sug) return;
+    const rows = sug.box.querySelectorAll(".sg-row");
+    if (!rows.length) return;
+    sug.active = (i + rows.length) % rows.length;
+    rows.forEach((r, n) => r.classList.toggle("active", n === sug.active));
+    rows[sug.active].scrollIntoView({ block: "nearest" });
+    sug.input.setAttribute("aria-activedescendant", rows[sug.active].id);
+  }
+
+  function chooseSuggestion(row) {
+    if (!sug || !row) return;
+    const q = sug.input.value;
+    if (!row.classList.contains("sg-all")) trackSearch(q, 1);     // what was typed, as with a normal search
+    closeSuggest();
+    location.hash = row.getAttribute("href").replace(/^#/, "#");
+    document.activeElement && document.activeElement.blur && document.activeElement.blur();
+  }
+
+  let suggestTimer = null;
+  document.addEventListener("input", (ev) => {
+    const el = ev.target;
+    if (el.id !== "topsearch-input" && el.id !== "bigsearch-input") return;
+    clearTimeout(suggestTimer);
+    suggestTimer = setTimeout(() => renderSuggest(el), 60);
+  });
+  document.addEventListener("keydown", (ev) => {
+    if (!sug || ev.target !== sug.input) return;
+    if (ev.key === "ArrowDown") { ev.preventDefault(); setActive(sug.active + 1); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); setActive(sug.active - 1); }
+    else if (ev.key === "Escape") { closeSuggest(); }
+    else if (ev.key === "Enter" && sug.active >= 0) {
+      ev.preventDefault();
+      chooseSuggestion(sug.box.querySelectorAll(".sg-row")[sug.active]);
+    }
+  });
+  // mousedown (not click) so the choice registers before the search box loses focus
+  document.addEventListener("mousedown", (ev) => {
+    const row = ev.target.closest(".suggest .sg-row");
+    if (row) { ev.preventDefault(); chooseSuggestion(row); }
+    else if (sug && !ev.target.closest(".suggest") && ev.target !== sug.input) closeSuggest();
+  });
+  document.addEventListener("focusout", (ev) => {
+    if (sug && ev.target === sug.input) setTimeout(() => { if (sug && document.activeElement !== sug.input) closeSuggest(); }, 150);
+  });
+  window.addEventListener("hashchange", closeSuggest);
+
   document.addEventListener("submit", (ev) => {
+    if (sug) closeSuggest();
     if (ev.target.id === "goto-form") {
       ev.preventDefault();
       const ref = parseRef(ev.target.querySelector("input").value);
