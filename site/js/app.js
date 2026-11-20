@@ -875,6 +875,18 @@
     if (quiz.i < quiz.qs.length) box.querySelectorAll("a[href]").forEach((a) => { a.target = "_blank"; a.rel = "noopener"; });
   }
 
+  // Scroll so the progress bar sits just below the pinned search bar.
+  // Measured live, so it works whatever height the header has on a given phone or desktop.
+  function quizScrollToTop() {
+    const box = document.getElementById("quiz-box");
+    if (!box) return;
+    const target = box.querySelector(".quiz-progress") || box;
+    // where the pinned bar ends once it's stuck: its sticky "top" plus its height
+    const bar = document.querySelector(".topbar");
+    const offset = (bar ? (parseFloat(getComputedStyle(bar).top) || 0) + bar.offsetHeight : 0) + 10;
+    window.scrollTo({ top: Math.max(0, target.getBoundingClientRect().top + window.scrollY - offset), behavior: "smooth" });
+  }
+
   function viewQuiz() {
     if (!QUIZ_ON) return viewNotFound("judge quiz");
     setTitle("Judge Quiz");
@@ -900,7 +912,7 @@
     }
     if (ev.target.closest("[data-quiz-next]")) {
       quiz.i++; quiz.answered = null; renderQuiz();
-      document.getElementById("quiz-box").scrollIntoView({ block: "start", behavior: "smooth" });
+      quizScrollToTop();
       return;
     }
     if (ev.target.closest("[data-quiz-restart]")) { newQuiz(); renderQuiz(); window.scrollTo(0, 0); }
