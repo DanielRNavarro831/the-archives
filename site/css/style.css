@@ -427,7 +427,7 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .quiz-progress span { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }
 .quiz-progress span.done { background: var(--accent); }
 .quiz-progress span.now { background: color-mix(in srgb, var(--accent) 55%, var(--line)); }
-.quiz-card { max-width: 820px; }
+#quiz-box { max-width: 820px; margin: 0 auto; }  /* progress bar + question card, centered */
 .quiz-q p { font-size: 1.12rem; font-weight: 600; color: var(--q); margin: 0 0 10px; }
 .quiz-answers { display: flex; gap: 12px; margin: 16px 0 4px; flex-wrap: wrap; }
 .quiz-btn { flex: 1 1 140px; font: inherit; font-family: var(--font-head); font-size: 1.15rem; letter-spacing: .06em; padding: 14px 18px;
