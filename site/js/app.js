@@ -102,15 +102,18 @@
     let html = esc(text);
     html = html.replace(/\{([a-z-]+)\}/g, (m, k) => iconHtml(k));
     html = html.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
-    // link the first mention of each related card
+    // link the first mention of each related card (by its name, or else an alias such as a misnamed FAQ mention)
     (opts.cards || []).forEach((id) => {
       const c = CARDS[id];
       if (!c || id === opts.self) return;
-      const name = esc(c.name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-        .replace(/&quot;/g, "(?:&quot;|“|”)").replace(/&#39;/g, "(?:&#39;|’)");
-      const re = new RegExp(`(^|[^\\w>])(${name})(?![\\w<])`);
       let done = false;
-      html = html.replace(re, (m, pre, n) => { if (done) return m; done = true; return `${pre}<a href="#/card/${id}">${n}</a>`; });
+      for (const nm of [c.name, ...(c.aliases || [])]) {
+        if (done) break;
+        const name = esc(nm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+          .replace(/&quot;/g, "(?:&quot;|“|”)").replace(/&#39;/g, "(?:&#39;|’)");
+        const re = new RegExp(`(^|[^\\w>])(${name})(?![\\w<])`);
+        html = html.replace(re, (m, pre, n) => { if (done) return m; done = true; return `${pre}<a href="#/card/${id}">${n}</a>`; });
+      }
     });
     // "see Lock" / "(see Attack)" -> rule links
     html = html.replace(/\b([Ss]ee) ([A-Z][A-Za-z’' -]{2,40}?)(?=[).,;]|$)/g, (m, see, term) => {

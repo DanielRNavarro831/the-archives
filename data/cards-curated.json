@@ -477,9 +477,9 @@
   "alexandr-kallus-vcx-100": "alexsandr-kallus-vcx-100-light-freighter",
   "spare-parts-canister-modification": "spare-parts-canisters-modification",
   "slave-i-title": "slave-i-title",
-  "l3-37s-programming-customized-yt-1300": null,
-  "heightened-reflexes-force-power": null,
-  "admiral-holdo-crew": null,
+  "l3-37s-programming-customized-yt-1300": ["l3-37s-programming-configuration-boy", "l3-37-crew"],
+  "heightened-reflexes-force-power": "heightened-perception-force-power",
+  "admiral-holdo-crew": "amilyn-holdo-crew",
   "dutch-vander-btl-a4-y-wing": "dutch-vander-btl-a4-y-wing-boy"
  }
 }

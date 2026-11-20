@@ -824,7 +824,7 @@ CONTENTS
       Q: Is Han Solo [Rebel, [Gunner]]’s additional attack a bonus attack?
       A: Yes. Anything that permits an attack outside of the standard attack allowed to a ship when it engages is a bonus attack.
 
-22.8  RULING [Rules Reference v1.4.6, p. 37, FAQ › Specific Card Questions]  Cards: Han Solo, Heightened Reflexes, Roark Garnet
+22.8  RULING [Rules Reference v1.4.6, p. 37, FAQ › Specific Card Questions]  Cards: Han Solo, Heightened Perception, Roark Garnet
       Q: If a ship with Han Solo [Rebel, [Gunner]] is made to engage at initiative 7 (through Roark Garnet [HWK-290], Heightened Reflexes [[Force Power]], etc.), must it perform Han Solo’s bonus attack first?
       A: Yes. Han Solo [Rebel, [Gunner]]’s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo’s bonus attack is always performed first. This means that it cannot perform Han Solo’s bonus attack and then perform a subsequent attack from the same turret arc.
 
@@ -1286,7 +1286,7 @@ CONTENTS
       Q: When an effect checks the difficulty of your revealed maneuver (such as Cova Nell’s pilot ability), do any effects that alter the difficulty of your maneuvers (such as R4 Astromech [[Astromech]] or Leia Organa [Resistance, [Crew] [Crew]] apply?
       A: No. The difficulty of a revealed maneuver matches its printed color. The speed and bearing of a revealed maneuver also match their printed value and type, respectively.
 
-45.9  RULING [Rules Reference v1.4.6, p. 39, FAQ › Specific Card Questions]  Cards: BB Astromech, Damaged Engine, Elusive, Hera Syndulla, L3-37's Programming, Leia Organa, Leia Organa, Nien Nunb, R4 Astromech, Ric Olié, Seasoned Navigator
+45.9  RULING [Rules Reference v1.4.6, p. 39, FAQ › Specific Card Questions]  Cards: BB Astromech, Damaged Engine, Elusive, Hera Syndulla, L3-37's Programming, L3-37, Leia Organa, Leia Organa, Nien Nunb, R4 Astromech, Ric Olié, Seasoned Navigator
       Q: How do abilities that alter the speed, difficulty, and/or bearing of a maneuver that a ship reveals during its Reveal Dial step and executes during its Execute Maneuver step resolve? For example, if Hera Syndulla [Attack Shuttle] is equipped with R4 Astromech and Seasoned Navigator, and also has the Damaged Engine Damage Card, what happens?
       A: R4 Astromech and Damaged Engine (and other effects that alter the difficulty of a maneuver, such as Nien Nunb [[Crew]], L3-37's Programming, and Leia Organa [Rebel and Resistance [Crew]]) apply only during the Execute Maneuver step, for effects that trigger "before a ship executes a maneuver" (e.g. BB Astromech), and for effects that trigger "after that ship executes a maneuver" (e.g. Elusive).
          After Hera's dial is revealed, Hera's player may add Hera's pilot ability and Seasoned Navigator's ability to the ability queue in either order. Both abilities resolve, and if Seasoned Navigator's ability is resolved, the difficulty of the maneuver is increased during the Execute Maneuver step (i.e. the difficulty has not yet been increased when Hera's pilot ability is resolved).
@@ -1757,7 +1757,7 @@ CONTENTS
       A: While performing an attack, a TIE Advanced x1 can spend its lock to reroll attack dice after rolling 1 additional die.
          It can also change 1 [Hit] result to a [Crit] result and then spend the lock to reroll attack dice. However, note that it cannot change 1 [Hit] result to a [Crit] result after spending the lock, as it no longer has the defender locked.
 
-83.20  RULING [Rules Reference v1.4.6, p. 38, FAQ › Specific Card Questions]  Cards: Admiral Holdo
+83.20  RULING [Rules Reference v1.4.6, p. 38, FAQ › Specific Card Questions]  Cards: Amilyn Holdo
       Q: What happens if a ship transfers its own lock to itself (such as by using Admiral Holdo [[Crew]])?
       A: A ship cannot have a lock on itself (see Lock), so that lock breaks.
 

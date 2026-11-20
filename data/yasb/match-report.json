@@ -1,9 +1,5 @@
 {
- "pdfCardsWithoutYasbMatch": [
-  "l3-37s-programming-customized-yt-1300",
-  "heightened-reflexes-force-power",
-  "admiral-holdo-crew"
- ],
+ "pdfCardsWithoutYasbMatch": [],
  "matches": {
   "leia-organa-crew-rebel": [
    "leia-organa-crew"
@@ -151,6 +147,10 @@
   ],
   "weapon-hardpoint": [
    "weapon-hardpoint"
+  ],
+  "l3-37s-programming-customized-yt-1300": [
+   "l3-37s-programming-configuration-boy",
+   "l3-37-crew"
   ],
   "listening-device": [
    "listening-device"
@@ -431,6 +431,9 @@
   "han-solo-gunner": [
    "han-solo-gunner"
   ],
+  "heightened-reflexes-force-power": [
+   "heightened-perception-force-power"
+  ],
   "autopilot-drone-escape-craft": [
    "autopilot-drone-escape-craft"
   ],
@@ -469,6 +472,9 @@
   ],
   "plasma-torpedoes-torpedo": [
    "plasma-torpedoes-torpedo"
+  ],
+  "admiral-holdo-crew": [
+   "amilyn-holdo-crew"
   ],
   "r4-astromech-astromech": [
    "r4-astromech-astromech"

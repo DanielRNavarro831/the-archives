@@ -36,6 +36,11 @@ is in `data/yasb/match-report.json`. If a ruling lands on the wrong card, or a c
 matching after a rename, add a line to `yasbMatch` in `data/cards-curated.json`, e.g.
 `"slave-i-title": "slave-i-title"` (PDF card id → YASB card id), or `null` to leave the PDF card on its own.
 
+This also fixes cards a document **misnames**. For example, the FAQ says "Admiral Holdo", so
+`"admiral-holdo-crew": "amilyn-holdo-crew"` points it at the real card. The ruling keeps the FAQ's wording, but the
+wrong name becomes an alias: it links to the real card and search finds it. A card with no text and no
+stats on the site is usually one of these.
+
 ## Updating to a new version of a document
 
 1. Put the new PDF in the `pdfs/` folder (e.g. `rules-reference-v1.5.0.pdf`). This folder is **not** published; the site only cites the documents.

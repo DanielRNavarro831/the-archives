@@ -345,6 +345,10 @@ def merge(cards, rulings, errata, curated):
             for k in ("rulings", "errata"):
                 yc[k] += [x for x in pc[k] if x not in yc[k]]
             yc["aliases"] += [a for a in pc.get("aliases", []) if a not in yc["aliases"]]
+            # a PDF card pointed at a differently named card (e.g. "Admiral Holdo" -> Amilyn Holdo):
+            # keep the PDF's name as an alias so the ruling text still links and search finds it
+            if norm_name(bare(pc["name"])) != norm_name(bare(yc["name"])) and pc["name"] not in yc["aliases"]:
+                yc["aliases"].append(pc["name"])
             if not yc.get("text") and pc.get("text"):
                 yc["text"] = pc["text"]
 
