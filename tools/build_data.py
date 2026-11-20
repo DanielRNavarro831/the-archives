@@ -578,6 +578,7 @@ def main():
                  "otherDocuments": [{k: s.get(k) for k in ("title", "version", "effective", "url")}
                                     for s in sources.get("otherDocuments", [])],
                  "hideEpic": bool(sources.get("hideEpic")),
+                 "quizLive": bool(sources.get("quizLive")),
                  "documentsPage": sources.get("documentsPage") or None,
                  "reportForm": sources.get("reportForm") or None,
                  "cardData": {k: yasb_info[k] for k in ("source", "commit", "importedAt")} if yasb_info else None,
