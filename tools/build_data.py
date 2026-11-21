@@ -489,6 +489,30 @@ def add_unprinted_cards(cards, sources, rules):
     print(f"Unprinted cards: {added}")
 
 
+def add_related_rulings(cards, rulings):
+    """Approved groups in data/related-rulings.json -> card["relatedRulings"] (rulings that don't name the card)."""
+    path = ROOT / "data" / "related-rulings.json"
+    if not path.exists():
+        return
+    by_id = {r["id"]: r for r in rulings}
+    links = 0
+    for rid, entry in json.loads(path.read_text(encoding="utf-8")).get("rulings", {}).items():
+        if rid not in by_id:
+            print(f"WARNING: related-rulings.json names unknown ruling {rid}")
+            continue
+        for g in entry.get("groups", []):
+            if g.get("status") != "approved":
+                continue
+            for cid in g["cards"]:
+                c = cards.get(cid)
+                if c is None:
+                    print(f"WARNING: related-rulings.json ({rid}) names unknown card {cid}")
+                elif rid not in c.get("rulings", []) and rid not in c.setdefault("relatedRulings", []):
+                    c["relatedRulings"].append(rid)
+                    links += 1
+    print(f"Related rulings: {links} approved links")
+
+
 def main():
     sources = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
     cur = json.loads((ROOT / "data" / "cards-curated.json").read_text(encoding="utf-8"))
@@ -693,6 +717,9 @@ def main():
     # 6b. unprinted cards (data/unprinted-cards.json): upgrades that exist only as text in a rules
     #     document, such as the Epic command upgrades. See docs/MAINTAINING.md.
     add_unprinted_cards(cards, sources, rules)
+
+    # 6c. reviewed "may also apply" links (data/related-rulings.json, approved groups only)
+    add_related_rulings(cards, rulings)
 
     # 7. the numbered Compendium (also writes site/compendium.txt)
     comp = compendium.build([r for r in rules if not r.get("epic")], [r for r in rulings if not r.get("epic")],

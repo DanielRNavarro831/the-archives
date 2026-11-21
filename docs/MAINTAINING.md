@@ -329,3 +329,12 @@ Epic command upgrades (Wing Leader, Wingmate, Commander, Wing Guard). Each one h
 word for word, its slot, restriction, the document and page it comes from, and the rule that explains it.
 Cards with `"epic": true` only show in Epic mode. The build warns when a card's text is no longer in its
 document, so after a new version of the document, fix the text here. Never add points or loadout values.
+
+## Rulings that may also apply
+
+A ruling is tied to the cards it names. `data/related-rulings.json` adds reviewed links to other cards
+whose text uses the same mechanic: they show on the card page under "Rulings that may also apply", with a
+note that the ruling doesn't name that card. Only groups with `"status": "approved"` are shown;
+`"rejected"` groups are kept so they aren't suggested again. After editing the file, run
+`python tools/build_data.py`, then `python tools/related_review.py` to refresh the review checklist in
+`docs/related-rulings-review.md`.

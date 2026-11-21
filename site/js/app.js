@@ -44,7 +44,10 @@
     DB.errata = DB.errata.filter((e) => !e.epic);
     DB.meta.sources = DB.meta.sources.filter((s) => !s.epic);
     const keepR = new Set(DB.rulings.map((r) => r.id)), keepE = new Set(DB.errata.map((e) => e.id));
-    DB.cards.forEach((c) => { c.rulings = c.rulings.filter((id) => keepR.has(id)); c.errata = c.errata.filter((id) => keepE.has(id)); });
+    DB.cards.forEach((c) => {
+      c.rulings = c.rulings.filter((id) => keepR.has(id)); c.errata = c.errata.filter((id) => keepE.has(id));
+      if (c.relatedRulings) c.relatedRulings = c.relatedRulings.filter((id) => keepR.has(id));
+    });
   }
   function setMode(epic) {
     try { localStorage.setItem("archives-mode", epic ? "epic" : "standard"); } catch (e) { /* private mode */ }
@@ -455,6 +458,8 @@
     const rulings = c.rulings.map((r) => RULINGS[r]).filter(Boolean)
       .sort((a, b) => (outdated(a) ? 1 : 0) - (outdated(b) ? 1 : 0));
     const errata = c.errata.map((e) => ERRATA[e]).filter(Boolean);
+    // rulings that don't name this card but cover the same mechanic (reviewed: data/related-rulings.json)
+    const related = (c.relatedRulings || []).map((r) => RULINGS[r]).filter((r) => r && !outdated(r));
     const others = DB.cards.filter((o) => bareName(o.name) === bareName(c.name) && o.id !== c.id);
     const abilityCard = c.shipAbility && c.shipAbility.id && CARDS[c.shipAbility.id];
     const usedBy = c.type === "Ship Ability" ? DB.cards.filter((o) => o.shipAbility && o.shipAbility.id === c.id) : [];
@@ -505,6 +510,9 @@
           <h2>Rulings</h2>
           ${rulings.length ? rulings.map((r) => rulingHtml(r, { self: c.id })).join("")
                            : `<p class="empty-note">No official rulings mention this card.</p>`}
+          ${related.length ? `<h2 class="section-title">Rulings that may also apply</h2>
+            <p class="related-note">These rulings don't name ${esc(c.name)}, but they cover the same rule its text uses. The Archives links them here as a guide; they aren't part of the official ruling.</p>
+            ${related.map((r) => rulingHtml(r, { self: c.id })).join("")}` : ""}
           ${usedBy.length ? `<h2 class="section-title">Pilots with this ship ability</h2><div class="cardlist">${usedBy.map(cardRow).join("")}</div>` : ""}
           ${others.length ? `<h2 class="section-title">Other cards named ${esc(bareName(c.name))}</h2><div class="cardlist">${others.map(cardRow).join("")}</div>` : ""}
         </section>
