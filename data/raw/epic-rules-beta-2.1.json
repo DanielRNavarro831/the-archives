@@ -31,7 +31,7 @@
  },
  {
   "kind": "p",
-  "text": "Each ship has a resource tracker that displays a pair of two-digit numbers: one for its active shields and one for its active energy.",
+  "text": "Each huge ship has a resource tracker that displays a pair of two-digit numbers: one for its active shields and one for its active energy.",
   "page": 2
  },
  {
@@ -51,7 +51,7 @@
  },
  {
   "kind": "p",
-  "text": "Energy is a resource that huge ships spend to resolve various effects on ship, upgrade, and damage cards. If a ship loses or recovers energy, the shield dial on its resource tracker is adjusted by the amount lost or recovered.",
+  "text": "Energy is a resource that huge ships spend to resolve various effects on ship, upgrade, and damage cards. If a ship loses or recovers energy, the energy dial on its resource tracker is adjusted by the amount lost or recovered.",
   "page": 2
  },
  {
@@ -196,7 +196,7 @@
  },
  {
   "kind": "p",
-  "text": "1. Align Tool: The player places the straight edge of the maneuver tool against one of the long edges of the huge ship’s base. Then the player alights the speed 0 line of the tool to the huge ship’s center line.",
+  "text": "1. Align Tool: The player places the straight edge of the maneuver tool against one of the long edges of the huge ship’s base. Then the player aligns the speed 0 line of the tool to the huge ship’s center line.",
   "page": 4
  },
  {
@@ -316,7 +316,7 @@
  },
  {
   "kind": "p",
-  "text": "While a ship defends, if the attack is range 4-5, and the attack does not have the ordinance icon, the defender rolls two additional defense dice.",
+  "text": "While a ship defends, if the attack is range 4-5, and the attack does not have the ordnance icon, the defender rolls two additional defense dice.",
   "page": 6
  },
  {
@@ -391,7 +391,7 @@
  },
  {
   "kind": "p",
-  "text": "After a huge ship overlaps a non-huge ship, the non-huge ship suffers 1 hit damage. Then, make note of whether the non-huge ship is being overlapped by the front half of the huge ship, the back half, or both. The non-huge ship is picked up and set aside until the huge ship completes its maneuver. After the huge ship completes its maneuver, each non-wingmate non-huge ship that was picked up is placed in the huge ship’s full forward arc, full rear arc, or flanking the huge ship, at range 0. The ship is placed within the arc matching the section of the ship it overlapped, or flanking the ship if it overlapped both halves. Starting with the first player, players take turns placing any of their non-huge ships that were picked up. Any non-huge ship that cannot be placed in the correct ship arc is placed in another arc of that player’s choice. If the ship cannot be placed anywhere, the ship is destroyed. After a player places their ship, they must choose an opponent, who may rotate the ship 90° to the left or right using the position marker from the core set. Finally, any wingmates that remain to be placed reform on their wing leader as per “Wingmate Movement.”",
+  "text": "After a huge ship overlaps a non-huge ship, the non-huge ship suffers 1 hit damage. Then, make note of whether the non-huge ship is being overlapped by the front half of the huge ship, the back half, or both. The non-huge ship is picked up and set aside until the huge ship completes its maneuver. After the huge ship completes its maneuver, each non-wingmate non-huge ship that was picked up is placed in the huge ship’s full forward arc, full rear arc, or flanking the huge ship, at range 0. The ship is placed within the arc matching the section of the ship it overlapped, or flanking the ship if it overlapped both halves. Starting with the first player, players take turns placing any of their non-huge ships that were picked up. Any non-huge ship that cannot be placed in the correct ship arc is placed in another arc of that player’s choice. If the ship cannot be placed anywhere, the ship is destroyed. After a player places their ship, they must choose an opponent, who may rotate the ship 90° to the left or right using the position marker from the core set. Finally, any wingmates that remain to be placed reform on their wing leader as per “Moving the Wingmates”.",
   "page": 7
  },
  {
@@ -461,12 +461,12 @@
  },
  {
   "kind": "h3",
-  "text": "Damage on Standardized Loadout Cards",
+  "text": "Damage on Standard Loadout Cards",
   "page": 8
  },
  {
   "kind": "p",
-  "text": "Some damage cards in the huge ship damage deck instruct the player to flip an upgrade to its inactive side. Since this cannot be done with a Standardized Loadout card, instead the ship ignores these effects and loses 1 energy.",
+  "text": "Some damage cards in the huge ship damage deck instruct the player to flip an upgrade to its inactive side. Since this cannot be done with a Standard Loadout card, instead the ship ignores these effects and loses 1 energy.",
   "page": 8
  },
  {
@@ -946,7 +946,7 @@
  },
  {
   "kind": "p",
-  "text": "When a ship joins a wing that it was not previously a member of, it gains the Standard Wingmate upgrade.",
+  "text": "When a ship joins a wing that it was not previously a member of, it gains the Wingmate upgrade.",
   "page": 15
  },
  {
@@ -1066,7 +1066,7 @@
  },
  {
   "kind": "p",
-  "text": "If there is only remaining wingmate when a wing leader is destroyed, that ship is instead considered split from the wing formation at the end of the round and will still engage at the wing’s engagement value if they have not engaged that round, but will move and engage independently at its printed initiative value on the following round. That ship is still considered to have the configuration of their wing leader if they had that configuration before the wing leader was destroyed. They do not lose their wingmate command upgrade. If the wingmate was in reserve when this occurs, replace the wing leader with that wingmate.",
+  "text": "If there is only one remaining wingmate when a wing leader is destroyed, that ship is instead considered split from the wing formation at the end of the round and will still engage at the wing’s engagement value if they have not engaged that round, but will move and engage independently at its printed initiative value on the following round. That ship is still considered to have the configuration of their wing leader if they had that configuration before the wing leader was destroyed. They do not lose their wingmate command upgrade. If the wingmate was in reserve when this occurs, replace the wing leader with that wingmate.",
   "page": 17
  },
  {
@@ -1241,7 +1241,7 @@
  },
  {
   "kind": "p",
-  "text": "• When a wing guard performs a blue maneuver, it removes one of each non-lock red token, including tokens such as ion tokens that aren’t typically removed in this manner. For specific ion-related information, see Force Splitting: Ionized.",
+  "text": "• When a wing guard performs a blue maneuver, it removes one of each non-lock red token, including tokens such as ion tokens that aren’t typically removed in this manner. For specific ion-related information, see Forced Splitting: Ionized.",
   "page": 21
  },
  {
@@ -1456,17 +1456,17 @@
  },
  {
   "kind": "p",
-  "text": "If the wing leader would be destroyed for any reason other than leaving the play area and there are still wing guards in play or in reserve:",
+  "text": "If the commander would be destroyed for any reason other than leaving the play area and there are still wing guards in play or in reserve:",
   "page": 24
  },
  {
   "kind": "p",
-  "text": "• If there are two or more wing guards, it forms a wing. The ship with the lowest ID becomes the wing leader. The other two ships lose the “Standard Wing Guard” upgrade and gain the “Standard Wingmate” command upgrade. If the wing leader is in reserve, mark the front guides of the commander before removing it from the game and place the wing leader in its place. Then place all wingmates in wing formation starting from the next lowest ID. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to two possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve.",
+  "text": "• If there are two or more wing guards, it forms a wing. The ship with the lowest ID becomes the wing leader and gains the “Wingleader” command upgrade. The remaining ships lose the “Wing Guard” upgrade and gain the “Wingmate” command upgrade. If the wing leader is in reserve, mark the front guides of the commander before removing it from the game and place the wing leader in its place. Then place all wingmates in wing formation starting from the next lowest ID. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to two possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve.",
   "page": 24
  },
  {
   "kind": "p",
-  "text": "• If there is only one wing guard remaining, it is considered split from the escort formation at the end of the round and will still engage at the escort’s engagement value if it has not engaged that round, but will move and engage at its printed initiative value on the following round. It loses its wing guard command upgrade and all effects gained from it on the following round. If it is in reserve, replace the commander with it.",
+  "text": "• If there is only one wing guard remaining, it is considered split from the escort formation at the end of the round and will still engage at the escort’s engagement value if it has not engaged that round, but will move and engage at its printed initiative value on the following round. It loses its “Wing Guard” command upgrade and all effects gained from it on the following round. If it is in reserve, replace the commander with it.",
   "page": 24
  },
  {
@@ -1506,63 +1506,43 @@
  },
  {
   "kind": "h2",
-  "text": "Docking and Huge Ships",
-  "page": 25
- },
- {
-  "kind": "p",
-  "text": "Some upgrades or abilities allow ships to dock with huge ships. While a dock ship deploys, it may execute its maneuver from the front or rear guides or by aligning the center of its maneuver template to the huge ship’s center line.",
-  "page": 25
- },
- {
-  "kind": "p",
-  "text": "During the System Phase, any number of ships docked to a huge ship may deploy from it. If a ship cannot be placed while being deployed, it is destroyed.",
-  "page": 25
- },
- {
-  "kind": "p",
-  "text": "During the System Phase, one or more non-huge ships may dock with a huge ship carrier at range 0-1.",
-  "page": 25
- },
- {
-  "kind": "h2",
   "text": "Reserve",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "Ships can sometimes be placed in reserve from card effects. A ship that is placed in reserve is placed on its ship card outside of the play area. While a ship is in reserve, it is not assigned a dial, it cannot perform actions, and it cannot attack.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• A ship that is placed in reserve will have an effect that causes it to be placed in the play area.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• Ships that are placed in reserve are not removed from the game.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• The abilities of a ship in reserve are inactive unless the ability explicitly allows it to be used while it is in reserve.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• A ship that is docked is placed in reserve.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• During the End Phase, a ship that is in reserve still removes all circular tokens and recovers charges on all of its cards with recurring charge icons.",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "p",
   "text": "• Ships in reserve retain non-circular tokens that do not normally get removed at the end of the round, such as red tokens (ions, stress, strain, etc).",
-  "page": 26
+  "page": 25
  },
  {
   "kind": "h2",
