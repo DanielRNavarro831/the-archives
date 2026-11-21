@@ -1,8 +1,9 @@
 {
- "_readme": "documentsPage: the XWA's official documents page. Each document's 'url' is its official PDF; citations link to it at the cited page. When the XWA publishes a new version, update 'version' and 'url' (and 'file'/'raw' for the local copy used by the build tools). hideEpic: true hides huge-ship/Epic rulings listed under 'epic' until the Epic format is finalized; set it to false to show them again. quizLive: true shows the Judge Quiz on the live site (it always shows on staging); set it to false to hide it again. reportForm: the Google Form behind 'Report a Problem or Ruling'; 'field' is the form question that gets pre-filled.",
+ "_readme": "documentsPage: the XWA's official documents page. Each document's 'url' is its official PDF; citations link to it at the cited page. When the XWA publishes a new version, update 'version' and 'url' (and 'file'/'raw' for the local copy used by the build tools). hideEpic: true hides huge-ship/Epic rulings listed under 'epic' until the Epic format is finalized; set it to false to show them again. quizLive: true shows the Judge Quiz on the live site (it always shows on staging); set it to false to hide it again. quizSkip: ruling ids the Judge Quiz never asks (e.g. forum-32, whose opening 'Yes' answers a different question than the one asked); they stay on the site as written. reportForm: the Google Form behind 'Report a Problem or Ruling'; 'field' is the form question that gets pre-filled.",
  "documentsPage": "https://www.xwing.life/rules",
  "hideEpic": true,
  "quizLive": true,
+ "quizSkip": ["forum-32"],
  "epic": {
   "_note": "What 'hideEpic' hides: whole Rules Reference sections, forum threads, and errata entries that only apply to huge ships / the Epic format.",
   "sections": [

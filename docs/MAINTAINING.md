@@ -288,6 +288,8 @@ its own private setup with access control.
 XWA rules-team forum answer) whose official answer starts with "Yes" or "No", used word for word;
 after each answer the official answer and citation are shown. Outdated rulings and questions that
 ask two things at once are left out. Nothing is stored and nothing is typed.
+To keep a confusing ruling out of the quiz (it stays on the site as written), add its id to
+`quizSkip` in `data/sources.json`, e.g. `"quizSkip": ["forum-32"]`, then rebuild.
 
 It is **live** (`"quizLive": true` in `data/sources.json`). To hide it on the live site, set
 `quizLive` to `false`, run `python tools/build_data.py`, then publish (it always shows on staging). To remove it entirely, delete the

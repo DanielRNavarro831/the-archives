@@ -810,7 +810,7 @@
   function quizPool() {
     return DB.rulings.filter((r) => {
       const a = (r.a[0] || "").trim();
-      return !r.playtest && /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
+      return !r.playtest && !(DB.meta.quizSkip || []).includes(r.id) && /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
     }).map((r) => ({ r, answer: /^yes/i.test(r.a[0].trim()) ? "Yes" : "No" }));
   }
 
