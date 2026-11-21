@@ -422,6 +422,18 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .ban-extra { display: block; color: var(--muted); font-size: .84rem; margin-top: 2px; }
 .badge.banned { border-color: var(--hit); background: var(--hit); color: #fff; }
 
+/* ---------------- playtest (playtest.xwingarchives.com; staging preview with ?playtest) ---------------- */
+.playtest-banner { background: repeating-linear-gradient(135deg, #15803d 0 14px, #166534 14px 28px); }
+.pt-tag, .sg-playtest { background: #1e7d45; color: #fff; font-family: var(--font-head); font-size: .7rem; letter-spacing: .08em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 6px; white-space: nowrap; }
+.playtest-banner .pt-tag { background: #fff; color: #166534; margin: 0 2px; }
+.sg-playtest { font-size: .62rem; padding: 1px 6px; margin-right: 2px; }
+.badge.playtest { border-color: #1e7d45; background: #1e7d45; color: #fff; }
+.pt-note { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: .92rem;
+  background: color-mix(in srgb, #1e7d45 16%, var(--panel)); border-bottom: 1px solid #1e7d45; padding: 10px 20px; }
+.ruling.playtest { border-left-color: #1e7d45; }
+.ruling.playtest .kicker { display: flex; gap: 8px; align-items: center; }
+
 /* ---------------- Judge Quiz (staging) ---------------- */
 .quiz-progress { display: flex; gap: 5px; margin: 4px 0 8px; }
 .quiz-progress span { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }

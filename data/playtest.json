@@ -1,0 +1,44 @@
+{
+ "_readme": "Playtest cards and rulings. They only appear on the playtest site (playtest.xwingarchives.com), each tagged 'Playtest'. Entries with \"sample\": true are made-up examples for trying out the look on staging: open staging.xwingarchives.com and click 'Preview the playtest site' in the banner. Cards: id, name, type (Pilot/Upgrade), and either 'base' (an existing pilot's card id: a new pilot reuses its ship, faction, stats, actions, dial and ship ability, but not its pilot traits) or the fields themselves; then text, initiative, limited, slot, factions. Rulings: id, q (question), a (list of answer paragraphs), cards (card ids, playtest or existing), date, topic.",
+ "cards": [
+  {
+   "sample": true,
+   "id": "sample-playtest-pilot",
+   "name": "Sample Playtest Pilot",
+   "type": "Pilot",
+   "base": "luke-skywalker-t-65-x-wing",
+   "initiative": 4,
+   "limited": 1,
+   "text": "SAMPLE CARD (not a real card). After you perform a {barrelroll} action, you may gain 1 strain token to acquire a lock on an enemy ship at range 1-2."
+  },
+  {
+   "sample": true,
+   "id": "sample-playtest-talent",
+   "name": "Sample Playtest Talent",
+   "type": "Upgrade",
+   "slot": ["Talent"],
+   "factions": [],
+   "text": "SAMPLE CARD (not a real card). While you perform a {frontarc} attack, if the defender is in your {bullseyearc}, you may spend 1 strain token to change 1 {focus} result to a {hit} result."
+  }
+ ],
+ "rulings": [
+  {
+   "sample": true,
+   "id": "pt-1",
+   "topic": "Sample Playtest Talent",
+   "date": "Nov 20, 2026",
+   "q": "SAMPLE RULING. Can Sample Playtest Talent be used during a bonus attack, such as one granted by Snap Shot?",
+   "a": ["No. This is a made-up answer to show how playtest rulings look. Snap Shot's attack says your dice cannot be modified."],
+   "cards": ["sample-playtest-talent", "snap-shot-talent"]
+  },
+  {
+   "sample": true,
+   "id": "pt-2",
+   "topic": "Sample Playtest Pilot",
+   "date": "Nov 20, 2026",
+   "q": "SAMPLE RULING. If Sample Playtest Pilot performs a {barrelroll} action as a red action, can it still use its ability?",
+   "a": ["Yes. This is a made-up answer to show how playtest rulings look. The ability only requires that the action was performed."],
+   "cards": ["sample-playtest-pilot"]
+  }
+ ]
+}

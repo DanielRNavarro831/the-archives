@@ -12,6 +12,22 @@
   // The staging copy lives at staging.xwingarchives.com: it shows a banner, sends no stats,
   // and labels "Report a Problem" submissions so they aren't mistaken for live-site reports.
   const STAGING = /^staging\./.test(location.hostname);
+  // The playtest copy (playtest.xwingarchives.com) adds upcoming cards and rulings from
+  // data/playtest.json, each tagged "Playtest". Staging can preview it with ?playtest in the URL
+  // (the banner has a link), which also shows the made-up "sample" entries.
+  const PT_HOST = /^playtest\./.test(location.hostname);
+  const PT_PREVIEW = STAGING && new URLSearchParams(location.search).has("playtest");
+  const PLAYTEST = PT_HOST || PT_PREVIEW;
+  if (PLAYTEST && DB.playtest) {
+    const keep = (x) => PT_PREVIEW || !x.sample;
+    const cards = DB.playtest.cards.filter(keep).map((c) => ({ ...c, playtest: true }));
+    const rulings = DB.playtest.rulings.filter(keep).map((r) => ({ ...r, playtest: true }));
+    DB.cards = [...DB.cards, ...cards].sort((a, b) => a.name.replace(/^"/, "").toLowerCase()
+      .localeCompare(b.name.replace(/^"/, "").toLowerCase()));
+    DB.rulings = [...rulings, ...DB.rulings];               // playtest rulings first on the FAQ page
+    const byCard = Object.fromEntries(DB.cards.map((c) => [c.id, c]));
+    rulings.forEach((r) => r.cards.forEach((id) => { if (byCard[id]) byCard[id].rulings = [r.id, ...byCard[id].rulings]; }));
+  }
 
   // ---------- indexes ----------
   const byId = (list) => Object.fromEntries(list.map((x) => [x.id, x]));
@@ -133,6 +149,7 @@
   const shortDate = (d) => String(d || "").replace(/,\s*\d{1,2}:\d{2}\s*[AP]M$/i, "");
   function sourceLabel(item) {
     if (item.source === "forum") return `XWA Rules Forum, ${shortDate(item.date)}`;
+    if (item.source === "playtest") return `Playtest ruling, ${shortDate(item.date)}`;
     const s = SOURCES[item.source];
     if (!s) return "";
     return `${s.title} v${s.version}, p. ${item.page}`;
@@ -145,6 +162,7 @@
   }
   /** Rule citations open the XWA's official PDF at the cited page (#page=N). */
   function sourceLink(item) {
+    if (item.source === "playtest") return esc(sourceLabel(item));
     if (item.source === "forum")
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
     const s = SOURCES[item.source];
@@ -165,7 +183,7 @@
     const f = DB.meta.reportForm;
     if (!f) return "";
     const page = location.origin + location.pathname + (path || location.hash);
-    const prefill = `${STAGING ? "[STAGING SITE] " : ""}About: ${subject}\nPage: ${page}\n\n`;
+    const prefill = `${STAGING ? "[STAGING SITE] " : PT_HOST ? "[PLAYTEST SITE] " : ""}About: ${subject}\nPage: ${page}\n\n`;
     const url = `${f.url}?usp=pp_url&${encodeURIComponent(f.field)}=${encodeURIComponent(prefill)}`;
     return `<a class="report-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`;
   }
@@ -229,6 +247,7 @@
       <small>${c.slot ? c.slot.map((s) => iconHtml(SLOT_KEY[s] || s.toLowerCase())).join("") + " " : ""}${esc(cardTypeLine(c))}</small>
       ${c.factions && c.factions.length ? `<small class="factions">${c.factions.map(factionHtml).join("")}</small>` : ""}
       <span class="counts">
+        ${c.playtest ? `<span class="badge playtest" title="Subject to change">Playtest</span>` : ""}
         ${activeBans(c).length ? `<span class="badge banned" title="${esc(activeBans(c).map((b) => `${b.format}: ${banWhere(b)}`).join("; "))}">Banned (${esc([...new Set(activeBans(c).map((b) => b.format))].join(", "))})</span>` : ""}
         ${c.rulings.length ? `<span class="badge rulings">${c.rulings.length} ruling${c.rulings.length > 1 ? "s" : ""}</span>` : ""}
         ${c.errata.length ? `<span class="badge errata">Errata</span>` : ""}
@@ -256,8 +275,9 @@
     // an outdated ruling's PDF version may no longer be hosted, so cite it as plain text
     const cite = dep ? `Originally: ${esc(sourceLabel(r))}${forum ? "" : ` · ${esc(r.section)} › ${esc(r.topic)}`}`
       : forum ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`;
-    return `<article class="ruling${forum ? " forum" : ""}${dep ? " deprecated" : ""}" id="${esc(r.id)}">
+    return `<article class="ruling${forum ? " forum" : ""}${dep ? " deprecated" : ""}${r.playtest ? " playtest" : ""}" id="${esc(r.id)}">
       ${dep ? outdatedBanner(r, dep) : ""}
+      ${r.playtest ? `<p class="kicker"><span class="pt-tag">Playtest</span> Playtest ruling · subject to change</p>` : ""}
       ${forum ? `<p class="kicker">Rules team answer · ${esc(r.topic)}</p>` : ""}
       <div class="q">${forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`).join("")
                              : fmt(r.q, { cards: r.cards, self: opts.self, hl: opts.hl })}</div>
@@ -407,6 +427,8 @@
             <div class="typeline">${c.slot ? c.slot.map((s) => iconHtml(SLOT_KEY[s] || s.toLowerCase())).join("") + " " : ""}${esc(cardTypeLine(c))}</div>
             ${c.factions.length ? `<div class="typeline factions">${c.factions.map(factionHtml).join("")}</div>` : ""}
           </header>
+          ${c.playtest ? `<div class="pt-note" role="note"><span class="pt-tag">Playtest</span>
+            <span>This card is in playtesting. Its text, stats and rulings are subject to change.</span></div>` : ""}
           ${banHtml(c)}
           ${statsHtml(c)}
           <div class="body">
@@ -463,6 +485,7 @@
           <option value="any" ${params.get("has") === "any" ? "selected" : ""}>Has rulings or errata</option>
           <option value="rulings" ${params.get("has") === "rulings" ? "selected" : ""}>Has rulings</option>
           <option value="errata" ${params.get("has") === "errata" ? "selected" : ""}>Has errata</option>
+          ${DB.cards.some((c) => c.playtest) ? `<option value="playtest" ${params.get("has") === "playtest" ? "selected" : ""}>Playtest</option>` : ""}
           ${DB.cards.some((c) => activeBans(c).length) ? `<option value="banned" ${params.get("has") === "banned" ? "selected" : ""}>Banned</option>` : ""}</select>
         <span class="muted" id="f-count"></span>
       </div>
@@ -479,7 +502,7 @@
         (!type || c.type === type) && (!slot || (c.slot || []).includes(slot)) &&
         (!faction || c.factions.includes(faction)) &&
         (!has || (has === "any" ? c.rulings.length + c.errata.length : has === "rulings" ? c.rulings.length
-          : has === "banned" ? activeBans(c).length : c.errata.length)));
+          : has === "banned" ? activeBans(c).length : has === "playtest" ? c.playtest : c.errata.length)));
       const box = document.getElementById("card-results");
       let shown = 0;
       const more = () => {
@@ -582,7 +605,7 @@
     const groups = [];
     DB.rulings.forEach((r) => {
       // forum answers are one group ("XWA Rules Forum"), newest first
-      const topic = r.source === "forum" ? "Rules team answers (XWA forum)" : r.topic;
+      const topic = r.source === "forum" ? "Rules team answers (XWA forum)" : r.playtest ? "Playtest rulings" : r.topic;
       const key = r.section + " › " + topic;
       let g = groups.find((x) => x.key === key);
       if (!g) groups.push((g = { key, section: r.section, topic, items: [] }));
@@ -787,7 +810,7 @@
   function quizPool() {
     return DB.rulings.filter((r) => {
       const a = (r.a[0] || "").trim();
-      return /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
+      return !r.playtest && /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
     }).map((r) => ({ r, answer: /^yes/i.test(r.a[0].trim()) ? "Yes" : "No" }));
   }
 
@@ -947,7 +970,7 @@
   // No cookies, no personal data. GoatCounter skips localhost, so local testing isn't counted.
   const statsQueue = [];
   function track(path, title, event) {
-    if (STAGING) return;                                   // test visits stay out of the stats
+    if (STAGING || PT_HOST) return;                        // test and playtest visits stay out of the stats
     statsQueue.push({ path, title, event: !!event });
     flushStats();
   }
@@ -1088,7 +1111,7 @@
         <a class="sg-row" role="option" id="sg-${i}" data-i="${i}" href="${it.kind === "card" ? "#/card/" : "#/rule/"}${esc(it.id)}">
           <span class="sg-icon">${suggestionIcon(it)}</span>
           <span class="sg-text"><span class="sg-title">${highlight(esc(it.title), terms)}</span>
-            <span class="sg-sub">${it.kind === "card" && activeBans(CARDS[it.id]).length ? `<span class="sg-banned">Banned</span> ` : ""}${esc(it.kind === "card" && CARDS[it.id] && CARDS[it.id].factions.length
+            <span class="sg-sub">${it.kind === "card" && CARDS[it.id] && CARDS[it.id].playtest ? `<span class="sg-playtest">Playtest</span> ` : ""}${it.kind === "card" && activeBans(CARDS[it.id]).length ? `<span class="sg-banned">Banned</span> ` : ""}${esc(it.kind === "card" && CARDS[it.id] && CARDS[it.id].factions.length
               ? `${it.sub} · ${CARDS[it.id].factions.join(" / ")}` : it.sub)}</span></span></a>`).join("")
       + `<a class="sg-row sg-all" role="option" id="sg-${items.length}" data-i="${items.length}" href="#/search?q=${encodeURIComponent(q.trim())}">
            <span class="sg-icon">⌕</span><span class="sg-text"><span class="sg-title">See all results for “${esc(q.trim())}”</span></span></a>`;
@@ -1202,10 +1225,15 @@
     const about = document.querySelector('.nav a[href="#/about"]');
     if (about) about.insertAdjacentHTML("beforebegin", `<a href="#/quiz">Judge Quiz</a>`);
   }
-  if (STAGING) {
+  if (PLAYTEST) {
+    document.body.insertAdjacentHTML("afterbegin",
+      `<div class="staging-banner playtest-banner" role="note">PLAYTEST — items marked <span class="pt-tag">Playtest</span> are subject to change.
+       ${PT_PREVIEW ? `<a href="${location.pathname}${location.hash}">Back to staging</a>` : ""}</div>`);
+  } else if (STAGING) {
     document.body.insertAdjacentHTML("afterbegin",
       `<div class="staging-banner" role="note">STAGING — test version of The Archives. Changes here may not be final.
-       <a href="https://xwingarchives.com/${location.hash}">Go to the live site</a></div>`);
+       <a href="https://xwingarchives.com/${location.hash}">Go to the live site</a>
+       <a href="?playtest${location.hash}">Preview the playtest site</a></div>`);
   }
 
   window.addEventListener("hashchange", route);

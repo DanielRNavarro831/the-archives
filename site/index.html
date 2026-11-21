@@ -15,8 +15,8 @@
   <script>
     // apply saved theme before paint
     try { var t = localStorage.getItem('archives-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-    // Staging copy (staging.xwingarchives.com): never let search engines list it
-    if (/^staging\./.test(location.hostname)) {
+    // Staging and playtest copies: never let search engines list them
+    if (/^(staging|playtest)\./.test(location.hostname)) {
       var m = document.createElement('meta'); m.name = 'robots'; m.content = 'noindex, nofollow';
       document.head.appendChild(m);
     }

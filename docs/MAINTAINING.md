@@ -265,6 +265,23 @@ List bans in `data/banned-cards.json`, one list per card (a card can be banned i
 
 Then run `python tools/build_data.py`.
 
+## Playtest cards and rulings (experimental)
+
+`data/playtest.json` holds upcoming cards and rulings. They are kept apart from the official data
+(never in the Compendium or the Judge Quiz) and only appear in **playtest mode**, tagged with a
+green **Playtest** label under a green "subject to change" banner:
+
+- on `playtest.xwingarchives.com` (not set up yet; no stats, hidden from search engines), and
+- on staging, as a preview: click **Preview the playtest site** in the orange banner (adds `?playtest` to the address).
+
+Entries with `"sample": true` are made-up examples that only show in the staging preview.
+A new pilot can copy its ship, stats, actions and dial from an existing pilot with `"base": "<card id>"`.
+Run `python tools/build_data.py` after editing.
+
+**Important:** anything in `data/playtest.json` is published inside `site/data/archives.js` and the
+repositories are public, so real playtest content must not go in here until the playtest site has
+its own private setup with access control.
+
 ## Judge Quiz
 
 `#/quiz` asks 10 random **Yes / No** questions. Each one is an official ruling (Rules Reference FAQ or
