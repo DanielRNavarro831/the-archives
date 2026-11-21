@@ -36,9 +36,10 @@
   const EPIC_TOGGLE = DB.meta.epicToggle === "live" || (DB.meta.epicToggle === "staging" && STAGING);
   let EPIC = false;
   try { EPIC = EPIC_TOGGLE && localStorage.getItem("archives-mode") === "epic"; } catch (e) { /* private mode */ }
-  const EPIC_IDS = new Set([...DB.rules, ...DB.rulings, ...DB.errata].filter((x) => x.epic).map((x) => x.id));
+  const EPIC_IDS = new Set([...DB.rules, ...DB.rulings, ...DB.errata, ...DB.cards].filter((x) => x.epic).map((x) => x.id));
   if (!EPIC) {
     DB.rules = DB.rules.filter((r) => !r.epic);
+    DB.cards = DB.cards.filter((c) => !c.epic);             // Epic-only unprinted cards (Wing Leader, …)
     DB.rulings = DB.rulings.filter((r) => !r.epic);
     DB.errata = DB.errata.filter((e) => !e.epic);
     DB.meta.sources = DB.meta.sources.filter((s) => !s.epic);
@@ -48,8 +49,8 @@
   function setMode(epic) {
     try { localStorage.setItem("archives-mode", epic ? "epic" : "standard"); } catch (e) { /* private mode */ }
     // an Epic-only page doesn't exist in Standard mode: go to the same kind of list instead
-    if (!epic && /^#\/(rule|ruling|errata-entry)\//.test(location.hash) && EPIC_IDS.has(decodeURIComponent(location.hash.split("/")[2] || "")))
-      location.hash = location.hash.startsWith("#/rule/") ? "#/rules" : "#/faq";
+    if (!epic && /^#\/(rule|ruling|errata-entry|card)\//.test(location.hash) && EPIC_IDS.has(decodeURIComponent(location.hash.split("/")[2] || "")))
+      location.hash = location.hash.startsWith("#/rule/") ? "#/rules" : location.hash.startsWith("#/card/") ? "#/cards" : "#/faq";
     location.reload();
   }
   const epicTag = (x) => (x && x.epic ? `<span class="epic-tag" title="Epic play only">Epic</span>` : "");
@@ -284,6 +285,7 @@
       ${c.factions && c.factions.length ? `<small class="factions">${c.factions.map(factionHtml).join("")}</small>` : ""}
       <span class="counts">
         ${c.playtest ? `<span class="badge playtest" title="Subject to change">Playtest</span>` : ""}
+        ${c.unprinted ? `<span class="badge" title="Exists only in a rules document">Unprinted</span>` : ""}${epicTag(c)}
         ${activeBans(c).length ? `<span class="badge banned" title="${esc(activeBans(c).map((b) => `${b.format}: ${banWhere(b)}`).join("; "))}">Banned (${esc([...new Set(activeBans(c).map((b) => b.format))].join(", "))})</span>` : ""}
         ${c.rulings.length ? `<span class="badge rulings">${c.rulings.length} ruling${c.rulings.length > 1 ? "s" : ""}</span>` : ""}
         ${c.errata.length ? `<span class="badge errata">Errata</span>` : ""}
@@ -445,6 +447,7 @@
 
   function viewCard(id) {
     const c = CARDS[id];
+    if (!c && EPIC_TOGGLE && EPIC_IDS.has(id)) return viewEpicOnly("card");
     if (!c) return viewNotFound(id.replace(/-/g, " "));
     setTitle(c.name);
     const ct = currentText(c);
@@ -469,6 +472,8 @@
           </header>
           ${c.playtest ? `<div class="pt-note" role="note"><span class="pt-tag">Playtest</span>
             <span>This card is in playtesting. Its text, stats and rulings are subject to change.</span></div>` : ""}
+          ${c.unprinted ? `<div class="epic-note" role="note">${epicTag(c)}
+            <span>Unprinted card: it exists only in the ${esc(sourceLabel(c))}.${RULES[c.rule] ? ` See <a href="#/rule/${esc(c.rule)}">${esc(RULES[c.rule].title)}</a> for how it's used.` : ""}</span></div>` : ""}
           ${banHtml(c)}
           ${statsHtml(c)}
           <div class="body">
@@ -626,10 +631,10 @@
     return DB.rulings.filter((r) => re.test(r.topic) || re.test(plainIcons(r.q))).slice(0, 12);
   }
 
-  function viewEpicOnly() {
+  function viewEpicOnly(what = "rule") {
     setTitle("Epic play");
     return `<section class="panel epic-only"><p>${epicTag({ epic: true })}</p>
-      <h1>This is an Epic rule</h1>
+      <h1>This is an Epic ${what}</h1>
       <p>It only applies to Epic play, so it's hidden while the Archives shows Standard rules.</p>
       <p><button type="button" class="quiz-next" data-mode="epic">Switch to Epic</button></p></section>`;
   }

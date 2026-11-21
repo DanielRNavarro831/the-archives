@@ -321,3 +321,11 @@ To keep a confusing ruling out of the quiz (it stays on the site as written), ad
 It is **live** (`"quizLive": true` in `data/sources.json`). To hide it on the live site, set
 `quizLive` to `false`, run `python tools/build_data.py`, then publish (it always shows on staging). To remove it entirely, delete the
 "Judge Quiz" block from `site/js/app.js` and the quiz styles from `site/css/style.css`.
+
+## Unprinted cards
+
+`data/unprinted-cards.json` holds upgrades that exist only as text in a rules document, such as the
+Epic command upgrades (Wing Leader, Wingmate, Escort Commander, Wing Guard). Each one has the card's text
+word for word, its slot, restriction, the document and page it comes from, and the rule that explains it.
+Cards with `"epic": true` only show in Epic mode. The build warns when a card's text is no longer in its
+document, so after a new version of the document, fix the text here. Never add points or loadout values.

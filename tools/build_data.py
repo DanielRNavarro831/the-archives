@@ -457,6 +457,38 @@ def load_playtest(cards):
     return {"cards": out_cards, "rulings": out_rulings}
 
 
+def add_unprinted_cards(cards, sources, rules):
+    """Add data/unprinted-cards.json to the cards; warn if a card's text is no longer in its document."""
+    path = ROOT / "data" / "unprinted-cards.json"
+    if not path.exists():
+        return
+    docs = {d["id"]: d for d in sources["documents"]}
+    rule_ids = {r["id"] for r in rules}
+    raw_text = {}
+    added = 0
+    for c in json.loads(path.read_text(encoding="utf-8")).get("cards", []):
+        if c["id"] in cards:
+            print(f"WARNING: unprinted card {c['id']} has the same id as an existing card; skipped")
+            continue
+        doc = docs.get(c.get("source"))
+        if not doc:
+            print(f"WARNING: unprinted card {c['id']} names unknown document {c.get('source')}")
+        else:
+            if doc["id"] not in raw_text:
+                raw = ROOT / "data" / "raw" / f"{doc['raw']}.json"
+                raw_text[doc["id"]] = norm_quotes(" ".join(p["text"] for p in json.loads(raw.read_text(encoding="utf-8"))))
+            if norm_quotes(c["text"]) not in raw_text[doc["id"]]:
+                print(f"WARNING: unprinted card {c['id']}: its text isn't in {doc['title']} {doc.get('version')} any more")
+        if c.get("rule") and c["rule"] not in rule_ids:
+            print(f"WARNING: unprinted card {c['id']} names unknown rule {c['rule']}")
+        card = {k: v for k, v in c.items() if not k.startswith("_")}
+        card.setdefault("factions", [])
+        card.update(unprinted=True, rulings=[], errata=[], origin="unprinted")
+        cards[c["id"]] = card
+        added += 1
+    print(f"Unprinted cards: {added}")
+
+
 def main():
     sources = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
     cur = json.loads((ROOT / "data" / "cards-curated.json").read_text(encoding="utf-8"))
@@ -657,6 +689,10 @@ def main():
     for c in cards.values():
         for k in [k for k, v in c.items() if v is None or v == [] and k not in ("rulings", "errata", "factions")]:
             del c[k]
+
+    # 6b. unprinted cards (data/unprinted-cards.json): upgrades that exist only as text in a rules
+    #     document, such as the Epic command upgrades. See docs/MAINTAINING.md.
+    add_unprinted_cards(cards, sources, rules)
 
     # 7. the numbered Compendium (also writes site/compendium.txt)
     comp = compendium.build([r for r in rules if not r.get("epic")], [r for r in rulings if not r.get("epic")],

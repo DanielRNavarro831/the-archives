@@ -1,0 +1,54 @@
+{
+ "_readme": "Unprinted cards: upgrades that exist only as text in a rules document (e.g. the command upgrades in the Official XWA Epic Rules). Each card: id, name, type, slot, restriction, text (the quoted card text, word for word), source (a document id from sources.json), page, rule (the rules entry that explains it), optional aliases, and epic: true to show it only in Epic mode. Never add points or loadout values. The build warns if a card's text no longer appears in its document, so re-check these after a new version of the document.",
+ "cards": [
+  {
+   "id": "wing-leader-command",
+   "name": "Wing Leader",
+   "aliases": ["Wingleader"],
+   "type": "Upgrade",
+   "slot": ["Command"],
+   "restriction": "Limited ship, Small ship",
+   "text": "You are a Wing Leader. Your wingmates must be 2-5 non-limited, small-sized ships of your ship type with the Wingmate upgrade card. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.",
+   "source": "xe",
+   "page": 12,
+   "rule": "xwa-epic-wing-leader",
+   "epic": true
+  },
+  {
+   "id": "wingmate-command",
+   "name": "Wingmate",
+   "type": "Upgrade",
+   "slot": ["Command"],
+   "restriction": "Non-limited ship, Small ship",
+   "text": "You are a Wingmate. You are considered to have the same Configuration upgrade as your Wing Leader.",
+   "source": "xe",
+   "page": 12,
+   "rule": "xwa-epic-wingmate",
+   "epic": true
+  },
+  {
+   "id": "escort-commander-command",
+   "name": "Escort Commander",
+   "type": "Upgrade",
+   "slot": ["Command"],
+   "restriction": "Limited ship, Medium or Large ship",
+   "text": "You are a commander. Your wing guards must be 1-3 non-limited small-sized ships of the same type with the Wing Guard upgrade card. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.",
+   "source": "xe",
+   "page": 18,
+   "rule": "xwa-epic-commander",
+   "epic": true
+  },
+  {
+   "id": "wing-guard-command",
+   "name": "Wing Guard",
+   "type": "Upgrade",
+   "slot": ["Command"],
+   "restriction": "Non-limited ship, Small ship",
+   "text": "You are a Wing Guard. While an enemy ship performs an attack against a friendly commander in your formation, if you obstruct the attack, the defender rolls 1 additional die.",
+   "source": "xe",
+   "page": 19,
+   "rule": "xwa-epic-wing-guard",
+   "epic": true
+  }
+ ]
+}
