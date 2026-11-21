@@ -218,6 +218,11 @@ def main():
         pages = range(int(a), int(b) + 1)
     doc = pymupdf.open(pdf)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    # hand fixes (data/figures-curated.json): dropFigure = files that aren't real figures,
+    # figureBox = file -> [x0, y0, x1, y1] in PDF points when the automatic crop catches stray text
+    cur_path = ROOT / "data" / "figures-curated.json"
+    cur = json.loads(cur_path.read_text(encoding="utf-8")) if cur_path.exists() else {}
+    drop, fixed_box = set(cur.get("dropFigure", [])), cur.get("figureBox", {})
     figures = []
     for pno, page in enumerate(doc, start=1):
         if pages and pno not in pages:
@@ -228,8 +233,14 @@ def main():
                        key=lambda r: (0 if r[0] < 296 else 1, r[1]))
         boxes = [b for b in boxes if b[3] - b[1] > 35]
         for i, r in enumerate(boxes, start=1):
+            name = f"{prefix}-p{pno}-{i}.webp"
+            if name in drop:
+                (OUT_DIR / name).unlink(missing_ok=True)
+                continue
+            if name in fixed_box:
+                r = tuple(fixed_box[name])
             # a little breathing room around the picture, but never into a neighbouring text line
-            pad_top = pad_bottom = 4
+            pad_top = pad_bottom = 0 if name in fixed_box else 4
             for t in page_lines:
                 if min(r[2], t[2]) - max(r[0], t[0]) <= 0:
                     continue
@@ -237,9 +248,9 @@ def main():
                     pad_top = min(pad_top, max(0, r[1] - t[3] - 0.5))
                 if t[1] >= r[3]:
                     pad_bottom = min(pad_bottom, max(0, t[1] - r[3] - 0.5))
-            clip = pymupdf.Rect(max(0, r[0] - 4), max(0, r[1] - pad_top),
-                                min(page.rect.width, r[2] + 4), min(FOOTER_Y, r[3] + pad_bottom))
-            name = f"{prefix}-p{pno}-{i}.webp"
+            side = 0 if name in fixed_box else 4
+            clip = pymupdf.Rect(max(0, r[0] - side), max(0, r[1] - pad_top),
+                                min(page.rect.width, r[2] + side), min(FOOTER_Y, r[3] + pad_bottom))
             pix = page.get_pixmap(dpi=DPI, clip=clip, alpha=False)
             if pix.width < 20 or pix.height < 20:
                 continue

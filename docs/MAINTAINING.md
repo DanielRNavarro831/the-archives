@@ -183,6 +183,9 @@ or type §22.4 in the search box) and read the actual text yourself.
     `"epic": true` and its `sections`. A section can start partway through a page with
     `"startText"` (the first words of its first paragraph), e.g. the Epic FAQ and Event Guidance
     share page 8. Epic rules get addresses like `#/rule/epic-wings`.
+    Diagrams: `python tools/extract_figures.py pdfs/<epic pdf> ep`. Fix-ups live in
+    `data/figures-curated.json`: `dropFigure` (not a real diagram), `figureBox` (re-crop in PDF points),
+    `placeFigure` (move to another rule) and `dropLabel` (picture labels that leaked into the text).
 
 ## Usage statistics (GoatCounter)
 

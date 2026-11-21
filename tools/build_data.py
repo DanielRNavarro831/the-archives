@@ -107,6 +107,9 @@ def build_rules(paras, source, sections, rules, used_ids):
     intro_title = {s["id"]: s.get("introTitle") for s in sections}
     last_section = None
     anchors = []          # (page, col, y) of every heading/paragraph, for placing figures
+    fig_cur = ROOT / "data" / "figures-curated.json"
+    drop_labels = set(json.loads(fig_cur.read_text(encoding="utf-8")).get("dropLabel", {}).get(source["id"], [])
+                      if fig_cur.exists() else [])
     for p in paras:
         sec = section_for(p["page"], sections, p)
         if not sec or sec["kind"] != "rules" or NOISE.match(p["text"]):
@@ -128,6 +131,8 @@ def build_rules(paras, source, sections, rules, used_ids):
         if cur is None:
             cur = new_rule(sec["title"], [], sec, source, p["page"], rules, used_ids)
         kind = "h3" if p["kind"] == "h3" else ("q" if p["kind"] == "q" else "p")
+        if p["text"] in drop_labels:
+            continue          # a picture's own label (data/figures-curated.json "dropLabel")
         cur["blocks"].append({"k": kind, "t": p["text"]})
         anchors.append(((p["page"], p.get("col", 0), p.get("y", 0)), cur, len(cur["blocks"]) - 1))
     place_figures(source, sections, anchors)

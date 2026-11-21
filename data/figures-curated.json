@@ -1,8 +1,17 @@
 {
  "_readme": "Where to put example pictures that the automatic placement gets wrong. placeFigure: figure file -> rule id (from the rule page link #/rule/<id>). The picture is added at the end of that rule. Figure files are in site/figures/ (named <doc>-p<page>-<n>.webp).",
+ "_readme2": "Used by tools/extract_figures.py (re-run it after editing): dropFigure = picture files that aren't real figures (cover art, copyright footer); figureBox = file -> [x0, y0, x1, y1] crop in PDF points, for when the automatic crop catches stray text. dropLabel (used by build_data.py) = document id -> label texts printed inside a picture that shouldn't also appear as paragraphs.",
+ "dropLabel": {"ep": ["Red side", "Blue side"]},
+ "dropFigure": ["ep-p1-1.webp", "ep-p1-2.webp", "ep-p8-1.webp"],
+ "figureBox": {
+  "ep-p2-1.webp": [477.5, 524.0, 580.5, 681.0],
+  "ep-p4-2.webp": [521.5, 602.0, 582.0, 664.0]
+ },
  "placeFigure": {
   "rr-p29-2.webp": "card-anatomies",
   "rr-p29-3.webp": "device-and-deploying-examples",
-  "rr-p42-1.webp": "electro-chaff-cloud"
+  "rr-p42-1.webp": "electro-chaff-cloud",
+  "ep-p2-1.webp": "epic-objectives",
+  "ep-p7-3.webp": "epic-wing-overlap-diagrams"
  }
 }
