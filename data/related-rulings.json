@@ -15,14 +15,14 @@
     {"why": "Sets a dial to a different maneuver after it's revealed", "strength": "strong", "status": "rejected",
      "cards": ["saesee-tiin-delta-7-aethersprite", "saesee-tiin-delta-7b-aethersprite-delta-7b", "captain-needa-command", "strategic-commander-command",
                "hera-syndulla-vcx-100-light-freighter-vcx-100", "kaydel-connix-crew", "r2-a6-astromech", "slave-i-title"]},
-    {"why": "Increases or decreases a maneuver's difficulty", "strength": "strong",
+    {"why": "Increases or decreases a maneuver's difficulty", "strength": "strong", "status": "approved",
      "cards": ["broken-horn-title", "maneuver-assist-mgk-300-configuration", "modified-for-organics", "tie-defender-elite-configuration", "unhinged-astromech-astromech",
                "l3-37-customized-yt-1300-light-freighter", "l3-37-escape-craft-escape-craft", "l3-37-crew-aad", "r0-astromech-astromech-eod", "starboard-thrusters-modification-aad",
                "ello-asty-t-70-x-wing"]},
-    {"why": "Executes a different maneuver than the one revealed, without setting the dial", "strength": "strong",
+    {"why": "Executes a different maneuver than the one revealed, without setting the dial", "strength": "strong", "status": "approved",
      "cards": ["countess-ryad-tie-d-defender", "keo-venzee-rz-1-a-wing", "winged-reversal", "winged-reversal-configuration", "repulsorlift-stabilizers-configuration",
                "sickening-maneuver", "slider-clone-z-95-headhunter", "tractor-technicians-team"]},
-    {"why": "Treats purple maneuvers as red", "strength": "possible", "cards": ["jedi-commander-command"]}
+    {"why": "Treats purple maneuvers as red", "strength": "possible", "status": "approved", "cards": ["jedi-commander-command"]}
    ]
   },
   "rr-68": {
