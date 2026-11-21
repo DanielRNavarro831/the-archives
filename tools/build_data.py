@@ -510,6 +510,10 @@ def add_related_rulings(cards, rulings):
                 elif rid not in c.get("rulings", []) and rid not in c.setdefault("relatedRulings", []):
                     c["relatedRulings"].append(rid)
                     links += 1
+    order = {r["id"]: i for i, r in enumerate(rulings)}          # same order as the FAQ
+    for c in cards.values():
+        if c.get("relatedRulings"):
+            c["relatedRulings"].sort(key=lambda rid: order[rid])
     print(f"Related rulings: {links} approved links")
 
 
