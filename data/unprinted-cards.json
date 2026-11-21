@@ -4,7 +4,6 @@
   {
    "id": "wing-leader-command",
    "name": "Wing Leader",
-   "aliases": ["Wingleader"],
    "type": "Upgrade",
    "slot": ["Command"],
    "restriction": "Limited ship, Small ship",
@@ -27,8 +26,8 @@
    "epic": true
   },
   {
-   "id": "escort-commander-command",
-   "name": "Escort Commander",
+   "id": "commander-command",
+   "name": "Commander",
    "type": "Upgrade",
    "slot": ["Command"],
    "restriction": "Limited ship, Medium or Large ship",

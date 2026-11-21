@@ -325,7 +325,7 @@ It is **live** (`"quizLive": true` in `data/sources.json`). To hide it on the li
 ## Unprinted cards
 
 `data/unprinted-cards.json` holds upgrades that exist only as text in a rules document, such as the
-Epic command upgrades (Wing Leader, Wingmate, Escort Commander, Wing Guard). Each one has the card's text
+Epic command upgrades (Wing Leader, Wingmate, Commander, Wing Guard). Each one has the card's text
 word for word, its slot, restriction, the document and page it comes from, and the rule that explains it.
 Cards with `"epic": true` only show in Epic mode. The build warns when a card's text is no longer in its
 document, so after a new version of the document, fix the text here. Never add points or loadout values.
