@@ -341,6 +341,9 @@
   "slave-i-title": [
    "slave-i-title"
   ],
+  "stalwart-captain-command": [
+   "stalwart-captain-command"
+  ],
   "static-discharge-vanes-modification": [
    "static-discharge-vanes-modification"
   ],
@@ -544,6 +547,27 @@
   ],
   "marg-sabl-closure-talent": [
    "marg-sabl-closure-talent"
+  ],
+  "ig-88d-crew": [
+   "ig-88d-crew"
+  ],
+  "corsair-refit-configuration": [
+   "corsair-refit-configuration"
+  ],
+  "heavy-laser-cannon-cannon": [
+   "heavy-laser-cannon-cannon"
+  ],
+  "cluster-missiles-missile": [
+   "cluster-missiles-missile"
+  ],
+  "targeting-battery-hardpoint": [
+   "targeting-battery-hardpoint"
+  ],
+  "boosted-scanners-cargo": [
+   "boosted-scanners-cargo"
+  ],
+  "luminous-title": [
+   "luminous-title"
   ]
  }
 }

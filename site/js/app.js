@@ -29,6 +29,31 @@
     rulings.forEach((r) => r.cards.forEach((id) => { if (byCard[id]) byCard[id].rulings = [r.id, ...byCard[id].rulings]; }));
   }
 
+  // ---------- Standard / Epic mode ----------
+  // Epic content (the Epic rules document, huge-ship appendix and FAQ, Epic forum answers and errata)
+  // is flagged "epic" by the build and only shown in Epic mode. The switch appears where
+  // data/sources.json "epicToggle" allows it ("staging" or "live"); everywhere else it's Standard only.
+  const EPIC_TOGGLE = DB.meta.epicToggle === "live" || (DB.meta.epicToggle === "staging" && STAGING);
+  let EPIC = false;
+  try { EPIC = EPIC_TOGGLE && localStorage.getItem("archives-mode") === "epic"; } catch (e) { /* private mode */ }
+  const EPIC_IDS = new Set([...DB.rules, ...DB.rulings, ...DB.errata].filter((x) => x.epic).map((x) => x.id));
+  if (!EPIC) {
+    DB.rules = DB.rules.filter((r) => !r.epic);
+    DB.rulings = DB.rulings.filter((r) => !r.epic);
+    DB.errata = DB.errata.filter((e) => !e.epic);
+    DB.meta.sources = DB.meta.sources.filter((s) => !s.epic);
+    const keepR = new Set(DB.rulings.map((r) => r.id)), keepE = new Set(DB.errata.map((e) => e.id));
+    DB.cards.forEach((c) => { c.rulings = c.rulings.filter((id) => keepR.has(id)); c.errata = c.errata.filter((id) => keepE.has(id)); });
+  }
+  function setMode(epic) {
+    try { localStorage.setItem("archives-mode", epic ? "epic" : "standard"); } catch (e) { /* private mode */ }
+    // an Epic-only page doesn't exist in Standard mode: go to the same kind of list instead
+    if (!epic && /^#\/(rule|ruling|errata-entry)\//.test(location.hash) && EPIC_IDS.has(decodeURIComponent(location.hash.split("/")[2] || "")))
+      location.hash = location.hash.startsWith("#/rule/") ? "#/rules" : "#/faq";
+    location.reload();
+  }
+  const epicTag = (x) => (x && x.epic ? `<span class="epic-tag" title="Epic play only">Epic</span>` : "");
+
   // ---------- indexes ----------
   const byId = (list) => Object.fromEntries(list.map((x) => [x.id, x]));
   const CARDS = byId(DB.cards);
@@ -41,6 +66,9 @@
   const RULE_BY_TITLE = {};
   [...DB.rules].reverse().forEach((r) => { RULE_BY_TITLE[r.title.toLowerCase()] = r.id; });
   DB.rules.filter((r) => r.sectionId === "glossary").forEach((r) => { RULE_BY_TITLE[r.title.toLowerCase()] = r.id; });
+  const EPIC_BY_TITLE = {};
+  DB.rules.filter((r) => r.epic && r.source !== "rr").forEach((r) => { EPIC_BY_TITLE[r.title.toLowerCase()] = r.id; });
+  if (EPIC) Object.assign(RULE_BY_TITLE, EPIC_BY_TITLE);
 
   // ---------- icons ----------
   const ICONS = {
@@ -64,7 +92,7 @@
     reversebankleft: ["↙", "maneuver", "reverse left bank"], reversebankright: ["↘", "maneuver", "reverse right bank"],
     hit: ["Hit", "die-hit"], crit: ["Crit", "die-crit"],
     energy: ["Energy", "stat"], charge: ["Charge", "stat"], force: ["Force", "stat"], shield: ["Shield", "stat"],
-    threat: ["Threat", "stat"], objective: ["Objective", "stat"],
+    threat: ["Threat", "stat"], objective: ["Objective", "stat"], objectivemarker: ["Objective", "stat"],
     fullfrontarc: ["Full Front Arc", "arc"], fullreararc: ["Full Rear Arc", "arc"], bullseyearc: ["Bullseye Arc", "arc"],
     reararc: ["Rear Arc", "arc"], frontarc: ["Front Arc", "arc"], doubleturretarc: ["Double Turret Arc", "arc"],
     singleturretarc: ["Turret Arc", "arc"], leftarc: ["Left Arc", "arc"], rightarc: ["Right Arc", "arc"],
@@ -167,6 +195,7 @@
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
     const s = SOURCES[item.source];
     if (!s) return "";
+    if (!s.url && s.epic) return esc(sourceLabel(item));
     return docLink(sourceLabel(item), s.url ? `${s.url}#page=${item.page}` : null);
   }
 
@@ -278,6 +307,7 @@
     return `<article class="ruling${forum ? " forum" : ""}${dep ? " deprecated" : ""}${r.playtest ? " playtest" : ""}" id="${esc(r.id)}">
       ${dep ? outdatedBanner(r, dep) : ""}
       ${r.playtest ? `<p class="kicker"><span class="pt-tag">Playtest</span> Playtest ruling · subject to change</p>` : ""}
+      ${r.epic ? `<p class="kicker">${epicTag(r)}</p>` : ""}
       ${forum ? `<p class="kicker">Rules team answer · ${esc(r.topic)}</p>` : ""}
       <div class="q">${forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`).join("")
                              : fmt(r.q, { cards: r.cards, self: opts.self, hl: opts.hl })}</div>
@@ -297,6 +327,7 @@
     const names = e.names.length ? e.names.map((n) => n.replace(/^•+/, "")).join(", ") : e.category;
     const cards = (e.cards || []).filter((id) => id !== opts.self);
     return `<article class="erratum" id="${esc(e.id)}">
+      ${e.epic ? `<p class="kicker">${epicTag(e)}</p>` : ""}
       ${opts.noTitle ? "" : `<h3>${esc(names)}${e.qualifier ? ` <span class="muted">(${esc(e.qualifier)})</span>` : ""}</h3>`}
       ${e.text.map((t) => `<p class="newtext">${fmt(t, { hl: opts.hl })}</p>`).join("")}
       ${e.note ? `<p class="note">${fmt(e.note)}</p>` : ""}
@@ -536,7 +567,9 @@
       s.items.push(r);
     });
     const glossary = sections.find((s) => s.name === "Glossary");
-    const others = sections.filter((s) => s !== glossary);
+    const isEpic = (s) => s.items.some((r) => r.epic);
+    const others = sections.filter((s) => s !== glossary).sort((a, b) => isEpic(b) - isEpic(a));
+    const secLabel = (s) => (s.source === "rb" ? " (Rulebook)" : isEpic(s) ? " (Epic)" : "");
     const letters = {};
     [...glossary.items].sort((a, b) => a.title.localeCompare(b.title)).forEach((r) => {
       const L = r.title[0].toUpperCase();
@@ -544,14 +577,14 @@
     });
     return `
       <div class="page-head"><div><h1>Rules</h1>
-        <p class="muted">The Rules Reference glossary, appendices, and the Rulebook.</p></div></div>
-      <div class="toc">${others.map((s, i) => `<a class="chip" href="#/rules" data-jump="sec-${i}">${esc(s.name)}${s.source === "rb" ? " (Rulebook)" : ""}</a>`).join("")}</div>
+        <p class="muted">The Rules Reference glossary, appendices, and the Rulebook${EPIC ? ", plus the Epic rules" : ""}.</p></div></div>
+      <div class="toc">${others.map((s, i) => `<a class="chip" href="#/rules" data-jump="sec-${i}">${esc(s.name)}${secLabel(s)}</a>`).join("")}</div>
       <section class="panel">
         <h2>Glossary</h2>
         <div class="letters">${Object.keys(letters).map((L) => `<a href="#/rules" data-jump="L-${L}">${L}</a>`).join("")}</div>
         <div class="az">${Object.entries(letters).map(([L, rs]) => `<h3 id="L-${L}">${L}</h3>${rs.map((r) => `<a href="#/rule/${r.id}">${esc(r.title)}</a>`).join("")}`).join("")}</div>
       </section>
-      ${others.map((s, i) => `<h2 class="section-title" id="sec-${i}">${esc(s.name)}${s.source === "rb" ? " <span class='muted'>· Rulebook</span>" : ""}</h2>
+      ${others.map((s, i) => `<h2 class="section-title" id="sec-${i}">${esc(s.name)}${s.source === "rb" ? " <span class='muted'>· Rulebook</span>" : ""} ${s.items.some((r) => r.epic) ? epicTag({ epic: true }) : ""}</h2>
         <div class="az">${s.items.map((r) => `<a href="#/rule/${r.id}">${esc(r.title)}</a>`).join("")}</div>`).join("")}`;
   }
 
@@ -580,8 +613,17 @@
     return DB.rulings.filter((r) => re.test(r.topic) || re.test(plainIcons(r.q))).slice(0, 12);
   }
 
+  function viewEpicOnly() {
+    setTitle("Epic play");
+    return `<section class="panel epic-only"><p>${epicTag({ epic: true })}</p>
+      <h1>This is an Epic rule</h1>
+      <p>It only applies to Epic play, so it's hidden while the Archives shows Standard rules.</p>
+      <p><button type="button" class="quiz-next" data-mode="epic">Switch to Epic</button></p></section>`;
+  }
+
   function viewRule(id) {
     const r = RULES[id];
+    if (!r && EPIC_TOGGLE && EPIC_IDS.has(id)) return viewEpicOnly();
     if (!r) return viewNotFound(id.replace(/-/g, " "));
     setTitle(r.title);
     const related = relatedRulings(r);
@@ -589,8 +631,10 @@
     const prev = DB.rules[idx - 1], next = DB.rules[idx + 1];
     return `
       <div class="crumbs"><a href="#/rules">Rules</a> › ${esc(r.section)}</div>
+      ${EPIC && !r.epic && EPIC_BY_TITLE[r.title.toLowerCase()] ? `<div class="epic-note" role="note">${epicTag({ epic: true })}
+        <span>Epic play has its own <a href="#/rule/${EPIC_BY_TITLE[r.title.toLowerCase()]}">${esc(r.title)}</a> rule. In an Epic game, it adds to or replaces this one.</span></div>` : ""}
       <div class="page-head"><div>
-        <h1>${esc(r.title)} ${r.icons.map((i) => iconHtml(i.slice(1, -1))).join(" ")}</h1>
+        <h1>${esc(r.title)} ${r.icons.map((i) => iconHtml(i.slice(1, -1))).join(" ")} ${epicTag(r)}</h1>
         <p class="muted">${refFor(r.id + "#0") ? `${refLink(refFor(r.id + "#0").split(".")[0])} in the Compendium · ` : ""}${sourceLink(r)} · ${copyButton("#/rule/" + r.id)} · ${reportLink(`Rule: ${r.title} (${sourceLabel(r)})`, "#/rule/" + r.id)}</p></div></div>
       <article class="panel rule-body">${r.blocks.map((b) => blockHtml(b)).join("")}</article>
       ${related.length ? `<h2 class="section-title">Related rulings</h2>${related.map((x) => rulingHtml(x)).join("")}` : ""}
@@ -622,6 +666,7 @@
 
   function viewRuling(id) {
     const r = RULINGS[id];
+    if (!r && EPIC_TOGGLE && EPIC_IDS.has(id)) return viewEpicOnly();
     if (!r) return viewNotFound(id);
     setTitle("Ruling: " + plainIcons(r.q).slice(0, 60));
     return `<div class="crumbs"><a href="#/faq">FAQ</a> › ${esc(r.topic)}</div>${rulingHtml(r)}`;
@@ -770,7 +815,7 @@
       <div class="page-head"><div><h1>Compendium</h1>
         <p class="muted">The Rules Reference, FAQ, XWA rules-team answers and errata in one document, grouped by topic.
         Every paragraph has a reference number, so it can be cited exactly: <b>§22.4</b> is section 22, paragraph 4.
-        Text is reproduced word for word from the sources.</p></div></div>
+        Text is reproduced word for word from the sources.${EPIC ? " It covers Standard play only; Epic rules are under Rules and FAQ." : ""}</p></div></div>
       <div class="filters">
         <form id="goto-form" class="goto"><label for="goto">Go to §</label>
           <input id="goto" class="filter-input" inputmode="decimal" placeholder="e.g. 22.4" autocomplete="off"></form>
@@ -810,7 +855,7 @@
   function quizPool() {
     return DB.rulings.filter((r) => {
       const a = (r.a[0] || "").trim();
-      return !r.playtest && !(DB.meta.quizSkip || []).includes(r.id) && /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
+      return !r.playtest && !r.epic && !(DB.meta.quizSkip || []).includes(r.id) && /^(Yes|No)\b/i.test(a) && !outdated(r) && (r.q.match(/\?/g) || []).length === 1 && r.q.length <= 420;
     }).map((r) => ({ r, answer: /^yes/i.test(r.a[0].trim()) ? "Yes" : "No" }));
   }
 
@@ -1214,7 +1259,8 @@
 
   const renderFooter = () => {
     document.getElementById("footer-sources").innerHTML = "Sources: "
-      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => docLink(`${s.title} v${s.version}`, s.url)).join(" · ")
+      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => (!s.url && s.epic ? esc(`${s.title} v${s.version}`)
+        : docLink(`${s.title} v${s.version}`, s.url))).join(" · ")
       + (DB.meta.cardData ? ` · Card data from <a href="https://yasb.app" target="_blank" rel="noopener">YASB</a>` : "")
       + (DB.meta.reportForm ? `<br>${reportLink("General feedback (from the page footer)")}` : "");
   };
@@ -1234,6 +1280,24 @@
       `<div class="staging-banner" role="note">STAGING — test version of The Archives. Changes here may not be final.
        <a href="https://xwingarchives.com/${location.hash}">Go to the live site</a>
        <a href="?playtest${location.hash}">Preview the playtest site</a></div>`);
+  }
+
+  if (EPIC_TOGGLE) {
+    document.getElementById("theme-toggle").insertAdjacentHTML("beforebegin",
+      `<div class="mode-toggle" role="group" aria-label="Game mode">
+        <button type="button" data-mode="standard" aria-pressed="${!EPIC}">Standard</button>
+        <button type="button" data-mode="epic" aria-pressed="${EPIC}">Epic</button></div>`);
+    document.addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-mode]");
+      if (b && (b.dataset.mode === "epic") !== EPIC) setMode(b.dataset.mode === "epic");
+    });
+  }
+  if (EPIC) {
+    document.body.classList.add("mode-epic");
+    document.querySelector(".topbar").insertAdjacentHTML("afterend",
+      `<div class="epic-bar" role="note"><span class="epic-tag">Epic play</span>
+        Showing Epic rules and huge-ship rulings. Where the Epic rules differ, they take precedence.
+        <button type="button" data-mode="standard">Switch to Standard</button></div>`);
   }
 
   window.addEventListener("hashchange", route);

@@ -28,6 +28,7 @@ ICON_OFFSETS = {
     # charges & stats
     0x06A: "energy", 0x22E: "charge", 0x22F: "force", 0x408: "shield",
     0x409: "threat", 0x406: "objective",
+    0x405: "command", 0x407: "objectivemarker",   # Epic rules: command symbol, objective marker
     # arcs
     0x227: "fullfrontarc", 0x228: "fullreararc", 0x229: "bullseyearc",
     0x22A: "reararc", 0x22B: "frontarc", 0x22C: "doubleturretarc",

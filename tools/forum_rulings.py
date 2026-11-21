@@ -22,7 +22,7 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower().replace("é", "e"))
 
 
-def to_rulings(cards_by_id, skip_extra=()):
+def to_rulings(cards_by_id, skip_extra=(), epic_threads=()):
     if not THREADS.exists():
         return [], None
     data = json.loads(THREADS.read_text(encoding="utf-8"))
@@ -111,6 +111,7 @@ def to_rulings(cards_by_id, skip_extra=()):
         lead = answers[0]
         rulings.append({
             "id": f"forum-{t['id']}", "source": "forum", "section": "XWA Rules Forum",
+            **({"epic": True} if str(t["id"]) in {str(x) for x in epic_threads} else {}),
             "topic": t["title"], "url": t["url"],
             "q": question["text"], "a": [ln for p in answers for ln in p["text"].split("\n") if ln.strip()],
             "answeredBy": [{"name": p["author"], "role": "XWA Rules Lead" if p["author"] == RULES_LEAD else "XWA Rules Team",

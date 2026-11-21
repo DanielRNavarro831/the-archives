@@ -434,6 +434,24 @@ figure.rfig figcaption { font-size: .86rem; color: var(--muted); font-style: ita
 .ruling.playtest { border-left-color: #1e7d45; }
 .ruling.playtest .kicker { display: flex; gap: 8px; align-items: center; }
 
+/* ---------------- Standard / Epic mode ---------------- */
+.mode-toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; gap: 2px; }
+.mode-toggle button { background: none; border: 0; color: var(--muted); font: inherit; font-size: .85rem; font-weight: 600;
+  padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.mode-toggle button[aria-pressed="true"] { background: var(--panel-2); color: var(--text); }
+.mode-epic .mode-toggle button[aria-pressed="true"] { background: #6d3fc4; color: #fff; }
+.epic-tag { background: #6d3fc4; color: #fff; font-family: var(--font-head); font-size: .7rem; letter-spacing: .08em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 6px; white-space: nowrap; vertical-align: middle; }
+h1 .epic-tag, h2 .epic-tag { font-size: .62rem; }
+.epic-bar { background: color-mix(in srgb, #6d3fc4 18%, var(--bg)); border-bottom: 1px solid #6d3fc4; color: var(--text);
+  font-size: .9rem; padding: 8px 16px; text-align: center; }
+.epic-bar button { background: none; border: 0; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; margin-left: 6px; }
+.mode-epic .topbar { border-bottom-color: #6d3fc4; }
+.epic-note { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: .92rem; margin: 0 0 14px;
+  background: color-mix(in srgb, #6d3fc4 14%, var(--panel)); border: 1px solid #6d3fc4; border-radius: var(--radius); padding: 10px 16px; }
+.ruling .kicker .epic-tag, .erratum .kicker .epic-tag { margin-right: 6px; }
+.epic-only { max-width: 560px; margin: 30px auto; text-align: center; }
+
 /* ---------------- Judge Quiz (staging) ---------------- */
 .quiz-progress { display: flex; gap: 5px; margin: 4px 0 8px; }
 .quiz-progress span { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }

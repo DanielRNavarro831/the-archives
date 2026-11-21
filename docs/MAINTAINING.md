@@ -167,10 +167,22 @@ or type §22.4 in the search box) and read the actual text yourself.
   at that page, using each document's `url`. The PDFs are not hosted here. When the XWA
   publishes a new version, update that document's `version` and `url` (the new file's address
   on https://www.xwing.life/rules) along with the local copy used for extraction.
-- `"hideEpic": true` hides huge-ship / Epic content until the new Epic document is ready:
-  the Rules Reference's Appendix: Huge Ships and Huge Ship FAQ, forum thread 66, and the
-  Stalwart Captain and CR90 dial errata (listed under `"epic"`). Set it to `false` and run
-  `python tools/build_data.py` to show them again. The About page explains the gap while hidden.
+- **Standard / Epic mode.** Epic content is kept in the data but flagged "epic", and only shows
+  in **Epic mode**. It covers documents marked `"epic": true` (the Epic Battles Rules Reference),
+  plus the Rules Reference's Appendix: Huge Ships and Huge Ship FAQ, forum thread 66, and the
+  Stalwart Captain and CR90 dial errata (listed under `"epic"`).
+  - `"epicToggle"` decides where the **Standard | Epic** switch appears in the header:
+    `"staging"` (staging only), `"live"` (both sites) or `null` (nowhere). Without the
+    switch, the site is Standard only. Each visitor's choice is remembered in their browser.
+  - In Epic mode, a purple bar says so, everything Epic gets a purple **Epic** tag, and
+    Standard rules that the Epic rules also define (e.g. Setup) point to the Epic version.
+    "See X" links go to the Epic rule. The Compendium and Judge Quiz stay Standard only.
+  - An Epic link opened in Standard mode shows a "This is an Epic rule" page with a switch button.
+  - `"hideEpic": true` keeps the About page's note that Epic content is not shown yet.
+  - **Updating the Epic rules:** add the new PDF like any document (see below), with
+    `"epic": true` and its `sections`. A section can start partway through a page with
+    `"startText"` (the first words of its first paragraph), e.g. the Epic FAQ and Event Guidance
+    share page 8. Epic rules get addresses like `#/rule/epic-wings`.
 
 ## Usage statistics (GoatCounter)
 

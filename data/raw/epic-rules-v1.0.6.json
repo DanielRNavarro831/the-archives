@@ -1,0 +1,2039 @@
+[
+ {
+  "kind": "p",
+  "text": "This reference expands upon the Star Wars: X-Wing Rules Reference, giving players access to all information specific to the Epic game mode. The Epic game mode introduces scenarios, multiplayer rules, and wings of ships that fly together. Unlike the Epic Battles rulebook, this reference addresses complex and unusual gameplay situations.",
+  "page": 2,
+  "col": 0,
+  "y": 53.5
+ },
+ {
+  "kind": "p",
+  "text": "The main component of this guide is a glossary of important game terms, organized alphabetically.",
+  "page": 2,
+  "col": 0,
+  "y": 112.0
+ },
+ {
+  "kind": "p",
+  "text": "This section contains important game terms for the Epic game mode, organized alphabetically.",
+  "page": 2,
+  "col": 0,
+  "y": 165.5
+ },
+ {
+  "kind": "h2",
+  "text": "ALLIED",
+  "page": 2,
+  "col": 0,
+  "y": 192.2
+ },
+ {
+  "kind": "p",
+  "text": "Allied ships are ships controlled by another player on the same team. The following applies to allied ships:",
+  "page": 2,
+  "col": 0,
+  "y": 206.3
+ },
+ {
+  "kind": "p",
+  "text": "• Allied ships are not treated as friendly ships.",
+  "page": 2,
+  "col": 0,
+  "y": 234.2
+ },
+ {
+  "kind": "p",
+  "text": "• Allied ships are not treated as enemy ships.",
+  "page": 2,
+  "col": 0,
+  "y": 252.4
+ },
+ {
+  "kind": "h2",
+  "text": "CASUALTIES",
+  "page": 2,
+  "col": 0,
+  "y": 269.7
+ },
+ {
+  "kind": "p",
+  "text": "A player’s casualties are the total the squad points value (or {threat}) of each friendly ship that was destroyed or fled, plus half the squad points value (or {threat}), rounded up, of each friendly ship at half health.",
+  "page": 2,
+  "col": 0,
+  "y": 282.7
+ },
+ {
+  "kind": "p",
+  "text": "Casualties are used for scoring in some scenarios (see Victory Counters).",
+  "page": 2,
+  "col": 0,
+  "y": 321.8
+ },
+ {
+  "kind": "h2",
+  "text": "COMMAND UPGRADES ({command})",
+  "page": 2,
+  "col": 0,
+  "y": 337.0
+ },
+ {
+  "kind": "p",
+  "text": "Command ({command}) upgrades are upgrades that represent strategic capacities reserved for more involved battles. These upgrades function like any other type of upgrade.",
+  "page": 2,
+  "col": 0,
+  "y": 351.4
+ },
+ {
+  "kind": "p",
+  "text": "In Epic games, each standard ship has one {command} upgrade slot in its upgrade bar in addition to its usual upgrade slots. Huge ships already have {command} upgrade slots in their upgrade bars.",
+  "page": 2,
+  "col": 0,
+  "y": 389.2
+ },
+ {
+  "kind": "h2",
+  "text": "DEPLOYMENT AREA",
+  "page": 2,
+  "col": 0,
+  "y": 427.3
+ },
+ {
+  "kind": "p",
+  "text": "A deployment area is the area in which a player places their ships during setup. Different scenarios have different deployment areas, defined within those individual scenarios. See Scenarios.",
+  "page": 2,
+  "col": 0,
+  "y": 441.5
+ },
+ {
+  "kind": "h2",
+  "text": "ESCAPE",
+  "page": 2,
+  "col": 0,
+  "y": 478.6
+ },
+ {
+  "kind": "p",
+  "text": "Escape is a way for an object to safely leave the play area. Some scenarios call for an object to escape. When a ship or remote is instructed to escape, remove it from the table. It does not count as being destroyed or fleeing for the purposes of effects or scoring.",
+  "page": 2,
+  "col": 0,
+  "y": 492.7
+ },
+ {
+  "kind": "h2",
+  "text": "FREE-FOR-ALL",
+  "page": 2,
+  "col": 0,
+  "y": 540.0
+ },
+ {
+  "kind": "p",
+  "text": "A Free-for-All scenario is a game for three or more players, each on their own team.",
+  "page": 2,
+  "col": 0,
+  "y": 554.1
+ },
+ {
+  "kind": "h2",
+  "text": "FORMATION",
+  "page": 2,
+  "col": 0,
+  "y": 581.1
+ },
+ {
+  "kind": "p",
+  "text": "A formation is the organization for a wing, which specifies the organization of the wing and each ship’s wing position. See Wings.",
+  "page": 2,
+  "col": 0,
+  "y": 595.4
+ },
+ {
+  "kind": "h2",
+  "text": "FULL HEALTH",
+  "page": 2,
+  "col": 0,
+  "y": 622.1
+ },
+ {
+  "kind": "p",
+  "text": "See Health Value.",
+  "page": 2,
+  "col": 0,
+  "y": 636.5
+ },
+ {
+  "kind": "h2",
+  "text": "HALF HEALTH",
+  "page": 2,
+  "col": 0,
+  "y": 652.9
+ },
+ {
+  "kind": "p",
+  "text": "See Health Value.",
+  "page": 2,
+  "col": 0,
+  "y": 667.3
+ },
+ {
+  "kind": "h2",
+  "text": "HEAD-TO-HEAD",
+  "page": 2,
+  "col": 0,
+  "y": 683.8
+ },
+ {
+  "kind": "p",
+  "text": "A Head-to-Head scenario is a scenario for two players that functions much like a standard game of X-Wing, with any alterations dictated by the specific scenario.",
+  "page": 2,
+  "col": 0,
+  "y": 697.9
+ },
+ {
+  "kind": "h2",
+  "text": "HEALTH VALUE",
+  "page": 2,
+  "col": 1,
+  "y": 33.4
+ },
+ {
+  "kind": "p",
+  "text": "For scoring purposes, each ship has a health value, which is equal to its hull value plus its shield value. The two types of health value status used by scenarios are:",
+  "page": 2,
+  "col": 1,
+  "y": 47.5
+ },
+ {
+  "kind": "p",
+  "text": "• If a ship has no lost {shield} and has no damage cards, it is at full health.",
+  "page": 2,
+  "col": 1,
+  "y": 84.3
+ },
+ {
+  "kind": "p",
+  "text": "• If a ship’s lost health (combined lost {shield} and damage cards) is greater than or equal to half its health value, rounded up, it is at half health (e.g. a ship with 2 shields and 3 hull is at half health when it has lost 3 hull/shields).",
+  "page": 2,
+  "col": 1,
+  "y": 102.5
+ },
+ {
+  "kind": "h2",
+  "text": "JOINING A WING",
+  "page": 2,
+  "col": 1,
+  "y": 151.6
+ },
+ {
+  "kind": "p",
+  "text": "See Splitting from a Wing.",
+  "page": 2,
+  "col": 1,
+  "y": 166.0
+ },
+ {
+  "kind": "h2",
+  "text": "MARKERS",
+  "page": 2,
+  "col": 1,
+  "y": 182.5
+ },
+ {
+  "kind": "p",
+  "text": "See Objectives ({objectivemarker}).",
+  "page": 2,
+  "col": 1,
+  "y": 195.6
+ },
+ {
+  "kind": "h2",
+  "text": "MULTIPLAYER GAMES",
+  "page": 2,
+  "col": 1,
+  "y": 213.3
+ },
+ {
+  "kind": "p",
+  "text": "Many scenarios accommodate three or more players, allowing players to play multiplayer games. Two common types of multiplayer scenarios are Free-for-All scenarios and Team Battle scenarios.",
+  "page": 2,
+  "col": 1,
+  "y": 227.7
+ },
+ {
+  "kind": "p",
+  "text": "Multiplayer games follow the default rules for X-Wing, with the following additions and clarifications.",
+  "page": 2,
+  "col": 1,
+  "y": 265.2
+ },
+ {
+  "kind": "h3",
+  "text": "Personal Setup Areas",
+  "page": 2,
+  "col": 1,
+  "y": 293.2
+ },
+ {
+  "kind": "p",
+  "text": "During the Gather Forces step, each player should set up their ship and upgrade cards near their deployment area. Make sure to leave space between each player’s setup area so that it is clear which cards belong to each player.",
+  "page": 2,
+  "col": 1,
+  "y": 306.5
+ },
+ {
+  "kind": "h3",
+  "text": "Team Decisions",
+  "page": 2,
+  "col": 1,
+  "y": 344.4
+ },
+ {
+  "kind": "p",
+  "text": "When a team needs to make a decision collectively, all members should discuss it and find an agreement. If there is a deadlock, the team should decide how to proceed by rolling a die or otherwise choosing arbitrarily.",
+  "page": 2,
+  "col": 1,
+  "y": 357.8
+ },
+ {
+  "kind": "h3",
+  "text": "“Friendly,” “Enemy,” and “Allied” Ships",
+  "page": 2,
+  "col": 1,
+  "y": 395.6
+ },
+ {
+  "kind": "p",
+  "text": "Multiplayer games have three classifications for ships:",
+  "page": 2,
+  "col": 1,
+  "y": 409.0
+ },
+ {
+  "kind": "p",
+  "text": "• Friendly: Ships controlled by the player directly. See the entry in the X-Wing Rules Reference.",
+  "page": 2,
+  "col": 1,
+  "y": 426.1
+ },
+ {
+  "kind": "p",
+  "text": "• Enemy: Ships controlled by a player’s opponent. See the entry in the X-Wing Rules Reference.",
+  "page": 2,
+  "col": 1,
+  "y": 454.5
+ },
+ {
+  "kind": "p",
+  "text": "• Allied: Ships controlled by another player on the same team as the player, which are considered neither “friendly ships” nor “enemy ships.” See Allied.",
+  "page": 2,
+  "col": 1,
+  "y": 482.9
+ },
+ {
+  "kind": "h2",
+  "text": "OBJECTIVES ({objectivemarker})",
+  "page": 2,
+  "col": 1,
+  "y": 519.5
+ },
+ {
+  "kind": "p",
+  "text": "Objectives are components that are used in many scenarios. An objective can be used in the following ways:",
+  "page": 2,
+  "col": 1,
+  "y": 535.0
+ },
+ {
+  "kind": "p",
+  "text": "Red side",
+  "page": 2,
+  "col": 1,
+  "y": 526.6
+ },
+ {
+  "kind": "h3",
+  "text": "Markers",
+  "page": 2,
+  "col": 1,
+  "y": 573.1
+ },
+ {
+  "kind": "p",
+  "text": "As a marker that denotes a specific location in the play area or a feature of interest aboard a ship. Additionally:",
+  "page": 2,
+  "col": 1,
+  "y": 586.5
+ },
+ {
+  "kind": "p",
+  "text": "Blue side",
+  "page": 2,
+  "col": 1,
+  "y": 622.0
+ },
+ {
+  "kind": "p",
+  "text": "• A marker is not an object.",
+  "page": 2,
+  "col": 1,
+  "y": 624.3
+ },
+ {
+  "kind": "p",
+  "text": "• Some scenarios use victory counters ({objective}) as markers instead using objectives.",
+  "page": 2,
+  "col": 1,
+  "y": 641.2
+ },
+ {
+  "kind": "p",
+  "text": "• If a scenario instructs a player to place a marker on a ship “after placing forces,” the player must choose a ship in the play area and in their deployment area unless the scenarios specifically instructs the player to choose a ship in reserve or outside their deployment area.",
+  "page": 2,
+  "col": 1,
+  "y": 670.9
+ },
+ {
+  "kind": "h3",
+  "text": "Scenario Remotes",
+  "page": 3,
+  "col": 0,
+  "y": 33.6
+ },
+ {
+  "kind": "p",
+  "text": "As a scenario remote that represents a remote (see the X-Wing Rules Reference) specific to the scenario being played. While other remotes in X-Wing have individualized cardboard components, scenario remotes always use the objective component ({objectivemarker}). Additionally:",
+  "page": 3,
+  "col": 0,
+  "y": 46.8
+ },
+ {
+  "kind": "p",
+  "text": "• If a scenario instructs a specific player to place a remote, that player is its controlling player. Otherwise, it has no controlling player.",
+  "page": 3,
+  "col": 0,
+  "y": 95.0
+ },
+ {
+  "kind": "p",
+  "text": "• If a scenario introduces one or more remotes, it lists which remote cards are used and which player controls them in the Setup section.",
+  "page": 3,
+  "col": 0,
+  "y": 123.4
+ },
+ {
+  "kind": "h2",
+  "text": "“PLAYER EDGE” EFFECTS",
+  "page": 3,
+  "col": 0,
+  "y": 150.9
+ },
+ {
+  "kind": "p",
+  "text": "If an effect refers to a player’s “player edge” (e.g. Tel Trevura), the player may treat any portion of an edge of the play area that is in their deployment area as their player edge for this effect. Additionally:",
+  "page": 3,
+  "col": 0,
+  "y": 165.3
+ },
+ {
+  "kind": "p",
+  "text": "• If there are no edges of the play area in that player’s deployment area, that player may choose any edge of their deployment area and treat it as their player edge for this effect.",
+  "page": 3,
+  "col": 0,
+  "y": 203.1
+ },
+ {
+  "kind": "p",
+  "text": "• If a player has no deployment area, that player may choose any edge of the play area and treat it as their player edge for this effect.",
+  "page": 3,
+  "col": 0,
+  "y": 241.7
+ },
+ {
+  "kind": "h2",
+  "text": "PLAYER ORDER",
+  "page": 3,
+  "col": 0,
+  "y": 269.1
+ },
+ {
+  "kind": "p",
+  "text": "Player order is determined during setup, based on the scenario type.",
+  "page": 3,
+  "col": 0,
+  "y": 283.5
+ },
+ {
+  "kind": "h3",
+  "text": "Head-to-Head",
+  "page": 3,
+  "col": 0,
+  "y": 301.0
+ },
+ {
+  "kind": "p",
+  "text": "To determine player order, one player rolls an attack die and the other player calls “blank and {focus} results” or “{hit} and {crit} results.” The winning player chooses whether to be first player or second player.",
+  "page": 3,
+  "col": 0,
+  "y": 314.3
+ },
+ {
+  "kind": "p",
+  "text": "The first and second player function as in a standard game of X-Wing, with any alterations described within the individual scenario.",
+  "page": 3,
+  "col": 0,
+  "y": 351.9
+ },
+ {
+  "kind": "h3",
+  "text": "Free-for-All",
+  "page": 3,
+  "col": 0,
+  "y": 379.8
+ },
+ {
+  "kind": "p",
+  "text": "To determine player order, each player is assigned a player number arbitrarily. To do this quickly, take numbered ship ID tokens with numbers corresponding to the number of players (e.g. if there are four players, use ID tokens #1, #2, #3, and #4). Randomize them in a cup or hand, then give one to each player at random. Then, players should arrange themselves around the table by their number as the scenario setup diagram dictates.",
+  "page": 3,
+  "col": 0,
+  "y": 393.2
+ },
+ {
+  "kind": "p",
+  "text": "Additionally, in Free-for-All scenarios, effects are resolved in descending player order.",
+  "page": 3,
+  "col": 0,
+  "y": 461.6
+ },
+ {
+  "kind": "h3",
+  "text": "Team Battle",
+  "page": 3,
+  "col": 0,
+  "y": 489.2
+ },
+ {
+  "kind": "p",
+  "text": "To determine player order, each team elects one member to roll off in the same manner as players in a Head-to-Head game, and the team that wins the roll chooses whether to be first or second team. If the scenario has roles, the first team is the attacking team and the second team is the defending team.",
+  "page": 3,
+  "col": 0,
+  "y": 502.6
+ },
+ {
+  "kind": "p",
+  "text": "First team and second team function in the same manner as first player and second player in a standard game of X-Wing, with any alterations described within the individual scenario.",
+  "page": 3,
+  "col": 0,
+  "y": 550.6
+ },
+ {
+  "kind": "h2",
+  "text": "RESTORE",
+  "page": 3,
+  "col": 0,
+  "y": 587.5
+ },
+ {
+  "kind": "p",
+  "text": "When an effect restores a ship or remote, reset that ship or remote as if it was being placed at the start of the game. This includes:",
+  "page": 3,
+  "col": 0,
+  "y": 601.9
+ },
+ {
+  "kind": "p",
+  "text": "• Place it into the play area as instructed.",
+  "page": 3,
+  "col": 0,
+  "y": 629.5
+ },
+ {
+  "kind": "p",
+  "text": "• Remove all damage cards, tokens, markers, and conditions from it.",
+  "page": 3,
+  "col": 0,
+  "y": 647.7
+ },
+ {
+  "kind": "p",
+  "text": "• Reset its charges ({charge}, {force}, {energy}, and {shield}) to their starting values.",
+  "page": 3,
+  "col": 0,
+  "y": 664.6
+ },
+ {
+  "kind": "p",
+  "text": "• Resolve any “Setup:” effects on its ship or upgrade cards as if it were being placed at the start of the game.",
+  "page": 3,
+  "col": 0,
+  "y": 683.7
+ },
+ {
+  "kind": "h2",
+  "text": "SETUP",
+  "page": 3,
+  "col": 0,
+  "y": 711.5
+ },
+ {
+  "kind": "p",
+  "text": "See Scenarios.",
+  "page": 3,
+  "col": 0,
+  "y": 725.9
+ },
+ {
+  "kind": "h2",
+  "text": "SCENARIOS",
+  "page": 3,
+  "col": 1,
+  "y": 33.4
+ },
+ {
+  "kind": "p",
+  "text": "A scenario provides new objectives and effects that alter how the game is played. Each scenario has its own unique rules that determine how the game is set up, played, and won.",
+  "page": 3,
+  "col": 1,
+  "y": 47.8
+ },
+ {
+  "kind": "h3",
+  "text": "Scenario Selection",
+  "page": 3,
+  "col": 1,
+  "y": 85.6
+ },
+ {
+  "kind": "p",
+  "text": "When playing the Epic game mode, the first step is to choose a scenario. See Appendix: Scenario List for a list of scenarios and their locations.",
+  "page": 3,
+  "col": 1,
+  "y": 99.0
+ },
+ {
+  "kind": "h3",
+  "text": "Scenario Setup",
+  "page": 3,
+  "col": 1,
+  "y": 126.7
+ },
+ {
+  "kind": "p",
+  "text": "After selecting a scenario, players build squads using the Squadron Limits described within the scenario. When setting up a scenario, players follow the instructions for a normal game of X-Wing, with the following alterations:",
+  "page": 3,
+  "col": 1,
+  "y": 140.0
+ },
+ {
+  "kind": "p",
+  "text": "1. Determine Player Order: One player is selected to choose player order in a manner based on the scenario type (see Player Order). After player order is established, give the first player token to the first player. Depending on the scenario, players should consider arranging themselves around the table in player order for convenience.",
+  "page": 3,
+  "col": 1,
+  "y": 177.5
+ },
+ {
+  "kind": "p",
+  "text": "2. Establish Play Area: Consulting the setup diagram for the selected scenario, establish a play area on a flat surface. Each scenario specifies the size of the play area (generally a 3’ x 3’ [91cm x 91cm] or a 6’ x 3’ [182cm x 91cm] space).",
+  "page": 3,
+  "col": 1,
+  "y": 235.7
+ },
+ {
+  "kind": "p",
+  "text": "Then each side marks its deployment area using position markers from the core set to create corners as the scenario’s setup diagram indicates. The first player’s deployment area is red, and the second player’s is blue. Additional colors are used if the scenario recommends 3 or more players. Each square on the grid is a range 1 x range 1 area. The range for each line that forms a deployment area is indicated in a circle that is attached to that line.",
+  "page": 3,
+  "col": 1,
+  "y": 284.0
+ },
+ {
+  "kind": "p",
+  "text": "Then place any hyperspace points as instructed by the scenario, if applicable.",
+  "page": 3,
+  "col": 1,
+  "y": 352.4
+ },
+ {
+  "kind": "p",
+  "text": "3. Gather Forces: Each player gathers the ship, upgrade, and other cards that compose their squadron and places them on the table near their deployment area. Each player should place their ship and upgrade cards together, so that ownership is clear.",
+  "page": 3,
+  "col": 1,
+  "y": 369.5
+ },
+ {
+  "kind": "p",
+  "text": "4. Place Obstacles, Markers, and Remotes: Starting with the first player, players take turns choosing an obstacle from among those listed in the Obstacles section of the scenario and placing it in the play area until all have been placed. Unless otherwise noted, obstacles must be placed within the play area outside of any deployment area and beyond range 1 of any other obstacle.",
+  "page": 3,
+  "col": 1,
+  "y": 417.5
+ },
+ {
+  "kind": "p",
+  "text": "Then players follow any instructions described under the “Place Remotes and Markers” header that are not prefaced with another specific timing, such as “after placing forces.”",
+  "page": 3,
+  "col": 1,
+  "y": 485.9
+ },
+ {
+  "kind": "p",
+  "text": "Markers and remotes cannot be placed overlapping any object or marker.",
+  "page": 3,
+  "col": 1,
+  "y": 524.0
+ },
+ {
+  "kind": "p",
+  "text": "5. Place Forces: Each player places their ships within their deployment area unless otherwise instructed. While planning out placement and moves for the game, take note of any listed special areas that affect the scenario.",
+  "page": 3,
+  "col": 1,
+  "y": 541.1
+ },
+ {
+  "kind": "p",
+  "text": "Then players resolve any instructions under the “Place Remotes and Markers” header that are prefaced with “after placing forces.”",
+  "page": 3,
+  "col": 1,
+  "y": 578.9
+ },
+ {
+  "kind": "p",
+  "text": "6. Prepare Other Components: Place the scenario page outside the play area in view of all players, along with any markers, remotes, and remote cards it requires. Shuffle all damage decks in use. If players have more than one of each damage deck, each player uses their own.",
+  "page": 3,
+  "col": 1,
+  "y": 606.5
+ },
+ {
+  "kind": "p",
+  "text": "In addition to the standard components required to play X-Wing, the supply should include wing tools, objectives ({objectivemarker}), and victory counters ({objective}).",
+  "page": 3,
+  "col": 1,
+  "y": 654.6
+ },
+ {
+  "kind": "h3",
+  "text": "Scenario Rules",
+  "page": 3,
+  "col": 1,
+  "y": 682.5
+ },
+ {
+  "kind": "p",
+  "text": "Each scenario has a number of scenario rules, which are in effect for the scenario. If a rule lists a specific phase in its header, it occurs at the start of that phase unless the entry specifies otherwise. If it does not list a phase, it occurs when its effect dictates.",
+  "page": 3,
+  "col": 1,
+  "y": 695.9
+ },
+ {
+  "kind": "p",
+  "text": "If multiple scenario rules would occur at the same time, they are resolved in the order they are listed in the scenario.",
+  "page": 4,
+  "col": 0,
+  "y": 34.2
+ },
+ {
+  "kind": "h3",
+  "text": "Scenario Scoring",
+  "page": 4,
+  "col": 0,
+  "y": 61.9
+ },
+ {
+  "kind": "p",
+  "text": "Each scenario has its own means of determining a victor, referred to as scoring. Some scenarios award points based on standard scoring, with modifiers awarded for victory counters ({objective}) scored during the game.",
+  "page": 4,
+  "col": 0,
+  "y": 75.3
+ },
+ {
+  "kind": "p",
+  "text": "Other scenarios tabulate points in a specific manner explained in that scenario instead of using standard scoring (such as a direct comparison of players’ {objective}).",
+  "page": 4,
+  "col": 0,
+  "y": 113.1
+ },
+ {
+  "kind": "p",
+  "text": "Standard Scoring (Squad Points) If players are using squad points, standard scoring is determined as follows:",
+  "page": 4,
+  "col": 0,
+  "y": 141.7
+ },
+ {
+  "kind": "p",
+  "text": "• A player’s standard score is determined by totaling the squad points value of each enemy ship that was destroyed or fled, plus half the squad points value of each enemy ship at half health, rounded up.",
+  "page": 4,
+  "col": 0,
+  "y": 171.5
+ },
+ {
+  "kind": "p",
+  "text": "• The player with the higher standard score wins.",
+  "page": 4,
+  "col": 0,
+  "y": 210.1
+ },
+ {
+  "kind": "p",
+  "text": "Standard Scoring (Quick Builds and Threat [{threat}]) If players are using Quick Builds and threat values ({threat}), standard scoring is determined as follows:",
+  "page": 4,
+  "col": 0,
+  "y": 228.3
+ },
+ {
+  "kind": "p",
+  "text": "• A player’s standard score is determined by totaling the {threat} of each enemy Quick Build ship that was destroyed or fled, plus half the {threat} of each enemy Quick Build ship at half health, rounded up.",
+  "page": 4,
+  "col": 0,
+  "y": 268.1
+ },
+ {
+  "kind": "p",
+  "text": "• If a Quick Build contains multiple ships (such as a Wing Quick Build), score it as if it were a single ship. Add the health value of all ships in the Quick Build, and compare that to the total lost health of all ships in the Quick Build. It counts as destroyed if all ships in the wing are destroyed or have fled.",
+  "page": 4,
+  "col": 0,
+  "y": 308.0
+ },
+ {
+  "kind": "p",
+  "text": "• The player with the higher standard score wins.",
+  "page": 4,
+  "col": 0,
+  "y": 356.8
+ },
+ {
+  "kind": "p",
+  "text": "Draws and Tiebreakers If the tiebreaker for a scenario (listed by individual scenario) results in another tie, the game is a draw between the tied players.",
+  "page": 4,
+  "col": 0,
+  "y": 376.0
+ },
+ {
+  "kind": "h2",
+  "text": "SCENARIO REMOTES",
+  "page": 4,
+  "col": 0,
+  "y": 415.1
+ },
+ {
+  "kind": "p",
+  "text": "See Objectives ({objectivemarker}).",
+  "page": 4,
+  "col": 0,
+  "y": 428.2
+ },
+ {
+  "kind": "h2",
+  "text": "SPLITTING FROM A WING",
+  "page": 4,
+  "col": 0,
+  "y": 445.9
+ },
+ {
+  "kind": "p",
+  "text": "Wingmates can split from their wing, which allows them to behave as an independent ship that uses a maneuver dial as normal.",
+  "page": 4,
+  "col": 0,
+  "y": 460.0
+ },
+ {
+  "kind": "p",
+  "text": "A ship’s wing ID is used to indicate if a ship is acting as a wingmate or is flying independently. While a ship is a wingmate, its wing ID is positioned beneath its ship card so the top of the ID card is showing. If the ship has split from its wing, its wing ID is positioned beneath its ship card so the bottom of the ID card is showing.",
+  "page": 4,
+  "col": 0,
+  "y": 487.9
+ },
+ {
+  "kind": "p",
+  "text": "As a ship splits from or joins its wing, players should adjust that ship’s ID card to reflect the ship’s current status within the wing.",
+  "page": 4,
+  "col": 0,
+  "y": 546.1
+ },
+ {
+  "kind": "p",
+  "text": "In Formation Split",
+  "page": 4,
+  "col": 0,
+  "y": 715.8
+ },
+ {
+  "kind": "h3",
+  "text": "Forced Splitting",
+  "page": 4,
+  "col": 1,
+  "y": 33.6
+ },
+ {
+  "kind": "p",
+  "text": "Game effects can cause forced splitting, in which a wingmate must leave its wing. A wingmate must split from its wing after any of the following occur:",
+  "page": 4,
+  "col": 1,
+  "y": 46.8
+ },
+ {
+  "kind": "p",
+  "text": "• The ship cannot be placed into formation during setup.",
+  "page": 4,
+  "col": 1,
+  "y": 74.6
+ },
+ {
+  "kind": "p",
+  "text": "• The ship cannot be placed into formation while moving (see Moving Wingmates).",
+  "page": 4,
+  "col": 1,
+  "y": 92.8
+ },
+ {
+  "kind": "p",
+  "text": "• The ship becomes ionized or tractored.",
+  "page": 4,
+  "col": 1,
+  "y": 121.2
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is stressed and its wing leader executes a red maneuver.",
+  "page": 4,
+  "col": 1,
+  "y": 139.4
+ },
+ {
+  "kind": "p",
+  "text": "• An effect other than a maneuver instructs the ship to move or rotate its base.",
+  "page": 4,
+  "col": 1,
+  "y": 157.6
+ },
+ {
+  "kind": "p",
+  "text": "• The wing leader is removed.",
+  "page": 4,
+  "col": 1,
+  "y": 186.0
+ },
+ {
+  "kind": "p",
+  "text": "• The wing leader becomes ionized or tractored.",
+  "page": 4,
+  "col": 1,
+  "y": 204.2
+ },
+ {
+  "kind": "p",
+  "text": "Due to forced splitting that occurs after the Planning Phase and before the Engagement Phase, it is possible that a ship might not have a maneuver dial assigned to it for the Activation Phase. If a split ship does not have a dial assigned in the Activation Phase, it does not activate as normal. Instead, at the end of the Activation Phase, it must execute a [2 {straight}] maneuver, skip its Perform Action step, and gain one stress token.",
+  "page": 4,
+  "col": 1,
+  "y": 222.4
+ },
+ {
+  "kind": "h3",
+  "text": "Voluntary Splitting",
+  "page": 4,
+  "col": 1,
+  "y": 290.9
+ },
+ {
+  "kind": "p",
+  "text": "At the end of the End Phase, a ship can voluntarily split from its wing. During the next Planning Phase, the ship is assigned a dial that matches its ship type. It functions as a normal ship unless it chooses to join its wing again later (see below).",
+  "page": 4,
+  "col": 1,
+  "y": 304.0
+ },
+ {
+  "kind": "h3",
+  "text": "Joining",
+  "page": 4,
+  "col": 1,
+  "y": 352.3
+ },
+ {
+  "kind": "p",
+  "text": "A ship that has split from its wing can join that wing. When a ship joins a wing, the ship is placed back into formation, in its wing position, and becomes a wingmate again. At the end of the End Phase, a split ship can join its wing if the following conditions are met:",
+  "page": 4,
+  "col": 1,
+  "y": 365.7
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is at range 0–1 of its previous wing leader.",
+  "page": 4,
+  "col": 1,
+  "y": 413.7
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is not stressed, ionized, tractored, or cloaked.",
+  "page": 4,
+  "col": 1,
+  "y": 431.9
+ },
+ {
+  "kind": "p",
+  "text": "• A ship can only join its previous wing, which is indicated by the ID card of that wing’s leader.",
+  "page": 4,
+  "col": 1,
+  "y": 450.1
+ },
+ {
+  "kind": "h2",
+  "text": "TEAM BATTLE",
+  "page": 4,
+  "col": 1,
+  "y": 477.6
+ },
+ {
+  "kind": "p",
+  "text": "Team Battle scenarios are games for two teams of players.",
+  "page": 4,
+  "col": 1,
+  "y": 491.9
+ },
+ {
+  "kind": "h3",
+  "text": "Playing Team Battle Scenarios Head-to-Head",
+  "page": 4,
+  "col": 1,
+  "y": 509.4
+ },
+ {
+  "kind": "p",
+  "text": "A Team Battle scenario can also be played as a Head-to-Head scenario by having one player control all squads on a given team.",
+  "page": 4,
+  "col": 1,
+  "y": 522.8
+ },
+ {
+  "kind": "h3",
+  "text": "Team Squadron Building",
+  "page": 4,
+  "col": 1,
+  "y": 550.4
+ },
+ {
+  "kind": "p",
+  "text": "Some Team Battle scenarios list squadron limits for the entire team. If playing with a team of two or more, divide the squad points (or {threat}) limit by the number of players, rounded down. Each player on the team has that many squad points (or {threat}) as a squadron limit.",
+  "page": 4,
+  "col": 1,
+  "y": 563.8
+ },
+ {
+  "kind": "h2",
+  "text": "VICTORY COUNTERS ({objective})",
+  "page": 4,
+  "col": 1,
+  "y": 609.6
+ },
+ {
+  "kind": "p",
+  "text": "Scenarios have victory counters that are scored for completing goals during play. These are represented in text with the {objective} icon.",
+  "page": 4,
+  "col": 1,
+  "y": 625.1
+ },
+ {
+  "kind": "h3",
+  "text": "Scoring Victory Counters",
+  "page": 4,
+  "col": 1,
+  "y": 663.4
+ },
+ {
+  "kind": "p",
+  "text": "When a ship scores one or more {objective}, its owner takes those counters. That player places them aside near where they have placed their cards, in a clearly denoted location. If more victory counters are needed, these counters can be flipped to the side with three {objective} icons to represent three counters.",
+  "page": 4,
+  "col": 1,
+  "y": 675.6
+ },
+ {
+  "kind": "h3",
+  "text": "Placing Victory Counters",
+  "page": 5,
+  "col": 0,
+  "y": 33.6
+ },
+ {
+  "kind": "p",
+  "text": "Some scenarios place {objective} as markers in the play area or on a specific card to track progress. These {objective} can be scored upon the completion of a goal, as described in the scenario. After {objective} on a card or in the play area are scored, remove them from that location and place them in the location for scored {objective}.",
+  "page": 5,
+  "col": 0,
+  "y": 45.8
+ },
+ {
+  "kind": "h3",
+  "text": "Victory Counters as Markers",
+  "page": 5,
+  "col": 0,
+  "y": 95.5
+ },
+ {
+  "kind": "p",
+  "text": "Some scenarios use {objective} as markers in the same manner as objectives ({objectivemarker}), to denote the presence of something aboard a ship or in the play area. See Objectives ({objectivemarker}).",
+  "page": 5,
+  "col": 0,
+  "y": 107.7
+ },
+ {
+  "kind": "h2",
+  "text": "WINGS",
+  "page": 5,
+  "col": 0,
+  "y": 146.0
+ },
+ {
+  "kind": "p",
+  "text": "A wing is a group of multiple small ships that move together in a formation using a single maneuver dial. Each wing consists of one wing leader and two to five wingmates.",
+  "page": 5,
+  "col": 0,
+  "y": 160.4
+ },
+ {
+  "kind": "p",
+  "text": "The wing leader executes maneuvers normally using a maneuver dial and a movement template, and the wingmates stay in formation with their wing leader by using a wing tool. Each ship in a wing has a specific wing position in the formation assigned by its wing ID card.",
+  "page": 5,
+  "col": 0,
+  "y": 198.2
+ },
+ {
+  "kind": "p",
+  "text": "The wing positions are as follows:",
+  "page": 5,
+  "col": 0,
+  "y": 307.4
+ },
+ {
+  "kind": "p",
+  "text": "• Wing Leader: The wing leader, (designated by an upgrade card).",
+  "page": 5,
+  "col": 0,
+  "y": 324.5
+ },
+ {
+  "kind": "p",
+  "text": "• Left Flank: The wingmate to the left of the wing leader.",
+  "page": 5,
+  "col": 0,
+  "y": 342.7
+ },
+ {
+  "kind": "p",
+  "text": "• Right Flank: The wingmate to the right of the wing leader.",
+  "page": 5,
+  "col": 0,
+  "y": 360.9
+ },
+ {
+  "kind": "p",
+  "text": "• Rear Support: The wingmate directly behind the wing leader.",
+  "page": 5,
+  "col": 0,
+  "y": 379.1
+ },
+ {
+  "kind": "p",
+  "text": "• Left Support: The wingmate directly behind the left flank, to the left of the rear support.",
+  "page": 5,
+  "col": 0,
+  "y": 397.3
+ },
+ {
+  "kind": "p",
+  "text": "• Right Support: The wingmate directly behind the right flank, to the right of the rear support.",
+  "page": 5,
+  "col": 0,
+  "y": 425.7
+ },
+ {
+  "kind": "p",
+  "text": "•",
+  "page": 5,
+  "col": 0,
+  "y": 454.4
+ },
+ {
+  "kind": "h3",
+  "text": "Squad Building",
+  "page": 5,
+  "col": 0,
+  "y": 592.7
+ },
+ {
+  "kind": "p",
+  "text": "A player can select a wing leader and form a wing by equipping specific upgrade cards. These upgrade cards nominate a small ship as a wing leader, contain parameters for choosing that wing leader’s wingmates, and provide the wing with an ability to use during the game.",
+  "page": 5,
+  "col": 0,
+  "y": 606.0
+ },
+ {
+  "kind": "h3",
+  "text": "Placing Wings during Setup",
+  "page": 5,
+  "col": 0,
+  "y": 654.1
+ },
+ {
+  "kind": "p",
+  "text": "During the Place Forces step of setup, the entire wing is placed immediately after the wing leader is placed at their initiative. Ships that are part of a wing cannot be docked or placed in reserve unless a specific scenario dictates it.",
+  "page": 5,
+  "col": 0,
+  "y": 667.5
+ },
+ {
+  "kind": "p",
+  "text": "Each wing must be placed in its wing position according to its wing ID card. Wing leaders are placed first as normal, and then each ship in the wing is placed in ascending order according to its ID number.",
+  "page": 5,
+  "col": 0,
+  "y": 705.3
+ },
+ {
+  "kind": "p",
+  "text": "Any ship that cannot be placed is split from its wing and must be placed within its deployment area. It gains 1 stress token.",
+  "page": 5,
+  "col": 0,
+  "y": 743.1
+ },
+ {
+  "kind": "h3",
+  "text": "Planning Phase",
+  "page": 5,
+  "col": 1,
+  "y": 33.6
+ },
+ {
+  "kind": "p",
+  "text": "During the Planning Phase, only the wing leader is assigned a maneuver dial. The wingmates are not assigned dials, as they follow the wing leader.",
+  "page": 5,
+  "col": 1,
+  "y": 47.0
+ },
+ {
+  "kind": "h3",
+  "text": "System Phase",
+  "page": 5,
+  "col": 1,
+  "y": 74.7
+ },
+ {
+  "kind": "p",
+  "text": "Wing leaders and wingmates behave as normal during the System Phase. If a member of a wing has an effect that triggers in the System Phase, that effect triggers at the ship’s standard initiative.",
+  "page": 5,
+  "col": 1,
+  "y": 88.1
+ },
+ {
+  "kind": "h3",
+  "text": "Activation Phase",
+  "page": 5,
+  "col": 1,
+  "y": 125.9
+ },
+ {
+  "kind": "p",
+  "text": "Wings behave as follows during the Activation Phase.",
+  "page": 5,
+  "col": 1,
+  "y": 139.3
+ },
+ {
+  "kind": "p",
+  "text": "Wing Leader: During the Activation Phase, a wing leader activates as normal according to its initiative value.",
+  "page": 5,
+  "col": 1,
+  "y": 156.4
+ },
+ {
+  "kind": "p",
+  "text": "Wingmates: After a wing leader has activated, each of its wingmates activates in ascending order according to its ID number (left flank, right flank, rear support, left support, and right support). Each wingmate moves (see Moving Wingmates) and resolves its Perform Action step (see Wingmate Actions).",
+  "page": 5,
+  "col": 1,
+  "y": 185.8
+ },
+ {
+  "kind": "p",
+  "text": "The wing leader executes a [2 {bankleft}] maneuver.",
+  "page": 5,
+  "col": 1,
+  "y": 334.8
+ },
+ {
+  "kind": "p",
+  "text": "Place the wing tool and move each other ship in the wing to its position in the formation.",
+  "page": 5,
+  "col": 1,
+  "y": 455.5
+ },
+ {
+  "kind": "p",
+  "text": "Moving the Wing Leader The wing leader moves as normal.",
+  "page": 5,
+  "col": 1,
+  "y": 484.1
+ },
+ {
+  "kind": "p",
+  "text": "Moving Wingmates When a wingmate moves as part of its activation, its player uses a wing tool to place the ship into the same wing position within the formation relative to its wing leader. The following apply to wingmates:",
+  "page": 5,
+  "col": 1,
+  "y": 515.0
+ },
+ {
+  "kind": "p",
+  "text": "• Before it moves, a wingmate is treated as revealing the same dial as the wing leader’s dial.",
+  "page": 5,
+  "col": 1,
+  "y": 565.2
+ },
+ {
+  "kind": "p",
+  "text": "• After it is placed in formation, a wingmate is treated as having fully executed the maneuver on the wing leader’s dial. This includes the speed, color, and bearing of the wing leader’s maneuver.",
+  "page": 5,
+  "col": 1,
+  "y": 593.6
+ },
+ {
+  "kind": "p",
+  "text": "• After a wingmate is placed on an object it can overlap, it is treated as overlapping that object while moving and resolves the effects of that object.",
+  "page": 5,
+  "col": 1,
+  "y": 632.2
+ },
+ {
+  "kind": "p",
+  "text": "• If a wingmate’s revealed maneuver is needed, it uses the wing leader’s revealed maneuver.",
+  "page": 5,
+  "col": 1,
+  "y": 670.8
+ },
+ {
+  "kind": "p",
+  "text": "• If a wingmate cannot be placed in formation because it would overlap another ship, or because it would leave the play area, the wingmate splits from the wing (see Forced Splitting). Then, it returns to its previous position and executes the wing leader’s revealed maneuver (obeying normal overlap rules if necessary). Then that wingmate skips its Perform Action step. See Appendix: Wing Overlap Diagrams.",
+  "page": 5,
+  "col": 1,
+  "y": 699.2
+ },
+ {
+  "kind": "p",
+  "text": "• If there is potential for a wingmate to overlap another ship when it moves, a player should use a position marker to track the wingmate’s previous position. This practice ensures that the wingmate is returned to the correct position before splitting and executing its maneuver.",
+  "page": 6,
+  "col": 0,
+  "y": 34.2
+ },
+ {
+  "kind": "p",
+  "text": "Wing Leader Actions After executing a maneuver, the wing leader performs an action as normal. However, certain actions a wing leader can perform have additional effects on the wing:",
+  "page": 6,
+  "col": 0,
+  "y": 84.1
+ },
+ {
+  "kind": "p",
+  "text": "• After a wing leader performs a {slam} action, each of its wingmates without {slam} on its action bar splits from the wing (see Splitting), and each of its wingmates with {slam} on its action bar gains a disarm token.",
+  "page": 6,
+  "col": 0,
+  "y": 133.0
+ },
+ {
+  "kind": "p",
+  "text": "• After a wing leader performs a {cloak} action, each of its wingmates without {cloak} on its action bar splits from the wing (see Splitting).",
+  "page": 6,
+  "col": 0,
+  "y": 171.6
+ },
+ {
+  "kind": "p",
+  "text": "Wingmate Actions During the Activation Phase, after each wingmate moves, it resolves its Perform Action step as normal.",
+  "page": 6,
+  "col": 0,
+  "y": 202.3
+ },
+ {
+  "kind": "p",
+  "text": "During the Activation Phase and at all other times, a wingmate is limited to the following actions:",
+  "page": 6,
+  "col": 0,
+  "y": 242.3
+ },
+ {
+  "kind": "p",
+  "text": "• Calculate ({calculate})",
+  "page": 6,
+  "col": 0,
+  "y": 265.4
+ },
+ {
+  "kind": "p",
+  "text": "• Reinforce ({reinforce})",
+  "page": 6,
+  "col": 0,
+  "y": 265.4
+ },
+ {
+  "kind": "p",
+  "text": "• Evade ({evade})",
+  "page": 6,
+  "col": 0,
+  "y": 283.6
+ },
+ {
+  "kind": "p",
+  "text": "• Lock ({lock})",
+  "page": 6,
+  "col": 0,
+  "y": 283.6
+ },
+ {
+  "kind": "p",
+  "text": "• Focus ({focus})",
+  "page": 6,
+  "col": 0,
+  "y": 301.8
+ },
+ {
+  "kind": "h3",
+  "text": "Engagement Phase",
+  "page": 6,
+  "col": 0,
+  "y": 318.0
+ },
+ {
+  "kind": "p",
+  "text": "The wing leader and each wingmate engages as normal at its standard initiative step in the Engagement Phase.",
+  "page": 6,
+  "col": 0,
+  "y": 331.4
+ },
+ {
+  "kind": "h3",
+  "text": "End Phase",
+  "page": 6,
+  "col": 0,
+  "y": 359.0
+ },
+ {
+  "kind": "p",
+  "text": "At the end of the End Phase, a wingmate can voluntarily choose to split from its wing (see Splitting from a Wing).",
+  "page": 6,
+  "col": 0,
+  "y": 372.4
+ },
+ {
+  "kind": "p",
+  "text": "At the end of the End Phase, a wingmate that has split can attempt to join its wing (see Joining a Wing).",
+  "page": 6,
+  "col": 0,
+  "y": 400.0
+ },
+ {
+  "kind": "h2",
+  "text": "WING ID CARD",
+  "page": 6,
+  "col": 0,
+  "y": 426.7
+ },
+ {
+  "kind": "p",
+  "text": "See Wings.",
+  "page": 6,
+  "col": 0,
+  "y": 441.0
+ },
+ {
+  "kind": "h2",
+  "text": "WING LEADER",
+  "page": 6,
+  "col": 0,
+  "y": 457.5
+ },
+ {
+  "kind": "p",
+  "text": "See Wings.",
+  "page": 6,
+  "col": 0,
+  "y": 471.9
+ },
+ {
+  "kind": "h2",
+  "text": "WING TOOL",
+  "page": 6,
+  "col": 0,
+  "y": 488.4
+ },
+ {
+  "kind": "p",
+  "text": "Wing tools are used to place a wingmates back into formation as the wing moves.",
+  "page": 6,
+  "col": 0,
+  "y": 502.7
+ },
+ {
+  "kind": "h3",
+  "text": "Full-Size Wing Tool",
+  "page": 6,
+  "col": 0,
+  "y": 530.4
+ },
+ {
+  "kind": "p",
+  "text": "The full-size wing tool is placed behind the wing leader, and allows a formation of six ships to quickly be placed after the wing leader has moved.",
+  "page": 6,
+  "col": 0,
+  "y": 543.8
+ },
+ {
+  "kind": "h3",
+  "text": "Other Wing Tools",
+  "page": 6,
+  "col": 0,
+  "y": 571.4
+ },
+ {
+  "kind": "p",
+  "text": "The corner and mini wing tools are provided because the full-size wing tool may be too large for all battle situations. Players can use the corner or mini wing tools when they are piloting wings in close proximity to other ships.",
+  "page": 6,
+  "col": 0,
+  "y": 584.8
+ },
+ {
+  "kind": "p",
+  "text": "When using these tools, players must follow the same rules as the full-size wing tool. That is, each ship must align its center line with the lines on the tool, each ship’s guides (front or rear) must be flush with the wing tool, and each wingmate’s full front arc [{fullfrontarc}] must face the same direction as the wing leader’s full front arc [{fullfrontarc}].",
+  "page": 6,
+  "col": 0,
+  "y": 622.6
+ },
+ {
+  "kind": "p",
+  "text": "See Appendix: Wing Overlap Diagrams for diagrams on using this tool.",
+  "page": 6,
+  "col": 0,
+  "y": 680.8
+ },
+ {
+  "kind": "p",
+  "text": "Corner Wing Tool The corner tool works well for positioning wings that have lost one of their flanks.",
+  "page": 6,
+  "col": 0,
+  "y": 699.3
+ },
+ {
+  "kind": "p",
+  "text": "Mini Wing Tool The mini wing tool can be used to position ships vertically or horizontally. When positioning two ships horizontally, the lines on the tool should be aligned with the center line of the ship’s base.",
+  "page": 6,
+  "col": 1,
+  "y": 33.9
+ },
+ {
+  "kind": "h2",
+  "text": "WINGMATES",
+  "page": 6,
+  "col": 1,
+  "y": 83.1
+ },
+ {
+  "kind": "p",
+  "text": "See Wings.",
+  "page": 6,
+  "col": 1,
+  "y": 97.5
+ },
+ {
+  "kind": "p",
+  "text": "Various official scenarios exist for the Epic game mode, which can be found in the following locations:",
+  "page": 6,
+  "col": 1,
+  "y": 140.8
+ },
+ {
+  "kind": "h2",
+  "text": "EPIC BATTLES RULEBOOK",
+  "page": 6,
+  "col": 1,
+  "y": 167.5
+ },
+ {
+  "kind": "p",
+  "text": "• Epic Escalation (2–8 Players, Free-for-All), p. 17",
+  "page": 6,
+  "col": 1,
+  "y": 181.6
+ },
+ {
+  "kind": "p",
+  "text": "• Fog of War (2–6 Players, Free-for-All), p. 18",
+  "page": 6,
+  "col": 1,
+  "y": 193.6
+ },
+ {
+  "kind": "p",
+  "text": "• Aces High (2–8 Players, Free-for-All), p. 19",
+  "page": 6,
+  "col": 1,
+  "y": 205.6
+ },
+ {
+  "kind": "p",
+  "text": "• Atmospheric Entry (2 Players, Head-to-Head), , p. 20",
+  "page": 6,
+  "col": 1,
+  "y": 217.6
+ },
+ {
+  "kind": "p",
+  "text": "• Passing Engagement (2 Players, Head-to-Head), p. 21",
+  "page": 6,
+  "col": 1,
+  "y": 229.6
+ },
+ {
+  "kind": "p",
+  "text": "• Key Cargo Retrieval (3 Players, Head-to-Head), p. 22",
+  "page": 6,
+  "col": 1,
+  "y": 241.6
+ },
+ {
+  "kind": "p",
+  "text": "• Cover the Evacuation (2–6 Players, Team Battle), p. 23",
+  "page": 6,
+  "col": 1,
+  "y": 253.6
+ },
+ {
+  "kind": "p",
+  "text": "• Intel Pickup (2–4 Players, Free-for-All or Head-to-Head), p. 24",
+  "page": 6,
+  "col": 1,
+  "y": 265.6
+ },
+ {
+  "kind": "p",
+  "text": "• Strategic Salvo (2–6 Players, Team Battle), p. 25",
+  "page": 6,
+  "col": 1,
+  "y": 277.6
+ },
+ {
+  "kind": "p",
+  "text": "• All Wings Report In (3–5 Players, Team Battle), p. 26",
+  "page": 6,
+  "col": 1,
+  "y": 289.6
+ },
+ {
+  "kind": "p",
+  "text": "• Fortified Position (3 Players, Team Battle), p. 27",
+  "page": 6,
+  "col": 1,
+  "y": 301.6
+ },
+ {
+  "kind": "p",
+  "text": "This section contains a diagram of a wingmate overlapping a ship.",
+  "page": 7,
+  "col": 0,
+  "y": 73.8
+ },
+ {
+  "kind": "p",
+  "text": "Step 1: The wing leader executes a [2 {bankleft}] maneuver.",
+  "page": 7,
+  "col": 0,
+  "y": 89.9
+ },
+ {
+  "kind": "p",
+  "text": "Step 2: The left flank is placed in position, but the right flank cannot be placed in position without overlapping another ship.",
+  "page": 7,
+  "col": 0,
+  "y": 231.0
+ },
+ {
+  "kind": "p",
+  "text": "Step 3: The right flank must execute the wing leader’s revealed maneuver, a [2 {bankleft}], instead.",
+  "page": 7,
+  "col": 0,
+  "y": 381.0
+ },
+ {
+  "kind": "p",
+  "text": "• This section contains the official errata that have been made to individual cards and other game components in Epic Battles. Errata overrides the originally printed information on the game component it applies to. Unless errata from a game component appears below, the original English printing of that component is considered accurate, and overrides all other printings. This includes translated cards, promotional cards, and printings which may appear in other products.",
+  "page": 7,
+  "col": 0,
+  "y": 408.6
+ },
+ {
+  "kind": "h2",
+  "text": "EPIC BATTLES RULEBOOK",
+  "page": 7,
+  "col": 1,
+  "y": 131.5
+ },
+ {
+  "kind": "p",
+  "text": "The following errata apply to specific scenarios found in the Epic Battles rulebook.",
+  "page": 7,
+  "col": 1,
+  "y": 145.6
+ },
+ {
+  "kind": "h3",
+  "text": "Scenarios",
+  "page": 7,
+  "col": 1,
+  "y": 173.5
+ },
+ {
+  "kind": "p",
+  "text": "p. 21, Passing Engagement: The synopsis should list “2 shuttles” to match the diagram.",
+  "page": 7,
+  "col": 1,
+  "y": 186.6
+ },
+ {
+  "kind": "p",
+  "text": "(Changed “3 shuttles” to “2 shuttles”)",
+  "page": 7,
+  "col": 1,
+  "y": 214.5
+ },
+ {
+  "kind": "p",
+  "text": "p. 22, Key Cargo Retrieval: The synopsis should list “3 shuttles” to match the diagram.",
+  "page": 7,
+  "col": 1,
+  "y": 231.6
+ },
+ {
+  "kind": "p",
+  "text": "(Changed “2 shuttles” to “3 shuttles”)",
+  "page": 7,
+  "col": 1,
+  "y": 259.5
+ },
+ {
+  "kind": "h2",
+  "text": "CARDS",
+  "page": 7,
+  "col": 1,
+  "y": 276.0
+ },
+ {
+  "kind": "p",
+  "text": "The following errata apply to cards found in Epic Battles.",
+  "page": 7,
+  "col": 1,
+  "y": 290.1
+ },
+ {
+  "kind": "h3",
+  "text": "Wing Cards",
+  "page": 7,
+  "col": 1,
+  "y": 307.8
+ },
+ {
+  "kind": "p",
+  "text": "Rear Support Card (White/Black Wing ID Set, #4): The Rear support wing ID card (4) should show the graphic with the rear support position highlighted.",
+  "page": 7,
+  "col": 1,
+  "y": 320.9
+ },
+ {
+  "kind": "p",
+  "text": "(Changed the highlighted position from the left support to the rear support)",
+  "page": 7,
+  "col": 1,
+  "y": 359.0
+ },
+ {
+  "kind": "p",
+  "text": "Left Support Card (White/Black Wing ID Set, #5): The left support wing ID card (5) should show the graphic with the left support position highlighted.",
+  "page": 7,
+  "col": 1,
+  "y": 376.1
+ },
+ {
+  "kind": "p",
+  "text": "(Changed the highlighted position from the rear support to the left support)",
+  "page": 7,
+  "col": 1,
+  "y": 414.2
+ },
+ {
+  "kind": "h3",
+  "text": "Quick Build Cards",
+  "page": 7,
+  "col": 1,
+  "y": 431.6
+ },
+ {
+  "kind": "p",
+  "text": "Red Squadron: The Wingmate name should read “Red Squadron Veteran.”",
+  "page": 7,
+  "col": 1,
+  "y": 444.8
+ },
+ {
+  "kind": "p",
+  "text": "(Changed “Red Squadron Escort” to “Red Squadron Veteran”)",
+  "page": 7,
+  "col": 1,
+  "y": 462.4
+ },
+ {
+  "kind": "p",
+  "text": "This section contains answers to frequently asked questions about Epic play.",
+  "page": 8,
+  "col": 0,
+  "y": 53.8
+ },
+ {
+  "kind": "h2",
+  "text": "GENERAL SCENARIO QUESTIONS",
+  "page": 8,
+  "col": 0,
+  "y": 70.3
+ },
+ {
+  "kind": "p",
+  "text": "These questions pertain to all scenarios:",
+  "page": 8,
+  "col": 0,
+  "y": 84.6
+ },
+ {
+  "kind": "q",
+  "text": "Q: Q: If a ship is docked to a ship that escapes, does the docked ship also escape?",
+  "page": 8,
+  "col": 0,
+  "y": 101.0
+ },
+ {
+  "kind": "p",
+  "text": "A: Yes.",
+  "page": 8,
+  "col": 0,
+  "y": 126.0
+ },
+ {
+  "kind": "q",
+  "text": "Q: If a scenario states that a game would end during the End Phase, are other effects in that End Phase resolved before the game ends?",
+  "page": 8,
+  "col": 0,
+  "y": 146.5
+ },
+ {
+  "kind": "p",
+  "text": "A: Yes. As in a standard game, when a scenario says the game ends during the End Phase, it means that it ends at the end of the round, after all effects in the final End Phase have been resolved.",
+  "page": 8,
+  "col": 0,
+  "y": 181.0
+ },
+ {
+  "kind": "q",
+  "text": "Q: When a ship gains a Jam token from a faceup damage card, which player decides which token is removed?",
+  "page": 8,
+  "col": 0,
+  "y": 220.5
+ },
+ {
+  "kind": "p",
+  "text": "A: If the damage card was dealt or exposed as part of an attack or effect controlled by a particular player, that player chooses which token is removed. If it is caused by an effect that no player controls (such as the effect of overlapping an obstacle), then the player who controls the ship with the faceup damage card chooses which token is removed.",
+  "page": 8,
+  "col": 0,
+  "y": 245.5
+ },
+ {
+  "kind": "q",
+  "text": "Q: Can markers ({objectivemarker} or {objective}) such as the priority target markers from All Wings Reporting In be placed on ships that have been placed in reserve to be placed in the play area “after setup,” such as a ship with Luminous [{title}] or Boba Fett [{crew}] equipped?",
+  "page": 8,
+  "col": 0,
+  "y": 303.8
+ },
+ {
+  "kind": "p",
+  "text": "A: No. Per Objectives, markers that are placed “after placing forces” must be placed on ships in the play area. As “after placing forces” (the timing for distributing the {objective} in All Wings Reporting In) occurs prior to “after setup,”",
+  "page": 8,
+  "col": 0,
+  "y": 358.2
+ },
+ {
+  "kind": "p",
+  "text": "Luminous [{title}] / Boba Fett [{crew}]’s ship is still in reserve when the {objective} are placed, so it cannot be selected to carry {objective}.",
+  "page": 8,
+  "col": 0,
+  "y": 385.4
+ },
+ {
+  "kind": "q",
+  "text": "Q: Can markers ({objectivemarker} or {objective}) such as the priority target markers from All Wings Reporting In be placed on ships that have been placed outside a player’s deployment area, such as a ship that was placed in a forward position by Lieutenant Dormitz [Upsilon-class Shuttle]?",
+  "page": 8,
+  "col": 0,
+  "y": 415.8
+ },
+ {
+  "kind": "p",
+  "text": "A: No. Per Objectives, when placing a marker “after placing forces,” a player must select a ship in their deployment area unless the scenario specifies otherwise.",
+  "page": 8,
+  "col": 0,
+  "y": 470.2
+ },
+ {
+  "kind": "q",
+  "text": "Q: In Free-for-All scenarios with a variable number of players, if there are fewer than the maximum number of players, are unused deployment areas treated as deployment areas for the purposes of obstacle, remote, and marker placement?",
+  "page": 8,
+  "col": 0,
+  "y": 509.8
+ },
+ {
+  "kind": "p",
+  "text": "A: No, they are not treated as deployment areas.",
+  "page": 8,
+  "col": 0,
+  "y": 563.3
+ },
+ {
+  "kind": "h2",
+  "text": "SCENARIO-SPECIFIC QUESTIONS",
+  "page": 8,
+  "col": 0,
+  "y": 583.9
+ },
+ {
+  "kind": "p",
+  "text": "These questions pertain to specific scenarios.",
+  "page": 8,
+  "col": 0,
+  "y": 598.2
+ },
+ {
+  "kind": "h3",
+  "text": "Intel Pickup",
+  "page": 8,
+  "col": 0,
+  "y": 615.7
+ },
+ {
+  "kind": "p",
+  "text": "This scenario is found on page 20 of the Epic Battles rulebook.",
+  "page": 8,
+  "col": 0,
+  "y": 628.8
+ },
+ {
+  "kind": "q",
+  "text": "Q: If a player rolls 2 or more {focus} results to place intel counters, how many counters are placed?",
+  "page": 8,
+  "col": 0,
+  "y": 644.5
+ },
+ {
+  "kind": "p",
+  "text": "A: No matter how many {focus} results are rolled, only 1 counter is placed.",
+  "page": 8,
+  "col": 0,
+  "y": 669.2
+ },
+ {
+  "kind": "p",
+  "text": "This section includes guidance for running an Epic event for your gaming group or store.",
+  "page": 8,
+  "col": 1,
+  "y": 53.8
+ },
+ {
+  "kind": "h2",
+  "text": "SQUADRON REQUIREMENTS",
+  "page": 8,
+  "col": 1,
+  "y": 80.5
+ },
+ {
+  "kind": "p",
+  "text": "When running an Epic event, event organizers are encouraged to apply certain requirements to all players’ squadrons to create a thematic and fun game experience. The following is an example set of requirements that event organizers can use.",
+  "page": 8,
+  "col": 1,
+  "y": 94.8
+ },
+ {
+  "kind": "p",
+  "text": "• Each squadron must include at least 1 huge ship or wing.",
+  "page": 8,
+  "col": 1,
+  "y": 142.8
+ },
+ {
+  "kind": "p",
+  "text": "• Each squadron can spend a maximum of half its available squad points (or {threat}), rounded up, on huge ships and their equipped upgrades (e.g. if the squad limit is 500 points, or 20 {threat}, up to 250 points or 10 {threat} can be spent on huge ships and their upgrades).",
+  "page": 8,
+  "col": 1,
+  "y": 161.0
+ },
+ {
+  "kind": "p",
+  "text": "Organizers can alter these requirements or add their own requirements at their discretion to create flavorful narrative events. Any requirements an event organizer intends to apply should be communicated clearly in advance to all players.",
+  "page": 8,
+  "col": 1,
+  "y": 209.8
+ },
+ {
+  "kind": "h2",
+  "text": "SCENARIO SELECTION",
+  "page": 8,
+  "col": 1,
+  "y": 256.9
+ },
+ {
+  "kind": "p",
+  "text": "When preparing to run an event, it is recommended that the organizer select a number of scenarios that will be used for the event and inform the players of the list-building requirements for these scenarios in advance. If players will need different lists for different scenarios, the organizer should inform them of all lists they will need to prepare. If they will need teammates for any games, these can also be prepared in advance, or can be determined at the event itself.",
+  "page": 8,
+  "col": 1,
+  "y": 271.3
+ },
+ {
+  "kind": "h2",
+  "text": "Example Event",
+  "page": 8,
+  "col": 1,
+  "y": 357.4
+ },
+ {
+  "kind": "p",
+  "text": "Jo wants to run a three-round Epic event. She decides that two rounds will be 3’ x 3’ scenarios using 300 squad points per player, and the final game will be a 6’ x 3’ scenario with 600 points per team. She informs her players that they will need one 300 point list per person using the recommended squadron requirements, and will be playing two solo games and one team game, with their teammate selected in advance.",
+  "page": 8,
+  "col": 1,
+  "y": 374.3
+ },
+ {
+  "kind": "p",
+  "text": "Jo plans the rounds as follows, but does not tell the players in advance which scenario will be played each round:",
+  "page": 8,
+  "col": 1,
+  "y": 452.9
+ },
+ {
+  "kind": "p",
+  "text": "Round Scenario Time Allotted Round 1 (Solo)",
+  "page": 8,
+  "col": 1,
+  "y": 484.9
+ },
+ {
+  "kind": "p",
+  "text": "Passing Engagement 90 minutes Round 2 (Solo)",
+  "page": 8,
+  "col": 1,
+  "y": 499.6
+ },
+ {
+  "kind": "p",
+  "text": "Atmospheric Entry 90 minutes Round 3 (Team)",
+  "page": 8,
+  "col": 1,
+  "y": 513.9
+ },
+ {
+  "kind": "p",
+  "text": "Cover the Evacuation 180 minutes During each round, all players play the same scenario, following an unfolding narrative (an encounter in space leads to the discovery of an enemy base, which leads to an orbital attack, and eventually a full-scale invasion of the planet) that plays out across the event.",
+  "page": 8,
+  "col": 1,
+  "y": 528.3
+ }
+]

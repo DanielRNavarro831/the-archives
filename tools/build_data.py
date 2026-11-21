@@ -77,11 +77,28 @@ def load(name):
 NOISE = re.compile(r"^(VERSION \d[\d.]*|\d{1,2})$")
 
 
-def section_for(page, sections):
+def section_for(page, sections, para=None):
+    if para is not None and "_sec" in para:
+        return para["_sec"]
     for s in sections:
         if s["from"] <= page <= s["to"]:
             return s
     return None
+
+
+def assign_sections(paras, sections):
+    """Sections with "startText" begin at the first paragraph (on their "from" page or later) that
+    starts with that text, so two sections can share a page (e.g. the Epic FAQ and Event Guidance)."""
+    if not any(s.get("startText") for s in sections):
+        return
+    current = None
+    for p in paras:
+        for s in sections:
+            if s["from"] <= p["page"] <= s["to"] and (
+                    (s.get("startText") and p["text"].startswith(s["startText"]))
+                    or (not s.get("startText") and (current is None or current["to"] < p["page"]))):
+                current = s
+        p["_sec"] = current if current and current["from"] <= p["page"] <= current["to"] else None
 
 
 # ---------------------------------------------------------------- rules
@@ -91,7 +108,7 @@ def build_rules(paras, source, sections, rules, used_ids):
     last_section = None
     anchors = []          # (page, col, y) of every heading/paragraph, for placing figures
     for p in paras:
-        sec = section_for(p["page"], sections)
+        sec = section_for(p["page"], sections, p)
         if not sec or sec["kind"] != "rules" or NOISE.match(p["text"]):
             continue
         if sec["id"] != last_section:
@@ -182,6 +199,8 @@ def place_figures(source, sections, anchors):
 
 def new_rule(name, icons, sec, source, page, rules, used_ids):
     rid = slug(name)
+    if source.get("epic") and not rid.startswith("epic-"):
+        rid = "epic-" + rid           # Epic rules get their own addresses (#/rule/epic-setup)
     if rid in used_ids:
         rid = f"{sec['id']}-{rid}"
     n = 2
@@ -192,6 +211,8 @@ def new_rule(name, icons, sec, source, page, rules, used_ids):
     used_ids.add(rid)
     r = {"id": rid, "title": name, "icons": icons, "section": sec["title"],
          "sectionId": sec["id"], "source": source["id"], "page": page, "blocks": []}
+    if sec.get("epic"):
+        r["epic"] = True
     rules.append(r)
     return r
 
@@ -201,7 +222,7 @@ def build_rulings(paras, source, sections, rulings):
     topic = None
     cur = None
     for p in paras:
-        sec = section_for(p["page"], sections)
+        sec = section_for(p["page"], sections, p)
         if not sec or sec["kind"] != "faq" or NOISE.match(p["text"]):
             continue
         t = p["text"]
@@ -212,7 +233,8 @@ def build_rulings(paras, source, sections, rulings):
         if p["kind"] == "q" or t.startswith("Q:"):
             cur = {"id": f"{source['id']}-{len(rulings) + 1}", "source": source["id"],
                    "section": sec["title"], "topic": topic or sec["title"],
-                   "page": p["page"], "q": re.sub(r"^Q:\s*", "", t), "a": []}
+                   "page": p["page"], "q": re.sub(r"^(Q:\s*)+", "", t), "a": [],
+                   **({"epic": True} if sec.get("epic") else {})}
             rulings.append(cur)
             continue
         if cur is None:
@@ -228,7 +250,7 @@ def build_errata(paras, source, sections, errata):
     group = None
     cur = None
     for p in paras:
-        sec = section_for(p["page"], sections)
+        sec = section_for(p["page"], sections, p)
         if not sec or sec["kind"] != "errata" or NOISE.match(p["text"]):
             continue
         t = p["text"].lstrip(".")
@@ -432,25 +454,30 @@ def main():
     rules, rulings, errata = [], [], []
     used = set()
     # Epic / huge-ship content can be hidden until the Epic format is finalized
-    epic = sources.get("epic", {}) if sources.get("hideEpic") else {}
+    # Epic / huge-ship content is kept but flagged "epic": the site shows it only in Epic mode
+    # (and never on the live site while hideEpic is true). See docs/MAINTAINING.md.
+    epic = sources.get("epic", {})
     epic_sections = set(epic.get("sections", []))
     for src in sources["documents"]:
-        src["sections"] = [s for s in src["sections"] if s["id"] not in epic_sections]
+        for s in src["sections"]:
+            if src.get("epic") or s["id"] in epic_sections:
+                s["epic"] = True
     for src in sources["documents"]:
         paras = load(src["raw"])
+        assign_sections(paras, src["sections"])
         # drop leftovers of artwork labels such as "A T c A T c:"
         paras = [p for p in paras
                  if not (len(p["text"]) < 30 and all(len(w) <= 2 for w in p["text"].rstrip(":").split()))]
         rules = build_rules(paras, src, src["sections"], rules, used)
         build_rulings(paras, src, src["sections"], rulings)
         build_errata(paras, src, src["sections"], errata)
-    if epic:
-        before = len(errata)
-        errata = [e for e in errata
-                  if e["category"] not in epic.get("errataCategories", [])
-                  and not any(n.lstrip("•") in epic.get("errataNames", []) for n in e["names"])]
-        print(f"hideEpic: hiding huge-ship sections {sorted(epic_sections)}, "
-              f"{before - len(errata)} errata, forum threads {epic.get('forumThreads', [])}")
+    for e in errata:
+        if (e["category"] in epic.get("errataCategories", [])
+                or any(n.lstrip("•") in epic.get("errataNames", []) for n in e["names"])):
+            e["epic"] = True
+    print(f"Epic: {sum(1 for r in rules if r.get('epic'))} rules, {sum(1 for r in rulings if r.get('epic'))} FAQ rulings, "
+          f"{sum(1 for e in errata if e.get('epic'))} errata, forum threads {epic.get('forumThreads', [])} "
+          f"(shown only in Epic mode)")
 
     cards = {}
     ignore = {norm_quotes(k).lower() for k in cur.get("ignore", [])}
@@ -555,7 +582,7 @@ def main():
         print(f"YASB: {len(cards)} cards total; {pdf_card_count - len(yasb_info['unmatched'])} of "
               f"{pdf_card_count} PDF cards matched (unmatched: {', '.join(yasb_info['unmatched']) or 'none'})")
     # 6. official answers from the XWA rules forum (data/forum/threads.json)
-    forum, forum_info = forum_rulings.to_rulings(cards, skip_extra=epic.get("forumThreads", []))
+    forum, forum_info = forum_rulings.to_rulings(cards, epic_threads=epic.get("forumThreads", []))
     for r in forum:
         for i in r["cards"]:
             cards[i]["rulings"].append(r["id"])
@@ -603,7 +630,8 @@ def main():
             del c[k]
 
     # 7. the numbered Compendium (also writes site/compendium.txt)
-    comp = compendium.build(rules, rulings, errata, sources["documents"], cards)
+    comp = compendium.build([r for r in rules if not r.get("epic")], [r for r in rulings if not r.get("epic")],
+                            [e for e in errata if not e.get("epic")], sources["documents"], cards)
     (ROOT / "data" / "compendium-report.json").write_text(json.dumps(comp["placement"], ensure_ascii=False, indent=1),
                                                           encoding="utf-8")
     print(f"Compendium: {len(comp['sections'])} sections, {len(comp['refs'])} numbered paragraphs")
@@ -613,11 +641,12 @@ def main():
     playtest = load_playtest(cards)
 
     data = {
-        "meta": {"sources": [{k: s.get(k) for k in ("id", "title", "version", "effective", "url")}
-                             for s in sources["documents"]],
+        "meta": {"sources": [{k: s.get(k) for k in ("id", "title", "version", "effective", "url", "epic")
+                              if k != "epic" or s.get("epic")} for s in sources["documents"]],
                  "otherDocuments": [{k: s.get(k) for k in ("title", "version", "effective", "url")}
                                     for s in sources.get("otherDocuments", [])],
                  "hideEpic": bool(sources.get("hideEpic")),
+                 "epicToggle": sources.get("epicToggle") or None,
                  "quizLive": bool(sources.get("quizLive")),
                  "quizSkip": sources.get("quizSkip", []),
                  "documentsPage": sources.get("documentsPage") or None,
