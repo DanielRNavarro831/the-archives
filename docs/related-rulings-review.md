@@ -42,6 +42,11 @@ Already named: Seasoned Navigator
 - [x] **“Stub”** (Clone Z-95 Headhunter): While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.
 - [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
 
+**Triggers on revealing a maneuver of a certain color (Hera Syndulla is listed above)** (strong match) — APPROVED, on the site
+
+- [x] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
+- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more …
+
 ## rr-84: When changes to a revealed maneuver's speed, difficulty or bearing apply (Reveal Dial vs Execute Maneuver), and that changing a maneuver without setting the dial doesn't change the revealed maneuver.
 
 > **Q:** How do abilities that alter the speed, difficulty, and/or bearing of a maneuver that a ship reveals during its Reveal Dial step and executes during its Execute Maneuver step resolve? For example, if Hera Syndulla [Attack Shuttle] is equipped with R4 Astromech and Seasoned Navigator, and also has the Damaged Engine Damage Card, what happens?
@@ -115,12 +120,12 @@ Already named: Cova Nell, Leia Organa, R4 Astromech
 - [x] **“Stub”** (Clone Z-95 Headhunter): While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.
 - [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
 
-**Triggers on revealing a maneuver of a certain color** (strong match)
+**Triggers on revealing a maneuver of a certain color** (strong match) — APPROVED, on the site
 
-- [ ] **Hera Syndulla** (VCX-100 Light Freighter): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
-- [ ] **Hera Syndulla** (Attack Shuttle): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
-- [ ] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
-- [ ] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more …
+- [x] **Hera Syndulla** (VCX-100 Light Freighter): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
+- [x] **Hera Syndulla** (Attack Shuttle): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
+- [x] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
+- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more …
 
 **Changes maneuver difficulty (the other side of this ruling)** (possible match)
 

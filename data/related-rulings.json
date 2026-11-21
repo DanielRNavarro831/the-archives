@@ -10,7 +10,9 @@
     {"why": "Checks the speed, bearing or color of your (or another ship's) revealed maneuver", "strength": "strong", "status": "approved",
      "cards": ["contrail-nimbus-class-v-wing", "contrail-nimbus-class-v-wing-soc", "hawk-laat-i-gunship", "hawk-clone-z-95-headhunter-z-95", "accelerated-sensor-array-tech-eod",
                "dinee-ellberger-naboo-royal-n-1-starfighter", "fenn-rau-crew", "gavyn-sykes-naboo-royal-n-1-starfighter", "jango-fett-firespray-class-patrol-craft",
-               "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]}
+               "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]},
+    {"why": "Triggers on revealing a maneuver of a certain color (Hera Syndulla is listed above)", "strength": "strong", "status": "approved",
+     "cards": ["ello-asty-t-70-x-wing", "prime-minister-almec-crew"]}
    ]
   },
   "rr-84": {
@@ -36,7 +38,7 @@
      "cards": ["contrail-nimbus-class-v-wing", "contrail-nimbus-class-v-wing-soc", "hawk-laat-i-gunship", "hawk-clone-z-95-headhunter-z-95", "accelerated-sensor-array-tech-eod",
                "dinee-ellberger-naboo-royal-n-1-starfighter", "fenn-rau-crew", "gavyn-sykes-naboo-royal-n-1-starfighter", "jango-fett-firespray-class-patrol-craft",
                "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]},
-    {"why": "Triggers on revealing a maneuver of a certain color", "strength": "strong",
+    {"why": "Triggers on revealing a maneuver of a certain color", "strength": "strong", "status": "approved",
      "cards": ["hera-syndulla-vcx-100-light-freighter-vcx-100", "hera-syndulla-attack-shuttle", "ello-asty-t-70-x-wing", "prime-minister-almec-crew"]},
     {"why": "Changes maneuver difficulty (the other side of this ruling)", "strength": "possible",
      "cards": ["nien-nunb-crew", "damaged-engine", "l3-37-crew", "l3-37s-programming-configuration-boy", "l3-37-customized-yt-1300-light-freighter", "l3-37-escape-craft-escape-craft",
