@@ -6,7 +6,11 @@
    "groups": [
     {"why": "Sets a dial to a different maneuver after it's revealed", "strength": "strong", "status": "approved",
      "cards": ["saesee-tiin-delta-7-aethersprite", "saesee-tiin-delta-7b-aethersprite-delta-7b", "captain-needa-command", "strategic-commander-command",
-               "hera-syndulla-vcx-100-light-freighter-vcx-100", "hera-syndulla-attack-shuttle", "kaydel-connix-crew", "r2-a6-astromech", "slave-i-title"]}
+               "hera-syndulla-vcx-100-light-freighter-vcx-100", "hera-syndulla-attack-shuttle", "kaydel-connix-crew", "r2-a6-astromech", "slave-i-title"]},
+    {"why": "Checks the speed, bearing or color of your (or another ship's) revealed maneuver", "strength": "strong", "status": "approved",
+     "cards": ["contrail-nimbus-class-v-wing", "contrail-nimbus-class-v-wing-soc", "hawk-laat-i-gunship", "hawk-clone-z-95-headhunter-z-95", "accelerated-sensor-array-tech-eod",
+               "dinee-ellberger-naboo-royal-n-1-starfighter", "fenn-rau-crew", "gavyn-sykes-naboo-royal-n-1-starfighter", "jango-fett-firespray-class-patrol-craft",
+               "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]}
    ]
   },
   "rr-84": {
@@ -28,7 +32,7 @@
   "rr-68": {
    "mechanic": "A revealed maneuver's difficulty, speed and bearing are its printed ones: effects that change the difficulty don't change what's checked.",
    "groups": [
-    {"why": "Checks the speed, bearing or color of your (or another ship's) revealed maneuver", "strength": "strong",
+    {"why": "Checks the speed, bearing or color of your (or another ship's) revealed maneuver", "strength": "strong", "status": "approved",
      "cards": ["contrail-nimbus-class-v-wing", "contrail-nimbus-class-v-wing-soc", "hawk-laat-i-gunship", "hawk-clone-z-95-headhunter-z-95", "accelerated-sensor-array-tech-eod",
                "dinee-ellberger-naboo-royal-n-1-starfighter", "fenn-rau-crew", "gavyn-sykes-naboo-royal-n-1-starfighter", "jango-fett-firespray-class-patrol-craft",
                "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]},

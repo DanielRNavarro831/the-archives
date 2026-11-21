@@ -25,6 +25,23 @@ Already named: Seasoned Navigator
 - [x] **R2-A6** (Astromech): After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.
 - [x] **Slave I** (Title): After you reveal a turn ({turnleft} or {turnright}) or bank ({bankleft} or {bankright}) maneuver you may set your dial to the maneuver of the same speed and bearing in the other direction.
 
+**Checks the speed, bearing or color of your (or another ship's) revealed maneuver** (strong match) — APPROVED, on the site
+
+- [x] **"Contrail"** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **“Contrail” (SoC)** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **"Hawk"** (LAAT/i Gunship): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
+- [x] **“Hawk”** (Clone Z-95 Headhunter): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
+- [x] **Accelerated Sensor Array** (Tech): While you defend or perform a primary attack, if the speed of your revealed maneuver is 3-5, you may reroll 1 die. If your revealed maneuver is an advanced maneuver, you may reroll up to 2 dice instead.
+- [x] **Dineé Ellberger** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.
+- [x] **Fenn Rau** (Crew): Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its {frontarc} at range 1, that friendly ship may remove 1 non-lock red token.
+- [x] **Gavyn Sykes** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.
+- [x] **Jango Fett** (Firespray-class Patrol Craft): While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **Overdrive Burners** (C-ROC Cruiser): While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die.
+- [x] **PZ-4CO** (Crew): At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.
+- [x] **“Boost”** (Clone Z-95 Headhunter): At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a {boost} action.
+- [x] **“Stub”** (Clone Z-95 Headhunter): While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.
+- [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
+
 ## rr-84: When changes to a revealed maneuver's speed, difficulty or bearing apply (Reveal Dial vs Execute Maneuver), and that changing a maneuver without setting the dial doesn't change the revealed maneuver.
 
 > **Q:** How do abilities that alter the speed, difficulty, and/or bearing of a maneuver that a ship reveals during its Reveal Dial step and executes during its Execute Maneuver step resolve? For example, if Hera Syndulla [Attack Shuttle] is equipped with R4 Astromech and Seasoned Navigator, and also has the Damaged Engine Damage Card, what happens?
@@ -81,22 +98,22 @@ Already named: BB Astromech, Damaged Engine, Elusive, Hera Syndulla, L3-37, L3-3
 
 Already named: Cova Nell, Leia Organa, R4 Astromech
 
-**Checks the speed, bearing or color of your (or another ship's) revealed maneuver** (strong match)
+**Checks the speed, bearing or color of your (or another ship's) revealed maneuver** (strong match) — APPROVED, on the site
 
-- [ ] **"Contrail"** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
-- [ ] **“Contrail” (SoC)** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
-- [ ] **"Hawk"** (LAAT/i Gunship): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
-- [ ] **“Hawk”** (Clone Z-95 Headhunter): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
-- [ ] **Accelerated Sensor Array** (Tech): While you defend or perform a primary attack, if the speed of your revealed maneuver is 3-5, you may reroll 1 die. If your revealed maneuver is an advanced maneuver, you may reroll up to 2 dice instead.
-- [ ] **Dineé Ellberger** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.
-- [ ] **Fenn Rau** (Crew): Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its {frontarc} at range 1, that friendly ship may remove 1 non-lock red token.
-- [ ] **Gavyn Sykes** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.
-- [ ] **Jango Fett** (Firespray-class Patrol Craft): While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
-- [ ] **Overdrive Burners** (C-ROC Cruiser): While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die.
-- [ ] **PZ-4CO** (Crew): At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.
-- [ ] **“Boost”** (Clone Z-95 Headhunter): At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a {boost} action.
-- [ ] **“Stub”** (Clone Z-95 Headhunter): While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.
-- [ ] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
+- [x] **"Contrail"** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **“Contrail” (SoC)** (Nimbus-class V-wing): While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **"Hawk"** (LAAT/i Gunship): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
+- [x] **“Hawk”** (Clone Z-95 Headhunter): At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a {barrelroll} or {boost} action.
+- [x] **Accelerated Sensor Array** (Tech): While you defend or perform a primary attack, if the speed of your revealed maneuver is 3-5, you may reroll 1 die. If your revealed maneuver is an advanced maneuver, you may reroll up to 2 dice instead.
+- [x] **Dineé Ellberger** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.
+- [x] **Fenn Rau** (Crew): Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its {frontarc} at range 1, that friendly ship may remove 1 non-lock red token.
+- [x] **Gavyn Sykes** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.
+- [x] **Jango Fett** (Firespray-class Patrol Craft): While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **Overdrive Burners** (C-ROC Cruiser): While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die.
+- [x] **PZ-4CO** (Crew): At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.
+- [x] **“Boost”** (Clone Z-95 Headhunter): At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a {boost} action.
+- [x] **“Stub”** (Clone Z-95 Headhunter): While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.
+- [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
 
 **Triggers on revealing a maneuver of a certain color** (strong match)
 
