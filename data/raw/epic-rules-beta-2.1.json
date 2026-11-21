@@ -691,7 +691,7 @@
  },
  {
   "kind": "p",
-  "text": "Command Slot, 0 points Small base “You are a Wing Leader. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
+  "text": "Command Slot, 0 points Small base, limited “You are a Wing Leader. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
   "page": 12
  },
  {
@@ -1461,7 +1461,7 @@
  },
  {
   "kind": "p",
-  "text": "• If there are two or more wing guards, it forms a wing. The ship with the lowest ID becomes the wing leader and gains the “Wingleader” command upgrade. The remaining ships lose the “Wing Guard” upgrade and gain the “Wingmate” command upgrade. If the wing leader is in reserve, mark the front guides of the commander before removing it from the game and place the wing leader in its place. Then place all wingmates in wing formation starting from the next lowest ID. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to two possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve.",
+  "text": "• If there are two or more wing guards, it forms a wing. The ship with the lowest ID becomes the wing leader and gains the “Wing Leader” command upgrade. The remaining ships lose the “Wing Guard” upgrade and gain the “Wingmate” command upgrade. If the wing leader is in reserve, mark the front guides of the commander before removing it from the game and place the wing leader in its place. Then place all wingmates in wing formation starting from the next lowest ID. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to two possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve.",
   "page": 24
  },
  {
