@@ -1,11 +1,163 @@
 {
- "_readme": "Rulings that are no longer current but are kept for reference. Key = ruling id (from its link, #/ruling/<id>). asOf: the document version from which it no longer applies (shown as 'No longer current as of …'). reason (optional): one short sentence. replacedBy (optional): id of the ruling that replaces it. stagingTest: true shows the entry ONLY on staging.xwingarchives.com — use it for trying things out; never on a real deprecation.",
+ "_readme": "Rulings (and, under \"rules\", rules entries) that are no longer current but are kept for reference. Key = ruling id (from its link, #/ruling/<id>). asOf: the document version from which it no longer applies (shown as 'No longer current as of …'). reason (optional): one short sentence. replacedBy (optional): id of the ruling or rule that replaces it. stagingTest: true shows the entry ONLY on staging.xwingarchives.com — use it for trying things out; never on a real deprecation.",
  "rulings": {
   "rr-50": {
    "asOf": "Rules Reference v1.4.7",
    "reason": "TEST ENTRY for the staging site only. This ruling has not actually changed.",
    "replacedBy": null,
    "stagingTest": true
+  },
+  "ep-115": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Huge ships now receive a deplete token instead of a jam token, so no token is removed.",
+   "replacedBy": "xwa-epic-jam-tokens"
+  }
+ },
+ "rules": {
+  "appendix-huge-ships": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "The Official XWA Epic Rules now cover huge ships, replacing this appendix.",
+   "replacedBy": "xwa-epic-game-overview"
+  },
+  "attacks": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. The new text no longer mentions using reinforce tokens at range 4–5.",
+   "replacedBy": "xwa-epic-attacks"
+  },
+  "huge-damage-cards": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. It adds a rule for damage cards on Standard Loadout ships.",
+   "replacedBy": "xwa-epic-huge-ship-damage-cards"
+  },
+  "docking-with-huge-ships": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-docking-and-huge-ships"
+  },
+  "energy": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-energy"
+  },
+  "engagement-value": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. The new text drops the line saying a huge ship's initiative can't be altered.",
+   "replacedBy": "xwa-epic-engagement-value"
+  },
+  "huge-ion": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. It spells out what an ionized huge ship can do.",
+   "replacedBy": "xwa-epic-ion-tokens-and-tractor-tokens"
+  },
+  "movement": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. It adds a Movement Grace Period for rounds 1 and 2.",
+   "replacedBy": "xwa-epic-movement"
+  },
+  "move-and-rotate-effects": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-move-and-rotate-effects"
+  },
+  "overlapping-objects": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Changed: obstacles now deal 2 damage (asteroids, debris) or break locks and give 2 deplete tokens (gas clouds); an overlapped non-huge ship suffers 1 damage and is placed by section at range 0, with no dice rolled.",
+   "replacedBy": "xwa-epic-overlapping-objects"
+  },
+  "obstruction-by-huge-ships": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. It adds that a friendly attacker's attack is still obstructed.",
+   "replacedBy": "xwa-epic-obstruction-by-huge-ships"
+  },
+  "precision-shot": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-huge-ship-damage-cards"
+  },
+  "red-maneuvers": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-red-maneuvers"
+  },
+  "resource-trackers": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-resources"
+  },
+  "huge-setup": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules. It adds that a huge ship can't overlap obstacles while deploying.",
+   "replacedBy": "xwa-epic-setup"
+  },
+  "huge-stress": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-stress"
+  },
+  "huge-tractor": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Changed: a tractored huge ship now also has its agility reduced by 1.",
+   "replacedBy": "xwa-epic-ion-tokens-and-tractor-tokens"
+  },
+  "turret-arc-indicators": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-turret-arc-indicators"
+  },
+  "example-of-overlapping-a-standard-ship": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "This example shows the old overlap rules (full rear arc, dice rolled for stress and damage).",
+   "replacedBy": "xwa-epic-overlapping-objects"
+  },
+  "epic-allied": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-allied-vs-friendly-terms"
+  },
+  "epic-command-upgrades": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-command-upgrades"
+  },
+  "epic-restore": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-restore"
+  },
+  "epic-wings": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Changed: wing positions now follow the ships' ID numbers (lowest is the wing leader), and wingmates no longer split off.",
+   "replacedBy": "xwa-epic-wings"
+  },
+  "epic-wing-leader": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-wing-leader"
+  },
+  "epic-wingmates": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-wingmate"
+  },
+  "epic-wing-id-card": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Wing positions now follow the ships' ID numbers.",
+   "replacedBy": "xwa-epic-wings"
+  },
+  "epic-splitting-from-a-wing": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Changed: wingmates can't split from their wing; effects that would split them are replaced (see Forced Splitting).",
+   "replacedBy": "xwa-epic-splitting-the-wing"
+  },
+  "epic-joining-a-wing": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Replaced by the Official XWA Epic Rules.",
+   "replacedBy": "xwa-epic-joining-a-wing"
+  },
+  "epic-wing-overlap-diagrams": {
+   "asOf": "Official XWA Epic Rules Beta 2.1",
+   "reason": "Changed: a wingmate that can't be placed in formation now goes into reserve instead of executing the maneuver on its own.",
+   "replacedBy": "xwa-epic-moving-the-wingmates"
   }
  }
 }

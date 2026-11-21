@@ -66,9 +66,14 @@
   const RULE_BY_TITLE = {};
   [...DB.rules].reverse().forEach((r) => { RULE_BY_TITLE[r.title.toLowerCase()] = r.id; });
   DB.rules.filter((r) => r.sectionId === "glossary").forEach((r) => { RULE_BY_TITLE[r.title.toLowerCase()] = r.id; });
+  // Epic rules by name (current ones only; the newest document wins). Inside an Epic rule,
+  // "See Wings" goes to the Epic rule; Standard rules keep linking to Standard rules.
   const EPIC_BY_TITLE = {};
-  DB.rules.filter((r) => r.epic && r.source !== "rr").forEach((r) => { EPIC_BY_TITLE[r.title.toLowerCase()] = r.id; });
-  if (EPIC) Object.assign(RULE_BY_TITLE, EPIC_BY_TITLE);
+  DB.rules.filter((r) => r.epic && r.source !== "rr" && !r.deprecated).forEach((r) => {
+    EPIC_BY_TITLE[r.title.toLowerCase()] = r.id;
+    EPIC_BY_TITLE[r.title.replace(/\s*\([^)]*\)$/, "").toLowerCase()] ??= r.id;   // "Joining a Wing" for "… (Wings)"
+  });
+  let seeEpic = false;
 
   // ---------- icons ----------
   const ICONS = {
@@ -161,7 +166,8 @@
     });
     // "see Lock" / "(see Attack)" -> rule links
     html = html.replace(/\b([Ss]ee) ([A-Z][A-Za-z’' -]{2,40}?)(?=[).,;]|$)/g, (m, see, term) => {
-      const id = RULE_BY_TITLE[term.toLowerCase().trim()];
+      const key = term.toLowerCase().trim();
+      const id = (seeEpic && EPIC_BY_TITLE[key]) || RULE_BY_TITLE[key];
       return id ? `${see} <a href="#/rule/${id}">${term}</a>` : m;
     });
     if (opts.hl && opts.hl.length) html = highlight(html, opts.hl);
@@ -175,12 +181,13 @@
   }
 
   const shortDate = (d) => String(d || "").replace(/,\s*\d{1,2}:\d{2}\s*[AP]M$/i, "");
+  const verLabel = (s) => (/^\d/.test(s.version || "") ? `v${s.version}` : s.version || "");
   function sourceLabel(item) {
     if (item.source === "forum") return `XWA Rules Forum, ${shortDate(item.date)}`;
     if (item.source === "playtest") return `Playtest ruling, ${shortDate(item.date)}`;
     const s = SOURCES[item.source];
     if (!s) return "";
-    return `${s.title} v${s.version}, p. ${item.page}`;
+    return `${s.title} ${verLabel(s)}, p. ${item.page}`;
   }
   /** Document names link to the XWA's official documents page, once one is set in data/sources.json. */
   function docLink(text, url) {
@@ -288,11 +295,13 @@
   const outdated = (r) => (r.deprecated && (!r.deprecated.stagingTest || STAGING) ? r.deprecated : null);
 
   function outdatedBanner(r, dep) {
-    const repl = dep.replacedBy && RULINGS[dep.replacedBy];
+    const replRuling = dep.replacedBy && RULINGS[dep.replacedBy];
+    const replRule = dep.replacedBy && !replRuling && RULES[dep.replacedBy];
     return `<div class="outdated-note" role="note">
       <span class="outdated-tag">Outdated</span>
       <span>No longer current as of <b>${esc(dep.asOf)}</b>.${dep.reason ? " " + fmt(dep.reason) : ""}
-      ${repl ? ` <a href="#/ruling/${esc(repl.id)}">See the current ruling</a>.` : ""}</span></div>`;
+      ${replRuling ? ` <a href="#/ruling/${esc(replRuling.id)}">See the current ruling</a>.` : ""}
+      ${replRule ? ` See the current rule: <a href="#/rule/${esc(replRule.id)}">${esc(replRule.title)}</a>.` : ""}</span></div>`;
   }
 
   function rulingHtml(r, opts = {}) {
@@ -568,8 +577,12 @@
     });
     const glossary = sections.find((s) => s.name === "Glossary");
     const isEpic = (s) => s.items.some((r) => r.epic);
-    const others = sections.filter((s) => s !== glossary).sort((a, b) => isEpic(b) - isEpic(a));
-    const secLabel = (s) => (s.source === "rb" ? " (Rulebook)" : isEpic(s) ? " (Epic)" : "");
+    const allOld = (s) => s.items.every((r) => outdated(r));
+    const srcRank = (s) => DB.meta.sources.findIndex((d) => d.id === s.source);
+    const rank = (s) => (isEpic(s) ? (allOld(s) ? 2 : 0) : 1);
+    const others = sections.filter((s) => s !== glossary)
+      .sort((a, b) => rank(a) - rank(b) || (isEpic(a) && isEpic(b) ? srcRank(b) - srcRank(a) : 0));
+    const secLabel = (s) => (s.source === "rb" ? " (Rulebook)" : isEpic(s) ? (allOld(s) ? " (Epic, outdated)" : " (Epic)") : "");
     const letters = {};
     [...glossary.items].sort((a, b) => a.title.localeCompare(b.title)).forEach((r) => {
       const L = r.title[0].toUpperCase();
@@ -584,8 +597,8 @@
         <div class="letters">${Object.keys(letters).map((L) => `<a href="#/rules" data-jump="L-${L}">${L}</a>`).join("")}</div>
         <div class="az">${Object.entries(letters).map(([L, rs]) => `<h3 id="L-${L}">${L}</h3>${rs.map((r) => `<a href="#/rule/${r.id}">${esc(r.title)}</a>`).join("")}`).join("")}</div>
       </section>
-      ${others.map((s, i) => `<h2 class="section-title" id="sec-${i}">${esc(s.name)}${s.source === "rb" ? " <span class='muted'>· Rulebook</span>" : ""} ${s.items.some((r) => r.epic) ? epicTag({ epic: true }) : ""}</h2>
-        <div class="az">${s.items.map((r) => `<a href="#/rule/${r.id}">${esc(r.title)}</a>`).join("")}</div>`).join("")}`;
+      ${others.map((s, i) => `<h2 class="section-title" id="sec-${i}">${esc(s.name)}${s.source === "rb" ? " <span class='muted'>· Rulebook</span>" : ""}${isEpic(s) ? ` <span class='muted'>· ${esc((SOURCES[s.source] || {}).title || "")}${SOURCES[s.source] ? " " + esc(verLabel(SOURCES[s.source])) : ""}</span> ${epicTag({ epic: true })}` : ""}</h2>
+        <div class="az">${s.items.map((r) => `<a href="#/rule/${r.id}"${outdated(r) ? ` class="is-outdated" title="Outdated"` : ""}>${esc(r.title)}</a>`).join("")}</div>`).join("")}`;
   }
 
   function blockHtml(b, cards) {
@@ -632,11 +645,12 @@
     return `
       <div class="crumbs"><a href="#/rules">Rules</a> › ${esc(r.section)}</div>
       ${EPIC && !r.epic && EPIC_BY_TITLE[r.title.toLowerCase()] ? `<div class="epic-note" role="note">${epicTag({ epic: true })}
-        <span>Epic play has its own <a href="#/rule/${EPIC_BY_TITLE[r.title.toLowerCase()]}">${esc(r.title)}</a> rule. In an Epic game, it adds to or replaces this one.</span></div>` : ""}
+        <span>The Epic rules also cover <a href="#/rule/${EPIC_BY_TITLE[r.title.toLowerCase()]}">${esc(r.title)}</a>. In an Epic game, check that rule too: it adds to or changes this one where it applies.</span></div>` : ""}
+      ${outdated(r) ? outdatedBanner(r, outdated(r)) : ""}
       <div class="page-head"><div>
         <h1>${esc(r.title)} ${r.icons.map((i) => iconHtml(i.slice(1, -1))).join(" ")} ${epicTag(r)}</h1>
         <p class="muted">${refFor(r.id + "#0") ? `${refLink(refFor(r.id + "#0").split(".")[0])} in the Compendium · ` : ""}${sourceLink(r)} · ${copyButton("#/rule/" + r.id)} · ${reportLink(`Rule: ${r.title} (${sourceLabel(r)})`, "#/rule/" + r.id)}</p></div></div>
-      <article class="panel rule-body">${r.blocks.map((b) => blockHtml(b)).join("")}</article>
+      <article class="panel rule-body${outdated(r) ? " deprecated" : ""}">${(() => { seeEpic = !!r.epic; const h = r.blocks.map((b) => blockHtml(b)).join(""); seeEpic = false; return h; })()}</article>
       ${related.length ? `<h2 class="section-title">Related rulings</h2>${related.map((x) => rulingHtml(x)).join("")}` : ""}
       <p class="muted" style="margin-top:22px">
         ${prev && prev.section === r.section ? `← <a href="#/rule/${prev.id}">${esc(prev.title)}</a>` : ""}
@@ -698,7 +712,7 @@
         <p>The name is a nod to Obi-Wan searching the Jedi Archives for a planet that isn't there. If you can't find something here,
         it may simply not be in the official documents yet.</p>
         <h3>Sources</h3>
-        ${[...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => `<p class="bullet">${docLink(`${s.title} v${s.version}`, s.url)}${s.effective ? `, effective ${esc(s.effective)}` : ""}</p>`).join("")}
+        ${[...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => `<p class="bullet">${docLink(`${s.title} ${verLabel(s)}`, s.url)}${s.effective ? `, effective ${esc(s.effective)}` : ""}</p>`).join("")}
         <p class="bullet">${DB.meta.forum ? `Rules team answers from the <a href="https://www.xwing.life/forum/rules-questions" target="_blank" rel="noopener">XWA rules forum</a> (${esc(DB.meta.forum.count)} answers, collected ${esc(DB.meta.forum.fetched)}). Only replies from the XWA rules team are included; answers from Maui, the XWA rules lead, are marked as such.` : ""}</p>
         <p class="bullet">Card text, stats and dials: ${DB.meta.cardData ? `<a href="https://yasb.app" target="_blank" rel="noopener">YASB</a> (Yet Another Squad Builder, <a href="https://github.com/raithos/xwing" target="_blank" rel="noopener">MIT License</a>), imported ${esc(DB.meta.cardData.importedAt)}` : "not imported"}</p>
         <p>All rulings are reproduced from these documents maintained by the X-Wing Alliance (XWA). Every ruling cites the document and page it came from,
@@ -723,7 +737,7 @@
     const items = [];
     DB.cards.forEach((c) => items.push({ kind: "card", id: c.id, title: c.name, sub: cardTypeLine(c),
       head: norm(c.name), alt: (c.aliases || []).map(norm), body: norm(cardTypeLine(c) + " " + c.factions.join(" ")) }));
-    DB.rules.forEach((r) => items.push({ kind: "rule", id: r.id, title: r.title, sub: `${r.section} · ${sourceLabel(r)}`,
+    DB.rules.forEach((r) => items.push({ kind: "rule", id: r.id, title: r.title, sub: `${outdated(r) ? "OUTDATED · " : ""}${r.section} · ${sourceLabel(r)}`,
       head: norm(r.title), body: norm(plainIcons(r.blocks.map((b) => b.t || b.cap || "").join(" "))) }));
     DB.rulings.forEach((r) => items.push({ kind: "ruling", id: r.id, title: plainIcons(r.q),
       sub: `${outdated(r) ? `OUTDATED as of ${outdated(r).asOf} · ` : ""}${r.topic} · ${sourceLabel(r)}`,
@@ -1259,8 +1273,8 @@
 
   const renderFooter = () => {
     document.getElementById("footer-sources").innerHTML = "Sources: "
-      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => (!s.url && s.epic ? esc(`${s.title} v${s.version}`)
-        : docLink(`${s.title} v${s.version}`, s.url))).join(" · ")
+      + [...DB.meta.sources, ...(DB.meta.otherDocuments || [])].map((s) => (!s.url && s.epic ? esc(`${s.title} ${verLabel(s)}`)
+        : docLink(`${s.title} ${verLabel(s)}`, s.url))).join(" · ")
       + (DB.meta.cardData ? ` · Card data from <a href="https://yasb.app" target="_blank" rel="noopener">YASB</a>` : "")
       + (DB.meta.reportForm ? `<br>${reportLink("General feedback (from the page footer)")}` : "");
   };

@@ -1,0 +1,1597 @@
+[
+ {
+  "kind": "p",
+  "text": "Beta v1 Rules Update Beta v2.1 Rules Update - Public Beta v2.2 Rules Update - Not Public",
+  "page": 1
+ },
+ {
+  "kind": "h2",
+  "text": "Introduction",
+  "page": 1
+ },
+ {
+  "kind": "p",
+  "text": "Turbolasers flash across the darkness of space, casting a pale light across the battle before you. Warships pummel each other with devastating weaponry as wings of starfighters stream between the massive vessels, nimbly avoiding point defenses and spiraling chunks of debris. But suddenly, the comms go chillingly silent. A shadow falls over the sector as the primary fleet commands go dark, abandoning the theater of war and leaving the fleet adrift. For a terrifying moment, the galaxy holds its breath, and it seems the light of this great conflict will be extinguished forever, consumed by the cold, quiet void. Yet, the pilots of this galaxy refuse to fade into the dark. Just as the line begins to fracture, a massive surge of chronometer energy ripples through hyperspace. New vectors illuminate your tactical display. A grand coalition of reinforcements, rallied under a unified alliance, drops into the fray with engines roaring and weapons fully charged! The call has been answered. As the battle line stabilizes and a newfound energy surges through the fleet, you call to adjust heading toward the fresh coordinates and shout for your docked fighters to scramble! The battle isn't over—it has only just begun.",
+  "page": 1
+ },
+ {
+  "kind": "h2",
+  "text": "Game Overview",
+  "page": 1
+ },
+ {
+  "kind": "p",
+  "text": "Huge ships are the largest ships available for Star Wars: X-Wing. They can be used during casual games of X-Wing, but are great when used in Epic format battles. Wings and escorts are also a feature of the Epic format and function similarly to non-huge ships, however they move as a unit of 3-6 ships, reducing the amount of time required for planning and activation. When playing a game using huge ships, escorts, or wings, players follow rules for a standard game of X-Wing and apply the rules presented in this document as necessary.",
+  "page": 1
+ },
+ {
+  "kind": "h2",
+  "text": "Resources",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Each ship has a resource tracker that displays a pair of two-digit numbers: one for its active shields and one for its active energy.",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Shields",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Shields of huge ships function similarly to the shields of non-huge ships; however players track a huge ship’s shields using a dial rather than tokens. If a ship loses or recovers shields, the shield dial on its resource tracker is adjusted by the amount lost or recovered.",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Energy",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Energy is a resource that huge ships spend to resolve various effects on ship, upgrade, and damage cards. If a ship loses or recovers energy, the shield dial on its resource tracker is adjusted by the amount lost or recovered.",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Damage Deck",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Huge ships use a unique damage deck. When a huge ship suffers damage, players follow the same rules used for a non-huge game of X-Wing; however, they draw the damage cards from the huge ship damage deck instead of the standard damage deck. This deck has additional rules that are described later.",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Huge Ship Cards",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Huge ship cards contain the same information as non-huge ship cards, with the following additions:",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Action Reminder",
+  "page": 2
+ },
+ {
+  "kind": "p",
+  "text": "Each huge ship can perform two actions during its activation instead of one. To remind players of this rule, there is a “2x” presented above the actions on the ship’s card.",
+  "page": 2
+ },
+ {
+  "kind": "h2",
+  "text": "Engagement Value",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "Each huge ship has an engagement value, a second orange number printed beneath its initiative value. During the activation phase, a huge ship activates according to its initiative value, like normal. However, a huge ship engages during the Engagement Phase at the initiative of its engagement value instead.",
+  "page": 3
+ },
+ {
+  "kind": "h2",
+  "text": "Recurring Shield and Energy Icons",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "During the End Phase, a huge ship can recover shields and energy. For each recurring shield or recurring energy icon (upward arrow) that is next to its shield or energy value, that ship recovers one active shield or energy respectively. When a ship recovers a shield or energy, its resource dial is increased by the amount received.",
+  "page": 3
+ },
+ {
+  "kind": "h2",
+  "text": "Standard Loadout Cards",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "Some cards come pre-equipped with upgrades. These are known as Standard Loadout cards. The upgrades on them cannot be swapped out and no other upgrades can be added with the exception of command upgrades, however they behave similarly to customizable ships in every other aspect.",
+  "page": 3
+ },
+ {
+  "kind": "h2",
+  "text": "Playing With Huge Ships",
+  "page": 3
+ },
+ {
+  "kind": "h2",
+  "text": "Setup",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "Players set up a game with huge ships using the same steps used for a standard game of X-Wing with the following additions:",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "• Gather Forces: Set each huge ship’s resource tracker so its shield and energy values match those shown at the bottom of the ship card.",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "• Place Forces: Place huge ships before all other ships. If there are multiple huge ships, they are placed in descending order according to their initiative value. Like a large ship, a huge ship’s base may extend outside of its side’s setup area as long as it fills the length of that area. It cannot be placed with any portion of its base outside of the play area. While deploying a huge ship, it cannot overlap any obstacles. (Note: When large ships turn, their backside may swing out further than intended. Be sure to set up in a way that you won’t extend beyond the borders of the playing area when turning!)",
+  "page": 3
+ },
+ {
+  "kind": "p",
+  "text": "• Prepare Other Components: Players shuffle the huge ship damage deck and place it facedown outside the play area. If the players have more than one huge ship damage deck, each player uses their own deck. Additionally, players place huge ship maneuver tools outside the play area.",
+  "page": 3
+ },
+ {
+  "kind": "h2",
+  "text": "Movement",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "Huge ships are less agile than non-huge ships. Their movement is limited to straight, bank, and stop maneuvers. To execute these maneuvers, huge ships use a huge ship maneuver tool.",
+  "page": 4
+ },
+ {
+  "kind": "h3",
+  "text": "Movement Grace Period",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "Due to their size and unique maneuvering templates, huge ships may occasionally swing outside the play area during the opening rounds of a match. To prevent early-game frustration, apply the following rules during Rounds 1 and 2:",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "• Partial Off-Board Maneuvers: If a huge ship’s aft section or any portion of its base temporarily leaves the play area while executing a maneuver, it is not considered to have fled the battlefield.",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "• The Round 3 Deadline: During the Activation Phase of Round 3, immediately after the huge ship completes its Execute Maneuver step, if any portion of its base is still outside the play area, it is considered to have fled and is destroyed.",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "• Out-of-Bounds Restrictions: Any portion of a huge ship's base that is outside the play area cannot be used to measure range, determine firing arcs, or establish line of sight for attacks, card abilities, or other game effects.",
+  "page": 4
+ },
+ {
+  "kind": "h3",
+  "text": "Straight Maneuvers",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "The straight edge of the huge ship maneuver tool is used for executing straight maneuvers. This edge has six lines that players use to execute straight maneuvers at various speeds.",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "To execute a straight maneuver, a player follows these steps:",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "1. Align Tool: The player places the straight edge of the maneuver tool against one of the long edges of the huge ship’s base. Then the player alights the speed 0 line of the tool to the huge ship’s center line.",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "2. Move Ship: The player moves the huge ship along the tool until the ship’s center line is aligned with the speed that corresponds to the maneuver’s speed. Then the player returns the tool to the supply and the maneuver is complete.",
+  "page": 4
+ },
+ {
+  "kind": "p",
+  "text": "When executing a straight maneuver, the base of the huge ship might overlap another ship or obstacle. To resolve maneuvers that cause overlapping, see “Overlapping Objects”.",
+  "page": 4
+ },
+ {
+  "kind": "h3",
+  "text": "Bank Maneuvers",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "The hook and jagged edge of the maneuver tool are used for executing bank maneuvers. This edge has four lines, which players use to execute bank maneuvers at various speeds.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "To execute a bank maneuver, a player follows these steps:",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "1. Position Tool: The player positions the maneuver tool by sliding the tool’s hook underneath the opening of the huge ship’s base so it fits into the base’s left groove or right groove depending on the direction of the bank. Both the hook and the hook’s edge should be flush against the ship’s base.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "2. Place huge Ship: The player places the huge ship so the front corner of its base is pressed into the corner of the maneuver tool that corresponds to the speed of the bank maneuver.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "If executing a speed 0 bank, the player aligns the front edge of the ship’s base with the speed 0 line on the tool.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "When executing a bank maneuver, the base of the huge ship might overlap another ship or obstacle. To resolve maneuvers that cause overlapping, see “Overlapping Objects”.",
+  "page": 5
+ },
+ {
+  "kind": "h3",
+  "text": "Stationary Maneuvers",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "A huge ship executes a stationary maneuver following the stationary maneuver rules for non-huge ships.",
+  "page": 5
+ },
+ {
+  "kind": "h2",
+  "text": "Attacks",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "During the Engagement Phase, each huge ship may perform multiple attacks.",
+  "page": 5
+ },
+ {
+  "kind": "h3",
+  "text": "Standard Attack",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "Like a non-huge ship, during its engagement phase, a huge ship may perform one standard attack which is either a primary attack or special attack with an “Attack:” header.",
+  "page": 5
+ },
+ {
+  "kind": "h3",
+  "text": "Bonus Attacks",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "Unlike non-huge ships, a huge ship may perform any number of bonus attacks before or after its standard attack. When an attack granted by a special weapon has the “Bonus Attack:” header, a huge ship equipped with that upgrade may perform the listed bonus attack while it engages.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "A huge ship can use each “Bonus Attack:” header only once per round.",
+  "page": 5
+ },
+ {
+  "kind": "p",
+  "text": "If an effect grants a huge ship a bonus attack that is a primary attack or special attack with an \"attack:\" header, it can perform only one bonus attack using that primary attack or \"attack:\" header per round.",
+  "page": 6
+ },
+ {
+  "kind": "h3",
+  "text": "Attack Range 4-5",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "Huge ships have standard firing arcs as denoted on their ship cards and their primary attacks can be made at range 1-3. However, some special weapons and abilities extend their firing arcs to range 4 or 5 while a weapon with that range requirement occupies that arc or that ability is active.",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "If a ship’s front arc or full front arc extends to range 4 or 5, its bullseye arc also extends to range 4 or 5.",
+  "page": 6
+ },
+ {
+  "kind": "h3",
+  "text": "Defending at Range 4-5",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "While a ship defends, if the attack is range 4-5, and the attack does not have the ordinance icon, the defender rolls two additional defense dice.",
+  "page": 6
+ },
+ {
+  "kind": "h2",
+  "text": "Additional Rules",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "This section contains additional rules that players need to understand to play the game of X-Wing using huge ships.",
+  "page": 6
+ },
+ {
+  "kind": "h2",
+  "text": "Overlapping Objects",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "Huge ships have unique rules for overlapping that expand upon the rules presented in the X-Wing core rulebook.",
+  "page": 6
+ },
+ {
+  "kind": "h3",
+  "text": "Overlapping Obstacles",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "If a huge ship overlaps an obstacle, the ship does not skip its Perform Action step. The obstacle is removed from the play area, and the huge ship suffers an effect according to the type of obstacle it overlapped, as follows:",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "• Asteroid or Debris Field: The huge ship suffers 2 damage.",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "• Gas Cloud: The huge ship breaks all locks it has, then receives 2 deplete tokens.",
+  "page": 6
+ },
+ {
+  "kind": "p",
+  "text": "Then the huge ship continues to resolve its activation.",
+  "page": 6
+ },
+ {
+  "kind": "h3",
+  "text": "Overlapping Huge Ships",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "During the Activation Phase, if a huge ship overlaps another huge ship, it executes a maneuver that is one speed lower than what was revealed on its dial. The huge ship repeats this process until it does not overlap another huge ship (executing a stationary or “stop” maneuver if it was executing a speed 0 bank).",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "Then the ship that executed the maneuver and each huge ship that it overlapped suffers critical hit damage equal to the speed of the maneuver on the overlapping ship’s dial to a minimum of 1.",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "If a non-huge ship (small, medium, or large) or wing formation overlaps a huge ship, it resolves the overlap using the same rules used for overlapping another non-huge ship.",
+  "page": 7
+ },
+ {
+  "kind": "h3",
+  "text": "Overlapping non-huge Ships",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "After a huge ship overlaps a non-huge ship, the non-huge ship suffers 1 hit damage. Then, make note of whether the non-huge ship is being overlapped by the front half of the huge ship, the back half, or both. The non-huge ship is picked up and set aside until the huge ship completes its maneuver. After the huge ship completes its maneuver, each non-wingmate non-huge ship that was picked up is placed in the huge ship’s full forward arc, full rear arc, or flanking the huge ship, at range 0. The ship is placed within the arc matching the section of the ship it overlapped, or flanking the ship if it overlapped both halves. Starting with the first player, players take turns placing any of their non-huge ships that were picked up. Any non-huge ship that cannot be placed in the correct ship arc is placed in another arc of that player’s choice. If the ship cannot be placed anywhere, the ship is destroyed. After a player places their ship, they must choose an opponent, who may rotate the ship 90° to the left or right using the position marker from the core set. Finally, any wingmates that remain to be placed reform on their wing leader as per “Wingmate Movement.”",
+  "page": 7
+ },
+ {
+  "kind": "h2",
+  "text": "Turret Arc Indicators",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "A huge ship can have up to two turret arc indicators if it equips two upgrades that grant it a single or double (“bowtie”) arc indicator.",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "If a huge ship has two upgrades that grant it a turret arc, place one turret arc indicator on one mount and a different colored turret indicator on the other mount. Then place the position marker that matches the color and type of indicator on the upgrade card that grants the corresponding turret.",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "Each indicator is associated with the upgrade that has the matching position marker. Since the indicators correspond to different weapons, each indicator can be pointed at different arcs or at the same arc. Regardless of whether a turret arc indicator is on the front or rear mount, its firing arcs are always measured from the center of the ship, not from the mount. Additionally, regardless of which mount they are on, both indicators behave similarly and occupy the arc they are pointing toward.",
+  "page": 7
+ },
+ {
+  "kind": "p",
+  "text": "When a huge ship is instructed to rotate its turret arc indicator—such as via the rotate action—it can rotate either or both of its turret arc indicators.",
+  "page": 8
+ },
+ {
+  "kind": "h2",
+  "text": "Huge Ship Damage Cards",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "Huge Ships use the huge ship damage deck instead of the standard damage deck.",
+  "page": 8
+ },
+ {
+  "kind": "h3",
+  "text": "Facedown Damage Cards",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "If a huge ship has suffered more than four facedown damage cards, it is suggested that players arrange the ship damage cards in groups of five. This makes it easier to count and track damage during a game.",
+  "page": 8
+ },
+ {
+  "kind": "h3",
+  "text": "Faceup Damage Cards",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "Each card in the huge ship damage deck has two effects: a primary effect (on the bottom), which functions like the effect of any other faceup damage card, and a precision shot effect (on the top), which is an additional effect that attackers can apply when firing from certain angles.",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "While a huge ship defends, if it is dealt a faceup damage card, resolve the precision shot effect only if the attacker is in the specified arc of the defending huge ship: side arc, full front arc, full rear arc, or bullseye arc. Note that precision shot effects trigger only if a huge ship is defending.",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "After resolving the precision shot effect (if applicable), apply the primary effect of the faceup damage card. Slide the card underneath the ship card or its other faceup damage cards such that only the primary effect is visible.",
+  "page": 8
+ },
+ {
+  "kind": "h3",
+  "text": "Damage on Standardized Loadout Cards",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "Some damage cards in the huge ship damage deck instruct the player to flip an upgrade to its inactive side. Since this cannot be done with a Standardized Loadout card, instead the ship ignores these effects and loses 1 energy.",
+  "page": 8
+ },
+ {
+  "kind": "h2",
+  "text": "Destroying Huge Ships",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "When a huge ship is destroyed, it is not removed from the play area until the end of the Engagement Phase. It still engages and can be engaged while in play.",
+  "page": 8
+ },
+ {
+  "kind": "h2",
+  "text": "Stress",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "Like a non-huge ship, a huge ship cannot perform actions while stressed.",
+  "page": 8
+ },
+ {
+  "kind": "p",
+  "text": "After a huge ship gains a stress token, it must spend one active energy to remove a stress token if able.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "After a huge ship recovers energy, it must spend one energy for each stress token it has. Then it removes one stress token for each energy spent this way.",
+  "page": 9
+ },
+ {
+  "kind": "h2",
+  "text": "Red Maneuvers",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "While a huge ship executes a red maneuver:",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "• If it has one or more active energy, it loses one energy instead of gaining one stress during the Check Difficulty step.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "• If it has zero energy and is not stressed, it gains one stress token during the Check Difficulty step.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "If it has zero energy and is stressed, it executes a white 2 straight maneuver instead of the maneuver on its dial.",
+  "page": 9
+ },
+ {
+  "kind": "h2",
+  "text": "Docking and Huge Ships",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "Some upgrades allow non-huge ships to dock with huge ships. While a docked ship deploys, it may execute its maneuver from the front or rear guides or by aligning the center of its maneuver template to the huge ship’s center line.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "During the System Phase, any number of ships docked to a huge ship may deploy from it. If a ship cannot be placed while being deployed, it is destroyed.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "During the System Phase, one or more non-huge ships may dock with a huge ship carrier at range 0-1.",
+  "page": 9
+ },
+ {
+  "kind": "h2",
+  "text": "Ion Tokens and Tractor Tokens",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "A huge ship is ionized while it has six or more ion tokens. While a huge ship is ionized, it behaves similarly to a non-huge ship when ionized.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "• It breaks all locks it is maintaining.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "• It must perform a 1 straight or 1 bank maneuver until the ion token is removed (this maneuver is considered blue, even if it does not appear blue on the huge ship’s dial).",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "• The only action it can perform is a focus action. It is important to note that due to the action limitation imposed on a huge ship while ionized, it cannot perform a second action because it cannot perform the same action twice.",
+  "page": 9
+ },
+ {
+  "kind": "p",
+  "text": "A huge ship is tractored while it has six or more tractor tokens. After a huge ship becomes tractored, it is not moved as a non-huge ship would be. It gains the “tractored” status and its agility is reduced by 1 to a minimum of 0.",
+  "page": 9
+ },
+ {
+  "kind": "h2",
+  "text": "Jam Tokens",
+  "page": 10
+ },
+ {
+  "kind": "p",
+  "text": "When a huge ship receives a jam token, it receives a deplete token instead.",
+  "page": 10
+ },
+ {
+  "kind": "h2",
+  "text": "Obstruction by Huge Ships",
+  "page": 10
+ },
+ {
+  "kind": "p",
+  "text": "While a huge ship obstructs an attack, the defender rolls one additional defense die. If the attacker is a friendly ship, the attack is still considered obstructed by the huge ship.",
+  "page": 10
+ },
+ {
+  "kind": "h2",
+  "text": "“Move” and “Rotate” Effects",
+  "page": 10
+ },
+ {
+  "kind": "p",
+  "text": "If another card’s effect instructs the huge ship to move or rotate its base, it does not move or rotate. This includes any effects that instruct it to perform an action that would move it (boost, barrel roll, slam, cloak/decloak, etc.).",
+  "page": 10
+ },
+ {
+  "kind": "p",
+  "text": "A wing is a group of multiple small ships that move together in a formation using a single maneuver dial. Each wing consists of one wing leader and two to five wingmates.",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "The wing leader executes maneuvers normally using a maneuver dial and a movement template, and the wingmates stay in formation with their wing leader by using a wing tool. Each ship in a wing has a specific wing position in the formation in descending number ID order.",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "The wing positions are as follows:",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Wing Leader: Front, center of the formation. (Lowest number ID, e.g. 1)",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Left Flank: To the left of the wing leader. (Next Lowest number ID, e.g. 2)",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Right Flank: To the right of the wing leader. (3)",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Rear Support: Directly behind the wing leader. (4)",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Left Support: Directly behind the left flank. (5)",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "• Right Support: Directly behind the right flank. (Highest number ID, e.g. 6)",
+  "page": 11
+ },
+ {
+  "kind": "h2",
+  "text": "Squad Building",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "To build a wing, the player must select a small-sized, limited pilot to be the leader and assign it the Wing Leader command upgrade. The player may equip upgrades to the wing leader normally. The wing leader and wingmates also gain additional effects when a corresponding command upgrade is equipped. Wingmates have specific rules for what can be equipped to them. For more information, see the Wingmate section on this page.",
+  "page": 11
+ },
+ {
+  "kind": "h2",
+  "text": "Restriction Exceptions",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "When building a wing, players may ignore restrictions from the XWA restricted list on the number of generic pilots and upgrades they are allowed to take, as long as they are non-limited (“generic”) pilots. Players must still follow the rules for limited upgrades when assigning upgrades to members of their formation.",
+  "page": 11
+ },
+ {
+  "kind": "h2",
+  "text": "Wing Leader",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "Any limited, small-base pilot can be a wing leader. When using a standard loadout pilot as a wing leader, a command slot is added to their loadout, however their loadout value remains 0. This is so that standard loadout pilots can be used as wing leaders.",
+  "page": 11
+ },
+ {
+  "kind": "p",
+  "text": "The following effect is equipped to your wing leader:",
+  "page": 12
+ },
+ {
+  "kind": "h3",
+  "text": "Wing Leader",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "Command Slot, 0 points Small base “You are a Wing Leader. Your wingmates must be 2-5 non-limited, small-sized ships of your ship type with the Wingmate upgrade card. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
+  "page": 12
+ },
+ {
+  "kind": "h2",
+  "text": "Wingmate",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "Wingmates must be 2-5 non-limited, small-sized ships and must be the same ship type as the wing leader.",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "Wingmates must equip the Wingmate upgrade and can only equip 1 additional upgrade up to their loadout value, however each wingmate must take the same upgrade if able or no upgrade. If an upgrade slot would be granted to a wingleader due to an equipped configuration, each wingmate also gains that upgrade slot.",
+  "page": 12
+ },
+ {
+  "kind": "h3",
+  "text": "Wingmate",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "Command slot, 0 points Small base, Non-Limited “You are a Wingmate. You are considered to have the same Configuration upgrade as your Wing Leader.”",
+  "page": 12
+ },
+ {
+  "kind": "h3",
+  "text": "Wingmate Configurations",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "When an upgrade says that a wingmate is considered to have the same configuration as its wing leader, that wingmate uses the wing leader’s configuration card as if it were its own. Whatever side the wing leader’s configuration is flipped to is the side that is active for that wingmate if the configuration flips to different effects.",
+  "page": 12
+ },
+ {
+  "kind": "h2",
+  "text": "Placing Wings During Setup",
+  "page": 12
+ },
+ {
+  "kind": "p",
+  "text": "During the Place Forces step of setup, the entire wing is placed immediately after the wing leader is placed at their initiative. Ships that are part of a wing cannot be docked unless a specific scenario dictates it. Each wing must be placed in its wing position according to its ID number. Wing leaders are placed first as normal, and then each ship in the wing is placed in ascending order according to its ID number. Any ship that cannot be placed is put into reserve until it is able to be placed in the formation.",
+  "page": 12
+ },
+ {
+  "kind": "h2",
+  "text": "Planning Phase",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "During the Planning Phase, only the wing leader is assigned a maneuver dial. The wingmates are not assigned dials, as they follow the wing leader.",
+  "page": 13
+ },
+ {
+  "kind": "h2",
+  "text": "System Phase",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "Wing leaders and wingmates behave as normal during the System Phase. If a member of a wing has an effect that triggers in the System Phase, that effect triggers at the ship’s standard initiative. If an effect would move a wing leader or wingmate during the System Phase:",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "• If a wing leader is moved or rotated during the system phase, the wing mates are rotated and moved with the wing leader so that they stay in formation. Any ship that is unable to be placed into formation after moving is put into reserve until they are able to rejoin the formation.",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "• If an effect other than the wing leader’s movement would have a wingmate move or rotate, that effect is ignored and the wingmate is given a strain instead.",
+  "page": 13
+ },
+ {
+  "kind": "h2",
+  "text": "Activation Phase",
+  "page": 13
+ },
+ {
+  "kind": "h2",
+  "text": "Moving the Wing Leader",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "Wings activate at their wing leader’s initiative. When the wing leader activates, they perform their maneuver, then perform their Perform Action step.",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "If a Wing Leader would move outside of its Perform Action or Execute Maneuver step, the wing reforms around them after the movement is completed.",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "If a wing leader would move in a way that it would overlap one or more wingmates, those wingmates are put into reserve while the wing leader moves. After the wing leader has moved, the rest of the wing formation reforms around them.",
+  "page": 13
+ },
+ {
+  "kind": "h2",
+  "text": "Moving the Wingmates",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "Once the wing leader has finished activating, the wing forms around them. When a wingmate moves as part of its activation, its player uses a wing tool to place the ship. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to all five possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve. A ship in reserve does not engage. The following apply to wingmates:",
+  "page": 13
+ },
+ {
+  "kind": "p",
+  "text": "• Before it moves, a wingmate is treated as revealing the same dial as the leader’s dial, even if the maneuver is not typically a maneuver available on the wingmate’s dial.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "• After it is placed in formation, a wingmate is treated as having fully executed the maneuver on the leader’s dial, even if the wing leader did not fully complete their maneuver. This includes speed, color, and bearing of the wing leader’s maneuver.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "• If a wingmate’s revealed maneuver is needed for an effect, it uses the leader’s revealed maneuver.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "• When a wingmate performs a blue maneuver, it removes one of each non-lock red token, including tokens that aren’t typically removed in this manner. For specific ion-related information, see Forced Splitting: Ionized.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "After the wing formation is reformed, each wingmate, starting with the wingmate with the lowest ID, takes its Perform Action step, performing any action on its action bar or scenario action (if able). If an action would force the wingmate to split from the wing, the action is considered failed and the wingmate cannot perform that action.",
+  "page": 14
+ },
+ {
+  "kind": "h3",
+  "text": "Slam With Wingmates",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "If the wing leader performs a Slam action, when the wing reforms around them, the wingmates each receive a disarm token. They can each still perform an action normally during their Perform Action Step.",
+  "page": 14
+ },
+ {
+  "kind": "h2",
+  "text": "Splitting the Wing",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "If a wingmate would move in a way that would split the wingmate from the wing (such as slam, barrel roll, boost, decloak, etc.) that wingmate cannot perform that move.",
+  "page": 14
+ },
+ {
+  "kind": "h3",
+  "text": "Forced Splitting",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "Game effects that would split a wingmate from its wing are instead replaced with other effects:",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "• Ionized: When a wingmate becomes ionized, it must follow these rules for ionized wingmates:",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "◊ The wingmate breaks all locks it is maintaining. While ionized, it cannot acquire or maintain locks",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "◊ While ionized, the only action a wingmate can perform is a focus action.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "◊ The wingmate cannot leave the formation while ionized except for being put into reserve if it cannot be placed. If the wing leader’s revealed maneuver does not clear an ion token, the wingmate still performs that move.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "◊ When a wing leader reveals a 1 forward, a 1 bank, or a blue maneuver on their dial during their activation, the ionized wingmate clears all ion tokens assigned to it at the end of that wingmate’s activation.",
+  "page": 14
+ },
+ {
+  "kind": "p",
+  "text": "◊ When the wing leader reveals a maneuver that clears an ion token from an ionized wingmate, the ionized wingmate treats that maneuver as blue.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "◊ During the wing leader’s activation, if they reveal a maneuver on their dial that does not clear an ion from an ionized wingmate, then the wing leader receives 1 ion token.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "◊ If an ionized wingmate becomes placed in reserve, it retains its ion tokens. While an ionized wingmate is in reserve, the wing leader does not suffer consequences for not clearing a wingmate’s ion tokens since the ionized wingmate is not considered in play.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• Tractor: The wingmate is assigned a tractor token, but cannot be moved. Their agility is still reduced by 1.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is stressed and its wing leader’s revealed maneuver is a red maneuver: The wingmate is assigned an additional stress token but remains in wing formation.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• An effect other than a maneuver instructs the ship to move or rotate its base: The wingmate is assigned a strain token and does not move or rotate.",
+  "page": 15
+ },
+ {
+  "kind": "h2",
+  "text": "Joining a Wing",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "A ship that is the same ship type as a wing can join that wing if there is an open position in the wing. When a ship joins a wing, the ship is placed into formation where space is available and becomes a wingmate. At the end of the End Phase, a ship can join a wing if the following conditions are met:",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is at range 0–1 of the wing.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is a generic pilot with no upgrades or only has upgrades that match the other wingmates.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• There is space available in the wing formation.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "• No members of the wing are in reserve.",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "When a ship joins a wing that it was not previously a member of, it gains the Standard Wingmate upgrade.",
+  "page": 15
+ },
+ {
+  "kind": "h2",
+  "text": "Engagement Phase",
+  "page": 15
+ },
+ {
+  "kind": "p",
+  "text": "Each member of the wing—including the wing leader—engages at the lowest initiative value among them, regardless of the printed initiative value of the leader or wingmates. When measuring range for an attack, each member of the wing measures from its own arc.",
+  "page": 15
+ },
+ {
+  "kind": "h2",
+  "text": "Resolving Damage with Wingmates",
+  "page": 16
+ },
+ {
+  "kind": "h3",
+  "text": "Faceup Damage",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "Whenever a wingmate would be dealt a faceup damage card, it instead takes two facedown cards. Damage does not rollover or cascade onto another wingmate if a wingmate would take an amount of damage that exceeds the amount required to destroy it.",
+  "page": 16
+ },
+ {
+  "kind": "h3",
+  "text": "Exposed Damage Cards",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "If a card instructs a damaged wingmate to expose a damage card, that wingmate receives 1 hit instead of exposing a damage card.",
+  "page": 16
+ },
+ {
+  "kind": "h2",
+  "text": "Additional Rulings",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "This section is for additional rulings for wings that have not been covered by other sections.",
+  "page": 16
+ },
+ {
+  "kind": "h2",
+  "text": "Docking With Wings",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "Wing Leaders and Wingmates cannot dock.",
+  "page": 16
+ },
+ {
+  "kind": "h2",
+  "text": "Leaving the Play Area",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "If a wing leader leaves the play area, the wing is considered destroyed. All members of the wing are removed from the game, regardless of how many wingmates would remain in play while in formation.",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "If a wingmate leaves the play area while the wing leader is still in play, the wingmate is instead put into reserve and rejoins the wing when able.",
+  "page": 16
+ },
+ {
+  "kind": "h2",
+  "text": "Measuring Range To or From a Wing",
+  "page": 16
+ },
+ {
+  "kind": "p",
+  "text": "Some effects may have you measure range to or from a wing as a whole.",
+  "page": 16
+ },
+ {
+  "kind": "h3",
+  "text": "Measuring Range To a Wing",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "When measuring range to a wing, you check whether the base of any member of the wing is within the specified range. If so, you must use the closest point of the closest base and use that for the measured result.",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "If an effect would have you check if a wing is within a bullseye arc, if any member of the wing is within the bullseye arc, it is considered within the bullseye arc.",
+  "page": 17
+ },
+ {
+  "kind": "h3",
+  "text": "Measuring Range From a Wing",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "When measuring range from a wing, you check whether any member of the wing meets the range requirement. If at least one member of the wing meets the range requirement, it is considered within range.",
+  "page": 17
+ },
+ {
+  "kind": "h2",
+  "text": "Replacing the Wing Leader",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "If the wing leader would be destroyed for any reason other than leaving the play area and there are still two or more wingmates within the play area or in reserve, move the Wing Leader upgrade card and any Configuration Upgrade card to the wingmate in play with the lowest ID number. If you cannot, because all remaining wingmates are in reserve, then place the wingmate with the lowest ID number in the position where the Wing Leader was, and move the Wing Leader upgrade card and any Configuration Upgrade card to that ship. That ship is now considered the wing leader.",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "If there is only remaining wingmate when a wing leader is destroyed, that ship is instead considered split from the wing formation at the end of the round and will still engage at the wing’s engagement value if they have not engaged that round, but will move and engage independently at its printed initiative value on the following round. That ship is still considered to have the configuration of their wing leader if they had that configuration before the wing leader was destroyed. They do not lose their wingmate command upgrade. If the wingmate was in reserve when this occurs, replace the wing leader with that wingmate.",
+  "page": 17
+ },
+ {
+  "kind": "h2",
+  "text": "Surviving Wing Leader",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "If there are no surviving wingmates, and none in reserve, and the wing leader is the only remaining member of the wing, it is considered split from the wing. The wing leader will move and engage on its printed initiative and will behave as an individual ship. It will retain its wing leader card and other ships may still join it to form another wing (see Joining a Wing). When a ship joins the wing leader to form a new wing, the wing leader is no longer considered split and also joins the wing.",
+  "page": 17
+ },
+ {
+  "kind": "p",
+  "text": "Similar to wings, escorts are a group of ships that move together using a single dial, however, unlike wings, an escort formation uses a medium or large-base ship as its commander and one to three small-base wing guard ships.",
+  "page": 18
+ },
+ {
+  "kind": "h2",
+  "text": "Squad Building",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "To build an escort formation, the player must select a medium or large-base, limited pilot to be the commander. The player may equip upgrades to the commander normally. The commander and wing guards also gain additional effects that do not count towards loadout value when a corresponding command upgrade is equipped. Wing guards have specific rules for what can be equipped to them. For more information, see the Wing Guard section of this page.",
+  "page": 18
+ },
+ {
+  "kind": "h2",
+  "text": "Restriction Exceptions",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "When building an escort, players may ignore restrictions from the XWA restricted list on the number of generic pilots and upgrades they are allowed to take, as long as they are non-limited (“generic”) pilots. Players must still follow the rules for limited upgrades when assigning upgrades to members of their formation.",
+  "page": 18
+ },
+ {
+  "kind": "h2",
+  "text": "Commander",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "Any limited, medium or large-base pilot can be a commander. When using a standard loadout pilot as a commander, a command slot is added to their loadout, however their loadout value remains 0. This is so that standard loadout pilots can be used as commanders.",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "The following effect is equipped to your commander. “You are a commander. Your wing guards must be 1-3 non-limited small-sized ships of the same type with the Wing Guard upgrade card. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
+  "page": 18
+ },
+ {
+  "kind": "h2",
+  "text": "Wing Guard",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "Wing guards must be 1-3 non-limited, small-sized ships and must all be the same ship type.",
+  "page": 18
+ },
+ {
+  "kind": "p",
+  "text": "Wing guards must equip the Wing Guard upgrade and can only equip 1 additional upgrade up to their loadout value, however each wing guard must equip the same upgrade if able or no upgrade.",
+  "page": 18
+ },
+ {
+  "kind": "h3",
+  "text": "Wing Guard",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "Command slot, 0 points Small base, Non-Limited “You are a Wing Guard. While an enemy ship performs an attack against a friendly commander in your formation, if you obstruct the attack, the defender rolls 1 additional die.”",
+  "page": 19
+ },
+ {
+  "kind": "h2",
+  "text": "Placing Escorts During Setup",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "During the Place Forces step of setup, the entire escort is placed immediately after the commander is placed at their initiative. Ships that are part of the escort cannot be docked unless a specific scenario dictates it. Commanders are placed first as normal, and then each ship in the wing guard is placed in ascending order according to its ID number in any available position in front of the commander. Any ship that cannot be placed is put into reserve until it is able to be placed in the formation. Players use the long wing tool to place the wing guards in front of the commander by placing the center guides of the commander’s ship into back-center slots of the wing tool. Then the wing guards are placed in any formation in front of the commander. During setup, the wing guards may extend beyond the setup area as long as the length of the commander’s base fills the length of the setup area, otherwise the wing guards are placed in reserve until they can be placed in the play area.",
+  "page": 19
+ },
+ {
+  "kind": "h2",
+  "text": "Planning Phase",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "During the Planning Phase, only the commander is assigned a maneuver dial. The wing guards are not assigned dials, as they follow the commander.",
+  "page": 19
+ },
+ {
+  "kind": "h2",
+  "text": "System Phase",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "Commanders and wing guards behave as normal during the System Phase. If a member of the escort has an effect that triggers in the System Phase, that effect triggers at the ship’s standard initiative. If an effect would move a commander or wing guard during the System Phase:",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "• If a commander is moved or rotated during the system phase, the wing mates are rotated and moved with the commander so that they stay in formation. Any ship that is unable to be placed into formation after moving is put into reserve until they are able to rejoin the formation.",
+  "page": 19
+ },
+ {
+  "kind": "p",
+  "text": "• If an effect other than the commander’s movement would have a wing guard move or rotate, that effect is ignored and the wing guard is given a strain instead.",
+  "page": 20
+ },
+ {
+  "kind": "h2",
+  "text": "Activation Phase",
+  "page": 20
+ },
+ {
+  "kind": "h2",
+  "text": "Moving the Commander",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "Escorts activate at their commander’s initiative. When the commander activates, they perform their maneuver, then perform their Perform Action step.",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "If a commander would be coordinated and that commander performs an action that would cause it to move outside of its perform action step, the escort reforms around them after the movement is completed.",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "If a commander would move in a way that it would overlap one or more wing guards, those wing guards are put into reserve while the commander moves. After the commander has moved, the rest of the escort formation reforms around them.",
+  "page": 20
+ },
+ {
+  "kind": "h2",
+  "text": "Moving the Wing Guards",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "Once the commander has finished activating, the escort forms around them. When a wing guard moves as part of its activation, its player uses the long wing tool to place the ship by first placing the commander’s front or back guides into the front center or back center guides of the wing tool. The controlling player can choose whether to place their wing guards in front of or behind the commander, but all wing guards must be placed in the same formation. Players cannot choose to put some wing guards in front of the commander and some behind it. Once the player has chosen whether to put the wing guards in front or in back of the commander after the commander finishes their activation, the wing guards must be placed on that side of the commander for the duration of the round.",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "To place a wing guard back into formation, start with the lowest numbered wing guard and place it in any available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wing guards, and use up to all three possible positions in a formation if able. If a wing guard cannot be placed back into formation because all available wing guard positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve. A ship in reserve does not engage. The following apply to wing guards:",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "• Before it moves, a wing guard is treated as revealing the same dial as the commander’s dial, even if that maneuver is not typically a maneuver available on the wing guard’s dial.",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "• After it is placed in formation, a wing guard is treated as having fully executed the maneuver on the commander’s dial, even if the commander did not fully complete their maneuver. This includes speed, color, and bearing of the commander’s maneuver.",
+  "page": 20
+ },
+ {
+  "kind": "p",
+  "text": "• If a wing guard’s revealed maneuver is needed for an effect, it uses the commander’s revealed maneuver.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "• When a wing guard performs a blue maneuver, it removes one of each non-lock red token, including tokens such as ion tokens that aren’t typically removed in this manner. For specific ion-related information, see Force Splitting: Ionized.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "After the escort is reformed, each wing guard, starting with the wing guard with the lowest ID, takes its Perform Action step, performing any action on its action bar or scenario action (if able). If an action would force the wing guard to split from the escort formation, the action is considered failed and the wing guard cannot perform that action.",
+  "page": 21
+ },
+ {
+  "kind": "h3",
+  "text": "Slam With Wing Guards",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "If the escort commander performs a Slam action, when the escort reforms around them, the wing guards each receive a disarm token. They can each still perform an action normally during their Perform Action Step.",
+  "page": 21
+ },
+ {
+  "kind": "h2",
+  "text": "Splitting the Escort",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "If a wing guard would move in a way that would split them from the escort (such as slam, barrel roll, boost, decloak, etc.) that wing guard cannot perform that move.",
+  "page": 21
+ },
+ {
+  "kind": "h3",
+  "text": "Forced Splitting",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "Game effects that would split a wing guard from its escort formation are instead replaced with other effects:",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "• Ionized: When a wing guard becomes ionized, it must follow these rules for ionized wing guards:",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ The wing guard breaks all locks it is maintaining. While ionized, it cannot acquire or maintain locks",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ While ionized, the only action a wing guard can perform is a focus action.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ The wing guard cannot leave the formation while ionized except for being put into reserve if it cannot be placed. If the commander’s revealed maneuver does not clear an ion token, the wing guard still performs that move.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ When a commander reveals a 1 forward, a 1 bank, or a blue maneuver on their dial during their activation, the ionized wing guard clears all ion tokens assigned to it at the end of that wing guard’s activation.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ When the commander reveals a maneuver that clears an ion token from an ionized wing guard, the ionized wing guard treats that maneuver as blue.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ During the commander’s activation, if they reveal a maneuver on their dial that does not clear an ion from an ionized wing guard, then the commander receives 3 ion tokens.",
+  "page": 21
+ },
+ {
+  "kind": "p",
+  "text": "◊ If an ionized wing guard becomes placed in reserve, it retains its ion tokens. While an ionized wing guard is in reserve, the commander does not suffer consequences for not clearing a wing guard’s ion tokens since the ionized wing guard is not considered in play.",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "• Tractor: The wing guard is assigned a tractor token, but cannot be moved. Their agility is still reduced by 1.",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "• The ship is stressed and its commander executes a red maneuver: The wing guard is assigned an additional stress token but remains in escort formation.",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "• An effect other than a maneuver instructs the ship to move or rotate its base: The wing guard is assigned a strain token and does not move or rotate.",
+  "page": 22
+ },
+ {
+  "kind": "h2",
+  "text": "Joining an Escort",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "Unlike Wings, ships cannot join an escort formation.",
+  "page": 22
+ },
+ {
+  "kind": "h2",
+  "text": "Engagement Phase",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "During the Engagement Phase, like huge ships and wings, escorts have an engagement value that is different from their initiative value. Each member of the escort—including the commander—engages at the lowest initiative value among them, regardless of the printed initiative value of the commander or wing guards. When an escort engages, its player chooses which order the ships engage in. Each member of the formation measures from its own arc.",
+  "page": 22
+ },
+ {
+  "kind": "h2",
+  "text": "Resolving Damage with Wing Guards",
+  "page": 22
+ },
+ {
+  "kind": "h3",
+  "text": "Resolving Faceup Damage Cards",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "Whenever a wing guard would be dealt a faceup damage card, it instead takes two facedown cards. Damage does not rollover or cascade onto another wing guard if a wing guard would take an amount of damage that exceeds the amount required to destroy it.",
+  "page": 22
+ },
+ {
+  "kind": "h3",
+  "text": "Exposed Damage Cards",
+  "page": 22
+ },
+ {
+  "kind": "p",
+  "text": "If a card instructs a damaged wing guard to expose a damage card, that wing guard receives 1 hit instead of exposing a damage card.",
+  "page": 22
+ },
+ {
+  "kind": "h2",
+  "text": "Additional Rulings",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "This section is for additional rulings for escorts that have not been covered by other sections.",
+  "page": 23
+ },
+ {
+  "kind": "h2",
+  "text": "Docking With Escorts",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "Commanders and wing guards cannot dock or have ships docked in them.",
+  "page": 23
+ },
+ {
+  "kind": "h2",
+  "text": "Leaving the Play Area",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "If a commander leaves the play area, the escort is considered destroyed. All members of the formation are removed from the game, regardless of how many wing guards would remain in play while in formation.",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "If a wing guard leaves the play area while the commander is still in play, the wing guard is instead put into reserve and rejoins the formation when able.",
+  "page": 23
+ },
+ {
+  "kind": "h2",
+  "text": "Measuring Range To or From an Escort",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "Some effects may have you measure range to or from an escort as a whole.",
+  "page": 23
+ },
+ {
+  "kind": "h3",
+  "text": "Measuring Range To an Escort",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "When measuring range to an escort, you check whether the base of any member of the escort is within the specified range. If so, you must use the closest point of the closest base and use that for the measured result.",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "If an effect would have you check if an escort is within a bullseye arc, if any member of the escort is within the bullseye arc, it is considered within the bullseye arc.",
+  "page": 23
+ },
+ {
+  "kind": "h3",
+  "text": "Measuring Range From an Escort",
+  "page": 23
+ },
+ {
+  "kind": "p",
+  "text": "When measuring range from an escort, you check whether any member of the wing meets the range requirement for the effect that is having you measure. If at least one member of the escort meets the range requirement, it is considered within range.",
+  "page": 23
+ },
+ {
+  "kind": "h2",
+  "text": "Destroying a Commander",
+  "page": 24
+ },
+ {
+  "kind": "p",
+  "text": "If the wing leader would be destroyed for any reason other than leaving the play area and there are still wing guards in play or in reserve:",
+  "page": 24
+ },
+ {
+  "kind": "p",
+  "text": "• If there are two or more wing guards, it forms a wing. The ship with the lowest ID becomes the wing leader. The other two ships lose the “Standard Wing Guard” upgrade and gain the “Standard Wingmate” command upgrade. If the wing leader is in reserve, mark the front guides of the commander before removing it from the game and place the wing leader in its place. Then place all wingmates in wing formation starting from the next lowest ID. To place a wingmate back into formation, start with the lowest numbered wingmate and place it in the lowest available position that does not overlap a ship or obstacle, or leave the play area. Proceed through all of the wingmates, and use up to two possible positions in a formation if able. If a wingmate cannot be placed back into formation because all available wingmate positions would overlap another ship or obstacle, or would leave the play area, place it in reserve. The next time there is an open position in the formation, return the ship to the formation from reserve.",
+  "page": 24
+ },
+ {
+  "kind": "p",
+  "text": "• If there is only one wing guard remaining, it is considered split from the escort formation at the end of the round and will still engage at the escort’s engagement value if it has not engaged that round, but will move and engage at its printed initiative value on the following round. It loses its wing guard command upgrade and all effects gained from it on the following round. If it is in reserve, replace the commander with it.",
+  "page": 24
+ },
+ {
+  "kind": "h2",
+  "text": "Surviving Commander",
+  "page": 24
+ },
+ {
+  "kind": "p",
+  "text": "If there are no surviving wing guards, and none in reserve, and the commander is the only remaining member of the escort, it is considered split from the escort. The commander will move and engage on its printed initiative and will behave as an individual ship.",
+  "page": 24
+ },
+ {
+  "kind": "p",
+  "text": "This section covers additional rulings or features within the Epic format that are not covered in previous sections.",
+  "page": 25
+ },
+ {
+  "kind": "h2",
+  "text": "Allied vs Friendly Terms",
+  "page": 25
+ },
+ {
+  "kind": "p",
+  "text": "In a team epic match, sometimes players of the same team will use non-matching factions. When this occurs, the factions are considered allied, but not friendly (though for more casual matches, this can be adjusted if all players agree). When ships are considered allied, they are not considered enemy ships, however effects that require a ship to be “friendly” do not take effect with a ship that is considered allied but not friendly.",
+  "page": 25
+ },
+ {
+  "kind": "h2",
+  "text": "Command Upgrades",
+  "page": 25
+ },
+ {
+  "kind": "p",
+  "text": "Command upgrades are upgrades that represent strategic capacities reserved for more involved battles. These upgrades function like any other type of upgrade. In Epic games, each non-huge ship has one command upgrade slot in its upgrade bar in addition to its usual upgrade slots. Huge ships already have command upgrade slots in their upgrade bars.",
+  "page": 25
+ },
+ {
+  "kind": "h2",
+  "text": "Docking and Huge Ships",
+  "page": 25
+ },
+ {
+  "kind": "p",
+  "text": "Some upgrades or abilities allow ships to dock with huge ships. While a dock ship deploys, it may execute its maneuver from the front or rear guides or by aligning the center of its maneuver template to the huge ship’s center line.",
+  "page": 25
+ },
+ {
+  "kind": "p",
+  "text": "During the System Phase, any number of ships docked to a huge ship may deploy from it. If a ship cannot be placed while being deployed, it is destroyed.",
+  "page": 25
+ },
+ {
+  "kind": "p",
+  "text": "During the System Phase, one or more non-huge ships may dock with a huge ship carrier at range 0-1.",
+  "page": 25
+ },
+ {
+  "kind": "h2",
+  "text": "Reserve",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "Ships can sometimes be placed in reserve from card effects. A ship that is placed in reserve is placed on its ship card outside of the play area. While a ship is in reserve, it is not assigned a dial, it cannot perform actions, and it cannot attack.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• A ship that is placed in reserve will have an effect that causes it to be placed in the play area.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Ships that are placed in reserve are not removed from the game.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• The abilities of a ship in reserve are inactive unless the ability explicitly allows it to be used while it is in reserve.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• A ship that is docked is placed in reserve.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• During the End Phase, a ship that is in reserve still removes all circular tokens and recovers charges on all of its cards with recurring charge icons.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Ships in reserve retain non-circular tokens that do not normally get removed at the end of the round, such as red tokens (ions, stress, strain, etc).",
+  "page": 26
+ },
+ {
+  "kind": "h2",
+  "text": "Restore",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "When an effect restores a ship or remote, reset that ship or remote as if it was being placed at the start of the game. This includes:",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Place it into the play area as instructed.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Remove all damage cards, tokens, markers, and conditions from it.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Reset its charges to their starting values.",
+  "page": 26
+ },
+ {
+  "kind": "p",
+  "text": "• Resolve any “Setup:” effects on its ship or upgrade cards as if it were being placed at the start of the game.",
+  "page": 26
+ }
+]

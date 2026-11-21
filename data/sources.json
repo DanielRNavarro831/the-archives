@@ -146,6 +146,25 @@
     {"id": "epic-faq", "title": "Epic FAQ", "kind": "faq", "from": 8, "to": 8, "startText": "This section contains answers"},
     {"id": "epic-guidance", "title": "Epic Event Guidance", "kind": "rules", "from": 8, "to": 8, "startText": "This section includes guidance", "introTitle": "Epic Event Guidance"}
    ]
+  },
+  {
+   "id": "xe",
+   "title": "Official XWA Epic Rules",
+   "version": "Beta 2.1",
+   "effective": "",
+   "epic": true,
+   "_note": "XWA's Epic rules (public beta). Single-column PDF: extract with tools/extract_doc_pdf.py ... --promote \"Additional Rules\". No 'url' yet. Rules here replace the Rules Reference's Appendix: Huge Ships and parts of the Epic Battles Rules Reference v1.0.6; see data/deprecated-rulings.json.",
+   "file": "pdfs/epic-rules-beta-2.1.pdf",
+   "raw": "epic-rules-beta-2.1",
+   "idPrefix": "xwa-epic-",
+   "dedupeTitles": true,
+   "sections": [
+    {"id": "xe-intro", "title": "Introduction", "kind": "rules", "from": 1, "to": 1, "startText": "Introduction"},
+    {"id": "xe-huge", "title": "Huge Ships", "kind": "rules", "from": 2, "to": 10},
+    {"id": "xe-wings", "title": "Wings", "kind": "rules", "from": 11, "to": 17, "introTitle": "Wings"},
+    {"id": "xe-escorts", "title": "Escorts", "kind": "rules", "from": 18, "to": 24, "introTitle": "Escorts"},
+    {"id": "xe-additional", "title": "Additional Epic Rules", "kind": "rules", "from": 25, "to": 26, "introTitle": "Additional Epic Rules"}
+   ]
   }
  ]
 }

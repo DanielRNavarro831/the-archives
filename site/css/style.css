@@ -451,6 +451,9 @@ h1 .epic-tag, h2 .epic-tag { font-size: .62rem; }
   background: color-mix(in srgb, #6d3fc4 14%, var(--panel)); border: 1px solid #6d3fc4; border-radius: var(--radius); padding: 10px 16px; }
 .ruling .kicker .epic-tag, .erratum .kicker .epic-tag { margin-right: 6px; }
 .epic-only { max-width: 560px; margin: 30px auto; text-align: center; }
+.az a.is-outdated { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--hit) 70%, transparent); }
+.rule-body.deprecated { border: 2px solid var(--hit); }
+.rule-body.deprecated > * { opacity: .8; }
 
 /* ---------------- Judge Quiz (staging) ---------------- */
 .quiz-progress { display: flex; gap: 5px; margin: 4px 0 8px; }

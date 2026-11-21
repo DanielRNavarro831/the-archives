@@ -204,7 +204,12 @@ def place_figures(source, sections, anchors):
 
 def new_rule(name, icons, sec, source, page, rules, used_ids):
     rid = slug(name)
-    if source.get("epic") and not rid.startswith("epic-"):
+    prefix = source.get("idPrefix")
+    if prefix:
+        # e.g. "xwa-epic-wings"; a name used twice gets its part: "xwa-epic-escorts-squad-building"
+        part = sec["id"].removeprefix(source["id"] + "-")
+        rid = prefix + rid if prefix + rid not in used_ids else f"{prefix}{part}-{rid}"
+    elif source.get("epic") and not rid.startswith("epic-"):
         rid = "epic-" + rid           # Epic rules get their own addresses (#/rule/epic-setup)
     if rid in used_ids:
         rid = f"{sec['id']}-{rid}"
@@ -474,6 +479,14 @@ def main():
         paras = [p for p in paras
                  if not (len(p["text"]) < 30 and all(len(w) <= 2 for w in p["text"].rstrip(":").split()))]
         rules = build_rules(paras, src, src["sections"], rules, used)
+        if src.get("dedupeTitles"):
+            mine = [r for r in rules if r["source"] == src["id"]]
+            counts = {}
+            for r in mine:
+                counts[r["title"]] = counts.get(r["title"], 0) + 1
+            for r in mine:
+                if counts[r["title"]] > 1:
+                    r["title"] = f"{r['title']} ({r['section']})"
         build_rulings(paras, src, src["sections"], rulings)
         build_errata(paras, src, src["sections"], errata)
     for e in errata:
@@ -614,7 +627,18 @@ def main():
 
     # rulings kept for reference but no longer current (data/deprecated-rulings.json)
     dep_path = ROOT / "data" / "deprecated-rulings.json"
-    deprecated = json.loads(dep_path.read_text(encoding="utf-8")).get("rulings", {}) if dep_path.exists() else {}
+    dep_all = json.loads(dep_path.read_text(encoding="utf-8")) if dep_path.exists() else {}
+    deprecated = dep_all.get("rulings", {})
+    rules_by_id = {r["id"]: r for r in rules}
+    for rid, info in dep_all.get("rules", {}).items():
+        if rid not in rules_by_id:
+            print(f"WARNING: deprecated-rulings.json names unknown rule {rid}")
+            continue
+        if info.get("replacedBy") and info["replacedBy"] not in rules_by_id:
+            print(f"WARNING: outdated rule {rid} is replaced by unknown rule {info['replacedBy']}")
+        rules_by_id[rid]["deprecated"] = {k: info.get(k) for k in ("asOf", "reason", "replacedBy", "stagingTest") if info.get(k)}
+    if dep_all.get("rules"):
+        print(f"Outdated rules: {len(dep_all['rules'])}")
     by_id = {r["id"]: r for r in rulings}
     for rid, info in deprecated.items():
         if rid not in by_id:

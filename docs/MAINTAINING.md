@@ -186,6 +186,18 @@ or type §22.4 in the search box) and read the actual text yourself.
     Diagrams: `python tools/extract_figures.py pdfs/<epic pdf> ep`. Fix-ups live in
     `data/figures-curated.json`: `dropFigure` (not a real diagram), `figureBox` (re-crop in PDF points),
     `placeFigure` (move to another rule) and `dropLabel` (picture labels that leaked into the text).
+  - **Official XWA Epic Rules (Beta 2.1)** is document `xe`. It's a single-column PDF from a word
+    processor, so it uses its own reader:
+    `python tools/extract_doc_pdf.py pdfs/<file>.pdf data/raw/<raw>.json --promote "Additional Rules"`
+    (headings are found by font size; `--promote` makes the sub-headings under "Additional Rules"
+    entries of their own). Its rules get addresses like `#/rule/xwa-epic-wings`
+    (`"idPrefix"`), and names used in two parts get the part added, e.g. "Squad Building (Wings)"
+    (`"dedupeTitles"`).
+  - **Outdated rules:** like rulings, rules entries can be marked outdated in
+    `data/deprecated-rulings.json`, under `"rules"` (same fields; `replacedBy` is a rule id).
+    Beta 2.1 replaced the Rules Reference's Appendix: Huge Ships and the wing rules, allied,
+    command upgrades and restore entries of Epic v1.0.6. Those are kept, marked Outdated, and
+    link to their replacement.
 
 ## Usage statistics (GoatCounter)
 
