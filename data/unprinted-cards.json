@@ -1,17 +1,18 @@
 {
- "_readme": "Unprinted cards: upgrades that exist only as text in a rules document (e.g. the command upgrades in the Official XWA Epic Rules). Each card: id, name, type, slot, restriction, text (the quoted card text, word for word), source (a document id from sources.json), page, rule (the rules entry that explains it), optional aliases, and epic: true to show it only in Epic mode. Never add points or loadout values. The build warns if a card's text no longer appears in its document, so re-check these after a new version of the document.",
+ "_readme": "Unprinted cards: upgrades that exist only as text in a rules document (e.g. the command upgrades in the Official XWA Epic Rules). Each card: id, name, type, slot, restriction, text (the quoted card text, word for word), source (a document id from sources.json), page, rule (the rules entry that explains it), optional aliases, epic: true to show it only in Epic mode, and playtest: true to add the green Playtest label. Never add points or loadout values. The build warns if a card's text no longer appears in its document, so re-check these after a new version of the document.",
  "cards": [
   {
    "id": "wing-leader-command",
    "name": "Wing Leader",
    "type": "Upgrade",
    "slot": ["Command"],
-   "restriction": "Limited ship, Small ship",
-   "text": "You are a Wing Leader. Your wingmates must be 2-5 non-limited, small-sized ships of your ship type with the Wingmate upgrade card. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.",
+   "restriction": "Small ship",
+   "text": "You are a Wing Leader. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.",
    "source": "xe",
    "page": 12,
    "rule": "xwa-epic-wing-leader",
-   "epic": true
+   "epic": true,
+   "playtest": true
   },
   {
    "id": "wingmate-command",
@@ -23,19 +24,21 @@
    "source": "xe",
    "page": 12,
    "rule": "xwa-epic-wingmate",
-   "epic": true
+   "epic": true,
+   "playtest": true
   },
   {
    "id": "commander-command",
    "name": "Commander",
    "type": "Upgrade",
    "slot": ["Command"],
-   "restriction": "Limited ship, Medium or Large ship",
-   "text": "You are a commander. Your wing guards must be 1-3 non-limited small-sized ships of the same type with the Wing Guard upgrade card. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.",
+   "restriction": "Medium or Large ship",
+   "text": "You are a commander. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.",
    "source": "xe",
    "page": 18,
    "rule": "xwa-epic-commander",
-   "epic": true
+   "epic": true,
+   "playtest": true
   },
   {
    "id": "wing-guard-command",
@@ -47,7 +50,8 @@
    "source": "xe",
    "page": 19,
    "rule": "xwa-epic-wing-guard",
-   "epic": true
+   "epic": true,
+   "playtest": true
   }
  ]
 }

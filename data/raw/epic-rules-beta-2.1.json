@@ -691,7 +691,7 @@
  },
  {
   "kind": "p",
-  "text": "Command Slot, 0 points Small base “You are a Wing Leader. Your wingmates must be 2-5 non-limited, small-sized ships of your ship type with the Wingmate upgrade card. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
+  "text": "Command Slot, 0 points Small base “You are a Wing Leader. While defending, the wingmate in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
   "page": 12
  },
  {
@@ -1116,7 +1116,7 @@
  },
  {
   "kind": "p",
-  "text": "The following effect is equipped to your commander. “You are a commander. Your wing guards must be 1-3 non-limited small-sized ships of the same type with the Wing Guard upgrade card. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
+  "text": "The following effect is equipped to your commander. “You are a commander. While defending, the wing guard in play that is not destroyed with the highest ID number suffers all damage instead of you.”",
   "page": 18
  },
  {
@@ -1182,7 +1182,7 @@
  {
   "kind": "p",
   "text": "• If an effect other than the commander’s movement would have a wing guard move or rotate, that effect is ignored and the wing guard is given a strain instead.",
-  "page": 20
+  "page": 19
  },
  {
   "kind": "h2",
@@ -1237,7 +1237,7 @@
  {
   "kind": "p",
   "text": "• If a wing guard’s revealed maneuver is needed for an effect, it uses the commander’s revealed maneuver.",
-  "page": 21
+  "page": 20
  },
  {
   "kind": "p",
@@ -1317,7 +1317,7 @@
  {
   "kind": "p",
   "text": "◊ If an ionized wing guard becomes placed in reserve, it retains its ion tokens. While an ionized wing guard is in reserve, the commander does not suffer consequences for not clearing a wing guard’s ion tokens since the ionized wing guard is not considered in play.",
-  "page": 22
+  "page": 21
  },
  {
   "kind": "p",
