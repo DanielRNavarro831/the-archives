@@ -194,6 +194,18 @@
      "cards": ["genius-astromech", "top-cover-talent-tbe", "deathfire-tie-sa-bomber-tbe"]}
    ]
   },
+  "rr-63": {
+   "mechanic": "A ship places only one device during the System Phase, but an ability without the \"if you have not dropped or launched a device this round\" condition can still drop another one later that round.",
+   "groups": [
+    {"why": "Drops or launches a device after the System Phase, with no \"if you have not dropped...\" condition", "strength": "strong", "status": "approved",
+     "cards": ["paige-tico-mg-100-starfortress", "paige-tico-gunner-eod", "vagabond-tie-sk-striker", "parting-gift-talent", "parting-gift-talent-boe", "drk-1-probe-droids-payload"]},
+    {"why": "Has the \"if you have not dropped or launched a device this round\" limit, like Edon Kappehl and \"Genius\"", "strength": "strong", "status": "approved",
+     "cards": ["top-cover-talent-tbe", "deathfire-tie-sa-bomber-tbe"]},
+    {"why": "Drops a device during the System Phase (the one device a ship can place then)", "strength": "possible", "status": "approved",
+     "cards": ["proton-bombs-payload", "seismic-charges-payload", "ion-bombs-payload", "cluster-mines-payload", "proximity-mines-payload", "concussion-bombs-payload",
+               "blazer-bomb-payload", "bomblet-generator-payload", "electro-proton-bomb-payload"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

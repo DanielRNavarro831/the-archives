@@ -504,6 +504,40 @@ Already named: Edon Kappehl, Paige Tico, “Deathfire”
 - [x] **Top Cover** (Talent): After a friendly ship at range 0-1 defends, if you have not dropped or launched a device this round, you may launch a device using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. You ignore the effects of friendly devices.
 - [x] **“Deathfire” (TBE)** (TIE/sa Bomber): After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 {charge} to drop or launch a bomb using the [3 {straight}] template.
 
+## rr-63: A ship places only one device during the System Phase, but an ability without the "if you have not dropped or launched a device this round" condition can still drop another one later that round.
+
+> **Q:** If "Deathfire" [TIE Bomber] (or a ship with Paige Tico [{gunner}] equipped) placed a device during the System Phase, can that ship drop a bomb after being destroyed?
+>
+> **A:** Yes. A ship can only place a device once during the System Phase, but it can drop an additional bomb as instructed by its pilot (or upgrade) ability. Note however that some cards that can place devices at times other than the System Phase (such as Edon Kappehl [MG-100 Starfortress] and “Genius” [{astromech}]) contain the text “If you have not dropped or launched a bomb this round,” which would prevent them from placing a subsequent device if they had placed one in the System Phase.
+
+Already named: Edon Kappehl, Paige Tico, “Deathfire”, “Genius”
+
+**Drops or launches a device after the System Phase, with no "if you have not dropped..." condition** (strong match) — APPROVED, on the site
+
+- [x] **Paige Tico** (MG-100 StarFortress): After you drop a device, you may spend 1 {charge} to drop an additional device.
+- [x] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
+- [x] **"Vagabond"** (TIE/sk Striker): After you move using your Adaptive Ailerons, if you are not stressed you may drop 1 device.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **DRK-1 Probe Droids** (Payload): During the End Phase, you may spend 1 {charge} to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's {charge} cannot be recovered.
+
+**Has the "if you have not dropped or launched a device this round" limit, like Edon Kappehl and "Genius"** (strong match) — APPROVED, on the site
+
+- [x] **Top Cover** (Talent): After a friendly ship at range 0-1 defends, if you have not dropped or launched a device this round, you may launch a device using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. You ignore the effects of friendly devices.
+- [x] **“Deathfire” (TBE)** (TIE/sa Bomber): After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 {charge} to drop or launch a bomb using the [3 {straight}] template.
+
+**Drops a device during the System Phase (the one device a ship can place then)** (possible match) — APPROVED, on the site
+
+- [x] **Proton Bombs** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Proton Bomb using the [1 {straight}] template.
+- [x] **Seismic Charges** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Seismic Charge with the [1 {straight}] template.
+- [x] **Ion Bombs** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop an Ion Bomb using the [1 {straight}] template.
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Proximity Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Proximity Mine using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Concussion Bombs** (Payload): During the System Phase, if any of this card's {charge} are inactive, you must spend 1 {charge} to drop 1 concussion bomb, if able, using the [1 {straight}] template. Otherwise, you may spend 1 {charge} to drop 1 concussion bomb.
+- [x] **Blazer Bomb** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Blazer Bomb using the [1 {straight}] template.
+- [x] **Bomblet Generator** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Bomblet with the [1 {straight}] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 {charge}.
+- [x] **Electro-Proton Bomb** (Payload / Modification): Bomb During the System Phase, you may spend 1 {charge} to drop an Electro-Proton Bomb with the [1 {straight}] template. Then place 1 fuse marker on that device. This card's {charge} cannot be recovered.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
