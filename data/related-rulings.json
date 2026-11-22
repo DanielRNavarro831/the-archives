@@ -261,6 +261,16 @@
      "cards": ["proximity-mines-payload", "cluster-mines-payload", "conner-nets-payload"]}
    ]
   },
+  "rr-13": {
+   "mechanic": "Mines aren't bombs: an effect that refers to bombs (like Sabine Wren's) doesn't apply to mines.",
+   "groups": [
+    {"why": "Another mine, so Sabine Wren doesn't affect it either", "strength": "strong", "status": "approved",
+     "cards": ["cluster-mines-payload", "conner-nets-payload"]},
+    {"why": "Refers only to bombs, so it doesn't work with mines", "strength": "possible", "status": "approved",
+     "cards": ["goji-btl-b-y-wing", "ablative-plating-modification", "finch-dallow-mg-100-starfortress", "paige-tico-gunner", "paige-tico-gunner-eod",
+               "parting-gift-talent", "parting-gift-talent-boe", "scimitar-3-tie-sa-bomber-boe", "trajectory-simulator-sensor", "genius-astromech", "deathfire-tie-sa-bomber-tbe"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

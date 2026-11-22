@@ -662,6 +662,33 @@ Already named: none
 - [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
 - [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
 
+## rr-13: Mines aren't bombs: an effect that refers to bombs (like Sabine Wren's) doesn't apply to mines.
+
+> **Q:** When a ship moves through a Mine (and overlaps) does the timing window for Sabine Wren [{crew}] occur before or after the ship has an opportunity to perform an action?
+>
+> **A:** Trick question! Sabine only affects devices classified as bombs, not mines and other devices, such as a Proximity Mine.
+
+Already named: Proximity Mines, Sabine Wren
+
+**Another mine, so Sabine Wren doesn't affect it either** (strong match) — APPROVED, on the site
+
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
+
+**Refers only to bombs, so it doesn't work with mines** (possible match) — APPROVED, on the site
+
+- [x] **"Goji"** (BTL-B Y-wing): While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at 0-1 of it.
+- [x] **Ablative Plating** (Modification): Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 {charge}. If you do, prevent 1 damage.
+- [x] **Finch Dallow** (MG-100 StarFortress): Before you would drop a bomb, you may place it in the play area touching you instead.
+- [x] **Paige Tico** (Gunner): After you perform a primary attack, you may drop 1 bomb or rotate your {singleturretarc}. After you are destroyed, you may drop 1 bomb.
+- [x] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Scimitar 3 (BoE)** (TIE/sa Bomber): After you drop a bomb, you may spend 1 {charge} to perform a {boost} action.
+- [x] **Trajectory Simulator** (Sensor): During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 {straight}] template instead.
+- [x] **“Genius”** (Astromech): After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.
+- [x] **“Deathfire” (TBE)** (TIE/sa Bomber): After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 {charge} to drop or launch a bomb using the [3 {straight}] template.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
