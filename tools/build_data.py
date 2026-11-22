@@ -489,6 +489,25 @@ def add_unprinted_cards(cards, sources, rules):
     print(f"Unprinted cards: {added}")
 
 
+def load_team_rulings(cards):
+    """data/team-rulings.json -> rulings (source "team"), each tied to the cards it lists."""
+    path = ROOT / "data" / "team-rulings.json"
+    if not path.exists():
+        return []
+    out = []
+    for r in json.loads(path.read_text(encoding="utf-8")).get("rulings", []):
+        bad = [i for i in r.get("cards", []) if i not in cards]
+        if bad:
+            print(f"WARNING: team ruling {r['id']} names unknown cards {bad}")
+        r = dict(r, source="team", section=r.get("team", "XWA team") + " Rulings",
+                 cards=[i for i in r.get("cards", []) if i in cards])
+        for i in r["cards"]:
+            cards[i]["rulings"].append(r["id"])
+        out.append(r)
+    print(f"Team rulings: {len(out)} ({sum(1 for r in out if r.get('epic'))} Epic)")
+    return out
+
+
 def add_related_rulings(cards, rulings):
     """Approved groups in data/related-rulings.json -> card["relatedRulings"] (rulings that don't name the card)."""
     path = ROOT / "data" / "related-rulings.json"
@@ -665,6 +684,9 @@ def main():
         for i in r["cards"]:
             cards[i]["rulings"].append(r["id"])
     rulings = rulings + forum
+
+    # 6a. rulings given directly by an XWA team (data/team-rulings.json), e.g. the Epic team
+    rulings = rulings + load_team_rulings(cards)
 
     # banned cards (data/banned-cards.json): per card, a list of {format, where, note, since, stagingTest}
     ban_path = ROOT / "data" / "banned-cards.json"

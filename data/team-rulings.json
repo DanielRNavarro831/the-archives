@@ -1,0 +1,15 @@
+{
+ "_readme": "Rulings given directly by an XWA team (not from a document or the forum). Each ruling: id, team (who gave it, e.g. 'XWA Epic Team'), date, topic, q (question), a (list of answer paragraphs), cards (card ids the ruling applies to), and epic: true for Epic-only rulings (shown only in Epic mode). Add new ones at the end; never change an id once published.",
+ "rulings": [
+  {
+   "id": "epic-team-1",
+   "team": "XWA Epic Team",
+   "date": "Nov 21, 2026",
+   "topic": "Flipping Dials Faceup",
+   "epic": true,
+   "q": "In an Epic game, when an effect flips a ship's dial faceup, who can view that dial?",
+   "a": ["Only the player with the effect that says to flip the dial can view the dial."],
+   "cards": ["compromising-intel", "false-friend", "listening-device", "supreme-leader-snoke-crew"]
+  }
+ ]
+}

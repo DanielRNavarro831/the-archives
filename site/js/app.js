@@ -189,6 +189,7 @@
   function sourceLabel(item) {
     if (item.source === "forum") return `XWA Rules Forum, ${shortDate(item.date)}`;
     if (item.source === "playtest") return `Playtest ruling, ${shortDate(item.date)}`;
+    if (item.source === "team") return `${item.team || "XWA team"} ruling, ${shortDate(item.date)}`;
     const s = SOURCES[item.source];
     if (!s) return "";
     return `${s.title} ${verLabel(s)}, p. ${item.page}`;
@@ -201,7 +202,7 @@
   }
   /** Rule citations open the XWA's official PDF at the cited page (#page=N). */
   function sourceLink(item) {
-    if (item.source === "playtest") return esc(sourceLabel(item));
+    if (item.source === "playtest" || item.source === "team") return esc(sourceLabel(item));
     if (item.source === "forum")
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
     const s = SOURCES[item.source];

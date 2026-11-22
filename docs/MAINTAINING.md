@@ -338,3 +338,10 @@ note that the ruling doesn't name that card. Only groups with `"status": "approv
 `"rejected"` groups are kept so they aren't suggested again. After editing the file, run
 `python tools/build_data.py`, then `python tools/related_review.py` to refresh the review checklist in
 `docs/related-rulings-review.md`.
+
+## Team rulings
+
+`data/team-rulings.json` holds rulings given directly by an XWA team rather than in a document or on the
+forum, such as the Epic team's. Each one names the team and date (cited as "XWA Epic Team ruling, Nov 21, 2026"),
+a question and answer, and the cards it applies to. Rulings with `"epic": true` only show in Epic mode.
+Add new ones at the end and never change a published id.
