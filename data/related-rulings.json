@@ -371,6 +371,15 @@
      "cards": ["attack-speed-talent-boy", "controlled-ailerons", "adaptive-ailerons"]}
    ]
   },
+  "rr-33": {
+   "mechanic": "You can measure range before deciding whether to pay for an ability's longer range.",
+   "groups": [
+    {"why": "Pays a cost to change an ability's range, like Sense", "strength": "strong", "status": "approved",
+     "cards": ["thrawn-crew", "bombardment-specialists-team"]},
+    {"why": "Changes an attack's range requirement with no cost", "strength": "possible", "status": "approved",
+     "cards": ["major-rhymer-tie-sa-bomber"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

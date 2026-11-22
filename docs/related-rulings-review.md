@@ -956,6 +956,23 @@ Already named: Anakin Skywalker
 - [-] **Controlled Ailerons** (TIE Reaper): Before you reveal your dial, if you are not stressed, you may boost.
 - [-] **Adaptive Ailerons** (TIE/sk Striker): Before you reveal your dial, if you are not stressed, you must boost.
 
+## rr-33: You can measure range before deciding whether to pay for an ability's longer range.
+
+> **Q:** Does Sense [{forcepower}] require you to spend 1 {force} before measuring range to other ships?
+>
+> **A:** No. You can measure range to see which ships are at range 0–1 and which ships are at range 0–3 before deciding whether or not to spend the {force} to affect a ship at range 0–3.
+
+Already named: Sense
+
+**Pays a cost to change an ability's range, like Sense** (strong match) — APPROVED, on the site
+
+- [x] **Thrawn** (Crew): While you perform a {jam} or {coordinate} action, you may spend 1 {charge} to increase the range requirement for that action by 1. After you perform a {jam} or {coordinate} action, you may spend 2 {charge} to perform a {jam} or {coordinate} action, treating it as red.
+- [x] **Bombardment Specialists** (Team): While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.
+
+**Changes an attack's range requirement with no cost** (possible match) — APPROVED, on the site
+
+- [x] **Major Rhymer** (TIE/sa Bomber): While you perform a {torpedo} or {missile} attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
