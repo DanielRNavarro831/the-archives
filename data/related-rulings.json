@@ -28,13 +28,13 @@
    "groups": [
     {"why": "Same ability as the Count Dooku named in the ruling", "strength": "strong", "status": "approved",
      "cards": ["count-dooku-sith-infiltrator-soc"]},
-    {"why": "Triggers after dice are rolled", "strength": "strong",
+    {"why": "Triggers after dice are rolled", "strength": "strong", "status": "approved",
      "cards": ["4-lom-crew", "colonel-vessery-tie-d-defender", "han-solo-modified-yt-1300-light-freighter", "lando-calrissian-customized-yt-1300-light-freighter-scum",
                "lando-calrissian-escape-craft-escape-craft", "lando-calrissian-crew-scum", "lieutenant-kestal-tie-ag-aggressor", "munitions-failsafe-modification", "killer-clone-z-95-headhunter"]},
-    {"why": "Triggers before dice are rolled", "strength": "possible",
+    {"why": "Triggers before dice are rolled", "strength": "possible", "status": "approved",
      "cards": ["adaptive-s-foils", "alpha-3e-esk-configuration", "ancillary-ion-weapons-cannon-soc", "captain-seevor-modified-tie-ln-fighter", "freelance-slicer-crew",
                "moff-gideon-tie-ln-fighter", "carnor-jax-tie-in-interceptor", "c-3po-crew"]},
-    {"why": "Says it works after you roll or reroll (an exception the ruling helps explain)", "strength": "possible",
+    {"why": "Says it works after you roll or reroll (an exception the ruling helps explain)", "strength": "possible", "status": "approved",
      "cards": ["sunny-bounder-m3-a-interceptor"]}
    ]
   },
