@@ -82,8 +82,8 @@
      "cards": ["backwards-tailslide-talent", "kullbee-sperado-t-65-x-wing", "temmin-wexley-t-70-x-wing-hoh"]},
     {"why": "Grants a special upgrade slot, like Weapon Hardpoint", "strength": "strong", "status": "approved",
      "cards": ["versatile-frame"]},
-    {"why": "Upgrades with two or more types, except {command} upgrades (found from each upgrade's types, so new ones join automatically)", "strength": "possible", "status": "approved",
-     "match": {"upgradeWithTypes": 2, "excludeTypes": ["Command"]}, "cards": []}
+    {"why": "Upgrades with two or more types (found from each upgrade's types, so new ones join automatically)", "strength": "possible", "status": "approved",
+     "match": {"upgradeWithTypes": 2}, "cards": []}
    ]
   },
   "rr-69": {
