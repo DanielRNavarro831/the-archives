@@ -291,6 +291,31 @@ Already named: Foreman Proach, Overseer Yushyn, Quinn Jast
 
 - [-] **Satine Kryze** (Crew): At the start of the Engagement Phase, you may spend 2 {charge}. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus token or to gain 1 disarm token and 1 evade token.
 
+## rr-49: Attacks with the ordnance icon never get range bonuses, so effects that apply a range bonus can't add one to them.
+
+> **Q:** When attacking with a weapon with the ordnance icon (such as Proton Rockets) or defending against an attack with the ordnance icon, can Grand Inquisitor [TIE/Advanced v1] apply the range bonus?
+>
+> **A:** No.
+
+Already named: Grand Inquisitor, Proton Rockets
+
+**Applies a range bonus the attack wouldn't normally get** (strong match) — APPROVED, on the site
+
+- [x] **Chiss Engineering** (TIE/d Defender): After you fully execute a speed 3-5 maneuver, you may perform a {lock} action. While attacking, if you are not stressed, you may spend 1 {shield} to apply the range 1 bonus.
+
+**Prevents range bonuses** (possible match) — APPROVED, on the site
+
+- [x] **Adi Gallia** (Delta-7 Aethersprite): While you defend at attack range 1, you may spend 1 {force}. If you do, the attacker cannot apply the range bonus. While you perform an attack against a defender at attack range 3, you may spend 1 {force}, the defender cannot apply the range bonus.
+- [x] **Adi Gallia** (Delta-7b Aethersprite): While you defend at attack range 1, you may spend 1 {force}. If you do, the attacker cannot apply the range bonus. While you perform an attack against a defender at attack range 3, you may spend 1 {force}, the defender cannot apply the range bonus.
+- [x] **"Klick"** (Nimbus-class V-wing): While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 {charge} to prevent range bonuses from being applied.
+- [x] **“Klick” (SoC)** (Nimbus-class V-wing): While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 {charge} to prevent range bonuses from being applied.
+- [x] **Illegal Countermeasures** (Cargo): While you or a ship you are locking at range 0-3 defends or performs an attack, you may spend 1 {energy} to prevent range bonuses from being applied..
+- [x] **Synced Laser Cannons** (Cannon): Attack: If you are calculating, the defender does not apply the range bonus.
+
+**Cares whether an attack has the range bonus** (possible match) — APPROVED, on the site
+
+- [x] **Tristan Wren** (Crew): While a friendy unit at range 0-3 performs a {rangebonus} attack, you may spend 1 {charge}. If you do, the attacker may change 1 {hit} result to a {crit} result.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

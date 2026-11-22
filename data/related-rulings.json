@@ -107,6 +107,18 @@
      "cards": ["satine-kryze-crew"]}
    ]
   },
+  "rr-49": {
+   "mechanic": "Attacks with the ordnance icon never get range bonuses, so effects that apply a range bonus can't add one to them.",
+   "groups": [
+    {"why": "Applies a range bonus the attack wouldn't normally get", "strength": "strong", "status": "approved",
+     "cards": ["chiss-engineering"]},
+    {"why": "Prevents range bonuses", "strength": "possible", "status": "approved",
+     "cards": ["adi-gallia-delta-7-aethersprite", "adi-gallia-delta-7b-aethersprite-delta-7b", "klick-nimbus-class-v-wing", "klick-nimbus-class-v-wing-soc",
+               "illegal-countermeasures-cargo-epic", "synced-laser-cannons-cannon"]},
+    {"why": "Cares whether an attack has the range bonus", "strength": "possible", "status": "approved",
+     "cards": ["tristan-wren-crew"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
