@@ -8,7 +8,7 @@
    "topic": "Flipping Dials Faceup",
    "epic": true,
    "q": "In an Epic game, when an effect flips a ship's dial faceup, who can view that dial?",
-   "a": ["Only the player with the effect that says to flip the dial can view the dial."],
+   "a": ["Only the player with the effect that says to flip the dial can view the dial.", "If the effect is a condition (such as Listening Device), the player who assigned the condition may view the flipped dial."],
    "cards": ["compromising-intel", "false-friend", "listening-device", "supreme-leader-snoke-crew"]
   }
  ]
