@@ -349,10 +349,15 @@ Add new ones at the end and never change a published id. A ruling from the X-Win
 and `answeredBy` (e.g. Maui, XWA Rules Lead); the site cites it as "X-Wing: The Miniatures Game Discord, <date>" linking to the message
 (only Discord members can open it). Leave out the name of whoever asked.
 
-## Bombs and mines
+## Bombs, mines, obstacles and remotes
 
 YASB lists each bomb and mine device (Proximity Mine, Seismic Charge, …) as its own "condition" card. They
 aren't conditions, so `data/cards-curated.json` "mergeDevices" folds each one into the upgrade that drops it:
 the device's rules show on that upgrade's page under "<device> · device", the device's rulings and related
 links move to the upgrade, its name becomes a search alias, and its old address (`#/card/proximity-mine`)
-redirects to the upgrade. Add a line there for any new device.
+redirects to the upgrade. Placed obstacles (Loose Cargo, Spare Parts, Electro-Chaff Cloud) work the same way.
+Add a line there for any new device or obstacle.
+
+Remotes keep their own card, since they have one in the game. "remoteMakers" pairs each remote with the upgrade
+that creates it: both pages link to each other ("Creates" / "Created by"), the remote shows as type Remote, and
+any ruling or related ruling on one also shows on the other.

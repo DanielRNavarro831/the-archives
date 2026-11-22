@@ -538,7 +538,10 @@ def merge_devices(cards, rulings, cur):
         if not dev or not host:
             print(f"WARNING: mergeDevices: {dev_id} -> {host_id}: card not found")
             continue
-        host.setdefault("devices", []).append({"name": dev["name"], "text": dev.get("text")})
+        text = dev.get("text") or ""
+        kind = ("obstacle" if re.search(r"\*\*Types:\*\*\s*Obstacle", text)
+                else "device and obstacle" if "a device and an obstacle" in text else "device")
+        host.setdefault("devices", []).append({"name": dev["name"], "text": text, "kind": kind})
         if dev["name"] != host["name"] and dev["name"] not in host.setdefault("aliases", []):
             host["aliases"].append(dev["name"])
         for rid in dev.get("rulings", []):
@@ -555,6 +558,37 @@ def merge_devices(cards, rulings, cur):
     if redirects:
         print(f"Devices merged into their upgrades: {len(redirects)}")
     return redirects
+
+
+def pair_remotes(cards, rulings, cur):
+    """cards-curated.json "remoteMakers": a remote with its own card and the upgrade that creates it link to
+    each other ("makes" / "madeBy"), and every ruling (named or related) on one shows on the other."""
+    by_rid = {r["id"]: r for r in rulings}
+    pairs = 0
+    for rem_id, maker_id in cur.get("remoteMakers", {}).items():
+        if rem_id.startswith("_"):
+            continue
+        rem, maker = cards.get(rem_id), cards.get(maker_id)
+        if not rem or not maker:
+            print(f"WARNING: remoteMakers: {rem_id} -> {maker_id}: card not found")
+            continue
+        rem["type"] = "Remote"
+        rem.setdefault("madeBy", []).append(maker_id)
+        maker.setdefault("makes", []).append(rem_id)
+        for a, b in ((rem, maker), (maker, rem)):
+            for rid in list(a.get("rulings", [])):
+                r = by_rid.get(rid)
+                if r and b["id"] not in r["cards"]:
+                    r["cards"] = sorted(r["cards"] + [b["id"]])
+                if rid not in b["rulings"]:
+                    b["rulings"].append(rid)
+        for a, b in ((rem, maker), (maker, rem)):
+            for rid in a.get("relatedRulings", []):
+                if rid not in b["rulings"] and rid not in b.setdefault("relatedRulings", []):
+                    b["relatedRulings"].append(rid)
+        pairs += 1
+    if pairs:
+        print(f"Remotes paired with their upgrades: {pairs}")
 
 
 def add_related_rulings(cards, rulings):
@@ -814,6 +848,9 @@ def main():
 
     # 6c. reviewed "may also apply" links (data/related-rulings.json, approved groups only)
     add_related_rulings(cards, rulings)
+
+    # 6d. remotes and the upgrades that create them share their rulings (cards-curated.json "remoteMakers")
+    pair_remotes(cards, rulings, cur)
 
     # 7. the numbered Compendium (also writes site/compendium.txt)
     comp = compendium.build([r for r in rules if not r.get("epic")], [r for r in rulings if not r.get("epic")],

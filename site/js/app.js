@@ -507,11 +507,13 @@
                  : shipAb ? `<div class="cardtext">${shipAb}</div>`
                  : `<div class="cardtext missing">${c.flavor ? "This card has no ability text." : "Card text isn't in the Archives yet."}</div>`}
             ${c.flavor ? `<p class="flavor">${esc(c.flavor)}</p>` : ""}
-            ${(c.devices || []).map((d) => `<div class="device-rules"><h3>${esc(d.name)} <span class="muted">· device</span></h3>
+            ${(c.devices || []).map((d) => `<div class="device-rules"><h3>${esc(d.name)} <span class="muted">· ${esc(d.kind || "device")}</span></h3>
               <div class="cardtext">${d.text ? textBlock(d.text) : ""}</div></div>`).join("")}
             <dl>
               ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map((k) => UPGRADE_BY_YASB[k]
                   ? `<a href="#/card/${UPGRADE_BY_YASB[k].id}">${esc(k)}</a>` : esc(k)).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}
+              ${(c.makes || []).filter((i) => CARDS[i]).length ? `<dt>Creates</dt><dd>${c.makes.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(remote)</span>`).join(", ")}</dd>` : ""}
+              ${(c.madeBy || []).filter((i) => CARDS[i]).length ? `<dt>Created by</dt><dd>${c.madeBy.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(${esc(cardTypeLine(CARDS[i]).replace(/^Upgrade — /, ""))})</span>`).join(", ")}</dd>` : ""}
               ${shipOnly(c) || c.restriction ? `<dt>Restriction</dt><dd>${esc([shipOnly(c), c.restriction].filter(Boolean).join(", "))}</dd>` : ""}
               ${c.type === "Upgrade" && c.loadout && (LOADOUT_PILOTS[c.yasbKey] || []).length
                 ? `<dt>Comes with</dt><dd>${LOADOUT_PILOTS[c.yasbKey].map((p) => `<a href="#/card/${p.id}">${esc(p.name)}</a> <span class="muted">(${esc(p.ship || "")})</span>`).join(", ")}</dd>` : ""}

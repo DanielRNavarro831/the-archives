@@ -61,7 +61,7 @@
   "\"Zeb\" Orrelios": "Crew"
  },
  "mergeDevices": {
-  "_comment": "Device cards from YASB (bombs, mines) folded into the upgrade that drops them: the device's rules show on that upgrade's page, its rulings move there, and its old address redirects. device id -> upgrade id.",
+  "_comment": "Device and obstacle cards from YASB (bombs, mines, placed obstacles) folded into the upgrade that drops them: the device's rules show on that upgrade's page, its rulings move there, and its old address redirects. device id -> upgrade id.",
   "blazer-bomb": "blazer-bomb-payload",
   "bomblet": "bomblet-generator-payload",
   "concussion-bomb": "concussion-bombs-payload",
@@ -72,7 +72,22 @@
   "thermal-detonator": "thermal-detonators-payload",
   "cluster-mine": "cluster-mines-payload",
   "conner-net": "conner-nets-payload",
-  "proximity-mine": "proximity-mines-payload"
+  "proximity-mine": "proximity-mines-payload",
+  "electro-chaff-cloud": "electro-chaff-missiles-missile",
+  "loose-cargo": "rigged-cargo-chute-illicit",
+  "spare-parts": "spare-parts-canisters-modification"
+ },
+ "remoteMakers": {
+  "_comment": "Remotes that have their own card, and the upgrade that creates each one. Both pages link to each other, and a ruling on either one shows on both. remote id -> upgrade id.",
+  "buzz-droid-swarm": "discord-missiles-missile",
+  "drk-1-probe-droid": "drk-1-probe-droids-payload",
+  "sensor-buoy": "sensor-buoy-suite-tech",
+  "tracking-torpedoes": "tracking-torpedoes-torpedo",
+  "clan-wren-commandos": "clan-wren-commandos-crew",
+  "death-watch-commandos": "death-watch-commandos-crew",
+  "imperial-super-commandos": "imperial-super-commandos-crew",
+  "mandalorian-super-commandos": "mandalorian-super-commandos-crew",
+  "nite-owl-commandos": "nite-owl-commandos-crew"
  },
  "rulingCards": {
   "rr-52": [
@@ -80,6 +95,9 @@
   ],
   "rr-56": [
    "chopper-astromech-astromech"
+  ],
+  "rr-20": [
+   "electro-chaff-missiles-missile"
   ]
  },
  "rulingCardsRemove": {

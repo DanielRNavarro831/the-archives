@@ -1939,7 +1939,7 @@ CONTENTS
       Q: When two or more devices detonate at the same time, who chooses the order of the resolution of their effects?
       A: The first player resolves all of their devices in any order of their choosing, resolving each detonation and then any resultant effects (such as Sabine Wren [[Crew]]'s "after an enemy ship is affected by a friendly bomb" effect) fully before moving on to the next. Then the second player in player order resolves all of their bombs in any order of their choosing, resolving each detonation fully before moving on to the next (and so on, for multiplayer games).
 
-92.13  RULING [Rules Reference v1.4.6, p. 35, FAQ › Objects]
+92.13  RULING [Rules Reference v1.4.6, p. 35, FAQ › Objects]  Cards: Electro-Chaff Missiles
       Q: When a ship overlaps an Electro-Chaff Cloud, which player determines the effect of the jam token?
       A: The player whose ship is overlapping the Electro-Chaff Cloud determines which green token or lock is removed/broken.
 
@@ -2532,7 +2532,7 @@ CONTENTS
       Q: If a ship with agility 0 (such as the VCX-100) is strained and defends against an attack at attack range 1 (for which it would normally roll 0 defense die), does it remove the strain token?
       A: Yes. Although it cannot be made to roll fewer than 0 defense dice due to the intrinsic minimum, the effect of “roll 1 fewer defense die” is applied (see Attack), and so the strain token is removed.
 
-138.6  RULING [XWA Rules Forum, answered by Hansi (XWA Rules Team), Oct 9, 2026, 10:11 AM — https://www.xwing.life/forum/rules-questions/95]  Cards: Clan Wren Commandos, Death Watch Commandos, Imperial Super Commandos, Mandalorian Super Commandos, Nite Owl Commandos
+138.6  RULING [XWA Rules Forum, answered by Hansi (XWA Rules Team), Oct 9, 2026, 10:11 AM — https://www.xwing.life/forum/rules-questions/95]  Cards: Clan Wren Commandos, Clan Wren Commandos, Death Watch Commandos, Death Watch Commandos, Imperial Super Commandos, Imperial Super Commandos, Mandalorian Super Commandos, Mandalorian Super Commandos, Nite Owl Commandos, Nite Owl Commandos
       Q: The timing of the strain when a commando is deployed was brought into question during a match.
          The card reads " After an enemy ship overlaps you, it gains 1 strain token."
          The question that was asked said " An enemy ship has to move to overlap you, so deployment should not be causing an overlap"
