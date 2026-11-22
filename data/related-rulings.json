@@ -93,6 +93,20 @@
      "cards": ["burst-laser-turret-turret", "gar-saxon-gunner-gunner", "tycho-celchu-rz-1-a-wing-boe", "xg-1-assault-configuration-configuration"]}
    ]
   },
+  "rr-65": {
+   "mechanic": "When a replacement effect (like Overseer Yushyn) swaps a token a ship gains as part of a cost, the effect still resolves; but \"after you gain a disarm token\" abilities don't trigger.",
+   "groups": [
+    {"why": "Replaces a token a ship would gain, like Overseer Yushyn", "strength": "strong", "status": "approved",
+     "cards": ["deuterium-power-cells-tech", "babu-frik-illicit", "jyn-erso-crew", "seventh-sister-crew"]},
+    {"why": "Gains a disarm token as part of a cost, like Foreman Proach and Quinn Jast", "strength": "strong", "status": "rejected",
+     "cards": ["gorgol-nantex-class-starfighter", "r2-astromech-astromech", "r2-a3-astromech-boy", "r2-d2-astromech", "r2-d2-astromech-boy", "r2-f2-astromech-boy",
+               "seventh-fleet-gunner-gunner"]},
+    {"why": "Triggers after you gain a disarm token", "strength": "strong", "status": "rejected",
+     "cards": ["first-order-ordnance-tech-gunner-eod", "lieutenant-karsabi-alpha-class-star-wing"]},
+    {"why": "Lets ships choose to gain a disarm token along with another token", "strength": "possible", "status": "rejected",
+     "cards": ["satine-kryze-crew"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -163,6 +177,7 @@
   "captain-jostero-kihraxz-fighter, chewbacca-scavenged-yt-1300-resistance, general-grievous-command-command, riff-tamson-command, targeting-battery-hardpoint": "Give a bonus attack, but not right after an attack (rr-101)",
   "agent-terex-xi-class-light-shuttle, cikatro-vizago-crew, jabba-the-hutt-crew, guild-bounty-hunter-st-70-assault-ship, jessika-pava-t-70-x-wing, joy-rekkoff-fang-fighter, tomax-bren-tie-sa-bomber, knack-clone-z-95-headhunter, rotating-cannons, spare-parts-canisters-modification": "Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)",
   "bomblet, proximity-mine, electro-proton-bomb, tracking-torpedoes, heroic-sacrifice-talent-boe, lando-calrissian-crew": "Roll a set number of dice outside an attack, with no maximum (rr-71)",
+  "corran-horn-e-wing, electro-proton-bomb, intercept-booster-configuration, its-the-resistance": "Give a disarm token as a result, not as a cost (rr-65)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

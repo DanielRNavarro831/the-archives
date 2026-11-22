@@ -257,6 +257,40 @@ Already named: Predictive Shot, Seventh Fleet Gunner
 - [x] **Tycho Celchu (BoE)** (RZ-1 A-wing): While you are disarmed, you can still perform {missile} attacks. When you perform a {missile} attack while disarmed, roll a maximum of 4 dice.
 - [x] **Xg-1 Assault Configuration** (Configuration): While you have exactly 1 disarm token, you can still perform {cannon} attacks. While you perform a {cannon} attack while disarmed, roll a maximum of 3 attack dice.
 
+## rr-65: When a replacement effect (like Overseer Yushyn) swaps a token a ship gains as part of a cost, the effect still resolves; but "after you gain a disarm token" abilities don't trigger.
+
+> **Q:** If a ship would gain a disarm token as part of paying the cost of an effect, such as Foreman Proach [Modified TIE/ln Fighter] or Quinn Jast [M3-A Interceptor], but Overseer Yushyn [Modified TIE/ln Fighter] causes them to gain a stress token instead, does the effect still resolve?
+>
+> **A:** Yes. Overseer Yushyn [Modified TIE/ln Fighter]’s ability is a replacement effect, and if it replaces part of the cost a ship would pay to resolve an effect (in this case, the disarm token that ship would gain), that effect still resolves (see page 2, “Paying Costs”). Note that abilities that would resolve “after a ship gains a disarm token” still do not resolve, as this is a timing window that has not occurred, rather than a cost that has been replaced.
+
+Already named: Foreman Proach, Overseer Yushyn, Quinn Jast
+
+**Replaces a token a ship would gain, like Overseer Yushyn** (strong match) — APPROVED, on the site
+
+- [x] **Deuterium Power Cells** (Tech / Modification): During the System Phase, you may spend 1 {charge} and gain 1 disarm token to recover 1 {shield}. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 {charge} to gain 1 stress token instead.
+- [x] **Babu Frik** (Illicit): Before you would gain a non-lock red or orange token, you may spend 1 {charge} to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you must spend 1 {charge}. If you cannot, remove those tokens and gain matching tokens.
+- [x] **Jyn Erso** (Crew): If a friendly ship at range 0-3 would gain a focus token, it may gain 1 evade token instead.
+- [x] **Seventh Sister** (Crew): If an enemy ship at range 0-1 would gain a stress token, you may spend 1 {force} to have it gain 1 jam or tractor token instead.
+
+**Gains a disarm token as part of a cost, like Foreman Proach and Quinn Jast** (strong match) — SKIPPED
+
+- [-] **Gorgol** (Nantex-Class Starfighter): During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.
+- [-] **R2 Astromech** (Astromech): After you reveal your dial, you may spend 1 {charge} and gain 1 disarm token to recover 1 shield.
+- [-] **R2-A3** (Astromech): After you reveal your dial, you may spend 1 {charge} and gain 1 disarm token to recover 1 shield.
+- [-] **R2-D2** (Astromech): After you reveal your dial, you may spend 1 {charge} and gain 1 disarm token to recover 1 shield.
+- [-] **R2-D2** (Astromech): After you reveal your dial, you may spend 1 {charge} and gain 1 disarm token to recover 1 shield.
+- [-] **R2-F2** (Astromech): After you reveal your dial, you may spend 1 {charge} and gain 1 disarm token to recover 1 shield.
+- [-] **Seventh Fleet Gunner** (Gunner): While another friendly ship performs a primary attack, if the defender is in your firing arc, you may spend 1 {charge}. If you do, the attacker rolls 1 additional die, to a maximum of 4. During the System Phase, you may gain 1 disarm token to recover 1 {charge}.
+
+**Triggers after you gain a disarm token** (strong match) — SKIPPED
+
+- [-] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
+- [-] **Lieutenant Karsabi** (Alpha-Class Star Wing): After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.
+
+**Lets ships choose to gain a disarm token along with another token** (possible match) — SKIPPED
+
+- [-] **Satine Kryze** (Crew): At the start of the Engagement Phase, you may spend 2 {charge}. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus token or to gain 1 disarm token and 1 evade token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -440,4 +474,5 @@ Already named: none
 - Captain Jostero, Chewbacca, General Grievous, Riff Tamson, Targeting Battery: Give a bonus attack, but not right after an attack (rr-101)
 - Agent Terex, Cikatro Vizago, Jabba the Hutt, Guild Bounty Hunter, Jessika Pava, Joy Rekkoff, Tomax Bren, “Knack”, Rotating Cannons, Spare Parts Canisters: Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)
 - Bomblet, Proximity Mine, Electro-Proton Bomb, Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
+- Corran Horn, Electro-Proton Bomb, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
