@@ -367,4 +367,5 @@ any ruling or related ruling on one also shows on the other.
 Each condition card links to the cards that assign it ("Assigned by" / "Assigns"). The build finds them from
 card text that names the condition; `data/cards-curated.json` "conditionAssigners" can add a card id to a
 condition or remove one with "-card-id". A ruling on either side shows on both; related rulings ("may also apply") stay on their own card, since they're about that card's text.
-The build lists any condition no card assigns (right now only YASB's empty "Zero Condition").
+The build lists any condition no card assigns. YASB's empty "Zero Condition" is left out with `"dropCards"`,
+which removes any card that isn't a real card.

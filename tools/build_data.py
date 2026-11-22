@@ -877,6 +877,14 @@ def main():
     #     document, such as the Epic command upgrades. See docs/MAINTAINING.md.
     add_unprinted_cards(cards, sources, rules)
 
+    # 6b1. cards from YASB that aren't real cards (cards-curated.json "dropCards")
+    for cid in [k for k in cur.get("dropCards", {}) if not k.startswith("_")]:
+        if cards.pop(cid, None) is None:
+            print(f"WARNING: dropCards names unknown card {cid}")
+        for r in rulings:
+            if cid in r["cards"]:
+                r["cards"].remove(cid)
+
     # 6b2. bombs and mines folded into the upgrades that drop them (cards-curated.json "mergeDevices")
     card_redirects = merge_devices(cards, rulings, cur)
 
