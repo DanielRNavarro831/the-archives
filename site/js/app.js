@@ -203,7 +203,7 @@
   /** Rule citations open the XWA's official PDF at the cited page (#page=N). */
   function sourceLink(item) {
     if (item.source === "team" && item.url)
-      return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the message on the XWA Discord (you need to be a member of the server)">${esc(sourceLabel(item))}</a>`;
+      return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the message on the X-Wing: The Miniatures Game Discord (you need to join the server to see it)">${esc(sourceLabel(item))}</a>`;
     if (item.source === "playtest" || item.source === "team") return esc(sourceLabel(item));
     if (item.source === "forum")
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
@@ -329,13 +329,14 @@
     const para = (p) => /^•\s/.test(p) ? `<p class="bullet">${fmt(p.replace(/^•\s*/, ""), { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`
       : `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`;
     // an outdated ruling's PDF version may no longer be hosted, so cite it as plain text
-    const cite = dep ? `Originally: ${esc(sourceLabel(r))}${forum ? "" : ` · ${esc(r.section)} › ${esc(r.topic)}`}`
-      : forum ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`;
+    const chat = r.source === "team" && r.via;              // answered on a Discord server: cited like a forum answer
+    const cite = dep ? `Originally: ${esc(sourceLabel(r))}${forum || chat ? "" : ` · ${esc(r.section)} › ${esc(r.topic)}`}`
+      : forum || chat ? sourceLink(r) : `${sourceLink(r)} · ${esc(r.section)} › ${esc(r.topic)}`;
     return `<article class="ruling${forum ? " forum" : ""}${dep ? " deprecated" : ""}${r.playtest ? " playtest" : ""}" id="${esc(r.id)}">
       ${dep ? outdatedBanner(r, dep) : ""}
       ${r.playtest ? `<p class="kicker"><span class="pt-tag">Playtest</span> Playtest ruling · subject to change</p>` : ""}
       ${r.epic ? `<p class="kicker">${epicTag(r)}</p>` : ""}
-      ${forum ? `<p class="kicker">Rules team answer · ${esc(r.topic)}</p>` : ""}
+      ${forum || chat ? `<p class="kicker">Rules team answer · ${esc(r.topic)}</p>` : ""}
       <div class="q">${forum ? r.q.split("\n").map((p) => `<p>${fmt(p, { cards: r.cards, self: opts.self, hl: opts.hl })}</p>`).join("")
                              : fmt(r.q, { cards: r.cards, self: opts.self, hl: opts.hl })}</div>
       <div class="a">${r.a.map(para).join("")}</div>

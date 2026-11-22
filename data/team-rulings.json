@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings given directly by an XWA team member (not from a document or the forum), e.g. the Epic team or the rules team on the XWA Discord. Each ruling: id, team, date, topic, q (question), a (list of answer paragraphs), cards (card ids it applies to); optional via (where it was given, e.g. 'XWA Discord'), url (link to the message), answeredBy ([{name, role, date}], shown as the 'Answered by' badge), and epic: true for Epic-only rulings. Don't include the name of the person who asked. Add new ones at the end; never change an id once published.",
+ "_readme": "Rulings given directly by an XWA team member (not from a document or the forum), e.g. the Epic team or the rules team on the X-Wing: The Miniatures Game Discord (the public players' server, not the XWA's internal one). Each ruling: id, team, date, topic, q (question), a (list of answer paragraphs), cards (card ids it applies to); optional via (where it was given, e.g. 'X-Wing: The Miniatures Game Discord'), url (link to the message), answeredBy ([{name, role, date}], shown as the 'Answered by' badge), and epic: true for Epic-only rulings. Don't include the name of the person who asked. Add new ones at the end; never change an id once published.",
  "rulings": [
   {
    "id": "epic-team-1",
@@ -22,7 +22,7 @@
   {
    "id": "discord-1",
    "team": "XWA Rules Team",
-   "via": "XWA Discord",
+   "via": "X-Wing: The Miniatures Game Discord",
    "url": "https://discord.com/channels/627648261456527371/627662130086412292/1533178628068868098",
    "date": "Aug 1, 2026",
    "topic": "Seyn Marana and Targeting Matrix",

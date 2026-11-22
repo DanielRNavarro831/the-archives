@@ -345,6 +345,6 @@ every pilot whose primary attacks only use those arcs; new pilots then join it a
 `data/team-rulings.json` holds rulings given directly by an XWA team rather than in a document or on the
 forum, such as the Epic team's. Each one names the team and date (cited as "XWA Epic Team ruling, Nov 21, 2026"),
 a question and answer, and the cards it applies to. Rulings with `"epic": true` only show in Epic mode.
-Add new ones at the end and never change a published id. A ruling from the XWA Discord also gets `"via": "XWA Discord"`, the message link in `url`
-and `answeredBy` (e.g. Maui, XWA Rules Lead); the site cites it as "XWA Discord, <date>" linking to the message
+Add new ones at the end and never change a published id. A ruling from the X-Wing: The Miniatures Game Discord (the public players' server, not the XWA's internal server) also gets `"via": "X-Wing: The Miniatures Game Discord"`, the message link in `url`
+and `answeredBy` (e.g. Maui, XWA Rules Lead); the site cites it as "X-Wing: The Miniatures Game Discord, <date>" linking to the message
 (only Discord members can open it). Leave out the name of whoever asked.

@@ -1508,7 +1508,7 @@ CONTENTS
          Can I spend a focus result before all results are cancelled by the tracers as the two effects seem to take place at the same time?
       A: You cannot use Targeting Matrix because dice results are cancelled before the End of Neutralize Results step. Once you find out that the attack hits, you activate Tracers effect to gain locks on the target and you must cancel all remaining dice results. You can activate Targeting Matrix only after that because it occurs at the End of that step, but there are no dice results left.
 
-62.11  RULING [None vNone, p. None, XWA Discord › Seyn Marana and Targeting Matrix]  Cards: Seyn Marana, Targeting Matrix, Targeting Matrix
+62.11  RULING [None vNone, p. None, X-Wing: The Miniatures Game Discord › Seyn Marana and Targeting Matrix]  Cards: Seyn Marana, Targeting Matrix, Targeting Matrix
       Q: When I perform an attack with Seyn Marana, what is the timing of her ability to spend a [Crit] to deal a damage card directly to a ship? Can I spend an [Focus] result via Targeting Matrix to throw a strain, then spend a [Crit] for Seyn's ability?
       A: Seyn Marana happens during the dice mod step; you cannot then use targeting matrix
 
