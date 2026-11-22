@@ -247,6 +247,13 @@
      "cards": ["cluster-mines-payload"]}
    ]
   },
+  "rr-15": {
+   "mechanic": "A placed obstacle that would overlap a ship goes underneath it, and the ship suffers its effects.",
+   "groups": [
+    {"why": "Places another obstacle during play", "strength": "strong", "status": "approved",
+     "cards": ["blazer-bomb-payload", "electro-chaff-missiles-missile"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

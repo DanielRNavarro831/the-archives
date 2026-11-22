@@ -621,7 +621,7 @@ Already named: Proximity Mines
 
 - [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
 - [x] **Discord Missiles** (Missile): At the start of the Engagement Phase, you may spend 1 calculate token and 1 {charge} to launch 1 buzz droid swarm using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. This card's {charge} cannot be recovered.
-- [x] **Buzz Droid Swarm** (Condition): INIT: 0 AGILITY: 1 HULL: 1 Types: Device, Remote System, Activation, and End Phase: No effect. Engagement Phase: When you engage, each enemy ship at range 0 of the buzz droid swarm suffers 1 {crit} damage. Other Rules: After an enemy ship overlaps or moves through a buzz droid swarm, the swarm's controlling player relocates it by aligning the tab to that ship's front or rear guides (this ship is at range 0 of the swarm). The swarm cannot be aligned to a set of the ship's guides if doing so would cause it to overlap an object. If the swarm cannot be placed at a chosen set of guides, its controlling player must align it to the other set of the ship's guides. If it cannot be aligned to the other set, the swarm and the enemy ship that overlapped or moved through it each suffer 1 {hit} damage.
+- [x] **Buzz Droid Swarm** (Remote): INIT: 0 AGILITY: 1 HULL: 1 Types: Device, Remote System, Activation, and End Phase: No effect. Engagement Phase: When you engage, each enemy ship at range 0 of the buzz droid swarm suffers 1 {crit} damage. Other Rules: After an enemy ship overlaps or moves through a buzz droid swarm, the swarm's controlling player relocates it by aligning the tab to that ship's front or rear guides (this ship is at range 0 of the swarm). The swarm cannot be aligned to a set of the ship's guides if doing so would cause it to overlap an object. If the swarm cannot be placed at a chosen set of guides, its controlling player must align it to the other set of the ship's guides. If it cannot be aligned to the other set, the swarm and the enemy ship that overlapped or moved through it each suffer 1 {hit} damage.
 
 ## rr-18: When a Cluster Mine set is dropped onto two or more ships, its owner chooses one ship for each Cluster Mine, then resolves them in any order.
 
@@ -634,6 +634,19 @@ Already named: Cluster Mines
 **The Cluster Mine device itself (the ruling names the upgrade that drops it)** (strong match) — APPROVED, on the site
 
 - [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+
+## rr-15: A placed obstacle that would overlap a ship goes underneath it, and the ship suffers its effects.
+
+> **Q:** If the Loose Cargo from Rigged Cargo Chute [{illicit}] or Spare Parts from Spare Parts Canister [{modification}] overlaps another ship, what happens?
+>
+> **A:** It is placed underneath the ship, and the ship overlaps it, suffering its effects.
+
+Already named: Rigged Cargo Chute, Spare Parts Canisters
+
+**Places another obstacle during play** (strong match) — APPROVED, on the site
+
+- [x] **Blazer Bomb** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Blazer Bomb using the [1 {straight}] template.
+- [x] **Electro-Chaff Missiles** (Missile / Payload): During the System Phase, you may spend 1 {charge} from this card to launch 1 electro-chaff cloud using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Then place 1 fuse marker on it. This card's {charge} cannot be recovered..
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
