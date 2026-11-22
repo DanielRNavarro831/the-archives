@@ -463,6 +463,12 @@
   }
 
   function viewCard(id) {
+    // bombs and mines were folded into the upgrades that drop them: old addresses land on the upgrade
+    const moved = (DB.meta.cardRedirects || {})[id];
+    if (moved && CARDS[moved]) {
+      history.replaceState(null, "", "#/card/" + moved);
+      id = moved;
+    }
     const c = CARDS[id];
     if (!c && EPIC_TOGGLE && EPIC_IDS.has(id)) return viewEpicOnly("card");
     if (!c) return viewNotFound(id.replace(/-/g, " "));
@@ -501,6 +507,8 @@
                  : shipAb ? `<div class="cardtext">${shipAb}</div>`
                  : `<div class="cardtext missing">${c.flavor ? "This card has no ability text." : "Card text isn't in the Archives yet."}</div>`}
             ${c.flavor ? `<p class="flavor">${esc(c.flavor)}</p>` : ""}
+            ${(c.devices || []).map((d) => `<div class="device-rules"><h3>${esc(d.name)} <span class="muted">· device</span></h3>
+              <div class="cardtext">${d.text ? textBlock(d.text) : ""}</div></div>`).join("")}
             <dl>
               ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map((k) => UPGRADE_BY_YASB[k]
                   ? `<a href="#/card/${UPGRADE_BY_YASB[k].id}">${esc(k)}</a>` : esc(k)).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}

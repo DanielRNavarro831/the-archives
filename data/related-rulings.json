@@ -53,7 +53,7 @@
      "cards": ["jek-porkins-t-65-x-wing", "jek-porkins-t-65-x-wing-boy", "jek-porkins-t-65-x-wing-ssp"]},
     {"why": "Gives a ship two or more tokens at once", "strength": "possible", "status": "approved",
      "cards": ["nightfall-tie-wi-whisper-modified-interceptor", "4-lom-crew", "chopper-gauntlet-fighter-gauntlet-fighter", "chopper-vcx-100-light-freighter", "collected-talent-boe",
-               "commander-pyre-crew", "conner-net", "ion-bomb", "kad-solus-fang-fighter", "overtuned-modulators-illicit", "panicked-pilot", "tor-phun-fang-fighter",
+               "commander-pyre-crew", "conner-nets-payload", "ion-bombs-payload", "kad-solus-fang-fighter", "overtuned-modulators-illicit", "panicked-pilot", "tor-phun-fang-fighter",
                "trident-title", "han-solo-crew-resistance", "riff-tamson-command"]},
     {"why": "Gives a ship two different tokens at once (left out in review)", "strength": "possible", "status": "rejected",
      "cards": ["satine-kryze-crew", "k-2so-crew", "feedback-array-illicit", "todo-360-crew-aad"]}
@@ -224,7 +224,7 @@
    "mechanic": "When devices detonate at the same time, the first player resolves all of theirs, one at a time in any order, with each one's after-effects, then the next player does the same.",
    "groups": [
     {"why": "A bomb that detonates at the end of the Activation Phase, so several can detonate at once", "strength": "strong", "status": "approved",
-     "cards": ["blazer-bomb", "bomblet", "concussion-bomb", "electro-proton-bomb", "ion-bomb", "proton-bomb", "seismic-charge", "thermal-detonator"]},
+     "cards": ["blazer-bomb-payload", "bomblet-generator-payload", "concussion-bombs-payload", "electro-proton-bomb-payload", "ion-bombs-payload", "proton-bombs-payload", "seismic-charges-payload", "thermal-detonators-payload"]},
     {"why": "Triggers when a bomb or mine detonates, like Sabine Wren", "strength": "strong", "status": "approved",
      "cards": ["padric-btl-a4-y-wing", "rattled", "captain-nym-scurrg-h-6-bomber", "ablative-plating-modification"]}
    ]
@@ -233,18 +233,18 @@
    "mechanic": "When a mine that affects one ship is dropped onto two or more ships, the mine's owner chooses the one ship it affects.",
    "groups": [
     {"why": "The Proximity Mine device itself (the ruling names the upgrade that drops it)", "strength": "strong", "status": "approved",
-     "cards": ["proximity-mine"]},
+     "cards": ["proximity-mines-payload"]},
     {"why": "Another mine that affects only the one ship that overlaps it", "strength": "strong", "status": "approved",
-     "cards": ["conner-nets-payload", "conner-net"]},
+     "cards": ["conner-nets-payload"]},
     {"why": "Cluster Mines, Discord Missiles and the buzz droid swarm (added in review)", "strength": "strong", "status": "approved",
-     "cards": ["cluster-mines-payload", "cluster-mine", "discord-missiles-missile", "buzz-droid-swarm"]}
+     "cards": ["cluster-mines-payload", "discord-missiles-missile", "buzz-droid-swarm"]}
    ]
   },
   "rr-18": {
    "mechanic": "When a Cluster Mine set is dropped onto two or more ships, its owner chooses one ship for each Cluster Mine, then resolves them in any order.",
    "groups": [
     {"why": "The Cluster Mine device itself (the ruling names the upgrade that drops it)", "strength": "strong", "status": "approved",
-     "cards": ["cluster-mine"]}
+     "cards": ["cluster-mines-payload"]}
    ]
   },
   "rr-69": {

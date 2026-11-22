@@ -142,8 +142,8 @@ Already named: Admiral Sloane
 - [x] **“Chopper”** (VCX-100 Light Freighter): At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.
 - [x] **Collected** (Talent): After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.
 - [x] **Commander Pyre** (Crew): Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die.
-- [x] **Conner Net** (Condition): Types: Device, Mine After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 {hit} damage and gains 3 ion tokens.
-- [x] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
+- [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Ion Bombs** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop an Ion Bomb using the [1 {straight}] template.
 - [x] **Kad Solus** (Fang Fighter): After you fully execute a red maneuver, gain 2 focus tokens.
 - [x] **Overtuned Modulators** (Illicit): During the System Phase, if you are not stressed, you may spend 1 {charge} to gain 3 calculate tokens. During the End Phase, if your {charge} is inactive, for each green token you remove, gain 1 strain token.
 - [x] **Panicked Pilot** (Damage Card): Gain 2 stress tokens. Then repair this card.
@@ -585,14 +585,14 @@ Already named: Sabine Wren
 
 **A bomb that detonates at the end of the Activation Phase, so several can detonate at once** (strong match) — APPROVED, on the site
 
-- [x] **Blazer Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship or remote suffers 1 {hit} damage for each {hit}/{crit} result. After this devices detonates, place a Blaze by aligning the Blaze's guides to the device's tab. A Blaze is an obstacle. After this obstacle is placed, place a fuse marker on it. During the End Phase, remove each Blaze with no fuse markers, then remove 1 fuse marker from each Blaze.
-- [x] **Bomblet** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship and remote suffers 1 {hit} damage for each {hit}/{crit} result.
-- [x] **Concussion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 is dealt 1 facedown damage card. Then, each ship at range 0-1 must expose 1 damage card unless it chooses to gain 1 strain token.
-- [x] **Electro-Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each {focus}/{hit} result, and gains 1 disarm token for each {crit} result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each {focus}/{hit} result.
-- [x] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
-- [x] **Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 {crit} damage.
-- [x] **Seismic Charge** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, choose 1 obstacle at range 0-1. The obstacle deals 1 {hit} damage to each ship and remote at range 0-1. Then remove that obstacle.
-- [x] **Thermal Detonator** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship gains 1 strain token for each {focus} result, and each ship and remote suffers 1 {hit}/{crit} damage for each matching result.
+- [x] **Blazer Bomb** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Blazer Bomb using the [1 {straight}] template.
+- [x] **Bomblet Generator** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Bomblet with the [1 {straight}] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 {charge}.
+- [x] **Concussion Bombs** (Payload): During the System Phase, if any of this card's {charge} are inactive, you must spend 1 {charge} to drop 1 concussion bomb, if able, using the [1 {straight}] template. Otherwise, you may spend 1 {charge} to drop 1 concussion bomb.
+- [x] **Electro-Proton Bomb** (Payload / Modification): Bomb During the System Phase, you may spend 1 {charge} to drop an Electro-Proton Bomb with the [1 {straight}] template. Then place 1 fuse marker on that device. This card's {charge} cannot be recovered.
+- [x] **Ion Bombs** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop an Ion Bomb using the [1 {straight}] template.
+- [x] **Proton Bombs** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Proton Bomb using the [1 {straight}] template.
+- [x] **Seismic Charges** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Seismic Charge with the [1 {straight}] template.
+- [x] **Thermal Detonators** (Payload): Bomb During the System Phase, you may spend up to 2 {charge} to drop that many Thermal Detonators using the [1 {straight}] or [2 {straight}] template. Each must be placed using a different template. When you reload this card, recover 1 additional {charge}.
 
 **Triggers when a bomb or mine detonates, like Sabine Wren** (strong match) — APPROVED, on the site
 
@@ -611,17 +611,15 @@ Already named: Proximity Mines
 
 **The Proximity Mine device itself (the ruling names the upgrade that drops it)** (strong match) — APPROVED, on the site
 
-- [x] **Proximity Mine** (Condition): Types: Device, Mine After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 {hit} plus 1 {hit}/{crit} damage for each matching result.
+- [x] **Proximity Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Proximity Mine using the [1 {straight}] template. This card's {charge} cannot be recovered.
 
 **Another mine that affects only the one ship that overlaps it** (strong match) — APPROVED, on the site
 
 - [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
-- [x] **Conner Net** (Condition): Types: Device, Mine After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 {hit} damage and gains 3 ion tokens.
 
 **Cluster Mines, Discord Missiles and the buzz droid swarm (added in review)** (strong match) — APPROVED, on the site
 
 - [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
-- [x] **Cluster Mine** (Condition): Types: Device, Mine A Cluster Mine Set consists of 3 individual Cluster Mine devices. When a Cluster Mines set is placed, the center Cluster Mine is placed as normal, then two additional Cluster Mines are placed in the recesses as shown. After a ship overlaps or moves through any individual Cluster Mine, it detonates. Other Cluster Mines in the set that were not overlapped or moved through do not detonate. When each of these devices detonates, that ship rolls 2 attack dice. That ship then suffers 1 {hit}/{crit} damage for each matching result.
 - [x] **Discord Missiles** (Missile): At the start of the Engagement Phase, you may spend 1 calculate token and 1 {charge} to launch 1 buzz droid swarm using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. This card's {charge} cannot be recovered.
 - [x] **Buzz Droid Swarm** (Condition): INIT: 0 AGILITY: 1 HULL: 1 Types: Device, Remote System, Activation, and End Phase: No effect. Engagement Phase: When you engage, each enemy ship at range 0 of the buzz droid swarm suffers 1 {crit} damage. Other Rules: After an enemy ship overlaps or moves through a buzz droid swarm, the swarm's controlling player relocates it by aligning the tab to that ship's front or rear guides (this ship is at range 0 of the swarm). The swarm cannot be aligned to a set of the ship's guides if doing so would cause it to overlap an object. If the swarm cannot be placed at a chosen set of guides, its controlling player must align it to the other set of the ship's guides. If it cannot be aligned to the other set, the swarm and the enemy ship that overlapped or moved through it each suffer 1 {hit} damage.
 
@@ -635,7 +633,7 @@ Already named: Cluster Mines
 
 **The Cluster Mine device itself (the ruling names the upgrade that drops it)** (strong match) — APPROVED, on the site
 
-- [x] **Cluster Mine** (Condition): Types: Device, Mine A Cluster Mine Set consists of 3 individual Cluster Mine devices. When a Cluster Mines set is placed, the center Cluster Mine is placed as normal, then two additional Cluster Mines are placed in the recesses as shown. After a ship overlaps or moves through any individual Cluster Mine, it detonates. Other Cluster Mines in the set that were not overlapped or moved through do not detonate. When each of these devices detonates, that ship rolls 2 attack dice. That ship then suffers 1 {hit}/{crit} damage for each matching result.
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
@@ -819,8 +817,8 @@ Already named: none
 - Wedge Antilles, Zuckuss, Seventh Fleet Gunner, Outmaneuver: Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)
 - Captain Jostero, Chewbacca, General Grievous, Riff Tamson, Targeting Battery: Give a bonus attack, but not right after an attack (rr-101)
 - Agent Terex, Cikatro Vizago, Jabba the Hutt, Guild Bounty Hunter, Jessika Pava, Joy Rekkoff, Tomax Bren, “Knack”, Rotating Cannons, Spare Parts Canisters: Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)
-- Bomblet, Proximity Mine, Electro-Proton Bomb, Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
-- Corran Horn, Electro-Proton Bomb, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
+- Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
+- Corran Horn, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
 - "Breach", Dirk Ullodin, “Odd Ball”, Fennec Shand: Acquire a lock after a maneuver, which isn't an action (rr-30)
 - “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
 - Advanced SLAM, Dauntless, Grand Inquisitor, Poe Dameron, Poe Dameron, Poe Dameron (EoD), Baze Malbus, Daredevil, Droid Crew, Flight-Assist Astromech, Independent Calculations, Larma D'Acy: Only treat a white action as red, so a red or purple action never comes up (rr-59)

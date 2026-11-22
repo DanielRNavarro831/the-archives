@@ -525,6 +525,38 @@ def related_group_cards(group, cards):
     return ids
 
 
+def merge_devices(cards, rulings, cur):
+    """cards-curated.json "mergeDevices": fold device cards (bombs, mines from YASB) into the upgrade that drops
+    them. The upgrade gets the device's rules ("devices"), its rulings and its name as an alias; the device card
+    is removed and its id redirects to the upgrade (meta.cardRedirects)."""
+    redirects = {}
+    by_rid = {r["id"]: r for r in rulings}
+    for dev_id, host_id in cur.get("mergeDevices", {}).items():
+        if dev_id.startswith("_"):
+            continue
+        dev, host = cards.get(dev_id), cards.get(host_id)
+        if not dev or not host:
+            print(f"WARNING: mergeDevices: {dev_id} -> {host_id}: card not found")
+            continue
+        host.setdefault("devices", []).append({"name": dev["name"], "text": dev.get("text")})
+        if dev["name"] != host["name"] and dev["name"] not in host.setdefault("aliases", []):
+            host["aliases"].append(dev["name"])
+        for rid in dev.get("rulings", []):
+            r = by_rid.get(rid)
+            if r:
+                r["cards"] = sorted({host_id if i == dev_id else i for i in r["cards"]})
+            if rid not in host["rulings"]:
+                host["rulings"].append(rid)
+        for eid in dev.get("errata", []):
+            if eid not in host["errata"]:
+                host["errata"].append(eid)
+        del cards[dev_id]
+        redirects[dev_id] = host_id
+    if redirects:
+        print(f"Devices merged into their upgrades: {len(redirects)}")
+    return redirects
+
+
 def add_related_rulings(cards, rulings):
     """Approved groups in data/related-rulings.json -> card["relatedRulings"] (rulings that don't name the card)."""
     path = ROOT / "data" / "related-rulings.json"
@@ -777,6 +809,9 @@ def main():
     #     document, such as the Epic command upgrades. See docs/MAINTAINING.md.
     add_unprinted_cards(cards, sources, rules)
 
+    # 6b2. bombs and mines folded into the upgrades that drop them (cards-curated.json "mergeDevices")
+    card_redirects = merge_devices(cards, rulings, cur)
+
     # 6c. reviewed "may also apply" links (data/related-rulings.json, approved groups only)
     add_related_rulings(cards, rulings)
 
@@ -800,6 +835,7 @@ def main():
                  "epicToggle": sources.get("epicToggle") or None,
                  "quizLive": bool(sources.get("quizLive")),
                  "quizSkip": sources.get("quizSkip", []),
+                 "cardRedirects": card_redirects or None,
                  "documentsPage": sources.get("documentsPage") or None,
                  "reportForm": sources.get("reportForm") or None,
                  "cardData": {k: yasb_info[k] for k in ("source", "commit", "importedAt")} if yasb_info else None,
