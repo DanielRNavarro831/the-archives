@@ -13,8 +13,10 @@
      "cards": ["multi-missile-pods-missile"]},
     {"why": "Pilots whose primary attacks are only {singleturretarc}, {doubleturretarc} or {fullfrontarc} (added in review; found from each pilot's attack arcs, so new pilots join automatically)", "strength": "strong", "status": "approved",
      "match": {"pilotPrimaryArcsOnly": ["singleturretarc", "doubleturretarc", "fullfrontarc", "bullseyearc"]}, "cards": []},
-    {"why": "Checks whether the defender is in your {frontarc} (the other half of the ruling)", "strength": "possible",
-     "cards": ["wedge-antilles-rz-1-a-wing-a-wing", "dgs-047-hmp-droid-gunship", "gar-saxon-gunner-gunner", "gavin-darklighter-e-wing"]},
+    {"why": "Checks whether the defender is in your {frontarc} (the other half of the ruling)", "strength": "possible", "status": "approved",
+     "cards": ["dgs-047-hmp-droid-gunship", "gar-saxon-gunner-gunner"]},
+    {"why": "Checks whether the defender is in your {frontarc} (left out in review)", "strength": "possible", "status": "rejected",
+     "cards": ["wedge-antilles-rz-1-a-wing-a-wing", "gavin-darklighter-e-wing"]},
     {"why": "Gives, moves or changes a {frontarc} attack", "strength": "possible",
      "cards": ["moldy-crow-title", "vectored-cannons-configuration-rz-1", "krassis-trelix-firespray-class-patrol-craft", "first-order-ordnance-tech-gunner-eod", "kavil-btl-a4-y-wing"]}
    ]
