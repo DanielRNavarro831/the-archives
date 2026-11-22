@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2} for every upgrade with two or more types. See docs/related-rulings-review.md.",
+ "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2, \"excludeTypes\": [types]} for every upgrade with two or more types (leaving out the listed types). See docs/related-rulings-review.md.",
  "rulings": {
   "rr-1": {
    "mechanic": "A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.",
@@ -80,10 +80,10 @@
                "parting-gift-talent", "parting-gift-talent-boe", "intuitive-interface", "lin-gaava-tie-fo-fighter"]},
     {"why": "Refers to an equipped {configuration} upgrade (left out in review: no multi-type configuration can go on an X-wing)", "strength": "strong", "status": "rejected",
      "cards": ["backwards-tailslide-talent", "kullbee-sperado-t-65-x-wing", "temmin-wexley-t-70-x-wing-hoh"]},
-    {"why": "Grants a special upgrade slot, like Weapon Hardpoint", "strength": "strong",
+    {"why": "Grants a special upgrade slot, like Weapon Hardpoint", "strength": "strong", "status": "approved",
      "cards": ["versatile-frame"]},
-    {"why": "Upgrades with two or more types (found from each upgrade's types, so new ones join automatically)", "strength": "possible",
-     "match": {"upgradeWithTypes": 2}, "cards": []}
+    {"why": "Upgrades with two or more types, except {command} upgrades (found from each upgrade's types, so new ones join automatically)", "strength": "possible", "status": "approved",
+     "match": {"upgradeWithTypes": 2, "excludeTypes": ["Command"]}, "cards": []}
    ]
   },
   "rr-69": {

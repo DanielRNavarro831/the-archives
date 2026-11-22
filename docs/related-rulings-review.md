@@ -234,13 +234,13 @@ Already named: Barrage Rockets, Captain Jonus, Electro-Proton Bomb, Paige Tico, 
 - [-] **Kullbee Sperado** (T-65 X-wing): After you perform a {barrelroll} or {boost} action, you may flip your equipped {configuration} upgrade card.
 - [-] **Temmin Wexley** (T-70 X-wing): At the start of the Engagement Phase, each friendly T-70 X-wing at range 0-3 may gain 1 strain token to flip its equipped {configuration} upgrade. If it does, that ship gains 1 calculate token.
 
-**Grants a special upgrade slot, like Weapon Hardpoint** (strong match)
+**Grants a special upgrade slot, like Weapon Hardpoint** (strong match) — APPROVED, on the site
 
-- [ ] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
+- [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
 
-**Upgrades with two or more types (found from each upgrade's types, so new ones join automatically)** (possible match)
+**Upgrades with two or more types, except {command} upgrades (found from each upgrade's types, so new ones join automatically)** (possible match) — APPROVED, on the site
 
-- [ ] 35 cards: Admiral Ozzel (Command / Crew), Asajj Ventress (Command / Crew), Azmorigan (Command / Crew), B6 Blade Wing Prototype (Command / Title), Calibrated Laser Targeting (Configuration / Modification), Captain Needa (Command / Crew), Carlist Rieekan (Command / Crew), Combat Boarding Tube (Command / Configuration), Corsair Crew (Team / Gunner), Deuterium Power Cells (Tech / Modification), Drill Beak (Hardpoint / Cargo), Drop-Seat Bay (Modification / Payload), Electro-Chaff Missiles (Missile / Payload), Electro-Proton Bomb (Payload / Modification), Energy-Shell Charges (Missile / Modification), Enhanced Jamming Suite (Configuration / Tech), Enhanced Propulsion (Hardpoint / Cargo), Gauntlet (Title / Modification), General Grievous (Command / Crew), Ghost Company (Crew / Gunner), Havoc (Title / Crew), Hondo Ohnaka (Command / Crew), Jan Dodonna (Command / Crew), Mar Tuuk (Command / Crew), Nightbrother (Title / Modification), Proton Cannon Battery (Hardpoint / Cargo), Punishing One (Title / Crew), Raymus Antilles (Command / Crew), Riff Tamson (Command / Crew), Sabine Wren (Command / Crew), Stalwart Captain (Command / Crew), Strategic Commander (Command / Crew), Wartime Loadout (Configuration / Modification), Wolfpack (Crew / Gunner), Zealous Captain (Command / Crew)
+- [x] 18 cards: Calibrated Laser Targeting (Configuration / Modification), Corsair Crew (Team / Gunner), Deuterium Power Cells (Tech / Modification), Drill Beak (Hardpoint / Cargo), Drop-Seat Bay (Modification / Payload), Electro-Chaff Missiles (Missile / Payload), Electro-Proton Bomb (Payload / Modification), Energy-Shell Charges (Missile / Modification), Enhanced Jamming Suite (Configuration / Tech), Enhanced Propulsion (Hardpoint / Cargo), Gauntlet (Title / Modification), Ghost Company (Crew / Gunner), Havoc (Title / Crew), Nightbrother (Title / Modification), Proton Cannon Battery (Hardpoint / Cargo), Punishing One (Title / Crew), Wartime Loadout (Configuration / Modification), Wolfpack (Crew / Gunner)
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 

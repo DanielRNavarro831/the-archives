@@ -519,8 +519,9 @@ def related_group_cards(group, cards):
                 ids.append(c["id"])
     if (group.get("match") or {}).get("upgradeWithTypes"):
         need = group["match"]["upgradeWithTypes"]       # e.g. 2: upgrades with two or more different types
+        skip = set(group["match"].get("excludeTypes", []))  # e.g. ["Command"]
         ids += [c["id"] for c in cards.values() if c.get("type") == "Upgrade"
-                and len(set(c.get("slot") or [])) >= need and c["id"] not in ids]
+                and len(set(c.get("slot") or [])) >= need and not skip & set(c.get("slot") or []) and c["id"] not in ids]
     return ids
 
 
