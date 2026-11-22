@@ -905,6 +905,39 @@ Already named: none
 
 - [-] 71 cards: "Nightfall" (TIE/wi Whisper Modified Interceptor), "Whirlwind" (TIE/wi Whisper Modified Interceptor), "Wrath" (TIE/wi Whisper Modified Interceptor), 709th Legion Ace (TIE/wi Whisper Modified Interceptor), Adon Fox (BoE) (A/SF-01 B-wing), Blade Squadron Veteran (A/SF-01 B-wing), Blue Squadron Pilot (A/SF-01 B-wing), Braylen Stramm (A/SF-01 B-wing), Braylen Stramm (BoE) (A/SF-01 B-wing), C'ai Threnalli (EoD) (T-70 X-wing), Cad Bane (AaD) (Rogue-class Starfighter), Cad Bane (Rogue-class Starfighter), Captain Phasma (TIE/sf Fighter), Contracted Scout (JumpMaster 5000), Dace Bonearm (HWK-290 Light Freighter), Darth Vader (BoY) (TIE Advanced x1), Darth Vader (SSP) (TIE Advanced x1), Darth Vader (TIE Advanced x1), Dengar (AaD) (JumpMaster 5000), Dengar (JumpMaster 5000), Durge (Rogue-class Starfighter), Gamut Key (HWK-290 Light Freighter), Gina Moonsong (A/SF-01 B-wing), Gina Moonsong (BoE) (A/SF-01 B-wing), Hera Syndulla (A/SF-01 B-wing), IG-101 (Rogue-class Starfighter), IG-102 (Rogue-class Starfighter), IG-111 (Rogue-class Starfighter), Jan Ors (HWK-290 Light Freighter), Jaycris Tubbs (EoD) (T-70 X-wing), Juno Eclipse (TIE Advanced x1), Kanan Jarrus (HWK-290 Light Freighter), Kendy Idele (BoE) (T-65 X-wing), Kyle Katarn (HWK-290 Light Freighter), Kylo Ren (TIE/wi Whisper Modified Interceptor), Lieutenant LeHuse (TIE/sf Fighter), Maarek Stele (SSP) (TIE Advanced x1), Maarek Stele (TIE Advanced x1), MagnaGuard Executioner (Rogue-class Starfighter), MagnaGuard Protector (Rogue-class Starfighter), Manaroo (JumpMaster 5000), Netrem Pollard (A/SF-01 B-wing), Nom Lumb (JumpMaster 5000), Nom Lumb (Rogue-class Starfighter), Omega Squadron Expert (TIE/sf Fighter), Outer Rim Hunter (Rogue-class Starfighter), Palob Godalhi (HWK-290 Light Freighter), Poe Dameron (EoD) (T-70 X-wing), Rebel Scout (HWK-290 Light Freighter), Red Fury Zealot (TIE/wi Whisper Modified Interceptor), Roark Garnet (HWK-290 Light Freighter), Spice Runner (HWK-290 Light Freighter), Stomeroni Starck (EoD) (T-70 X-wing), Storm Squadron Ace (TIE Advanced x1), Tallissan Lintra (EoD) (RZ-2 A-wing), Tel Trevura (JumpMaster 5000), Tempest Squadron Pilot (TIE Advanced x1), Ten Numb (A/SF-01 B-wing), Torkil Mux (HWK-290 Light Freighter), Tycho Celchu (BoE) (RZ-1 A-wing), Tápusk (HWK-290 Light Freighter), Ved Foslo (TIE Advanced x1), Viktor Hel (Rogue-class Starfighter), Wedge Antilles (BoE) (T-65 X-wing), Yendor (BoE) (T-65 X-wing), Zertik Strom (TIE Advanced x1), Zeta Squadron Survivor (TIE/sf Fighter), “Backdraft” (TIE/sf Fighter), “Quickdraw” (TIE/sf Fighter)
 
+## rr-31: The {force} for a purple action is a cost to attempt it, so it's spent even if the action fails.
+
+> **Q:** If a ship attempts a purple action (such as a {barrelroll} or {boost} action) and fails the action, must it still spend the {force}?
+>
+> **A:** Yes. A purple action's {force} cost is a "cost to attempt to perform [that] purple action" (see Actions) and is still paid even if the action fails.
+
+Already named: none
+
+**Lets you perform a purple action that can fail ({barrelroll}, {boost} or {coordinate})** (strong match) — APPROVED, on the site
+
+- [x] **Intuitive Controls** (Eta-2 Actis): During the System Phase, you may perform a purple {barrelroll} or purple {boost} action.
+- [x] **Battle Meditation** (Force Power): You cannot coordinate limited ships. While you perform a purple {coordinate} action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.
+- [x] **Chancellor Palpatine** (Crew): Chancellor Palpatine: Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 {force}. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card. Darth Sidious After you perform a purple {coordinate} action, the ship you coordinated gains 1 stress token. Then, it gains 1 focus token or recovers 1 {force}.
+- [x] **Shaak Ti (SoC)** (Eta-2 Actis): At the start of the End Phase, you may perform a purple {coordinate} action, even while stressed After you perform a {coordinate} action, if the chosen ship has the Born for This ship ability, you may coordinate 1 additional ship.
+
+**Pilots with a purple {lock} on their action bar (a lock can fail)** (possible match) — APPROVED, on the site
+
+- [x] **Aayla Secura** (Eta-2 Actis): While an enemy ship in your {frontarc} at range 0-1 performs an attack, the defender may change 1 blank result to a {focus} result.
+- [x] **Anakin Skywalker** (Eta-2 Actis): After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 {force}. If you do, that ship removes 1 red token of your choice.
+- [x] **Anakin Skywalker (SoC)** (Eta-2 Actis): After you or a friendly Obi-Wan Kenobi ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 {force}. If you do, that ship may perform a {barrelroll} action.
+- [x] **Jedi General** (Eta-2 Actis): 
+- [x] **Kit Fisto** (Eta-2 Actis): While another friendly ship defends, if the attacker is in its {bullseyearc}, you may spend 1 {force} to change 1 of the defender's blank results to a {focus} result.
+- [x] **Obi-Wan Kenobi** (Eta-2 Actis): After you or a friendly Anakin Skywalker at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 {force}. If you do, that ship gains 1 focus token.
+- [x] **Obi-Wan Kenobi (SoC)** (Eta-2 Actis): After you or a friendly Anakin Skywalker at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 {force}. If you do, that ship may perform a {boost} action.
+- [x] **Quinlan Vos** (Eta-2 Actis): After you perform a {barrelroll} or {boost} action, you may acquire a lock on a ship in your {bullseyearc}.
+- [x] **Shaak Ti** (Eta-2 Actis): At the start of the End Phase, you may spend any number of {force} to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.
+- [x] **Shaak Ti (SoC)** (Eta-2 Actis): At the start of the End Phase, you may perform a purple {coordinate} action, even while stressed After you perform a {coordinate} action, if the chosen ship has the Born for This ship ability, you may coordinate 1 additional ship.
+- [x] **Yoda** (Eta-2 Actis): After another friendly ship at range 0-3 spends 1 or more {force}, you may spend 1 {force}. If you do, that ship recovers 1 {force}.
+
+**Triggers after a ship performs a purple action (a failed action isn't performed)** (possible match) — APPROVED, on the site
+
+- [x] **Yoda** (Crew): After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 {force}. If you do, that ship recovers 1 {force}.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

@@ -351,6 +351,17 @@
      "match": {"pilotLinkedAfter": "focus"}, "cards": []}
    ]
   },
+  "rr-31": {
+   "mechanic": "The {force} for a purple action is a cost to attempt it, so it's spent even if the action fails.",
+   "groups": [
+    {"why": "Lets you perform a purple action that can fail ({barrelroll}, {boost} or {coordinate})", "strength": "strong", "status": "approved",
+     "cards": ["intuitive-controls", "battle-meditation-force-power", "chancellor-palpatine-crew", "shaak-ti-eta-2-actis-soc"]},
+    {"why": "Pilots with a purple {lock} on their action bar (a lock can fail)", "strength": "possible", "status": "approved",
+     "cards": ["aayla-secura-eta-2-actis", "anakin-skywalker-eta-2-actis-eta-2", "anakin-skywalker-eta-2-actis-soc", "jedi-general-eta-2-actis", "kit-fisto-eta-2-actis", "obi-wan-kenobi-eta-2-actis-eta-2", "obi-wan-kenobi-eta-2-actis-soc", "quinlan-vos-eta-2-actis", "shaak-ti-eta-2-actis", "shaak-ti-eta-2-actis-soc", "yoda-eta-2-actis"]},
+    {"why": "Triggers after a ship performs a purple action (a failed action isn't performed)", "strength": "possible", "status": "approved",
+     "cards": ["yoda-crew"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
