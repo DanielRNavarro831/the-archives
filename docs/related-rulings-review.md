@@ -973,6 +973,22 @@ Already named: Sense
 
 - [x] **Major Rhymer** (TIE/sa Bomber): While you perform a {torpedo} or {missile} attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.
 
+## rr-34: A card's action that needs a target fails if there's no valid target to choose.
+
+> **Q:** If a Quadrijet Transfer Spacetug uses its "Spacetug Tractor Array" action and cannot choose a ship in its front arc at range 1, what happens?
+>
+> **A:** The action fails.
+
+Already named: Spacetug Tractor Array
+
+**Has its own **Action:** that must choose a ship or object** (strong match) — APPROVED, on the site
+
+- [x] **Hondo Ohnaka** (Crew): Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.
+- [x] **Hondo Ohnaka** (Firespray-class Patrol Craft): Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.
+- [x] **Agent Terex** (Crew): Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it. Cyborg: During the System Phase, roll 1 attack die. On a {hit} or {crit} result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3.
+- [x] **Kylo Ren** (Crew): Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 {force} to assign the I'll Show You the Dark Side condition to that ship.
+- [x] **Tal Merrik** (Crew): Setup: Before placing forcse, choose 1 enemy ship and assign the False Friend condition to it. Action: If the False Friend condition is not assigned to an enemy ship, assign it to an enemy ship in your {frontarc} at range 0-2.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

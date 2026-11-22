@@ -380,6 +380,13 @@
      "cards": ["major-rhymer-tie-sa-bomber"]}
    ]
   },
+  "rr-34": {
+   "mechanic": "A card's action that needs a target fails if there's no valid target to choose.",
+   "groups": [
+    {"why": "Has its own **Action:** that must choose a ship or object", "strength": "strong", "status": "approved",
+     "cards": ["hondo-ohnaka-crew", "hondo-ohnaka-firespray-class-patrol-craft", "agent-terex-crew", "kylo-ren-crew", "tal-merrik-crew"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
