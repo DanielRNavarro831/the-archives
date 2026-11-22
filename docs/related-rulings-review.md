@@ -583,23 +583,23 @@ Already named: Cluster Mines, Delayed Fuses, Paige Tico, Thermal Detonators, Tra
 
 Already named: Sabine Wren
 
-**A bomb that detonates at the end of the Activation Phase, so several can detonate at once** (strong match)
+**A bomb that detonates at the end of the Activation Phase, so several can detonate at once** (strong match) — APPROVED, on the site
 
-- [ ] **Blazer Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship or remote suffers 1 {hit} damage for each {hit}/{crit} result. After this devices detonates, place a Blaze by aligning the Blaze's guides to the device's tab. A Blaze is an obstacle. After this obstacle is placed, place a fuse marker on it. During the End Phase, remove each Blaze with no fuse markers, then remove 1 fuse marker from each Blaze.
-- [ ] **Bomblet** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship and remote suffers 1 {hit} damage for each {hit}/{crit} result.
-- [ ] **Concussion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 is dealt 1 facedown damage card. Then, each ship at range 0-1 must expose 1 damage card unless it chooses to gain 1 strain token.
-- [ ] **Electro-Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each {focus}/{hit} result, and gains 1 disarm token for each {crit} result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each {focus}/{hit} result.
-- [ ] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
-- [ ] **Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 {crit} damage.
-- [ ] **Seismic Charge** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, choose 1 obstacle at range 0-1. The obstacle deals 1 {hit} damage to each ship and remote at range 0-1. Then remove that obstacle.
-- [ ] **Thermal Detonator** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship gains 1 strain token for each {focus} result, and each ship and remote suffers 1 {hit}/{crit} damage for each matching result.
+- [x] **Blazer Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship or remote suffers 1 {hit} damage for each {hit}/{crit} result. After this devices detonates, place a Blaze by aligning the Blaze's guides to the device's tab. A Blaze is an obstacle. After this obstacle is placed, place a fuse marker on it. During the End Phase, remove each Blaze with no fuse markers, then remove 1 fuse marker from each Blaze.
+- [x] **Bomblet** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship and remote suffers 1 {hit} damage for each {hit}/{crit} result.
+- [x] **Concussion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 is dealt 1 facedown damage card. Then, each ship at range 0-1 must expose 1 damage card unless it chooses to gain 1 strain token.
+- [x] **Electro-Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each {focus}/{hit} result, and gains 1 disarm token for each {crit} result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each {focus}/{hit} result.
+- [x] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
+- [x] **Proton Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 {crit} damage.
+- [x] **Seismic Charge** (Condition): Types: Device, Bomb At the end of the Activation Phase this device detonates. When this device detonates, choose 1 obstacle at range 0-1. The obstacle deals 1 {hit} damage to each ship and remote at range 0-1. Then remove that obstacle.
+- [x] **Thermal Detonator** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship gains 1 strain token for each {focus} result, and each ship and remote suffers 1 {hit}/{crit} damage for each matching result.
 
-**Triggers when a bomb or mine detonates, like Sabine Wren** (strong match)
+**Triggers when a bomb or mine detonates, like Sabine Wren** (strong match) — APPROVED, on the site
 
-- [ ] **Padric** (BTL-A4 Y-wing): After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.
-- [ ] **Rattled** (Condition): After a bomb or mine at range 0-1 detonates, suffer 1 {crit}. Then, remove this card. Action: If there are no bombs or mines at range 0-1, remove this card.
-- [ ] **Captain Nym** (Scurrg H-6 Bomber): Before a friendly bomb or mine would detonate, you may spend 1 {charge} to prevent it from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.
-- [ ] **Ablative Plating** (Modification): Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 {charge}. If you do, prevent 1 damage.
+- [x] **Padric** (BTL-A4 Y-wing): After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.
+- [x] **Rattled** (Condition): After a bomb or mine at range 0-1 detonates, suffer 1 {crit}. Then, remove this card. Action: If there are no bombs or mines at range 0-1, remove this card.
+- [x] **Captain Nym** (Scurrg H-6 Bomber): Before a friendly bomb or mine would detonate, you may spend 1 {charge} to prevent it from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.
+- [x] **Ablative Plating** (Modification): Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 {charge}. If you do, prevent 1 damage.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
