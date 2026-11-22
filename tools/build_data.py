@@ -522,6 +522,8 @@ def related_group_cards(group, cards):
         skip = set(group["match"].get("excludeTypes", []))  # e.g. ["Command"]
         ids += [c["id"] for c in cards.values() if c.get("type") == "Upgrade"
                 and len(set(c.get("slot") or [])) >= need and not skip & set(c.get("slot") or []) and c["id"] not in ids]
+    if (group.get("match") or {}).get("cardType"):
+        ids += [c["id"] for c in cards.values() if c.get("type") == group["match"]["cardType"] and c["id"] not in ids]
     return ids
 
 
@@ -847,6 +849,9 @@ def main():
     card_redirects = merge_devices(cards, rulings, cur)
 
     # 6c. reviewed "may also apply" links (data/related-rulings.json, approved groups only)
+    for rem_id in cur.get("remoteMakers", {}):                  # remotes are type Remote before related links are added
+        if rem_id in cards:
+            cards[rem_id]["type"] = "Remote"
     add_related_rulings(cards, rulings)
 
     # 6d. remotes and the upgrades that create them share their rulings (cards-curated.json "remoteMakers")

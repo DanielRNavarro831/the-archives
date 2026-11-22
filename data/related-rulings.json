@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2, \"excludeTypes\": [types]} for every upgrade with two or more types (leaving out the listed types). See docs/related-rulings-review.md.",
+ "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2, \"excludeTypes\": [types]} for every upgrade with two or more types (leaving out the listed types), or \"match\": {\"cardType\": \"Remote\"} for every card of a type. See docs/related-rulings-review.md.",
  "rulings": {
   "rr-1": {
    "mechanic": "A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.",
@@ -280,6 +280,17 @@
      "cards": ["delayed-fuses-modification"]}
    ]
   },
+  "rr-16": {
+   "mechanic": "A ship can't be outside a remote's arcs if the remote has none, so \"while you are not in its arc\" abilities can't be used against it.",
+   "groups": [
+    {"why": "Needs you to be outside the defender's arc (can't be used against a remote with no arcs)", "strength": "strong", "status": "approved",
+     "cards": ["autoblasters-cannon", "blindspot-targeter-sensor", "general-grievous-belbullab-22-starfighter", "outmaneuver-talent", "precision-holo-targeter-tech-eod", "wedge-antilles-gunner"]},
+    {"why": "Needs you to be outside the enemy's {bullseyearc} (a remote with no bullseye arc)", "strength": "possible", "status": "approved",
+     "cards": ["brilliant-evasion-force-power", "enduring-talent", "guarded", "luminara-unduli-delta-7-aethersprite", "luminara-unduli-delta-7b-aethersprite-delta-7b", "captain-seevor-modified-tie-ln-fighter"]},
+    {"why": "Every remote (added in review; found from the card type, so new remotes join automatically)", "strength": "strong", "status": "approved",
+     "match": {"cardType": "Remote"}, "cards": []}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -358,6 +369,7 @@
   "proton-bombs-payload, seismic-charges-payload, ion-bombs-payload, cluster-mines-payload, proximity-mines-payload, concussion-bombs-payload, blazer-bomb-payload, bomblet-generator-payload, electro-proton-bomb-payload": "Drop a device during the System Phase, the normal timing (rr-76)",
   "cad-bane-crew, captain-jonus-tie-sa-bomber-tbe, delayed-fuses-modification, scimitar-3-tie-sa-bomber-boe, swift-approach-talent-tbe, deathrain-tie-ca-punisher": "Trigger after you drop or launch a device, but don't give another one (rr-76)",
   "emon-azzameen-firespray-class-patrol-craft, finch-dallow-mg-100-starfortress, finch-dallow-mg-100-starfortress-eod, gyro-cockpit, modular-bombing-magazine, nimble-bomber, skilled-bombardier-gunner, sol-sixxa-scurrg-h-6-bomber, bombardment-drone-hyena-class-droid-bomber, constable-zuvio-quadrijet-transfer-spacetug, trajectory-simulator-sensor": "Change how a device is dropped or launched, not how many (rr-76)",
+  "leema-kai-btl-a4-y-wing": "Checks enemy ships' arcs, not remotes' (rr-16)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

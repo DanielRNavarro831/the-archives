@@ -338,7 +338,7 @@ note that the ruling doesn't name that card. Only groups with `"status": "approv
 `"rejected"` groups are kept so they aren't suggested again. After editing the file, run
 `python tools/build_data.py`, then `python tools/related_review.py` to refresh the review checklist in
 `docs/related-rulings-review.md`. A group can use `"match": {"pilotPrimaryArcsOnly": [...]}` instead of a card list to include
-every pilot whose primary attacks only use those arcs; new pilots then join it automatically.
+every pilot whose primary attacks only use those arcs; new pilots then join it automatically. `"match": {"cardType": "Remote"}` does the same for every card of a type (e.g. every remote).
 
 ## Team rulings
 

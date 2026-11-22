@@ -707,6 +707,36 @@ Already named: none
 
 - [x] **Delayed Fuses** (Modification): After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.
 
+## rr-16: A ship can't be outside a remote's arcs if the remote has none, so "while you are not in its arc" abilities can't be used against it.
+
+> **Q:** If a remote has no arcs, can abilities that resolve “while not in the defender’s {frontarc} (or other arc)” resolve?
+>
+> **A:** No. A ship cannot be outside of any of a remote’s arcs if that remote has no arcs.
+
+Already named: none
+
+**Needs you to be outside the defender's arc (can't be used against a remote with no arcs)** (strong match) — APPROVED, on the site
+
+- [x] **Autoblasters** (Cannon): Attack: If the defender is in your {bullseyearc}, roll 1 additional die. During the Neutralize Results step, if you are not in the defender's {frontarc}, {evade} results do not cancel {crit} results.
+- [x] **Blindspot Targeter** (Sensor): While you perform a primary attack, if you are not in the defender's firing arc, you may change 1 {focus} result to a {hit} result.
+- [x] **General Grievous** (Belbullab-22 Starfighter): While you perform a primary attack, if you are not in the defender's firing arc, you may reroll up to 2 attack dice.
+- [x] **Outmaneuver** (Talent): While you perform a {frontarc} attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.
+- [x] **Precision Holo-Targeter** (Tech): While you perform a primary attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.
+- [x] **Wedge Antilles** (Gunner): While you perform a {singleturretarc} attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.
+
+**Needs you to be outside the enemy's {bullseyearc} (a remote with no bullseye arc)** (possible match) — APPROVED, on the site
+
+- [x] **Brilliant Evasion** (Force Power): While you defend, if you are not in the attacker's {bullseyearc}, you may spend 1 {force} to change 2 of your {focus} results to {evade} results.
+- [x] **Enduring** (Talent): While you defend, if you are not in the attacker's {bullseyearc}, {crit} results are neutralized before {hit} results. After you suffer {crit} damage, you may perform a {calculate} or {focus} action on your action bar, even while stressed, treating that action as red.
+- [x] **Guarded** (Condition): While you defend, if you are not in the attacker's {bullseyearc}, roll 1 additional defense die for each friendly calculating or evading MagnaGuard Protector in the attack arc.
+- [x] **Luminara Unduli** (Delta-7 Aethersprite): While a friendly ship at range 0-2 defends, if it is not in the attacker's {bullseyearc}, you may spend 1 {force}. If you do, change 1 {crit} result to a {hit} result or 1 {hit} result to a {focus} result.
+- [x] **Luminara Unduli** (Delta-7b Aethersprite): While a friendly ship at range 0-2 defends, if it is not in the attacker's {bullseyearc}, you may spend 1 {force}. If you do, change 1 {crit} result to a {hit} result or 1 {hit} result to a {focus} result.
+- [x] **Captain Seevor** (Modified TIE/ln Fighter): While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's {bullseyearc}, you may spend 1 {charge}. If you do, the enemy ship gains 1 jam token.
+
+**Every remote (added in review; found from the card type, so new remotes join automatically)** (strong match) — APPROVED, on the site
+
+- [x] 9 cards: Buzz Droid Swarm (), Clan Wren Commandos (), DRK-1 Probe Droid (), Death Watch Commandos (), Imperial Super Commandos (), Mandalorian Super Commandos (), Nite Owl Commandos (), Sensor Buoy (), Tracking Torpedoes ()
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -898,4 +928,5 @@ Already named: none
 - Proton Bombs, Seismic Charges, Ion Bombs, Cluster Mines, Proximity Mines, Concussion Bombs, Blazer Bomb, Bomblet Generator, Electro-Proton Bomb: Drop a device during the System Phase, the normal timing (rr-76)
 - Cad Bane, Captain Jonus (TBE), Delayed Fuses, Scimitar 3 (BoE), Swift Approach, “Deathrain”: Trigger after you drop or launch a device, but don't give another one (rr-76)
 - Emon Azzameen, Finch Dallow, Finch Dallow (EoD), Gyro-Cockpit, Modular Bombing Magazine, Nimble Bomber, Skilled Bombardier, Sol Sixxa, Bombardment Drone, Constable Zuvio, Trajectory Simulator: Change how a device is dropped or launched, not how many (rr-76)
+- Leema Kai: Checks enemy ships' arcs, not remotes' (rr-16)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
