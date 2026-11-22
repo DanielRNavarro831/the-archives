@@ -185,6 +185,15 @@
                "reckless-talent-boe", "repulsorlift-engines-modification-eod"]}
    ]
   },
+  "rr-76": {
+   "mechanic": "Abilities that drop or launch a device without saying \"if you have not dropped or launched a device this round\" can give a ship a second device in the same round.",
+   "groups": [
+    {"why": "Drops or launches a device outside the usual once-per-round limit (no \"if you have not dropped...\" condition)", "strength": "strong", "status": "approved",
+     "cards": ["paige-tico-mg-100-starfortress", "paige-tico-gunner-eod", "vagabond-tie-sk-striker", "parting-gift-talent", "parting-gift-talent-boe", "drk-1-probe-droids-payload"]},
+    {"why": "Has the \"if you have not dropped or launched a device this round\" limit, like Edon Kappehl", "strength": "strong", "status": "approved",
+     "cards": ["genius-astromech", "top-cover-talent-tbe", "deathfire-tie-sa-bomber-tbe"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -260,6 +269,9 @@
   "night-beast-tie-ln-fighter, night-beast-tie-ln-fighter-ssp": "Grant a {focus} action, which an ionized ship can still perform (rr-30)",
   "advanced-slam-modification, dauntless-title, grand-inquisitor-crew, poe-dameron-t-70-x-wing, poe-dameron-t-70-x-wing-hoh, poe-dameron-t-70-x-wing-eod, baze-malbus-crew, daredevil-talent, droid-crew-team, flight-assist-astromech-astromech, independent-calculations, larma-dacy-crew": "Only treat a white action as red, so a red or purple action never comes up (rr-59)",
   "ahsoka-tano-delta-7-aethersprite, airen-cracken-z-95-af4-headhunter, lando-calrissian-modified-yt-1300-light-freighter, kit-fisto-crew, jake-farrell-rz-1-a-wing": "Let a friendly ship perform an action: its controller is already the same player (rr-92; many cards like these)",
+  "proton-bombs-payload, seismic-charges-payload, ion-bombs-payload, cluster-mines-payload, proximity-mines-payload, concussion-bombs-payload, blazer-bomb-payload, bomblet-generator-payload, electro-proton-bomb-payload": "Drop a device during the System Phase, the normal timing (rr-76)",
+  "cad-bane-crew, captain-jonus-tie-sa-bomber-tbe, delayed-fuses-modification, scimitar-3-tie-sa-bomber-boe, swift-approach-talent-tbe, deathrain-tie-ca-punisher": "Trigger after you drop or launch a device, but don't give another one (rr-76)",
+  "emon-azzameen-firespray-class-patrol-craft, finch-dallow-mg-100-starfortress, finch-dallow-mg-100-starfortress-eod, gyro-cockpit, modular-bombing-magazine, nimble-bomber, skilled-bombardier-gunner, sol-sixxa-scurrg-h-6-bomber, bombardment-drone-hyena-class-droid-bomber, constable-zuvio-quadrijet-transfer-spacetug, trajectory-simulator-sensor": "Change how a device is dropped or launched, not how many (rr-76)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

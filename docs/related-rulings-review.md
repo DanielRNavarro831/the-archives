@@ -481,6 +481,29 @@ Already named: Microthrusters
 - [-] **Reckless** (Talent): While you perform a red {boost} or red {barrelroll} action, you may use the [1 {turnleft}] or [1 {turnright}] template instead. If you do, roll an attack die. On a {hit}/{crit} result, gain a stress token.
 - [-] **Repulsorlift Engines** (Modification): While you perform a {barrelroll} action, you may gain 1 strain token to use the {bankleft} or {bankright} template instead of the {straight} template.
 
+## rr-76: Abilities that drop or launch a device without saying "if you have not dropped or launched a device this round" can give a ship a second device in the same round.
+
+> **Q:** Do Paige Tico [{crew}] and "Deathfire" [TIE Bomber]'s abilities supersede the "one device per round" limitation?
+>
+> **A:** Yes. These abilities allow one ship to drop a second device in the same round (at the relevant timing windows), as they do not include the "if you have not dropped or launched a device this round" limitation (as included on Edon Kappehl).
+
+Already named: Edon Kappehl, Paige Tico, “Deathfire”
+
+**Drops or launches a device outside the usual once-per-round limit (no "if you have not dropped..." condition)** (strong match) — APPROVED, on the site
+
+- [x] **Paige Tico** (MG-100 StarFortress): After you drop a device, you may spend 1 {charge} to drop an additional device.
+- [x] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
+- [x] **"Vagabond"** (TIE/sk Striker): After you move using your Adaptive Ailerons, if you are not stressed you may drop 1 device.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **DRK-1 Probe Droids** (Payload): During the End Phase, you may spend 1 {charge} to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's {charge} cannot be recovered.
+
+**Has the "if you have not dropped or launched a device this round" limit, like Edon Kappehl** (strong match) — APPROVED, on the site
+
+- [x] **“Genius”** (Astromech): After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.
+- [x] **Top Cover** (Talent): After a friendly ship at range 0-1 defends, if you have not dropped or launched a device this round, you may launch a device using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. You ignore the effects of friendly devices.
+- [x] **“Deathfire” (TBE)** (TIE/sa Bomber): After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 {charge} to drop or launch a bomb using the [3 {straight}] template.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -669,4 +692,7 @@ Already named: none
 - “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
 - Advanced SLAM, Dauntless, Grand Inquisitor, Poe Dameron, Poe Dameron, Poe Dameron (EoD), Baze Malbus, Daredevil, Droid Crew, Flight-Assist Astromech, Independent Calculations, Larma D'Acy: Only treat a white action as red, so a red or purple action never comes up (rr-59)
 - Ahsoka Tano, Airen Cracken, Lando Calrissian, Kit Fisto, Jake Farrell: Let a friendly ship perform an action: its controller is already the same player (rr-92; many cards like these)
+- Proton Bombs, Seismic Charges, Ion Bombs, Cluster Mines, Proximity Mines, Concussion Bombs, Blazer Bomb, Bomblet Generator, Electro-Proton Bomb: Drop a device during the System Phase, the normal timing (rr-76)
+- Cad Bane, Captain Jonus (TBE), Delayed Fuses, Scimitar 3 (BoE), Swift Approach, “Deathrain”: Trigger after you drop or launch a device, but don't give another one (rr-76)
+- Emon Azzameen, Finch Dallow, Finch Dallow (EoD), Gyro-Cockpit, Modular Bombing Magazine, Nimble Bomber, Skilled Bombardier, Sol Sixxa, Bombardment Drone, Constable Zuvio, Trajectory Simulator: Change how a device is dropped or launched, not how many (rr-76)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
