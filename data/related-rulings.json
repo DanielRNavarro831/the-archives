@@ -229,6 +229,17 @@
      "cards": ["padric-btl-a4-y-wing", "rattled", "captain-nym-scurrg-h-6-bomber", "ablative-plating-modification"]}
    ]
   },
+  "rr-17": {
+   "mechanic": "When a mine that affects one ship is dropped onto two or more ships, the mine's owner chooses the one ship it affects.",
+   "groups": [
+    {"why": "The Proximity Mine device itself (the ruling names the upgrade that drops it)", "strength": "strong", "status": "approved",
+     "cards": ["proximity-mine"]},
+    {"why": "Another mine that affects only the one ship that overlaps it", "strength": "strong", "status": "approved",
+     "cards": ["conner-nets-payload", "conner-net"]},
+    {"why": "Cluster Mines, Discord Missiles and the buzz droid swarm (added in review)", "strength": "strong", "status": "approved",
+     "cards": ["cluster-mines-payload", "cluster-mine", "discord-missiles-missile", "buzz-droid-swarm"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
