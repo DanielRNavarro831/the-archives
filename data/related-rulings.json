@@ -49,7 +49,9 @@
   "rr-37": {
    "mechanic": "Flipping a dial faceup is not revealing it.",
    "groups": [
-    {"why": "Flips a dial faceup", "strength": "strong", "cards": ["compromising-intel", "false-friend", "supreme-leader-snoke-crew"]}
+    {"why": "Flips a dial faceup", "strength": "strong", "status": "approved", "cards": ["compromising-intel", "false-friend", "supreme-leader-snoke-crew"]},
+    {"why": "Looks at a ship's dial (added in review: the same ruling applies)", "strength": "strong", "status": "approved",
+     "cards": ["sense-force-power", "cassian-andor-crew", "phlac-arphocc-prototype-droid-tri-fighter"]}
    ]
   },
   "rr-25": {
@@ -62,7 +64,6 @@
  "notSuggested": {
   "baze-malbus-crew, daredevil-talent, droid-crew-team, general-hux-crew, independent-calculations, kickback-v-19-torrent-starfighter-soc, grand-inquisitor-crew": "Treat an action as red, not a maneuver",
   "advanced-sensors-sensor, precognitive-reflexes-force-power, r2-astromech-astromech, r2-a3-astromech-boy, r2-d2-astromech, r2-f2-astromech-boy": "Trigger after a dial is revealed but don't change the maneuver",
-  "cassian-andor-crew": "Sets your dial during the System Phase, before it's revealed",
   "grappling-struts-configuration, landing-struts-configuration": "Skip the maneuver rather than change it; their own forum ruling covers them",
   "clan-wren-volunteer-fang-fighter, sarco-plank-quadrijet-transfer-spacetug": "Check the maneuver you executed, not the revealed one",
   "adaptive-ailerons, controlled-ailerons, thrawn-crew-epic": "Trigger before a dial is revealed"

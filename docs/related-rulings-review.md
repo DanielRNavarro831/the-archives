@@ -153,11 +153,17 @@ Already named: Cova Nell, Leia Organa, R4 Astromech
 
 Already named: Informant, Listening Device
 
-**Flips a dial faceup** (strong match)
+**Flips a dial faceup** (strong match) — APPROVED, on the site
 
-- [ ] **Compromising Intel** (Condition): During the System Phase, if the enemy Vi Moradi is at range 0-3, flip your dial faceup. While you defend or perform an attack against the enemy Vi Moradi, you cannot spend focus tokens.
-- [ ] **False Friend** (Condition): During the System Phase, if an enemy ship with the Tal Merrik upgrade is at range 0-2 or an enemy remote is at range 0-2, flip your dial faceup. Action: Gain 1 deplete token and stress token to discard this condition.
-- [ ] **Supreme Leader Snoke** (Crew): During the System Phase, you may choose any number of enemy ships beyond range 1. If you do, spend that many {force} to flip each chosen ship's dial faceup.
+- [x] **Compromising Intel** (Condition): During the System Phase, if the enemy Vi Moradi is at range 0-3, flip your dial faceup. While you defend or perform an attack against the enemy Vi Moradi, you cannot spend focus tokens.
+- [x] **False Friend** (Condition): During the System Phase, if an enemy ship with the Tal Merrik upgrade is at range 0-2 or an enemy remote is at range 0-2, flip your dial faceup. Action: Gain 1 deplete token and stress token to discard this condition.
+- [x] **Supreme Leader Snoke** (Crew): During the System Phase, you may choose any number of enemy ships beyond range 1. If you do, spend that many {force} to flip each chosen ship's dial faceup.
+
+**Looks at a ship's dial (added in review: the same ruling applies)** (strong match) — APPROVED, on the site
+
+- [x] **Sense** (Force Power): During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 {force}, you may choose a ship at range 0-3 instead.
+- [x] **Cassian Andor** (Crew): During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to a…
+- [x] **Phlac-Arphocc Prototype** (Droid Tri-fighter): During the System Phase, you may spend your lock on a ship to look at that ship's dial.
 
 ## rr-25: Purple maneuvers can't have their difficulty changed, but can be treated as another color.
 
@@ -175,7 +181,6 @@ Already named: none
 
 - Baze Malbus, Daredevil, Droid Crew, General Hux, Independent Calculations, “Kickback” (SoC), Grand Inquisitor: Treat an action as red, not a maneuver
 - Advanced Sensors, Precognitive Reflexes, R2 Astromech, R2-A3, R2-D2, R2-F2: Trigger after a dial is revealed but don't change the maneuver
-- Cassian Andor: Sets your dial during the System Phase, before it's revealed
 - Grappling Struts, Landing Struts: Skip the maneuver rather than change it; their own forum ruling covers them
 - Clan Wren Volunteer, Sarco Plank: Check the maneuver you executed, not the revealed one
 - Adaptive Ailerons, Controlled Ailerons, Thrawn: Trigger before a dial is revealed
