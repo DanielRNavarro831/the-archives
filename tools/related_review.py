@@ -7,7 +7,11 @@ Run after tools/build_data.py:
 """
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_data import related_group_cards  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -43,7 +47,11 @@ def main():
             status = {"approved": " — APPROVED, on the site", "rejected": " — SKIPPED"}.get(g.get("status"), "")
             out += [f"**{g['why']}** ({g['strength']} match){status}", ""]
             box = {"approved": "[x]", "rejected": "[-]"}.get(g.get("status"), "[ ]")
-            for i in g["cards"]:
+            ids = related_group_cards(g, cards)
+            if g.get("match"):
+                out.append(f"- {box} {len(ids)} pilots: " + ", ".join(sorted({f'{cards[i]["name"]} ({cards[i].get("ship")})' for i in ids})))
+                total += len(ids)
+            for i in ([] if g.get("match") else ids):
                 c = cards[i]
                 out.append(f"- {box} {label(c)}: {text(c)}")
                 total += 1

@@ -508,6 +508,18 @@ def load_team_rulings(cards):
     return out
 
 
+def related_group_cards(group, cards):
+    """A related-rulings group's card ids: its list, plus pilots found by its "match" rule."""
+    ids = list(group.get("cards", []))
+    arcs = set((group.get("match") or {}).get("pilotPrimaryArcsOnly", []))
+    if arcs:
+        for c in cards.values():
+            mine = {a["arc"] for a in (c.get("stats") or {}).get("attacks", [])}
+            if c.get("type") == "Pilot" and mine and mine <= arcs and mine - {"bullseyearc"} and c["id"] not in ids:
+                ids.append(c["id"])
+    return ids
+
+
 def add_related_rulings(cards, rulings):
     """Approved groups in data/related-rulings.json -> card["relatedRulings"] (rulings that don't name the card)."""
     path = ROOT / "data" / "related-rulings.json"
@@ -522,7 +534,7 @@ def add_related_rulings(cards, rulings):
         for g in entry.get("groups", []):
             if g.get("status") != "approved":
                 continue
-            for cid in g["cards"]:
+            for cid in related_group_cards(g, cards):
                 c = cards.get(cid)
                 if c is None:
                     print(f"WARNING: related-rulings.json ({rid}) names unknown card {cid}")

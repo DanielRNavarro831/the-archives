@@ -5,6 +5,53 @@ Nothing here is on the site yet. Tick the cards that should show the ruling (or 
 that shouldn't) and send it back. Approved links would show on a card page under
 "Rulings that may also apply", with a note that the ruling doesn't name that card.
 
+## rr-1: A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.
+
+> **Q:** Can ships that only use {singleturretarc} or {fullfrontarc} attacks use effects that require the ship to perform a {frontarc} attack? (i.e. Fearless, Outmaneuver)
+>
+> **A:** No. Note the differences between the requirement of Fearless: “While you perform a {frontarc} primary attack…” and Punishing One: “While you perform a primary attack, if the defender is in your {frontarc}…” A {frontarc} attack uses the {frontarc} icon above the attack value as shown on its ship card. This is different from an attack that is performed against a ship in it’s {frontarc}.
+
+Already named: Fearless, Outmaneuver, Punishing One
+
+**Needs you to perform a {frontarc} attack** (strong match) — APPROVED, on the site
+
+- [x] **Ancillary Ion Weapons** (Cannon): While you perform a primary {frontarc} attack, before rolling attack dice, you may spend 2 {charge}. If you do, your {crit} results deal ion tokens instead of damage.
+- [x] **Arliz Hadrassian** (BTL-A4 Y-wing): While you perform a {frontarc} attack, if you are damaged, before the Modify Dice step, you may change 1 of your {focus} results to a {crit} result. While you defend, if you are damaged, you must change 1 of your {foc…
+- [x] **Optimized Prototype** (Condition): While you perform a {frontarc} primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 {hit}/{crit}/{focus} result. If you do, choose one: the defender loses 1 shield…
+- [x] **Veteran Tail Gunner** (Gunner): After you perform a primary {frontarc} attack, you may perform a bonus primary {reararc} attack.
+- [x] **Migs Mayfeld** (Gunner): After you perform a {frontarc} attack, you may perform a {reararc} or {singleturretarc} attack as a bonus attack against a different target with 1 or more red or orange tokens.
+- [x] **Locked and Loaded** (Attack Shuttle): While you are docked, after your carrier ship performs a primary {frontarc} or {turret} attack, it may perform a bonus primary {reararc} attack.
+
+**Needs you to perform a {frontarc} attack (left out in review)** (strong match) — SKIPPED
+
+- [-] **Slave I** (Title): While you perform a {frontarc} attack, if you are in the defender's {fullreararc}, you may change 1 {hit} result to a {crit} result.
+- [-] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your…
+- [-] **“Wolffe”** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional attack die.
+- [-] **“Wolffe” (SoC)** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional die.
+
+**Checks whether the defender is in your {frontarc} on a special weapon (added in review)** (strong match) — APPROVED, on the site
+
+- [x] **Multi-Missile Pods** (Missile): Attack ({calculate} or {lock}): Spend 1 {charge}. If the defender is in your {frontarc}, you may spend 1 {charge} to roll 1 additional attack die. If the defender is in your {bullseyearc}, you may spend up to 2 {charg…
+
+**Pilots whose primary attacks are only {singleturretarc}, {doubleturretarc} or {fullfrontarc} (added in review; found from each pilot's attack arcs, so new pilots join automatically)** (strong match) — APPROVED, on the site
+
+- [x] 107 pilots: "Hawk" (LAAT/i Gunship), "Hound" (LAAT/i Gunship), "Nightfall" (TIE/wi Whisper Modified Interceptor), "Rampage" (TIE/rb Heavy), "Warthog" (LAAT/i Gunship), "Whirlwind" (TIE/wi Whisper Modified Interceptor), "Wrath" (TIE/wi Whisper Modified Interceptor), 212th Battalion Pilot (LAAT/i Gunship), 709th Legion Ace (TIE/wi Whisper Modified Interceptor), Baktoid Drone (HMP Droid Gunship), Berwer Kret (Nantex-Class Starfighter), Blue Squadron Recruit (RZ-2 A-wing), Bossk (AaD) (YV-666 Light Freighter), Bossk (YV-666 Light Freighter), Captain Oicunn (VT-49 Decimator), Carida Academy Cadet (TIE/rb Heavy), Chertek (Nantex-Class Starfighter), Chewbacca (Modified YT-1300 Light Freighter), Chewbacca (Scavenged YT-1300), Contracted Scout (JumpMaster 5000), DGS-047 (HMP Droid Gunship), DGS-286 (HMP Droid Gunship), Dace Bonearm (HWK-290 Light Freighter), Dash Rendar (SL) (YT-2400 Light Freighter), Dash Rendar (YLF) (YT-2400 Light Freighter), Dash Rendar (YLF-SL) (YT-2400 Light Freighter), Dash Rendar (YT-2400 Light Freighter), Dengar (AaD) (JumpMaster 5000), Dengar (JumpMaster 5000), Doctor Aphra (YV-666 Light Freighter), Esege Tuketu (BTL-S8 K-wing), First Order Collaborators (Raider-class Corvette), Flight Leader Ubbel (TIE/rb Heavy), Freighter Captain (Customized YT-1300 Light Freighter), Gamut Key (HWK-290 Light Freighter), Geonosian Prototype (HMP Droid Gunship), Gideon Hask (Raider-class Corvette), Gorgol (Nantex-Class Starfighter), Green Squadron Expert (RZ-2 A-wing), Greer Sonnel (RZ-2 A-wing), Han Solo (AaD) (Customized YT-1300 Light Freighter), Han Solo (BoY) (Modified YT-1300 Light Freighter), Han Solo (Customized YT-1300 Light Freighter), Han Solo (Modified YT-1300 Light Freighter), Han Solo (Scavenged YT-1300), Iden Versio (Raider-class Corvette), Jan Ors (HWK-290 Light Freighter), Kanan Jarrus (HWK-290 Light Freighter), Kashyyyk Defender (Auzituck Gunship), Kyle Katarn (HWK-290 Light Freighter), Kylo Ren (TIE/wi Whisper Modified Interceptor), L'ulo L'ampar (RZ-2 A-wing), L3-37 (Customized YT-1300 Light Freighter), Lando Calrissian (BoE) (Modified YT-1300 Light Freighter), Lando Calrissian (Customized YT-1300 Light Freighter), Lando Calrissian (Modified YT-1300 Light Freighter), Lando Calrissian (Scavenged YT-1300), Latts Razzi (YV-666 Light Freighter), Leia Organa (Modified YT-1300 Light Freighter), Lowhhrick (Auzituck Gunship), Lyttan Dree (TIE/rb Heavy), Manaroo (JumpMaster 5000), Merl Cobben (RZ-2 A-wing), Miranda Doni (BTL-S8 K-wing), Moralo Eval (YV-666 Light Freighter), Morna Kee (VT-49 Decimator), Nom Lumb (JumpMaster 5000), Onderon Oppressor (HMP Droid Gunship), Onyx Squadron Sentry (TIE/rb Heavy), Outer Rim Patrol (Raider-class Corvette), Outer Rim Smuggler (Modified YT-1300 Light Freighter), Palob Godalhi (HWK-290 Light Freighter), Patrol Leader (VT-49 Decimator), Petranaki Arena Ace (Nantex-Class Starfighter), Poe Dameron (Scavenged YT-1300), Rear Admiral Chiraneau (VT-49 Decimator), Rebel Scout (HWK-290 Light Freighter), Red Fury Zealot (TIE/wi Whisper Modified Interceptor), Resistance Sympathizer (Scavenged YT-1300), Rey (Scavenged YT-1300), Roark Garnet (HWK-290 Light Freighter), Ronith Blario (EoD) (RZ-2 A-wing), Ronith Blario (RZ-2 A-wing), Seftin Vanik (RZ-2 A-wing), Separatist Predator (HMP Droid Gunship), Spice Runner (HWK-290 Light Freighter), Stalgasin Hive Guard (Nantex-Class Starfighter), Sun Fac (Nantex-Class Starfighter), Suralinda Javos (RZ-2 A-wing), Tallissan Lintra (EoD) (RZ-2 A-wing), Tallissan Lintra (RZ-2 A-wing), Tel Trevura (JumpMaster 5000), Torkil Mux (HWK-290 Light Freighter), Trandoshan Slaver (YV-666 Light Freighter), Tápusk (HWK-290 Light Freighter), Warden Squadron Pilot (BTL-S8 K-wing), Wild Space Fringer (YT-2400 Light Freighter), Wrobie Tyce (RZ-2 A-wing), Wullffwarro (Auzituck Gunship), Zari Bangel (RZ-2 A-wing), Zizi Tlo (EoD) (RZ-2 A-wing), Zizi Tlo (RZ-2 A-wing), “Leebo” (SL) (YT-2400 Light Freighter), “Leebo” (YLF) (YT-2400 Light Freighter), “Leebo” (YLF-SL) (YT-2400 Light Freighter), “Leebo” (YT-2400 Light Freighter), “Sicko” (LAAT/i Gunship)
+
+**Checks whether the defender is in your {frontarc} (the other half of the ruling)** (possible match)
+
+- [ ] **Wedge Antilles** (RZ-1 A-wing): While you perform a primary attack, if the defender is in your {frontarc}, the defender rolls 1 fewer defense die.
+- [ ] **DGS-047** (HMP Droid Gunship): After you perform an attack, if the defender is in your {frontarc}, you may acquire a lock on it. Then, if the defender is in your {bullseyearc}, it gains 1 strain token.
+- [ ] **Gar Saxon** (Gunner): While you perform the {lock} action, you can only choose an object in your {frontarc} or {reararc}. While you perform a primary attack, if the defender is in your {frontarc} or {reararc}, you may remove 1 orange or re…
+- [ ] **Gavin Darklighter** (E-wing): While a friendly ship performs an attack, if the defender is in your {frontarc}, the attacker may change 1 {hit} result to a {crit} result.
+
+**Gives, moves or changes a {frontarc} attack** (possible match)
+
+- [ ] **Moldy Crow** (Title): Gain a {frontarc} primary weapon with a value of “3.” During the End Phase, do not remove up to 2 focus tokens.
+- [ ] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the Syste…
+- [ ] **Krassis Trelix** (Firespray-class Patrol Craft): You can perform {frontarc} special attacks from your {reararc}. While you perform a special attack, you may reroll 1 attack die.
+- [ ] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
+- [ ] **Kavil** (BTL-A4 Y-wing): While you perform a non-{frontarc} attack, roll 1 additional attack die.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -184,3 +231,4 @@ Already named: none
 - Grappling Struts, Landing Struts: Skip the maneuver rather than change it; their own forum ruling covers them
 - Clan Wren Volunteer, Sarco Plank: Check the maneuver you executed, not the revealed one
 - Adaptive Ailerons, Controlled Ailerons, Thrawn: Trigger before a dial is revealed
+- Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

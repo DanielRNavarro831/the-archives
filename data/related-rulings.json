@@ -1,6 +1,24 @@
 {
- "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). See docs/related-rulings-review.md.",
+ "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc). See docs/related-rulings-review.md.",
  "rulings": {
+  "rr-1": {
+   "mechanic": "A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.",
+   "groups": [
+    {"why": "Needs you to perform a {frontarc} attack", "strength": "strong", "status": "approved",
+     "cards": ["ancillary-ion-weapons-cannon-soc", "arliz-hadrassian-btl-a4-y-wing", "optimized-prototype",
+               "veteran-tail-gunner-gunner", "migs-mayfeld-gunner", "locked-and-loaded"]},
+    {"why": "Needs you to perform a {frontarc} attack (left out in review)", "strength": "strong", "status": "rejected",
+     "cards": ["slave-i-title-separatist", "special-forces-gunner-gunner", "wolffe-arc-170-starfighter", "wolffe-arc-170-starfighter-soc"]},
+    {"why": "Checks whether the defender is in your {frontarc} on a special weapon (added in review)", "strength": "strong", "status": "approved",
+     "cards": ["multi-missile-pods-missile"]},
+    {"why": "Pilots whose primary attacks are only {singleturretarc}, {doubleturretarc} or {fullfrontarc} (added in review; found from each pilot's attack arcs, so new pilots join automatically)", "strength": "strong", "status": "approved",
+     "match": {"pilotPrimaryArcsOnly": ["singleturretarc", "doubleturretarc", "fullfrontarc", "bullseyearc"]}, "cards": []},
+    {"why": "Checks whether the defender is in your {frontarc} (the other half of the ruling)", "strength": "possible",
+     "cards": ["wedge-antilles-rz-1-a-wing-a-wing", "dgs-047-hmp-droid-gunship", "gar-saxon-gunner-gunner", "gavin-darklighter-e-wing"]},
+    {"why": "Gives, moves or changes a {frontarc} attack", "strength": "possible",
+     "cards": ["moldy-crow-title", "vectored-cannons-configuration-rz-1", "krassis-trelix-firespray-class-patrol-craft", "first-order-ordnance-tech-gunner-eod", "kavil-btl-a4-y-wing"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -66,6 +84,7 @@
   "advanced-sensors-sensor, precognitive-reflexes-force-power, r2-astromech-astromech, r2-a3-astromech-boy, r2-d2-astromech, r2-f2-astromech-boy": "Trigger after a dial is revealed but don't change the maneuver",
   "grappling-struts-configuration, landing-struts-configuration": "Skip the maneuver rather than change it; their own forum ruling covers them",
   "clan-wren-volunteer-fang-fighter, sarco-plank-quadrijet-transfer-spacetug": "Check the maneuver you executed, not the revealed one",
-  "adaptive-ailerons, controlled-ailerons, thrawn-crew-epic": "Trigger before a dial is revealed"
+  "adaptive-ailerons, controlled-ailerons, thrawn-crew-epic": "Trigger before a dial is revealed",
+  "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
