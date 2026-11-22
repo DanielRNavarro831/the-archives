@@ -254,6 +254,13 @@
      "cards": ["blazer-bomb-payload", "electro-chaff-missiles-missile"]}
    ]
   },
+  "rr-12": {
+   "mechanic": "A mine dropped overlapping a ship detonates right away, because a ship counts as overlapping anything placed underneath it.",
+   "groups": [
+    {"why": "Drops a mine", "strength": "strong", "status": "approved",
+     "cards": ["proximity-mines-payload", "cluster-mines-payload", "conner-nets-payload"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

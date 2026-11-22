@@ -648,6 +648,20 @@ Already named: Rigged Cargo Chute, Spare Parts Canisters
 - [x] **Blazer Bomb** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Blazer Bomb using the [1 {straight}] template.
 - [x] **Electro-Chaff Missiles** (Missile / Payload): During the System Phase, you may spend 1 {charge} from this card to launch 1 electro-chaff cloud using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Then place 1 fuse marker on it. This card's {charge} cannot be recovered..
 
+## rr-12: A mine dropped overlapping a ship detonates right away, because a ship counts as overlapping anything placed underneath it.
+
+> **Q:** Does a Mine, when dropped overlapping a ship in the System Phase, detonate immediately?
+>
+> **A:** Yes. When an object is placed underneath a ship, that ship counts as overlapping that object.
+
+Already named: none
+
+**Drops a mine** (strong match) — APPROVED, on the site
+
+- [x] **Proximity Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Proximity Mine using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
