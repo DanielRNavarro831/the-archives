@@ -213,10 +213,10 @@
      "cards": ["cad-bane-crew", "swift-approach-talent-tbe"]},
     {"why": "Triggers after you drop or launch a device (left out in review: these ships can't drop more than 1 device in a round)", "strength": "strong", "status": "rejected",
      "cards": ["captain-jonus-tie-sa-bomber-tbe", "scimitar-3-tie-sa-bomber-boe"]},
-    {"why": "Changes the template or placement of a device you drop (used for each Thermal Detonator separately)", "strength": "possible",
+    {"why": "Changes the template or placement of a device you drop (used for each Thermal Detonator separately)", "strength": "possible", "status": "approved",
      "cards": ["finch-dallow-mg-100-starfortress", "finch-dallow-mg-100-starfortress-eod", "gyro-cockpit", "modular-bombing-magazine", "emon-azzameen-firespray-class-patrol-craft",
                "nimble-bomber", "skilled-bombardier-gunner", "sol-sixxa-scurrg-h-6-bomber", "bombardment-drone-hyena-class-droid-bomber", "constable-zuvio-quadrijet-transfer-spacetug"]},
-    {"why": "Drops one bomb after an attack or when destroyed, like Paige Tico (Crew)", "strength": "possible",
+    {"why": "Drops one bomb after an attack or when destroyed, like Paige Tico (Crew)", "strength": "possible", "status": "approved",
      "cards": ["paige-tico-gunner-eod", "parting-gift-talent", "parting-gift-talent-boe"]}
    ]
   },

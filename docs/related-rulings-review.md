@@ -556,24 +556,24 @@ Already named: Cluster Mines, Delayed Fuses, Paige Tico, Thermal Detonators, Tra
 - [-] **Captain Jonus (TBE)** (TIE/sa Bomber): After you drop or launch a device, gain an evade token.
 - [-] **Scimitar 3 (BoE)** (TIE/sa Bomber): After you drop a bomb, you may spend 1 {charge} to perform a {boost} action.
 
-**Changes the template or placement of a device you drop (used for each Thermal Detonator separately)** (possible match)
+**Changes the template or placement of a device you drop (used for each Thermal Detonator separately)** (possible match) — APPROVED, on the site
 
-- [ ] **Finch Dallow** (MG-100 StarFortress): Before you would drop a bomb, you may place it in the play area touching you instead.
-- [ ] **Finch Dallow (EoD)** (MG-100 StarFortress): If you would drop a device using a {straight} template and you are not stressed, you may gain 1 stress token to use a [{bankleft} or {bankright}] template of the same speed instead.
-- [ ] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
-- [ ] **Modular Bombing Magazine** (MG-100 StarFortress): When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
-- [ ] **Emon Azzameen** (Firespray-class Patrol Craft): If you would drop a device using a [1 {straight}] template, you may use the [3 {turnleft}], [3 {straight}], or [3 {turnright}] template instead.
-- [ ] **Nimble Bomber** (TIE/sa Bomber): If you would drop a device using a {straight} template, you may use a {bankleft} or {bankright} template of the same speed instead.
-- [ ] **Skilled Bombardier** (Gunner): If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.
-- [ ] **Sol Sixxa** (Scurrg H-6 Bomber): If you would drop a device using a [1 {straight}] template, you may drop it using any speed 1 template instead.
-- [ ] **Bombardment Drone** (Hyena-class Droid Bomber): If you would drop a device, you may launch that device instead, using the same template.
-- [ ] **Constable Zuvio** (Quadrijet Transfer Spacetug): If you would drop a device, you may launch it using a [1 {straight}] template instead.
+- [x] **Finch Dallow** (MG-100 StarFortress): Before you would drop a bomb, you may place it in the play area touching you instead.
+- [x] **Finch Dallow (EoD)** (MG-100 StarFortress): If you would drop a device using a {straight} template and you are not stressed, you may gain 1 stress token to use a [{bankleft} or {bankright}] template of the same speed instead.
+- [x] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
+- [x] **Modular Bombing Magazine** (MG-100 StarFortress): When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
+- [x] **Emon Azzameen** (Firespray-class Patrol Craft): If you would drop a device using a [1 {straight}] template, you may use the [3 {turnleft}], [3 {straight}], or [3 {turnright}] template instead.
+- [x] **Nimble Bomber** (TIE/sa Bomber): If you would drop a device using a {straight} template, you may use a {bankleft} or {bankright} template of the same speed instead.
+- [x] **Skilled Bombardier** (Gunner): If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.
+- [x] **Sol Sixxa** (Scurrg H-6 Bomber): If you would drop a device using a [1 {straight}] template, you may drop it using any speed 1 template instead.
+- [x] **Bombardment Drone** (Hyena-class Droid Bomber): If you would drop a device, you may launch that device instead, using the same template.
+- [x] **Constable Zuvio** (Quadrijet Transfer Spacetug): If you would drop a device, you may launch it using a [1 {straight}] template instead.
 
-**Drops one bomb after an attack or when destroyed, like Paige Tico (Crew)** (possible match)
+**Drops one bomb after an attack or when destroyed, like Paige Tico (Crew)** (possible match) — APPROVED, on the site
 
-- [ ] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
-- [ ] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
-- [ ] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
