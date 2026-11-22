@@ -387,6 +387,15 @@
      "cards": ["hondo-ohnaka-crew", "hondo-ohnaka-firespray-class-patrol-craft", "agent-terex-crew", "kylo-ren-crew", "tal-merrik-crew"]}
    ]
   },
+  "rr-2": {
+   "mechanic": "A {frontarc} attack isn't an attack from your {singleturretarc}, even when the turret arc indicator points to your front.",
+   "groups": [
+    {"why": "Needs a {singleturretarc} you haven't attacked from this round, like Veteran Turret Gunner", "strength": "strong", "status": "approved",
+     "cards": ["dedicated-gunners-gunner-eod", "ezra-bridger-gunner", "han-solo-gunner"]},
+    {"why": "Gives a {singleturretarc} bonus attack after a {frontarc} attack", "strength": "possible", "status": "approved",
+     "cards": ["special-forces-gunner-gunner", "migs-mayfeld-gunner"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

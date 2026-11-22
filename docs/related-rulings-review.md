@@ -989,6 +989,25 @@ Already named: Spacetug Tractor Array
 - [x] **Kylo Ren** (Crew): Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 {force} to assign the I'll Show You the Dark Side condition to that ship.
 - [x] **Tal Merrik** (Crew): Setup: Before placing forcse, choose 1 enemy ship and assign the False Friend condition to it. Action: If the False Friend condition is not assigned to an enemy ship, assign it to an enemy ship in your {frontarc} at range 0-2.
 
+## rr-2: A {frontarc} attack isn't an attack from your {singleturretarc}, even when the turret arc indicator points to your front.
+
+> **Q:** When a ship with its turret arc indicator pointing at its {frontarc} performs a {frontarc} attack, has it also attacked from that {singleturretarc}?
+>
+> **A:** No. For example, if a ship equipped with Veteran Turret Gunner performs a primary {frontarc} attack, it could use Veteran Turret Gunner’s ability to perform a {singleturretarc} attack even if the turret arc indicator is pointing at its {frontarc}.
+
+Already named: Veteran Turret Gunner
+
+**Needs a {singleturretarc} you haven't attacked from this round, like Veteran Turret Gunner** (strong match) — APPROVED, on the site
+
+- [x] **Dedicated Gunners** (Gunner): While you perform a primary attack, if the defender is in your {singleturretarc}, you may spend 1 focus token to roll 1 additional attack die. After you perform a primary attack, you may perform a bonus {singleturretarc} attack using a {singleturretarc} you did not already attack from this round.
+- [x] **Ezra Bridger** (Gunner): After you perform a primary attack, you may spend 1 {force} to perform a bonus {singleturretarc} attack from a {singleturretarc} you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.
+- [x] **Han Solo** (Gunner): During the Engagement Phase, at initiative 7, you may perform a {singleturretarc} attack. You cannot attack from that {singleturretarc} again this round.
+
+**Gives a {singleturretarc} bonus attack after a {frontarc} attack** (possible match) — APPROVED, on the site
+
+- [x] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your {reararc}, you may perform a bonus primary {singleturretarc} attack.
+- [x] **Migs Mayfeld** (Gunner): After you perform a {frontarc} attack, you may perform a {reararc} or {singleturretarc} attack as a bonus attack against a different target with 1 or more red or orange tokens.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
