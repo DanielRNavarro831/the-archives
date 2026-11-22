@@ -58,6 +58,45 @@ Already named: Fearless, Outmaneuver, Punishing One
 - [-] **Krassis Trelix** (Firespray-class Patrol Craft): You can perform {frontarc} special attacks from your {reararc}. While you perform a special attack, you may reroll 1 attack die.
 - [-] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
 
+## rr-21: Rerolling dice is not rolling dice: effects that trigger before or after rolling dice don't trigger on a reroll.
+
+> **Q:** Are rerolls considered "rolling dice" for the purposes of effects that occur before or after a player rolls dice (such as Count Dooku [{crew}])?
+>
+> **A:** No. While rerolls do include the physical act of picking up one or more dice and rolling them again, "rerolling dice" is considered distinct from "rolling dice" from a mechanics standpoint.
+
+Already named: Count Dooku
+
+**Same ability as the Count Dooku named in the ruling** (strong match) — APPROVED, on the site
+
+- [x] **Count Dooku (SoC)** (Sith Infiltrator): During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your {force} are active, you may spend 1 {force} and name a result. If the roll does not contain the named result, the ship must cha…
+
+**Triggers after dice are rolled** (strong match)
+
+- [ ] **4-LOM** (Crew): While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.
+- [ ] **Colonel Vessery** (TIE/d Defender): While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.
+- [ ] **Han Solo** (Modified YT-1300 Light Freighter): After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.
+- [ ] **Lando Calrissian** (Customized YT-1300 Light Freighter): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [ ] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [ ] **Lando Calrissian** (Crew): After you roll dice, you may spend 1 green token to reroll up to 2 of your results.
+- [ ] **Lieutenant Kestal** (TIE/ag Aggressor): While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/{focus} results.
+- [ ] **Munitions Failsafe** (Modification): While you perform a {torpedo} or {missile} attack, after rolling attack dice, you may cancel all dice results to recover 1 {charge} you spent as a cost for the attack.
+- [ ] **“Killer”** (Clone Z-95 Headhunter): While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice.
+
+**Triggers before dice are rolled** (possible match)
+
+- [ ] **Adaptive S-Foils** (T-70 X-wing): After you perform a {barrelroll} action, gain a deplete token. While you perform an attack, before rolling attack dice, if the defender is in your {bullseyearc}, you may remove 1 deplete token.
+- [ ] **Alpha-3E "Esk"** (Configuration): While you perform a primary attack, before rolling attack dice, you may spend 2 charges. If you do, your {crit} results inflict ion tokens instead of damage.
+- [ ] **Ancillary Ion Weapons** (Cannon): While you perform a primary {frontarc} attack, before rolling attack dice, you may spend 2 {charge}. If you do, your {crit} results deal ion tokens instead of damage.
+- [ ] **Captain Seevor** (Modified TIE/ln Fighter): While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's {bullseyearc}, you may spend 1 {charge}. If you do, the enemy ship gains 1 jam token.
+- [ ] **Freelance Slicer** (Crew): While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 jam token. Then, on a {hit} or {crit} result, gain 1 jam token.
+- [ ] **Moff Gideon** (TIE/ln Fighter): While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 {charge} and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack …
+- [ ] **Carnor Jax** (TIE/in Interceptor): While an enemy ship at range 0-1 in your {frontarc} defends or performs an attack, before the Roll Attack Dice step, you may spend 1 {force}. If you do, that ship's dice cannot be modified.
+- [ ] **C-3PO** (Crew): Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do and you roll exactly that many {evade} results, add 1 {evade} result. After you perform the {calculate} actio…
+
+**Says it works after you roll or reroll (an exception the ruling helps explain)** (possible match)
+
+- [ ] **Sunny Bounder** (M3-A Interceptor): While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -237,4 +276,5 @@ Already named: none
 - Grappling Struts, Landing Struts: Skip the maneuver rather than change it; their own forum ruling covers them
 - Clan Wren Volunteer, Sarco Plank: Check the maneuver you executed, not the revealed one
 - Adaptive Ailerons, Controlled Ailerons, Thrawn: Trigger before a dial is revealed
+- Wedge Antilles, Zuckuss, Seventh Fleet Gunner, Outmaneuver: Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

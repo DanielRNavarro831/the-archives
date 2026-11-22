@@ -23,6 +23,21 @@
      "cards": ["moldy-crow-title", "vectored-cannons-configuration-rz-1", "krassis-trelix-firespray-class-patrol-craft", "first-order-ordnance-tech-gunner-eod"]}
    ]
   },
+  "rr-21": {
+   "mechanic": "Rerolling dice is not rolling dice: effects that trigger before or after rolling dice don't trigger on a reroll.",
+   "groups": [
+    {"why": "Same ability as the Count Dooku named in the ruling", "strength": "strong", "status": "approved",
+     "cards": ["count-dooku-sith-infiltrator-soc"]},
+    {"why": "Triggers after dice are rolled", "strength": "strong",
+     "cards": ["4-lom-crew", "colonel-vessery-tie-d-defender", "han-solo-modified-yt-1300-light-freighter", "lando-calrissian-customized-yt-1300-light-freighter-scum",
+               "lando-calrissian-escape-craft-escape-craft", "lando-calrissian-crew-scum", "lieutenant-kestal-tie-ag-aggressor", "munitions-failsafe-modification", "killer-clone-z-95-headhunter"]},
+    {"why": "Triggers before dice are rolled", "strength": "possible",
+     "cards": ["adaptive-s-foils", "alpha-3e-esk-configuration", "ancillary-ion-weapons-cannon-soc", "captain-seevor-modified-tie-ln-fighter", "freelance-slicer-crew",
+               "moff-gideon-tie-ln-fighter", "carnor-jax-tie-in-interceptor", "c-3po-crew"]},
+    {"why": "Says it works after you roll or reroll (an exception the ruling helps explain)", "strength": "possible",
+     "cards": ["sunny-bounder-m3-a-interceptor"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -89,6 +104,7 @@
   "grappling-struts-configuration, landing-struts-configuration": "Skip the maneuver rather than change it; their own forum ruling covers them",
   "clan-wren-volunteer-fang-fighter, sarco-plank-quadrijet-transfer-spacetug": "Check the maneuver you executed, not the revealed one",
   "adaptive-ailerons, controlled-ailerons, thrawn-crew-epic": "Trigger before a dial is revealed",
+  "wedge-antilles-t-65-x-wing, zuckuss-g-1a-starfighter, seventh-fleet-gunner-gunner, outmaneuver-talent": "Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
