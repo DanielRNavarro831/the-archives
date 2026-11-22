@@ -153,7 +153,7 @@
      "cards": ["enduring-talent", "zorii-bliss-bta-nr2-y-wing", "zorii-bliss-bta-nr2-w-y-wing-wartime"]},
     {"why": "Lets a ship perform an action of any color, treating it as red (left out in review)", "strength": "strong", "status": "rejected",
      "cards": ["general-hux-crew", "general-hux-crew-eod", "thrawn-crew"]},
-    {"why": "Treats an action as white (the same question for a red or purple action)", "strength": "possible",
+    {"why": "Treats an action as white (the same question for a red or purple action)", "strength": "possible", "status": "rejected",
      "cards": ["echo-tie-ph-phantom-ssl", "kickback-v-19-torrent-starfighter-soc", "maul-gauntlet-fighter", "debris-gambit-talent", "evasion-sequence-7-modification-soc"]}
    ]
   },

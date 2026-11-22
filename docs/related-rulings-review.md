@@ -414,13 +414,13 @@ Already named: Airen Cracken
 - [-] **General Hux** (Crew): While you perform a white {coordinate} action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.
 - [-] **Thrawn** (Crew): While you perform a {jam} or {coordinate} action, you may spend 1 {charge} to increase the range requirement for that action by 1. After you perform a {jam} or {coordinate} action, you may spend 2 {charge} to perform a {jam} or {coordinate} action, treating it as red.
 
-**Treats an action as white (the same question for a red or purple action)** (possible match)
+**Treats an action as white (the same question for a red or purple action)** (possible match) — SKIPPED
 
-- [ ] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
-- [ ] **“Kickback” (SoC)** (V-19 Torrent Starfighter): After you perform a {barrelroll} action, you may perform a red {lock} action. If you do, before you perform the {lock} action, you may gain 1 strain to treat it as white.
-- [ ] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
-- [ ] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
-- [ ] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
+- [-] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
+- [-] **“Kickback” (SoC)** (V-19 Torrent Starfighter): After you perform a {barrelroll} action, you may perform a red {lock} action. If you do, before you perform the {lock} action, you may gain 1 strain to treat it as white.
+- [-] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
+- [-] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
+- [-] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
