@@ -40,7 +40,7 @@
                "overdrive-burners", "pz-4co-crew", "boost-clone-z-95-headhunter", "stub-clone-z-95-headhunter", "versatile-frame"]},
     {"why": "Triggers on revealing a maneuver of a certain color", "strength": "strong", "status": "approved",
      "cards": ["hera-syndulla-vcx-100-light-freighter-vcx-100", "hera-syndulla-attack-shuttle", "ello-asty-t-70-x-wing", "prime-minister-almec-crew"]},
-    {"why": "Changes maneuver difficulty (the other side of this ruling)", "strength": "possible",
+    {"why": "Changes maneuver difficulty (the other side of this ruling)", "strength": "possible", "status": "approved",
      "cards": ["nien-nunb-crew", "damaged-engine", "l3-37-crew", "l3-37s-programming-configuration-boy", "l3-37-customized-yt-1300-light-freighter", "l3-37-escape-craft-escape-craft",
                "l3-37-crew-aad", "broken-horn-title", "maneuver-assist-mgk-300-configuration", "modified-for-organics", "tie-defender-elite-configuration",
                "unhinged-astromech-astromech", "r0-astromech-astromech-eod", "repulsorlift-stabilizers-configuration", "starboard-thrusters-modification-aad"]}
