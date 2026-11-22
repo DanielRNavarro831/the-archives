@@ -313,6 +313,25 @@
      "cards": ["debris-gambit-talent", "evasion-sequence-7-modification-soc", "maul-gauntlet-fighter", "echo-tie-ph-phantom-ssl", "kickback-v-19-torrent-starfighter-soc"]}
    ]
   },
+  "rr-27": {
+   "mechanic": "An action whose color isn't stated is white, but one a ship performs \"on its action bar\" uses that action bar's color.",
+   "groups": [
+    {"why": "Has its own **Action:** with no color, like Lando Calrissian (Crew)", "strength": "strong", "status": "approved",
+     "cards": ["agent-terex-crew", "cloaking-device-illicit", "gnk-gonk-droid-crew", "hondo-ohnaka-firespray-class-patrol-craft", "hondo-ohnaka-crew", "ig-11-crew",
+               "kuiil-crew", "kylo-ren-crew", "passive-sensors-sensor", "r5-astromech-astromech", "r5-d8-astromech", "r5-d8-astromech-boy", "r5-k6-astromech-boy",
+               "rigged-cargo-chute-illicit", "spacetug-tractor-array", "spare-parts-canisters-modification", "tal-merrik-crew", "vult-skerris-tie-d-defender",
+               "vult-skerris-tie-in-interceptor-tie-interceptor", "chopper-astromech-astromech", "false-friend"]},
+    {"why": "A damage card's **Action:** Repair this card (no color, so white)", "strength": "possible", "status": "approved",
+     "cards": ["blinded-pilot", "console-fire", "damaged-sensor-array", "fuel-leak", "hull-breach", "loose-stabilizer", "weapons-failure", "wounded-pilot"]},
+    {"why": "Performs an action \"on its action bar\", so it uses that action's color there", "strength": "strong", "status": "approved",
+     "cards": ["prime-minister-almec-crew"]},
+    {"why": "Performs an action \"on its action bar\" (left out in review)", "strength": "strong", "status": "rejected",
+     "cards": ["advanced-slam-modification", "enduring-talent", "grand-inquisitor-crew", "lieutenant-sai-lambda-class-t-4a-shuttle", "nodin-chavdri-resistance-transport",
+               "zorii-bliss-bta-nr2-y-wing", "zorii-bliss-bta-nr2-w-y-wing-wartime", "echo-tie-ph-phantom-ssl"]},
+    {"why": "Lets you perform an action that may not be on your action bar (so it's white)", "strength": "possible", "status": "approved",
+     "cards": ["precognitive-reflexes-force-power", "supernatural-reflexes-force-power"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -382,8 +401,8 @@
   "wedge-antilles-t-65-x-wing, zuckuss-g-1a-starfighter, seventh-fleet-gunner-gunner, outmaneuver-talent": "Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)",
   "captain-jostero-kihraxz-fighter, chewbacca-scavenged-yt-1300-resistance, general-grievous-command-command, riff-tamson-command, targeting-battery-hardpoint": "Give a bonus attack, but not right after an attack (rr-101)",
   "agent-terex-xi-class-light-shuttle, cikatro-vizago-crew, jabba-the-hutt-crew, guild-bounty-hunter-st-70-assault-ship, jessika-pava-t-70-x-wing, joy-rekkoff-fang-fighter, tomax-bren-tie-sa-bomber, knack-clone-z-95-headhunter, rotating-cannons, spare-parts-canisters-modification": "Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)",
-  "bomblet, proximity-mine, electro-proton-bomb, tracking-torpedoes, heroic-sacrifice-talent-boe, lando-calrissian-crew": "Roll a set number of dice outside an attack, with no maximum (rr-71)",
-  "corran-horn-e-wing, electro-proton-bomb, intercept-booster-configuration, its-the-resistance": "Give a disarm token as a result, not as a cost (rr-65)",
+  "bomblet-generator-payload, proximity-mines-payload, electro-proton-bomb-payload, tracking-torpedoes, heroic-sacrifice-talent-boe, lando-calrissian-crew": "Roll a set number of dice outside an attack, with no maximum (rr-71)",
+  "corran-horn-e-wing, electro-proton-bomb-payload, intercept-booster-configuration, its-the-resistance": "Give a disarm token as a result, not as a cost (rr-65)",
   "breach-tie-se-bomber, dirk-ullodin-fang-fighter, odd-ball-btl-b-y-wing-y-wing, fennec-shand-crew": "Acquire a lock after a maneuver, which isn't an action (rr-30)",
   "night-beast-tie-ln-fighter, night-beast-tie-ln-fighter-ssp": "Grant a {focus} action, which an ionized ship can still perform (rr-30)",
   "advanced-slam-modification, dauntless-title, grand-inquisitor-crew, poe-dameron-t-70-x-wing, poe-dameron-t-70-x-wing-hoh, poe-dameron-t-70-x-wing-eod, baze-malbus-crew, daredevil-talent, droid-crew-team, flight-assist-astromech-astromech, independent-calculations, larma-dacy-crew": "Only treat a white action as red, so a red or purple action never comes up (rr-59)",
@@ -393,6 +412,7 @@
   "emon-azzameen-firespray-class-patrol-craft, finch-dallow-mg-100-starfortress, finch-dallow-mg-100-starfortress-eod, gyro-cockpit, modular-bombing-magazine, nimble-bomber, skilled-bombardier-gunner, sol-sixxa-scurrg-h-6-bomber, bombardment-drone-hyena-class-droid-bomber, constable-zuvio-quadrijet-transfer-spacetug, trajectory-simulator-sensor": "Change how a device is dropped or launched, not how many (rr-76)",
   "leema-kai-btl-a4-y-wing": "Checks enemy ships' arcs, not remotes' (rr-16)",
   "predator-talent, howlrunner-tie-ln-fighter, fire-control-system-sensor, elusive-talent, lone-wolf-talent": "Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)",
+  "lieutenant-galek-tie-fo-fighter, squad-leader-talent, c-3po-crew-resistance, berwer-kret-nantex-class-starfighter, ig-88a-aggressor-assault-fighter, ta-175-tactical-relay, mar-tuuk-command": "Check what's on a ship's action bar but don't have it perform that action (rr-27)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

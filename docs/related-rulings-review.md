@@ -800,6 +800,69 @@ Already named: none
 - [x] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
 - [x] **“Kickback” (SoC)** (V-19 Torrent Starfighter): After you perform a {barrelroll} action, you may perform a red {lock} action. If you do, before you perform the {lock} action, you may gain 1 strain to treat it as white.
 
+## rr-27: An action whose color isn't stated is white, but one a ship performs "on its action bar" uses that action bar's color.
+
+> **Q:** If the difficulty of an action is not stated (such as Lando Calrissian [Rebel, {crew}]’s unique action or the coordinate action “Vizier” [TIE Reaper] can perform as part of its pilot ability), what is the difficulty of that action?
+>
+> **A:** White. However, note that if a ship is instructed to perform an action “on its action bar” this way, it uses the difficulty of the action on its action bar.
+
+Already named: Lando Calrissian, “Vizier”
+
+**Has its own **Action:** with no color, like Lando Calrissian (Crew)** (strong match) — APPROVED, on the site
+
+- [x] **Agent Terex** (Crew): Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it. Cyborg: During the System Phase, roll 1 attack die. On a {hit} or {crit} result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3.
+- [x] **Cloaking Device** (Illicit): Action: Spend 1 {charge} to perform a {cloak} action. At the start of the Planning Phase, roll 1 attack die. On a {focus} result, decloak or discard your cloak token.
+- [x] **GNK “Gonk” Droid** (Crew): Setup: Lose 1 {charge}. Action: Recover 1 {charge}. Action: Spend 1 {charge} to recover 1 shield.
+- [x] **Hondo Ohnaka** (Firespray-class Patrol Craft): Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.
+- [x] **Hondo Ohnaka** (Crew): Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.
+- [x] **IG-11** (Crew): Setup: Equip this side faceup. Before you would be dealt a faceup damage card, you must place 1 fuse marker on this card and gain 1 calculate token instead. Then if there are 2 fuse markers on this card, flip it. IG-11 (Anti-Capture Protocol) During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 {crit} damage. Action: Place 1 fuse marker on this card.
+- [x] **Kuiil** (Crew): Action: Roll 1 attack die for each damage card you have. For each {hit} result, repair 1 faceup Ship damage card, then for each {crit} result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each {focus} result, gain 1 focus token.
+- [x] **Kylo Ren** (Crew): Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 {force} to assign the I'll Show You the Dark Side condition to that ship.
+- [x] **Passive Sensors** (Sensor): Action: Spend 1 {charge}. You can only perform this action in your Perform Action step. While your {charge} is inactive, you cannot be coordinated. Before you engage, if your {charge} is inactive, you may perform a {calculate} or {lock} action.
+- [x] **R5 Astromech** (Astromech): Action: Spend 1 {charge} to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.
+- [x] **R5-D8** (Astromech): Action: Spend 1 {charge} to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.
+- [x] **R5-D8** (Astromech): Action: Spend 1 {charge} to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.
+- [x] **R5-K6** (Astromech): Action: Spend 1 {charge} to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.
+- [x] **Rigged Cargo Chute** (Illicit): Action: Spend 1 {charge}. Drop 1 loose cargo using the [1 {straight}] template.
+- [x] **Spacetug Tractor Array** (Quadrijet Transfer Spacetug): Action: Choose a ship in your {frontarc} at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your {bullseyearc} at range 1.
+- [x] **Spare Parts Canisters** (Modification): Action: Spend 1 {charge} to recover 1 charge on one of your equipped {astromech} upgrades. Action: Spend 1 {charge} to drop 1 spare parts, then break all locks assigned to you.
+- [x] **Tal Merrik** (Crew): Setup: Before placing forcse, choose 1 enemy ship and assign the False Friend condition to it. Action: If the False Friend condition is not assigned to an enemy ship, assign it to an enemy ship in your {frontarc} at range 0-2.
+- [x] **Vult Skerris** (TIE/d Defender): Action: Gain 1 strain token to recover 1 {charge}. Before you engage, you may spend 1 {charge} to perform an action.
+- [x] **Vult Skerris** (TIE/in Interceptor): Action: Gain 1 strain token to recover 1 {charge}. Before you engage, you may spend 1 {charge} to perform an action.
+- [x] **“Chopper”** (Astromech): Action: Spend 1 non-recurring {charge} from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring {charge} on an equipped upgrade.
+- [x] **False Friend** (Condition): During the System Phase, if an enemy ship with the Tal Merrik upgrade is at range 0-2 or an enemy remote is at range 0-2, flip your dial faceup. Action: Gain 1 deplete token and stress token to discard this condition.
+
+**A damage card's **Action:** Repair this card (no color, so white)** (possible match) — APPROVED, on the site
+
+- [x] **Blinded Pilot** (Damage Card): While you perform an attack, you can modify your dice only by spending {force} for their default effect. Action: Repair this card.
+- [x] **Console Fire** (Damage Card): Before you engage, roll 1 attack die. On a {hit} result, suffer 1 {hit} damage. Action: Repair this card.
+- [x] **Damaged Sensor Array** (Damage Card): You cannot perform any actions except the {focus} action and actions from damage cards. Action: Repair this card.
+- [x] **Fuel Leak** (Damage Card): After you suffer 1 {crit} damage, suffer 1 {hit} damage and repair this card. Action: Repair this card.
+- [x] **Hull Breach** (Damage Card): Before you would suffer 1 or more {hit} damage, suffer that much {crit} damage instead. Action: Repair this card.
+- [x] **Loose Stabilizer** (Damage Card): After you execute a non-straight maneuver ({straight}) suffer 1 {hit} damage and repair this card. Action: Repair this card.
+- [x] **Weapons Failure** (Damage Card): While you perform an attack, roll 1 fewer attack die. Action: Repair this card.
+- [x] **Wounded Pilot** (Damage Card): After you perform an action, roll 1 attack die. On a {hit} or {crit} result, gain 1 stress token. Action: Repair this card.
+
+**Performs an action "on its action bar", so it uses that action's color there** (strong match) — APPROVED, on the site
+
+- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more stress tokens, flip this card. Almec, Maul's Puppet After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a {calculate} or {focus} action on its action bar, even while stressed.
+
+**Performs an action "on its action bar" (left out in review)** (strong match) — SKIPPED
+
+- [-] **Advanced SLAM** (Modification): After you perform a {slam} action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
+- [-] **Enduring** (Talent): While you defend, if you are not in the attacker's {bullseyearc}, {crit} results are neutralized before {hit} results. After you suffer {crit} damage, you may perform a {calculate} or {focus} action on your action bar, even while stressed, treating that action as red.
+- [-] **Grand Inquisitor** (Crew): After an enemy ship at range 0-2 reveals its dial, you may spend 1 {force} to perform 1 white action on your action bar, treating that action as red.
+- [-] **Lieutenant Sai** (Lambda-class T-4a Shuttle): After you a perform a {coordinate} action, if the ship you chose performed an action on your action bar, you may perform that action.
+- [-] **Nodin Chavdri** (Resistance Transport): After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.
+- [-] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [-] **Zorii Bliss** (BTA-NR2-W Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [-] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
+
+**Lets you perform an action that may not be on your action bar (so it's white)** (possible match) — APPROVED, on the site
+
+- [x] **Precognitive Reflexes** (Force Power): After you reveal your dial, you may spend 1 {force} to perform a {barrelroll} or {boost} action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.
+- [x] **Supernatural Reflexes** (Force Power): Before you activate, you may spend 1 {force} to perform a {barrelroll} or {boost} action. Then, if you performed an action you do not have on your action bar, suffer 1 {hit} damage.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -982,8 +1045,8 @@ Already named: none
 - Wedge Antilles, Zuckuss, Seventh Fleet Gunner, Outmaneuver: Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)
 - Captain Jostero, Chewbacca, General Grievous, Riff Tamson, Targeting Battery: Give a bonus attack, but not right after an attack (rr-101)
 - Agent Terex, Cikatro Vizago, Jabba the Hutt, Guild Bounty Hunter, Jessika Pava, Joy Rekkoff, Tomax Bren, “Knack”, Rotating Cannons, Spare Parts Canisters: Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)
-- Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
-- Corran Horn, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
+- Bomblet Generator, Proximity Mines, Electro-Proton Bomb, Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
+- Corran Horn, Electro-Proton Bomb, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
 - "Breach", Dirk Ullodin, “Odd Ball”, Fennec Shand: Acquire a lock after a maneuver, which isn't an action (rr-30)
 - “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
 - Advanced SLAM, Dauntless, Grand Inquisitor, Poe Dameron, Poe Dameron, Poe Dameron (EoD), Baze Malbus, Daredevil, Droid Crew, Flight-Assist Astromech, Independent Calculations, Larma D'Acy: Only treat a white action as red, so a red or purple action never comes up (rr-59)
@@ -993,4 +1056,5 @@ Already named: none
 - Emon Azzameen, Finch Dallow, Finch Dallow (EoD), Gyro-Cockpit, Modular Bombing Magazine, Nimble Bomber, Skilled Bombardier, Sol Sixxa, Bombardment Drone, Constable Zuvio, Trajectory Simulator: Change how a device is dropped or launched, not how many (rr-76)
 - Leema Kai: Checks enemy ships' arcs, not remotes' (rr-16)
 - Predator, “Howlrunner”, Fire-Control System, Elusive, Lone Wolf: Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)
+- Lieutenant Galek, Squad Leader, C-3PO, Berwer Kret, IG-88A, TA-175, Mar Tuuk: Check what's on a ship's action bar but don't have it perform that action (rr-27)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
