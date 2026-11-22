@@ -316,6 +316,42 @@ Already named: Grand Inquisitor, Proton Rockets
 
 - [x] **Tristan Wren** (Crew): While a friendy unit at range 0-3 performs a {rangebonus} attack, you may spend 1 {charge}. If you do, the attacker may change 1 {hit} result to a {crit} result.
 
+## rr-56: An effect that recovers charges only recovers them on its own card, unless it says otherwise.
+
+> **Q:** Can a ship use Elusive [{talent}] to recover charges on other upgrades by fully executing red maneuvers?
+>
+> **A:** No. Elusive and other effects that refer to recovering charges only apply to the charges of that specific card, unless the effect explicitly states otherwise (such as Chopper [Rebel, Crew]).
+
+Already named: Elusive, “Chopper”
+
+**Recovers charges without saying which card, so only on itself (like Elusive)** (strong match) — APPROVED, on the site
+
+- [x] **Bomblet Generator** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Bomblet with the [1 {straight}] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 {charge}.
+- [x] **Chewbacca** (Crew): Setup: Lose 1 {charge}. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 {charge}. While you perform an attack, you may spend 2 {charge} to change 1 {focus} result to a {crit} result.
+- [x] **Clan Training** (Talent): Before you engage, if you are not focused and there is an enemy ship in your {frontarc} at range 1, you may spend 1 {charge} to perform a red {focus} action. After you perform an attack, if the defender is destroyed, recover 1 {charge}.
+- [x] **GNK “Gonk” Droid** (Crew): Setup: Lose 1 {charge}. Action: Recover 1 {charge}. Action: Spend 1 {charge} to recover 1 shield.
+- [x] **General Grievous** (Crew): While you defend, after the Neutralize Results step, if there are 2 or more {hit}/{crit} results, you may spend 1 {charge} to cancel 1 {hit} or {crit} result. After a friendly ship is destroyed, recover 1 {charge}.
+- [x] **Seventh Fleet Gunner** (Gunner): While another friendly ship performs a primary attack, if the defender is in your firing arc, you may spend 1 {charge}. If you do, the attacker rolls 1 additional die, to a maximum of 4. During the System Phase, you may gain 1 disarm token to recover 1 {charge}.
+- [x] **Treacherous** (Talent): While you defend, you may choose a ship obstructing the attack and spend 1 {charge}. If you do, cancel 1 {hit} or {crit} result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 {charge}.
+- [x] **Vult Skerris** (TIE/d Defender): Action: Gain 1 strain token to recover 1 {charge}. Before you engage, you may spend 1 {charge} to perform an action.
+- [x] **Vult Skerris** (TIE/in Interceptor): Action: Gain 1 strain token to recover 1 {charge}. Before you engage, you may spend 1 {charge} to perform an action.
+- [x] **“Wolffe”** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional attack die.
+- [x] **“Wolffe” (SoC)** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional die.
+
+**Says it recovers charges on another card (the exception, like Chopper)** (strong match) — APPROVED, on the site
+
+- [x] **“Chopper”** (Astromech): Action: Spend 1 non-recurring {charge} from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring {charge} on an equipped upgrade.
+- [x] **Bounty** (Command): Hired: Setup: Equip this side faceup. You can be included in Separatist, Imperial , and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 {charge} on your ship card and each of your upgrade cards. Then flip this card. Paid:
+- [x] **Cutthroat** (Talent): After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring {charge} on your ship card or one of your equipped upgrade cards.
+- [x] **Hol Okand (BoY)** (BTL-A4 Y-wing): During the System Phase, if there are no enemy ships at range 1-2, you may recover 1 {charge} on any upgrade.
+- [x] **Jabba the Hutt** (Crew): During the End Phase, you may choose 1 friendly ship at range 0-2 and spend 1 {charge}. If you do, that ship recovers 1 {charge} on 1 of its equipped {illicit} upgrades.
+- [x] **Quinn Jast** (M3-A Interceptor): At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 {charge} on 1 of your equipped upgrades.
+- [x] **Tomax Bren** (TIE/sa Bomber): After you perform a {reload} action, you may recover 1 {charge} token on 1 of your equipped {talent} upgrade cards.
+- [x] **Tomax Bren (SSP)** (TIE/sa Bomber): After you perform a {reload} action, you may recover 1 {charge} token on 1 of your equipped {talent} upgrade cards.
+- [x] **You Should Thank Me** (Condition): This condition is assigned facedown. Reveal it after you defend. After you defend, Zam Wesell recovers 1 {charge}. Then, you may acquire a lock on the attacker. At the end of the Engagement Phase, if this card is facedown and you are in an enemy ship's firing arc, you may reveal this card and spend 2 {charge} from Zam Wesell. If you do, you may perform a bonus attack. At the start of the System Phase, remove this condition.
+- [x] **You'd Better Mean Business** (Condition): This condition is assigned facedown. Reveal it after you defend. After you defend, you may spend 2 {charge} from Zam Wesell. If you do, perform a bonus attack against the attacker. At the end of the Engagement Phase, if this card is facedown and you are in an enemy ship's firing arc, you may reveal this card. If you do, Zam Wesell recovers 2 {charge}. At the start of the System Phase, remove this condition.
+- [x] **Munitions Failsafe** (Modification): While you perform a {torpedo} or {missile} attack, after rolling attack dice, you may cancel all dice results to recover 1 {charge} you spent as a cost for the attack.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

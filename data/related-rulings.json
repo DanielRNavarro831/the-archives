@@ -119,6 +119,17 @@
      "cards": ["tristan-wren-crew"]}
    ]
   },
+  "rr-56": {
+   "mechanic": "An effect that recovers charges only recovers them on its own card, unless it says otherwise.",
+   "groups": [
+    {"why": "Recovers charges without saying which card, so only on itself (like Elusive)", "strength": "strong", "status": "approved",
+     "cards": ["bomblet-generator-payload", "chewbacca-crew-resistance", "clan-training-talent", "gnk-gonk-droid-crew", "general-grievous-crew", "seventh-fleet-gunner-gunner",
+               "treacherous-talent", "vult-skerris-tie-d-defender", "vult-skerris-tie-in-interceptor-tie-interceptor", "wolffe-arc-170-starfighter", "wolffe-arc-170-starfighter-soc"]},
+    {"why": "Says it recovers charges on another card (the exception, like Chopper)", "strength": "strong", "status": "approved",
+     "cards": ["chopper-astromech-astromech", "bounty-command", "cutthroat-talent", "hol-okand-btl-a4-y-wing-boy", "jabba-the-hutt-crew", "quinn-jast-m3-a-interceptor",
+               "tomax-bren-tie-sa-bomber", "tomax-bren-tie-sa-bomber-ssp", "you-should-thank-me", "youd-better-mean-business", "munitions-failsafe-modification"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
