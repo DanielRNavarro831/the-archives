@@ -761,6 +761,45 @@ Already named: Saturation Salvo
 - [-] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
 - [-] **Tantive IV** (Title): When a friendly ship at range 0-2 defends or performs an attack, if it has only blank results and has 2 or more results, you may suffer 1 {hit} or spend 2 {energy}. If you do, that ship may reroll all of its dice.
 
+## rr-26: When several effects change an action's color, it takes the most restrictive one: white, then red, then purple.
+
+> **Q:** If one effect says to "treat an action as purple" and another says to "treat an action as red," what happens?
+>
+> **A:** Actions have three difficulties, from least to most restrictive: white, red, and purple. If two or more effects would alter the color of an action from its default color, the action is treated as the most restrictive of those colors. So, if an action is "treated as red" and "treated as purple" at the same time, it is treated as purple, as this is the most restrictive.
+
+Already named: none
+
+**Treats an action as red** (strong match) — APPROVED, on the site
+
+- [x] **Advanced SLAM** (Modification): After you perform a {slam} action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.
+- [x] **Airen Cracken** (Z-95-AF4 Headhunter): After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red.
+- [x] **Baze Malbus** (Crew): While you perform a {focus} action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1, to a maximum of 2.
+- [x] **Daredevil** (Talent): While you perform a white {boost} action, you may treat it as red to use the [1 {turnleft}] or [1 {turnright}] template instead.
+- [x] **Dauntless** (Title): After you partially execute a maneuver, you may perform 1 white action, treating that action as red.
+- [x] **Droid Crew** (Team): While you perform a white {focus} action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.
+- [x] **Enduring** (Talent): While you defend, if you are not in the attacker's {bullseyearc}, {crit} results are neutralized before {hit} results. After you suffer {crit} damage, you may perform a {calculate} or {focus} action on your action bar, even while stressed, treating that action as red.
+- [x] **Flight-Assist Astromech** (Astromech): While you perform a white {barrelroll} or white {boost} action, you may spend 1 {charge}. If you do, treat the action as red, and use a speed 2 template while performing the action.
+- [x] **General Hux** (Crew): While you perform a white {coordinate} action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.
+- [x] **General Hux** (Crew): While you perform a white {coordinate} action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.
+- [x] **Grand Inquisitor** (Crew): After an enemy ship at range 0-2 reveals its dial, you may spend 1 {force} to perform 1 white action on your action bar, treating that action as red.
+- [x] **Independent Calculations** (Ship Ability): While you perform a white {calculate} action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.
+- [x] **Independent Calculations** (Modification): Replace your Networked Calculations ship ability with the following: Independent Calculations: While you perform a white {calculate} action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.
+- [x] **Larma D'Acy** (Crew): While you have 2 or fewer stress tokens, you can perform {reinforce}, {coordinate}, and {jam} actions, even while stressed. While you perform a white {reinforce}, {coordinate}, or {jam} action, if you are stressed, treat that action as red.
+- [x] **Poe Dameron** (T-70 X-wing): After you perform an action, you may spend 1 {charge} to perform a white action, treating it as red.
+- [x] **Poe Dameron** (T-70 X-wing): After a friendly ship at range 0-2 performs an action during its activation, you may spend 2 {charge}. If you do, that ship may perform a white action, treating it as red.
+- [x] **Poe Dameron (EoD)** (T-70 X-wing): After you perform an action, you may spend 1{charge} to perform a white action, treating it as red.
+- [x] **Thrawn** (Crew): While you perform a {jam} or {coordinate} action, you may spend 1 {charge} to increase the range requirement for that action by 1. After you perform a {jam} or {coordinate} action, you may spend 2 {charge} to perform a {jam} or {coordinate} action, treating it as red.
+- [x] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [x] **Zorii Bliss** (BTA-NR2-W Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+
+**Treats an action as white (another card that makes it red or purple wins)** (possible match) — APPROVED, on the site
+
+- [x] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
+- [x] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
+- [x] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
+- [x] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
+- [x] **“Kickback” (SoC)** (V-19 Torrent Starfighter): After you perform a {barrelroll} action, you may perform a red {lock} action. If you do, before you perform the {lock} action, you may gain 1 strain to treat it as white.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

@@ -301,6 +301,18 @@
                "lando-calrissian-escape-craft-escape-craft", "tantive-iv-title-resistance"]}
    ]
   },
+  "rr-26": {
+   "mechanic": "When several effects change an action's color, it takes the most restrictive one: white, then red, then purple.",
+   "groups": [
+    {"why": "Treats an action as red", "strength": "strong", "status": "approved",
+     "cards": ["advanced-slam-modification", "airen-cracken-z-95-af4-headhunter", "baze-malbus-crew", "daredevil-talent", "dauntless-title", "droid-crew-team",
+               "enduring-talent", "flight-assist-astromech-astromech", "general-hux-crew", "general-hux-crew-eod", "grand-inquisitor-crew",
+               "independent-calculations", "independent-calculations-modification", "larma-dacy-crew", "poe-dameron-t-70-x-wing", "poe-dameron-t-70-x-wing-hoh",
+               "poe-dameron-t-70-x-wing-eod", "thrawn-crew", "zorii-bliss-bta-nr2-y-wing", "zorii-bliss-bta-nr2-w-y-wing-wartime"]},
+    {"why": "Treats an action as white (another card that makes it red or purple wins)", "strength": "possible", "status": "approved",
+     "cards": ["debris-gambit-talent", "evasion-sequence-7-modification-soc", "maul-gauntlet-fighter", "echo-tie-ph-phantom-ssl", "kickback-v-19-torrent-starfighter-soc"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
