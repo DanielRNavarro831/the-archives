@@ -332,6 +332,15 @@
      "cards": ["precognitive-reflexes-force-power", "supernatural-reflexes-force-power"]}
    ]
   },
+  "rr-28": {
+   "mechanic": "An effect that changes the color of a kind of action (like Debris Gambit's red {evade}) also changes that action when it's linked to another one.",
+   "groups": [
+    {"why": "Treats a red action of one kind as white, like Debris Gambit", "strength": "strong", "status": "approved",
+     "cards": ["evasion-sequence-7-modification-soc"]},
+    {"why": "Changes the color of one kind of action", "strength": "possible", "status": "rejected",
+     "cards": ["baze-malbus-crew", "daredevil-talent", "droid-crew-team", "flight-assist-astromech-astromech", "independent-calculations", "independent-calculations-modification", "larma-dacy-crew", "maul-gauntlet-fighter"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

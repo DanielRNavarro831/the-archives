@@ -863,6 +863,29 @@ Already named: Lando Calrissian, “Vizier”
 - [x] **Precognitive Reflexes** (Force Power): After you reveal your dial, you may spend 1 {force} to perform a {barrelroll} or {boost} action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.
 - [x] **Supernatural Reflexes** (Force Power): Before you activate, you may spend 1 {force} to perform a {barrelroll} or {boost} action. Then, if you performed an action you do not have on your action bar, suffer 1 {hit} damage.
 
+## rr-28: An effect that changes the color of a kind of action (like Debris Gambit's red {evade}) also changes that action when it's linked to another one.
+
+> **Q:** If a ship has red evade linked to another action (such as the TIE Aggressor or Attack Shuttle), Debris Gambit [{talent}] equipped, and is within range of an obstacle, does it treat the linked red evade as white?
+>
+> **A:** Yes, Debris Gambit modifies any red evade action on the ship’s action bar, including linked actions.
+
+Already named: Debris Gambit
+
+**Treats a red action of one kind as white, like Debris Gambit** (strong match) — APPROVED, on the site
+
+- [x] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
+
+**Changes the color of one kind of action** (possible match) — SKIPPED
+
+- [-] **Baze Malbus** (Crew): While you perform a {focus} action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1, to a maximum of 2.
+- [-] **Daredevil** (Talent): While you perform a white {boost} action, you may treat it as red to use the [1 {turnleft}] or [1 {turnright}] template instead.
+- [-] **Droid Crew** (Team): While you perform a white {focus} action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.
+- [-] **Flight-Assist Astromech** (Astromech): While you perform a white {barrelroll} or white {boost} action, you may spend 1 {charge}. If you do, treat the action as red, and use a speed 2 template while performing the action.
+- [-] **Independent Calculations** (Ship Ability): While you perform a white {calculate} action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.
+- [-] **Independent Calculations** (Modification): Replace your Networked Calculations ship ability with the following: Independent Calculations: While you perform a white {calculate} action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.
+- [-] **Larma D'Acy** (Crew): While you have 2 or fewer stress tokens, you can perform {reinforce}, {coordinate}, and {jam} actions, even while stressed. While you perform a white {reinforce}, {coordinate}, or {jam} action, if you are stressed, treat that action as red.
+- [-] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
