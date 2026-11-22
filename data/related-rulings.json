@@ -405,6 +405,13 @@
                "axe-v-19-torrent-starfighter", "jag-arc-170-starfighter", "jag-arc-170-starfighter-soc", "sinker-arc-170-starfighter", "hound-laat-i-gunship"]}
    ]
   },
+  "rr-4": {
+   "mechanic": "A firing arc extends to range 3 even if the weapon using it doesn't, so \"in your firing arc\" checks reach range 1-3.",
+   "groups": [
+    {"why": "Checks whether a ship is in your firing arc, without a range of its own", "strength": "strong", "status": "approved",
+     "cards": ["hound-laat-i-gunship", "ben-teene-mg-100-starfortress", "count-dooku-sith-infiltrator", "dt-798-gunner", "dedicated-gunners-gunner-eod", "dengar-gunner", "fenn-rau-sheathipede-class-shuttle-sheathipede", "gamut-key-hwk-290-light-freighter", "jan-ors-hwk-290-light-freighter", "kanan-jarrus-vcx-100-light-freighter", "kanan-jarrus-hwk-290-light-freighter-hwk-290", "kyle-katarn-hwk-290-light-freighter", "l4e-r5-astromech", "nom-lumb-jumpmaster-5000", "notorious-talent", "rey-gunner", "roark-garnet-hwk-290-light-freighter", "seventh-fleet-gunner-gunner", "shadow-caster-title", "theta-4-tie-sf-fighter-eod", "torkil-mux-hwk-290-light-freighter", "t-pusk-hwk-290-light-freighter"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

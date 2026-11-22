@@ -1035,6 +1035,39 @@ Already named: none
 - [x] **“Sinker”** (ARC-170 Starfighter): While a friendly ship at range 1-2 in your {leftarc} or {rightarc} performs a primary attack, it may reroll 1 attack die.
 - [x] **"Hound"** (LAAT/i Gunship): After a friendly small ship in your {singleturretarc} gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.
 
+## rr-4: A firing arc extends to range 3 even if the weapon using it doesn't, so "in your firing arc" checks reach range 1-3.
+
+> **Q:** Does a ship’s firing arc extend to range 3 even if the weapon using that arc does not?
+>
+> **A:** Yes. For example, if Drea Renthal (Scum, BTL-A4 Y-wing) is equipped with a Dorsal Turret [{turret}], she can use her ability on ships at range 1–3 in her turret arc.
+
+Already named: Dorsal Turret, Drea Renthal
+
+**Checks whether a ship is in your firing arc, without a range of its own** (strong match) — APPROVED, on the site
+
+- [x] **"Hound"** (LAAT/i Gunship): After a friendly small ship in your {singleturretarc} gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.
+- [x] **Ben Teene** (MG-100 StarFortress): After you perform an attack, if the defender is in your {singleturretarc}, assign the Rattled condition to the defender.
+- [x] **Count Dooku** (Sith Infiltrator): After you defend, if the attacker is in your firing arc, you may spend 1 {force} to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 {force} to perform an action.
+- [x] **DT-798** (Gunner): At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens.
+- [x] **Dedicated Gunners** (Gunner): While you perform a primary attack, if the defender is in your {singleturretarc}, you may spend 1 focus token to roll 1 additional attack die. After you perform a primary attack, you may perform a bonus {singleturretarc} attack using a {singleturretarc} you did not already attack from this round.
+- [x] **Dengar** (Gunner): After you defend, if the attacker is in your firing arc, you may spend 1 {charge}. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a {hit} or {crit} result, the attacker suffers 1 {hit} damage.
+- [x] **Fenn Rau** (Sheathipede-Class Shuttle): Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.
+- [x] **Gamut Key** (HWK-290 Light Freighter): At the start of the End Phase, you may spend 2 {charge} to choose yourself or a ship in your {singleturretarc} with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.
+- [x] **Jan Ors** (HWK-290 Light Freighter): While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.
+- [x] **Kanan Jarrus** (VCX-100 Light Freighter): While a friendly ship in your firing arc defends, you may spend 1 {force}. If you do, the attacker rolls 1 fewer attack die.
+- [x] **Kanan Jarrus** (HWK-290 Light Freighter): While you or a ship in your {singleturretarc} defends, you may spend 1 {force}. If you do, the attacker rolls 1 fewer attack die.
+- [x] **Kyle Katarn** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.
+- [x] **L4E-R5** (Astromech): At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.
+- [x] **Nom Lumb** (JumpMaster 5000): After you become the defender, if the attacker is not in your {singleturretarc}, you must rotate your {singleturretarc} indicator to a standard arc the attacker is in.
+- [x] **Notorious** (Talent): After you defend, if the attacker is in your firing arc, you may spend 1 {charge}. If you do, the attacker gains 1 strain token. While you perform an attack, if the defender is strained, you may reroll 1 blank result.
+- [x] **Rey** (Gunner): While you defend or perform an attack, if the enemy ship is in your {singleturretarc}, you may spend 1 {force} to change 1 of your blank results to a {evade} or {hit} result.
+- [x] **Roark Garnet** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.
+- [x] **Seventh Fleet Gunner** (Gunner): While another friendly ship performs a primary attack, if the defender is in your firing arc, you may spend 1 {charge}. If you do, the attacker rolls 1 additional die, to a maximum of 4. During the System Phase, you may gain 1 disarm token to recover 1 {charge}.
+- [x] **Shadow Caster** (Title): After you perform an attack that hits, if the defender is in your {singleturretarc} and your {frontarc}, the defender gains 1 tractor token.
+- [x] **Theta 4 (EoD)** (TIE/sf Fighter): While an enemy ship in your {singleturretarc} performs an attack you may spend 1 {charge}. If you do, spend 1 {charge} from your {missile} upgrade to choose two attack dice. The attacker must reroll those dice.
+- [x] **Torkil Mux** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.
+- [x] **Tápusk** (HWK-290 Light Freighter): During the End Phase, before an enemy ship in your {singleturretarc} recovers 1 recurring {charge} or {force}, you may spend 2 {charge}. If you do, that ship does not recover that {charge} or {force}
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
