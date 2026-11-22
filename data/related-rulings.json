@@ -130,6 +130,22 @@
                "tomax-bren-tie-sa-bomber", "tomax-bren-tie-sa-bomber-ssp", "you-should-thank-me", "youd-better-mean-business", "munitions-failsafe-modification"]}
    ]
   },
+  "rr-30": {
+   "mechanic": "An ionized ship can only perform the {focus} action, even when an ability grants it a different action after it executes a maneuver.",
+   "groups": [
+    {"why": "Grants a non-{focus} action after you execute a maneuver", "strength": "strong", "status": "approved",
+     "cards": ["cai-threnalli-t-70-x-wing", "cai-threnalli-bta-nr2-y-wing-y-wing", "cai-threnalli-bta-nr2-w-y-wing-wartime", "cai-threnalli-t-70-x-wing-eod", "c1-10p-astromech",
+               "computer-assisted-handling-modification-boe", "pinpoint-tractor-array", "stygium-reserve-modification-sl", "stabilizing-astromech-astromech-boe",
+               "coaxium-hyperfuel-illicit", "dauntless-title", "unkar-plutt-crew"]},
+    {"why": "Grants an action only after a speed 2+ or red maneuver (an ion maneuver is speed 1 and blue, so these matter only if the ship becomes ionized during its activation)", "strength": "possible", "status": "rejected",
+     "cards": ["afterburners-modification", "chiss-engineering", "coaxium-injectors", "sigma-6-tie-in-interceptor-boy", "temmin-wexley-t-70-x-wing", "r4-p17-astromech",
+               "ion-limiter-override-talent"]},
+    {"why": "Lets other ships perform an action", "strength": "possible", "status": "rejected",
+     "cards": ["lando-calrissian-scavenged-yt-1300-resistance"]},
+    {"why": "Spends {force} to perform another action (added in review)", "strength": "strong", "status": "approved",
+     "cards": ["darth-vader-tie-advanced-x1", "darth-vader-tie-advanced-x1-ssp"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -201,6 +217,8 @@
   "agent-terex-xi-class-light-shuttle, cikatro-vizago-crew, jabba-the-hutt-crew, guild-bounty-hunter-st-70-assault-ship, jessika-pava-t-70-x-wing, joy-rekkoff-fang-fighter, tomax-bren-tie-sa-bomber, knack-clone-z-95-headhunter, rotating-cannons, spare-parts-canisters-modification": "Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)",
   "bomblet, proximity-mine, electro-proton-bomb, tracking-torpedoes, heroic-sacrifice-talent-boe, lando-calrissian-crew": "Roll a set number of dice outside an attack, with no maximum (rr-71)",
   "corran-horn-e-wing, electro-proton-bomb, intercept-booster-configuration, its-the-resistance": "Give a disarm token as a result, not as a cost (rr-65)",
+  "breach-tie-se-bomber, dirk-ullodin-fang-fighter, odd-ball-btl-b-y-wing-y-wing, fennec-shand-crew": "Acquire a lock after a maneuver, which isn't an action (rr-30)",
+  "night-beast-tie-ln-fighter, night-beast-tie-ln-fighter-ssp": "Grant a {focus} action, which an ionized ship can still perform (rr-30)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

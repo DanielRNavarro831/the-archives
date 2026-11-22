@@ -352,6 +352,48 @@ Already named: Elusive, “Chopper”
 - [x] **You'd Better Mean Business** (Condition): This condition is assigned facedown. Reveal it after you defend. After you defend, you may spend 2 {charge} from Zam Wesell. If you do, perform a bonus attack against the attacker. At the end of the Engagement Phase, if this card is facedown and you are in an enemy ship's firing arc, you may reveal this card. If you do, Zam Wesell recovers 2 {charge}. At the start of the System Phase, remove this condition.
 - [x] **Munitions Failsafe** (Modification): While you perform a {torpedo} or {missile} attack, after rolling attack dice, you may cancel all dice results to recover 1 {charge} you spent as a cost for the attack.
 
+## rr-30: An ionized ship can only perform the {focus} action, even when an ability grants it a different action after it executes a maneuver.
+
+> **Q:** Can an ionized ship that is granted an non-{focus} action after executing a maneuver (such as a Delta-7 Aethersprite using Fine-Tuned Controls to perform an {barrelroll} or {boost} action, or a TIE Defender using Full Throttle to perform an {evade} action) perform that action?
+>
+> **A:** No. An ionized ship is limited to performing only the {focus} action.
+
+Already named: Fine-Tuned Controls, Full Throttle
+
+**Grants a non-{focus} action after you execute a maneuver** (strong match) — APPROVED, on the site
+
+- [x] **C'ai Threnalli** (T-70 X-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [x] **C'ai Threnalli** (BTA-NR2 Y-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [x] **C'ai Threnalli** (BTA-NR2-W Y-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [x] **C'ai Threnalli (EoD)** (T-70 X-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [x] **C1-10P** (Astromech): C1-10P:Setup: Equip this side faceup. After you fully execute a maneuver, you may spend 1 {charge} to perform a red {evade} action, even while stressed. During the End Phase, if this card has 0 active {charge}, flip it. C1-10P (Erratic): After you fully execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.
+- [x] **Computer-Assisted Handling** (Modification): After you fully execute a maneuver, you may spend 1 {charge} to perform a {boost} or {barrelroll} action.
+- [x] **Pinpoint Tractor Array** (Nantex-Class Starfighter): You cannot rotate your {singleturretarc} to your {reararc}. After you fully execute a maneuver, you may gain 1 tractor token to perform a {rotate} action.
+- [x] **Stygium Reserve** (Modification): After you fully execute a maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+- [x] **Stabilizing Astromech** (Astromech): After you fully execute a maneuver, you may spend 1 {charge} to perform a white action, even while stressed.
+- [x] **Coaxium Hyperfuel** (Illicit): You can perform the {slam} action even while stressed. If you do, you suffer 1 {crit} damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 {crit} damage to perform a {slam} action.
+- [x] **Dauntless** (Title): After you partially execute a maneuver, you may perform 1 white action, treating that action as red.
+- [x] **Unkar Plutt** (Crew): After you partially execute a maneuver, you may suffer 1 {hit} damage to perform 1 white action.
+
+**Grants an action only after a speed 2+ or red maneuver (an ion maneuver is speed 1 and blue, so these matter only if the ship becomes ionized during its activation)** (possible match) — SKIPPED
+
+- [-] **Afterburners** (Modification): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+- [-] **Chiss Engineering** (TIE/d Defender): After you fully execute a speed 3-5 maneuver, you may perform a {lock} action. While attacking, if you are not stressed, you may spend 1 {shield} to apply the range 1 bonus.
+- [-] **Coaxium Injectors** (Customized YT-1300 Light Freighter): After you fully execute a speed 3 or 4 maneuver, you may spend 1 {charge} to perform a red {slam} action, even while stressed. After you perform a {slam} action, you suffer 1 {crit} unless you expose 1 of your damage cards.
+- [-] **Sigma 6 (BoY)** (TIE/in Interceptor): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {slam} action.
+- [-] **Temmin Wexley** (T-70 X-wing): After you fully execute a speed 2-4 maneuver, you may perform a {boost} action.
+- [-] **R4-P17** (Astromech): After you fully execute a red maneuver, you may spend 1 {charge} to perform an action, even while stressed.
+- [-] **Ion Limiter Override** (Talent): After you fully execute a red maneuver, you may perform a {barrelroll} action, even while stressed. If you do, roll an attack die: On a {hit} result gain 1 strain token, and on a {crit} result gain 1 ion token.
+
+**Lets other ships perform an action** (possible match) — SKIPPED
+
+- [-] **Lando Calrissian** (Scavenged YT-1300): After you fully execute a red maneuver or perform a red action, you may spend any number of {charge} to choose that many friendly ships at range 0-2. The chosen ships may perform an action, even while stressed.
+
+**Spends {force} to perform another action (added in review)** (strong match) — APPROVED, on the site
+
+- [x] **Darth Vader** (TIE Advanced x1): After you perform an action, you may spend 1 {force} to perform an action.
+- [x] **Darth Vader (SSP)** (TIE Advanced x1): After you perform an action, you may spend 1 {force} to perform an action.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -536,4 +578,6 @@ Already named: none
 - Agent Terex, Cikatro Vizago, Jabba the Hutt, Guild Bounty Hunter, Jessika Pava, Joy Rekkoff, Tomax Bren, “Knack”, Rotating Cannons, Spare Parts Canisters: Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)
 - Bomblet, Proximity Mine, Electro-Proton Bomb, Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
 - Corran Horn, Electro-Proton Bomb, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
+- "Breach", Dirk Ullodin, “Odd Ball”, Fennec Shand: Acquire a lock after a maneuver, which isn't an action (rr-30)
+- “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
