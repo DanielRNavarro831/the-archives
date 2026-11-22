@@ -614,5 +614,9 @@
  "discord-3": {
   "section": "Coordinate",
   "why": "terms"
+ },
+ "discord-4": {
+  "section": "Bonus Attack",
+  "why": "terms"
  }
 }

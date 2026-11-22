@@ -832,6 +832,10 @@ CONTENTS
       Q: If a ship executes a stationary maneuver in arc at range 2 of an enemy ship with Snap Shot equipped (or in the bullseye arc of an enemy ship with Foresight equipped), can the ship with Snap Shot (or Foresight) perform the bonus attack?
       A: Yes.
 
+22.10  RULING [None vNone, p. None, X-Wing: The Miniatures Game Discord › Order of bonus attacks]  Cards: Major Vynder (SL), Stealth Gambit
+      Q: Can I decide in which order I do what bonus attack? After I shot a missile with Vynder and hit the target. Also does the attack from Ion cannon have to hit for stealth gambit to be viable, when I choose to shoot ion before gambit? Because I added the bonus attack already to the q beforehand...
+      A: yeah you pick the order to do the bonus attacks
+
 ========================================================================
 §23  BOOST
 ========================================================================

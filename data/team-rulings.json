@@ -87,6 +87,29 @@
     "colonel-jendon-lambda-class-t-4a-shuttle",
     "st-321-title"
    ]
+  },
+  {
+   "id": "discord-4",
+   "team": "XWA Rules Team",
+   "via": "X-Wing: The Miniatures Game Discord",
+   "url": "https://discord.com/channels/627648261456527371/627662130086412292/1526739167109714081",
+   "date": "Jul 14, 2026",
+   "topic": "Order of bonus attacks",
+   "q": "Can I decide in which order I do what bonus attack? After I shot a missile with Vynder and hit the target. Also does the attack from Ion cannon have to hit for stealth gambit to be viable, when I choose to shoot ion before gambit? Because I added the bonus attack already to the q beforehand...",
+   "a": [
+    "yeah you pick the order to do the bonus attacks"
+   ],
+   "answeredBy": [
+    {
+     "name": "Maui",
+     "role": "XWA Rules Lead",
+     "date": "Jul 14, 2026, 5:56 PM"
+    }
+   ],
+   "cards": [
+    "major-vynder-alpha-class-star-wing-ssl",
+    "stealth-gambit-talent-sl"
+   ]
   }
  ]
 }
