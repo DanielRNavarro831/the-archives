@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings given directly by an XWA team (not from a document or the forum). Each ruling: id, team (who gave it, e.g. 'XWA Epic Team'), date, topic, q (question), a (list of answer paragraphs), cards (card ids the ruling applies to), and epic: true for Epic-only rulings (shown only in Epic mode). Add new ones at the end; never change an id once published.",
+ "_readme": "Rulings given directly by an XWA team member (not from a document or the forum), e.g. the Epic team or the rules team on the XWA Discord. Each ruling: id, team, date, topic, q (question), a (list of answer paragraphs), cards (card ids it applies to); optional via (where it was given, e.g. 'XWA Discord'), url (link to the message), answeredBy ([{name, role, date}], shown as the 'Answered by' badge), and epic: true for Epic-only rulings. Don't include the name of the person who asked. Add new ones at the end; never change an id once published.",
  "rulings": [
   {
    "id": "epic-team-1",
@@ -8,8 +8,40 @@
    "topic": "Flipping Dials Faceup",
    "epic": true,
    "q": "In an Epic game, when an effect flips a ship's dial faceup, who can view that dial?",
-   "a": ["Only the player with the effect that says to flip the dial can view the dial.", "If the effect is a condition (such as Listening Device), the player who assigned the condition may view the flipped dial."],
-   "cards": ["compromising-intel", "false-friend", "listening-device", "supreme-leader-snoke-crew"]
+   "a": [
+    "Only the player with the effect that says to flip the dial can view the dial.",
+    "If the effect is a condition (such as Listening Device), the player who assigned the condition may view the flipped dial."
+   ],
+   "cards": [
+    "compromising-intel",
+    "false-friend",
+    "listening-device",
+    "supreme-leader-snoke-crew"
+   ]
+  },
+  {
+   "id": "discord-1",
+   "team": "XWA Rules Team",
+   "via": "XWA Discord",
+   "url": "https://discord.com/channels/627648261456527371/627662130086412292/1533178628068868098",
+   "date": "Aug 1, 2026",
+   "topic": "Seyn Marana and Targeting Matrix",
+   "q": "When I perform an attack with Seyn Marana, what is the timing of her ability to spend a {crit} to deal a damage card directly to a ship? Can I spend an {focus} result via Targeting Matrix to throw a strain, then spend a {crit} for Seyn's ability?",
+   "a": [
+    "Seyn Marana happens during the dice mod step; you cannot then use targeting matrix"
+   ],
+   "answeredBy": [
+    {
+     "name": "Maui",
+     "role": "XWA Rules Lead",
+     "date": "Aug 1, 2026, 12:24 PM"
+    }
+   ],
+   "cards": [
+    "seyn-marana-tie-ln-fighter",
+    "targeting-matrix-modification",
+    "targeting-matrix-modification-boe"
+   ]
   }
  ]
 }

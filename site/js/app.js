@@ -189,7 +189,7 @@
   function sourceLabel(item) {
     if (item.source === "forum") return `XWA Rules Forum, ${shortDate(item.date)}`;
     if (item.source === "playtest") return `Playtest ruling, ${shortDate(item.date)}`;
-    if (item.source === "team") return `${item.team || "XWA team"} ruling, ${shortDate(item.date)}`;
+    if (item.source === "team") return item.via ? `${item.via}, ${shortDate(item.date)}` : `${item.team || "XWA team"} ruling, ${shortDate(item.date)}`;
     const s = SOURCES[item.source];
     if (!s) return "";
     return `${s.title} ${verLabel(s)}, p. ${item.page}`;
@@ -202,6 +202,8 @@
   }
   /** Rule citations open the XWA's official PDF at the cited page (#page=N). */
   function sourceLink(item) {
+    if (item.source === "team" && item.url)
+      return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the message on the XWA Discord (you need to be a member of the server)">${esc(sourceLabel(item))}</a>`;
     if (item.source === "playtest" || item.source === "team") return esc(sourceLabel(item));
     if (item.source === "forum")
       return `<a href="${esc(item.url)}" target="_blank" rel="noopener" title="Open the thread on the XWA forum">${esc(sourceLabel(item))}</a>`;
@@ -690,7 +692,8 @@
     const groups = [];
     DB.rulings.forEach((r) => {
       // forum answers are one group ("XWA Rules Forum"), newest first
-      const topic = r.source === "forum" ? "Rules team answers (XWA forum)" : r.playtest ? "Playtest rulings" : r.topic;
+      const topic = r.source === "forum" ? "Rules team answers (XWA forum)" : r.source === "team" && r.via ? `Rules team answers (${r.via})`
+        : r.playtest ? "Playtest rulings" : r.topic;
       const key = r.section + " › " + topic;
       let g = groups.find((x) => x.key === key);
       if (!g) groups.push((g = { key, section: r.section, topic, items: [] }));

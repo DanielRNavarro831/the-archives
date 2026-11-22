@@ -499,7 +499,7 @@ def load_team_rulings(cards):
         bad = [i for i in r.get("cards", []) if i not in cards]
         if bad:
             print(f"WARNING: team ruling {r['id']} names unknown cards {bad}")
-        r = dict(r, source="team", section=r.get("team", "XWA team") + " Rulings",
+        r = dict(r, source="team", section=r.get("via") or (r.get("team", "XWA team") + " Rulings"),
                  cards=[i for i in r.get("cards", []) if i in cards])
         for i in r["cards"]:
             cards[i]["rulings"].append(r["id"])

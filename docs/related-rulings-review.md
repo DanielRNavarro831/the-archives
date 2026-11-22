@@ -113,9 +113,6 @@ Already named: Admiral Sloane
 - [x] **Dash Rendar (YLF-SL)** (YT-2400 Light Freighter): After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.
 - [x] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
 - [x] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
-- [x] **Jek Porkins** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
-- [x] **Jek Porkins (BoY)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
-- [x] **Jek Porkins (SSP)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
 - [x] **K-2SO** (UT-60D U-wing): After you gain a stress token, gain 1 calculate token.
 - [x] **Lieutenant Karsabi** (Alpha-Class Star Wing): After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.
 - [x] **Lieutenant Rivas** (TIE/fo Fighter): After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.
@@ -130,6 +127,12 @@ Already named: Admiral Sloane
 **Triggers after a ship gains or receives a token (left out in review: a ship can't gain more than 1 cloak token)** (strong match) — SKIPPED
 
 - [-] **Without A Trace** (Talent): After you gain a cloak token, you may remove 1 red token. While you are cloaked, enemy ships cannot acquire locks on you.
+
+**Triggers after a ship gains or receives a token (removed in review: Jek's ability works on each stress token he receives)** (strong match) — SKIPPED
+
+- [-] **Jek Porkins** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
+- [-] **Jek Porkins (BoY)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
+- [-] **Jek Porkins (SSP)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
 
 **Gives a ship two or more tokens at once** (possible match) — APPROVED, on the site
 
