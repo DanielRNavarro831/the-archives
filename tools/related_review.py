@@ -42,6 +42,8 @@ def main():
         out += [f"## {rid}: {e['mechanic']}", "",
                 f"> **Q:** {r['q']}", ">", f"> **A:** {' '.join(r['a'])}", "",
                 f"Already named: {named}", ""]
+        if e.get("skipped"):
+            out += [f"**SKIPPED:** {e['skipped']}", ""]
         if e.get("onHold"):
             out += [f"**ON HOLD:** {e['onHold']}", ""]
         for g in e["groups"]:

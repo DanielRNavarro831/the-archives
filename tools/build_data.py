@@ -522,6 +522,13 @@ def related_group_cards(group, cards):
         skip = set(group["match"].get("excludeTypes", []))  # e.g. ["Command"]
         ids += [c["id"] for c in cards.values() if c.get("type") == "Upgrade"
                 and len(set(c.get("slot") or [])) >= need and not skip & set(c.get("slot") or []) and c["id"] not in ids]
+    after = (group.get("match") or {}).get("pilotLinkedAfter")          # e.g. "focus": a linked action after {focus}
+    if after:
+        for c in cards.values():
+            acts = c.get("actions") or []
+            if c.get("type") == "Pilot" and c["id"] not in ids and any(
+                    x.get("a") == after and i + 1 < len(acts) and acts[i + 1].get("linked") for i, x in enumerate(acts)):
+                ids.append(c["id"])
     if (group.get("match") or {}).get("cardType"):
         ids += [c["id"] for c in cards.values() if c.get("type") == group["match"]["cardType"] and c["id"] not in ids]
     return ids

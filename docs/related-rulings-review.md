@@ -886,6 +886,25 @@ Already named: Debris Gambit
 - [-] **Larma D'Acy** (Crew): While you have 2 or fewer stress tokens, you can perform {reinforce}, {coordinate}, and {jam} actions, even while stressed. While you perform a white {reinforce}, {coordinate}, or {jam} action, if you are stressed, treat that action as red.
 - [-] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
 
+## rr-29: An ionized ship can only perform the {focus} action, so it can't perform an action linked to its {focus}.
+
+> **Q:** Can an ionized ship perform an action that is linked to its {focus} action after performing its {focus} action?
+>
+> **A:** No. An ionized ship is limited to performing only the {focus} action.
+
+Already named: none
+
+**SKIPPED:** Skipped in review (Nov 22, 2026): general knowledge, doesn't need card links.
+
+**Adds a {focus} action linked to another action** (strong match) — SKIPPED
+
+- [-] **Integrated S-Foils** (Configuration): Closed:{barrelroll}, {focus} {linked} {barrelroll} While you perform a primary attack, if the defender is not in your {bullseyearc}, roll 1 fewer attack die. Before you activate, you may flip this card. Open: Before you activate, you may flip this card.
+- [-] **Servomotor S-Foils** (Configuration): Closed:{boost}, {focus} {linked} {boost} While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card. Open: Before you activate, you may flip this card.
+
+**Pilots whose action bar links another action after {focus} (found from each pilot's action bar, so new pilots join automatically)** (strong match) — SKIPPED
+
+- [-] 71 cards: "Nightfall" (TIE/wi Whisper Modified Interceptor), "Whirlwind" (TIE/wi Whisper Modified Interceptor), "Wrath" (TIE/wi Whisper Modified Interceptor), 709th Legion Ace (TIE/wi Whisper Modified Interceptor), Adon Fox (BoE) (A/SF-01 B-wing), Blade Squadron Veteran (A/SF-01 B-wing), Blue Squadron Pilot (A/SF-01 B-wing), Braylen Stramm (A/SF-01 B-wing), Braylen Stramm (BoE) (A/SF-01 B-wing), C'ai Threnalli (EoD) (T-70 X-wing), Cad Bane (AaD) (Rogue-class Starfighter), Cad Bane (Rogue-class Starfighter), Captain Phasma (TIE/sf Fighter), Contracted Scout (JumpMaster 5000), Dace Bonearm (HWK-290 Light Freighter), Darth Vader (BoY) (TIE Advanced x1), Darth Vader (SSP) (TIE Advanced x1), Darth Vader (TIE Advanced x1), Dengar (AaD) (JumpMaster 5000), Dengar (JumpMaster 5000), Durge (Rogue-class Starfighter), Gamut Key (HWK-290 Light Freighter), Gina Moonsong (A/SF-01 B-wing), Gina Moonsong (BoE) (A/SF-01 B-wing), Hera Syndulla (A/SF-01 B-wing), IG-101 (Rogue-class Starfighter), IG-102 (Rogue-class Starfighter), IG-111 (Rogue-class Starfighter), Jan Ors (HWK-290 Light Freighter), Jaycris Tubbs (EoD) (T-70 X-wing), Juno Eclipse (TIE Advanced x1), Kanan Jarrus (HWK-290 Light Freighter), Kendy Idele (BoE) (T-65 X-wing), Kyle Katarn (HWK-290 Light Freighter), Kylo Ren (TIE/wi Whisper Modified Interceptor), Lieutenant LeHuse (TIE/sf Fighter), Maarek Stele (SSP) (TIE Advanced x1), Maarek Stele (TIE Advanced x1), MagnaGuard Executioner (Rogue-class Starfighter), MagnaGuard Protector (Rogue-class Starfighter), Manaroo (JumpMaster 5000), Netrem Pollard (A/SF-01 B-wing), Nom Lumb (JumpMaster 5000), Nom Lumb (Rogue-class Starfighter), Omega Squadron Expert (TIE/sf Fighter), Outer Rim Hunter (Rogue-class Starfighter), Palob Godalhi (HWK-290 Light Freighter), Poe Dameron (EoD) (T-70 X-wing), Rebel Scout (HWK-290 Light Freighter), Red Fury Zealot (TIE/wi Whisper Modified Interceptor), Roark Garnet (HWK-290 Light Freighter), Spice Runner (HWK-290 Light Freighter), Stomeroni Starck (EoD) (T-70 X-wing), Storm Squadron Ace (TIE Advanced x1), Tallissan Lintra (EoD) (RZ-2 A-wing), Tel Trevura (JumpMaster 5000), Tempest Squadron Pilot (TIE Advanced x1), Ten Numb (A/SF-01 B-wing), Torkil Mux (HWK-290 Light Freighter), Tycho Celchu (BoE) (RZ-1 A-wing), Tápusk (HWK-290 Light Freighter), Ved Foslo (TIE Advanced x1), Viktor Hel (Rogue-class Starfighter), Wedge Antilles (BoE) (T-65 X-wing), Yendor (BoE) (T-65 X-wing), Zertik Strom (TIE Advanced x1), Zeta Squadron Survivor (TIE/sf Fighter), “Backdraft” (TIE/sf Fighter), “Quickdraw” (TIE/sf Fighter)
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
