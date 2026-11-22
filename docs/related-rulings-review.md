@@ -454,6 +454,30 @@ Already named: Hondo Ohnaka
 
 - [x] **Hondo Ohnaka** (Firespray-class Patrol Craft): Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.
 
+## rr-60: Effects that change "a barrel roll" also change the barrel roll from becoming tractored; the player who assigned the tractor token places the template.
+
+> **Q:** Does the StarViper-class Attack Platform’s ship ability (Microthrusters) apply to the barrel roll that results from becoming tractored?
+>
+> **A:** Microthrusters does affect this barrel roll. The player whose effect assigned the tractor token determines the direction and position of the template.
+
+Already named: Microthrusters
+
+**Changes or allows something while you barrel roll (any barrel roll, not only the action)** (strong match) — APPROVED, on the site
+
+- [x] **Lieutenant Lorrir** (TIE/in Interceptor): While you barrel roll, you must use the ({bankleft} or {bankright}) template instead of the {straight} template.
+- [x] **Backwards Tailslide** (Talent): While you boost or barrel roll, if your equipped {configuration} upgrade has the "(Closed)" side faceup, you can move through and overlap obstacles. After you boost or barrel roll through an obstacle, if you are not at range 0 of it, gain 1 evade token.
+- [x] **Collision Detector** (Sensor): While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 {charge} to ignore its effects until the end of the round.
+- [x] **Q7 Astromech** (Astromech): While you barrel roll or boost, you can move through and overlap obstacles.
+
+**Changes only a {barrelroll} action, so it doesn't apply to a tractor barrel roll (the other side of the ruling)** (possible match) — SKIPPED
+
+- [-] **Flight-Assist Astromech** (Astromech): While you perform a white {barrelroll} or white {boost} action, you may spend 1 {charge}. If you do, treat the action as red, and use a speed 2 template while performing the action.
+- [-] **Fuel Injection Override** (Modification): While you perform a {boost} or {barrelroll} action, you may spend 1 {charge} to use a template of 1 speed higher.
+- [-] **Overdrive Thruster** (Modification): While you perform a red {boost}. {barrelroll}, or {slam} action, you must use a template of 1 speed higher if able.
+- [-] **Primed Overdrive Thrusters** (Tech): While you perform a red {boost}, {barrelroll}, or {slam} action, you must use a template 1 speed higher if able. Then, you may gain 1 strain token to remove 1 stress token.
+- [-] **Reckless** (Talent): While you perform a red {boost} or red {barrelroll} action, you may use the [1 {turnleft}] or [1 {turnright}] template instead. If you do, roll an attack die. On a {hit}/{crit} result, gain a stress token.
+- [-] **Repulsorlift Engines** (Modification): While you perform a {barrelroll} action, you may gain 1 strain token to use the {bankleft} or {bankright} template instead of the {straight} template.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

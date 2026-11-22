@@ -173,6 +173,16 @@
      "cards": ["hondo-ohnaka-firespray-class-patrol-craft"]}
    ]
   },
+  "rr-60": {
+   "mechanic": "Effects that change \"a barrel roll\" also change the barrel roll from becoming tractored; the player who assigned the tractor token places the template.",
+   "groups": [
+    {"why": "Changes or allows something while you barrel roll (any barrel roll, not only the action)", "strength": "strong", "status": "approved",
+     "cards": ["lieutenant-lorrir-tie-in-interceptor", "backwards-tailslide-talent", "collision-detector-sensor", "q7-astromech-astromech"]},
+    {"why": "Changes only a {barrelroll} action, so it doesn't apply to a tractor barrel roll (the other side of the ruling)", "strength": "possible", "status": "rejected",
+     "cards": ["flight-assist-astromech-astromech", "fuel-injection-override-modification-boe", "overdrive-thruster-modification", "primed-overdrive-thrusters-tech-eod",
+               "reckless-talent-boe", "repulsorlift-engines-modification-eod"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
