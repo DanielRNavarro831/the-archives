@@ -157,6 +157,15 @@
      "cards": ["echo-tie-ph-phantom-ssl", "kickback-v-19-torrent-starfighter-soc", "maul-gauntlet-fighter", "debris-gambit-talent", "evasion-sequence-7-modification-soc"]}
    ]
   },
+  "rr-58": {
+   "mechanic": "An ability that copies another ship's action copies only the first action it performed, not a linked action after it.",
+   "groups": [
+    {"why": "Performs the action another ship just performed", "strength": "strong", "status": "approved",
+     "cards": ["zorii-bliss-bta-nr2-y-wing", "zorii-bliss-bta-nr2-w-y-wing-wartime", "echo-tie-ph-phantom-ssl"]},
+    {"why": "Makes coordinated ships all perform the same action", "strength": "possible", "status": "approved",
+     "cards": ["battle-meditation-force-power", "general-hux-crew", "general-hux-crew-eod"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

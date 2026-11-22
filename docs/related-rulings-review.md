@@ -422,6 +422,26 @@ Already named: Airen Cracken
 - [-] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
 - [-] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
 
+## rr-58: An ability that copies another ship's action copies only the first action it performed, not a linked action after it.
+
+> **Q:** If Lieutenant Sai [Lambda-class Shuttle] coordinates a ship and it performs an action followed by a linked action, can Lieutenant Sai perform the linked action instead of the initial action?
+>
+> **A:** No. Lieutenant Sai can only perform the initial action.
+
+Already named: Lieutenant Sai
+
+**Performs the action another ship just performed** (strong match) — APPROVED, on the site
+
+- [x] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [x] **Zorii Bliss** (BTA-NR2-W Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [x] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
+
+**Makes coordinated ships all perform the same action** (possible match) — APPROVED, on the site
+
+- [x] **Battle Meditation** (Force Power): You cannot coordinate limited ships. While you perform a purple {coordinate} action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.
+- [x] **General Hux** (Crew): While you perform a white {coordinate} action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.
+- [x] **General Hux** (Crew): While you perform a white {coordinate} action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
