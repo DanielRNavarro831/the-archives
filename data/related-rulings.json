@@ -291,6 +291,16 @@
      "match": {"cardType": "Remote"}, "cards": []}
    ]
   },
+  "rr-22": {
+   "mechanic": "An effect that rerolls \"all\" dice or a set number of dice rerolls as many eligible dice as possible, and must use exactly that many if there are enough.",
+   "groups": [
+    {"why": "Makes the other player reroll all dice or a set number of dice, like Saturation Salvo", "strength": "strong", "status": "approved",
+     "cards": ["l3-37-crew", "l3-37-crew-aad", "theta-4-tie-sf-fighter-eod", "zuckuss-crew"]},
+    {"why": "Chooses or rerolls dice of one kind, which may be fewer than it names", "strength": "possible", "status": "rejected",
+     "cards": ["m9-g8-astromech", "tamara-ryvora-tie-fo-fighter", "dedicated-talent", "lando-calrissian-customized-yt-1300-light-freighter-scum",
+               "lando-calrissian-escape-craft-escape-craft", "tantive-iv-title-resistance"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -370,6 +380,7 @@
   "cad-bane-crew, captain-jonus-tie-sa-bomber-tbe, delayed-fuses-modification, scimitar-3-tie-sa-bomber-boe, swift-approach-talent-tbe, deathrain-tie-ca-punisher": "Trigger after you drop or launch a device, but don't give another one (rr-76)",
   "emon-azzameen-firespray-class-patrol-craft, finch-dallow-mg-100-starfortress, finch-dallow-mg-100-starfortress-eod, gyro-cockpit, modular-bombing-magazine, nimble-bomber, skilled-bombardier-gunner, sol-sixxa-scurrg-h-6-bomber, bombardment-drone-hyena-class-droid-bomber, constable-zuvio-quadrijet-transfer-spacetug, trajectory-simulator-sensor": "Change how a device is dropped or launched, not how many (rr-76)",
   "leema-kai-btl-a4-y-wing": "Checks enemy ships' arcs, not remotes' (rr-16)",
+  "predator-talent, howlrunner-tie-ln-fighter, fire-control-system-sensor, elusive-talent, lone-wolf-talent": "Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

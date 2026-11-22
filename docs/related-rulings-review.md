@@ -737,6 +737,30 @@ Already named: none
 
 - [x] 9 cards: Buzz Droid Swarm (), Clan Wren Commandos (), DRK-1 Probe Droid (), Death Watch Commandos (), Imperial Super Commandos (), Mandalorian Super Commandos (), Nite Owl Commandos (), Sensor Buoy (), Tracking Torpedoes ()
 
+## rr-22: An effect that rerolls "all" dice or a set number of dice rerolls as many eligible dice as possible, and must use exactly that many if there are enough.
+
+> **Q:** If a card such as Saturation Salvo [{talent}] instructs a player to reroll “all dice” or a specific number of dice but there are not enough eligible dice, what happens?
+>
+> **A:** The player rerolls as many eligible dice as possible. In the case of Saturation Salvo and similar effects, if a ship uses Saturation Salvo (which rerolls 2 defense dice) against a ship that rolled only 1 defense die, it can still cause that ship to reroll its 1 defense die by resolving the effect as completely as possible (against the 1 eligible defense die). Note that if the ship uses Saturation Salvo against a ship that rolled 3 defense dice (for example: {evade}, blank, blank), it must choose exactly 2 of those dice to be rerolled, as it must resolve the effect as completely as possible (on 2 eligible dice, in this case).
+
+Already named: Saturation Salvo
+
+**Makes the other player reroll all dice or a set number of dice, like Saturation Salvo** (strong match) — APPROVED, on the site
+
+- [x] **L3-37** (Crew): Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attacker must reroll all attack dice. L3-37's Programming: If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
+- [x] **L3-37** (Crew): While you defend, you may spend 1 {charge}. If you do, the attacker must reroll all attack dice. If this {charge} is inactive, decrease the difficulty of your bank [{bankleft} and {bankright}] maneuvers. This upgrade's {charge} cannot be recovered.
+- [x] **Theta 4 (EoD)** (TIE/sf Fighter): While an enemy ship in your {singleturretarc} performs an attack you may spend 1 {charge}. If you do, spend 1 {charge} from your {missile} upgrade to choose two attack dice. The attacker must reroll those dice.
+- [x] **Zuckuss** (Crew): While you perform an attack, if you are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.
+
+**Chooses or rerolls dice of one kind, which may be fewer than it names** (possible match) — SKIPPED
+
+- [-] **M9-G8** (Astromech): While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.
+- [-] **Tamara Ryvora** (TIE/fo Fighter): While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.
+- [-] **Dedicated** (Talent): While another friendly ship in your {leftarc} or {rightarc} at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.
+- [-] **Lando Calrissian** (Customized YT-1300 Light Freighter): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [-] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [-] **Tantive IV** (Title): When a friendly ship at range 0-2 defends or performs an attack, if it has only blank results and has 2 or more results, you may suffer 1 {hit} or spend 2 {energy}. If you do, that ship may reroll all of its dice.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -929,4 +953,5 @@ Already named: none
 - Cad Bane, Captain Jonus (TBE), Delayed Fuses, Scimitar 3 (BoE), Swift Approach, “Deathrain”: Trigger after you drop or launch a device, but don't give another one (rr-76)
 - Emon Azzameen, Finch Dallow, Finch Dallow (EoD), Gyro-Cockpit, Modular Bombing Magazine, Nimble Bomber, Skilled Bombardier, Sol Sixxa, Bombardment Drone, Constable Zuvio, Trajectory Simulator: Change how a device is dropped or launched, not how many (rr-76)
 - Leema Kai: Checks enemy ships' arcs, not remotes' (rr-16)
+- Predator, “Howlrunner”, Fire-Control System, Elusive, Lone Wolf: Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
