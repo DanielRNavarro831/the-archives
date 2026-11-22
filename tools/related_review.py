@@ -28,8 +28,7 @@ def main():
         return f"**{c['name']}** ({extra})"
 
     def text(c):
-        t = re.sub(r"\s+", " ", (c.get("text") or "").replace("**", "")).strip()
-        return t if len(t) <= 220 else t[:217] + "…"
+        return re.sub(r"\s+", " ", (c.get("text") or "").replace("**", "")).strip()   # full text: never shortened
 
     out = ["# Related rulings: suggestions to review", "",
            "Each ruling below names some cards; these are other cards whose text uses the same mechanic.",

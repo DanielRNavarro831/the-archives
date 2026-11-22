@@ -86,6 +86,13 @@
      "match": {"upgradeWithTypes": 2}, "cards": []}
    ]
   },
+  "rr-71": {
+   "mechanic": "A maximum on the number of dice rolled is applied after every effect that adds or removes dice, whatever order they were used in.",
+   "groups": [
+    {"why": "Sets a maximum number of dice to roll", "strength": "strong", "status": "approved",
+     "cards": ["burst-laser-turret-turret", "gar-saxon-gunner-gunner", "tycho-celchu-rz-1-a-wing-boe", "xg-1-assault-configuration-configuration"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -155,6 +162,7 @@
   "wedge-antilles-t-65-x-wing, zuckuss-g-1a-starfighter, seventh-fleet-gunner-gunner, outmaneuver-talent": "Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)",
   "captain-jostero-kihraxz-fighter, chewbacca-scavenged-yt-1300-resistance, general-grievous-command-command, riff-tamson-command, targeting-battery-hardpoint": "Give a bonus attack, but not right after an attack (rr-101)",
   "agent-terex-xi-class-light-shuttle, cikatro-vizago-crew, jabba-the-hutt-crew, guild-bounty-hunter-st-70-assault-ship, jessika-pava-t-70-x-wing, joy-rekkoff-fang-fighter, tomax-bren-tie-sa-bomber, knack-clone-z-95-headhunter, rotating-cannons, spare-parts-canisters-modification": "Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)",
+  "bomblet, proximity-mine, electro-proton-bomb, tracking-torpedoes, heroic-sacrifice-talent-boe, lando-calrissian-crew": "Roll a set number of dice outside an attack, with no maximum (rr-71)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

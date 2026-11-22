@@ -16,8 +16,8 @@ Already named: Fearless, Outmaneuver, Punishing One
 **Needs you to perform a {frontarc} attack** (strong match) — APPROVED, on the site
 
 - [x] **Ancillary Ion Weapons** (Cannon): While you perform a primary {frontarc} attack, before rolling attack dice, you may spend 2 {charge}. If you do, your {crit} results deal ion tokens instead of damage.
-- [x] **Arliz Hadrassian** (BTL-A4 Y-wing): While you perform a {frontarc} attack, if you are damaged, before the Modify Dice step, you may change 1 of your {focus} results to a {crit} result. While you defend, if you are damaged, you must change 1 of your {foc…
-- [x] **Optimized Prototype** (Condition): While you perform a {frontarc} primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 {hit}/{crit}/{focus} result. If you do, choose one: the defender loses 1 shield…
+- [x] **Arliz Hadrassian** (BTL-A4 Y-wing): While you perform a {frontarc} attack, if you are damaged, before the Modify Dice step, you may change 1 of your {focus} results to a {crit} result. While you defend, if you are damaged, you must change 1 of your {focus} results to a blank result.
+- [x] **Optimized Prototype** (Condition): While you perform a {frontarc} primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 {hit}/{crit}/{focus} result. If you do, choose one: the defender loses 1 shield or the defender flips 1 of its facedown damage cards.
 - [x] **Veteran Tail Gunner** (Gunner): After you perform a primary {frontarc} attack, you may perform a bonus primary {reararc} attack.
 - [x] **Migs Mayfeld** (Gunner): After you perform a {frontarc} attack, you may perform a {reararc} or {singleturretarc} attack as a bonus attack against a different target with 1 or more red or orange tokens.
 - [x] **Locked and Loaded** (Attack Shuttle): While you are docked, after your carrier ship performs a primary {frontarc} or {turret} attack, it may perform a bonus primary {reararc} attack.
@@ -25,13 +25,13 @@ Already named: Fearless, Outmaneuver, Punishing One
 **Needs you to perform a {frontarc} attack (left out in review)** (strong match) — SKIPPED
 
 - [-] **Slave I** (Title): While you perform a {frontarc} attack, if you are in the defender's {fullreararc}, you may change 1 {hit} result to a {crit} result.
-- [-] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your…
+- [-] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your {reararc}, you may perform a bonus primary {singleturretarc} attack.
 - [-] **“Wolffe”** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional attack die.
 - [-] **“Wolffe” (SoC)** (ARC-170 Starfighter): While you perform a primary {frontarc} attack, you may spend 1 {charge} to reroll 1 attack die. While you perform a primary {reararc} attack, you may recover 1 {charge} to roll 1 additional die.
 
 **Checks whether the defender is in your {frontarc} on a special weapon (added in review)** (strong match) — APPROVED, on the site
 
-- [x] **Multi-Missile Pods** (Missile): Attack ({calculate} or {lock}): Spend 1 {charge}. If the defender is in your {frontarc}, you may spend 1 {charge} to roll 1 additional attack die. If the defender is in your {bullseyearc}, you may spend up to 2 {charg…
+- [x] **Multi-Missile Pods** (Missile): Attack ({calculate} or {lock}): Spend 1 {charge}. If the defender is in your {frontarc}, you may spend 1 {charge} to roll 1 additional attack die. If the defender is in your {bullseyearc}, you may spend up to 2 {charge} to roll that many additional attack dice instead.
 
 **Pilots whose primary attacks are only {singleturretarc}, {doubleturretarc} or {fullfrontarc} (added in review; found from each pilot's attack arcs, so new pilots join automatically)** (strong match) — APPROVED, on the site
 
@@ -40,7 +40,7 @@ Already named: Fearless, Outmaneuver, Punishing One
 **Checks whether the defender is in your {frontarc} (the other half of the ruling)** (possible match) — APPROVED, on the site
 
 - [x] **DGS-047** (HMP Droid Gunship): After you perform an attack, if the defender is in your {frontarc}, you may acquire a lock on it. Then, if the defender is in your {bullseyearc}, it gains 1 strain token.
-- [x] **Gar Saxon** (Gunner): While you perform the {lock} action, you can only choose an object in your {frontarc} or {reararc}. While you perform a primary attack, if the defender is in your {frontarc} or {reararc}, you may remove 1 orange or re…
+- [x] **Gar Saxon** (Gunner): While you perform the {lock} action, you can only choose an object in your {frontarc} or {reararc}. While you perform a primary attack, if the defender is in your {frontarc} or {reararc}, you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.
 
 **Checks whether the defender is in your {frontarc} (left out in review)** (possible match) — SKIPPED
 
@@ -54,7 +54,7 @@ Already named: Fearless, Outmaneuver, Punishing One
 **Gives, moves or changes a {frontarc} attack (left out in review)** (possible match) — SKIPPED
 
 - [-] **Moldy Crow** (Title): Gain a {frontarc} primary weapon with a value of “3.” During the End Phase, do not remove up to 2 focus tokens.
-- [-] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the Syste…
+- [-] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red {boost} or red {rotate} action. You can rotate your {singleturretarc} indicator only to your {frontarc} or {reararc}.
 - [-] **Krassis Trelix** (Firespray-class Patrol Craft): You can perform {frontarc} special attacks from your {reararc}. While you perform a special attack, you may reroll 1 attack die.
 - [-] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
 
@@ -68,7 +68,7 @@ Already named: Count Dooku
 
 **Same ability as the Count Dooku named in the ruling** (strong match) — APPROVED, on the site
 
-- [x] **Count Dooku (SoC)** (Sith Infiltrator): During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your {force} are active, you may spend 1 {force} and name a result. If the roll does not contain the named result, the ship must cha…
+- [x] **Count Dooku (SoC)** (Sith Infiltrator): During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your {force} are active, you may spend 1 {force} and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.
 
 **Triggers after dice are rolled** (strong match) — APPROVED, on the site
 
@@ -89,9 +89,9 @@ Already named: Count Dooku
 - [x] **Ancillary Ion Weapons** (Cannon): While you perform a primary {frontarc} attack, before rolling attack dice, you may spend 2 {charge}. If you do, your {crit} results deal ion tokens instead of damage.
 - [x] **Captain Seevor** (Modified TIE/ln Fighter): While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's {bullseyearc}, you may spend 1 {charge}. If you do, the enemy ship gains 1 jam token.
 - [x] **Freelance Slicer** (Crew): While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 jam token. Then, on a {hit} or {crit} result, gain 1 jam token.
-- [x] **Moff Gideon** (TIE/ln Fighter): While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 {charge} and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack …
+- [x] **Moff Gideon** (TIE/ln Fighter): While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 {charge} and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.
 - [x] **Carnor Jax** (TIE/in Interceptor): While an enemy ship at range 0-1 in your {frontarc} defends or performs an attack, before the Roll Attack Dice step, you may spend 1 {force}. If you do, that ship's dice cannot be modified.
-- [x] **C-3PO** (Crew): Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do and you roll exactly that many {evade} results, add 1 {evade} result. After you perform the {calculate} actio…
+- [x] **C-3PO** (Crew): Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do and you roll exactly that many {evade} results, add 1 {evade} result. After you perform the {calculate} action, gain 1 calculate token.
 
 **Says it works after you roll or reroll (an exception the ruling helps explain)** (possible match) — APPROVED, on the site
 
@@ -112,7 +112,7 @@ Already named: Admiral Sloane
 - [x] **Dash Rendar (SL)** (YT-2400 Light Freighter): After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.
 - [x] **Dash Rendar (YLF-SL)** (YT-2400 Light Freighter): After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.
 - [x] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
-- [x] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {…
+- [x] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
 - [x] **Jek Porkins** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
 - [x] **Jek Porkins (BoY)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
 - [x] **Jek Porkins (SSP)** (T-65 X-wing): After you receive a stress token, you may roll 1 attack die to remove it. On a {hit} result, suffer 1 {hit} damage.
@@ -123,8 +123,8 @@ Already named: Admiral Sloane
 - [x] **Nien Nunb** (T-70 X-wing): After you gain a stress token, if there is an enemy ship in your {frontarc} at range 0-1, you may remove that stress token.
 - [x] **Petty Officer Thanisson** (Upsilon-Class Command Shuttle): During the Activation or Engagement Phase, after a ship in your {frontarc} at range 0-2 gains 1 stress token, you may spend 1 {charge}. If you do, that ship gains 1 tractor token.
 - [x] **Petty Officer Thanisson (EoD)** (Upsilon-Class Command Shuttle): During the Activation or Engagement Phase, after a ship in your {frontarc} at range 0-2 gains 1 deplete or strain token, you may spend 1{charge}. If you do, that ship gains 1 stress token.
-- [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional…
-- [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional…
+- [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.
+- [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.
 - [x] **Savage Opress** (Crew): After a friendly ship in your {frontarc} at range 1-2 gains a stress or strain token, you may spend 1 {force}. If you do, that ship gains 1 focus token.
 
 **Triggers after a ship gains or receives a token (left out in review: a ship can't gain more than 1 cloak token)** (strong match) — SKIPPED
@@ -147,7 +147,7 @@ Already named: Admiral Sloane
 - [x] **Tor Phun** (Fang Fighter): After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.
 - [x] **Trident** (Title): After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 {energy}. If you do, it gains 3 tractor tokens.
 - [x] **Han Solo** (Crew): After you perform an {evade} action, gain additional evade tokens equal to the number of enemy ships at range 0-1.
-- [x] **Riff Tamson** (Command / Crew): During the Engagement Phase, at initiative 5, you may spend 1 {energy} to perform a bonus {hardpoint} attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tok…
+- [x] **Riff Tamson** (Command / Crew): During the Engagement Phase, at initiative 5, you may spend 1 {energy} to perform a bonus {hardpoint} attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens.
 
 **Gives a ship two different tokens at once (left out in review)** (possible match) — SKIPPED
 
@@ -169,32 +169,32 @@ Already named: Fire-Control System
 **Has an effect that lasts "during this attack"** (strong match)
 
 - [ ] **4-LOM** (Crew): While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.
-- [ ] **Moff Gideon** (TIE/ln Fighter): While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 {charge} and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack …
+- [ ] **Moff Gideon** (TIE/ln Fighter): While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 {charge} and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.
 - [ ] **Os-1 Arsenal Loadout** (Configuration): While you have exactly 1 disarm token, you can still perform {torpedo} and {missile} attacks against targets you have locked. If you do, you cannot spend your lock during the attack.
 
 **Gives a bonus attack after an attack or after defending (in the Aftermath step)** (strong match)
 
 - [ ] **"Wrath"** (TIE/wi Whisper Modified Interceptor): After you perform a {bullseyearc} attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.
 - [ ] **Advanced Fire Control** (Ship Ability): After you perform a {cannon} or {missile} attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.
-- [ ] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire …
+- [ ] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a {cannon} or {missile} attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.
 - [ ] **Bistan** (Gunner): After you perform a primary attack, if you are focused, you may perform a bonus {singleturretarc} attack against a ship you have not already attacked this round.
 - [ ] **Boba Fett (AaD)** (Firespray-class Patrol Craft): After another friendly ship defends, if you have a lock on the attacker, you may perform a bonus attack against the attacker.
 - [ ] **Bossk** (Gunner): After you perform a primary attack that misses, if you are not stressed, you must receive 1 stress token to perform a bonus primary attack against the same target.
 - [ ] **Captain Yorr (BoE)** (TIE/d Defender): After you perform a primary attack that hits, you may spend 1 {charge} to perform a bonus {cannon} attack.
 - [ ] **Darth Maul** (Sith Infiltrator): After you perform an attack, you may spend 2 {force} to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.
-- [ ] **Dedicated Gunners** (Gunner): While you perform a primary attack, if the defender is in your {singleturretarc}, you may spend 1 focus token to roll 1 additional attack die. After you perform a primary attack, you may perform a bonus {singleturreta…
+- [ ] **Dedicated Gunners** (Gunner): While you perform a primary attack, if the defender is in your {singleturretarc}, you may spend 1 focus token to roll 1 additional attack die. After you perform a primary attack, you may perform a bonus {singleturretarc} attack using a {singleturretarc} you did not already attack from this round.
 - [ ] **Dengar** (JumpMaster 5000): After you defend, if the attacker is in your {frontarc}, you may spend 1 {charge} to perform a bonus attack against the attacker.
 - [ ] **Dengar (AaD)** (JumpMaster 5000): After you defend, if the attacker is in your {frontarc}, you may spend 1 {charge} to perform a bonus attack against the attacker.
-- [ ] **Ezra Bridger** (Gunner): After you perform a primary attack, you may spend 1 {force} to perform a bonus {singleturretarc} attack from a {singleturretarc} you have not attacked from this round. If you do and you are stressed, you may reroll 1 …
+- [ ] **Ezra Bridger** (Gunner): After you perform a primary attack, you may spend 1 {force} to perform a bonus {singleturretarc} attack from a {singleturretarc} you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.
 - [ ] **Ghost Company** (Crew / Gunner): After you perform a primary attack, if you are focused, you may perform a {singleturretarc} attack against a ship you have not attacked this round as a bonus attack.
 - [ ] **IG-88B** (Aggressor Assault Fighter): After you perform an attack that misses, you may perform a bonus {cannon} attack.
 - [ ] **Locked and Loaded** (Attack Shuttle): While you are docked, after your carrier ship performs a primary {frontarc} or {turret} attack, it may perform a bonus primary {reararc} attack.
 - [ ] **Major Vynder (SL)** (Alpha-Class Star Wing): After you perform a {missile} attack, you may perform a bonus {cannon} attack. While you perform this bonus attack, you may change 1 {focus} result to a {hit} result.
 - [ ] **Migs Mayfeld** (Gunner): After you perform a {frontarc} attack, you may perform a {reararc} or {singleturretarc} attack as a bonus attack against a different target with 1 or more red or orange tokens.
 - [ ] **Mist Hunter** (Title): After you perform a {cannon} attack, you may gain 1 strain token to perform a bonus primary attack against the same target.
-- [ ] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your…
-- [ ] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on…
-- [ ] **Stealth Gambit** (Talent): After a friendly ship performs an attack that hits an enemy ship in your {frontarc}, if you are cloaked, you may gain a strain token to remove your cloak token and perform a bonus primary attack against the defender. …
+- [ ] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your {reararc}, you may perform a bonus primary {singleturretarc} attack.
+- [ ] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
+- [ ] **Stealth Gambit** (Talent): After a friendly ship performs an attack that hits an enemy ship in your {frontarc}, if you are cloaked, you may gain a strain token to remove your cloak token and perform a bonus primary attack against the defender. At the end of the Engagement Phase, if you are strained, gain an evade token.
 - [ ] **Veteran Tail Gunner** (Gunner): After you perform a primary {frontarc} attack, you may perform a bonus primary {reararc} attack.
 - [ ] **Veteran Turret Gunner** (Gunner): After you perform a primary attack, you may perform a bonus {singleturretarc} attack using a {singleturretarc} you did not already attack from this round.
 - [ ] **“Double Edge”** (TIE/ag Aggressor): After you perform a {turret} or {missile} attack that misses, you may perform a bonus attack using a different weapon.
@@ -203,9 +203,9 @@ Already named: Fire-Control System
 - [ ] **Cluster Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the {lock} requirement.
 - [ ] **Flight Leader Ubbel** (TIE/rb Heavy): After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.
 - [ ] **Nien Nunb** (Command): Bonus Attack: After performing a primary attack, you may spend 2 {energy} and 1 {charge} to perform a bonus primary attack against a different target.
-- [ ] **Saturation Rockets** (Missile): Attack: Spend 2 {charge}. If the defender is in your {frontarc}, you may spend 1 additional {charge} to roll 1 additional attack die. After this attack, you may spend 1 {charge} to perform this attack as a bonus attac…
+- [ ] **Saturation Rockets** (Missile): Attack: Spend 2 {charge}. If the defender is in your {frontarc}, you may spend 1 additional {charge} to roll 1 additional attack die. After this attack, you may spend 1 {charge} to perform this attack as a bonus attack against a different target at range 0-1 of the defender without paying the {charge} cost.
 - [ ] **Tor Phun** (Fang Fighter): After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.
-- [ ] **You'd Better Mean Business** (Condition): This condition is assigned facedown. Reveal it after you defend. After you defend, you may spend 2 {charge} from Zam Wesell. If you do, perform a bonus attack against the attacker. At the end of the Engagement Phase, …
+- [ ] **You'd Better Mean Business** (Condition): This condition is assigned facedown. Reveal it after you defend. After you defend, you may spend 2 {charge} from Zam Wesell. If you do, perform a bonus attack against the attacker. At the end of the Engagement Phase, if this card is facedown and you are in an enemy ship's firing arc, you may reveal this card. If you do, Zam Wesell recovers 2 {charge}. At the start of the System Phase, remove this condition.
 
 ## rr-87: An ability that refers to an upgrade type also works with upgrades that have that type plus another one (but slots granted like Weapon Hardpoint's don't work this way).
 
@@ -218,9 +218,9 @@ Already named: Barrage Rockets, Captain Jonus, Electro-Proton Bomb, Paige Tico, 
 **Refers to an equipped upgrade of a type that some multi-type upgrades share ({missile}, {payload}, {modification})** (strong match) — APPROVED, on the site
 
 - [x] **Heavy Weapon Turret** (TIE/sf Fighter, TIE/wi Whisper Modified Interceptor): You can rotate your {singleturretarc} indicator only to your {frontarc} or {reararc}. You must treat the {frontarc} requirement of your equipped {missile} upgrades as {singleturretarc}.
-- [x] **Heavy Weapon Turret** (TIE/sf Fighter): After you perform an action, you may perform a white {rotate} action. You can only rotate your {singleturretarc} arc to your {frontarc} or {reararc}. You must treat the {frontarc} requirement of your equipped {missile…
-- [x] **Ordnance Team** (Team): While you perform a {reload} action, you may spend up to 3 {energy} to reload that many additional {charge} on your equipped {missile}/{torpedo} upgrades. After you perform a {reload} action, you may spend 1 {energy} …
-- [x] **Ordnance Tubes** (Hardpoint): Online: Setup: Equip this side faceup. You can perform {torpedo} and {missile} attacks only as bonus attacks. You must treat the {frontarc} requirement of your equipped {torpedo} and {missile} upgrades as {fullfrontar…
+- [x] **Heavy Weapon Turret** (TIE/sf Fighter): After you perform an action, you may perform a white {rotate} action. You can only rotate your {singleturretarc} arc to your {frontarc} or {reararc}. You must treat the {frontarc} requirement of your equipped {missile} upgrades as {singleturretarc}.
+- [x] **Ordnance Team** (Team): While you perform a {reload} action, you may spend up to 3 {energy} to reload that many additional {charge} on your equipped {missile}/{torpedo} upgrades. After you perform a {reload} action, you may spend 1 {energy} to remove 1 disarm token.
+- [x] **Ordnance Tubes** (Hardpoint): Online: Setup: Equip this side faceup. You can perform {torpedo} and {missile} attacks only as bonus attacks. You must treat the {frontarc} requirement of your equipped {torpedo} and {missile} upgrades as {fullfrontarc}. Bonus Attack: Perform a {torpedo} attack. Bonus Attack: Perform a {missile} attack. Offline: You must treat the {frontarc} requirement of your equipped {torpedo} and {missile} upgrades as {bullseyearc}. Action: Spend 2 {energy} to flip this card.
 - [x] **Theta 4 (EoD)** (TIE/sf Fighter): While an enemy ship in your {singleturretarc} performs an attack you may spend 1 {charge}. If you do, spend 1 {charge} from your {missile} upgrade to choose two attack dice. The attacker must reroll those dice.
 - [x] **Nix Jerd** (Crew): While you perform a {reload} action, you may spend 1 {charge} and gain 1 strain token. If you do, you may recover 1 additional {charge} on a {payload} upgrade.
 - [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
@@ -230,7 +230,7 @@ Already named: Barrage Rockets, Captain Jonus, Electro-Proton Bomb, Paige Tico, 
 
 **Refers to an equipped {configuration} upgrade (left out in review: no multi-type configuration can go on an X-wing)** (strong match) — SKIPPED
 
-- [-] **Backwards Tailslide** (Talent): While you boost or barrel roll, if your equipped {configuration} upgrade has the "(Closed)" side faceup, you can move through and overlap obstacles. After you boost or barrel roll through an obstacle, if you are not a…
+- [-] **Backwards Tailslide** (Talent): While you boost or barrel roll, if your equipped {configuration} upgrade has the "(Closed)" side faceup, you can move through and overlap obstacles. After you boost or barrel roll through an obstacle, if you are not at range 0 of it, gain 1 evade token.
 - [-] **Kullbee Sperado** (T-65 X-wing): After you perform a {barrelroll} or {boost} action, you may flip your equipped {configuration} upgrade card.
 - [-] **Temmin Wexley** (T-70 X-wing): At the start of the Engagement Phase, each friendly T-70 X-wing at range 0-3 may gain 1 strain token to flip its equipped {configuration} upgrade. If it does, that ship gains 1 calculate token.
 
@@ -241,6 +241,21 @@ Already named: Barrage Rockets, Captain Jonus, Electro-Proton Bomb, Paige Tico, 
 **Upgrades with two or more types (found from each upgrade's types, so new ones join automatically)** (possible match) — APPROVED, on the site
 
 - [x] 35 cards: Admiral Ozzel (Command / Crew), Asajj Ventress (Command / Crew), Azmorigan (Command / Crew), B6 Blade Wing Prototype (Command / Title), Calibrated Laser Targeting (Configuration / Modification), Captain Needa (Command / Crew), Carlist Rieekan (Command / Crew), Combat Boarding Tube (Command / Configuration), Corsair Crew (Team / Gunner), Deuterium Power Cells (Tech / Modification), Drill Beak (Hardpoint / Cargo), Drop-Seat Bay (Modification / Payload), Electro-Chaff Missiles (Missile / Payload), Electro-Proton Bomb (Payload / Modification), Energy-Shell Charges (Missile / Modification), Enhanced Jamming Suite (Configuration / Tech), Enhanced Propulsion (Hardpoint / Cargo), Gauntlet (Title / Modification), General Grievous (Command / Crew), Ghost Company (Crew / Gunner), Havoc (Title / Crew), Hondo Ohnaka (Command / Crew), Jan Dodonna (Command / Crew), Mar Tuuk (Command / Crew), Nightbrother (Title / Modification), Proton Cannon Battery (Hardpoint / Cargo), Punishing One (Title / Crew), Raymus Antilles (Command / Crew), Riff Tamson (Command / Crew), Sabine Wren (Command / Crew), Stalwart Captain (Command / Crew), Strategic Commander (Command / Crew), Wartime Loadout (Configuration / Modification), Wolfpack (Crew / Gunner), Zealous Captain (Command / Crew)
+
+## rr-71: A maximum on the number of dice rolled is applied after every effect that adds or removes dice, whatever order they were used in.
+
+> **Q:** If an effect applies a maximum to the number of dice rolled (e.g. Seventh Fleet Gunner [{gunner}] or Predictive Shot [{forcepower}]) and another effect instructs it to roll additional dice in excess of this maximum, does the order in which the effects were applied matter?
+>
+> **A:** No. Once an effect sets a maximum number of dice that can be rolled (“roll 1 additional die, to a maximum of X” or “the defender cannot roll more than X defense dice”), that maximum is applied at Step 2a: Roll Attack Dice or Step 2b: Roll Defense Dice (see Attack) after all effects that cause the ship to roll additional or fewer dice have been applied.
+
+Already named: Predictive Shot, Seventh Fleet Gunner
+
+**Sets a maximum number of dice to roll** (strong match) — APPROVED, on the site
+
+- [x] **Burst Laser Turret** (Turret): Attack: Spend 1 {charge}. You may spend 1 {charge} to roll 1 additional attack die to a maximum of 3.
+- [x] **Gar Saxon** (Gunner): While you perform the {lock} action, you can only choose an object in your {frontarc} or {reararc}. While you perform a primary attack, if the defender is in your {frontarc} or {reararc}, you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.
+- [x] **Tycho Celchu (BoE)** (RZ-1 A-wing): While you are disarmed, you can still perform {missile} attacks. When you perform a {missile} attack while disarmed, roll a maximum of 4 dice.
+- [x] **Xg-1 Assault Configuration** (Configuration): While you have exactly 1 disarm token, you can still perform {cannon} attacks. While you perform a {cannon} attack while disarmed, roll a maximum of 3 attack dice.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
@@ -282,7 +297,7 @@ Already named: Seasoned Navigator
 **Triggers on revealing a maneuver of a certain color (Hera Syndulla is listed above)** (strong match) — APPROVED, on the site
 
 - [x] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
-- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more …
+- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more stress tokens, flip this card. Almec, Maul's Puppet After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a {calculate} or {focus} action on its action bar, even while stressed.
 
 ## rr-84: When changes to a revealed maneuver's speed, difficulty or bearing apply (Reveal Dial vs Execute Maneuver), and that changing a maneuver without setting the dial doesn't change the revealed maneuver.
 
@@ -307,30 +322,30 @@ Already named: BB Astromech, Damaged Engine, Elusive, Hera Syndulla, L3-37, L3-3
 
 - [x] **Broken Horn** (Title): If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.
 - [x] **Maneuver-Assist MGK-300** (Configuration): Reduce the difficulty of your 3 straight ({straight}) and bank ({bankleft} or {bankright}) maneuvers.
-- [x] **Modified for Organics** (Droid Tri-fighter, Vulture-class Droid Fighter): This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [{bankleft} or {bankright}] maneuvers. Increase the difficulty of your speed 3 turn [{turnleft} or {turnright…
-- [x] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire …
+- [x] **Modified for Organics** (Droid Tri-fighter, Vulture-class Droid Fighter): This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [{bankleft} or {bankright}] maneuvers. Increase the difficulty of your speed 3 turn [{turnleft} or {turnright}] maneuvers.
+- [x] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a {cannon} or {missile} attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.
 - [x] **Unhinged Astromech** (Astromech): Decrease the difficulty of your speed 3 basic maneuvers [{turnleft}, {bankleft}, {straight}, {bankright}, {turnright}].
 - [x] **L3-37** (Customized YT-1300 Light Freighter): If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
 - [x] **L3-37** (Escape Craft): If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
-- [x] **L3-37** (Crew): While you defend, you may spend 1 {charge}. If you do, the attacker must reroll all attack dice. If this {charge} is inactive, decrease the difficulty of your bank [{bankleft} and {bankright}] maneuvers. This upgrade'…
+- [x] **L3-37** (Crew): While you defend, you may spend 1 {charge}. If you do, the attacker must reroll all attack dice. If this {charge} is inactive, decrease the difficulty of your bank [{bankleft} and {bankright}] maneuvers. This upgrade's {charge} cannot be recovered.
 - [x] **R0 Astromech** (Astromech): After you reveal a basic maneuver, you may reduce its difficulty. If you do, after the Check Difficulty step, gain 1 strain token.
-- [x] **Starboard Thrusters** (Modification): After you reveal a turn [{turnleft}] or Segnor's Loop [{sloopleft}] maneuver, you may spend 1 {charge}. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [{sloopleft}], gain …
+- [x] **Starboard Thrusters** (Modification): After you reveal a turn [{turnleft}] or Segnor's Loop [{sloopleft}] maneuver, you may spend 1 {charge}. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [{sloopleft}], gain 1 strain token.
 - [x] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
 
 **Executes a different maneuver than the one revealed, without setting the dial** (strong match) — APPROVED, on the site
 
 - [x] **Countess Ryad** (TIE/d Defender): While you would execute a {straight} maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a {kturn} maneuver instead.
-- [x] **Keo Venzee** (RZ-1 A-wing): If you have no active {force}, after you reveal a bank [{bankleft} or {bankright}] or turn [{turnleft} or {turnright}] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a s…
-- [x] **Winged Reversal** (Gauntlet Fighter): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] …
-- [x] **Winged Reversal** (Configuration): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] …
-- [x] **Repulsorlift Stabilizers** (Configuration): Inactive: Setup: Equip this side faceup. Reduce the difficulty of your straight ({straight}) maneuvers. After you fully execute a maneuver, you may flip this card. Active: After you reveal a bank ({bankleft} or {bankr…
-- [x] **Sickening Maneuver** (Condition): You can execute red maneuvers even while stressed. After you reveal a bank [{bankleft} or {bankright}] or turn [{turnleft} or {turnright}] maneuver, you must gain 1 strain and execute the maneuver as a sideslip. After…
+- [x] **Keo Venzee** (RZ-1 A-wing): If you have no active {force}, after you reveal a bank [{bankleft} or {bankright}] or turn [{turnleft} or {turnright}] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 {force}.
+- [x] **Winged Reversal** (Gauntlet Fighter): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] maneuver in the same direction instead.
+- [x] **Winged Reversal** (Configuration): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] maneuver in the same direction instead.
+- [x] **Repulsorlift Stabilizers** (Configuration): Inactive: Setup: Equip this side faceup. Reduce the difficulty of your straight ({straight}) maneuvers. After you fully execute a maneuver, you may flip this card. Active: After you reveal a bank ({bankleft} or {bankright}) or turn ({turnleft} or {turnright}), you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card.
+- [x] **Sickening Maneuver** (Condition): You can execute red maneuvers even while stressed. After you reveal a bank [{bankleft} or {bankright}] or turn [{turnleft} or {turnright}] maneuver, you must gain 1 strain and execute the maneuver as a sideslip. After you reveal a straight [{straight}] maneuver, you must execute that maneuver as a red koiogran turn [{kturn}]. After you execute a maneuver, remove this condition.
 - [x] **“Slider”** (Clone Z-95 Headhunter): When you reveal a [2 {bankleft}] or [2 {bankright}] maneuver, you may spend 2 {charge} to execute it as a sideslip.
-- [x] **Tractor Technicians** (Team): During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 {energy}. If you do, while that ship executes its maneu…
+- [x] **Tractor Technicians** (Team): During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 {energy}. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.
 
 **Treats purple maneuvers as red** (possible match) — APPROVED, on the site
 
-- [x] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute pur…
+- [x] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute purple maneuvers, they treat those maneuvers as red instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 {hit}/{crit} damage to cancel 1 matching result.
 
 ## rr-68: A revealed maneuver's difficulty, speed and bearing are its printed ones: effects that change the difficulty don't change what's checked.
 
@@ -362,25 +377,25 @@ Already named: Cova Nell, Leia Organa, R4 Astromech
 - [x] **Hera Syndulla** (VCX-100 Light Freighter): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
 - [x] **Hera Syndulla** (Attack Shuttle): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
 - [x] **Ello Asty** (T-70 X-wing): After you reveal a red Tallon Roll [{trollleft} or {trollright}] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.
-- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more …
+- [x] **Prime Minister Almec** (Crew): Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more stress tokens, flip this card. Almec, Maul's Puppet After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a {calculate} or {focus} action on its action bar, even while stressed.
 
 **Changes maneuver difficulty (the other side of this ruling)** (possible match) — APPROVED, on the site
 
 - [x] **Nien Nunb** (Crew): Decrease the difficulty of your bank maneuvers ({bankleft} and {bankright}).
 - [x] **Damaged Engine** (Damage Card): Increase the difficulty of your turn maneuvers ({turnleft} and {turnright})
-- [x] **L3-37** (Crew): Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attacker must reroll all attack dice. L3-37's Programming: If you are not shielded, decrease the difficulty of your bank ({bankle…
+- [x] **L3-37** (Crew): Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attacker must reroll all attack dice. L3-37's Programming: If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
 - [x] **L3-37's Programming** (Configuration): If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
 - [x] **L3-37** (Customized YT-1300 Light Freighter): If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
 - [x] **L3-37** (Escape Craft): If you are not shielded, decrease the difficulty of your bank ({bankleft} and {bankright}) maneuvers.
-- [x] **L3-37** (Crew): While you defend, you may spend 1 {charge}. If you do, the attacker must reroll all attack dice. If this {charge} is inactive, decrease the difficulty of your bank [{bankleft} and {bankright}] maneuvers. This upgrade'…
+- [x] **L3-37** (Crew): While you defend, you may spend 1 {charge}. If you do, the attacker must reroll all attack dice. If this {charge} is inactive, decrease the difficulty of your bank [{bankleft} and {bankright}] maneuvers. This upgrade's {charge} cannot be recovered.
 - [x] **Broken Horn** (Title): If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.
 - [x] **Maneuver-Assist MGK-300** (Configuration): Reduce the difficulty of your 3 straight ({straight}) and bank ({bankleft} or {bankright}) maneuvers.
-- [x] **Modified for Organics** (Droid Tri-fighter, Vulture-class Droid Fighter): This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [{bankleft} or {bankright}] maneuvers. Increase the difficulty of your speed 3 turn [{turnleft} or {turnright…
-- [x] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire …
+- [x] **Modified for Organics** (Droid Tri-fighter, Vulture-class Droid Fighter): This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [{bankleft} or {bankright}] maneuvers. Increase the difficulty of your speed 3 turn [{turnleft} or {turnright}] maneuvers.
+- [x] **TIE Defender Elite** (Configuration): Decrease the difficulty of your turn ({turnleft} or {turnright}) maneuvers. Increase the difficulty of your Koiogran Turn ({kturn}) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a {cannon} or {missile} attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.
 - [x] **Unhinged Astromech** (Astromech): Decrease the difficulty of your speed 3 basic maneuvers [{turnleft}, {bankleft}, {straight}, {bankright}, {turnright}].
 - [x] **R0 Astromech** (Astromech): After you reveal a basic maneuver, you may reduce its difficulty. If you do, after the Check Difficulty step, gain 1 strain token.
-- [x] **Repulsorlift Stabilizers** (Configuration): Inactive: Setup: Equip this side faceup. Reduce the difficulty of your straight ({straight}) maneuvers. After you fully execute a maneuver, you may flip this card. Active: After you reveal a bank ({bankleft} or {bankr…
-- [x] **Starboard Thrusters** (Modification): After you reveal a turn [{turnleft}] or Segnor's Loop [{sloopleft}] maneuver, you may spend 1 {charge}. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [{sloopleft}], gain …
+- [x] **Repulsorlift Stabilizers** (Configuration): Inactive: Setup: Equip this side faceup. Reduce the difficulty of your straight ({straight}) maneuvers. After you fully execute a maneuver, you may flip this card. Active: After you reveal a bank ({bankleft} or {bankright}) or turn ({turnleft} or {turnright}), you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card.
+- [x] **Starboard Thrusters** (Modification): After you reveal a turn [{turnleft}] or Segnor's Loop [{sloopleft}] maneuver, you may spend 1 {charge}. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [{sloopleft}], gain 1 strain token.
 
 ## rr-37: Flipping a dial faceup is not revealing it.
 
@@ -399,7 +414,7 @@ Already named: Informant, Listening Device
 **Looks at a ship's dial (added in review: the same ruling applies)** (strong match) — APPROVED, on the site
 
 - [x] **Sense** (Force Power): During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 {force}, you may choose a ship at range 0-3 instead.
-- [x] **Cassian Andor** (Crew): During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to a…
+- [x] **Cassian Andor** (Crew): During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to another maneuver.
 - [x] **Phlac-Arphocc Prototype** (Droid Tri-fighter): During the System Phase, you may spend your lock on a ship to look at that ship's dial.
 
 ## rr-25: Purple maneuvers can't have their difficulty changed, but can be treated as another color.
@@ -412,7 +427,7 @@ Already named: none
 
 **Treats purple maneuvers as red** (strong match) — APPROVED, on the site
 
-- [x] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute pur…
+- [x] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute purple maneuvers, they treat those maneuvers as red instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 {hit}/{crit} damage to cancel 1 matching result.
 
 ## Looked at but not suggested
 
@@ -424,4 +439,5 @@ Already named: none
 - Wedge Antilles, Zuckuss, Seventh Fleet Gunner, Outmaneuver: Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)
 - Captain Jostero, Chewbacca, General Grievous, Riff Tamson, Targeting Battery: Give a bonus attack, but not right after an attack (rr-101)
 - Agent Terex, Cikatro Vizago, Jabba the Hutt, Guild Bounty Hunter, Jessika Pava, Joy Rekkoff, Tomax Bren, “Knack”, Rotating Cannons, Spare Parts Canisters: Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)
+- Bomblet, Proximity Mine, Electro-Proton Bomb, Tracking Torpedoes, Heroic Sacrifice, Lando Calrissian: Roll a set number of dice outside an attack, with no maximum (rr-71)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
