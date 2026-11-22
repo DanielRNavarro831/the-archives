@@ -55,16 +55,16 @@ Already named: Seasoned Navigator
 
 Already named: BB Astromech, Damaged Engine, Elusive, Hera Syndulla, L3-37, L3-37's Programming, Leia Organa, Nien Nunb, R4 Astromech, Ric Olié, Seasoned Navigator
 
-**Sets a dial to a different maneuver after it's revealed** (strong match) — SKIPPED
+**Sets a dial to a different maneuver after it's revealed** (strong match) — APPROVED, on the site
 
-- [-] **Saesee Tiin** (Delta-7 Aethersprite): After a friendly ship at range 0-2 reveals its dial, you may spend 1 {force}. If you do, set its dial to another maneuver of the same speed and difficulty.
-- [-] **Saesee Tiin** (Delta-7b Aethersprite): After a friendly ship at range 0-2 reveals its dial, you may spend 1 {force}. If you do, set its dial to another maneuver of the same speed and difficulty.
-- [-] **Captain Needa** (Command / Crew): After a friendly ship at range 0-4 reveals its dial, you may spend 1 {charge}. If you do, it sets its dial to another maneuver of the same difficulty and speed.
-- [-] **Strategic Commander** (Command / Crew): After a friendly ship at range 0-4 reveals its dial, you may spend 1 {charge}. If you do, it sets its dial to another maneuver of the same difficulty and speed.
-- [-] **Hera Syndulla** (VCX-100 Light Freighter): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
-- [-] **Kaydel Connix** (Crew): After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its' difficulty.
-- [-] **R2-A6** (Astromech): After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.
-- [-] **Slave I** (Title): After you reveal a turn ({turnleft} or {turnright}) or bank ({bankleft} or {bankright}) maneuver you may set your dial to the maneuver of the same speed and bearing in the other direction.
+- [x] **Saesee Tiin** (Delta-7 Aethersprite): After a friendly ship at range 0-2 reveals its dial, you may spend 1 {force}. If you do, set its dial to another maneuver of the same speed and difficulty.
+- [x] **Saesee Tiin** (Delta-7b Aethersprite): After a friendly ship at range 0-2 reveals its dial, you may spend 1 {force}. If you do, set its dial to another maneuver of the same speed and difficulty.
+- [x] **Captain Needa** (Command / Crew): After a friendly ship at range 0-4 reveals its dial, you may spend 1 {charge}. If you do, it sets its dial to another maneuver of the same difficulty and speed.
+- [x] **Strategic Commander** (Command / Crew): After a friendly ship at range 0-4 reveals its dial, you may spend 1 {charge}. If you do, it sets its dial to another maneuver of the same difficulty and speed.
+- [x] **Hera Syndulla** (VCX-100 Light Freighter): After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.
+- [x] **Kaydel Connix** (Crew): After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its' difficulty.
+- [x] **R2-A6** (Astromech): After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.
+- [x] **Slave I** (Title): After you reveal a turn ({turnleft} or {turnright}) or bank ({bankleft} or {bankright}) maneuver you may set your dial to the maneuver of the same speed and bearing in the other direction.
 
 **Increases or decreases a maneuver's difficulty** (strong match) — APPROVED, on the site
 

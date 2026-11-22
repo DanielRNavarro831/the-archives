@@ -18,7 +18,7 @@
   "rr-84": {
    "mechanic": "When changes to a revealed maneuver's speed, difficulty or bearing apply (Reveal Dial vs Execute Maneuver), and that changing a maneuver without setting the dial doesn't change the revealed maneuver.",
    "groups": [
-    {"why": "Sets a dial to a different maneuver after it's revealed", "strength": "strong", "status": "rejected",
+    {"why": "Sets a dial to a different maneuver after it's revealed", "strength": "strong", "status": "approved",
      "cards": ["saesee-tiin-delta-7-aethersprite", "saesee-tiin-delta-7b-aethersprite-delta-7b", "captain-needa-command", "strategic-commander-command",
                "hera-syndulla-vcx-100-light-freighter-vcx-100", "kaydel-connix-crew", "r2-a6-astromech", "slave-i-title"]},
     {"why": "Increases or decreases a maneuver's difficulty", "strength": "strong", "status": "approved",
