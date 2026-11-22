@@ -234,6 +234,9 @@
   // standard-loadout upgrades: the pilots whose loadout includes them (pilot "standardUpgrades" lists YASB names)
   const LOADOUT_PILOTS = {};
   DB.cards.forEach((p) => (p.standardUpgrades || []).forEach((k) => (LOADOUT_PILOTS[k] = LOADOUT_PILOTS[k] || []).push(p)));
+  // and the other way: a loadout's upgrade names -> the upgrade cards (an upgrade wins over a pilot of the same name)
+  const UPGRADE_BY_YASB = {};
+  DB.cards.forEach((c) => { if (c.yasbKey && (!UPGRADE_BY_YASB[c.yasbKey] || c.type === "Upgrade")) UPGRADE_BY_YASB[c.yasbKey] = c; });
 
   function cardTypeLine(c) {
     const bits = [c.type];
@@ -496,7 +499,8 @@
                  : `<div class="cardtext missing">${c.flavor ? "This card has no ability text." : "Card text isn't in the Archives yet."}</div>`}
             ${c.flavor ? `<p class="flavor">${esc(c.flavor)}</p>` : ""}
             <dl>
-              ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map(esc).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}
+              ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map((k) => UPGRADE_BY_YASB[k]
+                  ? `<a href="#/card/${UPGRADE_BY_YASB[k].id}">${esc(k)}</a>` : esc(k)).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}
               ${shipOnly(c) || c.restriction ? `<dt>Restriction</dt><dd>${esc([shipOnly(c), c.restriction].filter(Boolean).join(", "))}</dd>` : ""}
               ${c.type === "Upgrade" && c.loadout && (LOADOUT_PILOTS[c.yasbKey] || []).length
                 ? `<dt>Comes with</dt><dd>${LOADOUT_PILOTS[c.yasbKey].map((p) => `<a href="#/card/${p.id}">${esc(p.name)}</a> <span class="muted">(${esc(p.ship || "")})</span>`).join(", ")}</dd>` : ""}
