@@ -442,6 +442,18 @@ Already named: Lieutenant Sai
 - [x] **General Hux** (Crew): While you perform a white {coordinate} action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.
 - [x] **General Hux** (Crew): While you perform a white {coordinate} action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.
 
+## rr-92: When an effect has an enemy ship perform an action, that ship's controller chooses the action.
+
+> **Q:** When an effect such as Hondo Ohnaka ({crew}) coordinates an enemy ship, who chooses the action that ship performs?
+>
+> **A:** The controller of the coordinated ship chooses the action.
+
+Already named: Hondo Ohnaka
+
+**Lets an enemy ship perform an action** (strong match) — APPROVED, on the site
+
+- [x] **Hondo Ohnaka** (Firespray-class Patrol Craft): Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -629,4 +641,5 @@ Already named: none
 - "Breach", Dirk Ullodin, “Odd Ball”, Fennec Shand: Acquire a lock after a maneuver, which isn't an action (rr-30)
 - “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
 - Advanced SLAM, Dauntless, Grand Inquisitor, Poe Dameron, Poe Dameron, Poe Dameron (EoD), Baze Malbus, Daredevil, Droid Crew, Flight-Assist Astromech, Independent Calculations, Larma D'Acy: Only treat a white action as red, so a red or purple action never comes up (rr-59)
+- Ahsoka Tano, Airen Cracken, Lando Calrissian, Kit Fisto, Jake Farrell: Let a friendly ship perform an action: its controller is already the same player (rr-92; many cards like these)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

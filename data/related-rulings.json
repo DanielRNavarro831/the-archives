@@ -166,6 +166,13 @@
      "cards": ["battle-meditation-force-power", "general-hux-crew", "general-hux-crew-eod"]}
    ]
   },
+  "rr-92": {
+   "mechanic": "When an effect has an enemy ship perform an action, that ship's controller chooses the action.",
+   "groups": [
+    {"why": "Lets an enemy ship perform an action", "strength": "strong", "status": "approved",
+     "cards": ["hondo-ohnaka-firespray-class-patrol-craft"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -240,6 +247,7 @@
   "breach-tie-se-bomber, dirk-ullodin-fang-fighter, odd-ball-btl-b-y-wing-y-wing, fennec-shand-crew": "Acquire a lock after a maneuver, which isn't an action (rr-30)",
   "night-beast-tie-ln-fighter, night-beast-tie-ln-fighter-ssp": "Grant a {focus} action, which an ionized ship can still perform (rr-30)",
   "advanced-slam-modification, dauntless-title, grand-inquisitor-crew, poe-dameron-t-70-x-wing, poe-dameron-t-70-x-wing-hoh, poe-dameron-t-70-x-wing-eod, baze-malbus-crew, daredevil-talent, droid-crew-team, flight-assist-astromech-astromech, independent-calculations, larma-dacy-crew": "Only treat a white action as red, so a red or purple action never comes up (rr-59)",
+  "ahsoka-tano-delta-7-aethersprite, airen-cracken-z-95-af4-headhunter, lando-calrissian-modified-yt-1300-light-freighter, kit-fisto-crew, jake-farrell-rz-1-a-wing": "Let a friendly ship perform an action: its controller is already the same player (rr-92; many cards like these)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
