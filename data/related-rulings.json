@@ -57,7 +57,7 @@
   "rr-25": {
    "mechanic": "Purple maneuvers can't have their difficulty changed, but can be treated as another color.",
    "groups": [
-    {"why": "Treats purple maneuvers as red", "strength": "strong", "cards": ["jedi-commander-command"]}
+    {"why": "Treats purple maneuvers as red", "strength": "strong", "status": "approved", "cards": ["jedi-commander-command"]}
    ]
   }
  },

@@ -173,9 +173,9 @@ Already named: Informant, Listening Device
 
 Already named: none
 
-**Treats purple maneuvers as red** (strong match)
+**Treats purple maneuvers as red** (strong match) — APPROVED, on the site
 
-- [ ] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute pur…
+- [x] **Jedi Commander** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card. Play Side: While your wingmates execute pur…
 
 ## Looked at but not suggested
 
