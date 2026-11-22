@@ -517,6 +517,10 @@ def related_group_cards(group, cards):
             mine = {a["arc"] for a in (c.get("stats") or {}).get("attacks", [])}
             if c.get("type") == "Pilot" and mine and mine <= arcs and mine - {"bullseyearc"} and c["id"] not in ids:
                 ids.append(c["id"])
+    if (group.get("match") or {}).get("upgradeWithTypes"):
+        need = group["match"]["upgradeWithTypes"]       # e.g. 2: upgrades with two or more different types
+        ids += [c["id"] for c in cards.values() if c.get("type") == "Upgrade"
+                and len(set(c.get("slot") or [])) >= need and c["id"] not in ids]
     return ids
 
 

@@ -43,13 +43,15 @@ def main():
         out += [f"## {rid}: {e['mechanic']}", "",
                 f"> **Q:** {r['q']}", ">", f"> **A:** {' '.join(r['a'])}", "",
                 f"Already named: {named}", ""]
+        if e.get("onHold"):
+            out += [f"**ON HOLD:** {e['onHold']}", ""]
         for g in e["groups"]:
             status = {"approved": " — APPROVED, on the site", "rejected": " — SKIPPED"}.get(g.get("status"), "")
             out += [f"**{g['why']}** ({g['strength']} match){status}", ""]
             box = {"approved": "[x]", "rejected": "[-]"}.get(g.get("status"), "[ ]")
             ids = related_group_cards(g, cards)
             if g.get("match"):
-                out.append(f"- {box} {len(ids)} pilots: " + ", ".join(sorted({f'{cards[i]["name"]} ({cards[i].get("ship")})' for i in ids})))
+                out.append(f"- {box} {len(ids)} cards: " + ", ".join(sorted({f'{cards[i]["name"]} ({cards[i].get("ship") or " / ".join(cards[i].get("slot") or [])})' for i in ids})))
                 total += len(ids)
             for i in ([] if g.get("match") else ids):
                 c = cards[i]

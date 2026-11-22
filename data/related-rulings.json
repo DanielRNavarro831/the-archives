@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc). See docs/related-rulings-review.md.",
+ "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2} for every upgrade with two or more types. See docs/related-rulings-review.md.",
  "rulings": {
   "rr-1": {
    "mechanic": "A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.",
@@ -55,6 +55,35 @@
                "trident-title", "han-solo-crew-resistance", "riff-tamson-command"]},
     {"why": "Gives a ship two different tokens at once (left out in review)", "strength": "possible", "status": "rejected",
      "cards": ["satine-kryze-crew", "k-2so-crew", "feedback-array-illicit", "todo-360-crew-aad"]}
+   ]
+  },
+  "rr-101": {
+   "onHold": "Waiting on the rules team (Nov 21, 2026): nothing here is linked until they answer.",
+   "mechanic": "\"While you perform an attack\" effects end when the attack ends: the Aftermath step isn't part of the attack, so a bonus attack made then isn't affected by them.",
+   "groups": [
+    {"why": "Has an effect that lasts \"during this attack\"", "strength": "strong",
+     "cards": ["4-lom-crew", "moff-gideon-tie-ln-fighter", "os-1-arsenal-loadout-configuration"]},
+    {"why": "Gives a bonus attack after an attack or after defending (in the Aftermath step)", "strength": "strong",
+     "cards": ["wrath-tie-wi-whisper-modified-interceptor", "advanced-fire-control", "tie-defender-elite-configuration", "bistan-gunner", "boba-fett-firespray-class-patrol-craft-aad",
+               "bossk-gunner", "captain-yorr-tie-d-defender-boe", "darth-maul-sith-infiltrator", "dedicated-gunners-gunner-eod", "dengar-jumpmaster-5000", "dengar-jumpmaster-5000-aad",
+               "ezra-bridger-gunner", "ghost-company-crew", "ig-88b-aggressor-assault-fighter", "locked-and-loaded", "major-vynder-alpha-class-star-wing-ssl", "migs-mayfeld-gunner",
+               "mist-hunter-title-aad", "special-forces-gunner-gunner", "stabilized-s-foils-configuration", "stealth-gambit-talent-sl", "veteran-tail-gunner-gunner",
+               "veteran-turret-gunner-gunner", "double-edge-tie-ag-aggressor", "airen-cracken-gunner-boe", "bodica-venj-fang-fighter", "cluster-missiles-missile",
+               "flight-leader-ubbel-tie-rb-heavy", "nien-nunb-command-epic", "saturation-rockets-missile-sl", "tor-phun-fang-fighter", "youd-better-mean-business"]}
+   ]
+  },
+  "rr-87": {
+   "mechanic": "An ability that refers to an upgrade type also works with upgrades that have that type plus another one (but slots granted like Weapon Hardpoint's don't work this way).",
+   "groups": [
+    {"why": "Refers to an equipped upgrade of a type that some multi-type upgrades share ({missile}, {payload}, {modification})", "strength": "strong", "status": "approved",
+     "cards": ["heavy-weapon-turret", "heavy-weapon-turret-eod", "ordnance-team-team", "ordnance-tubes-hardpoint", "theta-4-tie-sf-fighter-eod", "nix-jerd-crew-eod",
+               "parting-gift-talent", "parting-gift-talent-boe", "intuitive-interface", "lin-gaava-tie-fo-fighter"]},
+    {"why": "Refers to an equipped {configuration} upgrade (left out in review: no multi-type configuration can go on an X-wing)", "strength": "strong", "status": "rejected",
+     "cards": ["backwards-tailslide-talent", "kullbee-sperado-t-65-x-wing", "temmin-wexley-t-70-x-wing-hoh"]},
+    {"why": "Grants a special upgrade slot, like Weapon Hardpoint", "strength": "strong",
+     "cards": ["versatile-frame"]},
+    {"why": "Upgrades with two or more types (found from each upgrade's types, so new ones join automatically)", "strength": "possible",
+     "match": {"upgradeWithTypes": 2}, "cards": []}
    ]
   },
   "rr-69": {
@@ -124,6 +153,8 @@
   "clan-wren-volunteer-fang-fighter, sarco-plank-quadrijet-transfer-spacetug": "Check the maneuver you executed, not the revealed one",
   "adaptive-ailerons, controlled-ailerons, thrawn-crew-epic": "Trigger before a dial is revealed",
   "wedge-antilles-t-65-x-wing, zuckuss-g-1a-starfighter, seventh-fleet-gunner-gunner, outmaneuver-talent": "Roll more or fewer dice, but don't trigger before or after a roll (and many cards like these)",
+  "captain-jostero-kihraxz-fighter, chewbacca-scavenged-yt-1300-resistance, general-grievous-command-command, riff-tamson-command, targeting-battery-hardpoint": "Give a bonus attack, but not right after an attack (rr-101)",
+  "agent-terex-xi-class-light-shuttle, cikatro-vizago-crew, jabba-the-hutt-crew, guild-bounty-hunter-st-70-assault-ship, jessika-pava-t-70-x-wing, joy-rekkoff-fang-fighter, tomax-bren-tie-sa-bomber, knack-clone-z-95-headhunter, rotating-cannons, spare-parts-canisters-modification": "Refer to {illicit}, {astromech}, {torpedo}, {talent} or {cannon} upgrades: no upgrade has one of those types plus another (rr-87)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
