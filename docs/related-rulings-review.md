@@ -538,6 +538,43 @@ Already named: Edon Kappehl, Paige Tico, “Deathfire”, “Genius”
 - [x] **Bomblet Generator** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Bomblet with the [1 {straight}] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 {charge}.
 - [x] **Electro-Proton Bomb** (Payload / Modification): Bomb During the System Phase, you may spend 1 {charge} to drop an Electro-Proton Bomb with the [1 {straight}] template. Then place 1 fuse marker on that device. This card's {charge} cannot be recovered.
 
+## rr-104: Thermal Detonators are dropped one at a time, so each one is its own instance of dropping a device: "after you drop a device" abilities trigger for each.
+
+> **Q:** If a ship equipped with Thermal Detonators ({payload}) chooses to drop two Thermal Detonators, does this count as one or two instances of dropping devices?
+>
+> **A:** Unlike Cluster Mines ({payload}), Thermal Detonators are dropped one at a time, and each Thermal Detonator dropped counts as a single instance of dropping a device. This means that: • After Paige Tico (MG-100 Starfortress) drops each Thermal Detonator, she may spend 1 {charge} to drop one additional Thermal Detonator. As she has only one charge, this normally means she can drop a maximum of 3 Thermal Detonators. • After a ship with Paige Tico ({crew}) is destroyed, that ship may drop one Thermal Detonator. • Abilities that trigger after dropping a device trigger after each Thermal Detonator is dropped. In terms of sequence, the first Thermal Detonator is dropped, any abilities that trigger from this (such as Deathrain [TIE/ ca Punisher] or Delayed Fuses [{modification}]) are added to the queue and resolve, and then the second Thermal Detonator is dropped, and any abilities that trigger from this are added to the queue and resolved. • Trajectory Simulator ({sensor}) can be used for up to one Thermal Detonator, but as the two devices must be dropped (or launched) with different templates, both cannot be launched this way.
+
+Already named: Cluster Mines, Delayed Fuses, Paige Tico, Thermal Detonators, Trajectory Simulator, “Deathrain”
+
+**Triggers after you drop or launch a device** (strong match) — APPROVED, on the site
+
+- [x] **Cad Bane** (Crew): After you drop or launch a device, you may perform a red {boost} action.
+- [x] **Swift Approach** (Talent): During the System Phase, after you drop or launch a device, you may perform a white {barrelroll} or {boost} action, even while stressed.
+
+**Triggers after you drop or launch a device (left out in review: these ships can't drop more than 1 device in a round)** (strong match) — SKIPPED
+
+- [-] **Captain Jonus (TBE)** (TIE/sa Bomber): After you drop or launch a device, gain an evade token.
+- [-] **Scimitar 3 (BoE)** (TIE/sa Bomber): After you drop a bomb, you may spend 1 {charge} to perform a {boost} action.
+
+**Changes the template or placement of a device you drop (used for each Thermal Detonator separately)** (possible match)
+
+- [ ] **Finch Dallow** (MG-100 StarFortress): Before you would drop a bomb, you may place it in the play area touching you instead.
+- [ ] **Finch Dallow (EoD)** (MG-100 StarFortress): If you would drop a device using a {straight} template and you are not stressed, you may gain 1 stress token to use a [{bankleft} or {bankright}] template of the same speed instead.
+- [ ] **Gyro-Cockpit** (A/SF-01 B-wing): After you gain a stress token, you may spend 2 {charge} to gain an evade token. When you drop a device, you may spend 1 {charge} to set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
+- [ ] **Modular Bombing Magazine** (MG-100 StarFortress): When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your {leftarc} or {rightarc}.
+- [ ] **Emon Azzameen** (Firespray-class Patrol Craft): If you would drop a device using a [1 {straight}] template, you may use the [3 {turnleft}], [3 {straight}], or [3 {turnright}] template instead.
+- [ ] **Nimble Bomber** (TIE/sa Bomber): If you would drop a device using a {straight} template, you may use a {bankleft} or {bankright} template of the same speed instead.
+- [ ] **Skilled Bombardier** (Gunner): If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.
+- [ ] **Sol Sixxa** (Scurrg H-6 Bomber): If you would drop a device using a [1 {straight}] template, you may drop it using any speed 1 template instead.
+- [ ] **Bombardment Drone** (Hyena-class Droid Bomber): If you would drop a device, you may launch that device instead, using the same template.
+- [ ] **Constable Zuvio** (Quadrijet Transfer Spacetug): If you would drop a device, you may launch it using a [1 {straight}] template instead.
+
+**Drops one bomb after an attack or when destroyed, like Paige Tico (Crew)** (possible match)
+
+- [ ] **Paige Tico** (Gunner): While you have exactly 1 disarm token, you can still perform {singleturretarc} attacks. After you perform an attack, you may drop a bomb or rotate your {singleturretarc} indicator.
+- [ ] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [ ] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
