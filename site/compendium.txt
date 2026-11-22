@@ -1992,6 +1992,10 @@ CONTENTS
       A: No, it will not skip its perform action step.
          The effect of skipping your perform action step is triggered by ending your maneuver on an obstacle. Pattern Analyzer triggers while a ship is executing a red maneuver, meaning that the ship has not yet ended its maneuver, so using the action granted by Pattern Analyzer to reposition away from the obstacle will prevent you from suffering that effect. However, you will still suffer all the other effects of moving through or overlapping that obstacle.
 
+93.31  RULING [None vNone, p. None, X-Wing: The Miniatures Game Discord › Multiple Tactical Scramblers]  Cards: Tactical Scrambler
+      Q: If you have 2 friendly ships with Tactical Scrambler between you and the attacking ship do you roll two extra defense dice? I know that doesn't work for two obstacles, but this says: “While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.” And there will be two cases of you.
+      A: Yes, you'd roll 1 extra for each tactical scrambler obstructing the attack
+
 ========================================================================
 §94  OBSTRUCTED
 ========================================================================

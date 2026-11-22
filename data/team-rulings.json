@@ -42,6 +42,28 @@
     "targeting-matrix-modification",
     "targeting-matrix-modification-boe"
    ]
+  },
+  {
+   "id": "discord-2",
+   "team": "XWA Rules Team",
+   "via": "X-Wing: The Miniatures Game Discord",
+   "url": "https://discord.com/channels/627648261456527371/627662130086412292/1568447563923857469",
+   "date": "Nov 6, 2026",
+   "topic": "Multiple Tactical Scramblers",
+   "q": "If you have 2 friendly ships with Tactical Scrambler between you and the attacking ship do you roll two extra defense dice? I know that doesn't work for two obstacles, but this says: “While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.” And there will be two cases of you.",
+   "a": [
+    "Yes, you'd roll 1 extra for each tactical scrambler obstructing the attack"
+   ],
+   "answeredBy": [
+    {
+     "name": "Maui",
+     "role": "XWA Rules Lead",
+     "date": "Nov 6, 2026, 7:10 PM"
+    }
+   ],
+   "cards": [
+    "tactical-scrambler-modification"
+   ]
   }
  ]
 }

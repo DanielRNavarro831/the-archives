@@ -606,5 +606,9 @@
  "discord-1": {
   "section": "Focus",
   "why": "terms"
+ },
+ "discord-2": {
+  "section": "Obstacles",
+  "why": "terms"
  }
 }
