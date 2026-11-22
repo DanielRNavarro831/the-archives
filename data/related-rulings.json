@@ -146,6 +146,17 @@
      "cards": ["darth-vader-tie-advanced-x1", "darth-vader-tie-advanced-x1-ssp"]}
    ]
   },
+  "rr-59": {
+   "mechanic": "\"Treating it as red\" can be used on a red action but not a purple one, because purple is more difficult than red.",
+   "groups": [
+    {"why": "Lets a ship perform an action of any color, treating it as red", "strength": "strong", "status": "approved",
+     "cards": ["enduring-talent", "zorii-bliss-bta-nr2-y-wing", "zorii-bliss-bta-nr2-w-y-wing-wartime"]},
+    {"why": "Lets a ship perform an action of any color, treating it as red (left out in review)", "strength": "strong", "status": "rejected",
+     "cards": ["general-hux-crew", "general-hux-crew-eod", "thrawn-crew"]},
+    {"why": "Treats an action as white (the same question for a red or purple action)", "strength": "possible", "status": "rejected",
+     "cards": ["echo-tie-ph-phantom-ssl", "kickback-v-19-torrent-starfighter-soc", "maul-gauntlet-fighter", "debris-gambit-talent", "evasion-sequence-7-modification-soc"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -219,6 +230,7 @@
   "corran-horn-e-wing, electro-proton-bomb, intercept-booster-configuration, its-the-resistance": "Give a disarm token as a result, not as a cost (rr-65)",
   "breach-tie-se-bomber, dirk-ullodin-fang-fighter, odd-ball-btl-b-y-wing-y-wing, fennec-shand-crew": "Acquire a lock after a maneuver, which isn't an action (rr-30)",
   "night-beast-tie-ln-fighter, night-beast-tie-ln-fighter-ssp": "Grant a {focus} action, which an ionized ship can still perform (rr-30)",
+  "advanced-slam-modification, dauntless-title, grand-inquisitor-crew, poe-dameron-t-70-x-wing, poe-dameron-t-70-x-wing-hoh, poe-dameron-t-70-x-wing-eod, baze-malbus-crew, daredevil-talent, droid-crew-team, flight-assist-astromech-astromech, independent-calculations, larma-dacy-crew": "Only treat a white action as red, so a red or purple action never comes up (rr-59)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

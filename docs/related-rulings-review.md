@@ -394,6 +394,34 @@ Already named: Fine-Tuned Controls, Full Throttle
 - [x] **Darth Vader** (TIE Advanced x1): After you perform an action, you may spend 1 {force} to perform an action.
 - [x] **Darth Vader (SSP)** (TIE Advanced x1): After you perform an action, you may spend 1 {force} to perform an action.
 
+## rr-59: "Treating it as red" can be used on a red action but not a purple one, because purple is more difficult than red.
+
+> **Q:** Airen Cracken [Z-95 Headhunter]’s pilot ability allows another friendly ship to “perform an action, treating it as red.” Can that ship choose to perform a red action, treating it as red? Can it choose to perform a purple action, treating it as red?
+>
+> **A:** It can perform a red action, treating it as red. However, because purple is more difficult than red, it cannot perform a purple action, treating it as red.
+
+Already named: Airen Cracken
+
+**Lets a ship perform an action of any color, treating it as red** (strong match) — APPROVED, on the site
+
+- [x] **Enduring** (Talent): While you defend, if you are not in the attacker's {bullseyearc}, {crit} results are neutralized before {hit} results. After you suffer {crit} damage, you may perform a {calculate} or {focus} action on your action bar, even while stressed, treating that action as red.
+- [x] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+- [x] **Zorii Bliss** (BTA-NR2-W Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+
+**Lets a ship perform an action of any color, treating it as red (left out in review)** (strong match) — SKIPPED
+
+- [-] **General Hux** (Crew): While you perform a white {coordinate} action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.
+- [-] **General Hux** (Crew): While you perform a white {coordinate} action, if you choose a friendly TIE/fo or TIE/sf, you may treat that action as red. If you do, coordinate up to 2 additional friendly TIE/fo or TIE/sf, and each ship you coordinate must perform the same action, treating it as red.
+- [-] **Thrawn** (Crew): While you perform a {jam} or {coordinate} action, you may spend 1 {charge} to increase the range requirement for that action by 1. After you perform a {jam} or {coordinate} action, you may spend 2 {charge} to perform a {jam} or {coordinate} action, treating it as red.
+
+**Treats an action as white (the same question for a red or purple action)** (possible match) — SKIPPED
+
+- [-] **“Echo” (SL)** (TIE/ph Phantom): After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 {charge} to perform the same action, treating it as white.
+- [-] **“Kickback” (SoC)** (V-19 Torrent Starfighter): After you perform a {barrelroll} action, you may perform a red {lock} action. If you do, before you perform the {lock} action, you may gain 1 strain to treat it as white.
+- [-] **Maul** (Gauntlet Fighter): While you perform a {coordinate} action, if you choose a ship with an initiative lower than yours, you may spend 1 {force}. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.
+- [-] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
+- [-] **Evasion Sequence 7** (Modification): While you perform a red {evade} action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -580,4 +608,5 @@ Already named: none
 - Corran Horn, Electro-Proton Bomb, Intercept Booster, It's the Resistance: Give a disarm token as a result, not as a cost (rr-65)
 - "Breach", Dirk Ullodin, “Odd Ball”, Fennec Shand: Acquire a lock after a maneuver, which isn't an action (rr-30)
 - “Night Beast”, “Night Beast” (SSP): Grant a {focus} action, which an ionized ship can still perform (rr-30)
+- Advanced SLAM, Dauntless, Grand Inquisitor, Poe Dameron, Poe Dameron, Poe Dameron (EoD), Baze Malbus, Daredevil, Droid Crew, Flight-Assist Astromech, Independent Calculations, Larma D'Acy: Only treat a white action as red, so a red or purple action never comes up (rr-59)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
