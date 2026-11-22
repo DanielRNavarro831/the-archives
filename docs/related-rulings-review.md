@@ -1090,6 +1090,23 @@ Already named: Boba Fett
 
 - [-] **Tel Trevura** (JumpMaster 5000): If you would be destroyed, you may spend 1 {charge}. If you do, discard all of your damage cards, suffer 5 {hit} damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.
 
+## rr-6: A special slot like Weapon Hardpoint's holds one upgrade that exactly matches one of its icons, so it can't hold an upgrade that needs more than one slot.
+
+> **Q:** Can a T-70 X-wing or M-3A Interceptor equip an upgrade that requires multiple slots with its Weapon Hardpoint ship ability (such as Barrage Rockets [{missile}{missile}])?
+>
+> **A:** No. The Weapon Hardpoint ship ability grants a ship a special upgrade slot that can be used only for one upgrade that exactly matches one of the specified icons ({cannon}, {torpedo}, and {missile}, in this case).
+
+Already named: Barrage Rockets, Weapon Hardpoint
+
+**Grants a special upgrade slot, like Weapon Hardpoint** (strong match) — APPROVED, on the site
+
+- [x] **Versatile Frame** (Clone Z-95 Headhunter): You can equip 1 {torpedo} or {missile} upgrade. While your revealed maneuver is blue, add white {boost} to your action bar.
+
+**A {missile} upgrade that needs a second slot, so it can't go in that special slot** (possible match) — APPROVED, on the site
+
+- [x] **Electro-Chaff Missiles** (Missile / Payload): During the System Phase, you may spend 1 {charge} from this card to launch 1 electro-chaff cloud using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Then place 1 fuse marker on it. This card's {charge} cannot be recovered..
+- [x] **Energy-Shell Charges** (Missile / Modification): Attack ({calculate}): Spend 1 {charge}. While you perform this attack, you may spend 1 calculate token to change 1 {focus} result to a {crit} result. Action: Reload this card.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -1287,4 +1304,5 @@ Already named: none
 - Dalan Oberos, Suralinda Javos, Ciena Ree, Luke Skywalker: Pay a cost to rotate, which doesn't fail like a barrel roll or boost (rr-32)
 - Dedicated, Kanan Jarrus: Already say "another" ship or "you or" a ship, so the ruling adds nothing (rr-3)
 - Aayla Secura, Haor Chall Prototype, Stealth Gambit, “Tucker”: Check an enemy ship in your arc (rr-3)
+- Wartime Loadout: Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

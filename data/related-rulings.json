@@ -423,6 +423,15 @@
      "cards": ["tel-trevura-jumpmaster-5000"]}
    ]
   },
+  "rr-6": {
+   "mechanic": "A special slot like Weapon Hardpoint's holds one upgrade that exactly matches one of its icons, so it can't hold an upgrade that needs more than one slot.",
+   "groups": [
+    {"why": "Grants a special upgrade slot, like Weapon Hardpoint", "strength": "strong", "status": "approved",
+     "cards": ["versatile-frame"]},
+    {"why": "A {missile} upgrade that needs a second slot, so it can't go in that special slot", "strength": "possible", "status": "approved",
+     "cards": ["electro-chaff-missiles-missile", "energy-shell-charges-missile"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -507,6 +516,7 @@
   "dalan-oberos-starviper-class-attack-platform-starviper, suralinda-javos-rz-2-a-wing, ciena-ree-crew, luke-skywalker-gunner": "Pay a cost to rotate, which doesn't fail like a barrel roll or boost (rr-32)",
   "dedicated-talent, kanan-jarrus-hwk-290-light-freighter-hwk-290": "Already say \"another\" ship or \"you or\" a ship, so the ruling adds nothing (rr-3)",
   "aayla-secura-crew, haor-chall-prototype-vulture-class-droid-fighter, stealth-gambit-talent-sl, tucker-v-19-torrent-starfighter": "Check an enemy ship in your arc (rr-3)",
+  "wartime-loadout-configuration": "Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
