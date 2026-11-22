@@ -950,12 +950,9 @@ Already named: Anakin Skywalker
 
 - [x] **Soontir Fel (BoE)** (TIE/in Interceptor): After you perform an attack, you may spend 1 {charge} and gain 1 deplete token to boost or barrel roll.
 
-**Boosts as an ability, not an action (it can still fail)** (possible match) — APPROVED, on the site
-
-- [x] **Attack Speed** (Talent): After you fully execute a [3 {straight}] or [4 {straight}] maneuver, you may perform a boost using the [1 {straight}] template. (This is not an action).
-
 **Boosts as an ability with no cost (left out in review: nothing to pay, so the ruling doesn't matter)** (possible match) — SKIPPED
 
+- [-] **Attack Speed** (Talent): After you fully execute a [3 {straight}] or [4 {straight}] maneuver, you may perform a boost using the [1 {straight}] template. (This is not an action).
 - [-] **Controlled Ailerons** (TIE Reaper): Before you reveal your dial, if you are not stressed, you may boost.
 - [-] **Adaptive Ailerons** (TIE/sk Striker): Before you reveal your dial, if you are not stressed, you must boost.
 

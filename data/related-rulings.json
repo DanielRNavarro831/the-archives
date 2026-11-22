@@ -367,10 +367,8 @@
    "groups": [
     {"why": "Pays a cost to barrel roll or boost as an ability, not an action, like Anakin Skywalker", "strength": "strong", "status": "approved",
      "cards": ["soontir-fel-tie-in-interceptor-boe"]},
-    {"why": "Boosts as an ability, not an action (it can still fail)", "strength": "possible", "status": "approved",
-     "cards": ["attack-speed-talent-boy"]},
     {"why": "Boosts as an ability with no cost (left out in review: nothing to pay, so the ruling doesn't matter)", "strength": "possible", "status": "rejected",
-     "cards": ["controlled-ailerons", "adaptive-ailerons"]}
+     "cards": ["attack-speed-talent-boy", "controlled-ailerons", "adaptive-ailerons"]}
    ]
   },
   "rr-69": {
