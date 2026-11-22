@@ -47,13 +47,16 @@ Already named: Fearless, Outmaneuver, Punishing One
 - [-] **Wedge Antilles** (RZ-1 A-wing): While you perform a primary attack, if the defender is in your {frontarc}, the defender rolls 1 fewer defense die.
 - [-] **Gavin Darklighter** (E-wing): While a friendly ship performs an attack, if the defender is in your {frontarc}, the attacker may change 1 {hit} result to a {crit} result.
 
-**Gives, moves or changes a {frontarc} attack** (possible match)
+**Gives, moves or changes a {frontarc} attack** (possible match) — APPROVED, on the site
 
-- [ ] **Moldy Crow** (Title): Gain a {frontarc} primary weapon with a value of “3.” During the End Phase, do not remove up to 2 focus tokens.
-- [ ] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the Syste…
-- [ ] **Krassis Trelix** (Firespray-class Patrol Craft): You can perform {frontarc} special attacks from your {reararc}. While you perform a special attack, you may reroll 1 attack die.
-- [ ] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
-- [ ] **Kavil** (BTL-A4 Y-wing): While you perform a non-{frontarc} attack, roll 1 additional attack die.
+- [x] **Kavil** (BTL-A4 Y-wing): While you perform a non-{frontarc} attack, roll 1 additional attack die.
+
+**Gives, moves or changes a {frontarc} attack (left out in review)** (possible match) — SKIPPED
+
+- [-] **Moldy Crow** (Title): Gain a {frontarc} primary weapon with a value of “3.” During the End Phase, do not remove up to 2 focus tokens.
+- [-] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the Syste…
+- [-] **Krassis Trelix** (Firespray-class Patrol Craft): You can perform {frontarc} special attacks from your {reararc}. While you perform a special attack, you may reroll 1 attack die.
+- [-] **First Order Ordnance Tech** (Gunner): After you gain a disarm token, gain 1 calculate token. While you have exactly 1 disarm token, you can still perform {frontarc} primary attacks.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 

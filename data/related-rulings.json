@@ -17,8 +17,10 @@
      "cards": ["dgs-047-hmp-droid-gunship", "gar-saxon-gunner-gunner"]},
     {"why": "Checks whether the defender is in your {frontarc} (left out in review)", "strength": "possible", "status": "rejected",
      "cards": ["wedge-antilles-rz-1-a-wing-a-wing", "gavin-darklighter-e-wing"]},
-    {"why": "Gives, moves or changes a {frontarc} attack", "strength": "possible",
-     "cards": ["moldy-crow-title", "vectored-cannons-configuration-rz-1", "krassis-trelix-firespray-class-patrol-craft", "first-order-ordnance-tech-gunner-eod", "kavil-btl-a4-y-wing"]}
+    {"why": "Gives, moves or changes a {frontarc} attack", "strength": "possible", "status": "approved",
+     "cards": ["kavil-btl-a4-y-wing"]},
+    {"why": "Gives, moves or changes a {frontarc} attack (left out in review)", "strength": "possible", "status": "rejected",
+     "cards": ["moldy-crow-title", "vectored-cannons-configuration-rz-1", "krassis-trelix-firespray-class-patrol-craft", "first-order-ordnance-tech-gunner-eod"]}
    ]
   },
   "rr-69": {
