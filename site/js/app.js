@@ -229,10 +229,17 @@
     return `<a class="report-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`;
   }
 
+  /** Ships an upgrade can be equipped to (titles, configurations, ship-specific upgrades), e.g. "VT-49 Decimator only". */
+  const shipOnly = (c) => (c.type === "Upgrade" && c.restrictedShip ? `${[].concat(c.restrictedShip).join(" or ")} only` : "");
+  // standard-loadout upgrades: the pilots whose loadout includes them (pilot "standardUpgrades" lists YASB names)
+  const LOADOUT_PILOTS = {};
+  DB.cards.forEach((p) => (p.standardUpgrades || []).forEach((k) => (LOADOUT_PILOTS[k] = LOADOUT_PILOTS[k] || []).push(p)));
+
   function cardTypeLine(c) {
     const bits = [c.type];
     if (c.slot && c.slot.length) bits.push(c.slot.join(" / "));
     if (c.ship) bits.push(c.ship);
+    if (shipOnly(c)) bits.push(shipOnly(c));
     return bits.join(" — ");
   }
 
@@ -490,7 +497,9 @@
             ${c.flavor ? `<p class="flavor">${esc(c.flavor)}</p>` : ""}
             <dl>
               ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map(esc).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}
-              ${c.restriction ? `<dt>Restriction</dt><dd>${esc(c.restriction)}</dd>` : ""}
+              ${shipOnly(c) || c.restriction ? `<dt>Restriction</dt><dd>${esc([shipOnly(c), c.restriction].filter(Boolean).join(", "))}</dd>` : ""}
+              ${c.type === "Upgrade" && c.loadout && (LOADOUT_PILOTS[c.yasbKey] || []).length
+                ? `<dt>Comes with</dt><dd>${LOADOUT_PILOTS[c.yasbKey].map((p) => `<a href="#/card/${p.id}">${esc(p.name)}</a> <span class="muted">(${esc(p.ship || "")})</span>`).join(", ")}</dd>` : ""}
               ${c.keywords ? `<dt>Keywords</dt><dd>${[].concat(c.keywords).map(esc).join(", ")}</dd>` : ""}
               ${c.solitary ? `<dt>Rule</dt><dd>Solitary</dd>` : ""}${c.standardized ? `<dt>Rule</dt><dd>Standardized</dd>` : ""}
               ${c.damageType ? `<dt>Trait</dt><dd>${esc(c.damageType)} · ${esc(c.quantity)} in the deck</dd>` : ""}
