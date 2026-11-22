@@ -577,20 +577,52 @@ def pair_remotes(cards, rulings, cur):
         rem["type"] = "Remote"
         rem.setdefault("madeBy", []).append(maker_id)
         maker.setdefault("makes", []).append(rem_id)
-        for a, b in ((rem, maker), (maker, rem)):
-            for rid in list(a.get("rulings", [])):
-                r = by_rid.get(rid)
-                if r and b["id"] not in r["cards"]:
-                    r["cards"] = sorted(r["cards"] + [b["id"]])
-                if rid not in b["rulings"]:
-                    b["rulings"].append(rid)
-        for a, b in ((rem, maker), (maker, rem)):
-            for rid in a.get("relatedRulings", []):
-                if rid not in b["rulings"] and rid not in b.setdefault("relatedRulings", []):
-                    b["relatedRulings"].append(rid)
+        share_rulings(rem, maker, by_rid)
         pairs += 1
     if pairs:
         print(f"Remotes paired with their upgrades: {pairs}")
+
+
+def share_rulings(x, y, by_rid):
+    """Every ruling (named or related) on either card also shows on the other."""
+    for a, b in ((x, y), (y, x)):
+        for rid in list(a.get("rulings", [])):
+            r = by_rid.get(rid)
+            if r and b["id"] not in r["cards"]:
+                r["cards"] = sorted(r["cards"] + [b["id"]])
+            if rid not in b["rulings"]:
+                b["rulings"].append(rid)
+    for a, b in ((x, y), (y, x)):
+        for rid in a.get("relatedRulings", []):
+            if rid not in b["rulings"] and rid not in b.setdefault("relatedRulings", []):
+                b["relatedRulings"].append(rid)
+
+
+def pair_conditions(cards, rulings, cur):
+    """Each condition card links to the cards that assign it ("assigns" / "assignedBy"), found from card text
+    that names the condition (cards-curated.json "conditionAssigners" adds or, with "-id", removes cards).
+    Like remotes, a ruling on either side shows on both."""
+    by_rid = {r["id"]: r for r in rulings}
+    norm = lambda t: norm_quotes(t or "").lower()
+    fix = cur.get("conditionAssigners", {})
+    found = 0
+    for cond in [c for c in cards.values() if c.get("type") == "Condition"]:
+        name = norm(cond["name"])
+        ids = [c["id"] for c in cards.values() if c is not cond and c.get("type") != "Condition"
+               and re.search(r"(?<![\w])" + re.escape(name) + r"(?![\w])", norm(c.get("text")))]
+        for extra in fix.get(cond["id"], []):
+            if extra.startswith("-"):
+                ids = [i for i in ids if i != extra[1:]]
+            elif extra in cards and extra not in ids:
+                ids.append(extra)
+        if not ids:
+            print(f"Condition with no card that assigns it: {cond['name']} ({cond['id']})")
+        for i in ids:
+            cond.setdefault("assignedBy", []).append(i)
+            cards[i].setdefault("assigns", []).append(cond["id"])
+            share_rulings(cond, cards[i], by_rid)
+            found += 1
+    print(f"Conditions linked to the cards that assign them: {found} links")
 
 
 def add_related_rulings(cards, rulings):
@@ -856,6 +888,7 @@ def main():
 
     # 6d. remotes and the upgrades that create them share their rulings (cards-curated.json "remoteMakers")
     pair_remotes(cards, rulings, cur)
+    pair_conditions(cards, rulings, cur)
 
     # 7. the numbered Compendium (also writes site/compendium.txt)
     comp = compendium.build([r for r in rules if not r.get("epic")], [r for r in rulings if not r.get("epic")],

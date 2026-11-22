@@ -361,3 +361,10 @@ Add a line there for any new device or obstacle.
 Remotes keep their own card, since they have one in the game. "remoteMakers" pairs each remote with the upgrade
 that creates it: both pages link to each other ("Creates" / "Created by"), the remote shows as type Remote, and
 any ruling or related ruling on one also shows on the other.
+
+## Conditions
+
+Each condition card links to the cards that assign it ("Assigned by" / "Assigns"). The build finds them from
+card text that names the condition; `data/cards-curated.json` "conditionAssigners" can add a card id to a
+condition or remove one with "-card-id". Like remotes, a ruling or related ruling on either side shows on both.
+The build lists any condition no card assigns (right now only YASB's empty "Zero Condition").

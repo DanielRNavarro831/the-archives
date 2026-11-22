@@ -512,6 +512,8 @@
             <dl>
               ${c.standardUpgrades ? `<dt>Loadout</dt><dd>${c.standardUpgrades.map((k) => UPGRADE_BY_YASB[k]
                   ? `<a href="#/card/${UPGRADE_BY_YASB[k].id}">${esc(k)}</a>` : esc(k)).join(", ")}</dd>` : c.loadout ? `<dt>Loadout</dt><dd>${esc(c.loadout)}</dd>` : ""}
+              ${(c.assigns || []).filter((i) => CARDS[i]).length ? `<dt>Assigns</dt><dd>${c.assigns.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(condition)</span>`).join(", ")}</dd>` : ""}
+              ${(c.assignedBy || []).filter((i) => CARDS[i]).length ? `<dt>Assigned by</dt><dd>${c.assignedBy.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(${esc(cardTypeLine(CARDS[i]).replace(/^(Upgrade|Pilot) — /, ""))})</span>`).join(", ")}</dd>` : ""}
               ${(c.makes || []).filter((i) => CARDS[i]).length ? `<dt>Creates</dt><dd>${c.makes.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(remote)</span>`).join(", ")}</dd>` : ""}
               ${(c.madeBy || []).filter((i) => CARDS[i]).length ? `<dt>Created by</dt><dd>${c.madeBy.filter((i) => CARDS[i]).map((i) => `<a href="#/card/${i}">${esc(CARDS[i].name)}</a> <span class="muted">(${esc(cardTypeLine(CARDS[i]).replace(/^Upgrade — /, ""))})</span>`).join(", ")}</dd>` : ""}
               ${shipOnly(c) || c.restriction ? `<dt>Restriction</dt><dd>${esc([shipOnly(c), c.restriction].filter(Boolean).join(", "))}</dd>` : ""}
