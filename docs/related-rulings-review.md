@@ -938,6 +938,27 @@ Already named: none
 
 - [x] **Yoda** (Crew): After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 {force}. If you do, that ship recovers 1 {force}.
 
+## rr-32: A barrel roll or boost from an ability (not an action) can fail like the action, but its cost is a cost to resolve the effect, so it isn't paid if the move fails.
+
+> **Q:** If Anakin Skywalker [Naboo Royal N-1] uses his pilot ability to barrel roll (note that this is not a {barrelroll} action) and fails, must he still spend the {force}?
+>
+> **A:** No. A barrel roll can fail in the same manner as a {barrelroll} action, but because Anakin's ability is not an action, the {force} cost is a cost to resolve the effect (which Anakin cannot do in the case of failure) rather than a cost to attempt the action.
+
+Already named: Anakin Skywalker
+
+**Pays a cost to barrel roll or boost as an ability, not an action, like Anakin Skywalker** (strong match) — APPROVED, on the site
+
+- [x] **Soontir Fel (BoE)** (TIE/in Interceptor): After you perform an attack, you may spend 1 {charge} and gain 1 deplete token to boost or barrel roll.
+
+**Boosts as an ability, not an action (it can still fail)** (possible match) — APPROVED, on the site
+
+- [x] **Attack Speed** (Talent): After you fully execute a [3 {straight}] or [4 {straight}] maneuver, you may perform a boost using the [1 {straight}] template. (This is not an action).
+
+**Boosts as an ability with no cost (left out in review: nothing to pay, so the ruling doesn't matter)** (possible match) — SKIPPED
+
+- [-] **Controlled Ailerons** (TIE Reaper): Before you reveal your dial, if you are not stressed, you may boost.
+- [-] **Adaptive Ailerons** (TIE/sk Striker): Before you reveal your dial, if you are not stressed, you must boost.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -1132,4 +1153,5 @@ Already named: none
 - Leema Kai: Checks enemy ships' arcs, not remotes' (rr-16)
 - Predator, “Howlrunner”, Fire-Control System, Elusive, Lone Wolf: Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)
 - Lieutenant Galek, Squad Leader, C-3PO, Berwer Kret, IG-88A, TA-175, Mar Tuuk: Check what's on a ship's action bar but don't have it perform that action (rr-27)
+- Dalan Oberos, Suralinda Javos, Ciena Ree, Luke Skywalker: Pay a cost to rotate, which doesn't fail like a barrel roll or boost (rr-32)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

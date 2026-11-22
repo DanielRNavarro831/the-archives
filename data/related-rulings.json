@@ -362,6 +362,17 @@
      "cards": ["yoda-crew"]}
    ]
   },
+  "rr-32": {
+   "mechanic": "A barrel roll or boost from an ability (not an action) can fail like the action, but its cost is a cost to resolve the effect, so it isn't paid if the move fails.",
+   "groups": [
+    {"why": "Pays a cost to barrel roll or boost as an ability, not an action, like Anakin Skywalker", "strength": "strong", "status": "approved",
+     "cards": ["soontir-fel-tie-in-interceptor-boe"]},
+    {"why": "Boosts as an ability, not an action (it can still fail)", "strength": "possible", "status": "approved",
+     "cards": ["attack-speed-talent-boy"]},
+    {"why": "Boosts as an ability with no cost (left out in review: nothing to pay, so the ruling doesn't matter)", "strength": "possible", "status": "rejected",
+     "cards": ["controlled-ailerons", "adaptive-ailerons"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -443,6 +454,7 @@
   "leema-kai-btl-a4-y-wing": "Checks enemy ships' arcs, not remotes' (rr-16)",
   "predator-talent, howlrunner-tie-ln-fighter, fire-control-system-sensor, elusive-talent, lone-wolf-talent": "Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)",
   "lieutenant-galek-tie-fo-fighter, squad-leader-talent, c-3po-crew-resistance, berwer-kret-nantex-class-starfighter, ig-88a-aggressor-assault-fighter, ta-175-tactical-relay, mar-tuuk-command": "Check what's on a ship's action bar but don't have it perform that action (rr-27)",
+  "dalan-oberos-starviper-class-attack-platform-starviper, suralinda-javos-rz-2-a-wing, ciena-ree-crew, luke-skywalker-gunner": "Pay a cost to rotate, which doesn't fail like a barrel roll or boost (rr-32)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
