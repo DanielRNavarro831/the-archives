@@ -131,27 +131,30 @@ Already named: Admiral Sloane
 
 - [-] **Without A Trace** (Talent): After you gain a cloak token, you may remove 1 red token. While you are cloaked, enemy ships cannot acquire locks on you.
 
-**Gives a ship two or more tokens at once** (possible match)
+**Gives a ship two or more tokens at once** (possible match) — APPROVED, on the site
 
-- [ ] **"Nightfall"** (TIE/wi Whisper Modified Interceptor): After you fully execute a maneuver or perform a {boost} action, each ship you moved through gains 2 jam tokens.
-- [ ] **4-LOM** (Crew): While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.
-- [ ] **Chopper** (Gauntlet Fighter): At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.
-- [ ] **“Chopper”** (VCX-100 Light Freighter): At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.
-- [ ] **Collected** (Talent): After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.
-- [ ] **Commander Pyre** (Crew): Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die.
-- [ ] **Conner Net** (Condition): Types: Device, Mine After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 {hit} damage and gains 3 ion tokens.
-- [ ] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
-- [ ] **Kad Solus** (Fang Fighter): After you fully execute a red maneuver, gain 2 focus tokens.
-- [ ] **Overtuned Modulators** (Illicit): During the System Phase, if you are not stressed, you may spend 1 {charge} to gain 3 calculate tokens. During the End Phase, if your {charge} is inactive, for each green token you remove, gain 1 strain token.
-- [ ] **Panicked Pilot** (Damage Card): Gain 2 stress tokens. Then repair this card.
-- [ ] **Tor Phun** (Fang Fighter): After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.
-- [ ] **Trident** (Title): After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 {energy}. If you do, it gains 3 tractor tokens.
-- [ ] **Satine Kryze** (Crew): At the start of the Engagement Phase, you may spend 2 {charge}. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus token or to gain 1 disarm token and 1 evade token.
-- [ ] **K-2SO** (Crew): During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate token and 1 stress token.
-- [ ] **Feedback Array** (Illicit): Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 {hit} damage.
-- [ ] **Todo 360** (Crew): During the System Phase, you may spend 1 {charge}. If you do, you may remove 1 stress token to gain 1 strain token and 1 calculate token.
-- [ ] **Han Solo** (Crew): After you perform an {evade} action, gain additional evade tokens equal to the number of enemy ships at range 0-1.
-- [ ] **Riff Tamson** (Command / Crew): During the Engagement Phase, at initiative 5, you may spend 1 {energy} to perform a bonus {hardpoint} attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tok…
+- [x] **"Nightfall"** (TIE/wi Whisper Modified Interceptor): After you fully execute a maneuver or perform a {boost} action, each ship you moved through gains 2 jam tokens.
+- [x] **4-LOM** (Crew): While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.
+- [x] **Chopper** (Gauntlet Fighter): At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.
+- [x] **“Chopper”** (VCX-100 Light Freighter): At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.
+- [x] **Collected** (Talent): After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.
+- [x] **Commander Pyre** (Crew): Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die.
+- [x] **Conner Net** (Condition): Types: Device, Mine After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 {hit} damage and gains 3 ion tokens.
+- [x] **Ion Bomb** (Condition): Types: Device, Bomb At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 {hit} damage.
+- [x] **Kad Solus** (Fang Fighter): After you fully execute a red maneuver, gain 2 focus tokens.
+- [x] **Overtuned Modulators** (Illicit): During the System Phase, if you are not stressed, you may spend 1 {charge} to gain 3 calculate tokens. During the End Phase, if your {charge} is inactive, for each green token you remove, gain 1 strain token.
+- [x] **Panicked Pilot** (Damage Card): Gain 2 stress tokens. Then repair this card.
+- [x] **Tor Phun** (Fang Fighter): After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.
+- [x] **Trident** (Title): After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 {energy}. If you do, it gains 3 tractor tokens.
+- [x] **Han Solo** (Crew): After you perform an {evade} action, gain additional evade tokens equal to the number of enemy ships at range 0-1.
+- [x] **Riff Tamson** (Command / Crew): During the Engagement Phase, at initiative 5, you may spend 1 {energy} to perform a bonus {hardpoint} attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tok…
+
+**Gives a ship two different tokens at once (left out in review)** (possible match) — SKIPPED
+
+- [-] **Satine Kryze** (Crew): At the start of the Engagement Phase, you may spend 2 {charge}. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus token or to gain 1 disarm token and 1 evade token.
+- [-] **K-2SO** (Crew): During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate token and 1 stress token.
+- [-] **Feedback Array** (Illicit): Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 {hit} damage.
+- [-] **Todo 360** (Crew): During the System Phase, you may spend 1 {charge}. If you do, you may remove 1 stress token to gain 1 strain token and 1 calculate token.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
