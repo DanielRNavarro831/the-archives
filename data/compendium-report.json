@@ -610,5 +610,9 @@
  "discord-2": {
   "section": "Obstacles",
   "why": "terms"
+ },
+ "discord-3": {
+  "section": "Coordinate",
+  "why": "terms"
  }
 }

@@ -1036,6 +1036,10 @@ CONTENTS
          Is this considered an action?
       A: No; Hera's ability specifies that she may coordinate a friendly ship. This is different from performing a coordinate action, so she can do it while stressed and it does not count against her limit of 1 coordinate action per round.
 
+32.12  RULING [None vNone, p. None, X-Wing: The Miniatures Game Discord › Colonel Jendon and ST-321]  Cards: Colonel Jendon, ST-321
+      Q: Does Colonel Jendon's ability work with ST-321 coordinate to acquire lock beyond range 3?
+      A: You ignore the range restrictions of acquiring a lock but not the restriction that you must choose an enemy ship at r0-3 of the coordinated ship
+
 ========================================================================
 §33  DAMAGE
 ========================================================================

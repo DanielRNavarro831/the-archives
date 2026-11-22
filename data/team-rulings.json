@@ -64,6 +64,29 @@
    "cards": [
     "tactical-scrambler-modification"
    ]
+  },
+  {
+   "id": "discord-3",
+   "team": "XWA Rules Team",
+   "via": "X-Wing: The Miniatures Game Discord",
+   "url": "https://discord.com/channels/627648261456527371/627662130086412292/1562754340609851506",
+   "date": "Sep 9, 2026",
+   "topic": "Colonel Jendon and ST-321",
+   "q": "Does Colonel Jendon's ability work with ST-321 coordinate to acquire lock beyond range 3?",
+   "a": [
+    "You ignore the range restrictions of acquiring a lock but not the restriction that you must choose an enemy ship at r0-3 of the coordinated ship"
+   ],
+   "answeredBy": [
+    {
+     "name": "Maui",
+     "role": "XWA Rules Lead",
+     "date": "Sep 9, 2026, 4:08 PM"
+    }
+   ],
+   "cards": [
+    "colonel-jendon-lambda-class-t-4a-shuttle",
+    "st-321-title"
+   ]
   }
  ]
 }
