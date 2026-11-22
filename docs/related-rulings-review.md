@@ -1068,6 +1068,28 @@ Already named: Dorsal Turret, Drea Renthal
 - [x] **Torkil Mux** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.
 - [x] **Tápusk** (HWK-290 Light Freighter): During the End Phase, before an enemy ship in your {singleturretarc} recovers 1 recurring {charge} or {force}, you may spend 2 {charge}. If you do, that ship does not recover that {charge} or {force}
 
+## rr-5: A ship that can't be placed where its own effect says (like Boba Fett's) is placed within range 1 of its player's edge instead.
+
+> **Q:** If a ship equipped with Boba Fett [{crew}] cannot be placed at range 0 of an obstacle and beyond range 3 of any enemy ship, what happens?
+>
+> **A:** That ship instead defaults to being placed within range 1 of its player’s board edge.
+
+Already named: Boba Fett
+
+**Starts in reserve and is placed with restrictions, like Boba Fett (Crew)** (strong match) — APPROVED, on the site
+
+- [x] **It's the Resistance** (Condition): Setup: Start in reserve. When you deploy, you are placed within range 1 of any table edge and beyond range 3 of any enemy ship. At the start of the round, if all of the friendly GA-97's {charge} are active, you must deploy. Then remove this card. After the friendly GA-97 is destroyed, you must deploy. Then gain 1 disarm token and remove this card.
+- [x] **Luminous** (Title): Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.
+
+**Places a ship from reserve later in the game, with restrictions** (possible match) — APPROVED, on the site
+
+- [x] **Mar Tuuk** (Command / Crew): Setup: After placing forces, choose 1 friendly wing of ships with {calculate} on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.
+- [x] **Moralo Eval** (YV-666 Light Freighter): If you would flee, you may spend 1 {charge}. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.
+
+**Places a ship from reserve later in the game (left out in review: her text already places her at her player edge)** (possible match) — SKIPPED
+
+- [-] **Tel Trevura** (JumpMaster 5000): If you would be destroyed, you may spend 1 {charge}. If you do, discard all of your damage cards, suffer 5 {hit} damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
