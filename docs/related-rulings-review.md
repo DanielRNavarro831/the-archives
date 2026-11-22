@@ -1008,6 +1008,33 @@ Already named: Veteran Turret Gunner
 - [x] **Special Forces Gunner** (Gunner): While you perform a primary {frontarc} attack, if your {singleturretarc} is in your {frontarc}, you may roll 1 additional attack die. After you perform a primary {frontarc} attack, if your {singleturretarc} is in your {reararc}, you may perform a bonus primary {singleturretarc} attack.
 - [x] **Migs Mayfeld** (Gunner): After you perform a {frontarc} attack, you may perform a {reararc} or {singleturretarc} attack as a bonus attack against a different target with 1 or more red or orange tokens.
 
+## rr-3: A ship isn't in its own firing arc, so "a friendly ship in your arc" never means yourself.
+
+> **Q:** Is a ship in its own firing arc?
+>
+> **A:** No.
+
+Already named: none
+
+**Affects a friendly ship in one of your arcs** (strong match) — APPROVED, on the site
+
+- [x] **Ahsoka Tano** (Gunner): After you execute a maneuver, you may spend 1 {force} and choose a friendly ship at range 1-3 in your firing arc. If you do, it may perform a red {focus} action, even while stressed.
+- [x] **Ahsoka Tano** (Crew): After you fully execute a maneuver, you may spend 1 {force} to choose 1 friendly ship in your {fullreararc} at range 1-2. If you do, that ship may perform a red {focus} action, even while stressed.
+- [x] **DT-798** (Gunner): At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens.
+- [x] **Jan Ors** (HWK-290 Light Freighter): While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.
+- [x] **Kanan Jarrus** (VCX-100 Light Freighter): While a friendly ship in your firing arc defends, you may spend 1 {force}. If you do, the attacker rolls 1 fewer attack die.
+- [x] **Korkie Kryze** (Crew): After a friendly ship in your {fullfrontarc} at range 1-2 becomes the defender, you may transfer 1 green token to it. While a friendly ship in your {fullfrontarc} at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.
+- [x] **Kyle Katarn** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.
+- [x] **L4E-R5** (Astromech): At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.
+- [x] **Savage Opress** (Crew): After a friendly ship in your {frontarc} at range 1-2 gains a stress or strain token, you may spend 1 {force}. If you do, that ship gains 1 focus token.
+- [x] **Shasa Zaro** (BTA-NR2 Y-wing): After you defend, you may choose a friendly ship in your {fullreararc} at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.
+- [x] **Shasa Zaro** (BTA-NR2-W Y-wing): After you defend, you may choose a friendly ship in your {fullreararc} at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.
+- [x] **“Axe”** (V-19 Torrent Starfighter): After you defend or perform an attack, you may choose a friendly ship at range 1-2 in your {leftarc} or {rightarc}. If you do, transfer 1 green token to that ship.
+- [x] **“Jag”** (ARC-170 Starfighter): After a friendly ship at range 1-2 in your {leftarc} or {rightarc} defends, you may acquire a lock on the attacker.
+- [x] **“Jag” (SoC)** (ARC-170 Starfighter): After a friendly ship at range 0-2 in your {leftarc} or {rightarc} performs an attack, if you are not strained, you may acquire a lock on the defender.
+- [x] **“Sinker”** (ARC-170 Starfighter): While a friendly ship at range 1-2 in your {leftarc} or {rightarc} performs a primary attack, it may reroll 1 attack die.
+- [x] **"Hound"** (LAAT/i Gunship): After a friendly small ship in your {singleturretarc} gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -1203,4 +1230,6 @@ Already named: none
 - Predator, “Howlrunner”, Fire-Control System, Elusive, Lone Wolf: Let you reroll up to a number of your own dice (a choice, not a set number) (rr-22; many cards like these)
 - Lieutenant Galek, Squad Leader, C-3PO, Berwer Kret, IG-88A, TA-175, Mar Tuuk: Check what's on a ship's action bar but don't have it perform that action (rr-27)
 - Dalan Oberos, Suralinda Javos, Ciena Ree, Luke Skywalker: Pay a cost to rotate, which doesn't fail like a barrel roll or boost (rr-32)
+- Dedicated, Kanan Jarrus: Already say "another" ship or "you or" a ship, so the ruling adds nothing (rr-3)
+- Aayla Secura, Haor Chall Prototype, Stealth Gambit, “Tucker”: Check an enemy ship in your arc (rr-3)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
