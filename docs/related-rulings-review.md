@@ -689,6 +689,24 @@ Already named: Proximity Mines, Sabine Wren
 - [x] **“Genius”** (Astromech): After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.
 - [x] **“Deathfire” (TBE)** (TIE/sa Bomber): After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 {charge} to drop or launch a bomb using the [3 {straight}] template.
 
+## rr-14: A fused mine that a ship moves through or overlaps loses one fuse marker instead of detonating; it detonates as normal the next time.
+
+> **Q:** How do fuse markers (pg. 11) interact with Mines?
+>
+> **A:** If a ship would move through and/or overlap a fused Mine, one fuse marker is removed from the mine and it does not detonate, even if the ship remains physically on top of the mine after the fuse marker is removed. If a ship is physically on top of a mine that did not detonate because of the effect of a fuse marker, and it moves through and/or overlaps that mine again during a later move, the mine detonates as normal.
+
+Already named: none
+
+**Drops a mine** (strong match) — APPROVED, on the site
+
+- [x] **Proximity Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Proximity Mine using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
+
+**Puts fuse markers on mines** (strong match) — APPROVED, on the site
+
+- [x] **Delayed Fuses** (Modification): After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

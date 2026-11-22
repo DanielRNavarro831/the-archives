@@ -271,6 +271,15 @@
                "parting-gift-talent", "parting-gift-talent-boe", "scimitar-3-tie-sa-bomber-boe", "trajectory-simulator-sensor", "genius-astromech", "deathfire-tie-sa-bomber-tbe"]}
    ]
   },
+  "rr-14": {
+   "mechanic": "A fused mine that a ship moves through or overlaps loses one fuse marker instead of detonating; it detonates as normal the next time.",
+   "groups": [
+    {"why": "Drops a mine", "strength": "strong", "status": "approved",
+     "cards": ["proximity-mines-payload", "cluster-mines-payload", "conner-nets-payload"]},
+    {"why": "Puts fuse markers on mines", "strength": "strong", "status": "approved",
+     "cards": ["delayed-fuses-modification"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
