@@ -89,7 +89,7 @@ The curated file handles everything else:
 | `ignore` | Something in brackets isn't a card. | `"Mine [and overlaps]"` |
 | `errataSlots` | An errata'd upgrade doesn't state its slot. | `"Composure": "Talent"` |
 | `shipAliases` | The document misspells a ship. | `"TIE/ba Inteceptor": "TIE/ba Interceptor"` |
-| `rulingCards` / `rulingCardsRemove` | Manually attach/detach a card to/from a ruling by ruling id (shown in the URL, e.g. `#/ruling/rr-52`). | `"rr-52": ["iden-versio-tie-ln-fighter"]` |
+| `rulingCards` / `rulingCardsRemove` | Manually attach/detach a card to/from a ruling by ruling id (shown in the URL, e.g. `#/ruling/rr-52`). Card ids can be PDF ids or the site's own card ids (as in `#/card/...`), including cards only in the YASB data. | `"rr-52": ["iden-versio-tie-ln-fighter"]` |
 
 Card ids are `name-ship` for pilots and `name-slot` for upgrades, all lowercase with dashes.
 After any change, run `python tools/build_data.py` again.

@@ -63,11 +63,18 @@
  "rulingCards": {
   "rr-52": [
    "iden-versio-tie-ln-fighter"
+  ],
+  "rr-56": [
+   "chopper-astromech-astromech"
   ]
  },
  "rulingCardsRemove": {
   "rr-52": [
    "iden-versio-tie-in-interceptor"
+  ],
+  "rr-56": [
+   "chopper-crew",
+   "chopper-crew-crew"
   ]
  },
  "cards": [

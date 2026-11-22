@@ -689,6 +689,22 @@ def main():
     # 5. full card catalogue + text from YASB (if data/yasb/yasb-cards.json exists)
     pdf_card_count = len(cards)
     cards, yasb_info = yasb_cards.merge(cards, rulings, errata, cur)
+    # card ids in rulingCards / rulingCardsRemove can also be YASB-only cards (e.g. an upgrade no PDF
+    # names): apply those now that the full catalogue is in
+    by_rid = {r["id"]: r for r in rulings}
+    for rid, extra in cur.get("rulingCards", {}).items():
+        r = by_rid.get(rid)
+        for cid in extra if r else []:
+            if cid in cards and cid not in r["cards"]:
+                r["cards"] = sorted(r["cards"] + [cid])
+                cards[cid]["rulings"].append(rid)
+    for rid, drop in cur.get("rulingCardsRemove", {}).items():
+        r = by_rid.get(rid)
+        for cid in drop if r else []:
+            if cid in r["cards"]:
+                r["cards"].remove(cid)
+                if cid in cards and rid in cards[cid]["rulings"]:
+                    cards[cid]["rulings"].remove(rid)
     if yasb_info:
         (ROOT / "data" / "yasb" / "match-report.json").write_text(json.dumps(
             {"pdfCardsWithoutYasbMatch": yasb_info["unmatched"], "matches": yasb_info["remap"]},
