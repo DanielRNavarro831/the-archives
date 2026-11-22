@@ -240,6 +240,13 @@
      "cards": ["cluster-mines-payload", "cluster-mine", "discord-missiles-missile", "buzz-droid-swarm"]}
    ]
   },
+  "rr-18": {
+   "mechanic": "When a Cluster Mine set is dropped onto two or more ships, its owner chooses one ship for each Cluster Mine, then resolves them in any order.",
+   "groups": [
+    {"why": "The Cluster Mine device itself (the ruling names the upgrade that drops it)", "strength": "strong", "status": "approved",
+     "cards": ["cluster-mine"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

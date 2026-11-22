@@ -625,6 +625,18 @@ Already named: Proximity Mines
 - [x] **Discord Missiles** (Missile): At the start of the Engagement Phase, you may spend 1 calculate token and 1 {charge} to launch 1 buzz droid swarm using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. This card's {charge} cannot be recovered.
 - [x] **Buzz Droid Swarm** (Condition): INIT: 0 AGILITY: 1 HULL: 1 Types: Device, Remote System, Activation, and End Phase: No effect. Engagement Phase: When you engage, each enemy ship at range 0 of the buzz droid swarm suffers 1 {crit} damage. Other Rules: After an enemy ship overlaps or moves through a buzz droid swarm, the swarm's controlling player relocates it by aligning the tab to that ship's front or rear guides (this ship is at range 0 of the swarm). The swarm cannot be aligned to a set of the ship's guides if doing so would cause it to overlap an object. If the swarm cannot be placed at a chosen set of guides, its controlling player must align it to the other set of the ship's guides. If it cannot be aligned to the other set, the swarm and the enemy ship that overlapped or moved through it each suffer 1 {hit} damage.
 
+## rr-18: When a Cluster Mine set is dropped onto two or more ships, its owner chooses one ship for each Cluster Mine, then resolves them in any order.
+
+> **Q:** What happens when a set of Cluster Mines are dropped such that two or more ships overlap them?
+>
+> **A:** The owner of the Cluster Mines first chooses one ship to be affected by each of the individual Cluster Mine. Then, in an order of that player's choosing, the dice are rolled to resolve the effect of the detonation on each of those ships.
+
+Already named: Cluster Mines
+
+**The Cluster Mine device itself (the ruling names the upgrade that drops it)** (strong match) — APPROVED, on the site
+
+- [x] **Cluster Mine** (Condition): Types: Device, Mine A Cluster Mine Set consists of 3 individual Cluster Mine devices. When a Cluster Mines set is placed, the center Cluster Mine is placed as normal, then two additional Cluster Mines are placed in the recesses as shown. After a ship overlaps or moves through any individual Cluster Mine, it detonates. Other Cluster Mines in the set that were not overlapped or moved through do not detonate. When each of these devices detonates, that ship rolls 2 attack dice. That ship then suffers 1 {hit}/{crit} damage for each matching result.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
