@@ -583,8 +583,8 @@ def pair_remotes(cards, rulings, cur):
         print(f"Remotes paired with their upgrades: {pairs}")
 
 
-def share_rulings(x, y, by_rid):
-    """Every ruling (named or related) on either card also shows on the other."""
+def share_rulings(x, y, by_rid, related=True):
+    """Every ruling on either card also shows on the other (and their related rulings, unless related=False)."""
     for a, b in ((x, y), (y, x)):
         for rid in list(a.get("rulings", [])):
             r = by_rid.get(rid)
@@ -592,7 +592,7 @@ def share_rulings(x, y, by_rid):
                 r["cards"] = sorted(r["cards"] + [b["id"]])
             if rid not in b["rulings"]:
                 b["rulings"].append(rid)
-    for a, b in ((x, y), (y, x)):
+    for a, b in ((x, y), (y, x)) if related else ():
         for rid in a.get("relatedRulings", []):
             if rid not in b["rulings"] and rid not in b.setdefault("relatedRulings", []):
                 b["relatedRulings"].append(rid)
@@ -601,7 +601,7 @@ def share_rulings(x, y, by_rid):
 def pair_conditions(cards, rulings, cur):
     """Each condition card links to the cards that assign it ("assigns" / "assignedBy"), found from card text
     that names the condition (cards-curated.json "conditionAssigners" adds or, with "-id", removes cards).
-    Like remotes, a ruling on either side shows on both."""
+    A ruling on either side shows on both (related rulings stay on their own card)."""
     by_rid = {r["id"]: r for r in rulings}
     norm = lambda t: norm_quotes(t or "").lower()
     fix = cur.get("conditionAssigners", {})
@@ -620,7 +620,7 @@ def pair_conditions(cards, rulings, cur):
         for i in ids:
             cond.setdefault("assignedBy", []).append(i)
             cards[i].setdefault("assigns", []).append(cond["id"])
-            share_rulings(cond, cards[i], by_rid)
+            share_rulings(cond, cards[i], by_rid, related=False)   # related links are about each card's own text
             found += 1
     print(f"Conditions linked to the cards that assign them: {found} links")
 
