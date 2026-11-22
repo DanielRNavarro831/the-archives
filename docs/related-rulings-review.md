@@ -1107,6 +1107,26 @@ Already named: Barrage Rockets, Weapon Hardpoint
 - [x] **Electro-Chaff Missiles** (Missile / Payload): During the System Phase, you may spend 1 {charge} from this card to launch 1 electro-chaff cloud using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Then place 1 fuse marker on it. This card's {charge} cannot be recovered..
 - [x] **Energy-Shell Charges** (Missile / Modification): Attack ({calculate}): Spend 1 {charge}. While you perform this attack, you may spend 1 calculate token to change 1 {focus} result to a {crit} result. Action: Reload this card.
 
+## rr-7: While locking you must choose another valid object if there is one; a lock only fails when there's no valid object.
+
+> **Q:** While locking, can a player not choose an object?
+>
+> **A:** Yes, but only if there are no valid objects to select. While locking, a player must choose another object at range 0–3 if able. Thus, acquiring a lock can fail if there is no other object at range 0–3, but only fails under this circumstance.
+
+Already named: none
+
+**Changes which objects you can lock, or forces a lock** (strong match) — APPROVED, on the site
+
+- [x] **Colonel Jendon** (Lambda-class T-4a Shuttle): At the start of the Activation Phase, you may spend 1 {charge}. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3 instead of at range 0-3.
+- [x] **Experimental Scanners** (E-wing): You can acquire locks beyond range 3. You cannot acquire locks at range 1.
+- [x] **Experimental Scanners** (Tech): You can acquire locks beyond range 3. You cannot acquire locks at range 1.
+- [x] **Gar Saxon** (Gunner): While you perform the {lock} action, you can only choose an object in your {frontarc} or {reararc}. While you perform a primary attack, if the defender is in your {frontarc} or {reararc}, you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.
+- [x] **Tracking Torpedoes** (Remote): INIT: 0 AGILITY: 3 HULL: 3 Types: Device, Remote System Phase: At this remote's initiative, its controlling player relocates this remote forward using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Activation Phase: No effect. Engagement Phase: At this remote's initiative, if an object on which it has a lock is in its {frontarc} at range 0-1, this remote detonates. End Phase: During the End Phase, if this remote does not have a lock on any object, this remote must acquire a lock on an object in its {frontarc} at range 1-3, if able. Other Rules: After this remote is destroyed, roll 1 attack die. On a {hit} or {crit} result, this remote detonates. When this remote detonates, each ship, remote, and structure at range 0 or in its {frontarc} at range 1 rolls 4 attack dice and suffers 1 damage for each matching {hit} or {crit} result.
+
+**Triggers when you fail an action (added in review: shows when a lock counts as failed)** (strong match) — APPROVED, on the site
+
+- [x] **Composure** (Talent): After you fail an action, if you have no green tokens, you may perform a {focus} action. If you do, you cannot perform additional actions this round.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

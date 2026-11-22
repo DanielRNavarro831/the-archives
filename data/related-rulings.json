@@ -432,6 +432,15 @@
      "cards": ["electro-chaff-missiles-missile", "energy-shell-charges-missile"]}
    ]
   },
+  "rr-7": {
+   "mechanic": "While locking you must choose another valid object if there is one; a lock only fails when there's no valid object.",
+   "groups": [
+    {"why": "Changes which objects you can lock, or forces a lock", "strength": "strong", "status": "approved",
+     "cards": ["colonel-jendon-lambda-class-t-4a-shuttle", "experimental-scanners", "experimental-scanners-tech-eod", "gar-saxon-gunner-gunner", "tracking-torpedoes"]},
+    {"why": "Triggers when you fail an action (added in review: shows when a lock counts as failed)", "strength": "strong", "status": "approved",
+     "cards": ["composure-talent"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
