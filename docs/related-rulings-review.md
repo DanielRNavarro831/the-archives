@@ -1411,6 +1411,23 @@ Already named: Amilyn Holdo
 - [x] **Protectorate Gleb** (Crew): After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.
 - [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
 
+## rr-70: When another ship modifies a ship's dice for it, the other ship is doing the modifying, so Padme Amidala's 1-{focus}-result limit on that ship doesn't stop it.
+
+> **Q:** If a ship is affected by Padmé Amidala’s pilot ability and it modifies 1 of its {focus} results, can Emperor Palpatine [{crew}, Empire]’s ability be used to modify a second {focus} result?
+>
+> **A:** Yes. The ship equipped with Emperor Palpatine (Crew) is modifying that ship’s second focus result, and not that ship itself.
+
+Already named: Emperor Palpatine, Padmé Amidala
+
+**Another ship changes a {focus} result on a friendly ship's attack** (strong match) — APPROVED, on the site
+
+- [x] **Barriss Offee** (Delta-7 Aethersprite): While a friendly ship at range 0-2 performs an attack, if the defender is in its {bullseyearc}, you may spend 1 {force} to change 1 {focus} result to a {hit} result or 1 {hit} result to a {crit} result.
+- [x] **Barriss Offee** (Delta-7b Aethersprite): While a friendly ship at range 0-2 performs an attack, if the defender is in its {bullseyearc}, you may spend 1 {force} to change 1 {focus} result to a {hit} result or 1 {hit} result to a {crit} result.
+
+**Another ship changes one of the attacker's results** (possible match) — APPROVED, on the site
+
+- [x] **TN-3465** (TIE/fo Fighter): While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 {crit} damage to change 1 of the attacker's results to a {crit} result.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

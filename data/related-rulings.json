@@ -634,6 +634,28 @@
     }
    ]
   },
+  "rr-70": {
+   "mechanic": "When another ship modifies a ship's dice for it, the other ship is doing the modifying, so Padme Amidala's 1-{focus}-result limit on that ship doesn't stop it.",
+   "groups": [
+    {
+     "why": "Another ship changes a {focus} result on a friendly ship's attack",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "barriss-offee-delta-7-aethersprite",
+      "barriss-offee-delta-7b-aethersprite-delta-7b"
+     ]
+    },
+    {
+     "why": "Another ship changes one of the attacker's results",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "tn-3465-tie-fo-fighter"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
