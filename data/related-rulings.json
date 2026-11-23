@@ -760,6 +760,44 @@
     }
    ]
   },
+  "rr-79": {
+   "mechanic": "C-3PO's added {evade} comes right after the roll, before the Modify Dice step, so \"after you roll dice\" effects resolve after it.",
+   "groups": [
+    {
+     "why": "\"After you roll dice\" rerolls, like Han Solo",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "lando-calrissian-customized-yt-1300-light-freighter-scum",
+      "lando-calrissian-escape-craft-escape-craft",
+      "lando-calrissian-crew-scum"
+     ]
+    }
+   ]
+  },
+  "rr-81": {
+   "mechanic": "A stationary maneuver is still executing a maneuver, so \"after an enemy ship executes a maneuver\" effects trigger.",
+   "groups": [
+    {
+     "why": "Bonus attack after an enemy ship executes a maneuver, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "underslung-blaster-cannon-cannon"
+     ]
+    },
+    {
+     "why": "Other \"after an enemy ship executes a maneuver\" effects",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "feedback-ping-talent",
+      "heff-tobber-ut-60d-u-wing",
+      "kalani-tactical-relay"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

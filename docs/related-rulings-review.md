@@ -1522,6 +1522,38 @@ Already named: Han Solo
 - [x] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
 - [x] **Lando Calrissian** (Crew): After you roll dice, you may spend 1 green token to reroll up to 2 of your results.
 
+## rr-79: C-3PO's added {evade} comes right after the roll, before the Modify Dice step, so "after you roll dice" effects resolve after it.
+
+> **Q:** How does Han Solo [Rebel, Modified YT-1300]'s ability interact with C-3PO [Rebel, Crew]?
+>
+> **A:** The "if you do and you roll exactly that many evade results..." portion of C-3PO's ability triggers occurs after the dice are rolled, before the Modify Dice step. Thus, Han Solo's effect occurs after C-3PO's effect has been resolved. If using Han Solo after using C-3PO, the added die must be rerolled.
+
+Already named: C-3PO, Han Solo
+
+**"After you roll dice" rerolls, like Han Solo** (possible match) — APPROVED, on the site
+
+- [x] **Lando Calrissian** (Customized YT-1300 Light Freighter): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [x] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [x] **Lando Calrissian** (Crew): After you roll dice, you may spend 1 green token to reroll up to 2 of your results.
+
+## rr-81: A stationary maneuver is still executing a maneuver, so "after an enemy ship executes a maneuver" effects trigger.
+
+> **Q:** If a ship executes a stationary maneuver in arc at range 2 of an enemy ship with Snap Shot equipped (or in the bullseye arc of an enemy ship with Foresight equipped), can the ship with Snap Shot (or Foresight) perform the bonus attack?
+>
+> **A:** Yes.
+
+Already named: Foresight, Snap Shot
+
+**Bonus attack after an enemy ship executes a maneuver, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+
+**Other "after an enemy ship executes a maneuver" effects** (possible match) — APPROVED, on the site
+
+- [x] **Feedback Ping** (Talent): After an enemy ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions.
+- [x] **Heff Tobber** (UT-60D U-wing): After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.
+- [x] **Kalani** (Tactical Relay): After an enemy ship executes a maneuver, if it is in the {bullseyearc} of a friendly ship at range 0-3, you may spend 1 {charge}. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
