@@ -526,6 +526,44 @@
      "cards": ["ablative-plating-modification"]}
    ]
   },
+  "rr-55": {
+   "mechanic": "A failed decloak leaves the cloak token on the ship.",
+   "groups": [
+    {
+     "why": "Can fail a decloak",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "sensor-scramblers-tech"
+     ]
+    }
+   ]
+  },
+  "rr-53": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "Nashtah Pup gains the active and inactive charges the Hound's Tooth had, not its charge limit.",
+   "groups": []
+  },
+  "rr-54": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "Autopilot Drone's ability only triggers when it runs out of charges.",
+   "groups": []
+  },
+  "rr-57": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "Kavil's extra die applies to any attack that isn't a {frontarc} attack, even if the target is in his front arc.",
+   "groups": []
+  },
+  "rr-61": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "Advanced Targeting Computer's lock can be spent later in the attack, but the {hit}-to-{crit} change needs the lock.",
+   "groups": []
+  },
+  "rr-64": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "Listening Device triggers at the initiative of the ship that has the condition.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

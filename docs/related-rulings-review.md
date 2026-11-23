@@ -1294,6 +1294,68 @@ Already named: Iden Versio, Ion Cannon, Tractor Beam
 
 - [x] **Ablative Plating** (Modification): Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 {charge}. If you do, prevent 1 damage.
 
+## rr-55: A failed decloak leaves the cloak token on the ship.
+
+> **Q:** If a ship with Cloaking Device [{illicit}] rolls a focus result and then fails while attempting to decloak, what happens?
+>
+> **A:** The ship does not remove its cloak token.
+
+Already named: Cloaking Device
+
+**Can fail a decloak** (possible match) — SKIPPED
+
+- [-] **Sensor Scramblers** (Tech): Setup: Gain 1 Cloak token. While you are cloaked, other ships cannot acquire locks on you. During the End Phase, if you are cloaked and there is an enemy ship at range 0-3, you must decloak. If you do and that decloak fails, lose 1 cloak token.
+
+## rr-53: Nashtah Pup gains the active and inactive charges the Hound's Tooth had, not its charge limit.
+
+> **Q:** When the Nashtah Pup deploys, does it gain charges equal to the charge limit from the ship card with the Hound’s Tooth?
+>
+> **A:** No, when the Nashtah Pup deploys via emergency deployment, it gains the number of active and inactive charges that the ship with the Hound’s Tooth had before it was destroyed.
+
+Already named: Hound's Tooth, Nashtah Pup
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
+## rr-54: Autopilot Drone's ability only triggers when it runs out of charges.
+
+> **Q:** Does the Autopilot Drone [Escape Craft]’s ability trigger if it is destroyed by another method other than running out of charges?
+>
+> **A:** No.
+
+Already named: Autopilot Drone
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
+## rr-57: Kavil's extra die applies to any attack that isn't a {frontarc} attack, even if the target is in his front arc.
+
+> **Q:** Does Kavil (Scum, BTL-A4 Y-wing) roll an additional attack die when attacking with a turret weapon when the turret arc indicator is set to his front arc?
+>
+> **A:** Yes. Additionally, note that Kavil would roll an additional attack die when performing an attack that specifies bullseye arc, even though the target is also by definition in his front arc.
+
+Already named: Kavil
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
+## rr-61: Advanced Targeting Computer's lock can be spent later in the attack, but the {hit}-to-{crit} change needs the lock.
+
+> **Q:** Can a TIE Advanced x1 that rolled 1 additional die from Advanced Targeting Computer spend the lock later in the attack? If it does, can it change 1 {hit} into a {crit}?
+>
+> **A:** While performing an attack, a TIE Advanced x1 can spend its lock to reroll attack dice after rolling 1 additional die. It can also change 1 {hit} result to a {crit} result and then spend the lock to reroll attack dice. However, note that it cannot change 1 {hit} result to a {crit} result after spending the lock, as it no longer has the defender locked.
+
+Already named: Advanced Targeting Computer
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
+## rr-64: Listening Device triggers at the initiative of the ship that has the condition.
+
+> **Q:** What ship’s initiative does Listening Device condition assigned by Informant [{crew}] trigger at?
+>
+> **A:** Listening Device’s effect triggers at the initiative of the ship that has the condition.
+
+Already named: Informant, Listening Device
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
