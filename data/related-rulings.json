@@ -441,6 +441,17 @@
      "cards": ["composure-talent"]}
    ]
   },
+  "rr-8": {
+   "mechanic": "Extra locks (like R3 Astromech's) must be on different objects, so if two of them end up on the same ship, one breaks.",
+   "groups": [
+    {"why": "Lets you maintain more than one lock, like R3 Astromech", "strength": "strong", "status": "approved",
+     "cards": ["ursa-wren-crew", "redline-tie-ca-punisher", "sensor-experts-team"]},
+    {"why": "Transfers locks between ships, like Captain Kagi", "strength": "strong", "status": "approved",
+     "cards": ["corran-horn-t-65-x-wing-x-wing", "kelrodo-ai-holdout-vulture-class-droid-fighter"]},
+    {"why": "Transfers tokens that can include a lock", "strength": "possible", "status": "approved",
+     "cards": ["amilyn-holdo-crew", "holo-tie-ba-interceptor"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -526,6 +537,7 @@
   "dedicated-talent, kanan-jarrus-hwk-290-light-freighter-hwk-290": "Already say \"another\" ship or \"you or\" a ship, so the ruling adds nothing (rr-3)",
   "aayla-secura-crew, haor-chall-prototype-vulture-class-droid-fighter, stealth-gambit-talent-sl, tucker-v-19-torrent-starfighter": "Check an enemy ship in your arc (rr-3)",
   "wartime-loadout-configuration": "Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)",
+  "cad-bane-rogue-class-starfighter, cad-bane-rogue-class-starfighter-aad": "Transfer non-lock tokens only (rr-8)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }

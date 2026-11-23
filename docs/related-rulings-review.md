@@ -1127,6 +1127,30 @@ Already named: none
 
 - [x] **Composure** (Talent): After you fail an action, if you have no green tokens, you may perform a {focus} action. If you do, you cannot perform additional actions this round.
 
+## rr-8: Extra locks (like R3 Astromech's) must be on different objects, so if two of them end up on the same ship, one breaks.
+
+> **Q:** What happens when two locks from the same ship with an R3 Astromech [{astromech}] are transferred onto a single ship (such as by Captain Kagi’s [Lambda-class Shuttle] pilot ability)?
+>
+> **A:** The R3 Astromech only allows having two locks if they are on different ships, so one of the locks breaks if they are transferred to a single ship.
+
+Already named: Captain Kagi, R3 Astromech
+
+**Lets you maintain more than one lock, like R3 Astromech** (strong match) — APPROVED, on the site
+
+- [x] **Ursa Wren** (Crew): You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked by an enemy ship, you may perform a {lock} action.
+- [x] **“Redline”** (TIE/ca Punisher): You can maintain up to 2 locks. After you perform an action, you may acquire a lock.
+- [x] **Sensor Experts** (Team): You can maintain up to 3 locks on different objects. After you perform a {lock} action, you may spend up to 2 {energy} to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.
+
+**Transfers locks between ships, like Captain Kagi** (strong match) — APPROVED, on the site
+
+- [x] **Corran Horn** (T-65 X-wing): After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+
+**Transfers tokens that can include a lock** (possible match) — APPROVED, on the site
+
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+- [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -1325,4 +1349,5 @@ Already named: none
 - Dedicated, Kanan Jarrus: Already say "another" ship or "you or" a ship, so the ruling adds nothing (rr-3)
 - Aayla Secura, Haor Chall Prototype, Stealth Gambit, “Tucker”: Check an enemy ship in your arc (rr-3)
 - Wartime Loadout: Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)
+- Cad Bane, Cad Bane (AaD): Transfer non-lock tokens only (rr-8)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack
