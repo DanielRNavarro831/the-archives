@@ -1391,6 +1391,26 @@ Already named: Plasma Torpedoes
 - [-] **Diamond-Boron Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack hits, you may spend 1 {charge}. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 {hit}/{crit} damage for each matching result.
 - [-] **Flechette Cannons** (Cannon): Attack: After this attack hits, if the defender is in your {bullseyearc}, the defender gains 1 strain token.
 
+## rr-67: A ship can't have a lock on itself, so a lock transferred to the ship it's locking breaks.
+
+> **Q:** What happens if a ship transfers its own lock to itself (such as by using Admiral Holdo [{crew}])?
+>
+> **A:** A ship cannot have a lock on itself (see Lock), so that lock breaks.
+
+Already named: Amilyn Holdo
+
+**Can transfer a lock to another ship, like Amilyn Holdo** (strong match) — APPROVED, on the site
+
+- [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
+- [x] **Hera Syndulla** (A/SF-01 B-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Hera Syndulla** (RZ-1 A-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Aurra Sing** (Firespray-class Patrol Craft): Before you engage, you may spend 1 {force} to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.
+
+**Transfers red tokens or locks to a chosen ship** (possible match) — APPROVED, on the site
+
+- [x] **Protectorate Gleb** (Crew): After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

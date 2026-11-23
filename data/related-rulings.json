@@ -609,6 +609,31 @@
     }
    ]
   },
+  "rr-67": {
+   "mechanic": "A ship can't have a lock on itself, so a lock transferred to the ship it's locking breaks.",
+   "groups": [
+    {
+     "why": "Can transfer a lock to another ship, like Amilyn Holdo",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "holo-tie-ba-interceptor",
+      "hera-syndulla-a-sf-01-b-wing-b-wing",
+      "hera-syndulla-rz-1-a-wing-a-wing",
+      "aurra-sing-firespray-class-patrol-craft"
+     ]
+    },
+    {
+     "why": "Transfers red tokens or locks to a chosen ship",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "protectorate-gleb-crew",
+      "kelrodo-ai-holdout-vulture-class-droid-fighter"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
