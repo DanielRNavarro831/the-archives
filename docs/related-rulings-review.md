@@ -1654,6 +1654,56 @@ Already named: Kaz's Fireball
 
 **SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
 
+## rr-89: Exposing a damage card can be a cost; if you have no facedown damage card to expose, the effect can't resolve.
+
+> **Q:** Can a Fireball use its Explosion with Wings ship ability without any facedown damage card to pay the cost of "exposing 1 damage card" to resolve the effect of "remov[ing] 1 disarm token"?
+>
+> **A:** No. As exposing a damage card is a cost for removing the disarm token, if the cost cannot be paid, the effect cannot be resolved.
+
+Already named: Explosion with Wings
+
+**Exposes a damage card as a cost** (strong match) — APPROVED, on the site
+
+- [x] **Coaxium Hyperfuel** (Illicit): You can perform the {slam} action even while stressed. If you do, you suffer 1 {crit} damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 {crit} damage to perform a {slam} action.
+
+## rr-90: If a ship's initiative changes during the Engagement Phase to a step that has already passed, it engages at the current step, after the other ships at that step.
+
+> **Q:** If "Rush" becomes damaged during the Engagement Phase before the initiative 2 step, causing its initiative to become "6", what happens?
+>
+> **A:** "Rush" engages at the current initiative step, after all other ships at that step have engaged.
+
+Already named: "Rush"
+
+**Initiative changes with being damaged, like "Rush"** (strong match) — APPROVED, on the site
+
+- [x] **“Null”** (TIE/fo Fighter): While you are not damaged, treat your initiative value as 7.
+
+**Initiative depends on a {charge} that can change during the phase** (possible match) — APPROVED, on the site
+
+- [x] **DIS-L9B2** (Droid Tri-fighter): At the start of the Engagement Phase, if there is an enemy ship in your {bullseyearc}, you must spend 1 {charge}. During the Engagement Phase, if your {charge} is active, treat your initiative value as 1.
+
+## rr-91: Ignoring obstacles "while you move" also covers barrel rolls and other actions that move the ship, so it can barrel roll through or onto them.
+
+> **Q:** Does the Mining Guild TIE's Notched Stabilizers ship ability allow it to barrel roll through or onto asteroids?
+>
+> **A:** Yes.
+
+Already named: Notched Stabilizers
+
+**Ignores obstacles while moving, like Notched Stabilizers** (strong match) — APPROVED, on the site
+
+- [x] **Dash Rendar** (YT-2400 Light Freighter): While you move, you ignore obstacles.
+- [x] **Qi'ra** (Crew): While you move and perform attacks, you ignore obstacles that you are locking.
+- [x] **Strut-Lock Override** (Configuration): At the start of your activation, you may spend 1 {charge}. If you do, ignore obstacles while you move through them this round.
+- [x] **R5-X3** (Astromech): Before you activate or engage, you may spend 1 {charge} to ignore obstacles until the end of this phase.
+- [x] **Ahsoka Tano** (Crew): Before you activate, you may spend 1 {force} to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your {frontarc} at range 1.
+- [x] **Collision Detector** (Sensor): While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 {charge} to ignore its effects until the end of the round.
+
+**Ignores obstacles at range 0** (possible match) — APPROVED, on the site
+
+- [x] **Grappling Struts** (Configuration): Closed: Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud. Open: You ignore obstacles at range 0. You cannot perform {barrelroll} actions. After you reveal your dial, if you reveal a maneuver other than a [2{straight}] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
+- [x] **Landing Struts** (Configuration): Closed: Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud. Open: You ignore obstacles at range 0. You cannot perform {barrelroll} actions. After you reveal your dial, if you reveal a maneuver other than a [2 {straight}] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

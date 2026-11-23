@@ -907,6 +907,67 @@
    "mechanic": "A damage card chosen by searching the damage deck doesn't have to be shown to the opponent.",
    "groups": []
   },
+  "rr-89": {
+   "mechanic": "Exposing a damage card can be a cost; if you have no facedown damage card to expose, the effect can't resolve.",
+   "groups": [
+    {
+     "why": "Exposes a damage card as a cost",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "coaxium-hyperfuel-illicit"
+     ]
+    }
+   ]
+  },
+  "rr-90": {
+   "mechanic": "If a ship's initiative changes during the Engagement Phase to a step that has already passed, it engages at the current step, after the other ships at that step.",
+   "groups": [
+    {
+     "why": "Initiative changes with being damaged, like \"Rush\"",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "null-tie-fo-fighter"
+     ]
+    },
+    {
+     "why": "Initiative depends on a {charge} that can change during the phase",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "dis-l9b2-droid-tri-fighter"
+     ]
+    }
+   ]
+  },
+  "rr-91": {
+   "mechanic": "Ignoring obstacles \"while you move\" also covers barrel rolls and other actions that move the ship, so it can barrel roll through or onto them.",
+   "groups": [
+    {
+     "why": "Ignores obstacles while moving, like Notched Stabilizers",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "dash-rendar-yt-2400-light-freighter",
+      "qira-crew",
+      "strut-lock-override-configuration-soc",
+      "r5-x3-astromech",
+      "ahsoka-tano-crew-lar",
+      "collision-detector-sensor"
+     ]
+    },
+    {
+     "why": "Ignores obstacles at range 0",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "grappling-struts-configuration",
+      "landing-struts-configuration"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
