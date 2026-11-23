@@ -1151,6 +1151,18 @@ Already named: Captain Kagi, R3 Astromech
 - [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
 - [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
 
+## rr-9: An effect that gives a ship an additional lock gives a lock of the same number, so the ship usually still has only one.
+
+> **Q:** If an effect instructs a ship to gain an additional lock token (such as Petty Officer Thanisson [{crew}]), can a player choose to assign the ship a lock token with a different number from the first lock token?
+>
+> **A:** No. It must gain a lock of the same number as the first (which, in most cases, causes the ship to lose the original lock, resulting in only one lock token).
+
+Already named: Petty Officer Thanisson
+
+**The other version of Petty Officer Thanisson (Crew), with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
@@ -1350,4 +1362,5 @@ Already named: none
 - Aayla Secura, Haor Chall Prototype, Stealth Gambit, “Tucker”: Check an enemy ship in your arc (rr-3)
 - Wartime Loadout: Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)
 - Cad Bane, Cad Bane (AaD): Transfer non-lock tokens only (rr-8)
+- Agent Terex, Automated Target Priority, Babu Frik, "Fives", Sabine Wren, Shasa Zaro, Zorii Bliss: Give a matching token, but never a lock (rr-9)
 - Tail Gun: Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack

@@ -452,6 +452,13 @@
      "cards": ["amilyn-holdo-crew", "holo-tie-ba-interceptor"]}
    ]
   },
+  "rr-9": {
+   "mechanic": "An effect that gives a ship an additional lock gives a lock of the same number, so the ship usually still has only one.",
+   "groups": [
+    {"why": "The other version of Petty Officer Thanisson (Crew), with the same text", "strength": "strong", "status": "approved",
+     "cards": ["petty-officer-thanisson-crew-epic"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
@@ -538,6 +545,7 @@
   "aayla-secura-crew, haor-chall-prototype-vulture-class-droid-fighter, stealth-gambit-talent-sl, tucker-v-19-torrent-starfighter": "Check an enemy ship in your arc (rr-3)",
   "wartime-loadout-configuration": "Adds normal {torpedo} and {missile} slots, not a special slot (rr-6)",
   "cad-bane-rogue-class-starfighter, cad-bane-rogue-class-starfighter-aad": "Transfer non-lock tokens only (rr-8)",
+  "agent-terex-crew, automated-target-priority-tech, babu-frik-illicit, fives-crew, sabine-wren-crew, shasa-zaro-bta-nr2-y-wing, zorii-bliss-crew": "Give a matching token, but never a lock (rr-9)",
   "tail-gun": "Gives a {reararc} weapon based on a docked ship's {frontarc} value, but doesn't need a {frontarc} attack"
  }
 }
