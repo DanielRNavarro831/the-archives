@@ -1554,6 +1554,32 @@ Already named: Foresight, Snap Shot
 - [x] **Heff Tobber** (UT-60D U-wing): After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.
 - [x] **Kalani** (Tactical Relay): After an enemy ship executes a maneuver, if it is in the {bullseyearc} of a friendly ship at range 0-3, you may spend 1 {charge}. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.
 
+## rr-82: Rolling an additional attack die isn't modifying dice, so it still works with attacks whose dice can't be modified.
+
+> **Q:** While "Scourge" Skutu performs an attack using Snap Shot, if the defender is in "Scourge" Skutu's bullseye arc, does "Scourge" Skutu add an additional attack die?
+>
+> **A:** Yes.
+
+Already named: Snap Shot, “Scourge” Skutu
+
+**Other bonus attacks whose dice can't be modified, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Foresight** (Force Power): After an enemy ship executes a maneuver, you may spend 1 {force} to perform this attack against it as a bonus attack. Attack: You may change 1 {focus} result to a {hit} result; your dice cannot be modified otherwise.
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+
+**Rolls 1 additional attack die on any attack (not only primary attacks), like "Scourge" Skutu** (possible match) — APPROVED, on the site
+
+- [x] **Gideon Hask** (TIE/ln Fighter): While you perform an attack against a damaged defender, roll 1 additional attack die.
+- [x] **Gideon Hask** (TIE/in Interceptor): While you perform an attack against a damaged defender, roll 1 additional attack die.
+- [x] **Graz** (Kihraxz Fighter): While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender, roll 1 additional attack die.
+- [x] **“Mauler” Mithel** (TIE/ln Fighter): While you perform an attack at attack range 1, roll 1 additional attack die.
+- [x] **Scythe 6 (BoE)** (TIE/ln Fighter): While you perform an attack at range 1-2, roll 1 additional attack die.
+- [x] **Trick Shot** (Talent): While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.
+- [x] **“Wampa”** (TIE/ln Fighter): While you perform an attack, you may spend 1 {charge} to roll 1 additional attack die. After defending, lose 1 {charge}.
+- [x] **“Wampa” (BoY)** (TIE/ln Fighter): While you perform an attack, you may spend 1 {charge} to roll 1 additional attack die. After defending, lose 1 {charge}.
+- [x] **“Killer”** (Clone Z-95 Headhunter): While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice.
+- [x] **“Pure Sabacc”** (TIE/sk Striker): While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

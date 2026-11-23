@@ -798,6 +798,37 @@
     }
    ]
   },
+  "rr-82": {
+   "mechanic": "Rolling an additional attack die isn't modifying dice, so it still works with attacks whose dice can't be modified.",
+   "groups": [
+    {
+     "why": "Other bonus attacks whose dice can't be modified, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "foresight-force-power",
+      "underslung-blaster-cannon-cannon"
+     ]
+    },
+    {
+     "why": "Rolls 1 additional attack die on any attack (not only primary attacks), like \"Scourge\" Skutu",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "gideon-hask-tie-ln-fighter",
+      "gideon-hask-tie-in-interceptor-tie-interceptor",
+      "graz-kihraxz-fighter",
+      "mauler-mithel-tie-ln-fighter",
+      "scythe-6-tie-ln-fighter-boe",
+      "trick-shot-talent",
+      "wampa-tie-ln-fighter",
+      "wampa-tie-ln-fighter-boy",
+      "killer-clone-z-95-headhunter",
+      "pure-sabacc-tie-sk-striker"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
