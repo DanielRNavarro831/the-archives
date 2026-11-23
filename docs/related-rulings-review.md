@@ -1356,6 +1356,23 @@ Already named: Informant, Listening Device
 
 **SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
 
+## rr-62: An effect that drops or launches a device after the ship is destroyed can't launch a device that can't normally be launched.
+
+> **Q:** After being destroyed, can “Deathfire” [TIE Bomber] launch a device that cannot normally be launched?
+>
+> **A:** No.
+
+Already named: “Deathfire”
+
+**Drops or launches a bomb when the ship is destroyed** (strong match) — APPROVED, on the site
+
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+
+**Drops a bomb after the ship is destroyed** (possible match) — SKIPPED
+
+- [-] **Paige Tico** (Gunner): After you perform a primary attack, you may drop 1 bomb or rotate your {singleturretarc}. After you are destroyed, you may drop 1 bomb.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

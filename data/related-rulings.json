@@ -564,6 +564,28 @@
    "mechanic": "Listening Device triggers at the initiative of the ship that has the condition.",
    "groups": []
   },
+  "rr-62": {
+   "mechanic": "An effect that drops or launches a device after the ship is destroyed can't launch a device that can't normally be launched.",
+   "groups": [
+    {
+     "why": "Drops or launches a bomb when the ship is destroyed",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "parting-gift-talent",
+      "parting-gift-talent-boe"
+     ]
+    },
+    {
+     "why": "Drops a bomb after the ship is destroyed",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "paige-tico-gunner"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
