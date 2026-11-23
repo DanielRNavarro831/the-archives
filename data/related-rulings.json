@@ -1073,6 +1073,55 @@
    "mechanic": "Kalani triggers once per enemy maneuver, even if the enemy is in several friendly ships' bullseye arcs.",
    "groups": []
   },
+  "rr-103": {
+   "mechanic": "An effect that decreases an attack's range requirement can bring it down to range 0, within its stated limit.",
+   "groups": [
+    {
+     "why": "Changes an attack's range requirement, like Major Rhymer",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "bombardment-specialists-team"
+     ]
+    }
+   ]
+  },
+  "rr-105": {
+   "skipped": "Skipped in review (Nov 23, 2026): not really relevant to any other card.",
+   "mechanic": "Left and right templates of the same speed and type are different templates, even though they're the same physical tool.",
+   "groups": [
+    {
+     "why": "Requires different templates",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "thermal-detonators-payload"
+     ]
+    }
+   ]
+  },
+  "rr-106": {
+   "skipped": "Skipped in review (Nov 23, 2026): structures were never introduced to the game; nothing released before development ended explains what a structure is.",
+   "mechanic": "What a \"structure\" is (the FAQ answer is a teaser).",
+   "groups": [
+    {
+     "why": "Mentions structures, like Marg Sabl Closure",
+     "strength": "strong",
+     "status": "rejected",
+     "cards": [
+      "interloper-turn-talent"
+     ]
+    },
+    {
+     "why": "Affects structures when it detonates",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "tracking-torpedoes"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

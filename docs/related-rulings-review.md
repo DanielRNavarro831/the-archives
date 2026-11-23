@@ -1803,6 +1803,50 @@ Already named: Kalani
 
 **SKIPPED:** Reviewed (Nov 23, 2026): no other cards to link.
 
+## rr-103: An effect that decreases an attack's range requirement can bring it down to range 0, within its stated limit.
+
+> **Q:** Can Major Rhymer perform a {torpedo} or {missile} attack at attack range 0?
+>
+> **A:** Yes.
+
+Already named: Major Rhymer
+
+**Changes an attack's range requirement, like Major Rhymer** (strong match) — APPROVED, on the site
+
+- [x] **Bombardment Specialists** (Team): While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.
+
+## rr-105: Left and right templates of the same speed and type are different templates, even though they're the same physical tool.
+
+> **Q:** Are left bank (or turn) and right bank (or turn) templates of the same speed considered different templates?
+>
+> **A:** Yes. Even though these templates are resolved with the same physical tool, they are considered different templates. For example, the [3 {turnleft}] and [3 {turnright}], which use the same physical tool, flipped over), they are considered different templates. Thus, if an effect requires you to choose "two different templates," you may select the [3 {turnleft}] template and the [3 {turnright}] template.
+
+Already named: none
+
+**SKIPPED:** Skipped in review (Nov 23, 2026): not really relevant to any other card.
+
+**Requires different templates** (possible match) — SKIPPED
+
+- [-] **Thermal Detonators** (Payload): Bomb During the System Phase, you may spend up to 2 {charge} to drop that many Thermal Detonators using the [1 {straight}] or [2 {straight}] template. Each must be placed using a different template. When you reload this card, recover 1 additional {charge}.
+
+## rr-106: What a "structure" is (the FAQ answer is a teaser).
+
+> **Q:** What is a structure as mentioned on Marg-Sabl Closure ({talent})?
+>
+> **A:** A structure is a... wait a second, I can't tell you that yet! You'll have to wait and see.
+
+Already named: Marg Sabl Closure
+
+**SKIPPED:** Skipped in review (Nov 23, 2026): structures were never introduced to the game; nothing released before development ended explains what a structure is.
+
+**Mentions structures, like Marg Sabl Closure** (strong match) — SKIPPED
+
+- [-] **Interloper Turn** (Talent): Before you execute a speed 1-2 turn ({turnleft} or {turnright}) or speed 1-2 Koiogran Turn ({kturn}), if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token.
+
+**Affects structures when it detonates** (possible match) — SKIPPED
+
+- [-] **Tracking Torpedoes** (Remote): INIT: 0 AGILITY: 3 HULL: 3 Types: Device, Remote System Phase: At this remote's initiative, its controlling player relocates this remote forward using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Activation Phase: No effect. Engagement Phase: At this remote's initiative, if an object on which it has a lock is in its {frontarc} at range 0-1, this remote detonates. End Phase: During the End Phase, if this remote does not have a lock on any object, this remote must acquire a lock on an object in its {frontarc} at range 1-3, if able. Other Rules: After this remote is destroyed, roll 1 attack die. On a {hit} or {crit} result, this remote detonates. When this remote detonates, each ship, remote, and structure at range 0 or in its {frontarc} at range 1 rolls 4 attack dice and suffers 1 damage for each matching {hit} or {crit} result.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
