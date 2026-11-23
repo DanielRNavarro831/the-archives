@@ -586,6 +586,29 @@
     }
    ]
   },
+  "rr-66": {
+   "mechanic": "Whether an attack hit is decided at the end of the Neutralize Results step, so \"after this attack hits\" effects resolve then, before damage is dealt.",
+   "groups": [
+    {
+     "why": "Defender loses a shield after the attack hits",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "heavy-plasma-missiles-missile-sl"
+     ]
+    },
+    {
+     "why": "Other \"after this attack hits\" effects",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "concussion-missiles-missile",
+      "diamond-boron-missiles-missile",
+      "flechette-cannons-cannon-aad"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

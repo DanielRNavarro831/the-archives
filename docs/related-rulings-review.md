@@ -1373,6 +1373,24 @@ Already named: “Deathfire”
 
 - [-] **Paige Tico** (Gunner): After you perform a primary attack, you may drop 1 bomb or rotate your {singleturretarc}. After you are destroyed, you may drop 1 bomb.
 
+## rr-66: Whether an attack hit is decided at the end of the Neutralize Results step, so "after this attack hits" effects resolve then, before damage is dealt.
+
+> **Q:** If an attack made with Plasma Torpedoes [{torpedo}] hits, when does the defender lose a shield?
+>
+> **A:** It is determined that the attack hit at the end of Step 4: Neutralize Results. Therefore, the ship loses the shield at the end of Step 4: Neutralize Results and before Step 5: Deal Damage.
+
+Already named: Plasma Torpedoes
+
+**Defender loses a shield after the attack hits** (strong match) — APPROVED, on the site
+
+- [x] **Heavy Plasma Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack hits, the defender loses 1 shield.
+
+**Other "after this attack hits" effects** (possible match) — SKIPPED
+
+- [-] **Concussion Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.
+- [-] **Diamond-Boron Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack hits, you may spend 1 {charge}. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 {hit}/{crit} damage for each matching result.
+- [-] **Flechette Cannons** (Cannon): Attack: After this attack hits, if the defender is in your {bullseyearc}, the defender gains 1 strain token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
