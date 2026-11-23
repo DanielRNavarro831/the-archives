@@ -511,6 +511,21 @@
      "cards": ["arvel-crynyd-rz-1-a-wing-ssp"]}
    ]
   },
+  "rr-52": {
+   "mechanic": "\"Prevent damage\" can't stop results that inflict tokens instead of damage; it can only prevent actual damage.",
+   "groups": [
+    {"why": "Another version of Iden Versio", "strength": "strong",
+     "status": "approved",
+     "cards": ["iden-versio-tie-ln-fighter-ssp", "iden-versio-tie-in-interceptor-boy"]},
+    {"why": "Inflicts tokens instead of damage, like Ion Cannon and Tractor Beam", "strength": "strong",
+     "status": "approved",
+     "cards": ["ion-cannon-turret-turret", "ion-missiles-missile", "ion-torpedoes-torpedo", "jamming-beam-cannon", "ion-cannon-battery-hardpoint",
+               "planetary-ion-bombardment-hardpoint-epic", "alpha-3e-esk-configuration", "ancillary-ion-weapons-cannon-soc"]},
+    {"why": "Prevents damage", "strength": "possible",
+     "status": "approved",
+     "cards": ["ablative-plating-modification"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

@@ -1266,6 +1266,34 @@ Already named: Arvel Crynyd, Intimidation
 
 - [x] **Arvel Crynyd (SSP)** (RZ-1 A-wing): If you would fail a {boost} action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1.
 
+## rr-52: "Prevent damage" can't stop results that inflict tokens instead of damage; it can only prevent actual damage.
+
+> **Q:** How do effects that “prevent damage” such as Iden Versio interact with effects such as Ion Cannon and Tractor Beam that “inflict [ion, tractor, jam, etc] tokens instead of dealing damage”?
+>
+> **A:** If an effect uses {hit}/{crit} results for an effect instead of dealing damage (such as inflicting ion, tractor, or jam tokens), that effect cannot be prevented by an effect that “prevents damage.” Note that Iden Versio can prevent the 1 damage that an Ion Cannon deals before inflicting ion tokens, but this does not prevent the chosen ship from gaining the subsequent ion tokens.
+
+Already named: Iden Versio, Ion Cannon, Tractor Beam
+
+**Another version of Iden Versio** (strong match) — APPROVED, on the site
+
+- [x] **Iden Versio (SSP)** (TIE/ln Fighter): Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 {charge}. If you do, prevent that damage.
+- [x] **Iden Versio (BoY)** (TIE/in Interceptor): Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 {charge}. If you do, prevent 1 damage.
+
+**Inflicts tokens instead of damage, like Ion Cannon and Tractor Beam** (strong match) — APPROVED, on the site
+
+- [x] **Ion Cannon Turret** (Turret): Attack: If this attack hits, spend 1 {hit} or {crit} result to cause the defender to suffer 1 {hit} damage. All remaining {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **Ion Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. If this attack hits, spend 1 {hit} or {crit} result to cause the defender to suffer 1 {hit} damage. All remaining {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **Ion Torpedoes** (Torpedo): Attack ({lock}): Spend 1 {charge}. If this attack hits, spend 1 {hit} or {crit} result to cause the defender to suffer 1 {hit} damage. All remaining {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **Jamming Beam** (Cannon): Attack: If this attack hits, all {hit}/{crit} results inflict jam tokens instead of damage.
+- [x] **Ion Cannon Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. If this attack hits, the defender suffers 1 {crit} damage, and all {hit}/{crit} results inflict ion tokens instead of damage. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Planetary Ion Bombardment** (Hardpoint): Bonus Attack ({lock}): Attack 1 medium, large or huge ship. If this attack hits, all {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **Alpha-3E "Esk"** (Configuration): While you perform a primary attack, before rolling attack dice, you may spend 2 charges. If you do, your {crit} results inflict ion tokens instead of damage.
+- [x] **Ancillary Ion Weapons** (Cannon): While you perform a primary {frontarc} attack, before rolling attack dice, you may spend 2 {charge}. If you do, your {crit} results deal ion tokens instead of damage.
+
+**Prevents damage** (possible match) — APPROVED, on the site
+
+- [x] **Ablative Plating** (Modification): Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 {charge}. If you do, prevent 1 damage.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
