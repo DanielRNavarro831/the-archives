@@ -1508,6 +1508,20 @@ Already named: none
 - [x] **Miranda Doni** (BTL-S8 K-wing): While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.
 - [x] **“Chopper”** (Astromech): Action: Spend 1 non-recurring {charge} from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring {charge} on an equipped upgrade.
 
+## rr-78: "After you roll dice" effects are dice modifications that trigger in the Modify Dice step during an attack, and can also affect other rolls (like an asteroid roll).
+
+> **Q:** How is Han Solo [Rebel, Modified YT-1300]'s ability categorized? Is it a dice modification? Is it a reroll? What is its timing window?
+>
+> **A:** Han Solo's ability is treated as a dice modification effect that is not a reroll. Because it is a dice modification effect, when attacking or defending, it triggers during the Modify Dice step. Note, however, that it can also affect other die rolls, such as the roll to determine if a ship suffers damage from overlapping or moving through an asteroid.
+
+Already named: Han Solo
+
+**Lando Calrissian's "after you roll dice" rerolls** (strong match) — APPROVED, on the site
+
+- [x] **Lando Calrissian** (Customized YT-1300 Light Freighter): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [x] **Lando Calrissian** (Escape Craft): After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.
+- [x] **Lando Calrissian** (Crew): After you roll dice, you may spend 1 green token to reroll up to 2 of your results.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

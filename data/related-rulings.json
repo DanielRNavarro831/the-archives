@@ -745,6 +745,21 @@
     }
    ]
   },
+  "rr-78": {
+   "mechanic": "\"After you roll dice\" effects are dice modifications that trigger in the Modify Dice step during an attack, and can also affect other rolls (like an asteroid roll).",
+   "groups": [
+    {
+     "why": "Lando Calrissian's \"after you roll dice\" rerolls",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "lando-calrissian-customized-yt-1300-light-freighter-scum",
+      "lando-calrissian-escape-craft-escape-craft",
+      "lando-calrissian-crew-scum"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
