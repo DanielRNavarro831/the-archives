@@ -1163,6 +1163,34 @@ Already named: Petty Officer Thanisson
 
 - [x] **Petty Officer Thanisson** (Crew): During the Activation or Engagement Phase, after an enemy ship in your {frontarc} at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.
 
+## rr-10: A lock is a token of the ship it's assigned to (so it's among that ship's "your tokens"), while "your lock" means the lock your ship assigned.
+
+> **Q:** If an effect refers to "your tokens," under which circumstances is a lock considered "your token" or not?
+>
+> **A:** For effects that refer to a "your tokens," the lock is always the red token of the ship to which it has been assigned. For example, if Ship A acquires a lock on Ship B, the lock is Ship B's red token, not Ship A's red token. Any effect that refers to "your tokens" from Ship A does not refer to the lock. Any effect that refers to "your tokens," from Ship B does refer to the lock. Note that if an effect refers to "your lock," it means the lock over which your ship has possession (the one it assigned). So if Ship A had an effect that referred to "your lock," this would refer to the lock Ship A has on Ship B. For Ship B's effects, however, that same lock would not be "your lock."
+
+Already named: none
+
+**Refers to "your tokens" or your red tokens, which include locks on you** (strong match) — APPROVED, on the site
+
+- [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
+- [x] **Vengeful** (Talent): After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.
+- [x] **Count Dooku** (Sith Infiltrator): After you defend, if the attacker is in your firing arc, you may spend 1 {force} to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 {force} to perform an action.
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+
+**Refers to "your lock": the lock you have on another ship** (strong match) — APPROVED, on the site
+
+- [x] **Alpha-3B "Besh"** (Configuration): While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or {focus} results to a {hit} result.
+- [x] **Fire-Control System** (Sensor): While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.
+- [x] **Jango Fett** (Crew): While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's {focus} results to a blank result.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+- [x] **Networked Aim** (HMP Droid Gunship): You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender.
+- [x] **Os-1 Arsenal Loadout** (Configuration): While you have exactly 1 disarm token, you can still perform {torpedo} and {missile} attacks against targets you have locked. If you do, you cannot spend your lock during the attack.
+- [x] **Phlac-Arphocc Prototype** (Droid Tri-fighter): During the System Phase, you may spend your lock on a ship to look at that ship's dial.
+- [x] **R2-HA** (Astromech): While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.
+- [x] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
+- [x] **“Static”** (TIE/fo Fighter): While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to {crit} results.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

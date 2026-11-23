@@ -459,6 +459,16 @@
      "cards": ["petty-officer-thanisson-crew-epic"]}
    ]
   },
+  "rr-10": {
+   "mechanic": "A lock is a token of the ship it's assigned to (so it's among that ship's \"your tokens\"), while \"your lock\" means the lock your ship assigned.",
+   "groups": [
+    {"why": "Refers to \"your tokens\" or your red tokens, which include locks on you", "strength": "strong", "status": "approved",
+     "cards": ["holo-tie-ba-interceptor", "vengeful-talent-boy", "count-dooku-sith-infiltrator", "amilyn-holdo-crew"]},
+    {"why": "Refers to \"your lock\": the lock you have on another ship", "strength": "strong", "status": "approved",
+     "cards": ["alpha-3b-besh-configuration", "fire-control-system-sensor", "jango-fett-crew", "kelrodo-ai-holdout-vulture-class-droid-fighter", "networked-aim",
+               "os-1-arsenal-loadout-configuration", "phlac-arphocc-prototype-droid-tri-fighter", "r2-ha-astromech", "stabilized-s-foils-configuration", "static-tie-fo-fighter"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
