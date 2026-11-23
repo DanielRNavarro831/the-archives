@@ -469,6 +469,48 @@
                "os-1-arsenal-loadout-configuration", "phlac-arphocc-prototype-droid-tri-fighter", "r2-ha-astromech", "stabilized-s-foils-configuration", "static-tie-fo-fighter"]}
    ]
   },
+  "rr-11": {
+   "mechanic": "Another printing of Han Solo (Customized YT-1300), which this ruling names.",
+   "groups": [
+    {"why": "Another printing of Han Solo (Customized YT-1300) with the same text", "strength": "strong", "status": "approved",
+     "cards": ["han-solo-customized-yt-1300-light-freighter-aad"]}
+   ]
+  },
+  "rr-80": {
+   "mechanic": "Another printing of “Midnight”, which this ruling names.",
+   "groups": [
+    {"why": "Another printing of “Midnight” with the same text", "strength": "strong", "status": "approved",
+     "cards": ["midnight-tie-fo-fighter-eod"]}
+   ]
+  },
+  "rr-93": {
+   "mechanic": "Another printing of Count Dooku (Crew), which this ruling names.",
+   "groups": [
+    {"why": "Another printing of Count Dooku (Crew) with the same text", "strength": "strong", "status": "approved",
+     "cards": ["count-dooku-sith-infiltrator-soc"]}
+   ]
+  },
+  "rr-94": {
+   "mechanic": "Another printing of Count Dooku (Crew), which this ruling names.",
+   "groups": [
+    {"why": "Another printing of Count Dooku (Crew) with the same text", "strength": "strong", "status": "approved",
+     "cards": ["count-dooku-sith-infiltrator-soc"]}
+   ]
+  },
+  "forum-70": {
+   "mechanic": "Another printing of Ronith Blario (EoD), which this ruling names.",
+   "groups": [
+    {"why": "Another printing of Ronith Blario (EoD) with the same text", "strength": "strong", "status": "approved",
+     "cards": ["ronith-blario-rz-2-a-wing"]}
+   ]
+  },
+  "forum-38": {
+   "mechanic": "Another printing of Arvel Crynyd, which this ruling names.",
+   "groups": [
+    {"why": "Another printing of Arvel Crynyd with the same text", "strength": "strong", "status": "approved",
+     "cards": ["arvel-crynyd-rz-1-a-wing-ssp"]}
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

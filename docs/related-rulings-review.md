@@ -1191,6 +1191,81 @@ Already named: none
 - [x] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
 - [x] **“Static”** (TIE/fo Fighter): While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to {crit} results.
 
+## rr-11: Another printing of Han Solo (Customized YT-1300), which this ruling names.
+
+> **Q:** What does “ignores obstacles” mean? Do Han Solo [Pilot, Customized YT-1300] and Qi’ra [{crew}] work together? What about Dash Rendar [YT-2400] and Outrider [{title}]?
+>
+> **A:** When an effect says a ship “ignores obstacles,” it means that ship “ignores the effects of obstacles.” A ship that is “ignoring obstacles” does not apply the effects of overlapping or moving through them, and can move through them by boosting or barrel rolling. When that ship performs an attack that is obstructed by an obstacle it ignores the effects of the obstruction, so the defender does not roll 1 additional defense die being obstructed by the obstacles the attacker is ignoring. However, the obstacles are still treated as being present for effects that check for their presence or absence (such as the Stunned Pilot damage card or Debris Gambit [{talent}]). Additionally, an attack is obstructed by an obstacle even while the effects of the obstacle are ignored. This applies to cards such as Outrider [{title}], Han Solo [Pilot, Customized YT-1300], and Trick Shot ({talent}). Additionally, other ships do not ignore the obstacle when resolving effects that interact with a ship that is ignoring obstacles. For instance, while a ship that is ignoring obstacles defends, if the attack is obstructed, it still rolls 1 additional defense die because the attacker is not ignoring the effects of obstacles.
+
+Already named: Dash Rendar, Debris Gambit, Han Solo, Outrider, Qi'ra, Stunned Pilot, Trick Shot
+
+**Another printing of Han Solo (Customized YT-1300) with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Han Solo (AaD)** (Customized YT-1300 Light Freighter): While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.
+
+## rr-80: Another printing of “Midnight”, which this ruling names.
+
+> **Q:** How does Han Solo [Rebel, Modified YT-1300]'s ability interact with "Midnight" [TIE/fo Fighter]?
+>
+> **A:** "Midnight" prevents dice modification. Because Han Solo's ability is a dice modification effect, "Midnight" prevents it from being used.
+
+Already named: Han Solo, “Midnight”
+
+**Another printing of “Midnight” with the same text** (strong match) — APPROVED, on the site
+
+- [x] **“Midnight” (EoD)** (TIE/fo Fighter): While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.
+
+## rr-93: Another printing of Count Dooku (Crew), which this ruling names.
+
+> **Q:** When does Count Dooku ({crew})'s ability take effect?
+>
+> **A:** Count Dooku's ability takes effect after the dice are rolled (before the Modify Dice step).
+
+Already named: Count Dooku
+
+**Another printing of Count Dooku (Crew) with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Count Dooku (SoC)** (Sith Infiltrator): During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your {force} are active, you may spend 1 {force} and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.
+
+## rr-94: Another printing of Count Dooku (Crew), which this ruling names.
+
+> **Q:** What happens when two players use Count Dooku ({crew}) on the same dice roll?
+>
+> **A:** The first player's Count Dooku takes effect: if the roll does not contain the result the first player named, the ship's controlling player must choose one result and change it to the named result. Then the second player's Count Dooku takes effect: if the roll does not contain the result the second player named,.the ship's controlling player must choose one result and change it to the named result. This can potentially mean that the same die is modified twice this way.
+
+Already named: Count Dooku
+
+**Another printing of Count Dooku (Crew) with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Count Dooku (SoC)** (Sith Infiltrator): During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your {force} are active, you may spend 1 {force} and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.
+
+## forum-70: Another printing of Ronith Blario (EoD), which this ruling names.
+
+> **Q:** As Firing Arcs are defined in the RR as any arcs on the pilot card and any turret arcs.
+If an enemy is attacking Rey with a HLC, and Ronith isnt in the bullseye for the HLC, but is in one of the enemy ships printed attack arcs, does Escort Fighter trigger?
+>
+> **A:** Yes, Escort Fighter can be triggered if Ronith Blario is inside any of the attacker's firing arcs, even if it's outside the arc used by the attack.
+
+Already named: Escort Fighter, Ronith Blario (EoD)
+
+**Another printing of Ronith Blario (EoD) with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Ronith Blario** (RZ-2 A-wing): While you defend or perform an attack, if the enemy ship is in another friendly ship's {singleturretarc}, you may spend 1 focus token from that friendly ship to change 1 of your {focus} results to an {evade} or {hit} result.
+
+## forum-38: Another printing of Arvel Crynyd, which this ruling names.
+
+> **Q:** Intimidation says:
+While an enemy ship at range 0 defends, it rolls 1 fewer defense die
+Does this also include the r0 attack of the ship that has equipped the intimidation upgrade?
+>
+> **A:** No. A ship that is defending at attack range 0 cannot have its defense dice reduced by enemy ships. Note that certain abilities (like Arvel Crynyd, RZ-1 A-wing) allow a ship to treat its attack range 0 primary attacks as though they are attack range 1, which would then permit the use of abilities like Outmaneuver.
+
+Already named: Arvel Crynyd, Intimidation
+
+**Another printing of Arvel Crynyd with the same text** (strong match) — APPROVED, on the site
+
+- [x] **Arvel Crynyd (SSP)** (RZ-1 A-wing): If you would fail a {boost} action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
