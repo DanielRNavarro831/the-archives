@@ -703,6 +703,48 @@
     }
    ]
   },
+  "rr-75": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "\"That ship loses 1 shield and you recover 1 shield\" is one effect: both parts must be able to resolve for either to happen.",
+   "groups": []
+  },
+  "rr-77": {
+   "mechanic": "Losing a shield directly isn't suffering damage.",
+   "groups": [
+    {
+     "why": "Makes a ship lose a shield directly",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "plasma-torpedoes-torpedo",
+      "heavy-plasma-missiles-missile-sl",
+      "dalan-oberos-m12-l-kimogila-fighter",
+      "optimized-prototype"
+     ]
+    },
+    {
+     "why": "Triggers when you lose a shield",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "joph-seastriker-t-70-x-wing",
+      "quickdraw-tie-sf-fighter"
+     ]
+    },
+    {
+     "why": "Spends shields as a cost",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "adaptive-shields-cargo",
+      "bomblet-generator-payload",
+      "inertial-dampeners-illicit",
+      "miranda-doni-btl-s8-k-wing",
+      "chopper-astromech-astromech"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

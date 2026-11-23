@@ -1470,6 +1470,44 @@ Already named: none
 
 - [x] 36 cards: Alderaanian Guard (CR90 Corellian Corvette), Alexsandr Kallus (VCX-100 Light Freighter), Asajj Ventress (Trident-class Assault Ship), Aut-0 (Gozanti-class Cruiser), Captain Oicunn (VT-49 Decimator), Cerra Fellian (Gozanti-class Cruiser), Cikatro Vizago (C-ROC Cruiser), Colicoid Destroyer (Trident-class Assault Ship), Echo Base Evacuees (GR-75 Medium Transport), First Order Collaborators (Raider-class Corvette), First Order Sympathizers (Gozanti-class Cruiser), Gideon Hask (Raider-class Corvette), Hera Syndulla (LaR) (VCX-100 Light Freighter), Hera Syndulla (VCX-100 Light Freighter), Iden Versio (Raider-class Corvette), Kanan Jarrus (VCX-100 Light Freighter), Lawless Pirates (Trident-class Assault Ship), Leia Organa (CR90 Corellian Corvette), Lothal Rebel (VCX-100 Light Freighter), Morna Kee (VT-49 Decimator), New Republic Volunteers (GR-75 Medium Transport), Oraf Desyk (GR-75 Medium Transport), Outer Rim Garrison (Gozanti-class Cruiser), Outer Rim Patrol (Raider-class Corvette), Patrol Leader (VT-49 Decimator), Raymus Antilles (CR90 Corellian Corvette), Rear Admiral Chiraneau (VT-49 Decimator), Republic Judiciary (CR90 Corellian Corvette), Rik Virgilio (Gozanti-class Cruiser), Separatist Privateers (C-ROC Cruiser), Sorc Tormo (Trident-class Assault Ship), Syndicate Smugglers (C-ROC Cruiser), Trebor Zednem (GR-75 Medium Transport), Wez Synat (Gozanti-class Cruiser), “Chopper” (VCX-100 Light Freighter)
 
+## rr-75: "That ship loses 1 shield and you recover 1 shield" is one effect: both parts must be able to resolve for either to happen.
+
+> **Q:** Dalan Oberos [M12-L Kimogila]'s pilot ability reads "At the start of the Engagement Phase, you may choose 1 shielded enemy ship in your bullseye arc and spend 1 charge. If you do, that ship loses 1 shield and you recover 1 shield." Must both "that ship loses 1 shield" and "you recover 1 shield" be able to resolve for either to resolve?
+>
+> **A:** Yes. "That ship loses 1 shield and you recover 1 shield" is a single effect, and so both parts must be able to resolve for either to occur.
+
+Already named: Dalan Oberos
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
+## rr-77: Losing a shield directly isn't suffering damage.
+
+> **Q:** If an effect says that a ship "loses a shield" (or "loses shields"), has that ship suffered damage?
+>
+> **A:** No. While suffering damage does cause a ship to lose shields (if applicable), if an effect causes a ship to lose one or more shields directly, it has not suffered damage.
+
+Already named: none
+
+**Makes a ship lose a shield directly** (strong match) — APPROVED, on the site
+
+- [x] **Plasma Torpedoes** (Torpedo): Attack ({lock}): Spend 1 {charge}. During the Neutralize Results step, {crit} results are cancelled before {hit} results. After this attack hits, the defender loses 1 shield.
+- [x] **Heavy Plasma Missiles** (Missile): Attack ({lock}): Spend 1 {charge}. After this attack hits, the defender loses 1 shield.
+- [x] **Dalan Oberos** (M12-L Kimogila Fighter): At the start of the Engagement Phase, you may choose 1 shielded ship in your {bullseyearc} and spend 1 {charge}. If you do, that ship loses 1 shield and you recover 1 shield.
+- [x] **Optimized Prototype** (Condition): While you perform a {frontarc} primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 {hit}/{crit}/{focus} result. If you do, choose one: the defender loses 1 shield or the defender flips 1 of its facedown damage cards.
+
+**Triggers when you lose a shield** (possible match) — APPROVED, on the site
+
+- [x] **Joph Seastriker** (T-70 X-wing): After you lose 1 shield, gain 1 evade token.
+- [x] **“Quickdraw”** (TIE/sf Fighter): After you lose a shield, you may spend 1 {charge}. If you do, you may perform a bonus primary attack.
+
+**Spends shields as a cost** (possible match) — APPROVED, on the site
+
+- [x] **Adaptive Shields** (Cargo): While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 shield or 2 {energy} to cancel 1 {hit} or {crit} result.
+- [x] **Bomblet Generator** (Payload): Bomb During the System Phase, you may spend 1 {charge} to drop a Bomblet with the [1 {straight}] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 {charge}.
+- [x] **Inertial Dampeners** (Illicit): Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 {stop}] instead of the maneuver you revealed, then gain 1 stress token.
+- [x] **Miranda Doni** (BTL-S8 K-wing): While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.
+- [x] **“Chopper”** (Astromech): Action: Spend 1 non-recurring {charge} from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring {charge} on an equipped upgrade.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
