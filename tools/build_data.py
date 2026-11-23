@@ -529,6 +529,10 @@ def related_group_cards(group, cards):
             if c.get("type") == "Pilot" and c["id"] not in ids and any(
                     x.get("a") == after and i + 1 < len(acts) and acts[i + 1].get("linked") for i, x in enumerate(acts)):
                 ids.append(c["id"])
+    agi = (group.get("match") or {}).get("pilotAgility")                # e.g. 0: every pilot with 0 agility
+    if agi is not None:
+        ids += [c["id"] for c in cards.values() if c.get("type") == "Pilot"
+                and (c.get("stats") or {}).get("agility") == agi and c["id"] not in ids]
     if (group.get("match") or {}).get("cardType"):
         ids += [c["id"] for c in cards.values() if c.get("type") == group["match"]["cardType"] and c["id"] not in ids]
     return ids

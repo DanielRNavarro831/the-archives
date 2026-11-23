@@ -1446,6 +1446,30 @@ Already named: Inertial Dampeners, Kanan Jarrus
 
 - [x] **Ibtisam** (ARC-170 Starfighter): After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a {hit} or {crit} result, remove 1 stress token.
 
+## rr-72: An agility 0 ship's defense dice modifiers all apply before the 0-dice minimum, so +1 and -1 always leave it at 0, in either order.
+
+> **Q:** If a ship with agility 0 (such as the VCX-100) is subject to one effect that would cause it to roll 1 fewer defense die and another effect that would cause it to roll 1 additional defense die, does the order in which these effects are applied change how many defense dice it rolls?
+>
+> **A:** No. Whichever effect is applied first, it rolls 0 defense dice. If the reduction is applied first, its defense pool becomes “–1 dice” (negative 1 defense dice), then the positive modifier is applied, bringing it back to 0. On the other hand, if the increase is applied first, the decrease subsequently reduces it back to 0. Note that after modifiers are applied but before dice are rolled, there is a default minimum of 0 dice (see Attack). Therefore if a ship would roll fewer than 0 dice due to the modifiers that have been applied, it always rolls 0 defense dice instead.
+
+Already named: none
+
+**Ships with 0 agility** (strong match) — APPROVED, on the site
+
+- [x] 36 cards: Alderaanian Guard (CR90 Corellian Corvette), Alexsandr Kallus (VCX-100 Light Freighter), Asajj Ventress (Trident-class Assault Ship), Aut-0 (Gozanti-class Cruiser), Captain Oicunn (VT-49 Decimator), Cerra Fellian (Gozanti-class Cruiser), Cikatro Vizago (C-ROC Cruiser), Colicoid Destroyer (Trident-class Assault Ship), Echo Base Evacuees (GR-75 Medium Transport), First Order Collaborators (Raider-class Corvette), First Order Sympathizers (Gozanti-class Cruiser), Gideon Hask (Raider-class Corvette), Hera Syndulla (LaR) (VCX-100 Light Freighter), Hera Syndulla (VCX-100 Light Freighter), Iden Versio (Raider-class Corvette), Kanan Jarrus (VCX-100 Light Freighter), Lawless Pirates (Trident-class Assault Ship), Leia Organa (CR90 Corellian Corvette), Lothal Rebel (VCX-100 Light Freighter), Morna Kee (VT-49 Decimator), New Republic Volunteers (GR-75 Medium Transport), Oraf Desyk (GR-75 Medium Transport), Outer Rim Garrison (Gozanti-class Cruiser), Outer Rim Patrol (Raider-class Corvette), Patrol Leader (VT-49 Decimator), Raymus Antilles (CR90 Corellian Corvette), Rear Admiral Chiraneau (VT-49 Decimator), Republic Judiciary (CR90 Corellian Corvette), Rik Virgilio (Gozanti-class Cruiser), Separatist Privateers (C-ROC Cruiser), Sorc Tormo (Trident-class Assault Ship), Syndicate Smugglers (C-ROC Cruiser), Trebor Zednem (GR-75 Medium Transport), Wez Synat (Gozanti-class Cruiser), “Chopper” (VCX-100 Light Freighter)
+
+## rr-73: "Roll 1 fewer defense die" still applies to an agility 0 ship at 0 dice, so a strained one removes its strain token.
+
+> **Q:** If a ship with agility 0 (such as the VCX-100) is strained and defends against an attack at attack range 1 (for which it would normally roll 0 defense die), does it remove the strain token?
+>
+> **A:** Yes. Although it cannot be made to roll fewer than 0 defense dice due to the intrinsic minimum, the effect of “roll 1 fewer defense die” is applied (see Attack), and so the strain token is removed.
+
+Already named: none
+
+**Ships with 0 agility** (strong match) — APPROVED, on the site
+
+- [x] 36 cards: Alderaanian Guard (CR90 Corellian Corvette), Alexsandr Kallus (VCX-100 Light Freighter), Asajj Ventress (Trident-class Assault Ship), Aut-0 (Gozanti-class Cruiser), Captain Oicunn (VT-49 Decimator), Cerra Fellian (Gozanti-class Cruiser), Cikatro Vizago (C-ROC Cruiser), Colicoid Destroyer (Trident-class Assault Ship), Echo Base Evacuees (GR-75 Medium Transport), First Order Collaborators (Raider-class Corvette), First Order Sympathizers (Gozanti-class Cruiser), Gideon Hask (Raider-class Corvette), Hera Syndulla (LaR) (VCX-100 Light Freighter), Hera Syndulla (VCX-100 Light Freighter), Iden Versio (Raider-class Corvette), Kanan Jarrus (VCX-100 Light Freighter), Lawless Pirates (Trident-class Assault Ship), Leia Organa (CR90 Corellian Corvette), Lothal Rebel (VCX-100 Light Freighter), Morna Kee (VT-49 Decimator), New Republic Volunteers (GR-75 Medium Transport), Oraf Desyk (GR-75 Medium Transport), Outer Rim Garrison (Gozanti-class Cruiser), Outer Rim Patrol (Raider-class Corvette), Patrol Leader (VT-49 Decimator), Raymus Antilles (CR90 Corellian Corvette), Rear Admiral Chiraneau (VT-49 Decimator), Republic Judiciary (CR90 Corellian Corvette), Rik Virgilio (Gozanti-class Cruiser), Separatist Privateers (C-ROC Cruiser), Sorc Tormo (Trident-class Assault Ship), Syndicate Smugglers (C-ROC Cruiser), Trebor Zednem (GR-75 Medium Transport), Wez Synat (Gozanti-class Cruiser), “Chopper” (VCX-100 Light Freighter)
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
