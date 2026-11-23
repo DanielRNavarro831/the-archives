@@ -1756,6 +1756,53 @@ Already named: "Holo"
 - [x] **Bo-Katan Kryze** (Crew): After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token.
 - [x] **Chaff Particles** (Modification): While defending, you may spend 1 {focus} result at the end of the Neutralize Results step to remove 1 red or orange token.
 
+## rr-98: A lock you've assigned to another ship isn't one of "your tokens", but it is "your lock".
+
+> **Q:** Can "Holo" (TIE/ba Interceptor)'s ship ability transfer a red lock token that has been assigned to another ship by "Holo" to a friendly ship?
+>
+> **A:** No. "Holo" (TIE/ba Inteceptor)'s lock is a red token assigned to another ship. It is not considered "your token" for the purposes of that ability (or other abilities that refer to "your token). However, it is "Holo" (TIE/ba Inteceptor)'s lock, and is considered "your lock" for the purposes of any abilities that refer to "your lock."
+
+Already named: "Holo"
+
+**Transfers your tokens or your locks** (strong match) — APPROVED, on the site
+
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+- [x] **Hera Syndulla** (A/SF-01 B-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Hera Syndulla** (RZ-1 A-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+
+**Refers to "your lock"** (possible match) — SKIPPED
+
+- [-] **Alpha-3B "Besh"** (Configuration): While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or {focus} results to a {hit} result.
+- [-] **Fire-Control System** (Sensor): While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.
+- [-] **Jango Fett** (Crew): While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's {focus} results to a blank result.
+- [-] **Networked Aim** (HMP Droid Gunship): You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender.
+- [-] **Os-1 Arsenal Loadout** (Configuration): While you have exactly 1 disarm token, you can still perform {torpedo} and {missile} attacks against targets you have locked. If you do, you cannot spend your lock during the attack.
+- [-] **Phlac-Arphocc Prototype** (Droid Tri-fighter): During the System Phase, you may spend your lock on a ship to look at that ship's dial.
+- [-] **R2-HA** (Astromech): While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.
+- [-] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
+- [-] **“Static”** (TIE/fo Fighter): While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to {crit} results.
+
+## rr-99: The "closest valid attack range" is the closest range with at least one defender that meets the chosen attack's requirements.
+
+> **Q:** What does "closest valid attack range" as mentioned on Automated Target Priority mean exactly?
+>
+> **A:** The "closest valid attack range" is the closest attack range for a given attack that has one or more potential valid defenders. A valid defender is a ship at the proper attack range in arc that meets the requirements for the chosen attack (such as Attack [{lock}]). For example, consider a TIE/sf fighter equipped with Concussion Missiles that has one enemy ship outside its {frontarc} at range 0, one enemy ship outside its {frontarc} at range 1, two enemy ships in its {frontarc} at range 2, and one enemy ship in its {frontarc} at range 3 (on which it has a lock). Its {singleturretarc} is in its {frontarc}. The TIE/sf fighter measures range (determining the above information) and chooses a weapon as normal. If it chooses its primary weapon, it determines the closest valid attack range as follows: Range 0: The enemy ship outside its {frontarc} at attack range 0 is not in arc, so it cannot be selected. As there are no potential valid defenders at range 0, range 0 is not a valid attack range. Range 1: The enemy ship outside its {frontarc} at attack range 1 is not in arc, so it cannot be selected. As there are no potential valid defenders at range 1, range 1 is not a valid attack range. Range 2: There are 2 enemy ships in its {frontarc} at range 2. The attack does not have any special requirements. Thus, range 2 is a valid attack range. The attacking player can choose either of these two ships as the defender, regardless of which one is physically closer. Range 3: There was at least one valid target at range 2, so range 3 cannot be the closest valid attack range. It cannot choose the ship in its {frontarc} at range 3. It chooses its Concussion Missiles, it determines the closest valid attack range as follows: Range 0: Range 0 is not a valid attack range for Concussion Missiles, so the enemy ship in its {frontarc} at range 0 cannot be selected. Range 1: Range 1 is not a valid attack range for Concussion Missiles. Even if the enemy ship at range 1 was in arc, could not be selected. Range 2: There are 2 enemy ships in its {frontarc} at range 2. However, Concussion Missiles has a special requirement of Attack ({lock}), and the attacker does not have a lock on either ship at range 2. Thus, range 2 is not a valid attack range for Concussion Missiles. Range 3: There is an enemy ship in the attacker's {frontarc} at range 3, on which the attacker has a lock. Thus, attack range 3 is a valid attack range, and the ship at range 3 can be selected as the defender. Note that if the TIE/sf had two locks, one on the ship at range 2 and the other on the ship at range 3, Range 2 would be the closest valid attack range and thus it would be required to choose the ship on which it had a lock at Range 2.
+
+Already named: Automated Target Priority
+
+**SKIPPED:** Reviewed (Nov 23, 2026): no other cards to link.
+
+## rr-100: Kalani triggers once per enemy maneuver, even if the enemy is in several friendly ships' bullseye arcs.
+
+> **Q:** After an enemy ship executes a maneuver, if it is in multiple friendly ships’ bullseye arcs, how many times can Kalani ({tacticalrelay}) be triggered?
+>
+> **A:** One time.
+
+Already named: Kalani
+
+**SKIPPED:** Reviewed (Nov 23, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
