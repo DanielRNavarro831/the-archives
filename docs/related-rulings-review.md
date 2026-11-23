@@ -1428,6 +1428,24 @@ Already named: Emperor Palpatine, Padmé Amidala
 
 - [x] **TN-3465** (TIE/fo Fighter): While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 {crit} damage to change 1 of the attacker's results to a {crit} result.
 
+## rr-74: Inertial Dampeners' stress and other "after you execute a maneuver" effects share a timing window, so their owner chooses the order they resolve in.
+
+> **Q:** If a ship that is equipped with Kanan Jarrus [{crew}] uses Inertial Dampeners [Illicit] to perform a white stationary maneuver, in which order to Kanan's ability and the "gain 1 stress token" portion of Inertial Dampeners' ability occur?
+>
+> **A:** Both abilities have the same timing window: after the ship executes the maneuver. Thus, after the ship executes the white stationary maneuver, if the player chooses to spend one Force charge to activate Kanan, two abilities enter the ability queue: Inertial Dampeners' "gain 1 stress token" and Kanan Jarrus' "remove 1 stress token." The player who controls both effects determines the order they enter the queue, and then the abilities resolve in that order. If a player wants the ship to gain and then remove a stress token, Inertial Dampeners' ability should be placed into the queue before Kanan's ability.
+
+Already named: Inertial Dampeners, Kanan Jarrus
+
+**Removes stress after a maneuver, like Kanan Jarrus** (strong match) — APPROVED, on the site
+
+- [x] **Anakin Skywalker** (Delta-7 Aethersprite): After you fully execute a maneuver, if there is an enemy ship in your {frontarc} at range 0-1 or in your {bullseyearc}, you may spend 1 {force} to remove 1 stress token.
+- [x] **Anakin Skywalker** (Delta-7b Aethersprite): After you fully execute a maneuver, if there is an enemy ship in your {frontarc} at range 0-1 or in your {bullseyearc}, you may spend 1 {force} to remove 1 stress token.
+- [x] **Anakin Skywalker** (BTL-B Y-wing): After you fully execute a maneuver, if there is an enemy ship in your {frontarc} at range 0-1 or in your {bullseyearc}, you may spend 1 {force} to remove 1 stress token.
+
+**May remove stress after a maneuver** (possible match) — APPROVED, on the site
+
+- [x] **Ibtisam** (ARC-170 Starfighter): After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a {hit} or {crit} result, remove 1 stress token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

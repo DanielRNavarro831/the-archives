@@ -656,6 +656,29 @@
     }
    ]
   },
+  "rr-74": {
+   "mechanic": "Inertial Dampeners' stress and other \"after you execute a maneuver\" effects share a timing window, so their owner chooses the order they resolve in.",
+   "groups": [
+    {
+     "why": "Removes stress after a maneuver, like Kanan Jarrus",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "anakin-skywalker-delta-7-aethersprite",
+      "anakin-skywalker-delta-7b-aethersprite-delta-7b",
+      "anakin-skywalker-btl-b-y-wing-y-wing"
+     ]
+    },
+    {
+     "why": "May remove stress after a maneuver",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "ibtisam-arc-170-starfighter"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
