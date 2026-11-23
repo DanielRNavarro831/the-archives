@@ -1704,6 +1704,58 @@ Already named: Notched Stabilizers
 - [x] **Grappling Struts** (Configuration): Closed: Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud. Open: You ignore obstacles at range 0. You cannot perform {barrelroll} actions. After you reveal your dial, if you reveal a maneuver other than a [2{straight}] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
 - [x] **Landing Struts** (Configuration): Closed: Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud. Open: You ignore obstacles at range 0. You cannot perform {barrelroll} actions. After you reveal your dial, if you reveal a maneuver other than a [2 {straight}] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
 
+## rr-95: Explosion with Wings' damage card is dealt during Setup Step 6: Prepare Other Components, after the damage deck is shuffled.
+
+> **Q:** At what step of Setup does the Explosion with Wings (Fireball) occur?
+>
+> **A:** During Step 6: Prepare Other Components, after the damage deck has been shuffled.
+
+Already named: Explosion with Wings
+
+**Changes how Explosion with Wings resolves** (strong match) — APPROVED, on the site
+
+- [x] **Kaz's Fireball** (Title): Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait: you are dealt that card instead. Then, shuffle the damage deck. You can perform actions of damage cards even while ionized.
+
+## rr-96: Abilities without a "Setup:" header (or a Setup timing) don't trigger during Setup, so damage dealt by Explosion with Wings doesn't trigger them.
+
+> **Q:** How does Chewbacca (Resistance, {crew}) interact with the Explosion with Wings ship ability?
+>
+> **A:** Chewbacca (Resistance, {crew})'s "Setup: Lose 1 {charge}" ability occurs after the ship equipped with Chewbacca is placed during Step 5: Place Forces. Explosion with Wings causes a ship to be dealt a damage card during Step 6: Prepare Other Components. However, triggered abilities that do not have the "Setup:" header or explicitly mention a timing during Setup do not trigger during Setup. Thus, the second ability in Chewbacca's text ("After a friendly ship at range 0–3 is dealt 1 damage card, recover 1 {charge}", which does not mention setup nor have the header, does not trigger from "Explosion with Wings."
+
+Already named: Chewbacca, Explosion with Wings
+
+**Changes how Explosion with Wings resolves** (strong match) — APPROVED, on the site
+
+- [x] **Kaz's Fireball** (Title): Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait: you are dealt that card instead. Then, shuffle the damage deck. You can perform actions of damage cards even while ionized.
+
+**Triggers when a ship is dealt a damage card (no Setup timing)** (possible match) — APPROVED, on the site
+
+- [x] **Lieutenant Bastian** (T-70 X-wing): After a ship at range 1-2 is dealt a damage card, you may acquire a lock on that ship.
+- [x] **Kylo Ren** (TIE/wi Whisper Modified Interceptor): Before an enemy ship in your {bullseyearc} is dealt a facedown damage card, you may spend 1 {force}. If you do, that damage card is dealt faceup instead.
+- [x] **Kylo Ren (EoD)** (TIE/vn Silencer): Before an enemy ship in your {bullseyearc} is dealt a facedown damage card, you may spend 1 {force}. If you do, that damage card is dealt faceup instead.
+
+## rr-97: A red lock token assigned to a ship counts as one of "your tokens", so it can be transferred.
+
+> **Q:** Can "Holo" (TIE/ba Interceptor)'s ship ability transfer a red lock token that has been assigned to "Holo" to a friendly ship?
+>
+> **A:** Yes. That red token is included under "your tokens," so Holo can transfer it.
+
+Already named: "Holo"
+
+**Transfers "1 token" of any type, like "Holo"** (strong match) — APPROVED, on the site
+
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+
+**Removes a red token without leaving out locks** (possible match) — APPROVED, on the site
+
+- [x] **Anakin Skywalker** (Eta-2 Actis): After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 {force}. If you do, that ship removes 1 red token of your choice.
+- [x] **Derek Klivian** (RZ-1 A-wing): After you acquire or spend a lock, you may remove 1 red token from yourself.
+- [x] **Electronic Baffle** (Modification): During the End Phase, you may suffer 1 {hit} damage to remove 1 red token.
+- [x] **R2-D2** (Astromech): During the End Phase, you may spend 1 {charge} and 1 {shield} to remove 1 red token. During the End Phase, if you have no active {shield}, you may spend 2 {charge} to recover 1 {shield} and gain 1 deplete token.
+- [x] **Without A Trace** (Talent): After you gain a cloak token, you may remove 1 red token. While you are cloaked, enemy ships cannot acquire locks on you.
+- [x] **Bo-Katan Kryze** (Crew): After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token.
+- [x] **Chaff Particles** (Modification): While defending, you may spend 1 {focus} result at the end of the Neutralize Results step to remove 1 red or orange token.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

@@ -968,6 +968,69 @@
     }
    ]
   },
+  "rr-95": {
+   "mechanic": "Explosion with Wings' damage card is dealt during Setup Step 6: Prepare Other Components, after the damage deck is shuffled.",
+   "groups": [
+    {
+     "why": "Changes how Explosion with Wings resolves",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "kazs-fireball-title"
+     ]
+    }
+   ]
+  },
+  "rr-96": {
+   "mechanic": "Abilities without a \"Setup:\" header (or a Setup timing) don't trigger during Setup, so damage dealt by Explosion with Wings doesn't trigger them.",
+   "groups": [
+    {
+     "why": "Changes how Explosion with Wings resolves",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "kazs-fireball-title"
+     ]
+    },
+    {
+     "why": "Triggers when a ship is dealt a damage card (no Setup timing)",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "lieutenant-bastian-t-70-x-wing",
+      "kylo-ren-tie-wi-whisper-modified-interceptor-tie-whisper",
+      "kylo-ren-tie-vn-silencer-eod"
+     ]
+    }
+   ]
+  },
+  "rr-97": {
+   "mechanic": "A red lock token assigned to a ship counts as one of \"your tokens\", so it can be transferred.",
+   "groups": [
+    {
+     "why": "Transfers \"1 token\" of any type, like \"Holo\"",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "amilyn-holdo-crew"
+     ]
+    },
+    {
+     "why": "Removes a red token without leaving out locks",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "anakin-skywalker-eta-2-actis-eta-2",
+      "derek-klivian-rz-1-a-wing",
+      "electronic-baffle-modification",
+      "r2-d2-astromech-resistance",
+      "without-a-trace-talent-sl",
+      "bo-katan-kryze-crew-rebel-scum",
+      "chaff-particles-modification-boe"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
