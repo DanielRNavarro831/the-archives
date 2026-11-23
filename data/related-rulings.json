@@ -829,6 +829,50 @@
     }
    ]
   },
+  "rr-83": {
+   "mechanic": "When \"after you execute a maneuver\" effects and an enemy's \"after an enemy ship executes a maneuver\" attack trigger together, the first player's effects resolve first; if a ship moves out of range or arc first, the attack can't be performed.",
+   "groups": [
+    {
+     "why": "Bonus attack after an enemy ship executes a maneuver, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "foresight-force-power",
+      "underslung-blaster-cannon-cannon"
+     ]
+    },
+    {
+     "why": "Repositions after fully executing a maneuver, like Fine-Tuned Controls",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "afterburners-modification",
+      "computer-assisted-handling-modification-boe",
+      "coaxium-injectors",
+      "ion-limiter-override-talent",
+      "poe-dameron-scavenged-yt-1300-yt-1300",
+      "q9-0-st-70-assault-ship",
+      "sigma-6-tie-in-interceptor-boy",
+      "stygium-reserve-modification-sl",
+      "temmin-wexley-t-70-x-wing"
+     ]
+    },
+    {
+     "why": "Performs a non-moving action after fully executing a maneuver",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "full-throttle",
+      "chiss-engineering",
+      "c1-10p-astromech",
+      "r4-p17-astromech",
+      "stabilizing-astromech-astromech-boe",
+      "night-beast-tie-ln-fighter",
+      "night-beast-tie-ln-fighter-ssp"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

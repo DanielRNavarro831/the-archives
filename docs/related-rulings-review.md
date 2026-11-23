@@ -1580,6 +1580,41 @@ Already named: Snap Shot, “Scourge” Skutu
 - [x] **“Killer”** (Clone Z-95 Headhunter): While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice.
 - [x] **“Pure Sabacc”** (TIE/sk Striker): While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.
 
+## rr-83: When "after you execute a maneuver" effects and an enemy's "after an enemy ship executes a maneuver" attack trigger together, the first player's effects resolve first; if a ship moves out of range or arc first, the attack can't be performed.
+
+> **Q:** If a ship with the Fine-Tuned Controls ship ability (or another ability that triggers "after you execute/fully execute a maneuver") fully executes a maneuver in arc at range 2 of a ship equipped with Snap Shot, how is this resolved?
+>
+> **A:** This is resolved one of several ways depending on which player is first player. In all cases, both abilities ("After you fully execute a maneuver, you may spend 1 force charge to perform a boost or barrel roll action" and "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack") are added to the ability queue. If the first player controls the ship with Fine-Tune Controls, that player resolves this ability before Snap Shot is resolved. If, after performing a boost or barrel roll, the ship with Fine-Tuned Controls is no longer in range or arc to be chosen as a target for Snap Shot, Snap Shot cannot be resolved and is removed from the queue. If the second player controls the ship with Fine-Tuned Controls, their opponent resolves Snap Shot first.
+
+Already named: Fine-Tuned Controls, Snap Shot
+
+**Bonus attack after an enemy ship executes a maneuver, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Foresight** (Force Power): After an enemy ship executes a maneuver, you may spend 1 {force} to perform this attack against it as a bonus attack. Attack: You may change 1 {focus} result to a {hit} result; your dice cannot be modified otherwise.
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+
+**Repositions after fully executing a maneuver, like Fine-Tuned Controls** (strong match) — APPROVED, on the site
+
+- [x] **Afterburners** (Modification): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+- [x] **Computer-Assisted Handling** (Modification): After you fully execute a maneuver, you may spend 1 {charge} to perform a {boost} or {barrelroll} action.
+- [x] **Coaxium Injectors** (Customized YT-1300 Light Freighter): After you fully execute a speed 3 or 4 maneuver, you may spend 1 {charge} to perform a red {slam} action, even while stressed. After you perform a {slam} action, you suffer 1 {crit} unless you expose 1 of your damage cards.
+- [x] **Ion Limiter Override** (Talent): After you fully execute a red maneuver, you may perform a {barrelroll} action, even while stressed. If you do, roll an attack die: On a {hit} result gain 1 strain token, and on a {crit} result gain 1 ion token.
+- [x] **Poe Dameron** (Scavenged YT-1300): Before you execute a maneuver, you may spend 1 {charge}. If you do, ignore obstacles during that maneuver. After you fully execute a maneuver, you may spend 2 {charge} to perform a white {boost} or red {barrelroll} action. Then if you performed a red {barrelroll} action, expose 1 damage card, if able.
+- [x] **Q9-0** (ST-70 Assault Ship): After you fully execute an advanced maneuver, you may perform a {calculate} or {barrelroll} action, even while stressed. If you do, gain 1 strain token.
+- [x] **Sigma 6 (BoY)** (TIE/in Interceptor): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {slam} action.
+- [x] **Stygium Reserve** (Modification): After you fully execute a maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+- [x] **Temmin Wexley** (T-70 X-wing): After you fully execute a speed 2-4 maneuver, you may perform a {boost} action.
+
+**Performs a non-moving action after fully executing a maneuver** (possible match) — APPROVED, on the site
+
+- [x] **Full Throttle** (TIE/d Defender, Naboo Royal N-1 Starfighter): After you fully execute a speed 3-5 maneuver, you may perform an {evade} action.
+- [x] **Chiss Engineering** (TIE/d Defender): After you fully execute a speed 3-5 maneuver, you may perform a {lock} action. While attacking, if you are not stressed, you may spend 1 {shield} to apply the range 1 bonus.
+- [x] **C1-10P** (Astromech): C1-10P:Setup: Equip this side faceup. After you fully execute a maneuver, you may spend 1 {charge} to perform a red {evade} action, even while stressed. During the End Phase, if this card has 0 active {charge}, flip it. C1-10P (Erratic): After you fully execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.
+- [x] **R4-P17** (Astromech): After you fully execute a red maneuver, you may spend 1 {charge} to perform an action, even while stressed.
+- [x] **Stabilizing Astromech** (Astromech): After you fully execute a maneuver, you may spend 1 {charge} to perform a white action, even while stressed.
+- [x] **“Night Beast”** (TIE/ln Fighter): After you fully execute a blue maneuver, you may perform a {focus} action.
+- [x] **“Night Beast” (SSP)** (TIE/ln Fighter): After you fully execute a blue maneuver, you may perform a {focus} action.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
