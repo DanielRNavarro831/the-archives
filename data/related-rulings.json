@@ -873,6 +873,40 @@
     }
    ]
   },
+  "rr-85": {
+   "onHold": "Waiting on the rules team (Nov 22, 2026): part of this ruling is outdated (a tractored ship can no longer be barrel rolled onto an obstacle); nothing here is linked until they decide how to handle it.",
+   "mechanic": "When a ship gains a tractor token as part of an ability, the \"after you become tractored\" game effect waits until that ability fully resolves, then applies before anything else in the queue.",
+   "groups": [
+    {
+     "why": "Has a ship gain a tractor token by choice",
+     "strength": "possible",
+     "cards": [
+      "interloper-turn-talent",
+      "thweek-starviper-class-attack-platform",
+      "unkar-plutt-quadrijet-transfer-spacetug",
+      "gorgol-nantex-class-starfighter"
+     ]
+    }
+   ]
+  },
+  "rr-86": {
+   "mechanic": "An attack that can be used as a bonus attack after an enemy maneuver can also be chosen for a normal attack in the Engagement Phase.",
+   "groups": [
+    {
+     "why": "Bonus attack after an enemy ship executes a maneuver, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "underslung-blaster-cannon-cannon"
+     ]
+    }
+   ]
+  },
+  "rr-88": {
+   "skipped": "Reviewed (Nov 22, 2026): no other cards to link.",
+   "mechanic": "A damage card chosen by searching the damage deck doesn't have to be shown to the opponent.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

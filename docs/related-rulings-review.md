@@ -1615,6 +1615,45 @@ Already named: Fine-Tuned Controls, Snap Shot
 - [x] **“Night Beast”** (TIE/ln Fighter): After you fully execute a blue maneuver, you may perform a {focus} action.
 - [x] **“Night Beast” (SSP)** (TIE/ln Fighter): After you fully execute a blue maneuver, you may perform a {focus} action.
 
+## rr-85: When a ship gains a tractor token as part of an ability, the "after you become tractored" game effect waits until that ability fully resolves, then applies before anything else in the queue.
+
+> **Q:** After a Nantex-class starfighter executes its maneuver, if it uses its Pinpoint Tractor Array ship ability to assign a tractor token to itself so that it can rotate its turret arc, and then it barrel rolls itself over a debris field as a result of becoming tractored, giving it a stress token, how does this resolve?
+>
+> **A:** After a Nantex-class starfighter executes its maneuver, it has the option to add an ability in the queue with the effect of "gain 1 tractor token to perform a {rotate} action." When this ability resolves, the Nantex-class starfighter pays the cost ("gain 1 tractor token") to resolve this effect. The Nantex-class starfighter gains 1 tractor token, then performs the rotate action. Note that it does not resolve the game effect of becoming tractored (which triggers after the first time a ship becomes tractored each round) until after it fully resolves the ability by completing the rotate action. Once the ability is fully resolved, the game effect that triggers after a ship becomes tractored is applied to the Nantex-class starfighter (before any other abilities on the queue are resolved), prompting the Nantex-class starfighter's player to move it, if they desire. Finally, any other abilities on the queue are then resolved in order.
+
+Already named: Pinpoint Tractor Array
+
+**ON HOLD:** Waiting on the rules team (Nov 22, 2026): part of this ruling is outdated (a tractored ship can no longer be barrel rolled onto an obstacle); nothing here is linked until they decide how to handle it.
+
+**Has a ship gain a tractor token by choice** (possible match)
+
+- [ ] **Interloper Turn** (Talent): Before you execute a speed 1-2 turn ({turnleft} or {turnright}) or speed 1-2 Koiogran Turn ({kturn}), if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token.
+- [ ] **Thweek** (StarViper-class Attack Platform): During the System Phase, you may gain 1 tractor token. At the start of the Engagement Phase, you may gain 1 deplete token to remove 1 tractor token.
+- [ ] **Unkar Plutt** (Quadrijet Transfer Spacetug): At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.
+- [ ] **Gorgol** (Nantex-Class Starfighter): During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.
+
+## rr-86: An attack that can be used as a bonus attack after an enemy maneuver can also be chosen for a normal attack in the Engagement Phase.
+
+> **Q:** Can Snap Shot or Foresight be chosen as a special weapon to be used for a ship's attack during the Engagement Phase?
+>
+> **A:** Yes. The phrase "after an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack" allows the attack to be used as a bonus attack under the specified circumstances, but does not disqualify it from being used during the Engagement Phase.
+
+Already named: Foresight, Snap Shot
+
+**Bonus attack after an enemy ship executes a maneuver, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+
+## rr-88: A damage card chosen by searching the damage deck doesn't have to be shown to the opponent.
+
+> **Q:** When searching for a damage card with Kaz's Fireball [{title}], must you show that card to your opponent?
+>
+> **A:** No. You are not required to show the card to your opponent.
+
+Already named: Kaz's Fireball
+
+**SKIPPED:** Reviewed (Nov 22, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
