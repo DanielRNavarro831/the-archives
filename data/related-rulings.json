@@ -1122,6 +1122,57 @@
     }
    ]
   },
+  "rr-107": {
+   "mechanic": "A huge ship can use a special attack for its standard attack and for up to 1 bonus attack per round per \"Attack:\" header, including bonus attacks the attack grants itself.",
+   "groups": [
+    {
+     "why": "Grants a bonus attack with an equipped weapon, like Corsair Refit",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "merchant-one-title"
+     ]
+    },
+    {
+     "why": "Special attack that grants its own bonus attack, like Cluster Missiles",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "saturation-rockets-missile-sl"
+     ]
+    }
+   ]
+  },
+  "rr-108": {
+   "mechanic": "Each \"Bonus Attack:\" header can be used once per round, even if the ship has several weapons it could fire with it.",
+   "groups": [
+    {
+     "why": "Has a \"Bonus Attack:\" header that fires an equipped weapon, like Corsair Refit",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "merchant-one-title",
+      "ordnance-tubes-hardpoint"
+     ]
+    },
+    {
+     "why": "Other cards with a \"Bonus Attack:\" header",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "drill-beak-hardpoint",
+      "ion-cannon-battery-hardpoint",
+      "nien-nunb-command-epic",
+      "planetary-ion-bombardment-hardpoint-epic",
+      "point-defense-battery-hardpoint",
+      "proton-cannon-battery-hardpoint",
+      "targeting-battery-hardpoint",
+      "tractor-tentacles-hardpoint",
+      "turbolaser-battery-hardpoint"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

@@ -1847,6 +1847,47 @@ Already named: Marg Sabl Closure
 
 - [-] **Tracking Torpedoes** (Remote): INIT: 0 AGILITY: 3 HULL: 3 Types: Device, Remote System Phase: At this remote's initiative, its controlling player relocates this remote forward using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Activation Phase: No effect. Engagement Phase: At this remote's initiative, if an object on which it has a lock is in its {frontarc} at range 0-1, this remote detonates. End Phase: During the End Phase, if this remote does not have a lock on any object, this remote must acquire a lock on an object in its {frontarc} at range 1-3, if able. Other Rules: After this remote is destroyed, roll 1 attack die. On a {hit} or {crit} result, this remote detonates. When this remote detonates, each ship, remote, and structure at range 0 or in its {frontarc} at range 1 rolls 4 attack dice and suffers 1 damage for each matching {hit} or {crit} result.
 
+## rr-107: A huge ship can use a special attack for its standard attack and for up to 1 bonus attack per round per "Attack:" header, including bonus attacks the attack grants itself.
+
+> **Q:** If a C-ROC Cruiser is equipped with IG-88D ({crew}), Corsair Refit ({configuration}), and Heavy Laser Cannon ({cannon}) and a friendly IG-88B is in play, how many times can the C-ROC fire its Heavy Laser Cannon ({cannon}) per round?
+>
+> **A:** Per Attacks on page 35, a huge ship can choose a special attack (such as the one on Heavy Laser Cannon) for the attack it performs when it engages. Per the same page, it can perform up to 1 bonus attack granted to it for a given special attack with an “Attack:” header per round. Therefore, the answer is “two times,” but there are several ways this can occur. The C-ROC chooses to perform its standard attack using Heavy Laser Cannon, and also does one of the following: • The C-ROC performs an attack that misses and uses IG-88D and IG-88B's abilities to perform a bonus attack with its Heavy Laser Cannon. • The C-ROC spends 1 {energy} and uses Corsair Refit to perform a bonus attack using Heavy Laser Cannon. Note that the same applies to special attacks that generate their own bonus attacks, like Cluster Missiles ({missile})—in that case, the C-ROC could choose Cluster Missiles for its standard attack and then fire one subsequent bonus attack using Cluster Missiles if there was an eligible target, or it could chose it for its attack when it engages and also use Corsair Refit and spend 1 {missile} to fire Cluster Missiles for a bonus attack against any ship in range and arc, but it cannot do both during the same round.
+
+Already named: Cluster Missiles, Corsair Refit, Heavy Laser Cannon, IG-88B, IG-88D
+
+**Grants a bonus attack with an equipped weapon, like Corsair Refit** (strong match) — APPROVED, on the site
+
+- [x] **Merchant One** (Title): Bonus Attack: Perform a {turret} attack.
+
+**Special attack that grants its own bonus attack, like Cluster Missiles** (strong match) — APPROVED, on the site
+
+- [x] **Saturation Rockets** (Missile): Attack: Spend 2 {charge}. If the defender is in your {frontarc}, you may spend 1 additional {charge} to roll 1 additional attack die. After this attack, you may spend 1 {charge} to perform this attack as a bonus attack against a different target at range 0-1 of the defender without paying the {charge} cost.
+
+## rr-108: Each "Bonus Attack:" header can be used once per round, even if the ship has several weapons it could fire with it.
+
+> **Q:** How many times per round can a ship use Corsair Refit ({configuration})
+>
+> **A:** to make a bonus attack if it has a {missile}, {cannon}, and {turret} upgrade equipped? Once. While it can fire one of these weapons with its standard attack and another with a bonus attack (or fire one weapon twice this way, as described in the example above), it can only use the "Bonus Attack:" header on Corsair Refit once per round.
+
+Already named: Corsair Refit
+
+**Has a "Bonus Attack:" header that fires an equipped weapon, like Corsair Refit** (strong match) — APPROVED, on the site
+
+- [x] **Merchant One** (Title): Bonus Attack: Perform a {turret} attack.
+- [x] **Ordnance Tubes** (Hardpoint): Online: Setup: Equip this side faceup. You can perform {torpedo} and {missile} attacks only as bonus attacks. You must treat the {frontarc} requirement of your equipped {torpedo} and {missile} upgrades as {fullfrontarc}. Bonus Attack: Perform a {torpedo} attack. Bonus Attack: Perform a {missile} attack. Offline: You must treat the {frontarc} requirement of your equipped {torpedo} and {missile} upgrades as {bullseyearc}. Action: Spend 2 {energy} to flip this card.
+
+**Other cards with a "Bonus Attack:" header** (possible match) — SKIPPED
+
+- [-] **Drill Beak** (Hardpoint / Cargo): Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 {energy}. If the attack range is 0, change all {hit} results to {crit} results.
+- [-] **Ion Cannon Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. If this attack hits, the defender suffers 1 {crit} damage, and all {hit}/{crit} results inflict ion tokens instead of damage. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [-] **Nien Nunb** (Command): Bonus Attack: After performing a primary attack, you may spend 2 {energy} and 1 {charge} to perform a bonus primary attack against a different target.
+- [-] **Planetary Ion Bombardment** (Hardpoint): Bonus Attack ({lock}): Attack 1 medium, large or huge ship. If this attack hits, all {hit}/{crit} results inflict ion tokens instead of damage.
+- [-] **Point-Defense Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [-] **Proton Cannon Battery** (Hardpoint / Cargo): Setup: Equip this side faceup. Bonus Attack: Change 1 {hit} result to a {crit} result. Bonus Attack: Spend 1 {energy}. Change 1 {hit} result to a {crit} result.
+- [-] **Targeting Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. After you perform this attack, you may acquire a lock on the defender. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [-] **Tractor Tentacles** (Hardpoint): Setup: Equip this side faceup. Bonus Attack Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}.
+- [-] **Turbolaser Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack ({lock}): Spend 3 {energy}. If this attack hits, add 3 {hit} results. Offline: After you engage, you may spend 2 {energy} to flip this card.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
