@@ -1525,6 +1525,72 @@
     }
    ]
   },
+  "rr-47": {
+   "skipped": "Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.",
+   "mechanic": "For \"may choose a ship\" abilities, the player may measure range before paying costs, then choose a valid ship or none (and pay nothing).",
+   "groups": []
+  },
+  "rr-48": {
+   "mechanic": "An effect that moves upgrades between ships can't give a ship an upgrade it couldn't equip.",
+   "groups": [
+    {
+     "why": "Moves an equipped upgrade to another ship",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "knack-clone-z-95-headhunter"
+     ]
+    }
+   ]
+  },
+  "rr-50": {
+   "mechanic": "Any attack besides a ship's standard attack when it engages is a bonus attack, even if the card doesn't say \"bonus\".",
+   "groups": [
+    {
+     "why": "Grants an attack without calling it a bonus attack",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "deathfire-tie-sa-bomber"
+     ]
+    }
+   ]
+  },
+  "rr-51": {
+   "mechanic": "Han Solo's attack happens at initiative 7 before any ship engages, so it always comes first, even for a ship that engages at initiative 7.",
+   "groups": [
+    {
+     "why": "Attacks at a set initiative, like Han Solo (forum-106 rules that Corran's order is free)",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "corran-horn-e-wing"
+     ]
+    }
+   ]
+  },
+  "forum-106": {
+   "mechanic": "A ship with an \"at initiative 0\" bonus attack that engages at initiative 0 may perform its two attacks in either order.",
+   "groups": [
+    {
+     "why": "Attacks at a set initiative (rr-51 rules that Han Solo's attack always comes first)",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "han-solo-gunner"
+     ]
+    },
+    {
+     "why": "Changes the initiative a ship engages at, like Torkil Mux",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "roark-garnet-hwk-290-light-freighter",
+      "heightened-perception-force-power"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

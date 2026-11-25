@@ -2242,6 +2242,71 @@ Already named: Fine-Tuned Controls
 
 - [x] **Afterburners** (Modification): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
 
+## rr-47: For "may choose a ship" abilities, the player may measure range before paying costs, then choose a valid ship or none (and pay nothing).
+
+> **Q:** How are abilities that "may choose a ship" (e.g. K-2SO [{crew}] or Darth Vader [{crew}]) resolved when they are reached in the ability queue?
+>
+> **A:** When an ability that "may choose a ship" is reached in the ability queue, before paying costs, the ship's player may measure range to any number of ships. Then, that player may choose a ship from among the valid options as defined by the ability, or choose no ship. If they choose no ship, the costs for the ability are not paid, and the ability is removed from the queue without resolving.
+
+Already named: Darth Vader, K-2SO
+
+**SKIPPED:** Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.
+
+## rr-48: An effect that moves upgrades between ships can't give a ship an upgrade it couldn't equip.
+
+> **Q:** Can Cikatro Vizago [{crew}] exchange an {illicit} upgrade card onto a ship that could not normally equip it (such as equipping a Stealth Device to a Z-95 Headhunter and then exchanging it with a Rigged Cargo Chute on a YV-666)?
+>
+> **A:** No. Cikatro Vizago cannot move the Rigged Cargo Chute to the Z-95 due to the Z-95 not meeting the “Medium or large ship” restriction on Rigged Cargo Chute, as described in Upgrade Cards.
+
+Already named: Cikatro Vizago, Rigged Cargo Chute, Stealth Device
+
+**Moves an equipped upgrade to another ship** (possible match) — SKIPPED
+
+- [-] **“Knack”** (Clone Z-95 Headhunter): After you are destroyed, you may choose a friendly non-limited ship at range 0-2 and assign 1 of your equipped {talent} upgrades to it. End of Game: Return all {talent} upgrades to their original ships.
+
+## rr-50: Any attack besides a ship's standard attack when it engages is a bonus attack, even if the card doesn't say "bonus".
+
+> **Q:** Is Han Solo [Rebel, {gunner}]’s additional attack a bonus attack?
+>
+> **A:** Yes. Anything that permits an attack outside of the standard attack allowed to a ship when it engages is a bonus attack.
+
+Already named: Han Solo
+
+**Grants an attack without calling it a bonus attack** (strong match) — APPROVED, on the site
+
+- [x] **“Deathfire”** (TIE/sa Bomber): After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.
+
+## rr-51: Han Solo's attack happens at initiative 7 before any ship engages, so it always comes first, even for a ship that engages at initiative 7.
+
+> **Q:** If a ship with Han Solo [Rebel, {gunner}] is made to engage at initiative 7 (through Roark Garnet [HWK-290], Heightened Reflexes [{forcepower}], etc.), must it perform Han Solo’s bonus attack first?
+>
+> **A:** Yes. Han Solo [Rebel, {gunner}]’s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo’s bonus attack is always performed first. This means that it cannot perform Han Solo’s bonus attack and then perform a subsequent attack from the same turret arc.
+
+Already named: Han Solo, Heightened Perception, Roark Garnet
+
+**Attacks at a set initiative, like Han Solo (forum-106 rules that Corran's order is free)** (possible match) — SKIPPED
+
+- [-] **Corran Horn** (E-wing): At initiative 0, you may perform a bonus primary attack against an enemy ship in your {bullseyearc}. If you do, at the start of the next Planning Phase, gain 1 disarm token.
+
+## forum-106: A ship with an "at initiative 0" bonus attack that engages at initiative 0 may perform its two attacks in either order.
+
+> **Q:** If Torkil sends Corran to I0, Curran’s pilot ability says
+“At initiative 0, you may perform a bonus primary attack…”
+Would I0 Corran be allowed to engage normally at I0, and then bonus shot? Or must the bonus shot happen first if he has someone in bullseye.
+>
+> **A:** Corran can perform both his normal attack and bonus attack at initiative 0, controlling player can choose in which order Corran performs those attacks.
+
+Already named: Corran Horn, Torkil Mux
+
+**Attacks at a set initiative (rr-51 rules that Han Solo's attack always comes first)** (possible match) — SKIPPED
+
+- [-] **Han Solo** (Gunner): During the Engagement Phase, at initiative 7, you may perform a {singleturretarc} attack. You cannot attack from that {singleturretarc} again this round.
+
+**Changes the initiative a ship engages at, like Torkil Mux** (possible match) — SKIPPED
+
+- [-] **Roark Garnet** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.
+- [-] **Heightened Perception** (Force Power): At the start of the Engagement Phase, you may spend 1 {force}. If you do, engage at initiative 7 instead of your standard initiative value this phase.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
