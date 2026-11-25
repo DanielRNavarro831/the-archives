@@ -1476,6 +1476,55 @@
     }
    ]
   },
+  "rr-42": {
+   "skipped": "Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.",
+   "mechanic": "What an ability is: constant abilities aren't queued; triggered abilities have a timing and an effect, and may have requirements and costs.",
+   "groups": []
+  },
+  "rr-43": {
+   "mechanic": "Requirements must be met when an ability is queued and again when it resolves; being in arc and range for a triggered attack is a requirement.",
+   "groups": [
+    {
+     "why": "Bonus attack after an enemy ship executes a maneuver, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "underslung-blaster-cannon-cannon"
+     ]
+    }
+   ]
+  },
+  "rr-44": {
+   "skipped": "Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.",
+   "mechanic": "An ability's costs are paid when it resolves; if they can't all be paid, none are and the ability is removed from the queue.",
+   "groups": []
+  },
+  "rr-45": {
+   "mechanic": "Optional abilities enter the queue automatically when triggered, if their requirements could be met.",
+   "groups": [
+    {
+     "why": "Mentioned in the ruling but not linked",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "afterburners-modification"
+     ]
+    }
+   ]
+  },
+  "rr-46": {
+   "mechanic": "Optional abilities in the queue stay optional; the player decides whether to use each one when it's reached.",
+   "groups": [
+    {
+     "why": "Mentioned in the ruling but not linked",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "afterburners-modification"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

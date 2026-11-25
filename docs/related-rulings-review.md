@@ -2186,6 +2186,62 @@ Already named: R1-J5
 - [x] **Stalwart Captain** (Command / Crew): After you are destroyed, you are not removed until the end of the End Phase.
 - [x] **Raymus Antilles** (Command / Crew): After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.
 
+## rr-42: What an ability is: constant abilities aren't queued; triggered abilities have a timing and an effect, and may have requirements and costs.
+
+> **Q:** What makes an effect an "ability?"
+>
+> **A:** An ability is text from a card a player controls (such a ship card, upgrade card, damage card, remote card, device, condition card, etc). A few abilities are constant (such as the "Gain a {frontarc} primary weapon with a value of '3'" portion of Moldy Crow). Constant abilities are not resolved via the ability queue. Most abilities are triggered, occurring only at a specified timing window (such as the "During the End Phase, do not remove up to 2 focus tokens" portion of Moldy Crow). Triggered abilities are resolved via the ability queue. Each triggered ability has the following parts: • A timing (when the ability is added to the ability queue) • An effect (what the ability does) Additionally, an ability can have one or more of the following: • One or more requirements the ship must meet • One or more costs the ship must pay • A text box can contain multiple abilities if there are multiple constant abilities or triggers that can add an ability to the queue (as in the Moldy Crow example).
+
+Already named: Moldy Crow
+
+**SKIPPED:** Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.
+
+## rr-43: Requirements must be met when an ability is queued and again when it resolves; being in arc and range for a triggered attack is a requirement.
+
+> **Q:** What is meant by a requirement for an ability?
+>
+> **A:** A requirement for an ability is a conditional if-statement, such as "if you are tractored" or "if the defender is in your bullseye arc." A ship being in-arc at range for an attack made as part of a triggered ability, such as Snap Shot or Foresight, is also a requirement for that ability. If an ability's requirements are not met at the time the ability would be added to the queue, it cannot be added to the queue. If the ability's requirements are not met at the time the ability would be resolved from the queue, the ability is not resolved and is instead removed from the queue. If an ability instructs you to make a choice, such as choosing a ship, that is not itself a requirement to initiate an ability.
+
+Already named: Foresight, Snap Shot
+
+**Bonus attack after an enemy ship executes a maneuver, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+
+## rr-44: An ability's costs are paid when it resolves; if they can't all be paid, none are and the ability is removed from the queue.
+
+> **Q:** When is the cost for an ability paid?
+>
+> **A:** The cost for an ability is paid when the ability is resolved. An ability cannot be added to the queue if its cost could not be paid at the time it is added. If an ability's cost cannot be paid when it would be resolved from the queue, the ability is not resolved and is instead removed from the queue. The ability's cost is not paid. An ability can have multiple costs. If it does, all costs must be paid to resolve it. If all costs cannot be paid, no costs are paid and the ability is removed from the queue and not resolved.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.
+
+## rr-45: Optional abilities enter the queue automatically when triggered, if their requirements could be met.
+
+> **Q:** Are optional abilities added to the ability queue automatically when they are triggered, or does a player make their choice by adding the ability to the queue?
+>
+> **A:** They are added to the ability queue automatically when they are triggered as long as they meet the requirements to be added. Players are not required to declare each ability as it enters the queue. However, if a player does not resolve an ability during the appropriate timing window, the opportunity to do so is lost. For example, Afterburners and Fine-Tuned Controls are both optional abilities that are added to the ability queue "after you fully execute a maneuver." A Delta-7 Aethersprite equipped with Afterburners would add both abilities to the queue in an order of its player's choosing. Note that at an ability can be added to the queue only if the requirements for it could be met. For instance, if Afterburners had no active {charge} remaining, or if the Delta-7 Aethersprite had no active {force} after it executed the maneuver, those abilities could not be added, respectively.
+
+Already named: Fine-Tuned Controls
+
+**Mentioned in the ruling but not linked** (strong match) — APPROVED, on the site
+
+- [x] **Afterburners** (Modification): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+
+## rr-46: Optional abilities in the queue stay optional; the player decides whether to use each one when it's reached.
+
+> **Q:** Are optional abilities added to the ability queue mandatory once they have been added?
+>
+> **A:** No. When an ability is reached in the ability queue, the player makes the relevant choices for that ability, including whether or not to use it. For example, if a Delta-7 Aethersprite queues Fine-Tuned Controls and then Afterburners after it fully executes a maneuver, when the queue reaches Fine-Tuned Controls, its player makes the choice whether to pay the costs to resolve the ability, then does so. Then, when the queue reaches Afterburners, its player makes the choice whether to pay the costs to resolve the ability, then resolves it and makes any choices included in the ability.
+
+Already named: Fine-Tuned Controls
+
+**Mentioned in the ruling but not linked** (strong match) — APPROVED, on the site
+
+- [x] **Afterburners** (Modification): After you fully execute a speed 3-5 maneuver, you may spend 1 {charge} to perform a {boost} action, even while stressed.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
