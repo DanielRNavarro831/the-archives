@@ -1173,6 +1173,59 @@
     }
    ]
   },
+  "rr-109": {
+   "mechanic": "Huge ships can only engage at their engagement value, but can still attack at other initiative steps when a card tells them to.",
+   "groups": [
+    {
+     "why": "Changes the initiative a ship engages at",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "roark-garnet-hwk-290-light-freighter",
+      "torkil-mux-hwk-290-light-freighter",
+      "heightened-perception-force-power"
+     ]
+    }
+   ]
+  },
+  "rr-110": {
+   "mechanic": "An effect that lets you acquire a lock after an attack follows normal lock range limits unless it says \"ignoring range restrictions\".",
+   "groups": [
+    {
+     "why": "Extends the range you can lock at, as the ruling describes",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "broadside-batteries"
+     ]
+    },
+    {
+     "why": "Acquires a lock on the defender after an attack, like Targeting Battery",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "weapons-systems-officer-gunner",
+      "dgs-047-hmp-droid-gunship"
+     ]
+    },
+    {
+     "why": "Acquires a lock on the defender after an attack, in a narrow case",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "merciless-pursuit"
+     ]
+    },
+    {
+     "why": "Lets ships acquire a lock without ignoring range restrictions",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "grand-moff-tarkin-crew"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

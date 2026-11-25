@@ -1888,6 +1888,45 @@ Already named: Corsair Refit
 - [-] **Tractor Tentacles** (Hardpoint): Setup: Equip this side faceup. Bonus Attack Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}.
 - [-] **Turbolaser Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack ({lock}): Spend 3 {energy}. If this attack hits, add 3 {hit} results. Offline: After you engage, you may spend 2 {energy} to flip this card.
 
+## rr-109: Huge ships can only engage at their engagement value, but can still attack at other initiative steps when a card tells them to.
+
+> **Q:** Can a CR-90 Corvette with Han Solo [{gunner}, Rebel] perform an attack at Initiative 7?
+>
+> **A:** Yes. While huge ships are unable to engage at initiative steps other than the one defined by their engagement value, they are capable of making attacks at other initiative steps if instructed by a card like Han Solo.
+
+Already named: Han Solo
+
+**Changes the initiative a ship engages at** (possible match) — APPROVED, on the site
+
+- [x] **Roark Garnet** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.
+- [x] **Torkil Mux** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.
+- [x] **Heightened Perception** (Force Power): At the start of the Engagement Phase, you may spend 1 {force}. If you do, engage at initiative 7 instead of your standard initiative value this phase.
+
+## rr-110: An effect that lets you acquire a lock after an attack follows normal lock range limits unless it says "ignoring range restrictions".
+
+> **Q:** After performing an attack with Targeting Battery [{hardpoint}] against a defender at range 4–5, can the attacker acquire a lock on that defender?
+>
+> **A:** If Targeting Battery is the only card at play, no. Targeting Battery does not read "ignoring range restrictions," therefore the ship must obey the normal range restrictions for acquiring locks. However, there are a number of ways huge ships can circumvent this limitation. The CR-90's Broadside Battery ship ability allows it to acquire locks at range 4, and the Boosted Scanners [{cargo}] upgrade allows a ship to spend energy increase the range at which it can lock, letting it acquire the lock from Targeting Battery at range 4 or 5.
+
+Already named: Boosted Scanners, Targeting Battery
+
+**Extends the range you can lock at, as the ruling describes** (strong match) — APPROVED, on the site
+
+- [x] **Broadside Batteries** (CR90 Corellian Corvette): You can acquire locks and perform primary attacks at range 1-4.
+
+**Acquires a lock on the defender after an attack, like Targeting Battery** (strong match) — APPROVED, on the site
+
+- [x] **Weapons Systems Officer** (Gunner): After you perform a special attack with the {lock} requirement, you may acquire a lock on the defender.
+- [x] **DGS-047** (HMP Droid Gunship): After you perform an attack, if the defender is in your {frontarc}, you may acquire a lock on it. Then, if the defender is in your {bullseyearc}, it gains 1 strain token.
+
+**Acquires a lock on the defender after an attack, in a narrow case** (possible match) — APPROVED, on the site
+
+- [x] **Merciless Pursuit** (Condition): After you perform an attack, if the defender is equipped with The Child, you may acquire a lock on the defender.
+
+**Lets ships acquire a lock without ignoring range restrictions** (strong match) — APPROVED, on the site
+
+- [x] **Grand Moff Tarkin** (Crew): During the System Phase, you may spend 2 {charge}. If you do, each friendly ship may acquire a lock on a ship that you have locked.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
