@@ -1280,6 +1280,95 @@
     }
    ]
   },
+  "ep-113": {
+   "mechanic": "A ship docked to a ship that escapes also escapes.",
+   "groups": [
+    {
+     "why": "Lets other ships dock with you",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "corvus-title",
+      "docking-clamps",
+      "ghost-title",
+      "hounds-tooth-title",
+      "landos-millennium-falcon-title",
+      "liberator-title",
+      "phantom-title",
+      "malefactor-title-epic",
+      "transgalmeg-control-link-syliure-class-hyperspace-ring",
+      "endless-hordes-cargo-epic"
+     ]
+    },
+    {
+     "why": "Has an effect while docked",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "co-pilot",
+      "comms-shuttle",
+      "locked-and-loaded",
+      "tail-gun",
+      "phoenix-squadron-command"
+     ]
+    }
+   ]
+  },
+  "ep-114": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "When a scenario ends the game during the End Phase, the rest of that End Phase still resolves.",
+   "groups": []
+  },
+  "ep-115": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "The player controlling the effect that dealt or exposed a damage card chooses the token a jam from it removes; otherwise the ship's owner chooses.",
+   "groups": []
+  },
+  "ep-116": {
+   "mechanic": "Markers placed \"after placing forces\" can't go on ships still in reserve.",
+   "groups": [
+    {
+     "why": "Starts the game in reserve, like Luminous and Boba Fett",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "its-the-resistance"
+     ]
+    },
+    {
+     "why": "Puts a wing in reserve after placing forces",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "mar-tuuk-command"
+     ]
+    }
+   ]
+  },
+  "ep-117": {
+   "mechanic": "Markers placed \"after placing forces\" must go on ships in your deployment area, unless the scenario says otherwise.",
+   "groups": [
+    {
+     "why": "Can be placed outside your deployment area, like Lieutenant Dormitz",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "han-solo-scavenged-yt-1300-resistance",
+      "syliure-31-hyperdrive-hyperdrive"
+     ]
+    }
+   ]
+  },
+  "ep-118": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "Unused deployment areas in Free-for-All aren't treated as deployment areas.",
+   "groups": []
+  },
+  "ep-119": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "Only 1 intel counter is placed, however many {focus} results are rolled.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

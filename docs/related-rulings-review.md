@@ -1970,6 +1970,104 @@ Already named: none
 - [x] **Targeting Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. After you perform this attack, you may acquire a lock on the defender. Offline: After you engage, you may spend 2 {energy} to flip this card.
 - [x] **Turbolaser Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack ({lock}): Spend 3 {energy}. If this attack hits, add 3 {hit} results. Offline: After you engage, you may spend 2 {energy} to flip this card.
 
+## ep-113: A ship docked to a ship that escapes also escapes.
+
+> **Q:** If a ship is docked to a ship that escapes, does the docked ship also escape?
+>
+> **A:** Yes.
+
+Already named: none
+
+**Lets other ships dock with you** (strong match) — APPROVED, on the site
+
+- [x] **Corvus** (Title): You can dock up to 2 small ships. After you perform a {calculate} action, gain 1 calculate token.
+- [x] **Docking Clamps** (Gozanti-class Cruiser): You can dock up to 4 small ships.
+- [x] **Ghost** (Title): You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.
+- [x] **Hound's Tooth** (Title): 1 Z-95-AF4 headhunter can dock with you.
+- [x] **Lando's Millennium Falcon** (Title): 1 escape shuttle may dock with you. While you have an escape shuttle docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.
+- [x] **Liberator** (Title): You can dock up to 2 small ships. After a ship deploys from you, it may perform a {focus} or {barrelroll} action.
+- [x] **Phantom** (Title): You can dock at range 0-1.
+- [x] **Malefactor** (Title): While you defend, friendly ships docked with you may suffer damage instead of you.
+- [x] **TransGalMeg Control Link** (Syliure-class Hyperspace Ring): Hyperspace Docking Ring: 1 Delta-7 Aethersprite, Eta-2 Actis, or Nimbus-class V-wing can dock with you. While a ship is docked with you, you gain that ship's initiative and are assigned that ship's dial. While you execute a maneuver, reduce its speed to 1. Before you execute an advanced maneuver, execute a white stationary maneuver ({stop}) instead, then you may rotate 90º or 180º. While no ship is docked with you, you are not assigned a maneuver dial and do not activate or engage.
+- [x] **Endless Hordes** (Cargo): Before a friendly ship with the Contingency Protocol upgrade or a friendly Trade Federation Drone at range 0-3 would be removed from play, you may spend 1 {charge} to restore that ship, remove and Command upgrade from it, and dock it.
+
+**Has an effect while docked** (possible match) — SKIPPED
+
+- [-] **Co-Pilot** (Escape Craft): While you are docked, your carrier ship has your pilot ability in addition to its own.
+- [-] **Comms Shuttle** (Sheathipede-Class Shuttle): While you are docked, your carrier ship gains {coordinate}. Before your carrier ship activates, it may perform a {coordinate} action.
+- [-] **Locked and Loaded** (Attack Shuttle): While you are docked, after your carrier ship performs a primary {frontarc} or {turret} attack, it may perform a bonus primary {reararc} attack.
+- [-] **Tail Gun** (VCX-100 Light Freighter): While you have a docked ship, you have a primary {reararc} weapon with an attack value equal to your docked ship's primary {frontarc} attack value.
+- [-] **Phoenix Squadron** (Command): Setup Side: Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: - 0-1 Attack Shuttle - 0-1 Sheathipede-class Shuttle - 0-5 RZ-1 A-wings After you are placed, flip this card. Play Side: At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-Wing wingmates in the attack arc may each suffer 1 {hit}/{crit} damage to cancel 1 matching result.
+
+## ep-114: When a scenario ends the game during the End Phase, the rest of that End Phase still resolves.
+
+> **Q:** If a scenario states that a game would end during the End Phase, are other effects in that End Phase resolved before the game ends?
+>
+> **A:** Yes. As in a standard game, when a scenario says the game ends during the End Phase, it means that it ends at the end of the round, after all effects in the final End Phase have been resolved.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## ep-115: The player controlling the effect that dealt or exposed a damage card chooses the token a jam from it removes; otherwise the ship's owner chooses.
+
+> **Q:** When a ship gains a Jam token from a faceup damage card, which player decides which token is removed?
+>
+> **A:** If the damage card was dealt or exposed as part of an attack or effect controlled by a particular player, that player chooses which token is removed. If it is caused by an effect that no player controls (such as the effect of overlapping an obstacle), then the player who controls the ship with the faceup damage card chooses which token is removed.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## ep-116: Markers placed "after placing forces" can't go on ships still in reserve.
+
+> **Q:** Can markers ({objectivemarker} or {objective}) such as the priority target markers from All Wings Reporting In be placed on ships that have been placed in reserve to be placed in the play area “after setup,” such as a ship with Luminous [{title}] or Boba Fett [{crew}] equipped?
+>
+> **A:** No. Per Objectives, markers that are placed “after placing forces” must be placed on ships in the play area. As “after placing forces” (the timing for distributing the {objective} in All Wings Reporting In) occurs prior to “after setup,” Luminous [{title}] / Boba Fett [{crew}]’s ship is still in reserve when the {objective} are placed, so it cannot be selected to carry {objective}.
+
+Already named: Boba Fett, Luminous
+
+**Starts the game in reserve, like Luminous and Boba Fett** (strong match) — APPROVED, on the site
+
+- [x] **It's the Resistance** (Condition): Setup: Start in reserve. When you deploy, you are placed within range 1 of any table edge and beyond range 3 of any enemy ship. At the start of the round, if all of the friendly GA-97's {charge} are active, you must deploy. Then remove this card. After the friendly GA-97 is destroyed, you must deploy. Then gain 1 disarm token and remove this card.
+
+**Puts a wing in reserve after placing forces** (possible match) — APPROVED, on the site
+
+- [x] **Mar Tuuk** (Command / Crew): Setup: After placing forces, choose 1 friendly wing of ships with {calculate} on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.
+
+## ep-117: Markers placed "after placing forces" must go on ships in your deployment area, unless the scenario says otherwise.
+
+> **Q:** Can markers ({objectivemarker} or {objective}) such as the priority target markers from All Wings Reporting In be placed on ships that have been placed outside a player’s deployment area, such as a ship that was placed in a forward position by Lieutenant Dormitz [Upsilon-class Shuttle]?
+>
+> **A:** No. Per Objectives, when placing a marker “after placing forces,” a player must select a ship in their deployment area unless the scenario specifies otherwise.
+
+Already named: Lieutenant Dormitz
+
+**Can be placed outside your deployment area, like Lieutenant Dormitz** (strong match) — APPROVED, on the site
+
+- [x] **Han Solo** (Scavenged YT-1300): Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.
+- [x] **Syliure-31 Hyperdrive** (Hyperdrive): Setup: You can be placed anywhere in the play area beyond range 1 of obstacles, beyond range 3 of enemy ships, and beyond range 3 of the enemy table edge.
+
+## ep-118: Unused deployment areas in Free-for-All aren't treated as deployment areas.
+
+> **Q:** In Free-for-All scenarios with a variable number of players, if there are fewer than the maximum number of players, are unused deployment areas treated as deployment areas for the purposes of obstacle, remote, and marker placement?
+>
+> **A:** No, they are not treated as deployment areas.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## ep-119: Only 1 intel counter is placed, however many {focus} results are rolled.
+
+> **Q:** If a player rolls 2 or more {focus} results to place intel counters, how many counters are placed?
+>
+> **A:** No matter how many {focus} results are rolled, only 1 counter is placed.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
