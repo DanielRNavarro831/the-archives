@@ -1926,6 +1926,49 @@ Already named: Boosted Scanners, Targeting Battery
 **Lets ships acquire a lock without ignoring range restrictions** (strong match) — APPROVED, on the site
 
 - [x] **Grand Moff Tarkin** (Crew): During the System Phase, you may spend 2 {charge}. If you do, each friendly ship may acquire a lock on a ship that you have locked.
+- [x] **Wilhuff Tarkin** (Nimbus-class V-wing): During the System Phase, you may choose an object that you have locked at range 1-3. Another friendly ship at range 1-3 may acquire a lock on that object.
+
+## rr-111: Huge ships move with the huge ship movement tool, not a maneuver template, so they never "move through" objects.
+
+> **Q:** While a huge ship moves, if the huge ship movement tool overlaps an object (such as a ship or obstacle) but the huge ship’s base does not, did the huge ship "move through" that object?
+>
+> **A:** No. The huge ship movement tool is distinct from a maneuver template, and uses its own rules described in this section. In fact, huge ships never interact with the rules for "moving through" objects, as they move with their maneuver tool and not a maneuver template. Note that this does mean that huge ships can, in rare circumstances, "jump over" a small object.
+
+Already named: none
+
+**Huge ships** (strong match) — APPROVED, on the site
+
+- [x] 26 cards: Alderaanian Guard (CR90 Corellian Corvette), Asajj Ventress (Trident-class Assault Ship), Aut-0 (Gozanti-class Cruiser), Cerra Fellian (Gozanti-class Cruiser), Cikatro Vizago (C-ROC Cruiser), Colicoid Destroyer (Trident-class Assault Ship), Echo Base Evacuees (GR-75 Medium Transport), First Order Collaborators (Raider-class Corvette), First Order Sympathizers (Gozanti-class Cruiser), Gideon Hask (Raider-class Corvette), Iden Versio (Raider-class Corvette), Lawless Pirates (Trident-class Assault Ship), Leia Organa (CR90 Corellian Corvette), New Republic Volunteers (GR-75 Medium Transport), Oraf Desyk (GR-75 Medium Transport), Outer Rim Garrison (Gozanti-class Cruiser), Outer Rim Patrol (Raider-class Corvette), Raymus Antilles (CR90 Corellian Corvette), Republic Judiciary (CR90 Corellian Corvette), Rik Virgilio (Gozanti-class Cruiser), Separatist Privateers (C-ROC Cruiser), Sorc Tormo (Trident-class Assault Ship), Syndicate Smugglers (C-ROC Cruiser), Trebor Zednem (GR-75 Medium Transport), Wez Synat (Gozanti-class Cruiser)
+
+**Triggers on moving through a huge ship** (possible match) — APPROVED, on the site
+
+- [x] **Marg Sabl Closure** (Talent): After you fully execute a maneuver, if you moved through an obstacle, structure, or huge ship, or if you deployed, you may choose 1 enemy ship in your {frontarc} at range 1-2. That ship gains 1 strain token.
+
+## rr-112: With three upgrades that grant turret indicators, two of them share one indicator and mount.
+
+> **Q:** If a ship has three upgrades that grant it a {singleturretarc} or {doubleturretarc} indicator, what happens?
+>
+> **A:** Two of the turrets must share an indicator. Choose two of the upgrades that share a turret arc type (single [{singleturretarc}] or double [{doubleturretarc}]) and the front or rear mount. Place the indicator those cards use on that mount and place the corresponding mount marker next to both of those upgrades. Both upgrades use the matching {singleturretarc} or {doubleturretarc}.
+
+Already named: none
+
+**Grants a {singleturretarc} indicator** (strong match) — APPROVED, on the site
+
+- [x] **Burst Laser Turret** (Turret): Attack: Spend 1 {charge}. You may spend 1 {charge} to roll 1 additional attack die to a maximum of 3.
+- [x] **Dorsal Turret** (Turret): Attack
+- [x] **Dorsal Turret** (Turret): Attack
+- [x] **Ion Cannon Turret** (Turret): Attack: If this attack hits, spend 1 {hit} or {crit} result to cause the defender to suffer 1 {hit} damage. All remaining {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **Vectored Cannons** (Configuration): Gain a {singleturretarc} indicator. Treat the arc requirement of your {frontarc} primary attack as {singleturretarc}. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red {boost} or red {rotate} action. You can rotate your {singleturretarc} indicator only to your {frontarc} or {reararc}.
+
+**Hardpoints with a {singleturretarc} or {doubleturretarc} indicator** (strong match) — APPROVED, on the site
+
+- [x] **Heavy Laser Cannon Turret** (Hardpoint): Bonus attack: Spend 1 energy. Roll an additional attack die at range 3.
+- [x] **Ion Cannon Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. If this attack hits, the defender suffers 1 {crit} damage, and all {hit}/{crit} results inflict ion tokens instead of damage. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Modified Dorsal Turret** (Hardpoint): Bonus Attack
+- [x] **Point Defense Battery** (Hardpoint): Attack: Spend 1 {energy}. Attack: Spend 1 {energy}. Attack: Spend 1 {energy}. Attack: Spend 1 {energy}.
+- [x] **Point-Defense Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Targeting Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. After you perform this attack, you may acquire a lock on the defender. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Turbolaser Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack ({lock}): Spend 3 {energy}. If this attack hits, add 3 {hit} results. Offline: After you engage, you may spend 2 {energy} to flip this card.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 

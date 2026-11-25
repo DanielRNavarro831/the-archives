@@ -1233,6 +1233,7 @@
     {
      "why": "Huge ships",
      "strength": "strong",
+     "status": "approved",
      "match": {
       "pilotBaseSize": "Huge"
      },
@@ -1241,6 +1242,7 @@
     {
      "why": "Triggers on moving through a huge ship",
      "strength": "possible",
+     "status": "approved",
      "cards": [
       "marg-sabl-closure-talent"
      ]
@@ -1253,12 +1255,27 @@
     {
      "why": "Grants a {singleturretarc} indicator",
      "strength": "strong",
+     "status": "approved",
      "cards": [
       "burst-laser-turret-turret",
       "dorsal-turret-turret",
       "dorsal-turret-turret-boy",
       "ion-cannon-turret-turret",
       "vectored-cannons-configuration-rz-1"
+     ]
+    },
+    {
+     "why": "Hardpoints with a {singleturretarc} or {doubleturretarc} indicator",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "heavy-laser-cannon-turret-hardpoint-epic",
+      "ion-cannon-battery-hardpoint",
+      "modified-dorsal-turret-hardpoint-epic",
+      "point-defense-battery-hardpoint-epic",
+      "point-defense-battery-hardpoint",
+      "targeting-battery-hardpoint",
+      "turbolaser-battery-hardpoint"
      ]
     }
    ]
