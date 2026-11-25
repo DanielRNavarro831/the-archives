@@ -533,6 +533,10 @@ def related_group_cards(group, cards):
     if agi is not None:
         ids += [c["id"] for c in cards.values() if c.get("type") == "Pilot"
                 and (c.get("stats") or {}).get("agility") == agi and c["id"] not in ids]
+    size = (group.get("match") or {}).get("pilotBaseSize")              # e.g. "Huge": every huge-ship pilot
+    if size:
+        ids += [c["id"] for c in cards.values() if c.get("type") == "Pilot"
+                and c.get("base_size") == size and c["id"] not in ids]
     if (group.get("match") or {}).get("cardType"):
         ids += [c["id"] for c in cards.values() if c.get("type") == group["match"]["cardType"] and c["id"] not in ids]
     return ids

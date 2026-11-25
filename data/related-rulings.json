@@ -1,5 +1,5 @@
 {
- "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2, \"excludeTypes\": [types]} for every upgrade with two or more types (leaving out the listed types), or \"match\": {\"cardType\": \"Remote\"} for every card of a type, or \"match\": {\"pilotLinkedAfter\": \"focus\"} for pilots with a linked action after that one, or \"match\": {\"pilotAgility\": 0} for every pilot with that agility. See docs/related-rulings-review.md.",
+ "_readme": "Rulings that may also apply to cards they don't name. Only groups with \"status\": \"approved\" are shown on the site (on card pages, under 'Rulings that may also apply'); \"rejected\" groups stay here so they aren't suggested again; groups with no status are still waiting for review. Each entry: a ruling id, the mechanic it covers, and groups of cards (strong = clearly the same mechanic, possible = worth a look). A group can also have \"match\": {\"pilotPrimaryArcsOnly\": [arcs]} to add every pilot whose primary attacks all use those arcs (at least one besides the bullseye arc), or \"match\": {\"upgradeWithTypes\": 2, \"excludeTypes\": [types]} for every upgrade with two or more types (leaving out the listed types), or \"match\": {\"cardType\": \"Remote\"} for every card of a type, or \"match\": {\"pilotLinkedAfter\": \"focus\"} for pilots with a linked action after that one, or \"match\": {\"pilotAgility\": 0} for every pilot with that agility, or \"match\": {\"pilotBaseSize\": \"Huge\"} for every pilot of that base size. See docs/related-rulings-review.md.",
  "rulings": {
   "rr-1": {
    "mechanic": "A {frontarc} attack is one that uses the {frontarc} icon on the ship card. Ships with only {singleturretarc} or {fullfrontarc} attacks can't use effects that need one; that's different from checking whether the defender is in your {frontarc}.",
@@ -1221,7 +1221,44 @@
      "strength": "strong",
      "status": "approved",
      "cards": [
-      "grand-moff-tarkin-crew"
+      "grand-moff-tarkin-crew",
+      "wilhuff-tarkin-nimbus-class-v-wing"
+     ]
+    }
+   ]
+  },
+  "rr-111": {
+   "mechanic": "Huge ships move with the huge ship movement tool, not a maneuver template, so they never \"move through\" objects.",
+   "groups": [
+    {
+     "why": "Huge ships",
+     "strength": "strong",
+     "match": {
+      "pilotBaseSize": "Huge"
+     },
+     "cards": []
+    },
+    {
+     "why": "Triggers on moving through a huge ship",
+     "strength": "possible",
+     "cards": [
+      "marg-sabl-closure-talent"
+     ]
+    }
+   ]
+  },
+  "rr-112": {
+   "mechanic": "With three upgrades that grant turret indicators, two of them share one indicator and mount.",
+   "groups": [
+    {
+     "why": "Grants a {singleturretarc} indicator",
+     "strength": "strong",
+     "cards": [
+      "burst-laser-turret-turret",
+      "dorsal-turret-turret",
+      "dorsal-turret-turret-boy",
+      "ion-cannon-turret-turret",
+      "vectored-cannons-configuration-rz-1"
      ]
     }
    ]
