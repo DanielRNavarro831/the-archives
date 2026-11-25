@@ -2068,6 +2068,53 @@ Already named: none
 
 **SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
 
+## rr-20: The player whose ship overlaps an Electro-Chaff Cloud chooses which green token or lock its jam removes.
+
+> **Q:** When a ship overlaps an Electro-Chaff Cloud, which player determines the effect of the jam token?
+>
+> **A:** The player whose ship is overlapping the Electro-Chaff Cloud determines which green token or lock is removed/broken.
+
+Already named: Electro-Chaff Missiles
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## rr-23: Han Solo's ability isn't a reroll, so it can be used on dice that were already rerolled.
+
+> **Q:** Can Han Solo [Pilot, Modified YT-1300]’s ability be used on a die that has been rerolled?
+>
+> **A:** Yes. Han Solo’s ability is not treated as a reroll, so it can be used on a rerolled die.
+
+Already named: Han Solo
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## rr-24: Once Wounded Pilot is repaired, its "after you perform an action" effect doesn't resolve.
+
+> **Q:** Does the Wounded Pilot [Damage Card]’s first effect (“After you perform an action, roll 1 attack die. On a {hit} or {crit} result, gain 1 stress token.”) resolve after you repair it?
+>
+> **A:** No. The card is repaired, and thus has no effect to resolve.
+
+Already named: Wounded Pilot
+
+**SKIPPED:** Reviewed (Nov 24, 2026): no other cards to link.
+
+## rr-35: A Tallon Roll is fully executed if the ship fits at any of the three positions; it must use a valid one if one exists.
+
+> **Q:** While a ship executes a Tallon Roll maneuver, if it cannot be placed at the middle position (center line aligned to the center line of the template), is it able to fully execute the maneuver?
+>
+> **A:** Yes, provided there is a valid position at which to place it. While executing a Tallon Roll, if a ship can be placed in at least one of the three possible positions (center line aligned to the front, middle, or back of the template), it must choose one of the valid positions, and it fully executes the maneuver. If a valid position exists, it cannot choose an invalid position to partially complete the maneuver. As with a barrel roll, while resolving this, the player may attempt to place the ship at the front, middle, and back before choosing a valid position.
+
+Already named: none
+
+**Performs or changes a Tallon Roll** (strong match) — APPROVED, on the site
+
+- [x] **Winged Reversal** (Gauntlet Fighter): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] maneuver in the same direction instead.
+- [x] **Winged Reversal** (Configuration): After you reveal a turn [{turnleft} or {turnright}] maneuver, you may spend 1 {charge}, gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [{trollleft} or {trollright}] maneuver in the same direction instead.
+
+**Triggers after fully executing a Tallon Roll** (possible match) — SKIPPED
+
+- [-] **Retrofitted Autothrusters** (Modification): After you fully execute a speed 3 turn [{turnleft} or {turnright}], bank [{bankleft} or {bankright}], Tallon Roll [{trollleft} or {trollright}], or Segnor's Loop [{sloopleft} or {sloopright}] maneuver, you may spend 1 {charge} to perform a {barrelroll} action, even while stressed.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

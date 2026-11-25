@@ -1369,6 +1369,43 @@
    "mechanic": "Only 1 intel counter is placed, however many {focus} results are rolled.",
    "groups": []
   },
+  "rr-20": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "The player whose ship overlaps an Electro-Chaff Cloud chooses which green token or lock its jam removes.",
+   "groups": []
+  },
+  "rr-23": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "Han Solo's ability isn't a reroll, so it can be used on dice that were already rerolled.",
+   "groups": []
+  },
+  "rr-24": {
+   "skipped": "Reviewed (Nov 24, 2026): no other cards to link.",
+   "mechanic": "Once Wounded Pilot is repaired, its \"after you perform an action\" effect doesn't resolve.",
+   "groups": []
+  },
+  "rr-35": {
+   "mechanic": "A Tallon Roll is fully executed if the ship fits at any of the three positions; it must use a valid one if one exists.",
+   "groups": [
+    {
+     "why": "Performs or changes a Tallon Roll",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "winged-reversal",
+      "winged-reversal-configuration"
+     ]
+    },
+    {
+     "why": "Triggers after fully executing a Tallon Roll",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "retrofitted-autothrusters-modification"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
