@@ -1406,6 +1406,76 @@
     }
    ]
   },
+  "rr-36": {
+   "mechanic": "Only huge ships can execute 0-speed bank maneuvers, even with an ability to execute a maneuver not on the dial.",
+   "groups": [
+    {
+     "why": "Changes a maneuver's speed by 1, like Ved Foslo",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "admiral-ozzel-command",
+      "r2-a6-astromech"
+     ]
+    }
+   ]
+  },
+  "rr-38": {
+   "mechanic": "A ship destroyed by a \"before you engage\" effect still engages, because of simultaneous fire.",
+   "groups": [
+    {
+     "why": "Can destroy you before you engage",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "console-fire"
+     ]
+    }
+   ]
+  },
+  "rr-39": {
+   "skipped": "Reviewed (Nov 24, 2026): general rule, applies to too many cards to link.",
+   "mechanic": "\"While you perform an attack\" and \"while you defend\" effects apply at the attack step they affect.",
+   "groups": []
+  },
+  "rr-40": {
+   "mechanic": "Effects that trigger when a ship is destroyed resolve in the Aftermath step if it was destroyed during an attack; otherwise they're queued right away.",
+   "groups": [
+    {
+     "why": "Triggers when you are destroyed",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "deadmans-switch-illicit",
+      "hunted",
+      "kelrodo-ai-holdout-vulture-class-droid-fighter",
+      "paige-tico-gunner",
+      "parting-gift-talent",
+      "parting-gift-talent-boe",
+      "raymus-antilles-command",
+      "stalwart-captain-command",
+      "unstable-sublight-engines-modification-boy",
+      "deathfire-tie-sa-bomber",
+      "knack-clone-z-95-headhunter",
+      "rigged-energy-cells"
+     ]
+    }
+   ]
+  },
+  "rr-41": {
+   "mechanic": "A destroyed ship stays destroyed, whatever resolves before it's removed.",
+   "groups": [
+    {
+     "why": "Delays when a destroyed ship is removed",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "stalwart-captain-command",
+      "raymus-antilles-command"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

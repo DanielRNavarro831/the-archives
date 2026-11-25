@@ -2115,6 +2115,77 @@ Already named: none
 
 - [-] **Retrofitted Autothrusters** (Modification): After you fully execute a speed 3 turn [{turnleft} or {turnright}], bank [{bankleft} or {bankright}], Tallon Roll [{trollleft} or {trollright}], or Segnor's Loop [{sloopleft} or {sloopright}] maneuver, you may spend 1 {charge} to perform a {barrelroll} action, even while stressed.
 
+## rr-36: Only huge ships can execute 0-speed bank maneuvers, even with an ability to execute a maneuver not on the dial.
+
+> **Q:** Can Ved Foslo [TIE Advanced x1] use his ship ability to reduce the speed of a [1 {bankleft}] or [1 {bankright}] maneuver, allowing him to execute a [0 {bankleft}] or [0 {bankright}] maneuver?
+>
+> **A:** No. 0-speed bank maneuvers can only be executed by huge ships, and cannot be executed by standard ships even if a particular ship has the ability to execute a maneuver that is not on its dial.
+
+Already named: Ved Foslo
+
+**Changes a maneuver's speed by 1, like Ved Foslo** (strong match) — APPROVED, on the site
+
+- [x] **Admiral Ozzel** (Command / Crew): While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 {hit} damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.
+- [x] **R2-A6** (Astromech): After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.
+
+## rr-38: A ship destroyed by a "before you engage" effect still engages, because of simultaneous fire.
+
+> **Q:** When a ship is destroyed by a game effect triggered with “before engaging,” does it still engage?
+>
+> **A:** Yes, because the game has already reached that initiative step, it is not removed until after all ships of that initiative have engaged, per simultaneous fire.
+
+Already named: none
+
+**Can destroy you before you engage** (strong match) — APPROVED, on the site
+
+- [x] **Console Fire** (Damage Card): Before you engage, roll 1 attack die. On a {hit} result, suffer 1 {hit} damage. Action: Repair this card.
+
+## rr-39: "While you perform an attack" and "while you defend" effects apply at the attack step they affect.
+
+> **Q:** When specifically during an attack do effects that apply "while you perform an attack" or "while you defend" apply?
+>
+> **A:** Abilities are applied at the step in the attack at which they take effect. For example, in the case of Predator, as this is a dice modification, it is applied at Step 2b: Modify Attack Dice. Note, however, that effects resolved during Step 2b: Modify Attack Dice and 3b: Modify Defense Dice do not use the ability queue, as they are resolved in the order described in that section of the rules reference.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 24, 2026): general rule, applies to too many cards to link.
+
+## rr-40: Effects that trigger when a ship is destroyed resolve in the Aftermath step if it was destroyed during an attack; otherwise they're queued right away.
+
+> **Q:** If a ship is destroyed, when are effects that trigger upon its destruction resolved?
+>
+> **A:** If it was destroyed during an attack, these are resolved during Step 6: Aftermath. Otherwise, these effects are added to the ability queue immediately (even if the ship would not yet be removed, such as due to the Simultaneous Fire rule or a card effect).
+
+Already named: none
+
+**Triggers when you are destroyed** (strong match) — APPROVED, on the site
+
+- [x] **Deadman's Switch** (Illicit): After you are destroyed, each other ship at range 0-1 suffers 1 {hit} damage.
+- [x] **Hunted** (Condition): After you are destroyed, you must choose another friendly ship and assign this condition to it, if able.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+- [x] **Paige Tico** (Gunner): After you perform a primary attack, you may drop 1 bomb or rotate your {singleturretarc}. After you are destroyed, you may drop 1 bomb.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using a speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+- [x] **Raymus Antilles** (Command / Crew): After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.
+- [x] **Stalwart Captain** (Command / Crew): After you are destroyed, you are not removed until the end of the End Phase.
+- [x] **Unstable Sublight Engines** (Modification): After you are destroyed, you must execute a [1 {straight}] maneuver, then each other ship at range 0-1 suffers 1 {hit} damage.
+- [x] **“Deathfire”** (TIE/sa Bomber): After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.
+- [x] **“Knack”** (Clone Z-95 Headhunter): After you are destroyed, you may choose a friendly non-limited ship at range 0-2 and assign 1 of your equipped {talent} upgrades to it. End of Game: Return all {talent} upgrades to their original ships.
+- [x] **Rigged Energy Cells** (Escape Craft): During the System Phase, if you are not docked, lose 1 {charge}. At the end of the Activation Phase, if you have 0 {charge}, you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 {crit} damage.
+
+## rr-41: A destroyed ship stays destroyed, whatever resolves before it's removed.
+
+> **Q:** If a ship is destroyed and an effect such as R1-J5 [{astromech}] repairs one or more of its damage cards before it is removed, is the ship still destroyed (and thus removed)?
+>
+> **A:** Yes. After a ship becomes "destroyed" for any reason, it remains destroyed no matter what effects are resolved before it is removed. Effects can change the timing at which a ship is removed, but cannot undo the state of being destroyed.
+
+Already named: R1-J5
+
+**Delays when a destroyed ship is removed** (strong match) — APPROVED, on the site
+
+- [x] **Stalwart Captain** (Command / Crew): After you are destroyed, you are not removed until the end of the End Phase.
+- [x] **Raymus Antilles** (Command / Crew): After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
