@@ -1756,6 +1756,55 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "forum-85": {
+   "mechanic": "Abilities triggered after the same maneuver enter the queue together; Chiss Engineering has no requirement beyond the speed, so the player can boost first and then pick a lock target.",
+   "groups": [
+    {
+     "why": "Other pilot with the Chiss Engineering ship ability",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "colonel-jendon-tie-d-defender-boe"
+     ]
+    }
+   ]
+  },
+  "forum-82": {
+   "mechanic": "A cost can only be paid if its effect can be resolved.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-77": {
+   "mechanic": "An ability that triggers when a ship would be destroyed resolves in the Aftermath step during an attack, but right after the damage card that would destroy it otherwise.",
+   "groups": [
+    {
+     "why": "Also triggers when you would be destroyed",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "tel-trevura-jumpmaster-5000"
+     ]
+    }
+   ]
+  },
+  "forum-80": {
+   "mechanic": "An attack can't be stopped once it has started; removing a lock before dice are rolled only changes obstruction.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-75": {
+   "mechanic": "An action counts as being on a ship's action bar even when another effect let the ship perform it.",
+   "groups": [
+    {
+     "why": "Checks whether the ship performed an action on your action bar",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "lieutenant-sai-lambda-class-t-4a-shuttle"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

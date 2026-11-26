@@ -2484,6 +2484,79 @@ Already named: Aurra Sing
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## forum-85: Abilities triggered after the same maneuver enter the queue together; Chiss Engineering has no requirement beyond the speed, so the player can boost first and then pick a lock target.
+
+> **Q:** A question came up tonight about how these two abilities interact together.
+Chiss Engineering: After you fully execute a speed 3-5 maneuver, you may perform a Lock action. (...other part Irrelevant for this interaction)
+Computer-Assisted Handling: After you fully execute a maneuver, you may spend 1 Charge to perform a Boost or Roll action.
+One player using Captain Yorr executed a 3 Bank and loaded both abilities into the queue.
+After performing Computer-Aided Handling Boost, that player then started to measure for Lock provided by Chiss Engineering for a target that was now in range but was highly unlikely to be before the Boost.
+The disagreement was that the check for Lock should have been made when the ability went in the queue as that would be the point of "After you execute a manoeuvre".
+The counterargument was that if you have abilities in the queue, you choose what order to execute them (such as in the Rules Reference pages 36-37 for Afterburners vs Fine-Tuned Controls).
+The counter counterargument was that at the time of entering the queue the Lock would have been out of range and so would have been an invalid target, as per the "requirement for an ability" on page 36, and so another target must be chosen for the lock.
+The counter counter counterargument was made that the Lock is an action so, just like the Afterburners/Fine-Tuned interaction, you choose when those actions take place and therefore when the checks take place.
+We chose to allow the Boost before checking for Lock.
+To summarise, the question is which of these (or other, if there is another option that we missed) is the correct resolution:
+A
+Both Chiss and Computer-Assist enter the queue, choose what happens first and execute that before testing the second.
+OR
+B
+Both Chiss and Computer-Assist enter the queue, but you must check for Lock capabilities before executing either the Lock or Boost.
+>
+> **A:** The correct answer is the A, both upgrades are added to the queue and the player can choose the order to solve the abilities. Chiss Engineering doesn't have any requirement, so there is nothing to be satisfied to be added to the queue, except for the manoeuver speed.
+
+Already named: Captain Yorr (BoE), Chiss Engineering, Computer-Assisted Handling
+
+**Other pilot with the Chiss Engineering ship ability** (strong match) — APPROVED, on the site
+
+- [x] **Colonel Jendon (BoE)** (TIE/d Defender): While you defend, if you are not shielded, you may change 1 of your blank results to a {focus} result.
+
+## forum-82: A cost can only be paid if its effect can be resolved.
+
+> **Q:** If after i move, boost or perform BR, there is no enemy ship in my BE, do i still have to spend a charge?
+>
+> **A:** No, a ship can pay a cost for an effect only if the effect can be resolved, so you don't have to spend a charge if you cannot choose a ship in your bullseye.
+
+Already named: Fennec Shand
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-77: An ability that triggers when a ship would be destroyed resolves in the Aftermath step during an attack, but right after the damage card that would destroy it otherwise.
+
+> **Q:** cis durge is on 1 hp
+gets 3hits
+does he have to resolve his ability after the 1st dmg card?
+>
+> **A:** It depends on the situation: during an attack, Durge's ability resolves at the Aftermath step, after all damage cards have been dealt. when damage is dealt by anything different from an attack, the ability is resolve after the first damage card. The remaining damage cards are dealt after the resolution of Durge's ability.
+
+Already named: Durge
+
+**Also triggers when you would be destroyed** (possible match) — APPROVED, on the site
+
+- [x] **Tel Trevura** (JumpMaster 5000): If you would be destroyed, you may spend 1 {charge}. If you do, discard all of your damage cards, suffer 5 {hit} damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.
+
+## forum-80: An attack can't be stopped once it has started; removing a lock before dice are rolled only changes obstruction.
+
+> **Q:** Seevor vs Qira: If a ship with Qira is overlapping an obstacle they have locked and they declare Seevor as the target, would Seevor ability, jamming off the lock, prevent the attack from happening?
+>
+> **A:** No, Seevor's ability cannot prevent the attack because the ability triggers when the attack as already started. Seevor's triggers before rolling dice: once the lock is gone, the obstacle can obstruct the attack. Seevor's ability can prevent the ship equipping Qira from performing a bonus attack after the first one.
+
+Already named: Captain Seevor, Qi'ra
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-75: An action counts as being on a ship's action bar even when another effect let the ship perform it.
+
+> **Q:** Does the ability from SL Echo work when somebody uses afterburners/retrofitted autothrusters and has the corresponding ability on their action bar?
+>
+> **A:** Yes. As long as the action is on the ship's action bar, Echo's ability can resolve, even if the action was granted by another effect.
+
+Already named: Afterburners, Retrofitted Autothrusters, “Echo” (SL)
+
+**Checks whether the ship performed an action on your action bar** (possible match) — SKIPPED
+
+- [-] **Lieutenant Sai** (Lambda-class T-4a Shuttle): After you a perform a {coordinate} action, if the ship you chose performed an action on your action bar, you may perform that action.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
