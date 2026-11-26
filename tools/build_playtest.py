@@ -67,7 +67,7 @@ def check_matches_staging(force, publishing):
 def password():
     pw = os.environ.get("ARCHIVES_PLAYTEST_PASSWORD")
     if not pw and PASSWORD_FILE.exists():
-        lines = PASSWORD_FILE.read_text(encoding="utf-8").strip().splitlines()
+        lines = PASSWORD_FILE.read_text(encoding="utf-8-sig").strip().splitlines()   # -sig: Notepad/PowerShell BOM
         pw = lines[0].strip() if lines else None
     if not pw:
         pw = getpass.getpass("Playtest password: ")
