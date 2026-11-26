@@ -368,6 +368,9 @@
 
   /** The card text to display: from the curated text, or the errata's "should read" text when it is a full quote. */
   function currentText(c) {
+    // an erratum that gives the card's full current wording (team errata: "cardText") wins over the printed text
+    const full = [...c.errata].reverse().map((id) => ERRATA[id]).find((e) => e && e.cardText);
+    if (full) return { text: full.cardText, from: "errata" };
     if (c.text) return { text: c.text, from: "card" };
     // use the most recent full-text erratum: each paragraph like
     // 'Ship ability should read: "..."' becomes one line of card text
