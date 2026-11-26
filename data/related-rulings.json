@@ -2112,6 +2112,71 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "forum-28": {
+   "mechanic": "Strut-Lock Override only ignores obstacles a ship moves through, not ones its base ends up overlapping; it covers boosts and barrel rolls too.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-24": {
+   "mechanic": "Results cancelled during the Neutralize Results step are gone before \"end of the Neutralize Results step\" effects can spend them.",
+   "groups": [
+    {
+     "why": "Other version of Targeting Matrix",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "targeting-matrix-modification-boe"
+     ]
+    },
+    {
+     "why": "Also spends a result after the Neutralize Results step",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "bossk-yv-666-light-freighter",
+      "bossk-z-95-af4-headhunter-z-95-headhunter",
+      "bossk-yv-666-light-freighter-aad"
+     ]
+    }
+   ]
+  },
+  "forum-22": {
+   "mechanic": "Repositioning off an obstacle before a maneuver ends avoids skipping the Perform Action step, but not the other effects of moving through or overlapping it.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-17": {
+   "mechanic": "A bomb dropped after the end-of-Activation-Phase queue has formed doesn't detonate until the next round.",
+   "groups": [
+    {
+     "why": "Other version of Parting Gift",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "parting-gift-talent-boe"
+     ]
+    },
+    {
+     "why": "Also drops a device when the ship is destroyed",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "paige-tico-gunner",
+      "deathfire-tie-sa-bomber"
+     ]
+    }
+   ]
+  },
+  "forum-7": {
+   "mechanic": "An ability that says you may coordinate a ship isn't a coordinate action, so it works while stressed and doesn't count toward the action limit.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "epic-team-1": {
+   "mechanic": "Only the player whose effect flipped a dial faceup (or who assigned the condition) may view it.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

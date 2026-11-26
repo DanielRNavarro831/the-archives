@@ -2938,6 +2938,90 @@ Already named: Coaxium Hyperfuel, Damaged Engine, Damaged Sensor Array, Pinpoint
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## forum-28: Strut-Lock Override only ignores obstacles a ship moves through, not ones its base ends up overlapping; it covers boosts and barrel rolls too.
+
+> **Q:** Dear rules people,
+Strut-Lock Override:
+At the start of your activation, you may spend 1 (Charge). If you do, ignore obstacles while you move through them this round.
+If you spend one of the charges from the Strut-Lock Override and then Maneuvre over an obstacle, so the maneuvre template overlaps at the rear of the ship but the base ends on top of the Obstacle.
+During that ships action step, can you then barrel roll/boost off the obstacle as you ignore them while moving through them this turn?
+Or does overlapping the obstacle trigger the effect of the obstacle? (I realise Overlapping and moving through are different things.)
+Thanks
+>
+> **A:** Strut-Lock Override specifically says "move through", so the effect is limited to movements where the ship doesn't overlap the obstacle with its base. The effect applies also to barrel roll or boost actions.
+
+Already named: Strut-Lock Override
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-24: Results cancelled during the Neutralize Results step are gone before "end of the Neutralize Results step" effects can spend them.
+
+> **Q:** Targeting Matrix: “While attacking, at the end of the Neutralize Results step, you may spend 1 focus result. If you do, after the attack is resolved, the defender gains 1 strain token.”
+Can I spend a focus result before all results are cancelled by the tracers as the two effects seem to take place at the same time?
+>
+> **A:** You cannot use Targeting Matrix because dice results are cancelled before the End of Neutralize Results step. Once you find out that the attack hits, you activate Tracers effect to gain locks on the target and you must cancel all remaining dice results. You can activate Targeting Matrix only after that because it occurs at the End of that step, but there are no dice results left.
+
+Already named: Targeting Matrix, XX-23 S-Thread Tracers
+
+**Other version of Targeting Matrix** (strong match) — APPROVED, on the site
+
+- [x] **Targeting Matrix** (Modification): While attacking, you may spend 1 {focus} result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.
+
+**Also spends a result after the Neutralize Results step** (possible match) — APPROVED, on the site
+
+- [x] **Bossk** (YV-666 Light Freighter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk** (Z-95-AF4 Headhunter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk (AaD)** (YV-666 Light Freighter): While you perform an attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+
+## forum-22: Repositioning off an obstacle before a maneuver ends avoids skipping the Perform Action step, but not the other effects of moving through or overlapping it.
+
+> **Q:** Does a ship that uses Pattern Analyzer to reposition off of an obstacle still skip its Perform Action Step?
+>
+> **A:** No, it will not skip its perform action step. The effect of skipping your perform action step is triggered by ending your maneuver on an obstacle. Pattern Analyzer triggers while a ship is executing a red maneuver, meaning that the ship has not yet ended its maneuver, so using the action granted by Pattern Analyzer to reposition away from the obstacle will prevent you from suffering that effect. However, you will still suffer all the other effects of moving through or overlapping that obstacle.
+
+Already named: Pattern Analyzer
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-17: A bomb dropped after the end-of-Activation-Phase queue has formed doesn't detonate until the next round.
+
+> **Q:** A ship with parting gift is destroyed by bombs at the end of activation. That ship drops a bomb using parting gift.
+Does this new bomb detonate in that moment or at the next turns end of activation?
+>
+> **A:** The bomb will not detonate until the next round. When you reach the end of activation, all 'at end of the activation phase' abilities are triggered and form a queue; this includes bomb detonation effects. This is the only opportunity for these abilities to enter the queue for the round. If a ship is destroyed by a bomb effect and then uses Parting Gift to drop an additional bomb, the 'at the end of the activation phase' opportunity has already passed, so the additional bomb's detonation ability will not be triggered until the end of the next round's activation phase.
+
+Already named: Parting Gift
+
+**Other version of Parting Gift** (strong match) — APPROVED, on the site
+
+- [x] **Parting Gift** (Talent): When you are destroyed, before you are removed, you may spend 1 {charge} on an equipped {payload} upgrade to drop or launch a bomb using the speed 1 straight or bank [{bankleft}, {straight}, {bankright}] template.
+
+**Also drops a device when the ship is destroyed** (possible match) — APPROVED, on the site
+
+- [x] **Paige Tico** (Gunner): After you perform a primary attack, you may drop 1 bomb or rotate your {singleturretarc}. After you are destroyed, you may drop 1 bomb.
+- [x] **“Deathfire”** (TIE/sa Bomber): After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.
+
+## forum-7: An ability that says you may coordinate a ship isn't a coordinate action, so it works while stressed and doesn't count toward the action limit.
+
+> **Q:** "After you fully execute a red maneuver, you may coordinate a friendly ship at range 1-3."
+Is this considered an action?
+>
+> **A:** No; Hera's ability specifies that she may coordinate a friendly ship. This is different from performing a coordinate action, so she can do it while stressed and it does not count against her limit of 1 coordinate action per round.
+
+Already named: Hera Syndulla (LaR)
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## epic-team-1: Only the player whose effect flipped a dial faceup (or who assigned the condition) may view it.
+
+> **Q:** In an Epic game, when an effect flips a ship's dial faceup, who can view that dial?
+>
+> **A:** Only the player with the effect that says to flip the dial can view the dial. If the effect is a condition (such as Listening Device), the player who assigned the condition may view the flipped dial.
+
+Already named: Compromising Intel, False Friend, Informant, Listening Device, Supreme Leader Snoke, Tal Merrik, Vi Moradi
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
