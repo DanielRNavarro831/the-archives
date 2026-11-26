@@ -3202,29 +3202,29 @@ CONTENTS
 
 205.12  ERRATUM — "Countdown" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed ship ability).)
+      (Changed ship ability)
 
 205.13  ERRATUM — "Duchess" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed ship ability).)
+      (Changed ship ability)
 
 205.14  ERRATUM — "Pure Sabacc" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed ship ability).)
+      (Changed ship ability)
 
 205.15  ERRATUM — "Vagabond" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Pilot ability should read: "After you move using your Adaptive Ailerons, if you are not stressed, you may drop 1 device."
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed pilot and ship ability).)
+      (Changed pilot and ship ability)
 
 205.16  ERRATUM — "Vizier" (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 30]
       Pilot ability should read: "After you move using your Controlled Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
-      (Changed pilot and ship ability).)
+      (Changed pilot and ship ability)
 
 205.17  ERRATUM — Alexandr Kallus (Rebel, VCX-100) [Rules Reference v1.4.6, p. 30]
       Should include the Tail Gun ship ability possessed by all other VCX-100 pilots.
-      (Added missing ship ability).)
+      (Added missing ship ability)
 
 205.18  ERRATUM — Arliz Hadrassian (Scum, BTL-A4 Y-wing) [Rules Reference v1.4.6, p. 30]
       Should read: "While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your focus results to a blank result."
@@ -3237,11 +3237,11 @@ CONTENTS
 
 205.20  ERRATUM — "Black Squadron Scout" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 30]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed ship ability).)
+      (Changed ship ability)
 
 205.21  ERRATUM — Berwer Kret (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.22  ERRATUM — Captain Feroph (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
@@ -3253,7 +3253,7 @@ CONTENTS
 
 205.24  ERRATUM — Chertek (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.25  ERRATUM — Commandant Goran (Imperial, TIE/in Interceptor) [Rules Reference v1.4.6, p. 31]
       Should read: "At the start of the Engagement Phase, choose a friendly ship at range 0–3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token."
@@ -3265,19 +3265,19 @@ CONTENTS
 
 205.27  ERRATUM — DBS-404 (Separatist, Hyena-class Droid Bomber) [Rules Reference v1.4.6, p. 31]
       Should read: "While you perform an attack at attack range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Crit] damage."
-      (Changed the range restriction on this ability).)
+      (Changed the range restriction on this ability)
 
 205.28  ERRATUM — Fenn Rau (Rebel, Sheathipede-class Shuttle) [Rules Reference v1.4.6, p. 31]
       Should read: "Before an enemy ship in your firing arc engages..."
-      (Replaced "After an enemy ship in your firing arc engages").)
+      (Replaced "After an enemy ship in your firing arc engages")
 
 205.29  ERRATUM — Goji (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "While a friendly ship at range 0–3 defends, it may roll 1 additional defense die for each friendly bomb at range 0–1 of it."
-      (Removed "or mine").)
+      (Removed "or mine")
 
 205.30  ERRATUM — Gorgol (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.31  ERRATUM — Hera Syndulla (Rebel, A/SF-01 B-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "While another friendly ship at range 1-2 defends or performs an attack, during a Modifiy Dice step,..."
@@ -3297,7 +3297,7 @@ CONTENTS
 
 205.35  ERRATUM — Lieutenant Dormitz (First Order, Upsilon-class Shuttle) [Rules Reference v1.4.6, p. 31]
       Should read: "Setup: After you are placed, friendly small ships can be placed anywhere in the play area at range 0–2 of you."
-      (Replaced "other friendly ship" with "friendly small ships").)
+      (Replaced "other friendly ship" with "friendly small ships")
 
 205.36  ERRATUM — Major Vermeil (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
@@ -3305,19 +3305,19 @@ CONTENTS
 
 205.37  ERRATUM — Norra Wexley (Rebel, ARC-170) [Rules Reference v1.4.6, p. 31]
       Should read: “...range 0–1, add 1 [Evade] result to your dice results.”
-      (Removed “you may”).)
+      (Removed “you may”)
 
 205.38  ERRATUM — "Odd Ball" (Republic, BTL-B Y-wing) [Rules Reference v1.4.6, p. 31]
       Should read: "After you fully execute..."
-      (Added "fully").)
+      (Added "fully")
 
 205.39  ERRATUM — Petranaki Arena Ace (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.40  ERRATUM — "Planetary Sentinel" (Imperial, TIE/sk Striker) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must boost."
-      (Changed ship ability).)
+      (Changed ship ability)
 
 205.41  ERRATUM — Scarif Base Pilot (Imperial, TIE Reaper) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "Controlled Ailerons: Before you reveal your dial, if you are not stressed, you may boost."
@@ -3325,33 +3325,33 @@ CONTENTS
 
 205.42  ERRATUM — Sun Fac (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.43  ERRATUM — Stalgasin Hive Guard (Separatist, Nantex-class Starfighter) [Rules Reference v1.4.6, p. 31]
       Ship ability should read: "You cannot rotate your [Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate] action."
-      (Added "fully").)
+      (Added "fully")
 
 205.44  ERRATUM — "Dutch" Vander (BTL-A4 Y-wing — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
       Pilot ability should read: "After you spend a lock during an attack, choose a friendly ship at range 1–3. The chosen ship may acquire a lock on the defender."
       Initiative value should be "4".
-      (Corrected pilot ability and adjusted initiative value).)
+      (Corrected pilot ability and adjusted initiative value)
 
 205.45  ERRATUM — Iden Versio (TIE/in Interceptor — Battle of Yavin) [Rules Reference v1.4.6, p. 32]
       Pilot ability should read: "Before a friendly TIE at range 0–1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage."
-      (Corrected pilot ability).)
+      (Corrected pilot ability)
 
 205.46  ERRATUM — Buzz Droids Swarm [Rules Reference v1.4.6, p. 32]
       Agility reduced to 1.
-      (Agility adjusted for balance).)
+      (Agility adjusted for balance)
 
 205.47  ERRATUM — "Zeb" Orrelios [Rules Reference v1.4.6, p. 32]
       Should read: "While you perform an attack at attack range 0, you may spend focus tokens for their default effect to modify results. While defending at attack range 0, the attacker may spend focus tokens for their default effect to modify results." (Ability reworked).
       BB Astromech Should read "During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll] action."
-      (Changed the effect timing to the System Phase).)
+      (Changed the effect timing to the System Phase)
 
 205.48  ERRATUM — BB-8 [Rules Reference v1.4.6, p. 32]
       Should read "During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action."
-      (Changed the effect timing to the System Phase).)
+      (Changed the effect timing to the System Phase)
 
 205.49  ERRATUM — Agent Kallus [Rules Reference v1.4.6, p. 32]
       Should read "Setup: After placing forces, assign..."
@@ -3364,7 +3364,7 @@ CONTENTS
 205.51  ERRATUM — C1-10P [Rules Reference v1.4.6, p. 32]
       Second section of the ability should read: "After you fully execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed." (Added "fully").
       •C1-10P (Erratic) Should read: "After you fully execute a maneuver, you must choose a ship at range 0–1. It gains 1 jam token."
-      (Added "fully").)
+      (Added "fully")
 
 205.52  ERRATUM — Composure [Rules Reference v1.4.6, p. 32]
       Should include the line: "If you do, you cannot perform additional actions this round."
@@ -3376,19 +3376,19 @@ CONTENTS
 
 205.54  ERRATUM — Count Dooku [Rules Reference v1.4.6, p. 32]
       Should read: "During an attack, before a ship at range 0–2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."
-      (Added "During an attack").)
+      (Added "During an attack")
 
 205.55  ERRATUM — Concussion Bombs [Rules Reference v1.4.6, p. 32]
       The first sentence should read: "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able, using the [1 [Straight]] template."
-      (Added ""using the [1 [Straight]] template").)
+      (Added "using the [1 [Straight]] template")
 
 205.56  ERRATUM — Dedicated [Rules Reference v1.4.6, p. 32]
       Changed the keyword restrictions to "Republic, Clone".
-      (Removed Non-Limited restriction and added Clone restriction).)
+      (Removed Non-Limited restriction and added Clone restriction)
 
 205.57  ERRATUM — Ferrosphere Paint [Rules Reference v1.4.6, p. 32]
       Should read: "After an enemy ship locks you, if you are not in that ship’s [Bullseye Arc], that ship gains 1 stress token unless it chooses to break its lock."
-      (Abilty adjusted to allow counterplay).)
+      (Abilty adjusted to allow counterplay)
 
 205.58  ERRATUM — Grappling Struts (Closed) [Rules Reference v1.4.6, p. 32]
       Should read “.... After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud."
@@ -3412,7 +3412,7 @@ CONTENTS
 
 205.63  ERRATUM — Leia Organa [Rules Reference v1.4.6, p. 33]
       Should read: "After a friendly ship reveals a non-[0[Stop]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver."
-      (Added restriction on maneuver type).)
+      (Added restriction on maneuver type)
 
 205.64  ERRATUM — Luke Skywalker [Rules Reference v1.4.6, p. 33]
       Should read: “At the start of the Engagement Phase, you may spend 1 [Force] and gain 1 deplete token to rotate your [Turret Arc] indicator.”
@@ -3449,4 +3449,5 @@ CONTENTS
       (Changed from “When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Crit] damage for each matching result.”)
 
 205.72  ERRATUM — B6 Blade Wing Prototype (Command upgrade, A/SF-01 B-wing) [XWA Epic Team, Nov 26, 2026]
-      Replace the first sentence of the Attack text with: “**Attack ([Lock]):** After you perform this attack, gain 1 ion token.”
+      Upgrade text should read: “Attack ([Lock]): After you perform this attack, gain 1 ion token. If this attack hits, the defender suffers 1 additional [Hit]/[Crit] damage for each matching uncanceled result after the first.”
+      (Changed attack cost timing)

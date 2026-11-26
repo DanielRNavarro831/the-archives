@@ -358,7 +358,7 @@
       ${e.epic ? `<p class="kicker">${epicTag(e)}</p>` : ""}
       ${opts.noTitle ? "" : `<h3>${esc(names)}${e.qualifier ? ` <span class="muted">(${esc(e.qualifier)})</span>` : ""}</h3>`}
       ${e.text.map((t) => `<p class="newtext">${fmt(t, { hl: opts.hl })}</p>`).join("")}
-      ${e.note ? `<p class="note">${fmt(e.note)}</p>` : ""}
+      ${e.note ? `<p class="note">(${fmt(e.note)})</p>` : ""}
       <div class="cite"><span>${sourceLink(e)} · ${esc(e.group || "Errata")} › ${esc(e.category)}</span>
         ${reportLink(`Errata for ${names} (${sourceLabel(e)})`, "#/errata-entry/" + e.id)}
         ${cards.length ? `<span class="chips">${cards.map((id) => `<a class="chip" href="#/card/${id}">${esc(CARDS[id].name)}</a>`).join("")}</span>` : ""}

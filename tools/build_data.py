@@ -284,7 +284,9 @@ def build_errata(paras, source, sections, errata):
                 errata.append(cur)
             continue
         if t.startswith("(") and cur is not None and cur["note"] is None:
-            cur["note"] = t.strip("()").strip()
+            # "(Changed ship ability)." -> "Changed ship ability" (the site adds the parentheses back)
+            m = re.match(r"^\((.*)\)\.?$", t.strip())
+            cur["note"] = (m.group(1) if m else t.strip("()")).replace('""', '"').strip()
             continue
         m = re.match(r"^(?P<head>•?(?P<n>.+?)) (?P<rest>(?P=n) should .*)$", t) or re.match(r"^(?P<head>[•\"“A-Z0-9].*?)\s+(?P<rest>(?:Ship ability should|Pilot ability should|"
                      r"Second section|The first sentence|The ability text|Initiative should|"
@@ -824,6 +826,15 @@ def main():
     # 5. full card catalogue + text from YASB (if data/yasb/yasb-cards.json exists)
     pdf_card_count = len(cards)
     cards, yasb_info = yasb_cards.merge(cards, rulings, errata, cur)
+    # a "Ship ability should read: \"Adaptive Ailerons: ...\"" erratum also applies to the ship ability card itself
+    by_name = {c["name"]: cid for cid, c in cards.items() if c.get("type") == "Ship Ability"}
+    for e in errata:
+        for t in e["text"]:
+            m = re.search(r"Ship ability should read:?\s*[\"“]([^:\"”]+):", t)
+            cid = m and by_name.get(m.group(1).strip())
+            if cid and cid not in e["cards"]:
+                e["cards"].append(cid)
+                cards[cid]["errata"].append(e["id"])
     # card ids in rulingCards / rulingCardsRemove can also be YASB-only cards (e.g. an upgrade no PDF
     # names): apply those now that the full catalogue is in
     by_rid = {r["id"]: r for r in rulings}

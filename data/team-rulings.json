@@ -124,8 +124,9 @@
    ],
    "qualifier": "Command upgrade, A/SF-01 B-wing",
    "text": [
-    "Replace the first sentence of the Attack text with: “**Attack ({lock}):** After you perform this attack, gain 1 ion token.”"
+    "Upgrade text should read: “Attack ({lock}): After you perform this attack, gain 1 ion token. If this attack hits, the defender suffers 1 additional {hit}/{crit} damage for each matching uncanceled result after the first.”"
    ],
+   "note": "Changed attack cost timing",
    "cardText": "Attack ({lock}): After you perform this attack, gain 1 ion token. If this attack hits, the defender suffers 1 additional {hit}/{crit} damage for each matching uncanceled result after the first.",
    "cards": [
     "b6-blade-wing-prototype-command-epic"
