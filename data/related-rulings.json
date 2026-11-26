@@ -1998,6 +1998,120 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "forum-39": {
+   "mechanic": "Spending a die result is a dice modification, so it can't be done during an attack whose dice can't be modified.",
+   "groups": [
+    {
+     "why": "Other version of Targeting Matrix",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "targeting-matrix-modification-boe"
+     ]
+    },
+    {
+     "why": "Also spends a result while attacking",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "bossk-yv-666-light-freighter",
+      "bossk-z-95-af4-headhunter-z-95-headhunter",
+      "bossk-yv-666-light-freighter-aad",
+      "clone-captain-rex-gunner",
+      "corsair-crew-team",
+      "deadeye-shot-talent",
+      "for-the-cause-talent-eod",
+      "rose-tico-crew",
+      "scorch-tie-se-bomber-tie-se-bomber",
+      "seyn-marana-tie-ln-fighter",
+      "suppressive-gunner-gunner",
+      "trials-of-the-darksaber"
+     ]
+    },
+    {
+     "why": "Stops an attacker's dice from being modified, like Snap Shot",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "carnor-jax-tie-in-interceptor",
+      "midnight-tie-fo-fighter",
+      "midnight-tie-fo-fighter-eod",
+      "dark-curse-tie-ln-fighter-boy",
+      "dinee-ellberger-naboo-royal-n-1-starfighter",
+      "lapin-modified-tie-ln-fighter",
+      "foresight-force-power"
+     ]
+    }
+   ]
+  },
+  "forum-37": {
+   "mechanic": "A ship with open struts ignores obstacles at range 0, so it can be boosted or barrel rolled through them even when an opponent moves it.",
+   "groups": [
+    {
+     "why": "Same open side as Grappling Struts",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "landing-struts-configuration"
+     ]
+    }
+   ]
+  },
+  "forum-36": {
+   "mechanic": "An ionized ship with no dial assigned executes a white 2 straight stress maneuver and keeps its ion tokens.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-32": {
+   "mechanic": "A damage card's ability can be ordered in the queue like a player ability; if the card is repaired first, its ability doesn't resolve.",
+   "groups": [
+    {
+     "why": "Lets you perform an action, such as repairing a damage card, before you execute your maneuver",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "advanced-sensors-sensor"
+     ]
+    }
+   ]
+  },
+  "forum-31": {
+   "mechanic": "Spending a die result is a dice modification, so it isn't allowed during a primary attack at range 0 (special attacks are fine).",
+   "groups": [
+    {
+     "why": "Other version of Targeting Matrix",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "targeting-matrix-modification-boe"
+     ]
+    },
+    {
+     "why": "Also spends a result while attacking",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "bossk-yv-666-light-freighter",
+      "bossk-z-95-af4-headhunter-z-95-headhunter",
+      "bossk-yv-666-light-freighter-aad",
+      "clone-captain-rex-gunner",
+      "corsair-crew-team",
+      "deadeye-shot-talent",
+      "for-the-cause-talent-eod",
+      "rose-tico-crew",
+      "scorch-tie-se-bomber-tie-se-bomber",
+      "seyn-marana-tie-ln-fighter",
+      "suppressive-gunner-gunner",
+      "trials-of-the-darksaber"
+     ]
+    }
+   ]
+  },
+  "forum-30": {
+   "mechanic": "A damage card dealt as a cost is added to the queue and resolves after the ability it paid for.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

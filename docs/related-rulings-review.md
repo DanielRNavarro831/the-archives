@@ -2823,6 +2823,121 @@ Already named: Grappling Struts, Landing Struts
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## forum-39: Spending a die result is a dice modification, so it can't be done during an attack whose dice can't be modified.
+
+> **Q:** Snap shot and targeting matrix
+Opponent does a blue maneuver. Snap shot triggers.
+I spend a focus result, giving a strain at the end of the neutralize results step.
+Do they keep the strain? Or does it come off with the blue maneuver?
+>
+> **A:** Spending a result is considered a dice modification effect, so you cannot spend a result with Targeting Matrix while performing an attack with Snap Shot. In the scenario where a bonus attack that does permit dice modification occurs "after a ship executes a maneuver," that attack would take place after the Check Difficulty step, so the defender could not immediately remove the strain from Targeting Matrix.
+
+Already named: Snap Shot, Targeting Matrix
+
+**Other version of Targeting Matrix** (strong match) — APPROVED, on the site
+
+- [x] **Targeting Matrix** (Modification): While attacking, you may spend 1 {focus} result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.
+
+**Also spends a result while attacking** (possible match) — APPROVED, on the site
+
+- [x] **Bossk** (YV-666 Light Freighter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk** (Z-95-AF4 Headhunter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk (AaD)** (YV-666 Light Freighter): While you perform an attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Clone Captain Rex** (Gunner): While you perform an attack, you may spend 1 {focus} result. If you do, each friendly ship that has the defender in its {bullseyearc} may gain 1 strain token to perform a {focus} action.
+- [x] **Corsair Crew** (Team / Gunner): While you perform an attack against a standard ship, you may spend 1 {hit} result. If you do, the defender gains 1 deplete token.
+- [x] **Deadeye Shot** (Talent): While you perform a primary attack, if the defender is in your {bullseyearc}, you may spend 1 {hit} result or change 1 {crit} result to a {hit} result. If you do, the defender exposes 1 of its damage cards.
+- [x] **For The Cause** (Talent): While you defend or perform an attack, you may spend 1 non-blank result to choose a friendly strained or depleted ship at range 1-2. That ship may remove 1 strain or deplete token.
+- [x] **Rose Tico** (Crew): While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship.
+- [x] **"Scorch"** (TIE/se Bomber): While a friendly ship at range 0-1 performs a primary attack, it may spend 1 {hit} result. If it does, after defending, the defender gains 1 strain token.
+- [x] **Seyn Marana** (TIE/ln Fighter): While you perform an attack, you may spend 1 {crit} result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.
+- [x] **Suppressive Gunner** (Gunner): While you perform an attack, you may spend 1 {focus} result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 {hit} damage.
+- [x] **Trials of the Darksaber** (Condition): While you perform an attack at attack range 0-2, you may spend 1 {crit} result. If you do, if the defending ship's player has scored more {missionpoint} than you, they lose 1 scored {missionpoint}. Place that {missionpoint} on this card. After you defend, if you are destroyed by an enemy ship at attack range 0-2, assign the Trials of the Darksaber condition to the attacker (all {missionpoint} remain on this card). . At the end of the game, this ship scores all {missionpoint} on this card.
+
+**Stops an attacker's dice from being modified, like Snap Shot** (strong match) — APPROVED, on the site
+
+- [x] **Carnor Jax** (TIE/in Interceptor): While an enemy ship at range 0-1 in your {frontarc} defends or performs an attack, before the Roll Attack Dice step, you may spend 1 {force}. If you do, that ship's dice cannot be modified.
+- [x] **“Midnight”** (TIE/fo Fighter): While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.
+- [x] **“Midnight” (EoD)** (TIE/fo Fighter): While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.
+- [x] **“Dark Curse” (BoY)** (TIE/ln Fighter): While you defend, the attacker's dice cannot be modified.
+- [x] **Dineé Ellberger** (Naboo Royal N-1 Starfighter): While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.
+- [x] **Lapin** (Modified TIE/ln Fighter): While you defend or perform an attack, if the enemy ship is stressed, that ship's dice cannot be modified. Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+- [x] **Foresight** (Force Power): After an enemy ship executes a maneuver, you may spend 1 {force} to perform this attack against it as a bonus attack. Attack: You may change 1 {focus} result to a {hit} result; your dice cannot be modified otherwise.
+
+## forum-37: A ship with open struts ignores obstacles at range 0, so it can be boosted or barrel rolled through them even when an opponent moves it.
+
+> **Q:** Hello,
+can a Vulture with open Grappling Struts be tractored away from an asteroid or debris cloud even if the maneuver template would overlap the obstacle while boosting or barrel-rolling?
+>
+> **A:** Grappling Struts (Open) instructs the ship to ignore obstacles at range 0. Since the ship is ignoring the obstacle, it can move through or overlap that obstacle while it boosts or barrel rolls, even if the template overlaps the obstacle. This is the case even if the opposing player is the one moving the ship, similar to how the ship ability of the Starviper-class Attack Platform will cause that ship to use a 1 bank template when an opponent causes it to barrel roll after becoming tractored.
+
+Already named: Grappling Struts
+
+**Same open side as Grappling Struts** (strong match) — APPROVED, on the site
+
+- [x] **Landing Struts** (Configuration): Closed: Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud. Open: You ignore obstacles at range 0. You cannot perform {barrelroll} actions. After you reveal your dial, if you reveal a maneuver other than a [2 {straight}] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.
+
+## forum-36: An ionized ship with no dial assigned executes a white 2 straight stress maneuver and keeps its ion tokens.
+
+> **Q:** If an ioned ship forgets to assign a dial. Does it gain a stress and do the Stress Maneuver and retain its ion tokens? Or does it perform an ion maneuver; and if so, how is it resolved?
+>
+> **A:** If an ionized ship forgets to assign a dial, that ship will gain a stress token and then execute a white 2 straight stress maneuver. Since it did not execute an ion maneuver, the ion tokens are not removed and the ship remains ionized.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-32: A damage card's ability can be ordered in the queue like a player ability; if the card is repaired first, its ability doesn't resolve.
+
+> **Q:** Lando has Loose Stabilizer and does a blue bank, then adds his pilot ability to the queue first, and then Loose Stabilizer. He uses his ability to repair Loose Stabilizer. Does Loose Stabilizer still resolve now that it is no longer present?
+>
+> **A:** Yes, you can do that because Damage Cards with "Action:" are considered player's abilities and you can choose the order of resolution. In this case Loose Stabilizer does not resolve because it's not in play anymore.
+
+Already named: Lando Calrissian, Loose Stabilizer
+
+**Lets you perform an action, such as repairing a damage card, before you execute your maneuver** (strong match) — APPROVED, on the site
+
+- [x] **Advanced Sensors** (Sensor): After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.
+
+## forum-31: Spending a die result is a dice modification, so it isn't allowed during a primary attack at range 0 (special attacks are fine).
+
+> **Q:** With 'Targeting Matrix' equiped, while attack in Range 0:
+a) can I spend 'focus' result - as it is not in '2.b Modify Attack Dice', but '4. Neutralize Results.'
+or
+b)it counts as Modify dice and is forbidden in R0?
+>
+> **A:** You cannot spend a result with Targeting Matrix while performing a primary attack at range 0. Although the ability does not resolve during the Dice Modification step, it is still a dice modification effect that takes place during an attack, and the attacker is not permitted to modify the attack dice while performing a primary attack at range 0. Note that this only applies to primary attacks; if you are performing a special attack at range 0 (for example, using the Hotshot Tail Blaster upgrade), you may modify the attack dice, including spending a result with Targeting Matrix.
+
+Already named: Hotshot Tail Blaster, Targeting Matrix
+
+**Other version of Targeting Matrix** (strong match) — APPROVED, on the site
+
+- [x] **Targeting Matrix** (Modification): While attacking, you may spend 1 {focus} result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.
+
+**Also spends a result while attacking** (possible match) — APPROVED, on the site
+
+- [x] **Bossk** (YV-666 Light Freighter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk** (Z-95-AF4 Headhunter): While you perform a primary attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Bossk (AaD)** (YV-666 Light Freighter): While you perform an attack, after the Neutralize Results step, you may spend 1 {crit} result to add 2 {hit} results.
+- [x] **Clone Captain Rex** (Gunner): While you perform an attack, you may spend 1 {focus} result. If you do, each friendly ship that has the defender in its {bullseyearc} may gain 1 strain token to perform a {focus} action.
+- [x] **Corsair Crew** (Team / Gunner): While you perform an attack against a standard ship, you may spend 1 {hit} result. If you do, the defender gains 1 deplete token.
+- [x] **Deadeye Shot** (Talent): While you perform a primary attack, if the defender is in your {bullseyearc}, you may spend 1 {hit} result or change 1 {crit} result to a {hit} result. If you do, the defender exposes 1 of its damage cards.
+- [x] **For The Cause** (Talent): While you defend or perform an attack, you may spend 1 non-blank result to choose a friendly strained or depleted ship at range 1-2. That ship may remove 1 strain or deplete token.
+- [x] **Rose Tico** (Crew): While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship.
+- [x] **"Scorch"** (TIE/se Bomber): While a friendly ship at range 0-1 performs a primary attack, it may spend 1 {hit} result. If it does, after defending, the defender gains 1 strain token.
+- [x] **Seyn Marana** (TIE/ln Fighter): While you perform an attack, you may spend 1 {crit} result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.
+- [x] **Suppressive Gunner** (Gunner): While you perform an attack, you may spend 1 {focus} result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 {hit} damage.
+- [x] **Trials of the Darksaber** (Condition): While you perform an attack at attack range 0-2, you may spend 1 {crit} result. If you do, if the defending ship's player has scored more {missionpoint} than you, they lose 1 scored {missionpoint}. Place that {missionpoint} on this card. After you defend, if you are destroyed by an enemy ship at attack range 0-2, assign the Trials of the Darksaber condition to the attacker (all {missionpoint} remain on this card). . At the end of the game, this ship scores all {missionpoint} on this card.
+
+## forum-30: A damage card dealt as a cost is added to the queue and resolves after the ability it paid for.
+
+> **Q:** When the second ability of Coaxium Hyperfuel is used, partially executing a maneuver and suffering a critical damage to perform a SLAM action, is the critical damage suffered before or after the SLAM action is performed (or rather at what point does the ability of a resulting damage card take effect)? The timing matters in cases of suffering critical damage that deals damage cards like Damaged Sensor Array, where the ability to SLAM might be fully interrupted, or Damaged Engine, where the difficulty of a potential turn option could be increased. The rules reference reads that costs can only be paid if the effect can be resolved, so the case of Damaged Sensor Array creates a bit of a conundrum. And the FAQ section further includes “The cost for an ability is paid when the ability is resolved,” and a ruling about the sequence of events when Pinpoint Tractor Array is used.
+>
+> **A:** Even if card wording may seem confusing, the FAQ regarding Pinpoint Tractor Array fully explain how to resolve the second ability of Coaxium Hyperfuel. When you resolve the ability to perform a slam, you suffer a critical hit or expose a damage card, but the effect from the damage card is added to the queue and applied once you completely resolve the slam action.
+
+Already named: Coaxium Hyperfuel, Damaged Engine, Damaged Sensor Array, Pinpoint Tractor Array
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
