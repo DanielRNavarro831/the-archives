@@ -423,9 +423,10 @@ def as_list(v):
     return v if isinstance(v, list) else [v]
 
 
-def load_playtest(cards):
-    """Read data/playtest.json -> {"cards": [...], "rulings": [...]}, with 'base' cards filled in."""
-    path = ROOT / "data" / "playtest.json"
+def load_playtest(cards, path=None):
+    """Read data/playtest.json (or another playtest file, e.g. the private one used by
+    tools/build_playtest.py) -> {"cards": [...], "rulings": [...]}, with 'base' cards filled in."""
+    path = path or ROOT / "data" / "playtest.json"
     if not path.exists():
         return {"cards": [], "rulings": []}
     src = json.loads(path.read_text(encoding="utf-8"))

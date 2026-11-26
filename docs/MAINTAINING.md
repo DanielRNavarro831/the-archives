@@ -292,22 +292,45 @@ List bans in `data/banned-cards.json`, one list per card (a card can be banned i
 
 Then run `python tools/build_data.py`.
 
-## Playtest cards and rulings (experimental)
+## Playtest site (playtest.xwingarchives.com)
 
-`data/playtest.json` holds upcoming cards and rulings. They are kept apart from the official data
-(never in the Compendium or the Judge Quiz) and only appear in **playtest mode**, tagged with a
-green **Playtest** label under a green "subject to change" banner:
+The playtest site is a password-protected copy of **staging** for the XWA playtest team (Epic playtesting
+for now). It starts in Epic mode, has the Standard / Epic switch, sends no visitor stats and is hidden
+from search engines. Staging's made-up test entries (sample playtest cards, the test bans and the test
+"outdated" ruling) are left out.
 
-- on `playtest.xwingarchives.com` (not set up yet; no stats, hidden from search engines), and
-- on staging, as a preview: click **Preview the playtest site** in the orange banner (adds `?playtest` to the address).
+**Where the content goes**
 
-Entries with `"sample": true` are made-up examples that only show in the staging preview.
+- `data/playtest-private.json`: the **real** playtest cards and rulings. Git ignores this file, so it
+  never reaches GitHub or the live and staging sites. Same format as `data/playtest.json` below.
+  Keep a backup of it somewhere private (it only exists on this computer).
+- `data/playtest.json`: only the made-up `"sample": true` examples for staging's preview
+  (click **Preview the playtest site** in staging's orange banner). This file is public.
+
+Playtest cards and rulings get a green **Playtest** label under a green "subject to change" banner.
 A new pilot can copy its ship, stats, actions and dial from an existing pilot with `"base": "<card id>"`.
-Run `python tools/build_data.py` after editing.
 
-**Important:** anything in `data/playtest.json` is published inside `site/data/archives.js` and the
-repositories are public, so real playtest content must not go in here until the playtest site has
-its own private setup with access control.
+**The password**
+
+Visitors see a password screen; the password decrypts the site in their browser (AES-256-GCM).
+The build reads it from the `ARCHIVES_PLAYTEST_PASSWORD` environment variable, or the first line of
+`data/playtest-password.txt` (also ignored by git), or asks for it. To change it (for example to cut
+someone off), change it there and publish again; everyone then needs the new password.
+
+**Publishing**
+
+1. Get the change onto staging first (commit, push to staging). The playtest site is only published from
+   exactly what's on staging.
+2. `python tools/build_playtest.py` builds it into `build/playtest-site/` to check locally
+   (`python -m http.server 8766 --directory build/playtest-site`, then open http://localhost:8766).
+3. `python tools/build_playtest.py --publish` builds it and pushes it to the
+   `the-archives-playtest` repository, which publishes it in about a minute.
+
+Editing only `data/playtest-private.json` doesn't need a staging push: just run step 3.
+
+**One-time setup (already done once it works):** a GitHub repository `the-archives-playtest` with
+Pages set to "GitHub Actions" and the custom domain `playtest.xwingarchives.com` (Enforce HTTPS on),
+and at Porkbun a `CNAME` record `playtest` → `danielrnavarro831.github.io`.
 
 ## Judge Quiz
 

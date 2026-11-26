@@ -10,3 +10,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .claude/
+# Playtest site: the build output, the real playtest content and the password never go in a repository
+/build/
+/data/playtest-private.json
+/data/playtest-password.txt

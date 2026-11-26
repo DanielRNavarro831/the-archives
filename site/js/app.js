@@ -15,7 +15,8 @@
   // The playtest copy (playtest.xwingarchives.com) adds upcoming cards and rulings from
   // data/playtest.json, each tagged "Playtest". Staging can preview it with ?playtest in the URL
   // (the banner has a link), which also shows the made-up "sample" entries.
-  const PT_HOST = /^playtest\./.test(location.hostname);
+  // (DB.meta.site is "playtest" in the password-protected build made by tools/build_playtest.py.)
+  const PT_HOST = /^playtest\./.test(location.hostname) || DB.meta.site === "playtest";
   const PT_PREVIEW = STAGING && new URLSearchParams(location.search).has("playtest");
   const PLAYTEST = PT_HOST || PT_PREVIEW;
   if (PLAYTEST && DB.playtest) {
@@ -33,9 +34,13 @@
   // Epic content (the Epic rules document, huge-ship appendix and FAQ, Epic forum answers and errata)
   // is flagged "epic" by the build and only shown in Epic mode. The switch appears where
   // data/sources.json "epicToggle" allows it ("staging" or "live"); everywhere else it's Standard only.
-  const EPIC_TOGGLE = DB.meta.epicToggle === "live" || (DB.meta.epicToggle === "staging" && STAGING);
+  // The playtest site is for Epic playtesting: it always has the switch and starts in Epic mode.
+  const EPIC_TOGGLE = PT_HOST || DB.meta.epicToggle === "live" || (DB.meta.epicToggle === "staging" && STAGING);
   let EPIC = false;
-  try { EPIC = EPIC_TOGGLE && localStorage.getItem("archives-mode") === "epic"; } catch (e) { /* private mode */ }
+  try {
+    const saved = localStorage.getItem("archives-mode");
+    EPIC = EPIC_TOGGLE && (saved === "epic" || (PT_HOST && !saved));
+  } catch (e) { EPIC = PT_HOST; /* private mode */ }
   const EPIC_IDS = new Set([...DB.rules, ...DB.rulings, ...DB.errata, ...DB.cards].filter((x) => x.epic).map((x) => x.id));
   if (!EPIC) {
     DB.rules = DB.rules.filter((r) => !r.epic);
