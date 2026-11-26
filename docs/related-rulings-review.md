@@ -2695,6 +2695,83 @@ Already named: Grappling Struts, Landing Struts, Seismic Charges
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## forum-57: A stressed ship can't perform the focus action from overlapping an enemy ship, even with an ability that lets it act while stressed.
+
+> **Q:** Can a ship preform the enemy overlap (bump) focus using an ability such as contraband cybernetics, Tycho, proud tradition, etc if it already has a stress token? To clarify, it didn’t do a blue move so keep a stress from the last turn.
+>
+> **A:** No, a ship cannot perform the overlap focus action if it is stressed, even if it has an ability that allows it to perform actions while stressed. The rules require a ship to not be stressed in order to gain the opportunity to perform the action. The "perform actions while stressed" abilities do not overcome this rule.
+
+Already named: Contraband Cybernetics, Proud Tradition, Tycho Celchu
+
+## forum-55: Remotes can't gain tokens other than locks, so tokens can't be transferred to them.
+
+> **Q:** Can scum Cad Bane pilot use his pilot ability to pass tokens to a remote? Assuming the attack hits, etc.
+>
+> **A:** No, Cad Bane cannot use his ability to transfer a token to a defending remote. By rule, remotes cannot gain any tokens except for locks, and Cad Bane's ability cannot transfer a lock token.
+
+Already named: Cad Bane, Cad Bane (AaD)
+
+**Transfers your tokens to an enemy ship, like Cad Bane** (strong match)
+
+- [ ] **4-LOM** (G-1A Starfighter): After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
+- [ ] **4-LOM** (Crew): At the start of the End Phase, you may spend 1 calculate token and choose an enemy ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
+
+## forum-52: An action on an upgrade's action bar is added to the ship's action bar, even if the ship already has that action, so it triggers Intuitive Interface.
+
+> **Q:** I have noticed an unfortunate rise in what looks like a familiar old 1.0 TLT list with the 7 Republic Y-wings equipped with a Burst Laser Turret and Targeting Computer. I will not get into the ugly feel of broken this list has with negative game play, but question on ruling-
+The Republic Y-wing has the following built in ability – “Intuitive Interface: After you perform an action added to your action bar by a upgrade, you may perform a calculate action.” It appears players are adding a targeting computer upgrade in order to be able to target lock, then gain a calculate.
+I would argue that since this ship already has a red target lock action, the Intuitive Interface would NOT trigger because you have not added the action, it is already on your action bar? Interested on a ruling here?
+And side note, this list looks like good cause for looking into limiting non-unique pilots and also upgrade cards to avoid broken lists that no one enjoys flying against…
+>
+> **A:** Second point under Actions in RRG specifically says: "Some upgrade cards have an action bar that lists one or more actions. These actions are added to the ship’s action bar and therefore are standard actions that the ship can perform." Therefore, Targeting Computer adds a white target lock action to the Resistance Y Wing action bar and it can be used in combination with Intuitive Interface. For the rest of the question we suggest to report it under Feedback & Bugs section of the forum: https://www.xwing.life/forum/feedback
+
+Already named: Burst Laser Turret, Intuitive Interface, Targeting Computer
+
+**Pilots with the Intuitive Interface ship ability** (strong match)
+
+- [ ] **Aftab Ackbar** (BTA-NR2 Y-wing): After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.
+- [ ] **C'ai Threnalli** (BTA-NR2 Y-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [ ] **Corus Kapellim** (BTA-NR2 Y-wing): Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.
+- [ ] **Kijimi Spice Runner** (BTA-NR2 Y-wing): 
+- [ ] **Lega Fossang** (BTA-NR2 Y-wing): While you perform a primary or {turret} attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.
+- [ ] **New Republic Patrol** (BTA-NR2 Y-wing): 
+- [ ] **Shasa Zaro** (BTA-NR2 Y-wing): After you defend, you may choose a friendly ship in your {fullreararc} at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.
+- [ ] **Teza Nasz** (BTA-NR2 Y-wing): While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ({leftarc} or {rightarc}), the attacker may reroll 1 attack die.
+- [ ] **Wilsa Teshlo** (BTA-NR2 Y-wing): After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring {charge} from 1 of its equipped upgrades and loses that {charge}.
+- [ ] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+
+## forum-48: Attack and defense abilities in the same step resolve in player order.
+
+> **Q:** If klick uses his ability to cancel my r1 BLT, can I spend the second charge to add another dice?
+>
+> **A:** Yes, you can do it but there is a difference depending on player order. Klick and BLT abilities trigger at step 2.a of the attack and: if the defending player goes first, Klick resolves its ability and then the attacking player resolves BLT ability. if the attacking player goes first, BLT ability has to be resolved before Klick and other abilities of the defending player.
+
+Already named: "Klick", Burst Laser Turret, “Klick” (SoC)
+
+## forum-44: While a ship ignores obstacles, it can lock and be locked at range 0 of a gas cloud; locks already held aren't broken when the effect ends.
+
+> **Q:** If you activate the ability on Ahsoka's card but remain at range 0 of a gas cloud, is it still
+possible to take a target lock action as part of your normal perform action step? If so, would Dash maintain the target lock going into the engagement phase?
+In addition, what would happen if an enemy tried to lock Dash on a gas cloud?
+Thanks in advance.
+>
+> **A:** Ahsoka Tano's ability causes the ship to ignore obstacles until the end of the Activation Phase. While Dash Rendar is ignoring obstacles, he can acquire locks and be locked even while at range 0 of a gas cloud. Once the Activation phase ends and Ahsoka's ability is no longer in effect, Dash is at range 0 of the gas cloud and he can no longer acquire locks or be locked by other ships. This effect does not break any locks maintained by Dash, or any locks on Dash that are maintained by another ship.
+
+Already named: Ahsoka Tano, Dash Rendar (YLF)
+
+**Ignores obstacles until the end of the phase, like Ahsoka Tano** (strong match)
+
+- [ ] **R5-X3** (Astromech): Before you activate or engage, you may spend 1 {charge} to ignore obstacles until the end of this phase.
+
+## forum-41: Open struts ignore obstacles at range 0, including ones overlapped during the maneuver; after they flip closed, the ship suffers range 0 effects but not overlap effects.
+
+> **Q:** If a Vulture/Hyena leaves a rock/debris with a 2 straight and lands on another rock/debris, does it ignore the effects of overlapping since its struts are open at the time of overlap?
+Similarly, what happens if the 2 straight is blocked and it lands on the same obstacle it tried to leave?
+>
+> **A:** A ship will ignore the effects of overlapping an obstacle while its Grappling/Landing Struts are in the Open position. Grappling/Landing Struts (Open) read: "You ignore obstacles at range 0." If the ship is physically on top of an obstacle, by rule it is also at range 0 of that obstacle, so any effects triggered by overlapping that obstacle during the maneuver are ignored. Once all steps of executing the maneuver are complete, the Grappling/Landing Struts will flip to the Closed side, the ship is no longer ignoring the obstacle, and the ship is now subject to the effects of being at Range 0 of the obstacle (but not the effects of overlapping the obstacle).
+
+Already named: Grappling Struts, Landing Struts
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

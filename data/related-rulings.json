@@ -1886,6 +1886,64 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "forum-57": {
+   "mechanic": "A stressed ship can't perform the focus action from overlapping an enemy ship, even with an ability that lets it act while stressed.",
+   "groups": []
+  },
+  "forum-55": {
+   "mechanic": "Remotes can't gain tokens other than locks, so tokens can't be transferred to them.",
+   "groups": [
+    {
+     "why": "Transfers your tokens to an enemy ship, like Cad Bane",
+     "strength": "strong",
+     "cards": [
+      "4-lom-g-1a-starfighter",
+      "4-lom-crew-aad"
+     ]
+    }
+   ]
+  },
+  "forum-52": {
+   "mechanic": "An action on an upgrade's action bar is added to the ship's action bar, even if the ship already has that action, so it triggers Intuitive Interface.",
+   "groups": [
+    {
+     "why": "Pilots with the Intuitive Interface ship ability",
+     "strength": "strong",
+     "cards": [
+      "aftab-ackbar-bta-nr2-y-wing",
+      "cai-threnalli-bta-nr2-y-wing-y-wing",
+      "corus-kapellim-bta-nr2-y-wing",
+      "kijimi-spice-runner-bta-nr2-y-wing",
+      "lega-fossang-bta-nr2-y-wing",
+      "new-republic-patrol-bta-nr2-y-wing",
+      "shasa-zaro-bta-nr2-y-wing",
+      "teza-nasz-bta-nr2-y-wing",
+      "wilsa-teshlo-bta-nr2-y-wing",
+      "zorii-bliss-bta-nr2-y-wing"
+     ]
+    }
+   ]
+  },
+  "forum-48": {
+   "mechanic": "Attack and defense abilities in the same step resolve in player order.",
+   "groups": []
+  },
+  "forum-44": {
+   "mechanic": "While a ship ignores obstacles, it can lock and be locked at range 0 of a gas cloud; locks already held aren't broken when the effect ends.",
+   "groups": [
+    {
+     "why": "Ignores obstacles until the end of the phase, like Ahsoka Tano",
+     "strength": "strong",
+     "cards": [
+      "r5-x3-astromech"
+     ]
+    }
+   ]
+  },
+  "forum-41": {
+   "mechanic": "Open struts ignore obstacles at range 0, including ones overlapped during the maneuver; after they flip closed, the ship suffers range 0 effects but not overlap effects.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
