@@ -2703,6 +2703,8 @@ Already named: Grappling Struts, Landing Struts, Seismic Charges
 
 Already named: Contraband Cybernetics, Proud Tradition, Tycho Celchu
 
+**SKIPPED:** Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.
+
 ## forum-55: Remotes can't gain tokens other than locks, so tokens can't be transferred to them.
 
 > **Q:** Can scum Cad Bane pilot use his pilot ability to pass tokens to a remote? Assuming the attack hits, etc.
@@ -2711,10 +2713,47 @@ Already named: Contraband Cybernetics, Proud Tradition, Tycho Celchu
 
 Already named: Cad Bane, Cad Bane (AaD)
 
-**Transfers your tokens to an enemy ship, like Cad Bane** (strong match)
+**Transfers your tokens to an enemy ship, like Cad Bane** (strong match) — APPROVED, on the site
 
-- [ ] **4-LOM** (G-1A Starfighter): After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
-- [ ] **4-LOM** (Crew): At the start of the End Phase, you may spend 1 calculate token and choose an enemy ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
+- [x] **4-LOM** (G-1A Starfighter): After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
+- [x] **4-LOM** (Crew): At the start of the End Phase, you may spend 1 calculate token and choose an enemy ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.
+
+**Transfers tokens between objects** (strong match) — APPROVED, on the site
+
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+- [x] **Hera Syndulla** (A/SF-01 B-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Hera Syndulla** (RZ-1 A-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
+- [x] **Aurra Sing** (Firespray-class Patrol Craft): Before you engage, you may spend 1 {force} to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.
+- [x] **Benthic Two Tubes** (UT-60D U-wing): After you perform a {focus} action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.
+- [x] **Captain Kagi** (Lambda-class T-4a Shuttle): At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.
+- [x] **Corran Horn** (T-65 X-wing): After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.
+- [x] **Corus Kapellim** (BTA-NR2 Y-wing): Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.
+- [x] **Corus Kapellim** (BTA-NR2-W Y-wing): Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.
+- [x] **Dash Rendar (SL)** (YT-2400 Light Freighter): After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.
+- [x] **Dash Rendar (YLF-SL)** (YT-2400 Light Freighter): After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.
+- [x] **DFS-311** (Vulture-class Droid Fighter): At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.
+- [x] **DFS-311 (SoC)** (Vulture-class Droid Fighter): At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.
+- [x] **DGS-286** (HMP Droid Gunship): Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you.
+- [x] **Ensnare** (Talent): At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your {singleturretarc} arc at range 0-1. Transfer 1 tractor token to it.
+- [x] **Gina Moonsong** (A/SF-01 B-wing): At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.
+- [x] **"Hound"** (LAAT/i Gunship): After a friendly small ship in your {singleturretarc} gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.
+- [x] **IG-88A** (Aggressor Assault Fighter): At the start of the Engagement Phase, you may choose 1 friendly ship with {calculate} on its action bar at range 1-3. If you do, transfer 1 of your calculate tokens to it.
+- [x] **Kaa'to Leeachos** (Z-95-AF4 Headhunter): At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.
+- [x] **Kelrodo-Ai Holdout** (Vulture-class Droid Fighter): After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3 Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+- [x] **Korkie Kryze** (Crew): After a friendly ship in your {fullfrontarc} at range 1-2 becomes the defender, you may transfer 1 green token to it. While a friendly ship in your {fullfrontarc} at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.
+- [x] **Kyle Katarn** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.
+- [x] **L4E-R5** (Astromech): At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.
+- [x] **Manaroo** (JumpMaster 5000): At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.
+- [x] **Mercenary** (Talent): After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself.
+- [x] **Palob Godalhi** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.
+- [x] **Plo Koon** (Delta-7 Aethersprite): At the start of the Engagement Phase, you may spend 1 {force} and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself.
+- [x] **Plo Koon** (Delta-7b Aethersprite): At the start of the Engagement Phase, you may spend 1 {force} and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself.
+- [x] **Protectorate Gleb** (Crew): After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.
+- [x] **Protectorate Gleb** (Crew): While you defend or perform an attack, during the Modify Dice step, another friendly ship at range 0-2 may gain a strain or deplete token. If they do, you may transfer one focus token from that ship to you.
+- [x] **PZ-4CO** (Crew): At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.
+- [x] **Seftin Vanik** (RZ-2 A-wing): After you perform a {boost} action, you may transfer 1 evade token to a friendly ship at range 1.
+- [x] **“Axe”** (V-19 Torrent Starfighter): After you defend or perform an attack, you may choose a friendly ship at range 1-2 in your {leftarc} or {rightarc}. If you do, transfer 1 green token to that ship.
 
 ## forum-52: An action on an upgrade's action bar is added to the ship's action bar, even if the ship already has that action, so it triggers Intuitive Interface.
 
@@ -2727,18 +2766,20 @@ And side note, this list looks like good cause for looking into limiting non-uni
 
 Already named: Burst Laser Turret, Intuitive Interface, Targeting Computer
 
-**Pilots with the Intuitive Interface ship ability** (strong match)
+**ON HOLD:** Follow-up (Nov 25, 2026): the Intuitive Interface pilots are linked; still to do: find the upgrades that add an action to the ship's action bar (like Targeting Computer) and link this ruling to them.
 
-- [ ] **Aftab Ackbar** (BTA-NR2 Y-wing): After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.
-- [ ] **C'ai Threnalli** (BTA-NR2 Y-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
-- [ ] **Corus Kapellim** (BTA-NR2 Y-wing): Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.
-- [ ] **Kijimi Spice Runner** (BTA-NR2 Y-wing): 
-- [ ] **Lega Fossang** (BTA-NR2 Y-wing): While you perform a primary or {turret} attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.
-- [ ] **New Republic Patrol** (BTA-NR2 Y-wing): 
-- [ ] **Shasa Zaro** (BTA-NR2 Y-wing): After you defend, you may choose a friendly ship in your {fullreararc} at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.
-- [ ] **Teza Nasz** (BTA-NR2 Y-wing): While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ({leftarc} or {rightarc}), the attacker may reroll 1 attack die.
-- [ ] **Wilsa Teshlo** (BTA-NR2 Y-wing): After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring {charge} from 1 of its equipped upgrades and loses that {charge}.
-- [ ] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+**Pilots with the Intuitive Interface ship ability** (strong match) — APPROVED, on the site
+
+- [x] **Aftab Ackbar** (BTA-NR2 Y-wing): After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.
+- [x] **C'ai Threnalli** (BTA-NR2 Y-wing): After you fully execute a maneuver, if you moved through a friendly ship, you may perform an {evade} action.
+- [x] **Corus Kapellim** (BTA-NR2 Y-wing): Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.
+- [x] **Kijimi Spice Runner** (BTA-NR2 Y-wing): 
+- [x] **Lega Fossang** (BTA-NR2 Y-wing): While you perform a primary or {turret} attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.
+- [x] **New Republic Patrol** (BTA-NR2 Y-wing): 
+- [x] **Shasa Zaro** (BTA-NR2 Y-wing): After you defend, you may choose a friendly ship in your {fullreararc} at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.
+- [x] **Teza Nasz** (BTA-NR2 Y-wing): While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ({leftarc} or {rightarc}), the attacker may reroll 1 attack die.
+- [x] **Wilsa Teshlo** (BTA-NR2 Y-wing): After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring {charge} from 1 of its equipped upgrades and loses that {charge}.
+- [x] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
 
 ## forum-48: Attack and defense abilities in the same step resolve in player order.
 
@@ -2747,6 +2788,8 @@ Already named: Burst Laser Turret, Intuitive Interface, Targeting Computer
 > **A:** Yes, you can do it but there is a difference depending on player order. Klick and BLT abilities trigger at step 2.a of the attack and: if the defending player goes first, Klick resolves its ability and then the attacking player resolves BLT ability. if the attacking player goes first, BLT ability has to be resolved before Klick and other abilities of the defending player.
 
 Already named: "Klick", Burst Laser Turret, “Klick” (SoC)
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
 ## forum-44: While a ship ignores obstacles, it can lock and be locked at range 0 of a gas cloud; locks already held aren't broken when the effect ends.
 
@@ -2759,9 +2802,15 @@ Thanks in advance.
 
 Already named: Ahsoka Tano, Dash Rendar (YLF)
 
-**Ignores obstacles until the end of the phase, like Ahsoka Tano** (strong match)
+**Ignores obstacles (including gas clouds), like Ahsoka Tano** (strong match) — APPROVED, on the site
 
-- [ ] **R5-X3** (Astromech): Before you activate or engage, you may spend 1 {charge} to ignore obstacles until the end of this phase.
+- [x] **R5-X3** (Astromech): Before you activate or engage, you may spend 1 {charge} to ignore obstacles until the end of this phase.
+- [x] **Collision Detector** (Sensor): While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 {charge} to ignore its effects until the end of the round.
+- [x] **Dash Rendar** (YT-2400 Light Freighter): While you move, you ignore obstacles.
+- [x] **Dash Rendar (YLF)** (YT-2400 Light Freighter): During the Engagement Phase, you ignore the effects of obstacles that you are overlapping.
+- [x] **Poe Dameron** (Scavenged YT-1300): Before you execute a maneuver, you may spend 1 {charge}. If you do, ignore obstacles during that maneuver. After you fully execute a maneuver, you may spend 2 {charge} to perform a white {boost} or red {barrelroll} action. Then if you performed a red {barrelroll} action, expose 1 damage card, if able.
+- [x] **Qi'ra** (Crew): While you move and perform attacks, you ignore obstacles that you are locking.
+- [x] **Strut-Lock Override** (Configuration): At the start of your activation, you may spend 1 {charge}. If you do, ignore obstacles while you move through them this round.
 
 ## forum-41: Open struts ignore obstacles at range 0, including ones overlapped during the maneuver; after they flip closed, the ship suffers range 0 effects but not overlap effects.
 
@@ -2771,6 +2820,8 @@ Similarly, what happens if the 2 straight is blocked and it lands on the same ob
 > **A:** A ship will ignore the effects of overlapping an obstacle while its Grappling/Landing Struts are in the Open position. Grappling/Landing Struts (Open) read: "You ignore obstacles at range 0." If the ship is physically on top of an obstacle, by rule it is also at range 0 of that obstacle, so any effects triggered by overlapping that obstacle during the maneuver are ignored. Once all steps of executing the maneuver are complete, the Grappling/Landing Struts will flip to the Closed side, the ship is no longer ignoring the obstacle, and the ship is now subject to the effects of being at Range 0 of the obstacle (but not the effects of overlapping the obstacle).
 
 Already named: Grappling Struts, Landing Struts
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 

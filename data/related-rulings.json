@@ -1888,6 +1888,7 @@
   },
   "forum-57": {
    "mechanic": "A stressed ship can't perform the focus action from overlapping an enemy ship, even with an ability that lets it act while stressed.",
+   "skipped": "Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.",
    "groups": []
   },
   "forum-55": {
@@ -1896,19 +1897,63 @@
     {
      "why": "Transfers your tokens to an enemy ship, like Cad Bane",
      "strength": "strong",
+     "status": "approved",
      "cards": [
       "4-lom-g-1a-starfighter",
       "4-lom-crew-aad"
+     ]
+    },
+    {
+     "why": "Transfers tokens between objects",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "amilyn-holdo-crew",
+      "hera-syndulla-a-sf-01-b-wing-b-wing",
+      "hera-syndulla-rz-1-a-wing-a-wing",
+      "holo-tie-ba-interceptor",
+      "aurra-sing-firespray-class-patrol-craft",
+      "benthic-two-tubes-ut-60d-u-wing",
+      "captain-kagi-lambda-class-t-4a-shuttle",
+      "corran-horn-t-65-x-wing-x-wing",
+      "corus-kapellim-bta-nr2-y-wing",
+      "corus-kapellim-bta-nr2-w-y-wing-wartime",
+      "dash-rendar-yt-2400-light-freighter-scum",
+      "dash-rendar-yt-2400-light-freighter-ylf-sl",
+      "dfs-311-vulture-class-droid-fighter",
+      "dfs-311-vulture-class-droid-fighter-soc",
+      "dgs-286-hmp-droid-gunship",
+      "ensnare-talent",
+      "gina-moonsong-a-sf-01-b-wing",
+      "hound-laat-i-gunship",
+      "ig-88a-aggressor-assault-fighter",
+      "kaato-leeachos-z-95-af4-headhunter",
+      "kelrodo-ai-holdout-vulture-class-droid-fighter",
+      "korkie-kryze-crew",
+      "kyle-katarn-hwk-290-light-freighter",
+      "l4e-r5-astromech",
+      "manaroo-jumpmaster-5000",
+      "mercenary-talent-ylf",
+      "palob-godalhi-hwk-290-light-freighter",
+      "plo-koon-delta-7-aethersprite",
+      "plo-koon-delta-7b-aethersprite-delta-7b",
+      "protectorate-gleb-crew",
+      "protectorate-gleb-crew-epic",
+      "pz-4co-crew",
+      "seftin-vanik-rz-2-a-wing",
+      "axe-v-19-torrent-starfighter"
      ]
     }
    ]
   },
   "forum-52": {
    "mechanic": "An action on an upgrade's action bar is added to the ship's action bar, even if the ship already has that action, so it triggers Intuitive Interface.",
+   "onHold": "Follow-up (Nov 25, 2026): the Intuitive Interface pilots are linked; still to do: find the upgrades that add an action to the ship's action bar (like Targeting Computer) and link this ruling to them.",
    "groups": [
     {
      "why": "Pilots with the Intuitive Interface ship ability",
      "strength": "strong",
+     "status": "approved",
      "cards": [
       "aftab-ackbar-bta-nr2-y-wing",
       "cai-threnalli-bta-nr2-y-wing-y-wing",
@@ -1926,22 +1971,31 @@
   },
   "forum-48": {
    "mechanic": "Attack and defense abilities in the same step resolve in player order.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
   "forum-44": {
    "mechanic": "While a ship ignores obstacles, it can lock and be locked at range 0 of a gas cloud; locks already held aren't broken when the effect ends.",
    "groups": [
     {
-     "why": "Ignores obstacles until the end of the phase, like Ahsoka Tano",
+     "why": "Ignores obstacles (including gas clouds), like Ahsoka Tano",
      "strength": "strong",
+     "status": "approved",
      "cards": [
-      "r5-x3-astromech"
+      "r5-x3-astromech",
+      "collision-detector-sensor",
+      "dash-rendar-yt-2400-light-freighter",
+      "dash-rendar-yt-2400-light-freighter-ylf",
+      "poe-dameron-scavenged-yt-1300-yt-1300",
+      "qira-crew",
+      "strut-lock-override-configuration-soc"
      ]
     }
    ]
   },
   "forum-41": {
    "mechanic": "Open struts ignore obstacles at range 0, including ones overlapped during the maneuver; after they flip closed, the ship suffers range 0 effects but not overlap effects.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
   "rr-69": {
