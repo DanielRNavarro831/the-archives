@@ -1,5 +1,6 @@
 {
  "_readme": "Rulings given directly by an XWA team member (not from a document or the forum), e.g. the Epic team or the rules team on the X-Wing: The Miniatures Game Discord (the public players' server, not the XWA's internal one). Each ruling: id, team, date, topic, q (question), a (list of answer paragraphs), cards (card ids it applies to); optional via (where it was given, e.g. 'X-Wing: The Miniatures Game Discord'), url (link to the message), answeredBy ([{name, role, date}], shown as the 'Answered by' badge), and epic: true for Epic-only rulings. Don't include the name of the person who asked. Add new ones at the end; never change an id once published.",
+ "_readmeErrata": "errata: card corrections given directly by an XWA team. Each: id, team, date, category (e.g. 'Upgrade Cards'), names (card names as printed), qualifier (optional, e.g. the slot or ship), text (list of paragraphs: the correction), note (optional), cards (card ids it applies to); epic: true hides it outside Epic mode. Add new ones at the end; never change an id once published.",
  "rulings": [
   {
    "id": "epic-team-1",
@@ -109,6 +110,24 @@
    "cards": [
     "major-vynder-alpha-class-star-wing-ssl",
     "stealth-gambit-talent-sl"
+   ]
+  }
+ ],
+ "errata": [
+  {
+   "id": "epic-team-errata-1",
+   "team": "XWA Epic Team",
+   "date": "Nov 26, 2026",
+   "category": "Upgrade Cards",
+   "names": [
+    "B6 Blade Wing Prototype"
+   ],
+   "qualifier": "Command upgrade, A/SF-01 B-wing",
+   "text": [
+    "Replace the first sentence of the Attack text with: “**Attack ({lock}):** After you perform this attack, gain 1 ion token.”"
+   ],
+   "cards": [
+    "b6-blade-wing-prototype-command-epic"
    ]
   }
  ]

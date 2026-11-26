@@ -3447,3 +3447,6 @@ CONTENTS
       “System” and “Bomb” upgrade cards should be labeled “Sensor” and “Payload” upgrade cards instead.
       Proximity Mines Should read “When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] plus 1 [Hit]/[Crit] damage for each matching result.”
       (Changed from “When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Crit] damage for each matching result.”)
+
+205.72  ERRATUM — B6 Blade Wing Prototype (Command upgrade, A/SF-01 B-wing) [XWA Epic Team, Nov 26, 2026]
+      Replace the first sentence of the Attack text with: “**Attack ([Lock]):** After you perform this attack, gain 1 ion token.”

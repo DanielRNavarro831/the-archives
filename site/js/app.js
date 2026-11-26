@@ -189,7 +189,7 @@
   function sourceLabel(item) {
     if (item.source === "forum") return `XWA Rules Forum, ${shortDate(item.date)}`;
     if (item.source === "playtest") return `Playtest ruling, ${shortDate(item.date)}`;
-    if (item.source === "team") return item.via ? `${item.via}, ${shortDate(item.date)}` : `${item.team || "XWA team"} ruling, ${shortDate(item.date)}`;
+    if (item.source === "team") return item.via ? `${item.via}, ${shortDate(item.date)}` : `${item.team || "XWA team"} ${item.names ? "errata" : "ruling"}, ${shortDate(item.date)}`;
     const s = SOURCES[item.source];
     if (!s) return "";
     return `${s.title} ${verLabel(s)}, p. ${item.page}`;

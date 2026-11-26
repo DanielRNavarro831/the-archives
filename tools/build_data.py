@@ -489,6 +489,26 @@ def add_unprinted_cards(cards, sources, rules):
     print(f"Unprinted cards: {added}")
 
 
+def load_team_errata(cards):
+    """data/team-rulings.json "errata" -> errata entries (source "team"), each tied to the cards it lists."""
+    path = ROOT / "data" / "team-rulings.json"
+    if not path.exists():
+        return []
+    out = []
+    for e in json.loads(path.read_text(encoding="utf-8")).get("errata", []):
+        bad = [i for i in e.get("cards", []) if i not in cards]
+        if bad:
+            print(f"WARNING: team erratum {e['id']} names unknown cards {bad}")
+        e = dict(e, source="team", group=e.get("team", "XWA team") + " Errata",
+                 cards=[i for i in e.get("cards", []) if i in cards])
+        for i in e["cards"]:
+            if e["id"] not in cards[i]["errata"]:
+                cards[i]["errata"].append(e["id"])
+        out.append(e)
+    print(f"Team errata: {len(out)}")
+    return out
+
+
 def load_team_rulings(cards):
     """data/team-rulings.json -> rulings (source "team"), each tied to the cards it lists."""
     path = ROOT / "data" / "team-rulings.json"
@@ -835,6 +855,7 @@ def main():
 
     # 6a. rulings given directly by an XWA team (data/team-rulings.json), e.g. the Epic team
     rulings = rulings + load_team_rulings(cards)
+    errata = errata + load_team_errata(cards)
 
     # banned cards (data/banned-cards.json): per card, a list of {format, where, note, since, stagingTest}
     ban_path = ROOT / "data" / "banned-cards.json"

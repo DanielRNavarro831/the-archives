@@ -210,7 +210,8 @@ def write_text(sections, rules, rulings, errata, src_by_id, cards, edition):
                 names = ", ".join(n.lstrip("•") for n in e["names"]) or e["category"]
                 s_ = src_by_id.get(e["source"], {})
                 out += ["", f'{s["n"]}.{it["p"]}  ERRATUM — {names}' + (f' ({e["qualifier"]})' if e.get("qualifier") else "") +
-                        f' [{s_.get("title")} v{s_.get("version")}, p. {e["page"]}]',
+                        (f' [{e.get("team")}, {e.get("date")}]' if e["source"] == "team" else
+                         f' [{s_.get("title")} v{s_.get("version")}, p. {e["page"]}]'),
                         "      " + "\n      ".join(plain(t) for t in e["text"])] + \
                        ([f'      ({plain(e["note"])})'] if e.get("note") else [])
     TXT.write_text("\n".join(out) + "\n", encoding="utf-8")
