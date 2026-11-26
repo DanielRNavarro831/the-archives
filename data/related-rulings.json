@@ -1839,6 +1839,53 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "forum-65": {
+   "mechanic": "Dice modifications don't use the ability queue, so a requirement is checked when each modification is used; losing your last shield to one lets you use a \"not shielded\" modification next.",
+   "groups": [
+    {
+     "why": "Epic version of Fanatical",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "fanatical-talent-epic"
+     ]
+    },
+    {
+     "why": "Also checks whether you are shielded while you attack",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "zeta-5-tie-fo-fighter-eod",
+      "miranda-doni-btl-s8-k-wing"
+     ]
+    }
+   ]
+  },
+  "forum-61": {
+   "mechanic": "In Aces High, random player order only breaks initiative ties.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-60": {
+   "mechanic": "Carnor Jax's ability needs the enemy ship in his firing arc and at range 0-1 of him, not at range 0-1 within the arc.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-59": {
+   "mechanic": "Damage from a Seismic Charge detonating isn't obstacle damage, so ignoring the obstacle doesn't prevent it.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-58": {
+   "mechanic": "Roll all of a roll's dice at once when you can; if there aren't enough dice, roll what you have, note the results, then roll the rest.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-56": {
+   "mechanic": "If the obstacle under a strutted ship is removed, the ship activates normally and flips its struts closed.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

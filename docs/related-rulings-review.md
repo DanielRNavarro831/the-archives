@@ -2627,6 +2627,74 @@ Already named: none
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## forum-65: Dice modifications don't use the ability queue, so a requirement is checked when each modification is used; losing your last shield to one lets you use a "not shielded" modification next.
+
+> **Q:** If the ship has one shield up going into its attack and uses determination, thus becoming not shielded in the middle of missing its attack, can it use fanatical for that attack?
+>
+> **A:** RRG FAQs (Engagement Phase and Attacking section) state: "effects resolved during Step 2b: Modify Attack Dice and 3b: Modify Defense Dice do not use the ability queue, as they are resolved in the order described in that section of the rules reference." So you can use Determination and sacrifice your last shield to add a focus result, then you can use Fanatical to modify that focus into hit result because the requirement is met when you activate the Talent.
+
+Already named: Determination, Fanatical
+
+**Epic version of Fanatical** (strong match) — APPROVED, on the site
+
+- [x] **Fanatical** (Talent): While you perform an attack, if you are not shielded, you may change 1 {focus} result to a {hit} result.
+
+**Also checks whether you are shielded while you attack** (possible match) — SKIPPED
+
+- [-] **Zeta 5 (EoD)** (TIE/fo Fighter): While you perform an attack, if you are not shielded and the defender's initiative is higher than yours, add 1 {focus} result.
+- [-] **Miranda Doni** (BTL-S8 K-wing): While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.
+
+## forum-61: In Aces High, random player order only breaks initiative ties.
+
+> **Q:** How does random player order starting in round 2 work… is that still to break ties on IN for activation and shooting as normal? Or is that meant to have any IN ship if they ‘win’ to go first in player order that they will be first to move, last to shoot?
+>
+> **A:** Player order is randomized and play proceeds normally, with ships activating and engaging according to their initiative, with player order breaking any ties.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-60: Carnor Jax's ability needs the enemy ship in his firing arc and at range 0-1 of him, not at range 0-1 within the arc.
+
+> **Q:** Does Carnor Jax's ability require a ship to be at Range 0-1 AND in front arc, or Range 0-1 IN the front arc?
+Syntax for Carnor Jax is "at range x, in arc y" whereas other abilities like Darth Vader crew and ISB Jingoist are "in y arc, at range x". There are other "at range x, and also in in arc y"-style abilities but they are written more clearly as separate statements.
+>
+> **A:** Carnor Jax's ability requires the enemy ship to be at Range 0-1 from Carnor and inside firing arc. The ability can trigger even if the enemy ship is at range 2 inside Carnor's firing arc but at range 0-1 from him.
+
+Already named: Carnor Jax
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-59: Damage from a Seismic Charge detonating isn't obstacle damage, so ignoring the obstacle doesn't prevent it.
+
+> **Q:** Would a vulture/hyena take damage from an obstacle chosen by a seismic if they are range 0 of it with struts open?
+>
+> **A:** Yes, the Vulture/Hyena would take damage because it's the effect of the Seismic Charge detonating, it's not coming from the obstacle.
+
+Already named: Grappling Struts, Landing Struts, Seismic Charges
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-58: Roll all of a roll's dice at once when you can; if there aren't enough dice, roll what you have, note the results, then roll the rest.
+
+> **Q:** In the context on the original roll of dice, can you roll half the dice then the other half? Like if you’re rolling 5 dice, can you roll 3, then roll the other 2, before modding.
+>
+> **A:** The player should roll the correct number of dice all at once, if possible. If there are not have enough dice available, the player should roll all the available dice, keep track of the results, and then roll again with as many as are needed to complete the roll.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-56: If the obstacle under a strutted ship is removed, the ship activates normally and flips its struts closed.
+
+> **Q:** What happens to a vulture/hyena on a rock with struts open and that rock is blown up by a seismic? What happens to the config and the next turns maneuver?
+>
+> **A:** Grappling/landing struts (open) state: You ignore obstacles at range 0. You cannot perform [barrel roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2 straight] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card. When it is that ship's turn to activate, it reveals its dial and, because it is not at range 0 of an asteroid or debris cloud, it continues its activation normally, then flips the configuration to its Closed side at the end of its activation.
+
+Already named: Grappling Struts, Landing Struts, Seismic Charges
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
