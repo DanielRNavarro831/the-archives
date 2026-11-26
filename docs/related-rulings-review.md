@@ -2766,8 +2766,6 @@ And side note, this list looks like good cause for looking into limiting non-uni
 
 Already named: Burst Laser Turret, Intuitive Interface, Targeting Computer
 
-**ON HOLD:** Follow-up (Nov 25, 2026): the Intuitive Interface pilots are linked; still to do: find the upgrades that add an action to the ship's action bar (like Targeting Computer) and link this ruling to them.
-
 **Pilots with the Intuitive Interface ship ability** (strong match) — APPROVED, on the site
 
 - [x] **Aftab Ackbar** (BTA-NR2 Y-wing): After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.
@@ -2780,6 +2778,86 @@ Already named: Burst Laser Turret, Intuitive Interface, Targeting Computer
 - [x] **Teza Nasz** (BTA-NR2 Y-wing): While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ({leftarc} or {rightarc}), the attacker may reroll 1 attack die.
 - [x] **Wilsa Teshlo** (BTA-NR2 Y-wing): After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring {charge} from 1 of its equipped upgrades and loses that {charge}.
 - [x] **Zorii Bliss** (BTA-NR2 Y-wing): After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 {charge} to perform that action, treating it as red.
+
+**Has an action bar that adds actions to the ship's action bar, like Targeting Computer** (strong match) — APPROVED, on the site
+
+- [x] **Aayla Secura** (Crew): While an enemy ship in your {bullseyearc} performs an attack, if the defender is friendly and at range 0-2, the defender may change 1 blank result to a {focus} result.
+- [x] **Andrasta** (Title): 
+- [x] **Angled Deflectors** (Modification): 
+- [x] **Asajj Ventress** (Command / Crew): During the System Phase, you may spend 1 {force}. IF you do, each enemy ship in your {frontarc} at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.
+- [x] **Battle Meditation** (Force Power): You cannot coordinate limited ships. While you perform a purple {coordinate} action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.
+- [x] **Black One** (Title): After you perform a {slam} action, lose 1 {charge}. Then you may gain 1 ion token to remove 1 disarm token. If your {charge} is inactive, you cannot perform the {slam} action.
+- [x] **Bombardment Specialists** (Team): While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.
+- [x] **Burnout Thrusters** (Modification): After you perform a {slam} action, lose 1 {charge}. Then you may gain 1 deplete token to remove 1 disarm token. If your {charge} is inactive, you cannot perform the {slam} action.
+- [x] **Burst Laser Turret** (Turret): Attack: Spend 1 {charge}. You may spend 1 {charge} to roll 1 additional attack die to a maximum of 3.
+- [x] **C-3PO** (Crew): Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do and you roll exactly that many {evade} results, add 1 {evade} result. After you perform the {calculate} action, gain 1 calculate token.
+- [x] **C-3PO** (Crew): While you defend, if you are calculating, you may reroll 1 defense die. After you perform a {calculate} action, gain 1 calculate token.
+- [x] **C-3PO** (Crew): While you coordinate, you can choose friendly ships beyond range 2 if they have {calculate} on their action bar. After you perform the {calculate} or {coordinate} action, gain 1 calculate token.
+- [x] **Chancellor Palpatine** (Crew): Chancellor Palpatine: Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 {force}. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card. Darth Sidious After you perform a purple {coordinate} action, the ship you coordinated gains 1 stress token. Then, it gains 1 focus token or recovers 1 {force}.
+- [x] **Comms Team** (Team): After you perform a {coordinate} action, you may spend up to 2 {energy} to coordinate that many additional ships at range 0-1 of the ship you coordinated.
+- [x] **Corvus** (Title): You can dock up to 2 small ships. After you perform a {calculate} action, gain 1 calculate token.
+- [x] **Damage Control Team** (Team): Before you engage, you may spend 1 or more {energy} to flip that many of your Offline upgrade cards. Action: Spend 1 or more {energy} to repair that many of your faceup Ship damage cards.
+- [x] **Debris Gambit** (Talent): While you perform a red {evade} action, if there is an obstacle at range 0-1, treat the action as white instead.
+- [x] **Director Krennic** (Crew): Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.
+- [x] **Dodonna's Pride** (Title): 
+- [x] **Dorsal Turret** (Turret): Attack
+- [x] **Dorsal Turret** (Turret): Attack
+- [x] **Droid Crew** (Team): While you perform a white {focus} action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.
+- [x] **Engine Upgrade** (Modification): 
+- [x] **Enhanced Jamming Suite** (Configuration / Tech): While you jam, you can choose yourself or another friendly ship. While you defend, if the attacker has no green tokens or there is a jammed ship in the attack arc, you may roll 1 additional defense die.
+- [x] **Expert Handling** (Talent): 
+- [x] **First Order Ordnance Tech** (Gunner): 
+- [x] **GA-97** (Crew): Setup: Before placing forces, you may spend 3-5 {charge}. If you do, choose another friendly ship and assign the It's the Resistance condition to it.
+- [x] **Ghost Company** (Crew / Gunner): After you perform a primary attack, if you are focused, you may perform a {singleturretarc} attack against a ship you have not attacked this round as a bonus attack.
+- [x] **Greef Karga** (Crew): You can coordinate allied ships as if they were friendly ships. After you coordinate a ship, it may acquire a lock on an object you have locked.
+- [x] **Gunnery Specialists** (Team): While you perform a primary or {hardpoint} attack, you may spend 1 or more {energy} to reroll that many attack dice.
+- [x] **Han Solo** (Crew): After you perform an {evade} action, gain additional evade tokens equal to the number of enemy ships at range 0-1.
+- [x] **Hondo Ohnaka** (Command / Crew): During the System Phase, you may spend 1 {charge} and choose 1 friendly shiop at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card.
+- [x] **IG-11** (Crew): Setup: Equip this side faceup. Before you would be dealt a faceup damage card, you must place 1 fuse marker on this card and gain 1 calculate token instead. Then if there are 2 fuse markers on this card, flip it. IG-11 (Anti-Capture Protocol) During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 {crit} damage. Action: Place 1 fuse marker on this card.
+- [x] **IG-88D** (Crew): You have the pilot ability of each other friendly ship with the IG-2000 upgrade. After you perform a {calculate} action, gain 1 calculate token.
+- [x] **IG-RM Droids** (Team): While you perform an attack, if you are calculating, you may change 1 {hit} result to a {crit} result.
+- [x] **Integrated S-Foils** (Configuration): Closed:{barrelroll}, {focus} {linked} {barrelroll} While you perform a primary attack, if the defender is not in your {bullseyearc}, roll 1 fewer attack die. Before you activate, you may flip this card. Open: Before you activate, you may flip this card.
+- [x] **Intercept Booster** (Configuration): Attached: {slam} {linked} {lock} Setup: Equip this side faceup. (Added Actions available on this side only) During the System Phase, gain 1 disarm token unless you flip this card. At the end of the End Phase, if you have no active {charge}, flip this card. Detached: Empty
+- [x] **Ion Cannon Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. If this attack hits, the defender suffers 1 {crit} damage, and all {hit}/{crit} results inflict ion tokens instead of damage. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Ion Cannon Turret** (Turret): Attack: If this attack hits, spend 1 {hit} or {crit} result to cause the defender to suffer 1 {hit} damage. All remaining {hit}/{crit} results inflict ion tokens instead of damage.
+- [x] **K-2SO** (Crew): During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate token and 1 stress token.
+- [x] **Kalani** (Tactical Relay): After an enemy ship executes a maneuver, if it is in the {bullseyearc} of a friendly ship at range 0-3, you may spend 1 {charge}. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.
+- [x] **Kit Fisto** (Crew): At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 {force}. If you do, it may perform a red {evade} action.
+- [x] **Kraken** (Tactical Relay): During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.
+- [x] **L4E-R5** (Astromech): At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.
+- [x] **Leia Organa** (Crew): After a friendly ship reveals a non-[0 {stop}] maneuver, you may spend 1 {force}. If you do, the chosen ship reduces the difficulty of that maneuver.
+- [x] **Maneuver-Assist MGK-300** (Configuration): Reduce the difficulty of your 3 straight ({straight}) and bank ({bankleft} or {bankright}) maneuvers.
+- [x] **Maul** (Crew): 
+- [x] **Merchant One** (Title): Bonus Attack: Perform a {turret} attack.
+- [x] **Millennium Falcon** (Title): While you defend, if you are evading, you may reroll 1 defense die.
+- [x] **Mist Hunter** (Title): 
+- [x] **Ordnance Team** (Team): While you perform a {reload} action, you may spend up to 3 {energy} to reload that many additional {charge} on your equipped {missile}/{torpedo} upgrades. After you perform a {reload} action, you may spend 1 {energy} to remove 1 disarm token.
+- [x] **Plo Koon** (Crew): At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your {leftarc} or {rightarc} at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card.
+- [x] **Point-Defense Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Bonus Attack: Spend 1 {energy}. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Pre Vizsla** (Crew): While you perform a {coordinate} action, you can choose a friendly {crew} remote instead of another friendly ship. Instead of performing an action, that remote relocations forward using a [1 {turnleft}], [1 {turnright}], or [2 {straight}] template.
+- [x] **Protectorate Gleb** (Crew): After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.
+- [x] **PZ-4CO** (Crew): At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.
+- [x] **R7-T1** (Astromech): 
+- [x] **Razor Crest** (Title): Setup: Place 1 non-limited {illicit} upgrade facedown under this card. During the System Phase, you may reveal that {illicit} upgrade and equip it as if it were equipped at Setup (without paying its points cost).
+- [x] **Rook Kast** (Crew): After you perform a red action, you may gain 1 strain token. While you perform an attack, if you are strained, you may change 1 of your blank or {focus} results to a {hit} result.
+- [x] **Sabine Wren** (Command / Crew): Setup: Before placing forces, assign the Trials of the Darksaber condition to yourself. While you perform a {coordinate} action, you may coordinate 1 additional friendly ship.
+- [x] **Scimitar** (Title): Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your {bullseyearc}. If you do, it gains 1 jam token.
+- [x] **Sensor Experts** (Team): You can maintain up to 3 locks on different objects. After you perform a {lock} action, you may spend up to 2 {energy} to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.
+- [x] **Servomotor S-Foils** (Configuration): Closed:{boost}, {focus} {linked} {boost} While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card. Open: Before you activate, you may flip this card.
+- [x] **Squad Leader** (Talent): While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.
+- [x] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
+- [x] **Tactical Officer** (Crew): 
+- [x] **Target-Assist MGK-300** (Configuration): Before you engage, if you have no green tokens and you are not stressed, gain 1 calculate token for each enemy ship at range 2-3 in your firing arc, to a maximum of 2.
+- [x] **Targeting Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack: Spend 1 {energy}. After you perform this attack, you may acquire a lock on the defender. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **The Mandalorian** (Crew): During the End Phase, if you did not defend this round, recover 1 non-recurring {force}, if able.
+- [x] **Thrawn** (Crew): While you perform a {jam} or {coordinate} action, you may spend 1 {charge} to increase the range requirement for that action by 1. After you perform a {jam} or {coordinate} action, you may spend 2 {charge} to perform a {jam} or {coordinate} action, treating it as red.
+- [x] **Toryn Farr** (Crew): After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.
+- [x] **Turbolaser Battery** (Hardpoint): Online: Setup: Equip this side faceup. Bonus Attack ({lock}): Spend 3 {energy}. If this attack hits, add 3 {hit} results. Offline: After you engage, you may spend 2 {energy} to flip this card.
+- [x] **Underslung Blaster Cannon** (Cannon): After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ({lock}): Your dice can be modified only by spending a lock for the default effect.
+- [x] **Wartime Loadout** (Configuration / Modification): Gain 1 {torpedo} slot and 1 {missile} slot. Replace your ship ability with the following: Devastating Barrage: While you perform a {torpedo} or {missile} attack, if the defender is in your {bullseyearc}, your {crit} results cannot be cancelled by {evade} results.
+- [x] **Xanadu Blood** (Title): Add {crew} and {payload} slots.
+- [x] **Yoda** (Crew): After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 {force}. If you do, that ship recovers 1 {force}.
+- [x] **Zorii Bliss** (Crew): After a jammed enemy ship at range 1-2 removes a green token, you may spend 1 {charge} to gain a matching token.
 
 ## forum-48: Attack and defense abilities in the same step resolve in player order.
 
