@@ -439,7 +439,8 @@
       if (a.linked && parts.length) parts[parts.length - 1] += ` ${iconHtml("linked")} ${chip}`;
       else parts.push(chip);
     });
-    return `<div class="facts"><h3>Actions</h3><div class="actions">${parts.map((p) => `<span class="act-group">${p}</span>`).join("")}</div>
+    const title = c.type === "Upgrade" ? "Adds to your action bar" : "Actions";
+    return `<div class="facts"><h3>${title}</h3><div class="actions">${parts.map((p) => `<span class="act-group">${p}</span>`).join("")}</div>
       <p class="muted legend">Red and purple actions are shown in their colour; ${iconHtml("linked")} marks a linked action. Hover an icon for its name.</p></div>`;
   }
 

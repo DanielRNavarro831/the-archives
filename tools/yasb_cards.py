@@ -80,7 +80,7 @@ def action_list(actions):
     """['R-> Focus', 'Boost'] -> [{'a': 'focus', 'red': True, 'linked': True}, ...]"""
     out = []
     for a in actions or []:
-        m = re.match(r"^(R-|F-)?(> )?(.+)$", a)
+        m = re.match(r"^(R-|F-)?(> ?)?(.+)$", a.lstrip("*"))   # "*X" = first of a linked pair (upgrades)
         color, linked, name = m.groups()
         out.append({"a": ACTION_TOKENS.get(name, slug(name)), "c": {"R-": "red", "F-": "purple"}.get(color, "white"),
                     "linked": bool(linked)})
@@ -213,6 +213,9 @@ def yasb_cards(d):
             "charge": u.get("charge"), "force": u.get("force"), "recurring": u.get("recurring"),
             "forceRecurring": u.get("forcerecurring", 1) if u.get("force") else None,
             "restriction": restriction_text(u.get("restrictions")),
+            # actions added to the ship's action bar; two-sided cards already show each side's actions in their text
+            "actions": (None if re.search(r"\*\*(Closed|Open|Attached|Detached):\*\*\s*\{", text or "")
+                        else action_list(u.get("addActions")) or None),
             "restrictedShip": u.get("ship"), "solitary": u.get("solitary"), "standardized": u.get("standardized"),
             "weapon": ({"arc": next((a["arc"] for a in stat_block(u)["attacks"]), None),
                         "v": next((a["v"] for a in stat_block(u)["attacks"]), None),

@@ -46,6 +46,11 @@ function literal(n) {
         if (p.type !== "ObjectProperty") continue;
         const k = p.key.type === "Identifier" ? p.key.name : literal(p.key);
         if (k === SKIP) continue;
+        if (k === "modifier_func") {           // read (never run) the actions it adds to the action bar
+          const acts = addedActions(p.value);
+          if (acts.length) out.addActions = acts;
+          continue;
+        }
         const v = literal(p.value);
         if (v !== SKIP) out[k] = v;
       }
@@ -67,7 +72,19 @@ function* walk(n) {
   }
 }
 
-const memberName = (n) => n.type === "MemberExpression" ? memberName(n.object) + "." + (n.property.name || n.property.value)
+/** string literals pushed by `stats.actions.push '...'` inside a modifier_func, in order */
+function addedActions(fn) {
+  const out = [];
+  for (const n of walk(fn)) {
+    if (n.type === "CallExpression" && n.callee.type === "MemberExpression"
+        && /^stats\.actions\.(push|unshift)$/.test(memberName(n.callee))) {
+      for (const a of n.arguments) if (a.type === "StringLiteral") out.push(a.value);
+    }
+  }
+  return out;
+}
+
+const memberName =(n) => n.type === "MemberExpression" ? memberName(n.object) + "." + (n.property.name || n.property.value)
   : n.type === "Identifier" ? n.name : "?";
 
 // ---- cards-common: exportObj.basicCardData = -> { ships:, pilotsById:, ... }

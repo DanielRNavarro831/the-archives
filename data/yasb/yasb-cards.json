@@ -1,7 +1,7 @@
 {
  "source": "YASB (https://yasb.app) — github.com/raithos/xwing, MIT License",
  "commit": "b25222836fb66b0196b91291a386811eff0484f0",
- "importedAt": "2026-11-18",
+ "importedAt": "2026-11-26",
  "ships": {
   "T-65 X-wing": {
    "name": "T-65 X-wing",
@@ -21370,7 +21370,10 @@
    "slot": "Crew",
    "points": 7,
    "unique": true,
-   "faction": "Rebel Alliance"
+   "faction": "Rebel Alliance",
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Cassian Andor",
@@ -21468,7 +21471,10 @@
    "slot": "Crew",
    "points": 3,
    "unique": true,
-   "faction": "Galactic Empire"
+   "faction": "Galactic Empire",
+   "addActions": [
+    "Lock"
+   ]
   },
   {
    "name": "Emperor Palpatine",
@@ -21548,7 +21554,10 @@
    "slot": "Crew",
    "points": 3,
    "unique": true,
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Informant",
@@ -21781,6 +21790,9 @@
      "Action",
      "R-Coordinate"
     ]
+   ],
+   "addActions": [
+    "Coordinate"
    ]
   },
   {
@@ -22224,6 +22236,9 @@
      "Action",
      "R-Boost"
     ]
+   ],
+   "addActions": [
+    "Boost"
    ]
   },
   {
@@ -22322,6 +22337,9 @@
      "Small",
      "Medium"
     ]
+   ],
+   "addActions": [
+    "R-Evade"
    ]
   },
   {
@@ -22348,6 +22366,9 @@
      "Action",
      "R-Barrel Roll"
     ]
+   ],
+   "addActions": [
+    "Barrel Roll"
    ]
   },
   {
@@ -22445,7 +22466,10 @@
    "id": 131,
    "slot": "Talent",
    "points": 5,
-   "unique": true
+   "unique": true,
+   "addActions": [
+    "R-Coordinate"
+   ]
   },
   {
    "name": "Swarm Tactics",
@@ -22495,7 +22519,10 @@
    "slot": "Turret",
    "points": 3,
    "attackt": 2,
-   "range": "1-2"
+   "range": "1-2",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "Ion Cannon Turret",
@@ -22503,7 +22530,10 @@
    "slot": "Turret",
    "points": 6,
    "attackt": 3,
-   "range": "1-2"
+   "range": "1-2",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "Os-1 Arsenal Loadout",
@@ -22538,7 +22568,12 @@
    "id": 142,
    "points": 0,
    "slot": "Configuration",
-   "ship": "T-65 X-wing"
+   "ship": "T-65 X-wing",
+   "addActions": [
+    "Boost",
+    "*Focus",
+    "R-> Boost"
+   ]
   },
   {
    "name": "Blank",
@@ -22576,6 +22611,9 @@
     {
      "slot": "Device"
     }
+   ],
+   "addActions": [
+    "Reload"
    ]
   },
   {
@@ -22666,7 +22704,10 @@
    "points": 0,
    "unique": true,
    "faction": "Rebel Alliance",
-   "ship": "Modified YT-1300 Light Freighter"
+   "ship": "Modified YT-1300 Light Freighter",
+   "addActions": [
+    "Evade"
+   ]
   },
   {
    "name": "Mist Hunter",
@@ -22676,6 +22717,9 @@
    "unique": true,
    "faction": "Scum and Villainy",
    "ship": "G-1A Starfighter",
+   "addActions": [
+    "Barrel Roll"
+   ],
    "confersAddons": [
     {
      "slot": "Cannon"
@@ -22831,7 +22875,10 @@
    "charge": 1,
    "points": 0,
    "faction": "Resistance",
-   "ship": "T-70 X-wing"
+   "ship": "T-70 X-wing",
+   "addActions": [
+    "Slam"
+   ]
   },
   {
    "name": "Heroic",
@@ -22861,7 +22908,12 @@
    "id": 175,
    "slot": "Configuration",
    "points": 0,
-   "ship": "T-70 X-wing"
+   "ship": "T-70 X-wing",
+   "addActions": [
+    "Barrel Roll",
+    "*Focus",
+    "R-> Barrel Roll"
+   ]
   },
   {
    "name": "Integrated S-Foils (Open)",
@@ -23017,7 +23069,11 @@
    "slot": "Crew",
    "points": 7,
    "unique": true,
-   "faction": "Resistance"
+   "faction": "Resistance",
+   "addActions": [
+    "Calculate",
+    "R-Coordinate"
+   ]
   },
   {
    "name": "Han Solo (Resistance)",
@@ -23025,7 +23081,10 @@
    "slot": "Crew",
    "points": 3,
    "unique": true,
-   "faction": "Resistance"
+   "faction": "Resistance",
+   "addActions": [
+    "R-Evade"
+   ]
   },
   {
    "name": "Rey's Millennium Falcon",
@@ -23221,7 +23280,10 @@
    "id": 212,
    "faction": "Galactic Republic",
    "slot": "Force",
-   "points": 6
+   "points": 6,
+   "addActions": [
+    "F-Coordinate"
+   ]
   },
   {
    "name": "R4-P Astromech",
@@ -23260,7 +23322,11 @@
    "ship": "Sith Infiltrator",
    "slot": "Title",
    "faction": "Separatist Alliance",
-   "points": 0
+   "points": 0,
+   "addActions": [
+    "R-Cloak",
+    "Jam"
+   ]
   },
   {
    "name": "Chancellor Palpatine",
@@ -23272,7 +23338,10 @@
     "Separatist Alliance"
    ],
    "force": 1,
-   "points": 11
+   "points": 11,
+   "addActions": [
+    "F-Coordinate"
+   ]
   },
   {
    "name": "Count Dooku",
@@ -23317,7 +23386,10 @@
    "slot": "Tactical Relay",
    "solitary": true,
    "faction": "Separatist Alliance",
-   "points": 7
+   "points": 7,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "TV-94",
@@ -23386,7 +23458,10 @@
    "charge": 5,
    "recurring": 1,
    "faction": "Resistance",
-   "unique": true
+   "unique": true,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Kaydel Connix",
@@ -23534,6 +23609,9 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
+   ],
+   "addActions": [
+    "F-Coordinate"
    ]
   },
   {
@@ -23550,7 +23628,10 @@
    "unique": true,
    "slot": "Crew",
    "faction": "Resistance",
-   "points": 4
+   "points": 4,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Angled Deflectors",
@@ -23567,6 +23648,9 @@
      "Small",
      "Medium"
     ]
+   ],
+   "addActions": [
+    "Reinforce"
    ]
   },
   {
@@ -23580,7 +23664,10 @@
    "name": "Targeting Computer",
    "id": 249,
    "slot": "Modification",
-   "points": 2
+   "points": 2,
+   "addActions": [
+    "Lock"
+   ]
   },
   {
    "name": "Precognitive Reflexes",
@@ -23628,7 +23715,10 @@
    "slot": "Crew",
    "xwsaddon": "republic",
    "points": 6,
-   "faction": "Galactic Republic"
+   "faction": "Galactic Republic",
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Gravitic Deflection",
@@ -23885,7 +23975,10 @@
    "slot": "Hardpoint",
    "points": 5,
    "attackt": 4,
-   "range": "2-4"
+   "range": "2-4",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "Targeting Battery",
@@ -23893,7 +23986,10 @@
    "slot": "Hardpoint",
    "points": 5,
    "attackt": 3,
-   "range": "2-5"
+   "range": "2-5",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "Ordnance Tubes",
@@ -23907,7 +24003,10 @@
    "slot": "Hardpoint",
    "points": 9,
    "attackdt": 2,
-   "range": "1-2"
+   "range": "1-2",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "Turbolaser Battery",
@@ -23921,6 +24020,9 @@
      "EnergyGreatterThan",
      4
     ]
+   ],
+   "addActions": [
+    "Rotate Arc"
    ]
   },
   {
@@ -23935,50 +24037,83 @@
      "Base",
      "Huge"
     ]
+   ],
+   "addActions": [
+    "*Lock",
+    "R-> Coordinate"
    ]
   },
   {
    "name": "Bombardment Specialists",
    "id": 275,
    "slot": "Team",
-   "points": 6
+   "points": 6,
+   "addActions": [
+    "*Lock",
+    "> Calculate"
+   ]
   },
   {
    "name": "Comms Team",
    "id": 276,
    "slot": "Team",
-   "points": 7
+   "points": 7,
+   "addActions": [
+    "*Coordinate",
+    "> Calculate",
+    "*Jam",
+    "> Calculate"
+   ]
   },
   {
    "name": "Damage Control Team",
    "id": 277,
    "slot": "Team",
-   "points": 3
+   "points": 3,
+   "addActions": [
+    "*Reinforce",
+    "> Calculate"
+   ]
   },
   {
    "name": "Gunnery Specialists",
    "id": 278,
    "slot": "Team",
-   "points": 5
+   "points": 5,
+   "addActions": [
+    "*Rotate Arc",
+    "> Calculate"
+   ]
   },
   {
    "name": "IG-RM Droids",
    "id": 279,
    "slot": "Team",
    "faction": "Scum and Villainy",
-   "points": 2
+   "points": 2,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Ordnance Team",
    "id": 280,
    "slot": "Team",
-   "points": 2
+   "points": 2,
+   "addActions": [
+    "*Reload",
+    "> Calculate"
+   ]
   },
   {
    "name": "Sensor Experts",
    "id": 281,
    "slot": "Team",
-   "points": 6
+   "points": 6,
+   "addActions": [
+    "*Lock",
+    "> Calculate"
+   ]
   },
   {
    "name": "Adaptive Shields",
@@ -24058,6 +24193,12 @@
    "ship": "CR90 Corellian Corvette",
    "faction": "Rebel Alliance",
    "points": 4,
+   "addActions": [
+    "*Evade",
+    "R-> Coordinate",
+    "*Focus",
+    "R-> Coordinate"
+   ],
    "confersAddons": [
     {
      "slot": "Team"
@@ -24158,7 +24299,10 @@
    "unique": true,
    "ship": "Raider-class Corvette",
    "faction": "Galactic Empire",
-   "points": 3
+   "points": 3,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Impetuous",
@@ -24267,6 +24411,10 @@
    "ship": "C-ROC Cruiser",
    "faction": "Scum and Villainy",
    "points": 8,
+   "addActions": [
+    "R-Evade",
+    "Coordinate"
+   ],
    "confersAddons": [
     {
      "slot": "Turret"
@@ -24362,7 +24510,14 @@
    "id": 313,
    "slot": "Configuration",
    "ship": "A/SF-01 B-wing",
-   "points": 0
+   "points": 0,
+   "addActions": [
+    "*Barrel Roll",
+    "R-> Evade",
+    "*Barrel Roll",
+    "R-> Lock",
+    "R-Reload"
+   ]
   },
   {
    "name": "K-2SO",
@@ -24370,7 +24525,11 @@
    "slot": "Crew",
    "faction": "Rebel Alliance",
    "unique": true,
-   "points": 8
+   "points": 8,
+   "addActions": [
+    "Calculate",
+    "Jam"
+   ]
   },
   {
    "name": "Kaz's Fireball",
@@ -24442,7 +24601,10 @@
    "unique": true,
    "force": 2,
    "faction": "Galactic Republic",
-   "points": 12
+   "points": 12,
+   "addActions": [
+    "F-Coordinate"
+   ]
   },
   {
    "name": "Repulsorlift Stabilizers",
@@ -24467,7 +24629,10 @@
    "unique": true,
    "force": 1,
    "faction": "Galactic Republic",
-   "points": 9
+   "points": 9,
+   "addActions": [
+    "F-Reinforce"
+   ]
   },
   {
    "name": "Multi-Missile Pods",
@@ -24495,7 +24660,10 @@
    "unique": true,
    "force": 1,
    "faction": "Galactic Republic",
-   "points": 9
+   "points": 9,
+   "addActions": [
+    "F-Evade"
+   ]
   },
   {
    "name": "Aayla Secura",
@@ -24504,7 +24672,11 @@
    "unique": true,
    "force": 1,
    "faction": "Galactic Republic",
-   "points": 12
+   "points": 12,
+   "addActions": [
+    "*Focus",
+    "> F-Coordinate"
+   ]
   },
   {
    "name": "Maneuver-Assist MGK-300",
@@ -24512,7 +24684,12 @@
    "slot": "Configuration",
    "ship": "TIE/rb Heavy",
    "faction": "Galactic Empire",
-   "points": 0
+   "points": 0,
+   "addActions": [
+    "Calculate",
+    "*Barrel Roll",
+    "*R-> Calculate"
+   ]
   },
   {
    "name": "Ion Limiter Override",
@@ -24767,6 +24944,10 @@
    ],
    "also_occupies_upgrades": [
     "Gunner"
+   ],
+   "addActions": [
+    "*Rotate Arc",
+    "R-> Focus"
    ]
   },
   {
@@ -24795,7 +24976,10 @@
    "slot": "Tactical Relay",
    "solitary": true,
    "faction": "Separatist Alliance",
-   "points": 3
+   "points": 3,
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Synced Laser Cannons",
@@ -24827,7 +25011,12 @@
    "slot": "Configuration",
    "ship": "TIE/rb Heavy",
    "faction": "Galactic Empire",
-   "points": 0
+   "points": 0,
+   "addActions": [
+    "Calculate",
+    "*Rotate Arc",
+    "> Calculate"
+   ]
   },
   {
    "name": "Backwards Tailslide",
@@ -24877,6 +25066,9 @@
      "Keyword",
      "X-wing"
     ]
+   ],
+   "addActions": [
+    "Rotate Arc"
    ]
   },
   {
@@ -24929,7 +25121,11 @@
    "ship": "Droid Tri-fighter",
    "faction": "Separatist Alliance",
    "charge": 3,
-   "recurring": -1
+   "recurring": -1,
+   "addActions": [
+    "Slam",
+    "R-> Lock"
+   ]
   },
   {
    "name": "Independent Calculations",
@@ -25193,6 +25389,9 @@
     "Galactic Empire",
     "First Order",
     "Scum and Villainy"
+   ],
+   "addActions": [
+    "R-Coordinate"
    ]
   },
   {
@@ -25226,7 +25425,11 @@
    "also_occupies_upgrades": [
     "Crew"
    ],
-   "force": 1
+   "force": 1,
+   "addActions": [
+    "*Focus",
+    "F-> Coordinate"
+   ]
   },
   {
    "name": "General Grievous (Command)",
@@ -25268,6 +25471,10 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
+   ],
+   "addActions": [
+    "*Coordinate",
+    "R-> Jam"
    ]
   },
   {
@@ -25417,7 +25624,11 @@
    "id": 400,
    "slot": "Team",
    "points": 5,
-   "faction": "Separatist Alliance"
+   "faction": "Separatist Alliance",
+   "addActions": [
+    "*Calculate",
+    "R-> Lock"
+   ]
   },
   {
    "name": "Tractor Technicians",
@@ -25502,6 +25713,10 @@
      "Action",
      "Rotate Arc"
     ]
+   ],
+   "addActions": [
+    "*Rotate Arc",
+    "> Calculate"
    ]
   },
   {
@@ -25521,6 +25736,10 @@
    ],
    "also_occupies_upgrades": [
     "Modification"
+   ],
+   "addActions": [
+    "Lock",
+    "Reload"
    ],
    "confersAddons": [
     {
@@ -25567,6 +25786,15 @@
    ],
    "also_occupies_upgrades": [
     "Tech"
+   ],
+   "addActions": [
+    "*Focus",
+    "> Jam",
+    "*Barrel Roll",
+    "> Jam",
+    "*Boost",
+    "> Jam",
+    "Jam"
    ]
   },
   {
@@ -25574,7 +25802,11 @@
    "id": 414,
    "faction": "First Order",
    "slot": "Gunner",
-   "points": 2
+   "points": 2,
+   "addActions": [
+    "*Reload",
+    "> Lock"
+   ]
   },
   {
    "name": "Sensor Scramblers",
@@ -25680,6 +25912,9 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
+   ],
+   "addActions": [
+    "R-Coordinate"
    ]
   },
   {
@@ -25785,7 +26020,10 @@
     "Scum and Villainy",
     "Separatist Alliance"
    ],
-   "unique": true
+   "unique": true,
+   "addActions": [
+    "Coordinate"
+   ]
   },
   {
    "name": "Prime Minister Almec",
@@ -25804,7 +26042,10 @@
    "points": 8,
    "slot": "Crew",
    "unique": true,
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addActions": [
+    "R-Lock"
+   ]
   },
   {
    "name": "Satine Kryze",
@@ -25881,6 +26122,9 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
+   ],
+   "addActions": [
+    "F-Coordinate"
    ],
    "confersAddons": [
     {
@@ -26047,7 +26291,11 @@
    "points": 0,
    "unique": true,
    "slot": "Title",
-   "ship": "ST-70 Assault Ship"
+   "ship": "ST-70 Assault Ship",
+   "addActions": [
+    "*Evade",
+    "R-> Barrel Roll"
+   ]
   },
   {
    "name": "The Mandalorian",
@@ -26055,7 +26303,10 @@
    "points": 3,
    "unique": true,
    "slot": "Crew",
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addActions": [
+    "Reinforce"
+   ]
   },
   {
    "name": "The Child",
@@ -26111,7 +26362,10 @@
    "points": 4,
    "slot": "Crew",
    "unique": true,
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addActions": [
+    "Calculate"
+   ]
   },
   {
    "name": "Greef Karga",
@@ -26119,7 +26373,10 @@
    "points": 5,
    "slot": "Crew",
    "unique": true,
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addActions": [
+    "R-Coordinate"
+   ]
   },
   {
    "name": "Kuiil",
@@ -26177,6 +26434,9 @@
      "Small",
      "Medium"
     ]
+   ],
+   "addActions": [
+    "Slam"
    ]
   },
   {
@@ -26363,6 +26623,9 @@
    "ship": [
     "Rogue-class Starfighter"
    ],
+   "addActions": [
+    "R-Cloak"
+   ],
    "confersAddons": [
     {
      "slot": "Crew"
@@ -26411,7 +26674,10 @@
    "standard": true,
    "slot": "Turret",
    "attackt": 3,
-   "range": "1-2"
+   "range": "1-2",
+   "addActions": [
+    "Rotate Arc"
+   ]
   },
   {
    "name": "R2-F2 (BoY)",
@@ -27423,7 +27689,10 @@
    "faction": "Galactic Empire",
    "slot": "Crew",
    "charge": 2,
-   "recurring": 1
+   "recurring": 1,
+   "addActions": [
+    "R-Jam"
+   ]
   },
   {
    "name": "Fennec Shand",
@@ -27450,6 +27719,9 @@
      "Action",
      "Jam"
     ]
+   ],
+   "addActions": [
+    "Jam"
    ]
   },
   {
@@ -27496,6 +27768,10 @@
     "Resistance"
    ],
    "slot": "Astromech",
+   "addActions": [
+    "*Lock",
+    "R-> Boost"
+   ],
    "restrictions": [
     [
      "Action",
@@ -27657,7 +27933,10 @@
    "range": "1-2",
    "slot": "Turret",
    "charge": 2,
-   "recurring": 1
+   "recurring": 1,
+   "addActions": [
+    "Rotate Arc"
+   ]
   }
  ],
  "conditionsById": [
