@@ -2557,6 +2557,76 @@ Already named: Afterburners, Retrofitted Autothrusters, “Echo” (SL)
 
 - [-] **Lieutenant Sai** (Lambda-class T-4a Shuttle): After you a perform a {coordinate} action, if the ship you chose performed an action on your action bar, you may perform that action.
 
+## forum-68: Green tokens gained during the End Phase's "during the End Phase" step are still removed in the next step.
+
+> **Q:** Savage Opress gives a focus when you gain stress or Strain.
+Overtuned Modulators gives you a strain for left over Greens in the end phase.
+So if you have a focus from that turn and you lose it at the end of the turn, and gain a strain from the Overtuned Modulators as it has no charge, Savage Opress can give that ship a focus. But can that ship keep the new focus from Savage Opress, as green tokens have already been removed?
+Savage Opress "After a friendly ship in your Front Arc at range 1-2 gains a stress or strain token, you may spend 1 Force. If you do, that ship gains 1 focus token."
+Overtuned Modulators "During the System Phase, if you are not stressed, you may spend 1 Charge to gain 3 calculate tokens.
+During the End Phase, if your Charge is inactive, for each green token you remove, gain 1 strain token."
+END PHASE
+The End Phase is the fifth phase of the round. During the End Phase, the
+following occur in this order:
+• Abilities that occur "at the start of the End Phase" form an ability queue
+and resolve.
+• Abilities that occur "during the End Phase" form an ability queue and resolve.
+• All circular tokens are removed from all ships (green, then orange).
+• Each card with a recurring charge icon recovers that many charges. Each
+card with a negative recurring charge icon loses that many charges.
+After this phase, the criteria for winning the game are checked. If the game
+did not end, the Planning Phase of the next round begins.
+>
+> **A:** No, you can't keep the focus gained using Savage Oppress because his ability triggers during step 2 of the End Phase. This is how the chain is resolved: • Overtune Modulators effect triggers at step 2 of the End Phase, the player establishes how many green token will be removed and the ship with Overtuned Modulators gets a matching amount of strain tokens. • Savage Oppress triggers when strain tokens are assigned, replacing one strain with a focus. • all green tokens, including the focus gained from Savage, are removed during step 3 of the End Phase. • Save Oppress force charge is recovered during step 4 of the End Phase.
+
+Already named: Overtuned Modulators, Savage Opress
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-69: Copies of the same replacement effect enter the queue together but resolve one at a time, so a later copy may have nothing left to replace.
+
+> **Q:** If a ship has two or more copies of the “Hull Breach” critical damage card and suffers further damage, does that damage trigger all Hull Breach cards simultaneously, or are the cards resolved one after another?
+If they are triggered simultaneously, a single hit would result in as many critical effects as there are active Hull Breach cards. If the cards are resolved sequentially, however, it would only result in one critical effect, since the trigger condition for the additional Hull Breach cards would no longer apply.
+>
+> **A:** The two copies of Hull Breach are added together in the queue but they resolve separately. Hull Breach effect is a replacement effect and after the first copy is resolved, there are no more normal hits to be changed into critical hits so the second copy does not apply.
+
+Already named: Hull Breach
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-71: Hit and crit damage are dealt in separate sub-steps, so a "before you would suffer damage" ability can choose which damage to prevent.
+
+> **Q:** Iden’s ability (interceptor) says cancel a hit or crit. If there is a hit and a crit coming in, can Iden choose to cancel the crit? Or is does it just cancel the next damage (the hit)?
+>
+> **A:** Step 5 of an Attack specifies: "If the attack hits, the defender suffers damage for each uncanceled HIT and CRITICAL HIT result in the following order: a. The defender suffers 1 HIT damage for each uncanceled HIT result. Then cancel all HIT results. b. The defender suffers 1 CRITICAL HIT damage for each uncanceled CRITICAL HIT result. Then cancel all CRITICAL HIT results." You can choose when to activate Iden's ability due the fact that every damage is a sub-step of step 5.
+
+Already named: Iden Versio (BoY)
+
+**Other Iden Versio pilots that prevent damage before a friendly TIE suffers it** (possible match) — APPROVED, on the site
+
+- [x] **Iden Versio** (TIE/ln Fighter): Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 {charge}. If you do, prevent that damage.
+- [x] **Iden Versio (SSP)** (TIE/ln Fighter): Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 {charge}. If you do, prevent that damage.
+
+## forum-73: Every ship Maul coordinates with his ability gains a strain token.
+
+> **Q:** With scum maul’s pilot ability, do both coordinated ships get a strain or only the 2nd ship ?
+>
+> **A:** Maul's ability specifies: "EACH friendly ship you coordinate this way gains 1 strain token." so both of them get a strain token.
+
+Already named: Maul
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-66: Range is measured to the ship's base with the official range ruler, not to its guide nubs or with templates.
+
+> **Q:** During the System Phase, a ship deployed from a huge ship by executing a 5 speed straight maneuver. Later, during the Activation Phase, the huge ship performs a coordinate action. Th range of the coordinate is not modified by any other abilities, so it remains limited to range 1-2. Is the deployed ship a valid option, considering that it’s generally accepted that range 2 is equal to 5 base lengths, or a 5 speed straight maneuver (template)? Regardless of whether the ship deployed from the front or side of the huge ship, the smaller ship’s rear template guide nubs are certainly at range 2, but does the base itself need to be at (eclipsing) the edge of range 2 to be selectable?
+>
+> **A:** Ship guide nubs are not valid to measure ranges, ranges must be checked to the target ship base. Considering range 2 equal to a 5 straight template is not officially accepted, the only accepted method to measure ranges is using the range ruler contained the in X Wing core pack. This method must be used due the possibility of small manufacturing differences between official templates and rules, so you need to check with an official range rules to verify that the deployed ship is a valid option. Third party components may be used but only if they match official components measures.
+
+Already named: none
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

@@ -1805,6 +1805,40 @@
     }
    ]
   },
+  "forum-68": {
+   "mechanic": "Green tokens gained during the End Phase's \"during the End Phase\" step are still removed in the next step.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-69": {
+   "mechanic": "Copies of the same replacement effect enter the queue together but resolve one at a time, so a later copy may have nothing left to replace.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-71": {
+   "mechanic": "Hit and crit damage are dealt in separate sub-steps, so a \"before you would suffer damage\" ability can choose which damage to prevent.",
+   "groups": [
+    {
+     "why": "Other Iden Versio pilots that prevent damage before a friendly TIE suffers it",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "iden-versio-tie-ln-fighter",
+      "iden-versio-tie-ln-fighter-ssp"
+     ]
+    }
+   ]
+  },
+  "forum-73": {
+   "mechanic": "Every ship Maul coordinates with his ability gains a strain token.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-66": {
+   "mechanic": "Range is measured to the ship's base with the official range ruler, not to its guide nubs or with templates.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
