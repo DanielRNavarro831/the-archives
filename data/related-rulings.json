@@ -1591,6 +1591,93 @@
     }
    ]
   },
+  "forum-104": {
+   "mechanic": "Abilities that trigger after the same action enter the queue together, and their controller chooses the order.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-103": {
+   "mechanic": "A ship that ignores an obstacle while it moves doesn't skip its Perform Action step for overlapping it.",
+   "groups": [
+    {
+     "why": "Other Mining Guild TIE pilots (Notched Stabilizers)",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "ahhav-modified-tie-ln-fighter",
+      "captain-seevor-modified-tie-ln-fighter",
+      "foreman-proach-modified-tie-ln-fighter",
+      "lapin-modified-tie-ln-fighter",
+      "mining-guild-surveyor-modified-tie-ln-fighter",
+      "overseer-yushyn-modified-tie-ln-fighter"
+     ]
+    },
+    {
+     "why": "Ignores obstacles while moving",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "dash-rendar-yt-2400-light-freighter",
+      "qira-crew",
+      "strut-lock-override-configuration-soc",
+      "r5-x3-astromech",
+      "ahsoka-tano-crew-lar",
+      "collision-detector-sensor"
+     ]
+    }
+   ]
+  },
+  "forum-101": {
+   "mechanic": "A lock transferred to a ship that can't be locked is removed from the first ship, then breaks.",
+   "groups": [
+    {
+     "why": "Transfers a lock to another friendly ship, like \"Holo\"",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "amilyn-holdo-crew",
+      "hera-syndulla-a-sf-01-b-wing-b-wing",
+      "hera-syndulla-rz-1-a-wing-a-wing"
+     ]
+    },
+    {
+     "why": "Stops enemy ships from locking you while cloaked, like Sensor Scramblers",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "without-a-trace-talent-sl"
+     ]
+    }
+   ]
+  },
+  "forum-100": {
+   "mechanic": "A lock transferred to another ship counts as the enemy ship locking that ship, so \"after an enemy ship locks you\" effects trigger.",
+   "groups": [
+    {
+     "why": "Transfers a lock to another friendly ship, like Amilyn Holdo",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "holo-tie-ba-interceptor",
+      "hera-syndulla-a-sf-01-b-wing-b-wing",
+      "hera-syndulla-rz-1-a-wing-a-wing"
+     ]
+    }
+   ]
+  },
+  "forum-96": {
+   "mechanic": "\"Before you execute a maneuver\" abilities that change the maneuver enter the queue together; the player picks the order, so Interloper Turn can resolve before Precision Ion Engines changes the maneuver.",
+   "groups": [
+    {
+     "why": "Changes the maneuver you execute (mentioned in the question)",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "countess-ryad-tie-d-defender"
+     ]
+    }
+   ]
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

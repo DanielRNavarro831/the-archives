@@ -2307,6 +2307,104 @@ Already named: Corran Horn, Torkil Mux
 - [-] **Roark Garnet** (HWK-290 Light Freighter): At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.
 - [-] **Heightened Perception** (Force Power): At the start of the Engagement Phase, you may spend 1 {force}. If you do, engage at initiative 7 instead of your standard initiative value this phase.
 
+## forum-104: Abilities that trigger after the same action enter the queue together, and their controller chooses the order.
+
+> **Q:** When I run Thrawn on Vermeil and do the following:
+Step 1: Sai coordinates Vermeil
+Step 2: Vermeil uses the jam action
+Step 3: Vermeil activates Thrawn for a coordinate
+Step 4: Vermeil coordinates Sai
+Step 5: Sai takes a focus through coordinate
+Step 6: Sai jams through ability
+Is this the correct order in the ability q for this interaction, because the coordinate from Sai hasn't finished yet before Thrawn activates?
+What is the correct timing of all the triggers here? ("after action X you can do action Y" two of this triggers are present here, do they come at the same time and I can choose the timing or is there a certain order of it?)
+>
+> **A:** Sai and Thrawn abilities trigger at the same time, the controlling player chooses the order to resolve the ability queue. This is the correct sequence: • Sai coordinates Vermeil • Vermeil performs a jam action • Sai's ability triggers after the coordinated ship performed the action, Thrawn's one triggers at the same time • controlling player chooses to resolve Thrawn first, so Vermeil coordinates Sai • Sai performs a focus action granted by the coordinate from Vermeil • controlling player now resolves Sai's ability to perfom a jam
+
+Already named: Lieutenant Sai, Major Vermeil, Thrawn
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-103: A ship that ignores an obstacle while it moves doesn't skip its Perform Action step for overlapping it.
+
+> **Q:** Does the Mining Guild Tie skip its action step if it landed on an asteroid?
+>
+> **A:** No, the Mining Guild TIE does not skip its Perform Action step if it overlaps an asteroid. Overlaps occur while a ship is moving. A maneuver is considered a type of move. When the Mining Guild TIE overlaps an obstacle, it is ignoring the obstacle with its Notched Stabilizers ability, so it does not suffer the effect of skipping its Perform Action step.
+
+Already named: Mining Guild Sentry, Notched Stabilizers
+
+**Other Mining Guild TIE pilots (Notched Stabilizers)** (strong match) — APPROVED, on the site
+
+- [x] **Ahhav** (Modified TIE/ln Fighter): While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.
+- [x] **Captain Seevor** (Modified TIE/ln Fighter): While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's {bullseyearc}, you may spend 1 {charge}. If you do, the enemy ship gains 1 jam token.
+- [x] **Foreman Proach** (Modified TIE/ln Fighter): Before you engage, you may choose 1 enemy ship in your {bullseyearc} at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.
+- [x] **Lapin** (Modified TIE/ln Fighter): While you defend or perform an attack, if the enemy ship is stressed, that ship's dice cannot be modified. Errata (since rules reference 1.4.5): Changed Initiative value on the card to match the correct value on the ship token.
+- [x] **Mining Guild Surveyor** (Modified TIE/ln Fighter): 
+- [x] **Overseer Yushyn** (Modified TIE/ln Fighter): Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 {charge}. If you do, that ship gains 1 stress token instead.
+
+**Ignores obstacles while moving** (possible match) — APPROVED, on the site
+
+- [x] **Dash Rendar** (YT-2400 Light Freighter): While you move, you ignore obstacles.
+- [x] **Qi'ra** (Crew): While you move and perform attacks, you ignore obstacles that you are locking.
+- [x] **Strut-Lock Override** (Configuration): At the start of your activation, you may spend 1 {charge}. If you do, ignore obstacles while you move through them this round.
+- [x] **R5-X3** (Astromech): Before you activate or engage, you may spend 1 {charge} to ignore obstacles until the end of this phase.
+- [x] **Ahsoka Tano** (Crew): Before you activate, you may spend 1 {force} to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your {frontarc} at range 1.
+- [x] **Collision Detector** (Sensor): While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 {charge} to ignore its effects until the end of the round.
+
+## forum-101: A lock transferred to a ship that can't be locked is removed from the first ship, then breaks.
+
+> **Q:** If Holo passes an enemy lock to a ship that is cloaked with sensor scramblers, is that ship a valid target? Does the lock transfer then break, or can the SS ship never take the transfer in the first place?
+>
+> **A:** The solution to this interaction is similar to the one related to Amylin Holdo and self-locking defined in the FAQs of the RRG. Holo can transfer the lock token to a friendly cloaked ship equipped with Sensor Scramblers, the token is removed from Holo and a new lock acquisition on the friendly ship is triggered but SS makes that ship a not valid target then the lock breaks.
+
+Already named: "Holo", Sensor Scramblers
+
+**Transfers a lock to another friendly ship, like "Holo"** (strong match) — APPROVED, on the site
+
+- [x] **Amilyn Holdo** (Crew): Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.
+- [x] **Hera Syndulla** (A/SF-01 B-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Hera Syndulla** (RZ-1 A-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+
+**Stops enemy ships from locking you while cloaked, like Sensor Scramblers** (possible match) — APPROVED, on the site
+
+- [x] **Without A Trace** (Talent): After you gain a cloak token, you may remove 1 red token. While you are cloaked, enemy ships cannot acquire locks on you.
+
+## forum-100: A lock transferred to another ship counts as the enemy ship locking that ship, so "after an enemy ship locks you" effects trigger.
+
+> **Q:** If a Resistance ship carrying Amylin Holdo crew is locked by an enemy ship, and then uses Amylin Holdo to pass the lock token to a different friendly ship equipped with Ferrosphere Paint, assuming the Ferrosphere Paint ship is not in the bullseye arc of the ship that owns the lock token, does this trigger Ferrosphere Paint?
+>
+> **A:** Yes, during the transfer the Lock token is removed from the ship carrying Holdo and it's assigned to the ship equipped with Ferrosphere Paint, so it gets locked by the enemy ship and Ferrosphere triggers. Ferrosphere Paint got an errata to allow counterplay to this kind of interactions.
+
+Already named: Amilyn Holdo, Ferrosphere Paint
+
+**Transfers a lock to another friendly ship, like Amilyn Holdo** (strong match) — APPROVED, on the site
+
+- [x] **"Holo"** (TIE/ba Interceptor): At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.
+- [x] **Hera Syndulla** (A/SF-01 B-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+- [x] **Hera Syndulla** (RZ-1 A-wing): While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.
+
+## forum-96: "Before you execute a maneuver" abilities that change the maneuver enter the queue together; the player picks the order, so Interloper Turn can resolve before Precision Ion Engines changes the maneuver.
+
+> **Q:** So... It's 4 in the morning here and sleeping is a problem, and it is rather beardy, but...
+Interloper Turn
+Before you execute a speed 1-2 turn or speed 1-2 Koiogran Turn, if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token
+Precision Ion Engines
+Before you execute a speed 1-3 Koiogran Turn maneuver, you may spend 1 Charge to execute that maneuver as a Segnor's Loop maneuver instead.
+Can a TIE Defender reveal a 2 KTurn, perform an Interloper Tractor, then change the KTurn into a Sloop, OR are you forced to complete the KTurn if you Interloper Tractor first?
+(I don't think that an argument can be made for doing Precision Ion Engines before Interloper... But let me know if that is incorrect too)
+Both abilities state "Before you execute [a manoeuvre]", implying they both load into the queue at the player's timing of choice.
+Both have the same trigger requirement of a KTurn, so as long as you have the KTurn set they both have a trigger at the times of declaring the ability to enter the queue and performing the ability...
+So I am leaning towards Yes, you can Interloper Tractor before Precision Sloop, but I think that there is a discussion to be had.
+And, I suppose thinking about that now, by extension, Ryad (with a 2 straight and with Ionisation 1 straights potentially turning into KTurns)? Would her ability alter this in any way?
+>
+> **A:** Yes, this works. A TIE Defender with Interloper Turn and Precision Ion Engines can reveal a 2-Koiogran Turn and then choose to resolve Interloper Turn (gaining a tractor token) and then Precision Ion Engines (spending a charge to perform a Segnor's Loop instead of the K-turn).
+
+Already named: Interloper Turn, Precision Ion Engines
+
+**Changes the maneuver you execute (mentioned in the question)** (strong match) — APPROVED, on the site
+
+- [x] **Countess Ryad** (TIE/d Defender): While you would execute a {straight} maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a {kturn} maneuver instead.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
