@@ -2177,6 +2177,43 @@
    "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
    "groups": []
   },
+  "discord-1": {
+   "mechanic": "An ability that spends a result during the Modify Dice step resolves before \"end of the Neutralize Results step\" effects like Targeting Matrix.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "discord-2": {
+   "mechanic": "Each separate ship whose obstruction ability applies adds its own die; the effects stack.",
+   "groups": [
+    {
+     "why": "Also adds a defense die when you obstruct the attack",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "korkie-kryze-crew",
+      "wing-guard-command"
+     ]
+    }
+   ]
+  },
+  "discord-3": {
+   "mechanic": "An effect that ignores range restrictions for acquiring a lock doesn't ignore a separate range requirement for choosing the target.",
+   "groups": [
+    {
+     "why": "Also lets a coordinated ship lock while ignoring range restrictions",
+     "strength": "possible",
+     "status": "rejected",
+     "cards": [
+      "toryn-farr-crew"
+     ]
+    }
+   ]
+  },
+  "discord-4": {
+   "mechanic": "When several bonus attacks trigger at the same time, the player chooses their order.",
+   "skipped": "Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [

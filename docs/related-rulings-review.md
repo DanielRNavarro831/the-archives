@@ -3022,6 +3022,51 @@ Already named: Compromising Intel, False Friend, Informant, Listening Device, Su
 
 **SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
 
+## discord-1: An ability that spends a result during the Modify Dice step resolves before "end of the Neutralize Results step" effects like Targeting Matrix.
+
+> **Q:** When I perform an attack with Seyn Marana, what is the timing of her ability to spend a {crit} to deal a damage card directly to a ship? Can I spend an {focus} result via Targeting Matrix to throw a strain, then spend a {crit} for Seyn's ability?
+>
+> **A:** Seyn Marana happens during the dice mod step; you cannot then use targeting matrix
+
+Already named: Seyn Marana, Targeting Matrix
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## discord-2: Each separate ship whose obstruction ability applies adds its own die; the effects stack.
+
+> **Q:** If you have 2 friendly ships with Tactical Scrambler between you and the attacking ship do you roll two extra defense dice? I know that doesn't work for two obstacles, but this says: “While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.” And there will be two cases of you.
+>
+> **A:** Yes, you'd roll 1 extra for each tactical scrambler obstructing the attack
+
+Already named: Tactical Scrambler
+
+**Also adds a defense die when you obstruct the attack** (strong match) — APPROVED, on the site
+
+- [x] **Korkie Kryze** (Crew): After a friendly ship in your {fullfrontarc} at range 1-2 becomes the defender, you may transfer 1 green token to it. While a friendly ship in your {fullfrontarc} at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.
+- [x] **Wing Guard** (Command): You are a Wing Guard. While an enemy ship performs an attack against a friendly commander in your formation, if you obstruct the attack, the defender rolls 1 additional die.
+
+## discord-3: An effect that ignores range restrictions for acquiring a lock doesn't ignore a separate range requirement for choosing the target.
+
+> **Q:** Does Colonel Jendon's ability work with ST-321 coordinate to acquire lock beyond range 3?
+>
+> **A:** You ignore the range restrictions of acquiring a lock but not the restriction that you must choose an enemy ship at r0-3 of the coordinated ship
+
+Already named: Colonel Jendon, ST-321
+
+**Also lets a coordinated ship lock while ignoring range restrictions** (possible match) — SKIPPED
+
+- [-] **Toryn Farr** (Crew): After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.
+
+## discord-4: When several bonus attacks trigger at the same time, the player chooses their order.
+
+> **Q:** Can I decide in which order I do what bonus attack? After I shot a missile with Vynder and hit the target. Also does the attack from Ion cannon have to hit for stealth gambit to be viable, when I choose to shoot ion before gambit? Because I added the bonus attack already to the q beforehand...
+>
+> **A:** yeah you pick the order to do the bonus attacks
+
+Already named: Major Vynder (SL), Stealth Gambit
+
+**SKIPPED:** Reviewed (Nov 25, 2026): general rule, applies to too many cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?
