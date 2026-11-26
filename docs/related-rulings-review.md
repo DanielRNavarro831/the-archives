@@ -2405,6 +2405,85 @@ Already named: Interloper Turn, Precision Ion Engines
 
 - [x] **Countess Ryad** (TIE/d Defender): While you would execute a {straight} maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a {kturn} maneuver instead.
 
+## forum-99: Restricted cards aren't limited, so a restricted {illicit} upgrade can go under the Razor Crest title.
+
+> **Q:** Am I right in thinking I cannot reveal a False Transponder Code card with the Razor Crest title as it now has 3 pips, making it now limited?
+>
+> **A:** Restricted and Limited are different things, we know that many builders show the Limited pips also for Restricted cards, we'll fix that soon. Restricted cards like False Trasponder Code can be used with Razor Crest title.
+
+Already named: False Transponder Codes, Razor Crest
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
+## forum-95: An object placed underneath a ship makes that ship resolve its overlap effects, even though the ship didn't move.
+
+> **Q:** The timing of the strain when a commando is deployed was brought into question during a match.
+The card reads " After an enemy ship overlaps you, it gains 1 strain token."
+The question that was asked said " An enemy ship has to move to overlap you, so deployment should not be causing an overlap"
+I would like clarification on this as it has implications among other devices such as connor net and proxy mines. When a commando deploys, if it is placed under an enemy ship, does that ship gain a strain? Then after the commando moves, does the same ship gain another strain?
+Mines also refer to the After a ship moves through or overlaps a ship, the mine triggers. This does trigger upon drop. I have always played and ruled this same trigger works with commando's.
+>
+> **A:** The Overlap rules clearly explain how it works: "After an object is placed, if it is placed underneath one or more ships, those ships resolve any effects of overlapping the object" Commandos are objects so they follow this rule.
+
+Already named: Clan Wren Commandos, Death Watch Commandos, Imperial Super Commandos, Mandalorian Super Commandos, Nite Owl Commandos
+
+**Drops a mine or remote that can be placed under a ship** (possible match) — APPROVED, on the site
+
+- [x] **Conner Nets** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Conner Net using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Proximity Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Proximity Mine using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Cluster Mines** (Payload): Mine During the System Phase, you may spend 1 {charge} to drop a Cluster Mine set using the [1 {straight}] template. This card's {charge} cannot be recovered.
+- [x] **Discord Missiles** (Missile): At the start of the Engagement Phase, you may spend 1 calculate token and 1 {charge} to launch 1 buzz droid swarm using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. This card's {charge} cannot be recovered.
+
+**Drops or launches an obstacle that can be placed under a ship** (possible match) — APPROVED, on the site
+
+- [x] **Rigged Cargo Chute** (Illicit): Action: Spend 1 {charge}. Drop 1 loose cargo using the [1 {straight}] template.
+- [x] **Spare Parts Canisters** (Modification): Action: Spend 1 {charge} to recover 1 charge on one of your equipped {astromech} upgrades. Action: Spend 1 {charge} to drop 1 spare parts, then break all locks assigned to you.
+- [x] **Electro-Chaff Missiles** (Missile / Payload): During the System Phase, you may spend 1 {charge} from this card to launch 1 electro-chaff cloud using the [3 {bankleft}], [3 {bankright}], or [4 {straight}] template. Then place 1 fuse marker on it. This card's {charge} cannot be recovered..
+
+## forum-94: An ability with a cost can only enter the queue if its cost can be paid when it triggers.
+
+> **Q:** Can 311 pass 32C a Calc at the start of the engagement so that 32C can coordinate?
+>
+> **A:** DBS-32C cannot add its ability into the queue if it does not have any Calculate token at the start of the engagement phase. Abilities with a cost can be added into the queue only if the cost can be paid at the time of the trigger.
+
+Already named: DBS-32C, DFS-311, DFS-311 (SoC)
+
+**Transfers a calculate token at the start of the Engagement Phase, like DFS-311** (strong match) — APPROVED, on the site
+
+- [x] **IG-88A** (Aggressor Assault Fighter): At the start of the Engagement Phase, you may choose 1 friendly ship with {calculate} on its action bar at range 1-3. If you do, transfer 1 of your calculate tokens to it.
+
+**Spends a calculate token at the start of the Engagement Phase, like DBS-32C** (possible match) — APPROVED, on the site
+
+- [x] **Discord Missiles** (Missile): At the start of the Engagement Phase, you may spend 1 calculate token and 1 {charge} to launch 1 buzz droid swarm using the [3 {bankleft}], [3 {straight}], or [3 {bankright}] template. This card's {charge} cannot be recovered.
+
+## forum-93: An ability whose cost can't be paid when the Aftermath step's queue forms can't enter the queue, even if the cost becomes payable later.
+
+> **Q:** If a ship (example: Anakin in the republic Y-Wing) attacks another ship with munitions, spends the lock during the attack, then gets his lock back after attacking, can he then spend his lock to pass it to a squadmate within range? Getting differing opinions in the X-Wing rules-questions discord channel. I could see it either way, but am not certain how it would be ruled.
+>
+> **A:** EDITED: I edited my first answer because after some further checks, I found out that AMG answer is not longer valid with current ruling of the game. The interaction doesn't work because the two abilities must form a queue in the Aftermath step of the attack but Synchronized Console cannot pay the cost at that moment, therefore it cannot be added into the queue.
+
+Already named: Synchronized Console, Weapons Systems Officer
+
+**Spends a lock after attacking to give another friendly ship a lock, like Synchronized Console** (strong match) — APPROVED, on the site
+
+- [x] **Relay System** (Sensor): After a friendly ship at range 0-2 performs a {lock} action, you may acquire a lock on the same object. After you perform an attack that hits, you may spend a lock you have on the defender. If you do, another friendly ship at range 0-1 may acquire a lock on the defender.
+
+**Spends your lock on the defender after attacking** (possible match) — APPROVED, on the site
+
+- [x] **Stabilized S-Foils** (Configuration): Closed:{reload}, {barrelroll} {linked} {evade} Before you activate, if you are not critically damaged, you may flip this card. Open: {barrelroll} {linked} {lock} After you perform an attack, you may spend your lock on the defender to perform a bonus {cannon} attack against that ship using a {cannon} upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.
+
+## forum-92: Aurra Sing's tokens are exchanged between the two ships at the same time.
+
+> **Q:** Two questions about Aurra’s pilot ability.
+Can you transfer a token to one ship, then back to the original ship?
+If you transfer a tractor token, reposition the ship, and the ship chooses to rotate, can you pass that new stress to the other ship?
+>
+> **A:** No, the transfer happens simultaneously. Once you choose the two ships, you also choose the tokens to be transferred and you exchange them between the ships at the same time.
+
+Already named: Aurra Sing
+
+**SKIPPED:** Reviewed (Nov 25, 2026): no other cards to link.
+
 ## rr-69: Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).
 
 > **Q:** When an effect (such as Seasoned Navigator) instructs a ship to set its dial to a different maneuver "after you reveal your dial," is the ship's revealed maneuver the one that was on the dial when it was revealed or the new maneuver to which it is set?

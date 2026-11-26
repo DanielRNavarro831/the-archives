@@ -1678,6 +1678,84 @@
     }
    ]
   },
+  "forum-99": {
+   "mechanic": "Restricted cards aren't limited, so a restricted {illicit} upgrade can go under the Razor Crest title.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
+  "forum-95": {
+   "mechanic": "An object placed underneath a ship makes that ship resolve its overlap effects, even though the ship didn't move.",
+   "groups": [
+    {
+     "why": "Drops a mine or remote that can be placed under a ship",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "conner-nets-payload",
+      "proximity-mines-payload",
+      "cluster-mines-payload",
+      "discord-missiles-missile"
+     ]
+    },
+    {
+     "why": "Drops or launches an obstacle that can be placed under a ship",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "rigged-cargo-chute-illicit",
+      "spare-parts-canisters-modification",
+      "electro-chaff-missiles-missile"
+     ]
+    }
+   ]
+  },
+  "forum-94": {
+   "mechanic": "An ability with a cost can only enter the queue if its cost can be paid when it triggers.",
+   "groups": [
+    {
+     "why": "Transfers a calculate token at the start of the Engagement Phase, like DFS-311",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "ig-88a-aggressor-assault-fighter"
+     ]
+    },
+    {
+     "why": "Spends a calculate token at the start of the Engagement Phase, like DBS-32C",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "discord-missiles-missile"
+     ]
+    }
+   ]
+  },
+  "forum-93": {
+   "mechanic": "An ability whose cost can't be paid when the Aftermath step's queue forms can't enter the queue, even if the cost becomes payable later.",
+   "groups": [
+    {
+     "why": "Spends a lock after attacking to give another friendly ship a lock, like Synchronized Console",
+     "strength": "strong",
+     "status": "approved",
+     "cards": [
+      "relay-system-sensor-sl"
+     ]
+    },
+    {
+     "why": "Spends your lock on the defender after attacking",
+     "strength": "possible",
+     "status": "approved",
+     "cards": [
+      "stabilized-s-foils-configuration"
+     ]
+    }
+   ]
+  },
+  "forum-92": {
+   "mechanic": "Aurra Sing's tokens are exchanged between the two ships at the same time.",
+   "skipped": "Reviewed (Nov 25, 2026): no other cards to link.",
+   "groups": []
+  },
   "rr-69": {
    "mechanic": "Sets a ship's dial to a new maneuver after it is revealed (the new maneuver becomes the revealed maneuver).",
    "groups": [
