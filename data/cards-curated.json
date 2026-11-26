@@ -62,7 +62,8 @@
  },
  "dropCards": {
   "_comment": "Cards from YASB that aren't real cards and shouldn't appear on the site. card id -> why.",
-  "zero-condition": "Empty placeholder in the YASB data: no text, and no card assigns it"
+  "zero-condition": "Empty placeholder in the YASB data: no text, and no card assigns it",
+  "b6-blade-wing-prototype-title": "Blank duplicate of the B6 Blade Wing Prototype Command upgrade (YASB lists an old 0-point Title version with no text)"
  },
  "mergeDevices": {
   "_comment": "Device and obstacle cards from YASB (bombs, mines, placed obstacles) folded into the upgrade that drops them: the device's rules show on that upgrade's page, its rulings move there, and its old address redirects. device id -> upgrade id.",
