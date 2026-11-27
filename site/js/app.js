@@ -452,8 +452,8 @@
       const [label, key] = STAT[x.s] || [x.s, ""];
       rows.push(`<li><span class="chg-item">${x.v > 0 ? "+" : "−"}${Math.abs(x.v)} ${glyph(key)} ${esc(label)}</span></li>`);
     });
-    if (ch.adds) rows.push(`<li>Adds <span class="chg-item">${ch.adds.map(slot).join("")}</span> ${ch.adds.length === 1 ? "slot" : "slots"}</li>`);
-    if (ch.removes) rows.push(`<li>Removes <span class="chg-item">${ch.removes.map(slot).join("")}</span> ${ch.removes.length === 1 ? "slot" : "slots"}</li>`);
+    if (ch.adds) rows.push(`<li>Adds <span class="chg-item">${ch.adds.map(slot).join(" ")}</span> ${ch.adds.length === 1 ? "slot" : "slots"}</li>`);
+    if (ch.removes) rows.push(`<li>Removes <span class="chg-item">${ch.removes.map(slot).join(" ")}</span> ${ch.removes.length === 1 ? "slot" : "slots"}</li>`);
     return `<div class="facts"><h3>Changes to your ship</h3><ul class="ship-changes">${rows.join("")}</ul></div>`;
   }
 

@@ -262,8 +262,8 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .act-group { display: inline-flex; align-items: center; gap: 2px; }
 .ship-changes { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
-.ship-changes li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
-.ship-changes .chg-item { display: inline-flex; align-items: center; gap: 4px; }
+/* plain inline text, so the icons sit on the text line the same way they do in rulings */
+.ship-changes .chg-item { white-space: nowrap; }
 .act .xi { font-size: .8rem; }
 .act.red .xi { color: var(--hit); border-width: 2px; }
 .act.purple .xi { color: #b07cff; border-width: 2px; }
