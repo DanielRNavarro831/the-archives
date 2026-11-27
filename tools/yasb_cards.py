@@ -87,6 +87,21 @@ def action_list(actions):
     return out
 
 
+STAT_ORDER = ["attack", "agility", "hull", "shields", "energy", "force"]
+
+
+def ship_changes(u):
+    """Printed changes an upgrade makes to the ship: stat changes and added / removed upgrade slots.
+    (Force from a Force upgrade is already shown as the card's own Force value, so it isn't repeated.)"""
+    stats = [{"s": k, "v": v} for k, v in sorted((u.get("addStats") or {}).items(),
+                                                   key=lambda kv: STAT_ORDER.index(kv[0]) if kv[0] in STAT_ORDER else 99)
+             if v and not (k == "force" and v == u.get("force"))]
+    adds = [SLOT_DISPLAY.get(a["slot"], a["slot"]) for a in u.get("confersAddons") or [] if a.get("slot")]
+    removes = [SLOT_DISPLAY.get(x, x) for x in u.get("unequips_upgrades") or []]
+    out = {k: v for k, v in (("stats", stats), ("adds", adds), ("removes", removes)) if v}
+    return out or None
+
+
 def restriction_text(r):
     if not r:
         return None
@@ -216,6 +231,7 @@ def yasb_cards(d):
             # actions added to the ship's action bar; two-sided cards already show each side's actions in their text
             "actions": (None if re.search(r"\*\*(Closed|Open|Attached|Detached):\*\*\s*\{", text or "")
                         else action_list(u.get("addActions")) or None),
+            "shipChanges": ship_changes(u),
             "restrictedShip": u.get("ship"), "solitary": u.get("solitary"), "standardized": u.get("standardized"),
             "weapon": ({"arc": next((a["arc"] for a in stat_block(u)["attacks"]), None),
                         "v": next((a["v"] for a in stat_block(u)["attacks"]), None),

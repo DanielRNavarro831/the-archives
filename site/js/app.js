@@ -439,6 +439,24 @@
     return `<div class="stats">${cells.map(([k, v, label, tip]) => `<div class="stat ${k}" title="${esc(tip || label)}"><b>${v}</b><span>${esc(label)}</span></div>`).join("")}</div>`;
   }
 
+  /** Printed changes an upgrade makes to the ship: stat changes and added / removed upgrade slots. */
+  function shipChangesHtml(c) {
+    const ch = c.shipChanges;
+    if (!ch) return "";
+    const STAT = { attack: ["Attack", ""], agility: ["Agility", "agility"], hull: ["Hull", "hull"], shields: ["Shields", "shield"],
+                   energy: ["Energy", "energy"], force: ["Force", "force"] };
+    const glyph = (k) => (k && glyphFor(k) ? `<i class="xg" aria-hidden="true">${esc(glyphFor(k))}</i>` : "");
+    const slot = (s) => `<span class="chg-item">${iconHtml(SLOT_KEY[s] || s.toLowerCase())} ${esc(s)}</span>`;
+    const rows = [];
+    (ch.stats || []).forEach((x) => {
+      const [label, key] = STAT[x.s] || [x.s, ""];
+      rows.push(`<li><span class="chg-item">${x.v > 0 ? "+" : "−"}${Math.abs(x.v)} ${glyph(key)} ${esc(label)}</span></li>`);
+    });
+    if (ch.adds) rows.push(`<li>Adds ${ch.adds.map(slot).join(" ")} ${ch.adds.length === 1 ? "slot" : "slots"}</li>`);
+    if (ch.removes) rows.push(`<li>Removes ${ch.removes.map(slot).join(" ")} ${ch.removes.length === 1 ? "slot" : "slots"}</li>`);
+    return `<div class="facts"><h3>Changes to your ship</h3><ul class="ship-changes">${rows.join("")}</ul></div>`;
+  }
+
   function actionsHtml(c) {
     if (!c.actions || !c.actions.length) return "";
     const parts = [];
@@ -514,7 +532,7 @@
             ${ct ? `<div class="cardtext">${textBlock(ct.text)}${shipAb}</div>
                     ${ct.from === "errata" ? `<p class="muted small">Current wording from the official errata. Any part of the card not shown here is unchanged from the printed card.</p>` : ""}`
                  : shipAb ? `<div class="cardtext">${shipAb}</div>`
-                 : `<div class="cardtext missing">${c.flavor ? "This card has no ability text." : "Card text isn't in the Archives yet."}</div>`}
+                 : `<div class="cardtext missing">${c.flavor || c.shipChanges || (c.type === "Upgrade" && c.actions) ? "This card has no ability text." : "Card text isn't in the Archives yet."}</div>`}
             ${c.flavor ? `<p class="flavor">${esc(c.flavor)}</p>` : ""}
             ${(c.devices || []).map((d) => `<div class="device-rules"><h3>${esc(d.name)} <span class="muted">· ${esc(d.kind || "device")}</span></h3>
               <div class="cardtext">${d.text ? textBlock(d.text) : ""}</div></div>`).join("")}
@@ -533,6 +551,7 @@
               ${c.damageType ? `<dt>Trait</dt><dd>${esc(c.damageType)} · ${esc(c.quantity)} in the deck</dd>` : ""}
               ${c.base_size ? `<dt>Base</dt><dd>${esc(c.base_size)}</dd>` : ""}
             </dl>
+            ${shipChangesHtml(c)}
             ${actionsHtml(c)}
             ${dialHtml(c.dial)}
           </div>

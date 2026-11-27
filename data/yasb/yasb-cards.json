@@ -1,7 +1,7 @@
 {
  "source": "YASB (https://yasb.app) — github.com/raithos/xwing, MIT License",
  "commit": "b25222836fb66b0196b91291a386811eff0484f0",
- "importedAt": "2026-11-26",
+ "importedAt": "2026-11-27",
  "ships": {
   "T-65 X-wing": {
    "name": "T-65 X-wing",
@@ -21446,7 +21446,10 @@
    "points": 15,
    "force": 1,
    "unique": true,
-   "faction": "Galactic Empire"
+   "faction": "Galactic Empire",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Death Troopers",
@@ -21492,7 +21495,10 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Freelance Slicer",
@@ -21522,7 +21528,10 @@
    "points": 10,
    "unique": true,
    "force": 1,
-   "faction": "Galactic Empire"
+   "faction": "Galactic Empire",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Grand Moff Tarkin",
@@ -21606,7 +21615,10 @@
    "points": 10,
    "force": 1,
    "unique": true,
-   "faction": "Rebel Alliance"
+   "faction": "Rebel Alliance",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Ketsu Onyo",
@@ -21679,7 +21691,10 @@
      "Ezra Bridger",
      "Scum and Villainy"
     ]
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Minister Tua",
@@ -21778,7 +21793,10 @@
    "points": 9,
    "force": 1,
    "unique": true,
-   "faction": "Galactic Empire"
+   "faction": "Galactic Empire",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Tactical Officer",
@@ -21976,7 +21994,10 @@
    "points": 9,
    "force": 1,
    "unique": true,
-   "faction": "Rebel Alliance"
+   "faction": "Rebel Alliance",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Fifth Brother",
@@ -21985,7 +22006,10 @@
    "points": 12,
    "force": 1,
    "unique": true,
-   "faction": "Galactic Empire"
+   "faction": "Galactic Empire",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Greedo",
@@ -22026,7 +22050,10 @@
    "points": 12,
    "force": 1,
    "unique": true,
-   "faction": "Rebel Alliance"
+   "faction": "Rebel Alliance",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Skilled Bombardier",
@@ -22811,6 +22838,9 @@
    "unique": true,
    "charge": 2,
    "ship": "StarViper-class Attack Platform",
+   "addStats": {
+    "shields": 1
+   },
    "confersAddons": [
     {
      "slot": "Modification"
@@ -22821,13 +22851,19 @@
    "name": "Hull Upgrade",
    "id": 164,
    "slot": "Modification",
-   "points": 9
+   "points": 9,
+   "addStats": {
+    "hull": 1
+   }
   },
   {
    "name": "Shield Upgrade",
    "id": 165,
    "slot": "Modification",
-   "points": 10
+   "points": 10,
+   "addStats": {
+    "shields": 1
+   }
   },
   {
    "name": "Stealth Device",
@@ -22951,7 +22987,10 @@
    "points": 7,
    "force": 1,
    "faction": "First Order",
-   "unique": true
+   "unique": true,
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "General Hux",
@@ -23006,7 +23045,10 @@
    ],
    "also_occupies_upgrades": [
     "Crew"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Hyperspace Tracking Data",
@@ -23035,7 +23077,10 @@
    "points": 14,
    "unique": true,
    "force": 1,
-   "faction": "Resistance"
+   "faction": "Resistance",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Chewbacca (Resistance)",
@@ -23162,7 +23207,12 @@
    "id": 201,
    "slot": "Configuration",
    "ship": "Delta-7 Aethersprite",
-   "points": 99
+   "points": 99,
+   "addStats": {
+    "attack": 1,
+    "agility": -1,
+    "shields": 2
+   }
   },
   {
    "name": "Biohexacrypt Codes",
@@ -23341,7 +23391,10 @@
    "points": 11,
    "addActions": [
     "F-Coordinate"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Count Dooku",
@@ -23350,7 +23403,10 @@
    "slot": "Crew",
    "force": 1,
    "faction": "Separatist Alliance",
-   "points": 12
+   "points": 12,
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "General Grievous",
@@ -23448,7 +23504,10 @@
    "unique": true,
    "ship": "Belbullab-22 Starfighter",
    "faction": "Separatist Alliance",
-   "points": 9
+   "points": 9,
+   "addStats": {
+    "hull": 2
+   }
   },
   {
    "name": "GA-97",
@@ -23612,7 +23671,10 @@
    ],
    "addActions": [
     "F-Coordinate"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Korr Sella",
@@ -23651,7 +23713,10 @@
    ],
    "addActions": [
     "Reinforce"
-   ]
+   ],
+   "addStats": {
+    "shields": -1
+   }
   },
   {
    "name": "Ensnare",
@@ -23706,7 +23771,10 @@
    "slot": "Gunner",
    "points": 11,
    "faction": "Galactic Republic",
-   "force": 1
+   "force": 1,
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "C-3PO (Republic)",
@@ -24199,6 +24267,9 @@
     "*Focus",
     "R-> Coordinate"
    ],
+   "addStats": {
+    "shields": -2
+   },
    "confersAddons": [
     {
      "slot": "Team"
@@ -24215,7 +24286,11 @@
    "unique": true,
    "ship": "CR90 Corellian Corvette",
    "faction": "Rebel Alliance",
-   "points": 4
+   "points": 4,
+   "addStats": {
+    "shields": 1,
+    "energy": -1
+   }
   },
   {
    "name": "Liberator",
@@ -24224,7 +24299,10 @@
    "unique": true,
    "ship": "CR90 Corellian Corvette",
    "faction": "Rebel Alliance",
-   "points": 5
+   "points": 5,
+   "addStats": {
+    "energy": 1
+   }
   },
   {
    "name": "Tantive IV",
@@ -24259,7 +24337,11 @@
    "unique": true,
    "ship": "GR-75 Medium Transport",
    "faction": "Rebel Alliance",
-   "points": 12
+   "points": 12,
+   "addStats": {
+    "shields": -1,
+    "energy": 2
+   }
   },
   {
    "name": "Quantum Storm",
@@ -24269,6 +24351,9 @@
    "ship": "GR-75 Medium Transport",
    "faction": "Rebel Alliance",
    "points": 3,
+   "addStats": {
+    "energy": 1
+   },
    "confersAddons": [
     {
      "slot": "Team"
@@ -24286,6 +24371,10 @@
    "ship": "Raider-class Corvette",
    "faction": "Galactic Empire",
    "points": 5,
+   "addStats": {
+    "shields": -2,
+    "hull": 2
+   },
    "confersAddons": [
     {
      "slot": "Gunner"
@@ -24312,6 +24401,10 @@
    "ship": "Raider-class Corvette",
    "faction": "Galactic Empire",
    "points": 4,
+   "addStats": {
+    "shields": -2,
+    "energy": 2
+   },
    "confersAddons": [
     {
      "slot": "Crew"
@@ -24340,6 +24433,10 @@
    "ship": "Gozanti-class Cruiser",
    "faction": "Galactic Empire",
    "points": 8,
+   "addStats": {
+    "shields": -1,
+    "energy": 2
+   },
    "confersAddons": [
     {
      "slot": "Gunner"
@@ -24363,6 +24460,10 @@
    "ship": "Gozanti-class Cruiser",
    "faction": "Galactic Empire",
    "points": 6,
+   "addStats": {
+    "shields": 2,
+    "hull": -2
+   },
    "confersAddons": [
     {
      "slot": "Sensor"
@@ -24435,6 +24536,11 @@
    "ship": "C-ROC Cruiser",
    "faction": "Scum and Villainy",
    "points": 7,
+   "addStats": {
+    "hull": 3,
+    "shields": -1,
+    "energy": -1
+   },
    "confersAddons": [
     {
      "slot": "Cargo"
@@ -24448,6 +24554,11 @@
    "ship": "C-ROC Cruiser",
    "max_per_squad": 2,
    "points": 6,
+   "addStats": {
+    "hull": 2,
+    "shields": -2,
+    "energy": 1
+   },
    "confersAddons": [
     {
      "slot": "Cannon"
@@ -24468,6 +24579,10 @@
    "ship": "CR90 Corellian Corvette",
    "faction": "Rebel Alliance",
    "points": 4,
+   "addStats": {
+    "hull": 3,
+    "shields": -3
+   },
    "confersAddons": [
     {
      "slot": "Gunner"
@@ -24604,7 +24719,10 @@
    "points": 12,
    "addActions": [
     "F-Coordinate"
-   ]
+   ],
+   "addStats": {
+    "force": 2
+   }
   },
   {
    "name": "Repulsorlift Stabilizers",
@@ -24632,7 +24750,10 @@
    "points": 9,
    "addActions": [
     "F-Reinforce"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Multi-Missile Pods",
@@ -24663,7 +24784,10 @@
    "points": 9,
    "addActions": [
     "F-Evade"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Aayla Secura",
@@ -24676,7 +24800,10 @@
    "addActions": [
     "*Focus",
     "> F-Coordinate"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Maneuver-Assist MGK-300",
@@ -25429,7 +25556,10 @@
    "addActions": [
     "*Focus",
     "F-> Coordinate"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "General Grievous (Command)",
@@ -25658,7 +25788,11 @@
    "unique": true,
    "slot": "Title",
    "ship": "Trident-class Assault Ship",
-   "points": 3
+   "points": 3,
+   "addStats": {
+    "hull": 2,
+    "shields": -1
+   }
   },
   {
    "name": "Nautolan's Revenge",
@@ -25667,7 +25801,12 @@
    "slot": "Title",
    "points": 2,
    "ship": "Trident-class Assault Ship",
-   "faction": "Scum and Villainy"
+   "faction": "Scum and Villainy",
+   "addStats": {
+    "hull": -2,
+    "shields": 1,
+    "energy": 1
+   }
   },
   {
    "name": "Neimoidian Grasp",
@@ -25676,7 +25815,10 @@
    "slot": "Title",
    "points": 5,
    "ship": "Trident-class Assault Ship",
-   "faction": "Separatist Alliance"
+   "faction": "Separatist Alliance",
+   "addStats": {
+    "shields": -2
+   }
   },
   {
    "name": "Trident",
@@ -25685,7 +25827,10 @@
    "slot": "Title",
    "points": 4,
    "ship": "Trident-class Assault Ship",
-   "faction": "Separatist Alliance"
+   "faction": "Separatist Alliance",
+   "addStats": {
+    "energy": 1
+   }
   },
   {
    "name": "Tracking Torpedoes",
@@ -25741,6 +25886,9 @@
     "Lock",
     "Reload"
    ],
+   "addStats": {
+    "shields": 2
+   },
    "confersAddons": [
     {
      "slot": "Torpedo"
@@ -25940,7 +26088,10 @@
    "faction": [
     "Galactic Republic",
     "Scum and Villainy"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Bo-Katan Kryze (Republic/Separatist)",
@@ -26009,7 +26160,10 @@
    "force": 1,
    "slot": "Crew",
    "unique": true,
-   "faction": "Galactic Republic"
+   "faction": "Galactic Republic",
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Pre Vizsla",
@@ -26067,7 +26221,10 @@
    "faction": [
     "Separatist Alliance",
     "Scum and Villainy"
-   ]
+   ],
+   "addStats": {
+    "force": 1
+   }
   },
   {
    "name": "Tal Merrik",
@@ -26126,6 +26283,9 @@
    "addActions": [
     "F-Coordinate"
    ],
+   "addStats": {
+    "force": 1
+   },
    "confersAddons": [
     {
      "slot": "Illicit"
@@ -26320,7 +26480,10 @@
     "Scum and Villainy",
     "Rebel Alliance",
     "Galactic Empire"
-   ]
+   ],
+   "addStats": {
+    "force": 2
+   }
   },
   {
    "name": "Tracking Fob",

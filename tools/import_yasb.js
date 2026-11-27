@@ -49,6 +49,8 @@ function literal(n) {
         if (k === "modifier_func") {           // read (never run) the actions it adds to the action bar
           const acts = addedActions(p.value);
           if (acts.length) out.addActions = acts;
+          const stats = statChanges(p.value);
+          if (Object.keys(stats).length) out.addStats = stats;
           continue;
         }
         const v = literal(p.value);
@@ -84,7 +86,20 @@ function addedActions(fn) {
   return out;
 }
 
-const memberName =(n) => n.type === "MemberExpression" ? memberName(n.object) + "." + (n.property.name || n.property.value)
+/** `stats.hull += 1` / `stats.shields -= 2` inside a modifier_func -> { hull: 1, shields: -2 } */
+function statChanges(fn) {
+  const out = {};
+  for (const n of walk(fn)) {
+    if (n.type !== "AssignmentExpression" || !["+=", "-="].includes(n.operator) || n.left.type !== "MemberExpression") continue;
+    const m = /^stats\.(\w+)$/.exec(memberName(n.left));
+    const v = literal(n.right);
+    if (!m || typeof v !== "number") continue;
+    out[m[1]] = (out[m[1]] || 0) + (n.operator === "-=" ? -v : v);
+  }
+  return out;
+}
+
+const memberName = (n) => n.type === "MemberExpression" ? memberName(n.object) + "." + (n.property.name || n.property.value)
   : n.type === "Identifier" ? n.name : "?";
 
 // ---- cards-common: exportObj.basicCardData = -> { ships:, pilotsById:, ... }

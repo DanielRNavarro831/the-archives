@@ -261,6 +261,8 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .facts h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
 .actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .act-group { display: inline-flex; align-items: center; gap: 2px; }
+.ship-changes { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.ship-changes .chg-item { display: inline-flex; align-items: center; gap: 4px; }
 .act .xi { font-size: .8rem; }
 .act.red .xi { color: var(--hit); border-width: 2px; }
 .act.purple .xi { color: #b07cff; border-width: 2px; }
