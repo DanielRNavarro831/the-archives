@@ -22,15 +22,61 @@ import pymupdf
 from icons import icon_token
 
 BODY_FONTS = ("EurostileLTStd", "X-WingIcons", "Eurostile")
-FOOTER_Y = 752          # anything below this is the copyright/page number
-COLUMN_SPLIT = 306      # x coordinate between the two text columns
+FOOTER_MARGIN = 40      # anything this close to the bottom is the copyright/page number
+# The two text columns are split at the middle of the page (306 on the letter-size Rules
+# Reference; 216 on the smaller Rulebook, whose columns were being merged together before).
+
+# The Rulebook's icon font stores some icons as ordinary ASCII characters instead of the
+# private-use characters the other PDFs use. Worked out from the text around each one.
+ASCII_ICONS = {chr(cp): name for cp, name in {
+    0x01: "boost", 0x02: "evade", 0x03: "cloak", 0x05: "reinforce", 0x06: "coordinate", 0x07: "jam",
+    0x08: "slam", 0x0D: "torpedo", 0x0E: "missile", 0x14: "payload", 0x17: "modification",
+    0x1A: "turnleft", 0x1B: "bankleft", 0x1C: "straight", 0x1D: "bankright", 0x1E: "turnright",
+    0x1F: "stop", 0x21: "sloopleft", 0x22: "kturn", 0x23: "sloopright", 0x24: "trollright",
+    0x25: "hit", 0x26: "crit", 0x29: "focus", 0x2A: "lock", 0x2B: "rotate", 0x2C: "reversebankright",
+    0x2D: "reversestraight", 0x2E: "reversebankleft", 0x31: "reload", 0x32: "forcepower",
+    0x33: "barrelroll", 0x35: "calculate", 0x39: "bullseyearc", 0x3A: "reararc", 0x3B: "frontarc",
+    0x3C: "doubleturretarc", 0x3D: "singleturretarc", 0x3E: "charge", 0x3F: "force",
+}.items()}
 
 
-def span_text(span):
+def doubled_icons(doc):
+    """True when the PDF writes every icon twice in a row (the Rulebook does: outline + fill)."""
+    pairs = total = 0
+    for page in doc:
+        for b in page.get_text("dict")["blocks"]:
+            for line in b.get("lines", []):
+                for s in line["spans"]:
+                    t = "".join(c for c in s["text"] if ord(c) >= 0xE000)
+                    if s["font"].startswith("X-WingIcons") and t:
+                        total += 1
+                        pairs += len(t) % 2 == 0 and all(t[i] == t[i + 1] for i in range(0, len(t), 2))
+    return total > 20 and pairs / total > 0.5
+
+
+def span_text(span, doubled=False):
     out = []
-    for ch in span["text"]:
+    icon_font = span.get("font", "").startswith("X-WingIcons")
+    text = span["text"]
+    if doubled and icon_font:
+        # "{force}{force}" drawn twice -> one; keeps a real pair like {missile}{missile} drawn twice (4 chars)
+        t = [c for c in text if ord(c) >= 0xE000]
+        if t and len(t) % 2 == 0 and all(t[i] == t[i + 1] for i in range(0, len(t), 2)):
+            seen, keep = 0, []
+            for c in text:
+                if ord(c) >= 0xE000:
+                    seen += 1
+                    if seen % 2 == 0:
+                        continue
+                keep.append(c)
+            text = "".join(keep)
+    for ch in text:
         cp = ord(ch)
-        if 0xF0000 <= cp <= 0x10FFFF or 0xE000 <= cp <= 0xF8FF:
+        if icon_font and ch == " " and text == " " and span["bbox"][2] - span["bbox"][0] > 4.5:
+            out.append("{trollleft}")   # the Rulebook's left Tallon Roll icon is stored as a (wide) space
+        elif icon_font and cp < 0x80 and ch != " ":
+            out.append("{" + ASCII_ICONS.get(ch, f"icon-ascii-{cp:02X}") + "}")
+        elif 0xF0000 <= cp <= 0x10FFFF or 0xE000 <= cp <= 0xF8FF:
             out.append(icon_token(cp))
         elif ch in "￼­":
             continue
@@ -45,6 +91,8 @@ def classify(line):
         return None
     first = spans[0]
     font, size = first["font"], first["size"]
+    if font.startswith(PART_TITLE_FONT):
+        return "h1"
     text = "".join(span_text(s) for s in line["spans"]).strip()
     if "Bold" in font and "SC70" not in font and size >= 13:
         return "h1"
@@ -57,7 +105,13 @@ def classify(line):
     return "p"
 
 
+PART_TITLE_FONT = "KimberleyBl"   # the Rulebook's big part titles ("SETUP", "SQUAD BUILDING", ...)
+PART_TITLES = False                # set per document: only the Rulebook uses them
+
+
 def keep_span(s):
+    if s["font"].startswith(PART_TITLE_FONT):
+        return PART_TITLES and s["size"] >= 16 and len(re.sub(r"[^A-Za-z]", "", s["text"])) >= 3
     if not s["font"].startswith(BODY_FONTS):
         return False
     small_caps = "SC70" in s["font"] or "Obliq" in s["font"]
@@ -66,8 +120,13 @@ def keep_span(s):
 
 def extract(path):
     doc = pymupdf.open(path)
+    global PART_TITLES
+    doubled = doubled_icons(doc)
+    PART_TITLES = doubled
     paras = []
     for pno, page in enumerate(doc, start=1):
+        COLUMN_SPLIT = page.rect.width / 2
+        FOOTER_Y = page.rect.height - FOOTER_MARGIN
         blocks = []
         for b in page.get_text("dict")["blocks"]:
             if b.get("type") != 0:
@@ -76,18 +135,57 @@ def extract(path):
             if y0 > FOOTER_Y:
                 continue
             col = 0 if x0 < COLUMN_SPLIT - 10 else 1
-            blocks.append((col, y0, x0, b))
+            # Rulebook: an icon and its text on the same line can start a fraction of a point
+            # apart, so read anything within 3pt as one line, left to right
+            blocks.append((col, round(y0 / 3) if doubled else y0, x0, b))
+        # Boxes: "Example of ..." panels and sidebars such as "Critical Damage Markers" (Rulebook
+        # pp. 6-14). Their titles are bold Title Case, unlike the ALL CAPS rules headings. A box is
+        # read after the two text columns, so it doesn't cut into the body text. It covers its
+        # column (or the whole page, if its title crosses the middle) from its title down to the
+        # next heading below it.
+        def first_span(b):
+            return next((sp for ln in b["lines"] for sp in ln["spans"] if sp["text"].strip()), None)
+        def is_heading(b):
+            f = first_span(b)
+            return f is not None and "Bold" in f["font"] and f["size"] >= 9
+        def box_title(b):
+            t = first_span(b)["text"].strip() if is_heading(b) else ""
+            return (first_span(b)["size"] >= 10.5 if t else False) and re.match(r"^[A-Z][a-z]", t) and "{" not in t
+        panels = []
+        for _, _, _, c in blocks:
+            if not doubled or not box_title(c):   # Rulebook layout only
+                continue
+            cx0, cy0, cx1, _ = c["bbox"]
+            left, right = ((0, page.rect.width) if cx0 < COLUMN_SPLIT < cx1
+                           else (0, COLUMN_SPLIT) if cx0 < COLUMN_SPLIT else (COLUMN_SPLIT, page.rect.width))
+            below = [b["bbox"][1] for _, _, _, b in blocks if is_heading(b) and b is not c
+                     and b["bbox"][1] > cy0 + 5 and left <= b["bbox"][0] < right]
+            panels.append((c, cy0, min(below, default=page.rect.height), left, right))
+        for i, (col, y0, x0, b) in enumerate(blocks):
+            for n, (c, top, bottom, left, right) in enumerate(panels):
+                if b is c or (top <= b["bbox"][1] < bottom and left <= b["bbox"][0] < right and not is_heading(b)):
+                    blocks[i] = (2, (n, b is not c, col, round(b["bbox"][1] / 3)), x0, b)
+                    break
         blocks.sort(key=lambda t: (t[0], t[1], t[2]))
         cur = paras[-1] if paras else None
         prev = None  # (col, y1) of the previous kept line
         for col, _, _, b in blocks:
             for line in b["lines"]:
                 line = dict(line)
-                line["spans"] = [s for s in line["spans"] if keep_span(s)]
+                spans = []
+                for sp in line["spans"]:
+                    if not keep_span(sp):
+                        continue
+                    # some PDFs draw each icon twice (outline + fill) at the same spot: keep one
+                    if spans and sp["text"] == spans[-1]["text"] and all(
+                            abs(a - b) < 1.5 for a, b in zip(sp["bbox"], spans[-1]["bbox"])):
+                        continue
+                    spans.append(sp)
+                line["spans"] = spans
                 kind = classify(line)
                 if kind is None:
                     continue
-                text = "".join(span_text(s) for s in line["spans"])
+                text = "".join(span_text(s, doubled) for s in line["spans"])
                 text = re.sub(r"\s+", " ", text).strip()
                 if not text:
                     continue
@@ -99,11 +197,13 @@ def extract(path):
                             and cur["kind"] in ("p", "q")
                             and not re.search(r"[.?!:”\")]$", cur["text"])
                             and kind == "p")
-                marker = re.match(r"^(Q:|A:|•|◊|◊|\d+\.\s|Step \d)", text)
+                marker = re.match(r"^(Q:|A:|•|◊|◊|\d+\.\s|Step \d|[a-e]\.$)", text)
                 if kind in ("h1", "h2", "h3"):
                     starts_new = not (tight and cur is not None and cur["kind"] == kind)
                 elif marker:
                     starts_new = True
+                elif cur is not None and re.fullmatch(r"[a-e]\.", cur["text"]):
+                    starts_new = False          # a lettered sub-step ("a.") and its text are separate blocks
                 elif tight and cur is not None and cur["kind"] in ("p", "q"):
                     starts_new = False
                 elif dangling:
@@ -123,7 +223,20 @@ def extract(path):
     for p in paras:
         p["text"] = re.sub(r"\s+", " ", p["text"]).strip()
         p["text"] = p["text"].replace("\t", " ")
-    return [p for p in paras if p["text"]]
+    # the Rulebook draws the range bonus icon as a plain "g" at the start of the next line
+    for prev, p in zip(paras, paras[1:]):
+        if prev["text"].endswith("range bonus icon:") and p["text"].startswith("g "):
+            prev["text"] += " {rangebonus}"
+            p["text"] = p["text"][2:]
+    if doubled:
+        paras = [p for p in paras if not (p["kind"] == "h1" and p["page"] == 1)]   # cover title
+        # Rulebook diagram labels that come through as text: a lone icon, or a run of icons
+        # and labels with no sentence in it (the "Ship Layout" card diagram)
+        paras = [p for p in paras if not (p["kind"] == "p" and (
+            re.fullmatch(r"\s*(\{[a-z]+\}\s*)+", p["text"])
+            or (len(re.findall(r"\{[a-z]+\}", p["text"])) >= 3 and not re.search(r"[a-z][.!?:]", p["text"]))))]
+    # leftovers of figure labels, e.g. "A A A ( ):" from the Rulebook's drawing of an attack header
+    return [p for p in paras if p["text"] and not re.fullmatch(r"(?:[A-Z] )+[()\s:]*", p["text"])]
 
 
 if __name__ == "__main__":

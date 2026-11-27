@@ -2,2306 +2,3228 @@
  {
   "kind": "h3",
   "text": "10/30/2023",
-  "page": 1
+  "page": 1,
+  "col": 0,
+  "y": 571.8
+ },
+ {
+  "kind": "h1",
+  "text": "FUNDAMENTAL CONCEPTS",
+  "page": 2,
+  "col": 0,
+  "y": 25.0
  },
  {
   "kind": "p",
   "text": "Before learning the steps of the game, it is important to understand these basic concepts, since they are referenced in multiple sections.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 66.6
  },
  {
   "kind": "h2",
   "text": "SHIPS",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 103.5
  },
  {
   "kind": "p",
   "text": "Thematically, in X-Wing, the players control the decisions of their pilots, choosing how they navigate their ships and which targets they attack. Each SHIP in the game is represented by a ship card, a ship token, and a plastic miniature, base, and peg(s).",
-  "page": 2
- },
- {
-  "kind": "h2",
-  "text": "INITIATIVE",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "Each ship has an initiative value on its ship card and token. Initiative represents the pilot’s reﬂexes, skill, or even luck.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 117.6
  },
  {
   "kind": "p",
   "text": "Each ship card includes a variety of information about the ship, from the types of attacks it can perform to its defensive capabilities.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 176.0
  },
  {
   "kind": "p",
   "text": "Each ship and maneuver dial has a ship type (e.g., TIE/ln Fighter). Each ship assembly is paired with a dial of the corresponding ship type, which is used to plan its movement.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 213.8
  },
  {
   "kind": "h2",
   "text": "FRIENDLY AND ENEMY",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 260.9
  },
  {
   "kind": "p",
   "text": "Many abilities refer to FRIENDLY and ENEMY ships, which are relative terms. A ship is friendly to all of the ships in its own squad, and it is an enemy ship to all of the opposing squad’s ships. Additionally, a ship is friendly to itself.",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "Numerous elements of the game refer to initiative, but its primary function is to determine the order in which ships act. The rules often instruct ships to act in INITIATIVE ORDER, which means the ships take turns in numeric order. The rules will always specify whether to start with the lowest initiative (ascending order) or the highest initiative (descending order).",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 275.3
  },
  {
   "kind": "h2",
   "text": "OBSTACLES",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 332.6
  },
  {
   "kind": "p",
   "text": "OBSTACLES are markers that present additional challenges for pilots and create variation in the play area from game to game. Rules for moving through and overlapping obstacles are found on page 18.",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "If a player has two or more ships with the same initiative, that player decides the order in which they act.",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "If both players have ships with the same initiative, those ships act in PLAYER ORDER. The player who receives the ﬁrst player marker during setup is the FIRST PLAYER; their ships of that initiative act ﬁrst. Then the other player’s ships of that initiative act.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 346.9
  },
  {
   "kind": "h2",
-  "text": "DEVICE [\u0014]",
-  "page": 2
+  "text": "DEVICE [{payload}]",
+  "page": 2,
+  "col": 0,
+  "y": 392.7
  },
  {
   "kind": "p",
-  "text": "Each \u0014 (device) upgrade card allows a ship to drop or launch a speciﬁc type of DEVICE and provides additional rules for how they behave. Detailed rules for devices are found on page 18.",
-  "page": 2
+  "text": "Each {payload} (device) upgrade card allows a ship to drop or launch a speciﬁc type of DEVICE and provides additional rules for how they behave. Detailed rules for devices are found on page 18.",
+  "page": 2,
+  "col": 0,
+  "y": 407.1
  },
  {
   "kind": "h2",
   "text": "OBJECTS",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 455.4
  },
  {
   "kind": "p",
   "text": "Ships, obstacles, and devices are all OBJECTS. The exact position of objects in the play area is tracked and restricted by game effects.",
-  "page": 2
- },
- {
-  "kind": "h2",
-  "text": "MEASURING RANGE",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "To determine the distance between two objects, X-Wing uses a range ruler. The range ruler is divided into three numbered range bands.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 469.8
  },
  {
   "kind": "p",
   "text": "• Ships can acquire locks on objects.",
-  "page": 2
- },
- {
-  "kind": "p",
-  "text": "To measure range between two objects, place the range ruler over the point of the ﬁrst object that is closest to the second object, then aim the other end of the ruler toward the point of the second object that is closest to the ﬁrst object. While measuring range from ships, measure from the plastic base, not from the miniature. An object is AT the range that corresponds to the range band that falls over the closest point of the second object.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 507.6
  },
  {
   "kind": "p",
   "text": "• Ships can move through objects.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 525.8
  },
  {
   "kind": "h2",
   "text": "STANDARD LOADOUTS",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 543.1
  },
  {
   "kind": "p",
   "text": "Some ship cards are STANDARD LOADOUTS. Standard loadout cards are larger than normal ship cards and list all the ship’s equipped upgrades. Some standard loadouts have unique ship abilities, upgrade abilities, and action bars. Standard loadout ships cannot equip any additional upgrades.",
-  "page": 2
+  "page": 2,
+  "col": 0,
+  "y": 557.4
  },
  {
   "kind": "h2",
-  "text": "DEFICIT",
-  "page": 3
+  "text": "INITIATIVE",
+  "page": 2,
+  "col": 1,
+  "y": 138.5
  },
  {
   "kind": "p",
-  "text": "If the squad point total of a player’s squad is less than the maximum allowed squad value, subtract the total squad point value of their squad from the maximum to determine that player’s DEFICIT before the game begins.",
-  "page": 3
+  "text": "Each ship has an initiative value on its ship card and token. Initiative represents the pilot’s reﬂexes, skill, or even luck.",
+  "page": 2,
+  "col": 1,
+  "y": 158.6
+ },
+ {
+  "kind": "p",
+  "text": "Numerous elements of the game refer to initiative, but its primary function is to determine the order in which ships act. The rules often instruct ships to act in INITIATIVE ORDER, which means the ships take turns in numeric order. The rules will always specify whether to start with the lowest initiative (ascending order) or the highest initiative (descending order).",
+  "page": 2,
+  "col": 1,
+  "y": 278.0
+ },
+ {
+  "kind": "p",
+  "text": "If a player has two or more ships with the same initiative, that player decides the order in which they act.",
+  "page": 2,
+  "col": 1,
+  "y": 356.6
+ },
+ {
+  "kind": "p",
+  "text": "If both players have ships with the same initiative, those ships act in PLAYER ORDER. The player who receives the ﬁrst player marker during setup is the FIRST PLAYER; their ships of that initiative act ﬁrst. Then the other player’s ships of that initiative act.",
+  "page": 2,
+  "col": 1,
+  "y": 384.2
+ },
+ {
+  "kind": "h2",
+  "text": "MEASURING RANGE",
+  "page": 2,
+  "col": 1,
+  "y": 472.1
+ },
+ {
+  "kind": "p",
+  "text": "To determine the distance between two objects, X-Wing uses a range ruler. The range ruler is divided into three numbered range bands.",
+  "page": 2,
+  "col": 1,
+  "y": 486.5
+ },
+ {
+  "kind": "p",
+  "text": "To measure range between two objects, place the range ruler over the point of the ﬁrst object that is closest to the second object, then aim the other end of the ruler toward the point of the second object that is closest to the ﬁrst object. While measuring range from ships, measure from the plastic base, not from the miniature. An object is AT the range that corresponds to the range band that falls over the closest point of the second object.",
+  "page": 2,
+  "col": 1,
+  "y": 524.3
  },
  {
   "kind": "p",
   "text": "Two objects (ships, obstacles, devices) that are touching are at range 0 of each other. Likewise, an object is at range 0 of itself.",
-  "page": 3
- },
- {
-  "kind": "p",
-  "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
-  "page": 3
- },
- {
-  "kind": "h2",
-  "text": "MISSION POINTS",
-  "page": 3
- },
- {
-  "kind": "p",
-  "text": "MISSION POINTS determine who wins the game. Each scenario details how mission points are earned. Standard Scenarios can be found at atomicmassgames.com/xwing-documents.",
-  "page": 3
- },
- {
-  "kind": "p",
-  "text": "• Players track their mission points with VICTORY COUNTERS.",
-  "page": 3
- },
- {
-  "kind": "p",
-  "text": "SCENARIO FEATURE A SCENARIO FEATURE is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
-  "page": 3
+  "page": 3,
+  "col": 0,
+  "y": 27.1
  },
  {
   "kind": "p",
   "text": "An object is BEYOND a range if no part of it falls between the object being measured from and the speciﬁed range.",
-  "page": 3
- },
- {
-  "kind": "h2",
-  "text": "SHIP SIZES",
-  "page": 3
- },
- {
-  "kind": "p",
-  "text": "The ships included in the squadron starter pack are all small ships with a base size of about 1-9/16” (4cm) long. The rules of X-Wing are written for small ships, so there are no special exceptions for small ships. Some expansion ships are medium and large ships which behave similarly to small ships with a few exceptions; see the Rules Reference for more details.",
-  "page": 3
+  "page": 3,
+  "col": 0,
+  "y": 248.4
  },
  {
   "kind": "h2",
   "text": "SCENARIOS",
-  "page": 3
+  "page": 3,
+  "col": 0,
+  "y": 471.1
  },
  {
   "kind": "p",
   "text": "SCENARIOS lay out speciﬁc objectives and goals that players must achieve during the battle in order to win the game. Players can either randomly select a scenario to play or choose one if all players agree. There are many different types of scenarios available in other X-Wing expansions, but the Standard Scenarios represent the most common scenarios used in games of X-Wing. Standard Scenarios can be found at atomicmassgames.com/xwing-documents.",
-  "page": 3
+  "page": 3,
+  "col": 0,
+  "y": 485.2
+ },
+ {
+  "kind": "h2",
+  "text": "DEFICIT",
+  "page": 3,
+  "col": 1,
+  "y": 26.2
  },
  {
   "kind": "p",
-  "text": "2 {frontarc}{frontarc} \u000e \u0017 Pilot Name and Subtitle Action Bar Initiative Text Box Faction Ship Type Ship Stats Upgrades Before playing a game, each player chooses the ship and upgrade cards they wish to use; this process is known as SQUAD BUILDING. Detailed squad building rules are found on page 18.",
-  "page": 4
+  "text": "If the squad point total of a player’s squad is less than the maximum allowed squad value, subtract the total squad point value of their squad from the maximum to determine that player’s DEFICIT before the game begins.",
+  "page": 3,
+  "col": 1,
+  "y": 40.6
  },
  {
   "kind": "p",
-  "text": "3. Establish Play Area: Establish a 3’ x 3’ (91 cm) play area on a ﬂat surface or use a playmat such as the X-Wing Starﬁeld Playmat. Then players pick opposite edges of the play area to be their player edges.",
-  "page": 4
+  "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
+  "page": 3,
+  "col": 1,
+  "y": 98.8
+ },
+ {
+  "kind": "h2",
+  "text": "MISSION POINTS",
+  "page": 3,
+  "col": 1,
+  "y": 126.2
+ },
+ {
+  "kind": "p",
+  "text": "MISSION POINTS determine who wins the game. Each scenario details how mission points are earned. Standard Scenarios can be found at atomicmassgames.com/xwing-documents.",
+  "page": 3,
+  "col": 1,
+  "y": 140.6
+ },
+ {
+  "kind": "p",
+  "text": "• Players track their mission points with VICTORY COUNTERS.",
+  "page": 3,
+  "col": 1,
+  "y": 188.6
+ },
+ {
+  "kind": "p",
+  "text": "SCENARIO FEATURE A SCENARIO FEATURE is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
+  "page": 3,
+  "col": 1,
+  "y": 218.1
+ },
+ {
+  "kind": "h2",
+  "text": "SHIP SIZES",
+  "page": 3,
+  "col": 1,
+  "y": 335.7
+ },
+ {
+  "kind": "p",
+  "text": "The ships included in the squadron starter pack are all small ships with a base size of about 1-9/16” (4cm) long. The rules of X-Wing are written for small ships, so there are no special exceptions for small ships. Some expansion ships are medium and large ships which behave similarly to small ships with a few exceptions; see the Rules Reference for more details.",
+  "page": 3,
+  "col": 1,
+  "y": 350.1
+ },
+ {
+  "kind": "h1",
+  "text": "SHIP LAYOUT",
+  "page": 4,
+  "col": 0,
+  "y": 23.5
+ },
+ {
+  "kind": "h1",
+  "text": "SETUP",
+  "page": 4,
+  "col": 0,
+  "y": 286.6
+ },
+ {
+  "kind": "p",
+  "text": "Before playing a game, each player chooses the ship and upgrade cards they wish to use; this process is known as SQUAD BUILDING. Detailed squad building rules are found on page 18.",
+  "page": 4,
+  "col": 0,
+  "y": 308.2
  },
  {
   "kind": "p",
   "text": "After the players select a scenario, they set up by resolving the following steps:",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "4. Place Obstacles: In player order, players take turns choosing an obstacle and placing it into the play area until all six obstacles have been placed. Obstacles must be placed beyond range 1 of each other and beyond range 2 of each edge of the play area. The gray area on the ﬁgure on the right shows where obstacles can be placed.",
-  "page": 4
+  "page": 4,
+  "col": 0,
+  "y": 356.2
  },
  {
   "kind": "p",
   "text": "1. Gather Forces: Each player places their ships and upgrade cards on the table in front of them. For each ship that has a shield value, charge limit, or Force capacity, place the corresponding shields or charges above the ship and/or upgrade cards. All players assign ID tokens to each of their ships.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "5. Place Forces: Players place their ships into the play area in initiative order from lowest to highest initiative, using player order as a tiebreaker. Players must place ships within range 1 of their player edge.",
-  "page": 4
+  "page": 4,
+  "col": 0,
+  "y": 383.5
  },
  {
   "kind": "p",
   "text": "2. Determine Player Order: Randomly determine the ﬁrst player as follows:",
-  "page": 4
+  "page": 4,
+  "col": 0,
+  "y": 462.9
  },
  {
   "kind": "p",
-  "text": "a.",
-  "page": 4
+  "text": "a. Each player rolls three attack dice. The player with the most {crit} results is the ﬁrst player.",
+  "page": 4,
+  "col": 0,
+  "y": 491.6
  },
  {
   "kind": "p",
-  "text": "Each player rolls three attack dice. The player with the most & results is the ﬁrst player.",
-  "page": 4
+  "text": "b. In the case of a tie, the ﬁrst player is the player with the most {focus} results.",
+  "page": 4,
+  "col": 0,
+  "y": 520.0
+ },
+ {
+  "kind": "p",
+  "text": "c. If there is still a tie, the ﬁrst player is the player with the most {hit} results.",
+  "page": 4,
+  "col": 0,
+  "y": 548.4
+ },
+ {
+  "kind": "p",
+  "text": "d. If there is still a tie, players reroll the dice and follow the above rules until the tie is broken.",
+  "page": 4,
+  "col": 0,
+  "y": 576.8
+ },
+ {
+  "kind": "p",
+  "text": "3. Establish Play Area: Establish a 3’ x 3’ (91 cm) play area on a ﬂat surface or use a playmat such as the X-Wing Starﬁeld Playmat. Then players pick opposite edges of the play area to be their player edges.",
+  "page": 4,
+  "col": 1,
+  "y": 311.2
+ },
+ {
+  "kind": "p",
+  "text": "4. Place Obstacles: In player order, players take turns choosing an obstacle and placing it into the play area until all six obstacles have been placed. Obstacles must be placed beyond range 1 of each other and beyond range 2 of each edge of the play area. The gray area on the ﬁgure on the right shows where obstacles can be placed.",
+  "page": 4,
+  "col": 1,
+  "y": 370.2
+ },
+ {
+  "kind": "p",
+  "text": "5. Place Forces: Players place their ships into the play area in initiative order from lowest to highest initiative, using player order as a tiebreaker. Players must place ships within range 1 of their player edge.",
+  "page": 4,
+  "col": 1,
+  "y": 459.8
  },
  {
   "kind": "p",
   "text": "6. Prepare Other Components: Shufﬂe the damage deck and place it facedown outside the play area. If the players have more than one damage deck, each player uses their own deck. Set the round dial to “1” and place it near the play area.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "b.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "In the case of a tie, the ﬁrst player is the player with the most ) results.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "c.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "If there is still a tie, the ﬁrst player is the player with the most % results.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "d.",
-  "page": 4
- },
- {
-  "kind": "p",
-  "text": "If there is still a tie, players reroll the dice and follow the above rules until the tie is broken.",
-  "page": 4
+  "page": 4,
+  "col": 1,
+  "y": 518.8
  },
  {
   "kind": "p",
   "text": "Then the supply of range rulers, templates, dice, and tokens is created near the play area.",
-  "page": 4
+  "page": 4,
+  "col": 1,
+  "y": 584.3
+ },
+ {
+  "kind": "h1",
+  "text": "PLAY",
+  "page": 5,
+  "col": 1,
+  "y": 25.0
  },
  {
   "kind": "p",
-  "text": "X-Wing is played over a series of twelve rounds. Each round consists of ﬁve phases: {torpedo}{torpedo} {torpedo} {torpedo} {torpedo} {torpedo}",
-  "page": 5
+  "text": "X-Wing is played over a series of twelve rounds. Each round consists of ﬁve phases:",
+  "page": 5,
+  "col": 1,
+  "y": 46.4
  },
  {
   "kind": "p",
   "text": "1. Planning Phase: Players choose maneuvers for their ships using maneuver dials and determine which player will be the ﬁrst player for the round.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 74.0
  },
  {
   "kind": "p",
   "text": "2. System Phase: Some ships can resolve speciﬁc abilities.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 122.7
  },
  {
   "kind": "p",
   "text": "3. Activation Phase: Each ship moves and performs actions.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 151.1
  },
  {
   "kind": "p",
   "text": "4. Engagement Phase: Each ship may perform an attack.",
-  "page": 5
- },
- {
-  "kind": "p",
-  "text": "\u0017 \u0017",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 179.5
  },
  {
   "kind": "p",
   "text": "5. End Phase: Circular tokens are removed from ships and some charges recover.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 207.9
  },
  {
   "kind": "p",
   "text": "After each End Phase, players start a new round, beginning with the Planning Phase. Players continue to resolve rounds until the game ends.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 236.6
  },
  {
   "kind": "h2",
   "text": "PHASE 1: PLANNING PHASE",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 273.5
  },
  {
   "kind": "p",
   "text": "During this phase, each player uses a maneuver dial to secretly set a maneuver for each of their ships. Each type of ship has a different dial that thematically reﬂects its unique capabilities.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 287.8
  },
  {
   "kind": "p",
   "text": "A maneuver indicates how a ship will move. It has three components: speed (the number), bearing (the arrow), and difﬁculty (the color). The speed and bearing determine the distance and angle of the maneuver; difﬁculty is explained later. Each maneuver corresponds to a template that displays the same speed and bearing.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 335.8
  },
  {
   "kind": "p",
   "text": "To SET a maneuver for a ship, the player takes a dial corresponding to that ship and rotates it until the arrow points at the maneuver they would like to set. Then the player assigns the dial to its corresponding ship by placing it facedown in the play area next to that ship.",
-  "page": 5
+  "page": 5,
+  "col": 1,
+  "y": 465.4
  },
  {
   "kind": "p",
   "text": "After all ships have dials assigned to them, players roll to determine the ﬁrst player for the round as described in Setup. Then play proceeds to the System Phase.",
-  "page": 5
- },
- {
-  "kind": "h2",
-  "text": "Example of Executing a Maneuver",
-  "page": 6
- },
- {
-  "kind": "p",
-  "text": "1. The player revealed a blue 2 right bank [2 ]. Then they take the [2 ] template from the supply.",
-  "page": 6
- },
- {
-  "kind": "p",
-  "text": "2. The player places the [2 ] template in the play area in front of the ship, sliding the template between the front guides.",
-  "page": 6
- },
- {
-  "kind": "p",
-  "text": "3. The player picks up and places the ship at the opposite end of the template, sliding the rear guides of the ship into the template.",
-  "page": 6
+  "page": 5,
+  "col": 1,
+  "y": 584.8
  },
  {
   "kind": "h2",
   "text": "PHASE 2: SYSTEM PHASE",
-  "page": 6
+  "page": 6,
+  "col": 0,
+  "y": 252.3
  },
  {
   "kind": "p",
   "text": "Some ships have special abilities that indicate they are used during the System Phase. All of these abilities are resolved in initiative order, starting with the lowest initiative.",
-  "page": 6
+  "page": 6,
+  "col": 0,
+  "y": 266.7
  },
  {
   "kind": "h2",
-  "text": "Example of Position Marker Usage",
-  "page": 6
+  "text": "Example of Executing a Maneuver",
+  "page": 6,
+  "col": 2,
+  "y": 34.0
  },
  {
   "kind": "p",
-  "text": "It can be difﬁcult to precisely move one ship over another ship. When players desire a higher level of precision, they can use a position marker to track ship positions.",
-  "page": 6
+  "text": "1. The player revealed a blue 2 right bank [2 {bankright}]. Then they take the [2 {bankright}] template from the supply.",
+  "page": 6,
+  "col": 2,
+  "y": 50.9
  },
  {
   "kind": "p",
-  "text": "In the example on the right, a TIE ﬁghter is in the path of the X-wing’s maneuver. To precisely measure the X-wing’s ﬁnal position, a position marker is used to indicate the position of the TIE ﬁghter.",
-  "page": 6
+  "text": "2. The player places the [2 {bankright}] template in the play area in front of the ship, sliding the template between the front guides.",
+  "page": 6,
+  "col": 2,
+  "y": 50.9
+ },
+ {
+  "kind": "p",
+  "text": "3. The player picks up and places the ship at the opposite end of the template, sliding the rear guides of the ship into the template.",
+  "page": 6,
+  "col": 2,
+  "y": 50.9
  },
  {
   "kind": "p",
   "text": "4. The maneuver is blue, so the player removes 1 stress token and returns it to the supply.",
-  "page": 6
+  "page": 6,
+  "col": 2,
+  "y": 50.9
+ },
+ {
+  "kind": "h2",
+  "text": "Example of Position Marker Usage",
+  "page": 6,
+  "col": 2,
+  "y": 414.3
+ },
+ {
+  "kind": "p",
+  "text": "It can be difﬁcult to precisely move one ship over another ship. When players desire a higher level of precision, they can use a position marker to track ship positions.",
+  "page": 6,
+  "col": 2,
+  "y": 431.2
+ },
+ {
+  "kind": "p",
+  "text": "In the example on the right, a TIE ﬁghter is in the path of the X-wing’s maneuver. To precisely measure the X-wing’s ﬁnal position, a position marker is used to indicate the position of the TIE ﬁghter.",
+  "page": 6,
+  "col": 2,
+  "y": 509.8
  },
  {
   "kind": "h2",
   "text": "PHASE 3: ACTIVATION PHASE",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 26.2
  },
  {
   "kind": "p",
   "text": "During this phase, each ship activates one at a time. Ships activate in initiative order, starting with the lowest initiative.",
-  "page": 7
- },
- {
-  "kind": "h2",
-  "text": "PHASE 4: ENGAGEMENT PHASE",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "During this phase, each ship engages one at a time. Ships engage in initiative order, starting with the highest initiative. When a ship engages, it may perform one attack, therefore, ships with high initiative get to attack ﬁrst. After all ships have had the opportunity to engage during the Engagement Phase, the players proceed to the End Phase.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 40.6
  },
  {
   "kind": "p",
   "text": "When a ship activates, resolve the following steps:",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 78.4
  },
  {
   "kind": "p",
   "text": "1. Reveal Dial: The ship’s assigned dial is ﬂipped faceup and placed next to its ship card.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 95.5
  },
  {
   "kind": "p",
   "text": "2. Execute Maneuver: The ship executes the maneuver selected on the revealed dial.",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "To understand how to perform an attack, players must ﬁrst understand arcs and targeting restrictions.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 123.9
  },
  {
   "kind": "p",
   "text": "3. Perform Action: The ship may perform one action.",
-  "page": 7
- },
- {
-  "kind": "h3",
-  "text": "ARCS",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "Each ship has four ARCS printed on its ship token: front (;), back (:), left, and right. Ships attack from their printed FIRING ARC, which is the arc on the ship token that is shaded. The color of the shading corresponds to the faction of the ship.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 152.3
  },
  {
   "kind": "p",
   "text": "After all ships have activated, play proceeds to the Engagement Phase.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 181.0
  },
  {
   "kind": "h3",
   "text": "EXECUTING A MANEUVER",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 218.8
  },
  {
   "kind": "p",
   "text": "When a ship executes a maneuver, the player uses a template to change the ship’s position. Then, the ship may be affected by the maneuver’s difﬁculty.",
-  "page": 7
- },
- {
-  "kind": "h3",
-  "text": "TARGETING RESTRICTIONS",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 232.2
  },
  {
   "kind": "p",
-  "text": "To target a ship, two conditions must be met: To move the ship, the player follows these steps:",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "• The target ship’s base must be in the attacker’s ﬁring arc.",
-  "page": 7
+  "text": "To move the ship, the player follows these steps:",
+  "page": 7,
+  "col": 0,
+  "y": 270.0
  },
  {
   "kind": "p",
   "text": "1. Take the template that matches the maneuver from the supply.",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "• The target must be at range 0–3.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 287.4
  },
  {
   "kind": "p",
   "text": "2. Set the template between the ship’s front guides so that it is ﬂush against the base.",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "The attacker measures to the closest point of the target that is in the attacker’s ﬁring arc; this measurement is called the ATTACK RANGE.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 315.8
  },
  {
   "kind": "p",
   "text": "3. Pick up and place the ship at the opposite end of the template, sliding the rear guides of the ship into the template.",
-  "page": 7
- },
- {
-  "kind": "h2",
-  "text": "Example of Targeting",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 344.2
  },
  {
   "kind": "p",
   "text": "4. Return the template to the supply.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 382.8
  },
  {
   "kind": "p",
   "text": "After moving the ship, the player checks the difﬁculty (color) of the maneuver. If the maneuver is red, the ship gains one stress token. If the maneuver is blue, the ship removes one stress token.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 401.0
  },
  {
   "kind": "p",
   "text": "A ship is STRESSED while it has one or more stress tokens. A stressed ship cannot set or execute red maneuvers, and it cannot perform actions.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 449.0
  },
  {
   "kind": "p",
   "text": "After a ship gains a token (such as a stress token), it is placed next to the ship. As the ship moves, the tokens move with it.",
-  "page": 7
- },
- {
-  "kind": "p",
-  "text": "The TIE ﬁghter is attempting to attack the X-wing. Part of the X-wing’s base is in the TIE ﬁghter’s ;, so the ﬁrst requirement is satisﬁed. The closest point of the X-wing’s base that is in the ; is at range 2, so the second requirement is satisﬁed. Thus, the TIE ﬁghter can attack the X-wing.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 486.8
  },
  {
   "kind": "h3",
   "text": "PERFORMING ACTIONS",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 524.7
  },
  {
   "kind": "p",
   "text": "Choosing and performing actions are some of the most impactful decisions a player makes during the game. Actions provide several beneﬁts, primarily the ability to reposition or to enhance offensive or defensive capability during the Engagement Phase.",
-  "page": 7
+  "page": 7,
+  "col": 0,
+  "y": 538.0
  },
  {
   "kind": "p",
-  "text": "Note that although the attack range is range 2, the two ships are at range 1 for all other purposes (outside the ﬁring arc). Detailed rules for actions can be found on page 11.",
-  "page": 7
+  "text": "Detailed rules for actions can be found on page 11.",
+  "page": 7,
+  "col": 0,
+  "y": 596.2
  },
  {
   "kind": "h2",
-  "text": "Example of an Attack",
-  "page": 8
+  "text": "PHASE 4: ENGAGEMENT PHASE",
+  "page": 7,
+  "col": 1,
+  "y": 26.2
  },
  {
   "kind": "p",
-  "text": "4. Academy Pilot rolls defense dice equal to their agility value, getting one ) result, one \u0002 result, and one blank result.",
-  "page": 8
+  "text": "During this phase, each ship engages one at a time. Ships engage in initiative order, starting with the highest initiative. When a ship engages, it may perform one attack, therefore, ships with high initiative get to attack ﬁrst. After all ships have had the opportunity to engage during the Engagement Phase, the players proceed to the End Phase.",
+  "page": 7,
+  "col": 1,
+  "y": 46.3
  },
  {
   "kind": "p",
-  "text": "1. Luke Skywalker has an initiative of “5” and Academy Pilot has an initiative of “1,” so Luke engages ﬁrst during the Engagement Phase and can perform an attack.",
-  "page": 8
+  "text": "To understand how to perform an attack, players must ﬁrst understand arcs and targeting restrictions.",
+  "page": 7,
+  "col": 1,
+  "y": 135.1
+ },
+ {
+  "kind": "h3",
+  "text": "ARCS",
+  "page": 7,
+  "col": 1,
+  "y": 173.0
  },
  {
   "kind": "p",
-  "text": "2. Academy Pilot is in Luke’s ;. The Rebel player measures range from Luke to Academy Pilot. The attack range is 2.",
-  "page": 8
+  "text": "Each ship has four ARCS printed on its ship token: front ({frontarc}), back ({reararc}), left, and right. Ships attack from their printed FIRING ARC, which is the arc on the ship token that is shaded. The color of the shading corresponds to the faction of the ship.",
+  "page": 7,
+  "col": 1,
+  "y": 186.4
+ },
+ {
+  "kind": "h3",
+  "text": "TARGETING RESTRICTIONS",
+  "page": 7,
+  "col": 1,
+  "y": 244.6
  },
  {
   "kind": "p",
-  "text": "5. The ) and blank results have no effect. The \u0002 result cancels one % result. One % result remains uncanceled, so the attack hits.",
-  "page": 8
+  "text": "To target a ship, two conditions must be met:",
+  "page": 7,
+  "col": 1,
+  "y": 258.0
  },
  {
   "kind": "p",
-  "text": "3. Luke rolls attack dice equal to his attack value getting one blank result and two % results.",
-  "page": 8
+  "text": "• The target ship’s base must be in the attacker’s ﬁring arc.",
+  "page": 7,
+  "col": 1,
+  "y": 275.4
  },
  {
   "kind": "p",
-  "text": "6. Since one % result was not canceled, Academy Pilot suffers one % damage. They do not have any active shields, so they are dealt one facedown damage card next to their ship card.",
-  "page": 8
+  "text": "• The target must be at range 0–3.",
+  "page": 7,
+  "col": 1,
+  "y": 303.8
+ },
+ {
+  "kind": "p",
+  "text": "The attacker measures to the closest point of the target that is in the attacker’s ﬁring arc; this measurement is called the ATTACK RANGE.",
+  "page": 7,
+  "col": 1,
+  "y": 322.0
+ },
+ {
+  "kind": "h2",
+  "text": "Example of Targeting",
+  "page": 7,
+  "col": 2,
+  "y": 359.4
+ },
+ {
+  "kind": "p",
+  "text": "The TIE ﬁghter is attempting to attack the X-wing. Part of the X-wing’s base is in the TIE ﬁghter’s {frontarc}, so the ﬁrst requirement is satisﬁed. The closest point of the X-wing’s base that is in the {frontarc} is at range 2, so the second requirement is satisﬁed. Thus, the TIE ﬁghter can attack the X-wing.",
+  "page": 7,
+  "col": 2,
+  "y": 488.5
+ },
+ {
+  "kind": "p",
+  "text": "Note that although the attack range is range 2, the two ships are at range 1 for all other purposes (outside the ﬁring arc).",
+  "page": 7,
+  "col": 2,
+  "y": 567.1
  },
  {
   "kind": "h3",
   "text": "PERFORMING AN ATTACK",
-  "page": 8
+  "page": 8,
+  "col": 1,
+  "y": 453.5
  },
  {
   "kind": "p",
   "text": "To perform an attack, a ship follows these steps:",
-  "page": 8
+  "page": 8,
+  "col": 1,
+  "y": 466.9
  },
  {
   "kind": "p",
   "text": "1. Declare Target: Measure range to any number of enemy ships and determine which enemy ships are in the attacker’s ﬁring arc. Choose one of those ships to become the defender.",
-  "page": 8
- },
- {
-  "kind": "h2",
-  "text": "Critical Damage Markers",
-  "page": 8
- },
- {
-  "kind": "p",
-  "text": "Some of the faceup damage cards have lingering game effects. If a ship is dealt a faceup damage card with a persistent effect, place a critical damage marker next to it to remind players of that persistent effect.",
-  "page": 8
+  "page": 8,
+  "col": 1,
+  "y": 484.1
  },
  {
   "kind": "p",
   "text": "2. Attack Dice: The attacking player rolls attack dice (red) equal to the attack value on the attacking ship’s ship card. Then, the defending player may use their abilities that modify the attack dice, followed by the attacking player.",
-  "page": 8
+  "page": 8,
+  "col": 1,
+  "y": 532.9
+ },
+ {
+  "kind": "h2",
+  "text": "Example of an Attack",
+  "page": 8,
+  "col": 2,
+  "y": 34.7
+ },
+ {
+  "kind": "p",
+  "text": "1. Luke Skywalker has an initiative of “5” and Academy Pilot has an initiative of “1,” so Luke engages ﬁrst during the Engagement Phase and can perform an attack.",
+  "page": 8,
+  "col": 2,
+  "y": 51.6
+ },
+ {
+  "kind": "p",
+  "text": "2. Academy Pilot is in Luke’s {frontarc}. The Rebel player measures range from Luke to Academy Pilot. The attack range is 2.",
+  "page": 8,
+  "col": 2,
+  "y": 156.8
+ },
+ {
+  "kind": "p",
+  "text": "3. Luke rolls attack dice equal to his attack value getting one blank result and two {hit} results.",
+  "page": 8,
+  "col": 2,
+  "y": 274.8
+ },
+ {
+  "kind": "p",
+  "text": "4. Academy Pilot rolls defense dice equal to their agility value, getting one {focus} result, one {evade} result, and one blank result.",
+  "page": 8,
+  "col": 2,
+  "y": 51.6
+ },
+ {
+  "kind": "p",
+  "text": "5. The {focus} and blank results have no effect. The {evade} result cancels one {hit} result. One {hit} result remains uncanceled, so the attack hits.",
+  "page": 8,
+  "col": 2,
+  "y": 177.2
+ },
+ {
+  "kind": "p",
+  "text": "6. Since one {hit} result was not canceled, Academy Pilot suffers one {hit} damage. They do not have any active shields, so they are dealt one facedown damage card next to their ship card.",
+  "page": 8,
+  "col": 2,
+  "y": 304.1
+ },
+ {
+  "kind": "h2",
+  "text": "Critical Damage Markers",
+  "page": 8,
+  "col": 2,
+  "y": 487.5
+ },
+ {
+  "kind": "p",
+  "text": "Some of the faceup damage cards have lingering game effects. If a ship is dealt a faceup damage card with a persistent effect, place a critical damage marker next to it to remind players of that persistent effect.",
+  "page": 8,
+  "col": 2,
+  "y": 504.4
  },
  {
   "kind": "p",
   "text": "• While performing a primary attack at attack range 0, attack dice cannot be added.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "active side. All of these components are explained later in the “Additional Rules” section.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "If both players have at least one ship remaining, the ﬁrst player advances the round dial and play proceeds to the next round.",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 27.0
  },
  {
   "kind": "p",
   "text": "• While performing a primary attack at range 0, the attacker’s dice cannot be modiﬁed, except by the defender.",
-  "page": 9
- },
- {
-  "kind": "h3",
-  "text": "WINNING THE GAME",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "After this phase ends, the players check to see if somebody has won the game. Each scenario details its individual victory conditions and rules for earning mission points; the player with the most mission points at the end of the game wins!",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 55.4
  },
  {
   "kind": "p",
   "text": "3. Defense Dice: The defending player rolls defense dice (green) equal to the agility value on the defending ship’s ship card. Then, the attacking player may use their abilities that modify the defense dice, followed by the defending player.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "After players understand the basic rules, they are ready to learn the game’s remaining concepts.",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 93.8
  },
  {
   "kind": "p",
   "text": "• While defending at range 0, enemy ships cannot reduce the number of defense dice you roll, cancel your results, or modify your results.",
-  "page": 9
- },
- {
-  "kind": "h2",
-  "text": "ACTIONS",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 183.6
  },
  {
   "kind": "p",
-  "text": "Actions represent things a pilot can do, such as repositioning slightly or ﬂying defensively.",
-  "page": 9
+  "text": "4. Neutralize Results: Each {evade} (evade) result cancels one {hit} (hit) or {crit} (critical) result, removing both dice from the dice pool. All {hit} results must be canceled before {crit} results are canceled. The attack HITS if at least one {hit} or {crit} result remains; otherwise, the attack MISSES.",
+  "page": 9,
+  "col": 0,
+  "y": 221.0
  },
  {
   "kind": "p",
-  "text": "4. Neutralize Results: Each \u0002 (evade) result cancels one % (hit) or & (critical) result, removing both dice from the dice pool. All % results must be canceled before & results are canceled.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "A ship may perform one action during the Perform Action step of its activation (during the Activation Phase). The actions available to a ship are listed in the action bar on the right side of its ship card.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "The attack HITS if at least one % or & result remains; otherwise, the attack MISSES.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "5. Deal Damage: The defender suffers damage equal to the remaining % and & results.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "In addition to the action during the Perform Action step, card abilities may instruct the ship to perform additional actions. There is no limit to the number of actions a ship can potentially perform; however, a ship cannot perform the same action more than once per round.",
-  "page": 9
+  "text": "5. Deal Damage: The defender suffers damage equal to the remaining {hit} and {crit} results.",
+  "page": 9,
+  "col": 0,
+  "y": 305.4
  },
  {
   "kind": "p",
   "text": "6. Aftermath: Abilities that trigger after an attack are resolved.",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 333.8
  },
  {
   "kind": "h3",
   "text": "SUFFERING DAMAGE",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 362.5
  },
  {
   "kind": "p",
-  "text": "Damage causes ships to lose shields or be dealt damage cards. There are two types of damage: % (regular) damage and & (critical) damage.",
-  "page": 9
+  "text": "Damage causes ships to lose shields or be dealt damage cards. There are two types of damage: {hit} (regular) damage and {crit} (critical) damage.",
+  "page": 9,
+  "col": 0,
+  "y": 375.9
  },
  {
   "kind": "p",
-  "text": "Some upgrade cards have an action bar that lists one or more actions. These actions are added to the ship’s action bar and therefore are standard actions that the ship can perform.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "For each damage a ship suffers, it loses a shield by ﬂipping the shield to its inactive side. If it does not have an active shield remaining, it is dealt a damage card instead. For % damage, the card is dealt facedown; for & damage, the card is dealt faceup and its text is resolved. All % damage is suffered before & damage.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "Some action icons are red. After a ship performs one of these actions, it gains a stress token. A ship that is stressed for any reason cannot perform actions or execute red maneuvers.",
-  "page": 9
- },
- {
-  "kind": "h3",
-  "text": "LINKED ACTIONS",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "Some ships have actions linked to other actions on their ship cards. A ship can perform a linked action after it performs the action to the left of the linked action.",
-  "page": 9
+  "text": "For each damage a ship suffers, it loses a shield by ﬂipping the shield to its inactive side. If it does not have an active shield remaining, it is dealt a damage card instead. For {hit} damage, the card is dealt facedown; for {crit} damage, the card is dealt faceup and its text is resolved. All {hit} damage is suffered before {crit} damage.",
+  "page": 9,
+  "col": 0,
+  "y": 413.7
  },
  {
   "kind": "p",
   "text": "A ship is destroyed when the total number of (faceup and facedown) damage cards it has equals or exceeds its hull value. Destroying ships is explained on page 14.",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 512.7
  },
  {
   "kind": "h2",
   "text": "PHASE 5: END PHASE",
-  "page": 9
+  "page": 9,
+  "col": 0,
+  "y": 570.0
+ },
+ {
+  "kind": "p",
+  "text": "During the End Phase, players remove all (green and orange) circular tokens from their ships in the play area, and some charges on cards may ﬂip to their active side. All of these components are explained later in the “Additional Rules” section.",
+  "page": 9,
+  "col": 0,
+  "y": 590.1
+ },
+ {
+  "kind": "p",
+  "text": "If both players have at least one ship remaining, the ﬁrst player advances the round dial and play proceeds to the next round.",
+  "page": 9,
+  "col": 1,
+  "y": 54.6
+ },
+ {
+  "kind": "h3",
+  "text": "WINNING THE GAME",
+  "page": 9,
+  "col": 1,
+  "y": 92.5
+ },
+ {
+  "kind": "p",
+  "text": "After this phase ends, the players check to see if somebody has won the game. Each scenario details its individual victory conditions and rules for earning mission points; the player with the most mission points at the end of the game wins!",
+  "page": 9,
+  "col": 1,
+  "y": 105.9
+ },
+ {
+  "kind": "h1",
+  "text": "ADDITIONAL RULES",
+  "page": 9,
+  "col": 1,
+  "y": 168.4
+ },
+ {
+  "kind": "p",
+  "text": "After players understand the basic rules, they are ready to learn the game’s remaining concepts.",
+  "page": 9,
+  "col": 1,
+  "y": 190.0
+ },
+ {
+  "kind": "h2",
+  "text": "ACTIONS",
+  "page": 9,
+  "col": 1,
+  "y": 216.7
+ },
+ {
+  "kind": "p",
+  "text": "Actions represent things a pilot can do, such as repositioning slightly or ﬂying defensively.",
+  "page": 9,
+  "col": 1,
+  "y": 231.1
+ },
+ {
+  "kind": "p",
+  "text": "A ship may perform one action during the Perform Action step of its activation (during the Activation Phase). The actions available to a ship are listed in the action bar on the right side of its ship card.",
+  "page": 9,
+  "col": 1,
+  "y": 257.2
+ },
+ {
+  "kind": "p",
+  "text": "In addition to the action during the Perform Action step, card abilities may instruct the ship to perform additional actions. There is no limit to the number of actions a ship can potentially perform; however, a ship cannot perform the same action more than once per round.",
+  "page": 9,
+  "col": 1,
+  "y": 314.0
+ },
+ {
+  "kind": "p",
+  "text": "Some upgrade cards have an action bar that lists one or more actions. These actions are added to the ship’s action bar and therefore are standard actions that the ship can perform.",
+  "page": 9,
+  "col": 1,
+  "y": 395.6
+ },
+ {
+  "kind": "p",
+  "text": "Some action icons are red. After a ship performs one of these actions, it gains a stress token. A ship that is stressed for any reason cannot perform actions or execute red maneuvers.",
+  "page": 9,
+  "col": 1,
+  "y": 462.6
+ },
+ {
+  "kind": "h3",
+  "text": "LINKED ACTIONS",
+  "page": 9,
+  "col": 1,
+  "y": 509.2
+ },
+ {
+  "kind": "p",
+  "text": "Some ships have actions linked to other actions on their ship cards. A ship can perform a linked action after it performs the action to the left of the linked action.",
+  "page": 9,
+  "col": 1,
+  "y": 522.5
  },
  {
   "kind": "h3",
   "text": "PURPLE ACTIONS",
-  "page": 9
+  "page": 9,
+  "col": 1,
+  "y": 570.6
  },
  {
   "kind": "p",
-  "text": "As a cost to perform a purple action, the ship performing the action must spend one {force}{force}.",
-  "page": 9
- },
- {
-  "kind": "p",
-  "text": "During the End Phase, players remove all (green and orange) circular tokens from their ships in the play area, and some charges on cards may ﬂip to their",
-  "page": 9
+  "text": "As a cost to perform a purple action, the ship performing the action must spend one {force}.",
+  "page": 9,
+  "col": 1,
+  "y": 584.0
  },
  {
   "kind": "h3",
   "text": "TYPES OF ACTIONS",
-  "page": 10
+  "page": 10,
+  "col": 0,
+  "y": 26.4
  },
  {
   "kind": "p",
   "text": "The actions included on ship or upgrade cards in this product are described below.",
-  "page": 10
+  "page": 10,
+  "col": 0,
+  "y": 39.8
  },
  {
   "kind": "p",
-  "text": "2. Place the short edge of the template ﬂush against the left or right side of the ship’s base. The template must be placed with the middle line of the template aligned with the hashmark on the side of the base.",
-  "page": 10
+  "text": "FOCUS ({focus}) Focus represents the pilot clearing their mind of distractions, allowing them to act in harmony with the galaxy and improve their combat ability.",
+  "page": 10,
+  "col": 0,
+  "y": 67.4
  },
  {
   "kind": "p",
-  "text": "FOCUS ()) Focus represents the pilot clearing their mind of distractions, allowing them to act in harmony with the galaxy and improve their combat ability.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "3. Lift the ship off the play surface, then place the ship so that the hashmark on the other side of the base is aligned to the front, middle, or back of the other short end of the template. When a ship performs a ) action, it gains a focus token, which is placed next to that ship. While attacking, a ship can spend a focus token during the Attack Dice step to change all of its ) results to % results. While defending, a ship can spend a focus token during the Defense Dice step to change all of its ) results to \u0002 results.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "A ship cannot barrel roll if it would overlap another ship or if it would move through or overlap an obstacle.",
-  "page": 10
+  "text": "When a ship performs a {focus} action, it gains a focus token, which is placed next to that ship. While attacking, a ship can spend a focus token during the Attack Dice step to change all of its {focus} results to {hit} results. While defending, a ship can spend a focus token during the Defense Dice step to change all of its {focus} results to {evade} results.",
+  "page": 10,
+  "col": 0,
+  "y": 127.6
  },
  {
   "kind": "p",
   "text": "All unspent focus tokens are removed during the End Phase.",
-  "page": 10
+  "page": 10,
+  "col": 0,
+  "y": 207.5
  },
  {
   "kind": "p",
-  "text": "BOOST (\u0001) Boost represents a pilot activating additional thrusters to move farther forward. When a ship performs a \u0001 action, it follows these steps:",
-  "page": 10
+  "text": "CALCULATE ({calculate}) When a ship performs the {calculate} action, it gains one calculate token, which is a green, circular token. A ship may spend a calculate token to change 1 of its {focus} results to a {hit} or {evade} result.",
+  "page": 10,
+  "col": 0,
+  "y": 235.0
  },
  {
   "kind": "p",
-  "text": "CALCULATE ({calculate}) When a ship performs the 5 action, it gains one calculate token, which is a green, circular token. A ship may spend a calculate token to change 1 of its ) results to a % or \u0002 result.",
-  "page": 10
+  "text": "EVADE ({evade}) Evade represents the pilot flying erratically or unpredictably to make it harder for enemy ships to hit them.",
+  "page": 10,
+  "col": 0,
+  "y": 296.4
  },
  {
   "kind": "p",
-  "text": "1. Choose the [1 ], [1 \u001b], or [1 ] template.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "2. Set the template between the ship’s front guides.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "EVADE (\u0002) Evade represents the pilot flying erratically or unpredictably to make it harder for enemy ships to hit them.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "3. Place the ship at the opposite end of the template and slide the rear guides of the ship into the template.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "When a ship performs an \u0002 action, it gains an evade token, which is placed next to that ship. While defending, a ship can spend an evade token during the Defense Dice step to change one of its blank or ) results to an \u0002 result.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "A ship cannot boost if it would overlap another ship or if it would move through or overlap an obstacle.",
-  "page": 10
+  "text": "When a ship performs an {evade} action, it gains an evade token, which is placed next to that ship. While defending, a ship can spend an evade token during the Defense Dice step to change one of its blank or {focus} results to an {evade} result.",
+  "page": 10,
+  "col": 0,
+  "y": 346.4
  },
  {
   "kind": "p",
   "text": "Just like focus tokens, all unspent evade tokens are removed during the End Phase.",
-  "page": 10
+  "page": 10,
+  "col": 0,
+  "y": 405.9
  },
  {
   "kind": "p",
-  "text": "RELOAD ({reload}) When a ship performs the 1 action, it reloads by performing the following steps:",
-  "page": 10
+  "text": "RELOAD ({reload}) When a ship performs the {reload} action, it reloads by performing the following steps:",
+  "page": 10,
+  "col": 0,
+  "y": 433.5
  },
  {
   "kind": "p",
-  "text": "ROTATE (+) Pilots can rotate to alert a gunner or aim one of the ship’s turret-mounted armaments. When a ship performs the + action, it rotates the turret arc indicator to select any other standard arc.",
-  "page": 10
+  "text": "1. Choose one of the ship’s equipped {torpedo}, {missile}, or {payload} upgrade cards that has fewer active {charge} than its charge limit.",
+  "page": 10,
+  "col": 0,
+  "y": 473.3
  },
  {
   "kind": "p",
-  "text": "1. Choose one of the ship’s equipped , \u000e, or \u0014 upgrade cards that has fewer active > than its charge limit.",
-  "page": 10
- },
- {
-  "kind": "p",
-  "text": "2. That card recovers one >.",
-  "page": 10
+  "text": "2. That card recovers one {charge}.",
+  "page": 10,
+  "col": 0,
+  "y": 511.9
  },
  {
   "kind": "p",
   "text": "3. The ship gains one disarm token.",
-  "page": 10
+  "page": 10,
+  "col": 0,
+  "y": 531.4
  },
  {
   "kind": "p",
-  "text": "BARREL ROLL (3) Barrel rolling allows a pilot to move their ship laterally and adjust their position. When a ship performs a 3 action, it follows these steps:",
-  "page": 10
+  "text": "BARREL ROLL ({barrelroll}) Barrel rolling allows a pilot to move their ship laterally and adjust their position. When a ship performs a {barrelroll} action, it follows these steps:",
+  "page": 10,
+  "col": 0,
+  "y": 549.5
  },
  {
   "kind": "p",
-  "text": "1. Take the [1 ] template.",
-  "page": 10
+  "text": "1. Take the [1 {straight}] template.",
+  "page": 10,
+  "col": 0,
+  "y": 599.5
  },
  {
-  "kind": "h3",
-  "text": "TURRET ARCS (= AND <)",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "LOCK ({lock}) Lock represents the ability of a ship’s computer to obtain a target lock, tracking the target’s movement and assisting with attacks against it. When a ship performs a * action, it follows these steps:",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "There are two types of turret arc indicators, = (single turret) and < (double turret). During setup, a ship with a primary or special = or < weapon adds the corresponding turret arc indicator to its base.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "1. Measure range from the locking ship to any number of ships.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "The standard arc that the turret arc indicator is pointing towards is a ﬁring arc. While a ship performs a = attack, it can attack a target that is in its = arc.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "2. Choose a ship at range 0–3. A ship with a double turret arc indicator is treated as having two = arcs in opposite directions.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "3. Assign a lock token to that ship with the lock’s number matching the ID token of the locking ship.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "A ship is LOCKED while it has at least one lock token assigned to it. While a ship attacks a ship it has locked, during the Attack Dice step, it can spend its lock to reroll one or more of its attack dice. A ship can only maintain one lock at a time; if it locks again, it must remove the previous lock.",
-  "page": 11
- },
- {
-  "kind": "h2",
-  "text": "RANGE BONUSES",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "A pilot’s accuracy can be dramatically affected by range—it is much easier to shoot a nearby enemy than a distant one.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "While a ship attacks at range 1, it rolls one additional attack die. Conversely, while a ship defends at range 3, it rolls one additional defense die.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "CARD ACTIONS Some cards, such as damage and upgrade cards, have abilities that include the “ACTION:” header. A ship may resolve one of these abilities as an action.",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "A :",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "A:",
-  "page": 11
- },
- {
-  "kind": "h2",
-  "text": "BULLSEYE ARC (9)",
-  "page": 11
- },
- {
-  "kind": "p",
-  "text": "All ship tokens have a BULLSEYE ARC printed inside of their ;. This narrow arc has no inherent effect, but some card abilities refer to it.",
-  "page": 11
- },
- {
-  "kind": "h2",
-  "text": "DESTROYING SHIPS",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "A ship is destroyed when it has a number of damage cards that equals or exceeds its hull value. A destroyed ship is placed on its ship card.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "Special weapons have the following characteristics:",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "; The timing of when a destroyed ship is removed from the play area depends on when the ship was destroyed:",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• Arc Requirement: This indicates the arc this weapon attacks from. The target must be in this arc for the weapon to be used.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• If a ship is destroyed outside of the Engagement Phase, it is removed immediately.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• If a ship is destroyed during the Engagement phase, it is removed after all ships that have the same initiative as the currently engaged ship have engaged. This is called the SIMULTANEOUS",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• Attack Value: This is the number of attack dice the attacker rolls.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• Range Requirements: The attack range must match one of the ranges listed for the weapon to be used.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "FIRE rule, which represents that ships with the same initiative are essentially attacking at the same time.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "• Range Bonus Indicator: If there is a missile symbol present, range bonuses are not applied while attacking with this weapon.",
-  "page": 12
- },
- {
-  "kind": "h3",
-  "text": "FLEEING THE AREA",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "After a ship executes a maneuver, if any part of the ship’s base is outside the play area, the ship FLEES. Much like being destroyed, a ship that ﬂees is removed from the game.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "If there is a symbol in parentheses in the header, that symbol indicates an additional ATTACK REQUIREMENT. This means that the attacking ship needs to have performed that action. For example, a ) symbol means that the attacker needs a focus token, while a * symbol means the attacker needs to have a lock on the defender.",
-  "page": 12
- },
- {
-  "kind": "h2",
-  "text": "REPAIRING DAMAGE CARDS",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "If an effect instructs a player to repair a damage card, they can repair either a faceup or facedown damage card. To repair a faceup damage card, that card is ﬂipped facedown. To repair a facedown damage card, that card is discarded to the damage card discard pile.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "A A A (",
-  "page": 12
- },
- {
-  "kind": "h2",
-  "text": "UPGRADE CARDS",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "Upgrade cards represent the different ways pilots customize their ships, such as incorporating an astromech or equipping ordnance. These cards can provide special abilities or alternative ways to attack. There are many types of upgrades, as distinguished by the icon on the left side of the card.",
-  "page": 12
- },
- {
-  "kind": "h2",
-  "text": "CHARGES AND THE FORCE",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "Many upgrade cards represent a limited resource, such as a weapon with ﬁnite ammo. These cards hold standard charges (>), which limits how often the ability can be used. Upgrade cards are equipped before a game starts. The Squad Building section on page 18 describes the process for equipping upgrades. When a ship equips an upgrade card, it is placed partially beneath the ship card or another equipped upgrade so that only the text and art on the upgrade card are visible.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "Each card with a CHARGE LIMIT (the golden number) starts the game with a number of > equal to the charge limit. Each > starts on its active side.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "{torpedo}{torpedo} The card’s ability will instruct the player how and when to spend > from that card. When a > is spent, it is ﬂipped to its inactive side.",
-  "page": 12
- },
- {
-  "kind": "h3",
-  "text": "SPECIAL WEAPONS",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "Unlike the PRIMARY WEAPON (the red number and ﬁring arc symbol on a ship card), upgrade cards with the “ATTACK:” header, such as Proton Torpedoes, are special weapons. A ship can perform an attack with a special weapon instead of using its primary weapon.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "During the End Phase, each card with a charge limit recovers one > if it has a small arrow next to its charge limit. When a > is recovered, it is ﬂipped to its active side.",
-  "page": 12
- },
- {
-  "kind": "p",
-  "text": "):",
-  "page": 12
- },
- {
-  "kind": "h3",
-  "text": "FORCE CHARGES ({force}{force})",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "Some pilots can exert their inﬂuence over the Force. Pilots who can use the Force have a FORCE CAPACITY (the purple number) and Force charges ({force}{force}).",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "top of that ship, the moving ship still fully executes the maneuver.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "However, a ship is sometimes unable to be placed at the end of the template because it would OVERLAP another ship. This causes the moving ship to PARTIALLY execute its maneuver, which means it moves a shorter distance.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "To partially execute a maneuver, follow these steps:",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "1. Move the ship backward along the template until it is no longer overlapping another ship’s base. While doing so, adjust the position of the ship so that the hashmarks in the middle of both sets of guides remain centered over the line down the middle of the template.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "Force capacity and {force}{force} operate identically to charge limits and >, but {force}{force} have an additional function. While attacking, a ship can spend any number of {force}{force} during the Attack Dice step to change that number of its ) results to % results. While defending, a ship can spend any number of {force}{force} during the Defense Dice step to change that number of its ) results to \u0002 results.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "2. Once the ship is no longer on top of any other ship, place it so that it is touching the last ship it backed over. (This may result in the ship not leaving its initial position.) Then after the Check Difﬁculty step, it suffers an effect based on what ship it overlapped that initially forced it to partially execute the maneuver.",
-  "page": 13
- },
- {
-  "kind": "h2",
-  "text": "INCREASING/DECREASING MANEUVER DIFFICULTY",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "There are three levels of difﬁculty for maneuvers: red, white, and blue. If an effect increases the difﬁculty of a maneuver, blue goes to white, and white goes to red. Meanwhile decreasing the difﬁculty of a maneuver, red goes to white, and white goes to blue.",
-  "page": 13
- },
- {
-  "kind": "h2",
-  "text": "PARTIAL MANEUVERS",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "Ships often FULLY execute maneuvers, which means nothing prevents the ship from being placed at the end of the template. Even when a ship MOVES THROUGH another ship, which means the template is placed on",
-  "page": 13
- },
- {
-  "kind": "h2",
-  "text": "Example of Overlapping Multiple Ships",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "1. The X-wing attempts to perform a [2 ] maneuver, but there might be some problems as there appear to be other ships along its path.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "2. Although the X-wing safely moves through the Y-wing, it has overlapped the TIE/ln Fighter and must partially execute the maneuver.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "3. After partially executing the maneuver, the X-wing is now overlapping the ﬁrst ship, so it must back up farther.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "4. The X-wing backs up until it would not be on top of any ship. It is placed touching the last ship that it backed over, the Y-wing. Then the X-wing resolves the effect of overlapping an enemy ship.",
-  "page": 13
- },
- {
-  "kind": "p",
-  "text": "If the ship cannot fully execute the maneuver, it does not rotate 180º.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "3. If the overlapped ship was a friendly or allied ship, roll an attack die. On a % or & result, the ship suffers one % damage. Then the ship skips its Perform Action step.",
-  "page": 14
- },
- {
-  "kind": "h3",
-  "text": "TALLON ROLL ({trollleft}AND {trollright})",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "The left Tallon Roll ( ) and right Tallon Roll ($) bearings advance a ship at a tight curve to one side, rotating 90º at the end of the template.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "4. If the overlapped ship was an enemy ship, if the maneuvering ship is not stressed, it may immediately perform a ) or 5 action from its action bar, treating the action as red. Then the ship skips its Perform Action step.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "This maneuver is executed like a \u001a or maneuver of the same direction, but before the player places the ship at the opposite end of the template, the ship is rotated an additional 90º in the same direction as the maneuver. The player places the ship so that the hashmark on the side of the base is aligned to the left, middle, or right of the end of the template.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "• The ship cannot perform any additional actions during its activation.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "5. If there was a simultaneous overlap of friendly or allied and enemy ships, resolve the effect for overlapping a friendly or allied ship.",
-  "page": 14
- },
- {
-  "kind": "h2",
-  "text": "ADVANCED MANEUVERS",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "Some maneuvers are advanced maneuvers, which have additional effects. The advanced maneuvers in the squadron starter pack are described below.",
-  "page": 14
- },
- {
-  "kind": "h3",
-  "text": "KOIOGRAN TURN ({kturn})",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "The Koiogran Turn bearing advances a ship straight forward, rotating 180º at the end of the template. This maneuver is executed like a maneuver of the same speed, but the player slides the ship’s front guides into the end of the template instead of the rear guides.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "If the ship cannot fully execute the maneuver, it does not rotate 90º.",
-  "page": 14
- },
- {
-  "kind": "h3",
-  "text": "SEGNOR’S LOOP (! AND #)",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "The ! (left Segnor’s Loop) and # (right Segnor’s Loop) bearings advance a ship at a shallow curve to one side, then turn it around. This uses the same template as the \u001b and maneuvers.",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "If the ship cannot fully execute the maneuver, it does not turn around.",
-  "page": 14
- },
- {
-  "kind": "h3",
-  "text": "STATIONARY ( )",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "The (stationary) bearing does not move the ship from its current position. This maneuver does not use a template, but the ship does count as having executed a maneuver.",
-  "page": 14
- },
- {
-  "kind": "h2",
-  "text": "Dial ID Token Assembly",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "The Dial ID tokens included in all products are used in conjunction with the Maneuver Dial Upgrade Kits, which are available for each faction (sold separately).",
-  "page": 14
- },
- {
-  "kind": "h3",
-  "text": "REVERSE STRAIGHT (-)",
-  "page": 14
- },
- {
-  "kind": "p",
-  "text": "AND REVERSE BANK (. AND ,) Reverse maneuvers move a ship backward instead of forward. At the start of the maneuver, instead of sliding the template between the front guides of the ship’s base, slide it between the rear guides. Additionally, when the ship is moved, the player slides the ship’s front guides into the end of the template instead of the rear guides.",
-  "page": 14
- },
- {
-  "kind": "h2",
-  "text": "TIMING AND ABILITIES",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "If two or more abilities resolve at the same time (e.g., “At the start of the Engagement Phase”), the abilities are resolved in player order. The ﬁrst player resolves all of their own abilities with that timing before the other player resolves their own abilities with that timing.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• Red Tokens: These tokens are square, have negative effects, and are removed as speciﬁed by the token’s effect.",
-  "page": 15
- },
- {
-  "kind": "h3",
-  "text": "OTHER TOKENS",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "Below are two other tokens included in the squadron starter pack that are gained from various card effects.",
-  "page": 15
- },
- {
-  "kind": "h2",
-  "text": "HYPERSPACE MARKERS",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "Some scenarios and game modes instruct players to place a DISARM TOKENS A ship is DISARMED while it has at least one disarm token, which is an orange, circular token. A disarmed ship cannot perform attacks. As a circular token, all disarm tokens are removed during the End Phase.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "HYPERSPACE MARKER. Hyperspace markers are used to place objects into the play area after setup, and the scenario or game mode rules detail how they function.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "ION TOKENS A ship is IONIZED while it has a number of ion tokens relative to its size: one or more for a small ship, two or more for a medium ship, and three or more for a large ship. Ion tokens are red tokens.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• When a scenario or game mode calls for multiple hyperspace markers, they are identiﬁed by the printed numeral in the center of the marker.",
-  "page": 15
- },
- {
-  "kind": "h2",
-  "text": "ADDITIONAL TOKEN RULES",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "Besides focus, evade, lock, and stress tokens, there are many different types of tokens that are used to track effects. Below is a list of concepts related to the gaining and spending of tokens:",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "A ship that is ionized cannot acquire or maintain locks. When a ship becomes ionized, it breaks all locks it is maintaining.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "During the Activation Phase, an ionized ship activates as follows:",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• When a ship is instructed to GAIN a token, a token from the supply is placed in the play area next to that ship.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "1. The ionized ship reveals its dial as normal.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• When a ship is instructed to SPEND a token or there is an instruction to REMOVE a token from a ship, a token of that type is returned from that ship to the supply.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "2. During the Execute Maneuver step, the ionized executes an ION MANEUVER with the same direction shown on its dial. An ion maneuver is a blue speed 1 bank or straight [\u001b, , ] maneuver.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• When a ship is instructed to TRANSFER a token to another ship, that token is removed from the ship and the other ship gains it.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• If an ionized ship’s dial shows a stop [ ] maneuver, they perform their ion maneuver as a [1 ] maneuver.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "Additionally, the color and shape of tokens help to remind players of their effects and the time when they are removed. The squadron starter pack contains green, orange, and red tokens, but some expansions contain blue tokens.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• The bearing, difﬁculty, and speed of this maneuver cannot be changed unless an ability explicitly affects the ion maneuver.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "3. During the Perform Action step, the ship can perform only the ) action.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• Green Tokens: These tokens are circular, have positive effects, and are removed during the End Phase.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "4. At the end of a ship’s activation, if it executed an ion maneuver, it removes all of its ion tokens.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• Orange Tokens: These tokens are circular, have negative effects, and are removed during the End Phase.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "Additionally:",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• An ionized ship cannot perform any action except the ) action.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• Blue Tokens: These tokens are square, have positive effects, and are removed as speciﬁed by the token’s effect.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "• If a ship that was ionized during the Planning Phase is no longer ionized at the beginning of its activation, it activates as normal.",
-  "page": 15
- },
- {
-  "kind": "p",
-  "text": "ship suffers one % damage. On a & result, the ship suffers one & damage.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "STRAIN TOKENS A ship is STRAINED while it has at least one strain token. While a strained ship defends, it rolls 1 fewer defense die. The strain token is a red token.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• Gas Cloud: The ship breaks all its locks and all locks on it and then is assigned one strain token. Roll one attack die. On a % result, the ship is assigned one ion token. On a & result, the ship is assigned three ion tokens.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• After a strained ship applies the effect to roll 1 fewer defense die this way, it removes 1 strain token.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• While a ship is at range 0 of an asteroid, debris cloud, or gas loud, the ship cannot perform attacks.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• After a strained ship executes a blue maneuver, it removes 1 strain token.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• While a ship is at range 0 of a gas cloud, the ship cannot acquire locks and cannot be locked.",
-  "page": 16
- },
- {
-  "kind": "h3",
-  "text": "BOMBS",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "Bombs are devices that detonate at the end of the Activation Phase, affecting nearby ships.",
-  "page": 16
- },
- {
-  "kind": "h3",
-  "text": "OBSTRUCTION",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "An attack is OBSTRUCTED if the attacker measures range through one or more obstacles. If an attack is obstructed, the defender rolls one additional defense die during the Defense Dice step.",
-  "page": 16
- },
- {
-  "kind": "h3",
-  "text": "MINES",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "Mines are devices that detonate when a ship moves through or overlaps them, affecting that ship.",
-  "page": 16
- },
- {
-  "kind": "h3",
-  "text": "DROPPING AND LAUNCHING DEVICES",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "To DROP a device, follow the steps below:",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "Ships can also obstruct attacks, but unlike obstacles, this has no inherent effect. Card abilities may cause an effect to occur for an attack obstructed by a ship",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "1. Take the template indicated on the upgrade card.",
-  "page": 16
- },
- {
   "kind": "p",
-  "text": "2. Set the template between the ship’s rear guides.",
-  "page": 16
+  "text": "2. Place the short edge of the template ﬂush against the left or right side of the ship’s base. The template must be placed with the middle line of the template aligned with the hashmark on the side of the base.",
+  "page": 10,
+  "col": 1,
+  "y": 27.0
  },
  {
   "kind": "p",
-  "text": "3. Place the device indicated on the upgrade card into the play area and slide the guides of the device into the opposite end of the template. Then remove the template.",
-  "page": 16
+  "text": "3. Lift the ship off the play surface, then place the ship so that the hashmark on the other side of the base is aligned to the front, middle, or back of the other short end of the template.",
+  "page": 10,
+  "col": 1,
+  "y": 86.0
  },
  {
   "kind": "p",
-  "text": "Players build squads using SQUAD POINTS and LOADOUT POINTS. Standard games use a squad point limit of 20. Each ship in a player’s squad can be equipped with a number of upgrades based on the ship’s LOADOUT VALUE.",
-  "page": 16
+  "text": "A ship cannot barrel roll if it would overlap another ship or if it would move through or overlap an obstacle.",
+  "page": 10,
+  "col": 1,
+  "y": 134.8
  },
  {
   "kind": "p",
-  "text": "To LAUNCH a device, follow the steps below: Point costs for all ships and upgrades, as well as upgrade slots for all ships in X-Wing, can be found at atomicmassgames.com/xwing-documents.",
-  "page": 16
+  "text": "BOOST ({boost}) Boost represents a pilot activating additional thrusters to move farther forward. When a ship performs a {boost} action, it follows these steps:",
+  "page": 10,
+  "col": 1,
+  "y": 222.4
  },
  {
   "kind": "p",
-  "text": "1. Take the template indicated on the upgrade card.",
-  "page": 16
+  "text": "1. Choose the [1 {straight}], [1 {bankleft}], or [1 {bankright}] template.",
+  "page": 10,
+  "col": 1,
+  "y": 272.4
  },
  {
   "kind": "p",
   "text": "2. Set the template between the ship’s front guides.",
-  "page": 16
- },
- {
-  "kind": "h2",
-  "text": "FACTION",
-  "page": 16
+  "page": 10,
+  "col": 1,
+  "y": 291.9
  },
  {
   "kind": "p",
-  "text": "Ships in X-Wing are divided by FACTION, indicated by the faction icons on the face of the cards. All ships in a player’s squad must be from the same faction.",
-  "page": 16
+  "text": "3. Place the ship at the opposite end of the template and slide the rear guides of the ship into the template.",
+  "page": 10,
+  "col": 1,
+  "y": 310.1
+ },
+ {
+  "kind": "p",
+  "text": "A ship cannot boost if it would overlap another ship or if it would move through or overlap an obstacle.",
+  "page": 10,
+  "col": 1,
+  "y": 348.7
+ },
+ {
+  "kind": "p",
+  "text": "ROTATE ({rotate}) Pilots can rotate to alert a gunner or aim one of the ship’s turret-mounted armaments. When a ship performs the {rotate} action, it rotates the turret arc indicator to select any other standard arc.",
+  "page": 10,
+  "col": 1,
+  "y": 472.2
+ },
+ {
+  "kind": "p",
+  "text": "LOCK ({lock}) Lock represents the ability of a ship’s computer to obtain a target lock, tracking the target’s movement and assisting with attacks against it. When a ship performs a {lock} action, it follows these steps:",
+  "page": 11,
+  "col": 0,
+  "y": 25.6
+ },
+ {
+  "kind": "p",
+  "text": "1. Measure range from the locking ship to any number of ships.",
+  "page": 11,
+  "col": 0,
+  "y": 87.1
+ },
+ {
+  "kind": "p",
+  "text": "2. Choose a ship at range 0–3.",
+  "page": 11,
+  "col": 0,
+  "y": 115.5
+ },
+ {
+  "kind": "p",
+  "text": "3. Assign a lock token to that ship with the lock’s number matching the ID token of the locking ship.",
+  "page": 11,
+  "col": 0,
+  "y": 133.7
+ },
+ {
+  "kind": "p",
+  "text": "A ship is LOCKED while it has at least one lock token assigned to it. While a ship attacks a ship it has locked, during the Attack Dice step, it can spend its lock to reroll one or more of its attack dice. A ship can only maintain one lock at a time; if it locks again, it must remove the previous lock.",
+  "page": 11,
+  "col": 0,
+  "y": 162.1
+ },
+ {
+  "kind": "p",
+  "text": "CARD ACTIONS Some cards, such as damage and upgrade cards, have abilities that include the “ACTION:” header. A ship may resolve one of these abilities as an action.",
+  "page": 11,
+  "col": 0,
+  "y": 375.5
+ },
+ {
+  "kind": "p",
+  "text": "A:",
+  "page": 11,
+  "col": 0,
+  "y": 452.9
+ },
+ {
+  "kind": "h2",
+  "text": "BULLSEYE ARC ({bullseyearc})",
+  "page": 11,
+  "col": 0,
+  "y": 466.4
+ },
+ {
+  "kind": "p",
+  "text": "All ship tokens have a BULLSEYE ARC printed inside of their {frontarc}. This narrow arc has no inherent effect, but some card abilities refer to it.",
+  "page": 11,
+  "col": 0,
+  "y": 482.1
+ },
+ {
+  "kind": "h3",
+  "text": "TURRET ARCS ({singleturretarc} AND {doubleturretarc})",
+  "page": 11,
+  "col": 1,
+  "y": 25.2
+ },
+ {
+  "kind": "p",
+  "text": "There are two types of turret arc indicators, {singleturretarc} (single turret) and {doubleturretarc} (double turret). During setup, a ship with a primary or special {singleturretarc} or {doubleturretarc} weapon adds the corresponding turret arc indicator to its base.",
+  "page": 11,
+  "col": 1,
+  "y": 44.3
+ },
+ {
+  "kind": "p",
+  "text": "The standard arc that the turret arc indicator is pointing towards is a ﬁring arc. While a ship performs a {singleturretarc} attack, it can attack a target that is in its {singleturretarc} arc.",
+  "page": 11,
+  "col": 1,
+  "y": 91.4
+ },
+ {
+  "kind": "p",
+  "text": "A ship with a double turret arc indicator is treated as having two {singleturretarc} arcs in opposite directions.",
+  "page": 11,
+  "col": 1,
+  "y": 127.1
+ },
+ {
+  "kind": "h2",
+  "text": "RANGE BONUSES",
+  "page": 11,
+  "col": 1,
+  "y": 261.0
+ },
+ {
+  "kind": "p",
+  "text": "A pilot’s accuracy can be dramatically affected by range—it is much easier to shoot a nearby enemy than a distant one.",
+  "page": 11,
+  "col": 1,
+  "y": 275.4
+ },
+ {
+  "kind": "p",
+  "text": "While a ship attacks at range 1, it rolls one additional attack die. Conversely, while a ship defends at range 3, it rolls one additional defense die.",
+  "page": 11,
+  "col": 1,
+  "y": 313.2
+ },
+ {
+  "kind": "h2",
+  "text": "DESTROYING SHIPS",
+  "page": 12,
+  "col": 0,
+  "y": 26.2
+ },
+ {
+  "kind": "p",
+  "text": "A ship is destroyed when it has a number of damage cards that equals or exceeds its hull value. A destroyed ship is placed on its ship card.",
+  "page": 12,
+  "col": 0,
+  "y": 40.6
+ },
+ {
+  "kind": "p",
+  "text": "The timing of when a destroyed ship is removed from the play area depends on when the ship was destroyed:",
+  "page": 12,
+  "col": 0,
+  "y": 88.6
+ },
+ {
+  "kind": "p",
+  "text": "• If a ship is destroyed outside of the Engagement Phase, it is removed immediately.",
+  "page": 12,
+  "col": 0,
+  "y": 124.9
+ },
+ {
+  "kind": "p",
+  "text": "• If a ship is destroyed during the Engagement phase, it is removed after all ships that have the same initiative as the currently engaged ship have engaged. This is called the SIMULTANEOUS FIRE rule, which represents that ships with the same initiative are essentially attacking at the same time.",
+  "page": 12,
+  "col": 0,
+  "y": 151.1
+ },
+ {
+  "kind": "h3",
+  "text": "FLEEING THE AREA",
+  "page": 12,
+  "col": 0,
+  "y": 228.3
+ },
+ {
+  "kind": "p",
+  "text": "After a ship executes a maneuver, if any part of the ship’s base is outside the play area, the ship FLEES. Much like being destroyed, a ship that ﬂees is removed from the game.",
+  "page": 12,
+  "col": 0,
+  "y": 241.7
+ },
+ {
+  "kind": "h2",
+  "text": "REPAIRING DAMAGE CARDS",
+  "page": 12,
+  "col": 0,
+  "y": 288.8
+ },
+ {
+  "kind": "p",
+  "text": "If an effect instructs a player to repair a damage card, they can repair either a faceup or facedown damage card. To repair a faceup damage card, that card is ﬂipped facedown. To repair a facedown damage card, that card is discarded to the damage card discard pile.",
+  "page": 12,
+  "col": 0,
+  "y": 303.1
+ },
+ {
+  "kind": "h2",
+  "text": "UPGRADE CARDS",
+  "page": 12,
+  "col": 0,
+  "y": 370.6
+ },
+ {
+  "kind": "p",
+  "text": "Upgrade cards represent the different ways pilots customize their ships, such as incorporating an astromech or equipping ordnance. These cards can provide special abilities or alternative ways to attack. There are many types of upgrades, as distinguished by the icon on the left side of the card.",
+  "page": 12,
+  "col": 0,
+  "y": 385.0
+ },
+ {
+  "kind": "p",
+  "text": "Upgrade cards are equipped before a game starts. The Squad Building section on page 18 describes the process for equipping upgrades. When a ship equips an upgrade card, it is placed partially beneath the ship card or another equipped upgrade so that only the text and art on the upgrade card are visible.",
+  "page": 12,
+  "col": 0,
+  "y": 453.4
+ },
+ {
+  "kind": "h3",
+  "text": "SPECIAL WEAPONS",
+  "page": 12,
+  "col": 0,
+  "y": 552.4
+ },
+ {
+  "kind": "p",
+  "text": "Unlike the PRIMARY WEAPON (the red number and ﬁring arc symbol on a ship card), upgrade cards with the “ATTACK:” header, such as Proton Torpedoes, are special weapons. A ship can perform an attack with a special weapon instead of using its primary weapon.",
+  "page": 12,
+  "col": 0,
+  "y": 565.8
+ },
+ {
+  "kind": "p",
+  "text": "Special weapons have the following characteristics:",
+  "page": 12,
+  "col": 1,
+  "y": 27.0
+ },
+ {
+  "kind": "p",
+  "text": "• Arc Requirement: This indicates the arc this weapon attacks from. The target must be in this arc for the weapon to be used.",
+  "page": 12,
+  "col": 1,
+  "y": 115.6
+ },
+ {
+  "kind": "p",
+  "text": "• Attack Value: This is the number of attack dice the attacker rolls.",
+  "page": 12,
+  "col": 1,
+  "y": 154.2
+ },
+ {
+  "kind": "p",
+  "text": "• Range Requirements: The attack range must match one of the ranges listed for the weapon to be used.",
+  "page": 12,
+  "col": 1,
+  "y": 182.6
+ },
+ {
+  "kind": "p",
+  "text": "• Range Bonus Indicator: If there is a missile symbol present, range bonuses are not applied while attacking with this weapon.",
+  "page": 12,
+  "col": 1,
+  "y": 221.2
+ },
+ {
+  "kind": "p",
+  "text": "If there is a symbol in parentheses in the header, that symbol indicates an additional ATTACK REQUIREMENT. This means that the attacking ship needs to have performed that action. For example, a {focus} symbol means that the attacker needs a focus token, while a {lock} symbol means the attacker needs to have a lock on the defender.",
+  "page": 12,
+  "col": 1,
+  "y": 270.2
+ },
+ {
+  "kind": "h2",
+  "text": "CHARGES AND THE FORCE",
+  "page": 12,
+  "col": 1,
+  "y": 395.9
+ },
+ {
+  "kind": "p",
+  "text": "Many upgrade cards represent a limited resource, such as a weapon with ﬁnite ammo. These cards hold standard charges ({charge}), which limits how often the ability can be used.",
+  "page": 12,
+  "col": 1,
+  "y": 410.3
+ },
+ {
+  "kind": "p",
+  "text": "Each card with a CHARGE LIMIT (the golden number) starts the game with a number of {charge} equal to the charge limit. Each {charge} starts on its active side.",
+  "page": 12,
+  "col": 1,
+  "y": 458.3
+ },
+ {
+  "kind": "p",
+  "text": "The card’s ability will instruct the player how and when to spend {charge} from that card. When a {charge} is spent, it is ﬂipped to its inactive side.",
+  "page": 12,
+  "col": 1,
+  "y": 506.3
+ },
+ {
+  "kind": "p",
+  "text": "During the End Phase, each card with a charge limit recovers one {charge} if it has a small arrow next to its charge limit. When a {charge} is recovered, it is ﬂipped to its active side.",
+  "page": 12,
+  "col": 1,
+  "y": 554.3
+ },
+ {
+  "kind": "h3",
+  "text": "FORCE CHARGES ({force})",
+  "page": 13,
+  "col": 0,
+  "y": 25.2
+ },
+ {
+  "kind": "p",
+  "text": "Some pilots can exert their inﬂuence over the Force. Pilots who can use the Force have a FORCE CAPACITY (the purple number) and Force charges ({force}).",
+  "page": 13,
+  "col": 0,
+  "y": 39.8
+ },
+ {
+  "kind": "p",
+  "text": "Force capacity and {force} operate identically to charge limits and {charge}, but {force} have an additional function. While attacking, a ship can spend any number of {force} during the Attack Dice step to change that number of its {focus} results to {hit} results. While defending, a ship can spend any number of {force} during the Defense Dice step to change that number of its {focus} results to {evade} results.",
+  "page": 13,
+  "col": 0,
+  "y": 137.5
+ },
+ {
+  "kind": "h2",
+  "text": "INCREASING/DECREASING MANEUVER DIFFICULTY",
+  "page": 13,
+  "col": 0,
+  "y": 226.7
+ },
+ {
+  "kind": "p",
+  "text": "There are three levels of difﬁculty for maneuvers: red, white, and blue. If an effect increases the difﬁculty of a maneuver, blue goes to white, and white goes to red. Meanwhile decreasing the difﬁculty of a maneuver, red goes to white, and white goes to blue.",
+  "page": 13,
+  "col": 0,
+  "y": 253.1
+ },
+ {
+  "kind": "h2",
+  "text": "PARTIAL MANEUVERS",
+  "page": 13,
+  "col": 0,
+  "y": 310.3
+ },
+ {
+  "kind": "p",
+  "text": "Ships often FULLY execute maneuvers, which means nothing prevents the ship from being placed at the end of the template. Even when a ship MOVES THROUGH another ship, which means the template is placed on top of that ship, the moving ship still fully executes the maneuver.",
+  "page": 13,
+  "col": 0,
+  "y": 324.7
+ },
+ {
+  "kind": "p",
+  "text": "However, a ship is sometimes unable to be placed at the end of the template because it would OVERLAP another ship. This causes the moving ship to PARTIALLY execute its maneuver, which means it moves a shorter distance.",
+  "page": 13,
+  "col": 1,
+  "y": 54.6
+ },
+ {
+  "kind": "p",
+  "text": "To partially execute a maneuver, follow these steps:",
+  "page": 13,
+  "col": 1,
+  "y": 102.6
+ },
+ {
+  "kind": "p",
+  "text": "1. Move the ship backward along the template until it is no longer overlapping another ship’s base. While doing so, adjust the position of the ship so that the hashmarks in the middle of both sets of guides remain centered over the line down the middle of the template.",
+  "page": 13,
+  "col": 1,
+  "y": 120.0
+ },
+ {
+  "kind": "p",
+  "text": "2. Once the ship is no longer on top of any other ship, place it so that it is touching the last ship it backed over. (This may result in the ship not leaving its initial position.) Then after the Check Difﬁculty step, it suffers an effect based on what ship it overlapped that initially forced it to partially execute the maneuver.",
+  "page": 13,
+  "col": 1,
+  "y": 189.2
+ },
+ {
+  "kind": "h2",
+  "text": "Example of Overlapping Multiple Ships",
+  "page": 13,
+  "col": 2,
+  "y": 388.4
+ },
+ {
+  "kind": "p",
+  "text": "1. The X-wing attempts to perform a [2 {turnright}] maneuver, but there might be some problems as there appear to be other ships along its path.",
+  "page": 13,
+  "col": 2,
+  "y": 497.2
+ },
+ {
+  "kind": "p",
+  "text": "2. Although the X-wing safely moves through the Y-wing, it has overlapped the TIE/ln Fighter and must partially execute the maneuver.",
+  "page": 13,
+  "col": 2,
+  "y": 497.2
+ },
+ {
+  "kind": "p",
+  "text": "3. After partially executing the maneuver, the X-wing is now overlapping the ﬁrst ship, so it must back up farther.",
+  "page": 13,
+  "col": 2,
+  "y": 497.2
+ },
+ {
+  "kind": "p",
+  "text": "4. The X-wing backs up until it would not be on top of any ship. It is placed touching the last ship that it backed over, the Y-wing. Then the X-wing resolves the effect of overlapping an enemy ship.",
+  "page": 13,
+  "col": 2,
+  "y": 497.2
+ },
+ {
+  "kind": "p",
+  "text": "3. If the overlapped ship was a friendly or allied ship, roll an attack die. On a {hit} or {crit} result, the ship suffers one {hit} damage. Then the ship skips its Perform Action step.",
+  "page": 14,
+  "col": 0,
+  "y": 27.0
+ },
+ {
+  "kind": "p",
+  "text": "4. If the overlapped ship was an enemy ship, if the maneuvering ship is not stressed, it may immediately perform a {focus} or {calculate} action from its action bar, treating the action as red. Then the ship skips its Perform Action step.",
+  "page": 14,
+  "col": 0,
+  "y": 75.8
+ },
+ {
+  "kind": "p",
+  "text": "• The ship cannot perform any additional actions during its activation.",
+  "page": 14,
+  "col": 0,
+  "y": 134.8
+ },
+ {
+  "kind": "p",
+  "text": "5. If there was a simultaneous overlap of friendly or allied and enemy ships, resolve the effect for overlapping a friendly or allied ship.",
+  "page": 14,
+  "col": 0,
+  "y": 163.2
+ },
+ {
+  "kind": "h2",
+  "text": "ADVANCED MANEUVERS",
+  "page": 14,
+  "col": 0,
+  "y": 200.9
+ },
+ {
+  "kind": "p",
+  "text": "Some maneuvers are advanced maneuvers, which have additional effects. The advanced maneuvers in the squadron starter pack are described below.",
+  "page": 14,
+  "col": 0,
+  "y": 215.3
+ },
+ {
+  "kind": "h3",
+  "text": "KOIOGRAN TURN ({kturn})",
+  "page": 14,
+  "col": 0,
+  "y": 251.9
+ },
+ {
+  "kind": "p",
+  "text": "The Koiogran Turn bearing advances a ship straight forward, rotating 180º at the end of the template. This maneuver is executed like a {straight} maneuver of the same speed, but the player slides the ship’s front guides into the end of the template instead of the rear guides.",
+  "page": 14,
+  "col": 0,
+  "y": 266.5
+ },
+ {
+  "kind": "p",
+  "text": "If the ship cannot fully execute the maneuver, it does not rotate 180º.",
+  "page": 14,
+  "col": 1,
+  "y": 27.0
+ },
+ {
+  "kind": "h3",
+  "text": "TALLON ROLL ({trollleft}AND {trollright})",
+  "page": 14,
+  "col": 1,
+  "y": 53.5
+ },
+ {
+  "kind": "p",
+  "text": "The left Tallon Roll ({trollleft}) and right Tallon Roll ({trollright}) bearings advance a ship at a tight curve to one side, rotating 90º at the end of the template.",
+  "page": 14,
+  "col": 1,
+  "y": 66.8
+ },
+ {
+  "kind": "p",
+  "text": "This maneuver is executed like a {turnleft} or {turnright} maneuver of the same direction, but before the player places the ship at the opposite end of the template, the ship is rotated an additional 90º in the same direction as the maneuver. The player places the ship so that the hashmark on the side of the base is aligned to the left, middle, or right of the end of the template.",
+  "page": 14,
+  "col": 1,
+  "y": 104.6
+ },
+ {
+  "kind": "p",
+  "text": "If the ship cannot fully execute the maneuver, it does not rotate 90º.",
+  "page": 14,
+  "col": 1,
+  "y": 286.5
+ },
+ {
+  "kind": "h3",
+  "text": "SEGNOR’S LOOP ({sloopleft} AND {sloopright})",
+  "page": 14,
+  "col": 1,
+  "y": 312.9
+ },
+ {
+  "kind": "p",
+  "text": "The {sloopleft} (left Segnor’s Loop) and {sloopright} (right Segnor’s Loop) bearings advance a ship at a shallow curve to one side, then turn it around. This uses the same template as the {bankleft} and {bankright} maneuvers.",
+  "page": 14,
+  "col": 1,
+  "y": 326.2
+ },
+ {
+  "kind": "p",
+  "text": "If the ship cannot fully execute the maneuver, it does not turn around.",
+  "page": 14,
+  "col": 1,
+  "y": 395.9
+ },
+ {
+  "kind": "h3",
+  "text": "STATIONARY ({stop})",
+  "page": 14,
+  "col": 1,
+  "y": 422.4
+ },
+ {
+  "kind": "p",
+  "text": "The {stop} (stationary) bearing does not move the ship from its current position. This maneuver does not use a template, but the ship does count as having executed a maneuver.",
+  "page": 14,
+  "col": 1,
+  "y": 435.7
+ },
+ {
+  "kind": "h3",
+  "text": "REVERSE STRAIGHT ({reversestraight})",
+  "page": 14,
+  "col": 1,
+  "y": 483.8
+ },
+ {
+  "kind": "p",
+  "text": "AND REVERSE BANK ({reversebankleft} AND {reversebankright}) Reverse maneuvers move a ship backward instead of forward. At the start of the maneuver, instead of sliding the template between the front guides of the ship’s base, slide it between the rear guides. Additionally, when the ship is moved, the player slides the ship’s front guides into the end of the template instead of the rear guides.",
+  "page": 14,
+  "col": 1,
+  "y": 495.8
+ },
+ {
+  "kind": "h2",
+  "text": "Dial ID Token Assembly",
+  "page": 14,
+  "col": 2,
+  "y": 437.9
+ },
+ {
+  "kind": "p",
+  "text": "The Dial ID tokens included in all products are used in conjunction with the Maneuver Dial Upgrade Kits, which are available for each faction (sold separately).",
+  "page": 14,
+  "col": 2,
+  "y": 454.8
+ },
+ {
+  "kind": "h2",
+  "text": "TIMING AND ABILITIES",
+  "page": 15,
+  "col": 0,
+  "y": 26.2
+ },
+ {
+  "kind": "p",
+  "text": "If two or more abilities resolve at the same time (e.g., “At the start of the Engagement Phase”), the abilities are resolved in player order. The ﬁrst player resolves all of their own abilities with that timing before the other player resolves their own abilities with that timing.",
+  "page": 15,
+  "col": 0,
+  "y": 40.6
+ },
+ {
+  "kind": "h2",
+  "text": "HYPERSPACE MARKERS",
+  "page": 15,
+  "col": 0,
+  "y": 108.0
+ },
+ {
+  "kind": "p",
+  "text": "Some scenarios and game modes instruct players to place a HYPERSPACE MARKER. Hyperspace markers are used to place objects into the play area after setup, and the scenario or game mode rules detail how they function.",
+  "page": 15,
+  "col": 0,
+  "y": 122.4
+ },
+ {
+  "kind": "p",
+  "text": "• When a scenario or game mode calls for multiple hyperspace markers, they are identiﬁed by the printed numeral in the center of the marker.",
+  "page": 15,
+  "col": 0,
+  "y": 201.0
+ },
+ {
+  "kind": "h2",
+  "text": "ADDITIONAL TOKEN RULES",
+  "page": 15,
+  "col": 0,
+  "y": 238.7
+ },
+ {
+  "kind": "p",
+  "text": "Besides focus, evade, lock, and stress tokens, there are many different types of tokens that are used to track effects. Below is a list of concepts related to the gaining and spending of tokens:",
+  "page": 15,
+  "col": 0,
+  "y": 253.0
+ },
+ {
+  "kind": "p",
+  "text": "• When a ship is instructed to GAIN a token, a token from the supply is placed in the play area next to that ship.",
+  "page": 15,
+  "col": 0,
+  "y": 301.0
+ },
+ {
+  "kind": "p",
+  "text": "• When a ship is instructed to SPEND a token or there is an instruction to REMOVE a token from a ship, a token of that type is returned from that ship to the supply.",
+  "page": 15,
+  "col": 0,
+  "y": 339.6
+ },
+ {
+  "kind": "p",
+  "text": "• When a ship is instructed to TRANSFER a token to another ship, that token is removed from the ship and the other ship gains it.",
+  "page": 15,
+  "col": 0,
+  "y": 388.4
+ },
+ {
+  "kind": "p",
+  "text": "Additionally, the color and shape of tokens help to remind players of their effects and the time when they are removed. The squadron starter pack contains green, orange, and red tokens, but some expansions contain blue tokens.",
+  "page": 15,
+  "col": 0,
+  "y": 427.0
+ },
+ {
+  "kind": "p",
+  "text": "• Green Tokens: These tokens are circular, have positive effects, and are removed during the End Phase.",
+  "page": 15,
+  "col": 0,
+  "y": 485.0
+ },
+ {
+  "kind": "p",
+  "text": "• Orange Tokens: These tokens are circular, have negative effects, and are removed during the End Phase.",
+  "page": 15,
+  "col": 0,
+  "y": 523.6
+ },
+ {
+  "kind": "p",
+  "text": "• Blue Tokens: These tokens are square, have positive effects, and are removed as speciﬁed by the token’s effect.",
+  "page": 15,
+  "col": 0,
+  "y": 562.2
+ },
+ {
+  "kind": "p",
+  "text": "• Red Tokens: These tokens are square, have negative effects, and are removed as speciﬁed by the token’s effect.",
+  "page": 15,
+  "col": 1,
+  "y": 26.8
+ },
+ {
+  "kind": "h3",
+  "text": "OTHER TOKENS",
+  "page": 15,
+  "col": 1,
+  "y": 65.7
+ },
+ {
+  "kind": "p",
+  "text": "Below are two other tokens included in the squadron starter pack that are gained from various card effects.",
+  "page": 15,
+  "col": 1,
+  "y": 79.1
+ },
+ {
+  "kind": "p",
+  "text": "DISARM TOKENS A ship is DISARMED while it has at least one disarm token, which is an orange, circular token. A disarmed ship cannot perform attacks. As a circular token, all disarm tokens are removed during the End Phase.",
+  "page": 15,
+  "col": 1,
+  "y": 117.9
+ },
+ {
+  "kind": "p",
+  "text": "ION TOKENS A ship is IONIZED while it has a number of ion tokens relative to its size: one or more for a small ship, two or more for a medium ship, and three or more for a large ship. Ion tokens are red tokens.",
+  "page": 15,
+  "col": 1,
+  "y": 189.6
+ },
+ {
+  "kind": "p",
+  "text": "A ship that is ionized cannot acquire or maintain locks. When a ship becomes ionized, it breaks all locks it is maintaining.",
+  "page": 15,
+  "col": 1,
+  "y": 260.2
+ },
+ {
+  "kind": "p",
+  "text": "During the Activation Phase, an ionized ship activates as follows:",
+  "page": 15,
+  "col": 1,
+  "y": 298.0
+ },
+ {
+  "kind": "p",
+  "text": "1. The ionized ship reveals its dial as normal.",
+  "page": 15,
+  "col": 1,
+  "y": 325.6
+ },
+ {
+  "kind": "p",
+  "text": "2. During the Execute Maneuver step, the ionized executes an ION MANEUVER with the same direction shown on its dial. An ion maneuver is a blue speed 1 bank or straight [{bankleft}, {straight}, {bankright}] maneuver.",
+  "page": 15,
+  "col": 1,
+  "y": 343.8
+ },
+ {
+  "kind": "p",
+  "text": "• If an ionized ship’s dial shows a stop [{stop}] maneuver, they perform their ion maneuver as a [1 {straight}] maneuver.",
+  "page": 15,
+  "col": 1,
+  "y": 401.5
+ },
+ {
+  "kind": "p",
+  "text": "• The bearing, difﬁculty, and speed of this maneuver cannot be changed unless an ability explicitly affects the ion maneuver.",
+  "page": 15,
+  "col": 1,
+  "y": 441.4
+ },
+ {
+  "kind": "p",
+  "text": "3. During the Perform Action step, the ship can perform only the {focus} action.",
+  "page": 15,
+  "col": 1,
+  "y": 480.0
+ },
+ {
+  "kind": "p",
+  "text": "4. At the end of a ship’s activation, if it executed an ion maneuver, it removes all of its ion tokens.",
+  "page": 15,
+  "col": 1,
+  "y": 508.4
+ },
+ {
+  "kind": "p",
+  "text": "Additionally:",
+  "page": 15,
+  "col": 1,
+  "y": 536.8
+ },
+ {
+  "kind": "p",
+  "text": "• An ionized ship cannot perform any action except the {focus} action.",
+  "page": 15,
+  "col": 1,
+  "y": 554.2
+ },
+ {
+  "kind": "p",
+  "text": "• If a ship that was ionized during the Planning Phase is no longer ionized at the beginning of its activation, it activates as normal.",
+  "page": 15,
+  "col": 1,
+  "y": 582.6
+ },
+ {
+  "kind": "p",
+  "text": "STRAIN TOKENS A ship is STRAINED while it has at least one strain token. While a strained ship defends, it rolls 1 fewer defense die. The strain token is a red token.",
+  "page": 16,
+  "col": 0,
+  "y": 31.2
+ },
+ {
+  "kind": "p",
+  "text": "• After a strained ship applies the effect to roll 1 fewer defense die this way, it removes 1 strain token.",
+  "page": 16,
+  "col": 0,
+  "y": 91.6
+ },
+ {
+  "kind": "p",
+  "text": "• After a strained ship executes a blue maneuver, it removes 1 strain token.",
+  "page": 16,
+  "col": 0,
+  "y": 129.4
+ },
+ {
+  "kind": "h3",
+  "text": "BOMBS",
+  "page": 16,
+  "col": 0,
+  "y": 157.0
+ },
+ {
+  "kind": "p",
+  "text": "Bombs are devices that detonate at the end of the Activation Phase, affecting nearby ships.",
+  "page": 16,
+  "col": 0,
+  "y": 170.4
+ },
+ {
+  "kind": "h3",
+  "text": "MINES",
+  "page": 16,
+  "col": 0,
+  "y": 198.1
+ },
+ {
+  "kind": "p",
+  "text": "Mines are devices that detonate when a ship moves through or overlaps them, affecting that ship.",
+  "page": 16,
+  "col": 0,
+  "y": 211.4
+ },
+ {
+  "kind": "h3",
+  "text": "DROPPING AND LAUNCHING DEVICES",
+  "page": 16,
+  "col": 0,
+  "y": 239.1
+ },
+ {
+  "kind": "p",
+  "text": "To DROP a device, follow the steps below:",
+  "page": 16,
+  "col": 0,
+  "y": 252.5
+ },
+ {
+  "kind": "p",
+  "text": "1. Take the template indicated on the upgrade card.",
+  "page": 16,
+  "col": 0,
+  "y": 269.9
+ },
+ {
+  "kind": "p",
+  "text": "2. Set the template between the ship’s rear guides.",
+  "page": 16,
+  "col": 0,
+  "y": 288.1
  },
  {
   "kind": "p",
   "text": "3. Place the device indicated on the upgrade card into the play area and slide the guides of the device into the opposite end of the template. Then remove the template.",
-  "page": 16
- },
- {
-  "kind": "h2",
-  "text": "BUILDER KEYWORDS",
-  "page": 16
+  "page": 16,
+  "col": 0,
+  "y": 306.3
  },
  {
   "kind": "p",
-  "text": "Some ships have BUILDER KEYWORDS. These keywords are required to equip certain upgrades.",
-  "page": 16
+  "text": "To LAUNCH a device, follow the steps below:",
+  "page": 16,
+  "col": 0,
+  "y": 355.1
+ },
+ {
+  "kind": "p",
+  "text": "1. Take the template indicated on the upgrade card.",
+  "page": 16,
+  "col": 0,
+  "y": 372.5
+ },
+ {
+  "kind": "p",
+  "text": "2. Set the template between the ship’s front guides.",
+  "page": 16,
+  "col": 0,
+  "y": 390.7
+ },
+ {
+  "kind": "p",
+  "text": "3. Place the device indicated on the upgrade card into the play area and slide the guides of the device into the opposite end of the template. Then remove the template.",
+  "page": 16,
+  "col": 0,
+  "y": 408.9
  },
  {
   "kind": "h3",
   "text": "MOVING THROUGH AND OVERLAPPING OBSTACLES",
-  "page": 16
+  "page": 16,
+  "col": 0,
+  "y": 457.8
  },
  {
   "kind": "p",
   "text": "Obstacles do not cause ships to partially execute maneuvers—if a ship overlaps an obstacle, it does not move backward along the template. Obstacles act as hazards that can disrupt and damage ships. If a ship moves through or overlaps an obstacle, it suffers different effects depending on the type of obstacle:",
-  "page": 16
+  "page": 16,
+  "col": 0,
+  "y": 483.1
+ },
+ {
+  "kind": "p",
+  "text": "• Asteroid: The ship suffers one {hit} damage. Roll one attack die. On a {hit} or {crit} result, the ship suffers an additional {hit} damage.",
+  "page": 16,
+  "col": 0,
+  "y": 554.7
+ },
+ {
+  "kind": "p",
+  "text": "• Debris Cloud: The ship is assigned one stress token. Roll one attack die. On a {hit} result, the ship suffers one {hit} damage. On a {crit} result, the ship suffers one {crit} damage.",
+  "page": 16,
+  "col": 0,
+  "y": 594.3
+ },
+ {
+  "kind": "p",
+  "text": "• Gas Cloud: The ship breaks all its locks and all locks on it and then is assigned one strain token. Roll one attack die. On a {hit} result, the ship is assigned one ion token. On a {crit} result, the ship is assigned three ion tokens.",
+  "page": 16,
+  "col": 1,
+  "y": 56.8
+ },
+ {
+  "kind": "p",
+  "text": "• While a ship is at range 0 of an asteroid, debris cloud, or gas loud, the ship cannot perform attacks.",
+  "page": 16,
+  "col": 1,
+  "y": 116.0
+ },
+ {
+  "kind": "p",
+  "text": "• While a ship is at range 0 of a gas cloud, the ship cannot acquire locks and cannot be locked.",
+  "page": 16,
+  "col": 1,
+  "y": 154.6
+ },
+ {
+  "kind": "h3",
+  "text": "OBSTRUCTION",
+  "page": 16,
+  "col": 1,
+  "y": 183.1
+ },
+ {
+  "kind": "p",
+  "text": "An attack is OBSTRUCTED if the attacker measures range through one or more obstacles. If an attack is obstructed, the defender rolls one additional defense die during the Defense Dice step.",
+  "page": 16,
+  "col": 1,
+  "y": 196.4
+ },
+ {
+  "kind": "p",
+  "text": "Ships can also obstruct attacks, but unlike obstacles, this has no inherent effect. Card abilities may cause an effect to occur for an attack obstructed by a ship",
+  "page": 16,
+  "col": 1,
+  "y": 244.4
+ },
+ {
+  "kind": "h1",
+  "text": "SQUAD BUILDING",
+  "page": 16,
+  "col": 1,
+  "y": 282.1
+ },
+ {
+  "kind": "p",
+  "text": "Players build squads using SQUAD POINTS and LOADOUT POINTS. Standard games use a squad point limit of 20. Each ship in a player’s squad can be equipped with a number of upgrades based on the ship’s LOADOUT VALUE.",
+  "page": 16,
+  "col": 1,
+  "y": 309.4
+ },
+ {
+  "kind": "p",
+  "text": "Point costs for all ships and upgrades, as well as upgrade slots for all ships in X-Wing, can be found at atomicmassgames.com/xwing-documents.",
+  "page": 16,
+  "col": 1,
+  "y": 367.6
+ },
+ {
+  "kind": "h2",
+  "text": "FACTION",
+  "page": 16,
+  "col": 1,
+  "y": 404.5
+ },
+ {
+  "kind": "p",
+  "text": "Ships in X-Wing are divided by FACTION, indicated by the faction icons on the face of the cards. All ships in a player’s squad must be from the same faction.",
+  "page": 16,
+  "col": 1,
+  "y": 418.6
+ },
+ {
+  "kind": "h2",
+  "text": "BUILDER KEYWORDS",
+  "page": 16,
+  "col": 1,
+  "y": 455.8
+ },
+ {
+  "kind": "p",
+  "text": "Some ships have BUILDER KEYWORDS. These keywords are required to equip certain upgrades.",
+  "page": 16,
+  "col": 1,
+  "y": 470.1
  },
  {
   "kind": "h2",
   "text": "SQUAD POINTS",
-  "page": 16
+  "page": 16,
+  "col": 1,
+  "y": 496.8
  },
  {
   "kind": "p",
   "text": "Each ship card has a squad point cost associated with it. This value is used during squad building to build lists that are legal for different game modes.",
-  "page": 16
+  "page": 16,
+  "col": 1,
+  "y": 511.2
  },
  {
   "kind": "h2",
   "text": "LOADOUT POINTS",
-  "page": 16
+  "page": 16,
+  "col": 1,
+  "y": 548.0
  },
  {
   "kind": "p",
   "text": "Each upgrade card has a loadout point cost associated with it. This value is used during squad building to build lists that are legal for different game modes.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• Asteroid: The ship suffers one % damage. Roll one attack die. On a % or & result, the ship suffers an additional % damage.",
-  "page": 16
- },
- {
-  "kind": "p",
-  "text": "• Debris Cloud: The ship is assigned one stress token. Roll one attack die. On a % result, the",
-  "page": 16
+  "page": 16,
+  "col": 1,
+  "y": 562.4
  },
  {
   "kind": "h2",
   "text": "LOADOUT VALUE",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 29.2
  },
  {
   "kind": "p",
   "text": "Each ship has a loadout value that determines how many upgrade cards it can equip. A ship cannot equip more upgrades than its loadout value.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 43.6
  },
  {
   "kind": "p",
   "text": "• Standard loadout ships do not have a loadout value and are always equipped with the upgrades printed on their card.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 71.2
  },
  {
   "kind": "h2",
   "text": "UPGRADES",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 98.6
  },
  {
   "kind": "p",
   "text": "Upgrades represent the different ways pilots customize their ships, such as incorporating an astromech or equipping ordnance.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 113.0
  },
  {
   "kind": "p",
   "text": "• Each ship has an upgrade bar, which is a list of upgrade icons that limit the types of upgrades the ship can equip.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 140.6
  },
  {
   "kind": "p",
   "text": "• Each upgrade card has a cost. The combined cost of all upgrades equipped on a ship cannot exceed that ship’s loadout value.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 169.0
  },
  {
   "kind": "p",
   "text": "• A ship cannot equip more than one copy of an upgrade card with the same name.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 197.4
  },
  {
   "kind": "p",
   "text": "• Some upgrade cards have restrictions listed in their restrictions ﬁeld. These restrictions can refer to faction, ship size, ship types, and builder keywords. Only ships that match the restrictions of an upgrade can equip it.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 215.6
  },
  {
   "kind": "h3",
   "text": "LIMITED",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 254.3
  },
  {
   "kind": "p",
   "text": "Some cards are LIMITED, as identiﬁed by one or more bullets (•) to the left of their name. A squadron cannot have more copies of a card that share the same name than the number of bullets in front of that name. This rule is used for all modes of play.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 267.6
  },
  {
   "kind": "p",
   "text": "For example, “•Luke Skywalker” has one bullet in front of his name, so a player can have only one card named “Luke Skywalker” in their list, either as a ship card or an upgrade card.",
-  "page": 17
+  "page": 17,
+  "col": 0,
+  "y": 305.4
+ },
+ {
+  "kind": "h1",
+  "text": "SCENARIOS",
+  "page": 18,
+  "col": 0,
+  "y": 29.1
  },
  {
   "kind": "p",
   "text": "Below you will ﬁnd the 4 scenarios for Standard play. Players may choose what scenario they play each game or may randomize the scenario as they see ﬁt.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 55.6
  },
  {
   "kind": "h1",
   "text": "ASSAULT AT THE SATELLITE ARRAY",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 88.3
  },
  {
   "kind": "p",
   "text": "Scenario Setup Take control of the Satellite Array before enemy forces do.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 116.9
  },
  {
   "kind": "p",
   "text": ": 5 satellites Scenario Setup PLAY AREA: 3’x 3’ OBSTACLES: 6 (Asteroid, Debris Field, Gas Cloud)",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 153.9
  },
  {
   "kind": "p",
   "text": "Players complete Setup as normal, with the following exceptions.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 223.7
  },
  {
   "kind": "p",
   "text": "Place Obstacles: At the start of the Place Obstacles step of Setup, place one satellite in the center of the play area (centered at range 4.5 of all board edges). Then, starting with the ﬁrst player, players take turns placing the remaining four satellites at range 3 of the center satellite and beyond range 2 of each other satellite. The ﬁrst satellite placed by each player must be placed at range 2–4 of their board edge. The second satellite placed by each player must be placed at range 2–4 of their opponent’s board edge. Once all ﬁve satellites have been placed, players place obstacles as described in Setup. Obstacles cannot be placed overlapping a satellite.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 254.3
  },
  {
   "kind": "p",
   "text": "Scoring",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 402.7
  },
  {
   "kind": "p",
   "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 417.2
  },
  {
   "kind": "p",
   "text": "• Starting on the second round, at the start of the End Phase, each player earns 1 mission point for each satellite under their control. A player controls a satellite if they have more ships at range 0–1 of the satellite than any other player. When determining control of a satellite, medium and large ships each count as two ships.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 427.4
  },
  {
   "kind": "p",
   "text": "• When a ship is destroyed or removed from the game, the opposing player earns mission points equal to the squad point value of that ship.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 468.2
  },
  {
   "kind": "p",
   "text": "Victory",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 503.2
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if only one player has ships remaining in the play area, they win the game immediately.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 516.2
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if one player has 20 or more mission points and has more mission points than their opponent, the game ends.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 536.6
  },
  {
   "kind": "p",
   "text": "• At the end of the twelfth round, the game ends.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 557.0
  },
  {
   "kind": "p",
   "text": "• At the end of the game, if both players have at least one ship remaining in the play area, the player with the most mission points wins.",
-  "page": 18
+  "page": 18,
+  "col": 0,
+  "y": 567.2
  },
  {
   "kind": "p",
   "text": "Scenario Rules Scenario Feature A scenario feature is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 26.9
  },
  {
   "kind": "p",
   "text": "Satellite A satellite is a scenario feature.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 92.1
  },
  {
   "kind": "h1",
   "text": "CHANCE ENGAGEMENT",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 124.0
  },
  {
   "kind": "p",
   "text": "Mission Objectives Defeat enemy forces to force a retreat from the sector.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 152.1
  },
  {
   "kind": "p",
   "text": "Scenario Setup PLAY AREA: 3’x 3’ OBSTACLES: 6 (Asteroid, Debris Field, Gas Cloud)",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 193.2
  },
  {
   "kind": "p",
   "text": ": 1 satellite Players complete Setup as normal, with the following exceptions.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 237.8
  },
  {
   "kind": "p",
   "text": "Place Obstacles: At the start of the Place Obstacles step of Setup, place one satellite in the center of the play area (centered at range 4.5 of all board edges). Then, players place obstacles as described in Setup. Obstacles cannot be placed overlapping a satellite.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 293.5
  },
  {
   "kind": "p",
   "text": "Scoring",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 405.8
  },
  {
   "kind": "p",
   "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 420.2
  },
  {
   "kind": "p",
   "text": "• Starting on the second round, at the start of the End Phase, a player earns 1 mission point if they contest the satellite. A player contests the satellite if they have one or more ships at range 0–2 of the satellite. If only one player is contesting the satellite, that player scores one additional mission point.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 430.4
  },
  {
   "kind": "p",
   "text": "• When a ship is reduced to half its health (combined total hull and shields, including any modiﬁcations to hull and shields via cards such as Hull upgrade or Shield upgrade), the opposing player immediately gains mission points equal to half the squad point value of the destroyed ship, rounded down.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 461.0
  },
  {
   "kind": "p",
   "text": "• When an enemy ship is destroyed or removed from the game, the opposing player gains mission points equal to half the squad point value of that ship, rounded up. If no mission points were scored earlier in the game from a ship that has been removed from the game being reduced to half its health, the opposing player gains mission points equal to the squad point value of that ship instead.",
-  "page": 19
+  "page": 19,
+  "col": 0,
+  "y": 491.6
  },
  {
   "kind": "p",
   "text": "Victory",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 26.1
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if only one player has ships remaining in the play area, they win the game immediately.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 39.1
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if one player has 20 or more mission points and has more mission points than their opponent, the game ends.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 59.5
  },
  {
   "kind": "p",
   "text": "• At the end of the twelfth round, the game ends.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 79.9
  },
  {
   "kind": "p",
   "text": "• At the end of the game, if both players have at least one ship remaining in the play area, the player with the most mission points wins.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 90.1
  },
  {
   "kind": "p",
   "text": "Scenario Rules Scenario Feature A scenario feature is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 120.9
  },
  {
   "kind": "p",
   "text": "Satellite A satellite is a scenario feature.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 193.9
  },
  {
   "kind": "h1",
   "text": "SALVAGE MISSION",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 226.6
  },
  {
   "kind": "p",
   "text": "Mission Objectives Retrieve as many supply caches as possible before the enemy.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 253.5
  },
  {
   "kind": "p",
   "text": "Scenario Setup PLAY AREA: 3’x 3’",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 290.5
  },
  {
   "kind": "h3",
   "text": "OBSTACLES: 6 (Asteroid, Debris Field, Gas Cloud)",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 305.9
  },
  {
   "kind": "p",
   "text": ": 5 suppply caches Players complete Setup as normal, with the following exceptions.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 329.7
  },
  {
   "kind": "p",
   "text": "Determine Player Order: At the end of the Determine Player Order step of Setup, the ﬁrst player becomes the red player, and the second player becomes the blue player. Each player ﬂips their player markers to the matching color side.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 387.4
  },
  {
   "kind": "p",
   "text": "Place Obstacles: At the start of the Place Obstacles step of Setup, place one supply cache in the center of the play area (centered at range 4.5 of all board edges). Then, starting with the ﬁrst player, players take turns placing the remaining four supply caches at range 3 of the center supply cache marker and beyond range 2 of each other supply cache. The ﬁrst supply cache placed by each player must be placed at range 2–4 of their board edge. The second supply cache placed by each player must be placed at range 2–4 of their opponent’s board edge. Once all ﬁve supply caches have been placed, players place obstacles as described in Setup. Obstacles cannot be placed overlapping any supply cache.",
-  "page": 20
+  "page": 20,
+  "col": 0,
+  "y": 463.0
  },
  {
   "kind": "p",
   "text": "Scoring",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 26.1
  },
  {
   "kind": "p",
   "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 40.6
  },
  {
   "kind": "p",
   "text": "• Starting on the second round, at the start of the End Phase, earn 1 mission point for each supply cache on a friendly ship’s card.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 50.8
  },
  {
   "kind": "p",
   "text": "• When a ship is destroyed or removed from the game, the opposing player earns mission points equal to the squad point value of that ship.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 71.2
  },
  {
   "kind": "p",
   "text": "Victory",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 102.6
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if only one player has ships remaining in the play area, they win the game immediately.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 115.6
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if one player has 20 or more mission points and has more mission points than their opponent, the game ends.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 136.0
  },
  {
   "kind": "p",
   "text": "• At the end of the twelfth round, the game ends.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 156.4
  },
  {
   "kind": "p",
   "text": "• At the end of the game, if both players have at least one ship remaining in the play area, the player with the most mission points wins.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 166.6
  },
  {
   "kind": "p",
   "text": "Scenario Rules Scenario Feature A scenario feature is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 197.4
  },
  {
   "kind": "p",
   "text": "Supply Cache A supply cache is a scenario feature. Ships can use the scenario action to interact with these scenario features starting on the second round.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 262.5
  },
  {
   "kind": "p",
   "text": "Scenario Action: [Tow] Scenario actions are white actions that are available to every ship in the play area during scenario play. A ship can perform a scenario action only during its Perform Action step. Therefore, a ship cannot perform a scenario action if it is granted an action at any other time.",
-  "page": 21
+  "page": 21,
+  "col": 0,
+  "y": 303.3
  },
  {
   "kind": "p",
-  "text": "Tow: When a ship performs a tow action, choose a supply cache at range 0–1. Remove the chosen supply cache from the play area and place it on the ship’s card. A ship can have only one supply cache on its card. Then, place one of your player markers next to the ship’s miniature to show that it is towing a supply cache. If there is no supply cache in range, the action fails. After a ship performs a tow action, it removes any cloak tokens it has. At the end of a ship’s activation, a ship may choose to jettison its supply cache. If it does, remove the supply cache from the ship’s card, then the opposing player places it in the play area anywhere in the play area at range 1 of that ship. While a ship is towing a supply cache, it cannot perform 3 actions, \u0001 actions, \u0003 actions, \b actions, or gain cloak tokens. When a ship that is towing a supply cache suffers a & damage or is destroyed, the supply cache is jettisoned. Remove the supply cache from the ship’s card, then the opposing player places the marker in the play area at range 1 of that ship. When a ship that is towing a supply cache is placed in reserves, the supply cache is jettisoned from the ship’s position before the ship is placed on its ship card. When a ship that is towing a supply cache ﬂees the battleﬁeld, the supply cache is jettisoned from the ship’s position before it executed its maneuver.",
-  "page": 21
+  "text": "Tow: When a ship performs a tow action, choose a supply cache at range 0–1. Remove the chosen supply cache from the play area and place it on the ship’s card. A ship can have only one supply cache on its card. Then, place one of your player markers next to the ship’s miniature to show that it is towing a supply cache. If there is no supply cache in range, the action fails. After a ship performs a tow action, it removes any cloak tokens it has. At the end of a ship’s activation, a ship may choose to jettison its supply cache. If it does, remove the supply cache from the ship’s card, then the opposing player places it in the play area anywhere in the play area at range 1 of that ship. While a ship is towing a supply cache, it cannot perform {barrelroll} actions, {boost} actions, {cloak} actions, {slam} actions, or gain cloak tokens. When a ship that is towing a supply cache suffers a {crit} damage or is destroyed, the supply cache is jettisoned. Remove the supply cache from the ship’s card, then the opposing player places the marker in the play area at range 1 of that ship. When a ship that is towing a supply cache is placed in reserves, the supply cache is jettisoned from the ship’s position before the ship is placed on its ship card. When a ship that is towing a supply cache ﬂees the battleﬁeld, the supply cache is jettisoned from the ship’s position before it executed its maneuver.",
+  "page": 21,
+  "col": 0,
+  "y": 363.5
  },
  {
   "kind": "h1",
   "text": "SCRAMBLE THE TRANSMISSIONS",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 25.5
  },
  {
   "kind": "p",
   "text": "Mission Objectives Scramble the transmissions from the satellites to deny enemy forces valuable information.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 52.4
  },
  {
   "kind": "p",
   "text": "Scenario Setup PLAY AREA: 3’x 3’ OBSTACLES: 6 (Asteroid, Debris Field, Gas Cloud)",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 91.0
  },
  {
   "kind": "p",
   "text": ": 3 satellites Players complete Setup as normal, with the following exceptions.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 137.1
  },
  {
   "kind": "p",
   "text": "Determine Player Order: At the end of the Determine Player Order step of Setup, the ﬁrst player becomes the red player, and the second player becomes the blue player. Each player ﬂips their player markers to the matching color side.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 197.2
  },
  {
   "kind": "p",
   "text": "Place Obstacles: At the start of the Place Obstacles step of Setup, place one satellite in the center of the play area (centered at range 4.5 of all board edges). Then, starting with the ﬁrst player, players take turns placing the remaining two satellites at range 3 of the center satellite and beyond range 2 of each other satellite. When a player places a satellite, it must be placed at range 2–4 of their opponent’s board edge. Once all three satellites have been placed, players place obstacles as described in Setup. Obstacles cannot be placed overlapping a satellite.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 268.6
  },
  {
   "kind": "p",
   "text": "Scoring",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 367.8
  },
  {
   "kind": "p",
   "text": "• At the start of the game, each player earns mission points equal to their opponent’s deﬁcit.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 382.2
  },
  {
   "kind": "p",
   "text": "• Starting on the second round, at the start of the End Phase, each player earns 1 mission point for each satellite they control. The player whose marker is on each satellite controls that objective.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 392.4
  },
  {
   "kind": "p",
   "text": "• When a ship is destroyed or removed from the game, the opposing player earns mission points equal to the squad point value of that ship.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 412.8
  },
  {
   "kind": "p",
   "text": "Victory",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 444.8
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if only one player has ships remaining in the play area, they win the game immediately.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 457.8
  },
  {
   "kind": "p",
   "text": "• At the end of the End Phase, if one player has 20 or more mission points and has more mission points than their opponent, the game ends.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 478.2
  },
  {
   "kind": "p",
   "text": "• At the end of the twelfth round, the game ends.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 498.6
  },
  {
   "kind": "p",
   "text": "• At the end of the game, if both players have at least one ship remaining in the play area, the player with the most mission points wins.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 508.8
  },
  {
   "kind": "p",
   "text": "Scenario Rules Scenario Feature A scenario feature is a type of marker that is placed into the play area to facilitate scenario play. Scenario features are objects but cannot be moved, attacked, damaged, locked, or destroyed unless speciﬁcally stated in a scenario rule. Scenario features do not obstruct attacks.",
-  "page": 22
+  "page": 22,
+  "col": 0,
+  "y": 539.0
  },
  {
   "kind": "p",
   "text": "Satellite A satellite is a scenario feature and may only have one player marker on it at a time. Ships can use the sce-nario action to interact with these scenario features starting on the second round.",
-  "page": 23
+  "page": 23,
+  "col": 0,
+  "y": 26.8
  },
  {
   "kind": "p",
   "text": "Scenario Action: [Scramble] Scenario actions are white actions that are available to every ship in the play area during scenario play. A ship can perform a scenario action only during its Perform Action step. Therefore, a ship cannot perform a scenario action if it is granted an action at any other time.",
-  "page": 23
+  "page": 23,
+  "col": 0,
+  "y": 67.6
  },
  {
   "kind": "p",
   "text": "Scramble: When a ship performs a scramble action, choose a satellite at range 0–1 and place one of your player markers on the chosen satellite. If the chosen satellite has another player’s marker on it, remove it before placing your own. If there is no satellite in range, the action fails.",
-  "page": 23
+  "page": 23,
+  "col": 0,
+  "y": 118.8
  },
  {
   "kind": "p",
   "text": "While a satellite is marked with a player’s marker, that player controls the satellite.",
-  "page": 23
+  "page": 23,
+  "col": 0,
+  "y": 159.6
+ },
+ {
+  "kind": "h1",
+  "text": "QUICK REFERENCE",
+  "page": 24,
+  "col": 0,
+  "y": 25.0
  },
  {
   "kind": "h2",
   "text": "THE GAME ROUND",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 45.7
  },
  {
   "kind": "p",
   "text": "1. Planning Phase: Each player secretly plans their ships’ maneuvers by assigning them facedown dials. Then players randomly determine the ﬁrst player for the round.",
-  "page": 24
- },
- {
-  "kind": "h2",
-  "text": "PERFORMING AN ATTACK",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "1. Declare Target a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Measure Range b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Choose Weapon c.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Declare Defender d.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Pay Costs",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "2. Attack Dice a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Roll Attack Dice b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Defender Modiﬁes Attack Dice c.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Attacker Modiﬁes Attack Dice",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "3. Defense Dice a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Roll Defense Dice b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Attacker Modiﬁes Defense Dice c.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Defender Modiﬁes Defense Dice",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "4. Neutralize Results a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "\u0002 Results Cancel % Results b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "\u0002 Results Cancel & Results c.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Determine Whether Attack Hits",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "5. Deal Damage a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Defender Suffers % Damage b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Defender Suffers & Damage",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "6. Aftermath a.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Resolve “After Defending” Abilities b.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Resolve “After Attacking” Abilities c.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Possibly Perform Bonus Attack",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 59.8
  },
  {
   "kind": "p",
   "text": "2. System Phase: In ascending order of initiative, each ship that has an effect that says it can be used during the System Phase resolves those abilities.",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 108.6
  },
  {
   "kind": "p",
   "text": "3. Activation Phase: In ascending order of initiative, each ship reveals its dial, executes its maneuver, and may perform one action.",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 157.4
  },
  {
   "kind": "p",
   "text": "4. Engagement Phase: In descending order of initiative, each ship may perform one attack.",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 196.0
  },
  {
   "kind": "p",
   "text": "5. End Phase: Players remove all circular tokens.",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 224.4
  },
  {
   "kind": "h2",
   "text": "RANGE BONUS",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 241.9
  },
  {
   "kind": "p",
-  "text": "When attacking with a primary weapon, or a special weapon with the range bonus icon:",
-  "page": 24
+  "text": "When attacking with a primary weapon, or a special weapon with the range bonus icon: {rangebonus}",
+  "page": 24,
+  "col": 0,
+  "y": 256.3
  },
  {
   "kind": "p",
-  "text": "g Range 1:",
-  "page": 24
+  "text": "Range 1:",
+  "page": 24,
+  "col": 0,
+  "y": 266.5
  },
  {
   "kind": "p",
   "text": "Range 3:",
-  "page": 24
- },
- {
-  "kind": "h2",
-  "text": "LIST OF TOKENS",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 311.5
  },
  {
   "kind": "h2",
   "text": "LIST OF ACTIONS",
-  "page": 24
+  "page": 24,
+  "col": 0,
+  "y": 341.4
  },
  {
   "kind": "p",
-  "text": "3 Barrel Roll: Move sideways with [1 ] template.",
-  "page": 24
+  "text": "{barrelroll} Barrel Roll: Move sideways with [1 {straight}] template.",
+  "page": 24,
+  "col": 0,
+  "y": 353.7
  },
  {
   "kind": "p",
-  "text": "Boost: Move forward with [1 \u001b], [1 ], \u0001 or [1 ] template.",
-  "page": 24
+  "text": "{boost} Boost: Move forward with [1 {bankleft}], [1 {straight}], or [1 {bankright}] template.",
+  "page": 24,
+  "col": 0,
+  "y": 379.2
  },
  {
   "kind": "p",
-  "text": "5 Calculate: Gain 1 calculate token.",
-  "page": 24
+  "text": "{calculate} Calculate: Gain 1 calculate token.",
+  "page": 24,
+  "col": 0,
+  "y": 404.7
  },
  {
   "kind": "p",
-  "text": "\u0003 Cloak: Gain 1 cloak token.",
-  "page": 24
+  "text": "{cloak} Cloak: Gain 1 cloak token.",
+  "page": 24,
+  "col": 0,
+  "y": 420.7
  },
  {
   "kind": "p",
-  "text": "\u0006 Coordinate: A friendly ship at range 1–2 performs an action.",
-  "page": 24
+  "text": "{coordinate} Coordinate: A friendly ship at range 1–2 performs an action.",
+  "page": 24,
+  "col": 0,
+  "y": 436.7
  },
  {
   "kind": "p",
-  "text": "\u0002 Evade: Gain 1 evade token.",
-  "page": 24
+  "text": "{evade} Evade: Gain 1 evade token.",
+  "page": 24,
+  "col": 0,
+  "y": 462.1
  },
  {
   "kind": "p",
-  "text": ")",
-  "page": 24
+  "text": "{focus} Focus: Gain 1 focus token.",
+  "page": 24,
+  "col": 0,
+  "y": 478.1
  },
  {
   "kind": "p",
-  "text": "Focus: Gain 1 focus token.",
-  "page": 24
+  "text": "{lock} Lock: Acquire a lock on a ship at range 0–3.",
+  "page": 24,
+  "col": 0,
+  "y": 494.1
  },
  {
   "kind": "p",
-  "text": "* Lock: Acquire a lock on a ship at range 0–3.",
-  "page": 24
+  "text": "{jam} Jam: A ship at range 1 gains 1 jam token.",
+  "page": 24,
+  "col": 0,
+  "y": 519.6
+ },
+ {
+  "kind": "p",
+  "text": "{reinforce} Reinforce: Gain 1 fore or aft reinforce token.",
+  "page": 24,
+  "col": 0,
+  "y": 535.6
+ },
+ {
+  "kind": "p",
+  "text": "{reload} Reload: Recover 1 {charge} on a {torpedo}, {missile}, or {payload} upgrade.",
+  "page": 24,
+  "col": 0,
+  "y": 561.1
+ },
+ {
+  "kind": "p",
+  "text": "{rotate} Rotate: Rotate your turret arc indicator.",
+  "page": 24,
+  "col": 0,
+  "y": 586.5
+ },
+ {
+  "kind": "p",
+  "text": "{slam} SLAM: Execute a maneuver with the",
+  "page": 24,
+  "col": 0,
+  "y": 602.5
+ },
+ {
+  "kind": "h2",
+  "text": "PERFORMING AN ATTACK",
+  "page": 24,
+  "col": 1,
+  "y": 26.2
+ },
+ {
+  "kind": "p",
+  "text": "1. Declare Target",
+  "page": 24,
+  "col": 1,
+  "y": 40.3
+ },
+ {
+  "kind": "p",
+  "text": "a. Measure Range",
+  "page": 24,
+  "col": 1,
+  "y": 52.8
+ },
+ {
+  "kind": "p",
+  "text": "b. Choose Weapon",
+  "page": 24,
+  "col": 1,
+  "y": 65.0
+ },
+ {
+  "kind": "p",
+  "text": "c. Declare Defender",
+  "page": 24,
+  "col": 1,
+  "y": 77.2
+ },
+ {
+  "kind": "p",
+  "text": "d. Pay Costs",
+  "page": 24,
+  "col": 1,
+  "y": 89.4
+ },
+ {
+  "kind": "p",
+  "text": "2. Attack Dice",
+  "page": 24,
+  "col": 1,
+  "y": 101.4
+ },
+ {
+  "kind": "p",
+  "text": "a. Roll Attack Dice",
+  "page": 24,
+  "col": 1,
+  "y": 113.9
+ },
+ {
+  "kind": "p",
+  "text": "b. Defender Modiﬁes Attack Dice",
+  "page": 24,
+  "col": 1,
+  "y": 126.1
+ },
+ {
+  "kind": "p",
+  "text": "c. Attacker Modiﬁes Attack Dice",
+  "page": 24,
+  "col": 1,
+  "y": 138.3
+ },
+ {
+  "kind": "p",
+  "text": "3. Defense Dice",
+  "page": 24,
+  "col": 1,
+  "y": 150.2
+ },
+ {
+  "kind": "p",
+  "text": "a. Roll Defense Dice",
+  "page": 24,
+  "col": 1,
+  "y": 162.7
+ },
+ {
+  "kind": "p",
+  "text": "b. Attacker Modiﬁes Defense Dice",
+  "page": 24,
+  "col": 1,
+  "y": 174.9
+ },
+ {
+  "kind": "p",
+  "text": "c. Defender Modiﬁes Defense Dice",
+  "page": 24,
+  "col": 1,
+  "y": 187.1
+ },
+ {
+  "kind": "p",
+  "text": "4. Neutralize Results",
+  "page": 24,
+  "col": 1,
+  "y": 199.1
+ },
+ {
+  "kind": "p",
+  "text": "a. {evade} Results Cancel {hit} Results",
+  "page": 24,
+  "col": 1,
+  "y": 211.6
+ },
+ {
+  "kind": "p",
+  "text": "b. {evade} Results Cancel {crit} Results",
+  "page": 24,
+  "col": 1,
+  "y": 223.8
+ },
+ {
+  "kind": "p",
+  "text": "c. Determine Whether Attack Hits",
+  "page": 24,
+  "col": 1,
+  "y": 236.0
+ },
+ {
+  "kind": "p",
+  "text": "5. Deal Damage",
+  "page": 24,
+  "col": 1,
+  "y": 248.0
+ },
+ {
+  "kind": "p",
+  "text": "a. Defender Suffers {hit} Damage",
+  "page": 24,
+  "col": 1,
+  "y": 260.4
+ },
+ {
+  "kind": "p",
+  "text": "b. Defender Suffers {crit} Damage",
+  "page": 24,
+  "col": 1,
+  "y": 272.6
+ },
+ {
+  "kind": "p",
+  "text": "6. Aftermath",
+  "page": 24,
+  "col": 1,
+  "y": 284.6
+ },
+ {
+  "kind": "p",
+  "text": "a. Resolve “After Defending” Abilities",
+  "page": 24,
+  "col": 1,
+  "y": 297.1
+ },
+ {
+  "kind": "p",
+  "text": "b. Resolve “After Attacking” Abilities",
+  "page": 24,
+  "col": 1,
+  "y": 309.3
+ },
+ {
+  "kind": "p",
+  "text": "c. Possibly Perform Bonus Attack",
+  "page": 24,
+  "col": 1,
+  "y": 321.5
+ },
+ {
+  "kind": "h2",
+  "text": "LIST OF TOKENS",
+  "page": 24,
+  "col": 1,
+  "y": 339.0
  },
  {
   "kind": "h2",
   "text": "LIST OF MARKERS",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "\u0007 Jam: A ship at range 1 gains 1 jam token.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "\u0005 Reinforce: Gain 1 fore or aft reinforce token.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "Reload: Recover 1 > on a , \u000e, 1 or \u0014 upgrade.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "+ Rotate: Rotate your turret arc indicator.",
-  "page": 24
- },
- {
-  "kind": "p",
-  "text": "\b SLAM: Execute a maneuver with the same speed.",
-  "page": 24
+  "page": 24,
+  "col": 1,
+  "y": 518.9
  }
 ]
