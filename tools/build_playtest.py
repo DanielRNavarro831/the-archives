@@ -143,7 +143,11 @@ def build(pw):
     (OUT / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
 
     # nothing from the playtest file may appear unencrypted anywhere in the build
+    # (a playtest card's name may already be public, e.g. a new Anakin Skywalker card; only flag names that aren't)
+    public = (SITE / "data" / "archives.js").read_text(encoding="utf-8")
     secrets = [x[k] for x in pt["cards"] + pt["rulings"] for k in ("name", "q", "text") if isinstance(x.get(k), str) and len(x[k]) > 6]
+    secrets += [a for x in pt["rulings"] for a in x.get("a", []) if len(a) > 20]
+    secrets = [t for t in secrets if t not in public]
     for f in OUT.rglob("*"):
         if f.is_file() and f.suffix in (".html", ".js", ".txt", ".css", ".json"):
             t = f.read_text(encoding="utf-8", errors="ignore")
